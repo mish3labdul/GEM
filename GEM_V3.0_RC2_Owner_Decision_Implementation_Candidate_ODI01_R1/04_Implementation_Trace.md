@@ -102,4 +102,12 @@ One entry per implemented decision (D1, D4, D5, D6, D7, D8, AC20). **D3 is not i
 - **Source evidence:** raw OOXML recount (228 explicit bold runs: A 2, B 121, C 105; all Inter); font binary scan (no 500 file); full-artifact weight search (135 hits, all classified).
 - **Affected files:** candidate Part A, B, C decks (slide XML only) and their PDFs; token JSON/CSS descriptions; `07_*`, `18_qa_evidence/*` (inventory, before/after, visual QA, diff register, search).
 - **After state:** brand-font bold flags 228 → 0; Part A s35, Part B s10/s12/s22 and Part C s15 corrected; four 500-weight tokens state FUTURE DESIGN INTENT = 500 / CURRENT IMPLEMENTATION = 400; values and statuses unchanged.
-- **Open dependencies:** VAL-05, Y03, VAL-19, VAL-07 (accepted font files, licences); native PowerPoint check; owner decision on weakened run-in-head emphasis.
+- **Open dependencies:** VAL-05, Y03, VAL-19, VAL-07 (accepted font files, licences); native PowerPoint check. (The run-in-head emphasis question was decided at review closure: see R1-3.)
+
+### R1-3 · Review closure: Part B inline emphasis, temporary 400 treatment
+- **Owner instruction:** PART B INLINE EMPHASIS — TEMPORARY 400 TREATMENT ACCEPTED. Part B slides 3, 11, 13, 18, 19, 21, 24, 30 and 33 stay as rendered at Inter 400; do not compensate; keep VAL-05 and VAL-19 open as applicable; record that intended emphasis may be restored only when an accepted corresponding 500-weight font file is introduced through the governed font-validation process.
+- **Source evidence:** ODI01-R1 visual QA (`18_qa_evidence/affected_slide_visual_qa.md`), which flagged 21 runs on these nine slides.
+- **Affected files:** documentation only: `01`, `03`, `04`, `07`, `14`, `15`, `12` (wording), `18_qa_evidence/affected_slide_visual_qa.md`, `07_Font_Bold_Flag_Before_After.csv` (note text), `18_qa_evidence/main_ref_movement_investigation.md` (new), manifest and checksums.
+- **Implementation:** none on the decks. No slide, PDF or token file was changed; no workaround was introduced.
+- **After state:** limitation recorded as accepted and temporary. Restoration requires an accepted 500-weight font file through the governed font-validation process.
+- **Open dependencies:** VAL-05, VAL-19, Y03, VAL-07; native PowerPoint rendering and accessibility QA; this decision leaves all of these gates open.

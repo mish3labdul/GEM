@@ -26,7 +26,7 @@ Role holders are not named in the Register (12 of 12 TBD); roles are the Registe
 | 20 | D3B X12 STREAM token | Brand Owner | REQUIRES OWNER | Choice of token / permitted list | Options documented; none chosen |
 | 21 | Acceptance of ODI01-R1 candidates (decks, tokens, prose) into authoritative sources | Brand Owner | REQUIRES OWNER | Review, then an authorized change | Candidates only; nothing promoted |
 | 22 | Native rendering of the R1 candidate decks (PowerPoint) | Presentation / Document QA | PENDING (native QA) | Native open/render check (LibreOffice 26.8 render only in R1) | NOT TESTED natively |
-| 23 | Bold-flag runs vs D5 no-faux-bold | Design Custodian | RESOLVED IN R1 (candidate) · native check PENDING | Native PowerPoint check of the R1 decks; owner decision on weakened run-in-head emphasis (9 slides) | 228 → 0 brand-font bold flags in the candidate decks; not natively tested |
+| 23 | Bold-flag runs vs D5 no-faux-bold | Design Custodian | RESOLVED IN R1 (candidate) · native check PENDING | Native PowerPoint check of the R1 decks. Part B inline-emphasis degradation on 9 slides: **owner-accepted as a temporary 400 treatment** (no workaround; restoration needs an accepted 500 file) | 228 → 0 brand-font bold flags in the candidate decks; not natively tested; font gates not closed by the acceptance |
 
 Not a gate any more: "R04 package unavailable".
 
@@ -35,3 +35,10 @@ Validation-ID note: **VAL-18 is intentionally unallocated**.
 No validation gate has that number, so it has no owner, evidence or closure of its own. VAL-07, VAL-08 and VAL-15 stay open; AC20 stays OPEN.
 
 Carried gates in plain words: Legal/IP (D7) — repository visibility NO CHANGE, decision pending; D3 — unresolved; supplier evidence — open; native QA (PowerPoint, Windows Word, Word Online, Acrobat, AT) — open.
+
+## Review-closure decision (ODI01-R1)
+**PART B INLINE EMPHASIS — TEMPORARY 400 TREATMENT ACCEPTED.** Owner decision recorded after ODI01-R1 review. Part B slides 3, 11, 13, 18, 19, 21, 24, 30 and 33 read slightly weaker at 400 after the synthetic bold was removed, because bold run-in heads and emphasised passages now render at Inter 400. This is **accepted as-is** for the current 400-only implementation.
+- **No visual workaround is authorized.** Not permitted as compensation: synthetic bold, underline, new colours, new font families, Jost substitution, tracking on running text, arbitrary size changes, new rules or shapes, new typographic tokens. The current Inter 400 treatment remains; the nine slides are not edited again.
+- **Current implementation remains 400.**
+- Intended emphasis may be restored only when an accepted corresponding 500-weight font file is introduced through the governed font-validation process.
+- This is a temporary implementation limitation, not a redesign request. It does **not** close the font gates (VAL-05, VAL-19 stay open as applicable), Y03, VAL-07, or native PowerPoint / accessibility QA.

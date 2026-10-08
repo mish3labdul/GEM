@@ -19,12 +19,19 @@ Do not push, merge, publish or open a PR. Do not change repository visibility or
 ## Authority order used
 1 Register · 2 Part A · 3 Part B · 4 Part C · 5 Part D · 6 asset kit · 7 validated application packages · 8 QA/evidence registers · 9 AFC01/AFC02 (history only). The domain-owning document wins unless the Register overrides it. The External Partners Brief was not used.
 
+## Owner decision recorded at review closure (ODI01-R1)
+**PART B INLINE EMPHASIS — TEMPORARY 400 TREATMENT ACCEPTED.** Owner decision recorded after ODI01-R1 review. Part B slides 3, 11, 13, 18, 19, 21, 24, 30 and 33 read slightly weaker at 400 after the synthetic bold was removed, because bold run-in heads and emphasised passages now render at Inter 400. This is **accepted as-is** for the current 400-only implementation.
+- **No visual workaround is authorized.** Not permitted as compensation: synthetic bold, underline, new colours, new font families, Jost substitution, tracking on running text, arbitrary size changes, new rules or shapes, new typographic tokens. The current Inter 400 treatment remains; the nine slides are not edited again.
+- **Current implementation remains 400.**
+- Intended emphasis may be restored only when an accepted corresponding 500-weight font file is introduced through the governed font-validation process.
+- This is a temporary implementation limitation, not a redesign request. It does **not** close the font gates (VAL-05, VAL-19 stay open as applicable), Y03, VAL-07, or native PowerPoint / accessibility QA.
+
 ## R1 effect on each decision
 | ID | R1 effect |
 |---|---|
 | D1 | None. Register workbook untouched; 466 rows not rewritten. Adoption record carried unchanged. Evidence-required rows, deferred items, role-holder assignment, AC20 and the supplier/native/legal gates stay open. |
 | D4 | Carried unchanged: 26 downward normalizations, 153/153 values identical, 0 promotions (re-verified in `06`). |
-| **D5** | **Completed in R1** (`07`): 400 only; no faux bold; 500 = FUTURE DESIGN INTENT, PENDING ACCEPTED FONT FILE. |
+| **D5** | **Completed in R1** (`07`): 400 only; no faux bold; 500 = FUTURE DESIGN INTENT, PENDING ACCEPTED FONT FILE. Closure: Part B inline-emphasis degradation on nine slides accepted as a temporary 400 treatment; no workaround authorized. |
 | D6 | Carried unchanged; Part D deck not edited in R1 (`08`). |
 | D7 | NO CHANGE — LEGAL/IP DECISION PENDING. No GitHub setting touched; no external party contacted. |
 | D8 | Carried unchanged (`10`). VAL-07, VAL-08, VAL-15 open. |

@@ -1,0 +1,38 @@
+# extra read-only checks (collected 2026-10-09 ~01:49 +0300)
+## primary .git/logs/HEAD (last 3 lines)
+ee611b453d4ced6375f05e82acb06894475cdf3f 3f887328e6bfec590313bd6cb80faad7fadcfba7 mashaelalh <51502047+mashaelalh@users.noreply.github.com> 1791418602 +0300	commit: feat: add GEM letterhead set v1.1 Application Revision 03
+3f887328e6bfec590313bd6cb80faad7fadcfba7 3f887328e6bfec590313bd6cb80faad7fadcfba7 mashaelalh <51502047+mashaelalh@users.noreply.github.com> 1791492641 +0300	reset: moving to HEAD
+3f887328e6bfec590313bd6cb80faad7fadcfba7 334744c72dbbb6681034996fcca595213a7623a2 mashaelalh <51502047+mashaelalh@users.noreply.github.com> 1791492671 +0300	checkout: moving from claude/gem-letterhead-v1.1-rev03 to main
+## timestamps
+2026-10-09 01:09:57 +0300  .git/worktrees/gem-worktree-safety-30b559/HEAD
+2026-10-09 01:10:05 +0300  .git/refs/heads/main
+2026-10-08 23:32:12 +0300  .git/refs/remotes/origin/main
+2026-10-09 01:10:04 +0300  .git/refs/remotes/origin/claude/pensive-mayer-s1xbmb
+2026-10-08 00:30:55 +0300  .git/FETCH_HEAD
+2026-10-08 23:50:41 +0300  .git/ORIG_HEAD
+2026-10-08 23:51:11 +0300  .git/HEAD
+2026-10-09 01:17:08 +0300  .git/index
+## primary working-tree files added/changed by 3ba158e (birth, modify)
+birth=2026-10-09 01:10:05 modify=2026-10-09 01:10:05  GEM_Letterhead_Set_v1.1_Application_Revision_03/00_source/fonts/jost/Jost-Regular.ttf
+birth=2026-10-09 01:10:05 modify=2026-10-09 01:10:05  GEM_Letterhead_Set_v1.1_Application_Revision_03
+birth=2026-10-09 01:10:05 modify=2026-10-09 01:10:05  README.md
+## files differing 334744c..4ea0d11 by top-level path
+ 143 GEM_Letterhead_Set_v1.1_Application_Revision_03
+   1 README.md
+## primary: tracked files vs HEAD
+no tracked difference (== 4ea0d11)
+## primary: untracked entries
+? .DS_Store
+? GEM_Brand_Assets_v1.0/.DS_Store
+? GEM_Letterhead_Set_v1.0/
+? PartB_RC2/.DS_Store
+## 4ea0d11 commit
+4ea0d117da03850854654288afcdde98f39994d5 author=2026-10-08 03:26:45 +0300 committer=2026-10-08 03:26:45 +0300 GitHub
+## remote-tracking reflogs
+HEAD
+(origin/main and origin/claude/pensive-mayer-s1xbmb have no reflog file)
+## git identity (~/.gitconfig)
+mashaelalh
+51502047+mashaelalh@users.noreply.github.com
+## hooks
+(no non-sample hooks)

@@ -14,7 +14,7 @@
 
 ## Review checklist
 - [ ] `05` validation-ID rule and `validation_id_checker_tests.json`
-- [ ] `07` 400-only implementation; `07_Font_Bold_Flag_Before_After.csv`; the 9 slides with weakened run-in-head emphasis
+- [ ] `07` 400-only implementation; `07_Font_Bold_Flag_Before_After.csv`; the 9 Part B slides with weaker run-in-head emphasis (owner-accepted as a temporary 400 treatment; no workaround)
 - [ ] `18_qa_evidence/affected_slide_visual_qa.md` (LibreOffice evidence only)
 - [ ] Tokens: 153/153 values; 26 downward statuses; 0 promotions
 - [ ] Nothing promoted; AC20 still OPEN; D3 unresolved; D7 no change

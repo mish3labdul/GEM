@@ -105,13 +105,13 @@
   "n": 18,
   "name": "Checksum integrity",
   "result": "PASS",
-  "evidence": "152 files listed in SHA256SUMS.txt verify, 0 mismatches, unlisted files on disk (excluding the sums file itself)=[], problems=[]; SHA256SUMS.txt does not list itself"
+  "evidence": "163 files listed in SHA256SUMS.txt verify, 0 mismatches, unlisted files on disk (excluding the sums file itself)=[], problems=[]; SHA256SUMS.txt does not list itself"
  },
  {
   "n": 19,
   "name": "Manifest integrity",
   "result": "PASS",
-  "evidence": "MANIFEST.json lists 151 files (all present, bytes and SHA-256 match, neither manifest file lists itself); candidate baseline commit 4ea0d117da03 recorded and an ancestor of HEAD; branch claude/gem-worktree-safety-30b559; 18 original file hashes recorded and equal to the baseline blobs; ODI01 external input hashes unchanged; problems=[]"
+  "evidence": "MANIFEST.json lists 162 files (all present, bytes and SHA-256 match, neither manifest file lists itself); candidate baseline commit 4ea0d117da03 recorded and an ancestor of HEAD; branch claude/gem-worktree-safety-30b559; 18 original file hashes recorded and equal to the baseline blobs; ODI01 external input hashes unchanged; problems=[]"
  },
  {
   "n": 20,
