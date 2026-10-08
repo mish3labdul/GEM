@@ -1,0 +1,62 @@
+{
+ "QA_Arabic_2_pages__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 8
+ },
+ "QA_Arabic_3_pages__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 3
+ },
+ "QA_Arabic_automatic_flow__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 4
+ },
+ "QA_Arabic_long_fields__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 6
+ },
+ "QA_Bilingual_2_pages__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 3
+ },
+ "QA_Bilingual_3_pages__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 3
+ },
+ "QA_Bilingual_automatic_flow__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 3
+ },
+ "QA_Bilingual_long_fields__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 4
+ },
+ "QA_English_2_pages__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 3
+ },
+ "QA_English_3_pages__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 3
+ },
+ "QA_English_automatic_flow__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 6
+ },
+ "QA_English_long_fields__open": {
+  "rc": 0,
+  "err": "",
+  "seconds": 4
+ }
+}

@@ -1,0 +1,516 @@
+{
+ "scope": "Revision 03 checks run 2026-10-08 on macOS: python/pypdf/pdfplumber, poppler pdftotext, native PDFKit (Preview engine), LibreOffice export path of Revision 02. Not covered: assistive technology, Windows/Online Word, physical print.",
+ "docx": {
+  "01_templates/GEM_Letterhead_Arabic_Continuation.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/settings.xml"
+   ]
+  },
+  "01_templates/GEM_Letterhead_Arabic_First_Page.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "01_templates/GEM_Letterhead_Bilingual_Continuation.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/settings.xml"
+   ]
+  },
+  "01_templates/GEM_Letterhead_Bilingual_First_Page.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "01_templates/GEM_Letterhead_English_Continuation.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/footer1.xml",
+    "word/settings.xml"
+   ]
+  },
+  "01_templates/GEM_Letterhead_English_First_Page.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "01_templates/GEM_Letterhead_Executive.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "01_templates/GEM_Letterhead_Minimal.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_Arabic_2_pages.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_Arabic_3_pages.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_Arabic_automatic_flow.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_Arabic_long_fields.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_Bilingual_2_pages.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_Bilingual_3_pages.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_Bilingual_automatic_flow.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_Bilingual_long_fields.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 2,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_English_2_pages.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_English_3_pages.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_English_automatic_flow.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  },
+  "04_qa/fixtures/QA_English_long_fields.docx": {
+   "embedSystemFonts_absent": true,
+   "saveSubsetFonts_present": true,
+   "lrm_bounded_ltr_runs": 0,
+   "logo_media_in_official_kit": true,
+   "embedded_regular_payloads_identical_to_rev02": true,
+   "package_parts_changed_vs_rev02": [
+    "docProps/core.xml",
+    "word/footer1.xml",
+    "word/footer2.xml",
+    "word/settings.xml"
+   ]
+  }
+ },
+ "extraction_engines": {
+  "Arabic_First_Page": {
+   "pypdf": {
+    "Rev02": "4/14 logical lines exact",
+    "Rev03": "4/14 logical lines exact"
+   },
+   "poppler_pdftotext": {
+    "Rev02": "9/14 logical lines exact",
+    "Rev03": "9/14 logical lines exact"
+   },
+   "macOS_PDFKit": {
+    "Rev02": "12/14 logical lines exact",
+    "Rev03": "12/14 logical lines exact"
+   },
+   "pdfplumber": {
+    "Rev02": "1/14 logical lines exact",
+    "Rev03": "1/14 logical lines exact"
+   }
+  },
+  "Arabic_Continuation": {
+   "pypdf": {
+    "Rev02": "2/8 logical lines exact",
+    "Rev03": "2/8 logical lines exact"
+   },
+   "poppler_pdftotext": {
+    "Rev02": "5/8 logical lines exact",
+    "Rev03": "5/8 logical lines exact"
+   },
+   "macOS_PDFKit": {
+    "Rev02": "8/8 logical lines exact",
+    "Rev03": "8/8 logical lines exact"
+   },
+   "pdfplumber": {
+    "Rev02": "1/8 logical lines exact",
+    "Rev03": "1/8 logical lines exact"
+   }
+  },
+  "Bilingual_First_Page": {
+   "pypdf": {
+    "Rev02": "12/21 logical lines exact",
+    "Rev03": "12/21 logical lines exact"
+   },
+   "poppler_pdftotext": {
+    "Rev02": "12/21 logical lines exact",
+    "Rev03": "12/21 logical lines exact"
+   },
+   "macOS_PDFKit": {
+    "Rev02": "19/21 logical lines exact",
+    "Rev03": "19/21 logical lines exact"
+   },
+   "pdfplumber": {
+    "Rev02": "9/21 logical lines exact",
+    "Rev03": "9/21 logical lines exact"
+   }
+  },
+  "Bilingual_Continuation": {
+   "pypdf": {
+    "Rev02": "5/10 logical lines exact",
+    "Rev03": "5/10 logical lines exact"
+   },
+   "poppler_pdftotext": {
+    "Rev02": "5/10 logical lines exact",
+    "Rev03": "5/10 logical lines exact"
+   },
+   "macOS_PDFKit": {
+    "Rev02": "10/10 logical lines exact",
+    "Rev03": "10/10 logical lines exact"
+   },
+   "pdfplumber": {
+    "Rev02": "4/10 logical lines exact",
+    "Rev03": "4/10 logical lines exact"
+   }
+  }
+ },
+ "pdfkit_search_arabic_first_page": {
+  "Rev02": [
+   "SEARCH[[DATE]] hits=0",
+   "SEARCH[[REFERENCE NUMBER]] hits=0",
+   "SEARCH[التاريخ] hits=1",
+   "SEARCH[يرجى تزويدنا] hits=1"
+  ],
+  "Rev03": [
+   "SEARCH[[DATE]] hits=1",
+   "SEARCH[[REFERENCE NUMBER]] hits=1",
+   "SEARCH[التاريخ] hits=1",
+   "SEARCH[يرجى تزويدنا] hits=1"
+  ]
+ },
+ "pdf": {
+  "GEM_Letterhead_Arabic_Continuation.pdf": {
+   "pages": 1,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    90.0,
+    524.6
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 0.85
+  },
+  "GEM_Letterhead_Arabic_First_Page.pdf": {
+   "pages": 1,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    90.0,
+    524.6
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.16
+  },
+  "GEM_Letterhead_Bilingual_Continuation.pdf": {
+   "pages": 1,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    71.0,
+    524.6
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.09
+  },
+  "GEM_Letterhead_Bilingual_First_Page.pdf": {
+   "pages": 1,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    71.0,
+    524.6
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.73
+  },
+  "GEM_Letterhead_Digital.pdf": {
+   "pages": 8,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    71.0,
+    524.6
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.65
+  },
+  "GEM_Letterhead_English_Continuation.pdf": {
+   "pages": 1,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    71.0,
+    424.9
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.14
+  },
+  "GEM_Letterhead_English_First_Page.pdf": {
+   "pages": 1,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    71.0,
+    424.9
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.65
+  },
+  "GEM_Letterhead_Executive.pdf": {
+   "pages": 1,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    71.0,
+    435.8
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.65
+  },
+  "GEM_Letterhead_Minimal.pdf": {
+   "pages": 1,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    71.0,
+    424.9
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.55
+  },
+  "GEM_Letterhead_Print.pdf": {
+   "pages": 8,
+   "a4": true,
+   "link_annotations": 0,
+   "text_x_range_pt": [
+    71.0,
+    524.6
+   ],
+   "text_within_25mm_side_margins_1pt_glyph_tolerance": true,
+   "page1_ink_coverage_percent_grayscale": 1.65
+  }
+ },
+ "visual_parity_vs_rev02": {
+  "GEM_Letterhead_Arabic_Continuation.pdf": {
+   "max_delta": 233,
+   "pixels_delta_gt40": 4062,
+   "note": "differences confined to intended corrections: footer page digits now 9 pt (R03-08, all files); Arabic/bilingual sub-pixel shifts beside invisible U+200E marks (R03-02) and continuation placeholder punctuation (R03-07); reviewed visually"
+  },
+  "GEM_Letterhead_Arabic_First_Page.pdf": {
+   "max_delta": 233,
+   "pixels_delta_gt40": 2457,
+   "note": "differences confined to intended corrections: footer page digits now 9 pt (R03-08, all files); Arabic/bilingual sub-pixel shifts beside invisible U+200E marks (R03-02) and continuation placeholder punctuation (R03-07); reviewed visually"
+  },
+  "GEM_Letterhead_Bilingual_Continuation.pdf": {
+   "max_delta": 233,
+   "pixels_delta_gt40": 4062,
+   "note": "differences confined to intended corrections: footer page digits now 9 pt (R03-08, all files); Arabic/bilingual sub-pixel shifts beside invisible U+200E marks (R03-02) and continuation placeholder punctuation (R03-07); reviewed visually"
+  },
+  "GEM_Letterhead_Bilingual_First_Page.pdf": {
+   "max_delta": 233,
+   "pixels_delta_gt40": 2457,
+   "note": "differences confined to intended corrections: footer page digits now 9 pt (R03-08, all files); Arabic/bilingual sub-pixel shifts beside invisible U+200E marks (R03-02) and continuation placeholder punctuation (R03-07); reviewed visually"
+  },
+  "GEM_Letterhead_English_Continuation.pdf": {
+   "max_delta": 230,
+   "pixels_delta_gt40": 414,
+   "note": "differences confined to intended corrections: footer page digits now 9 pt (R03-08, all files); Arabic/bilingual sub-pixel shifts beside invisible U+200E marks (R03-02) and continuation placeholder punctuation (R03-07); reviewed visually"
+  },
+  "GEM_Letterhead_English_First_Page.pdf": {
+   "max_delta": 230,
+   "pixels_delta_gt40": 414,
+   "note": "differences confined to intended corrections: footer page digits now 9 pt (R03-08, all files); Arabic/bilingual sub-pixel shifts beside invisible U+200E marks (R03-02) and continuation placeholder punctuation (R03-07); reviewed visually"
+  },
+  "GEM_Letterhead_Executive.pdf": {
+   "max_delta": 230,
+   "pixels_delta_gt40": 414,
+   "note": "differences confined to intended corrections: footer page digits now 9 pt (R03-08, all files); Arabic/bilingual sub-pixel shifts beside invisible U+200E marks (R03-02) and continuation placeholder punctuation (R03-07); reviewed visually"
+  },
+  "GEM_Letterhead_Minimal.pdf": {
+   "max_delta": 230,
+   "pixels_delta_gt40": 414,
+   "note": "differences confined to intended corrections: footer page digits now 9 pt (R03-08, all files); Arabic/bilingual sub-pixel shifts beside invisible U+200E marks (R03-02) and continuation placeholder punctuation (R03-07); reviewed visually"
+  }
+ }
+}

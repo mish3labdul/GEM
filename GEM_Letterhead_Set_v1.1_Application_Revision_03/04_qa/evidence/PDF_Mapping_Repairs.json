@@ -1,0 +1,220 @@
+[
+  {
+    "file": "02_pdf/GEM_Letterhead_English_First_Page.pdf",
+    "mapping_repairs": []
+  },
+  {
+    "file": "02_pdf/GEM_Letterhead_Arabic_Continuation.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F3",
+        "code": "32",
+        "unicode": "U+064B",
+        "evidence": "Exporter ActualText اً"
+      },
+      {
+        "page": 1,
+        "font": "F3",
+        "code": "45",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "02_pdf/GEM_Letterhead_English_Continuation.pdf",
+    "mapping_repairs": []
+  },
+  {
+    "file": "02_pdf/GEM_Letterhead_Executive.pdf",
+    "mapping_repairs": []
+  },
+  {
+    "file": "02_pdf/GEM_Letterhead_Arabic_First_Page.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "37",
+        "unicode": "U+064B",
+        "evidence": "Exporter ActualText اً"
+      },
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "49",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "02_pdf/GEM_Letterhead_Bilingual_First_Page.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "3B",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "02_pdf/GEM_Letterhead_Minimal.pdf",
+    "mapping_repairs": []
+  },
+  {
+    "file": "02_pdf/GEM_Letterhead_Bilingual_Continuation.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F3",
+        "code": "35",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_Bilingual_automatic_flow.pdf",
+    "mapping_repairs": [
+      {
+        "page": 3,
+        "font": "F4",
+        "code": "3B",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_Arabic_2_pages.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "37",
+        "unicode": "U+064B",
+        "evidence": "Exporter ActualText اً"
+      },
+      {
+        "page": 2,
+        "font": "F4",
+        "code": "4A",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_Bilingual_2_pages.pdf",
+    "mapping_repairs": [
+      {
+        "page": 2,
+        "font": "F4",
+        "code": "3D",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_Bilingual_long_fields.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "42",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_English_3_pages.pdf",
+    "mapping_repairs": []
+  },
+  {
+    "file": "04_qa/evidence/QA_Arabic_automatic_flow.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "37",
+        "unicode": "U+064B",
+        "evidence": "Exporter ActualText اً"
+      },
+      {
+        "page": 3,
+        "font": "F4",
+        "code": "49",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_English_automatic_flow.pdf",
+    "mapping_repairs": []
+  },
+  {
+    "file": "04_qa/evidence/QA_English_long_fields.pdf",
+    "mapping_repairs": []
+  },
+  {
+    "file": "04_qa/evidence/QA_Arabic_3_pages.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "37",
+        "unicode": "U+064B",
+        "evidence": "Exporter ActualText اً"
+      },
+      {
+        "page": 3,
+        "font": "F4",
+        "code": "4A",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_Bilingual_3_pages.pdf",
+    "mapping_repairs": [
+      {
+        "page": 3,
+        "font": "F4",
+        "code": "3D",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_Arabic_long_fields.pdf",
+    "mapping_repairs": [
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "3F",
+        "unicode": "U+064B",
+        "evidence": "Exporter ActualText اً"
+      },
+      {
+        "page": 1,
+        "font": "F4",
+        "code": "4D",
+        "unicode": "U+0651",
+        "evidence": "Exporter ActualText قّ"
+      }
+    ]
+  },
+  {
+    "file": "04_qa/evidence/QA_English_2_pages.pdf",
+    "mapping_repairs": []
+  }
+]

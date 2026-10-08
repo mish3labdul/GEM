@@ -1,0 +1,82 @@
+[
+  {
+    "file": "GEM_Letterhead_Arabic_Continuation.docx",
+    "baseline": "07_final_audit/corrected_docx/GEM_Letterhead_Arabic_Continuation.docx",
+    "preserved_release_edits": [
+      "Separate metadata lines",
+      "Executive optional second signatory retained from corrected candidate",
+      "Bilingual separate recipient organization and transliteration guidance where applicable"
+    ],
+    "discarded": "Unintended export icons, invalid font embedding, split RTL brackets and typographic drift; original files preserved"
+  },
+  {
+    "file": "GEM_Letterhead_Arabic_First_Page.docx",
+    "baseline": "07_final_audit/corrected_docx/GEM_Letterhead_Arabic_First_Page.docx",
+    "preserved_release_edits": [
+      "Separate metadata lines",
+      "Executive optional second signatory retained from corrected candidate",
+      "Bilingual separate recipient organization and transliteration guidance where applicable"
+    ],
+    "discarded": "Unintended export icons, invalid font embedding, split RTL brackets and typographic drift; original files preserved"
+  },
+  {
+    "file": "GEM_Letterhead_Bilingual_Continuation.docx",
+    "baseline": "07_final_audit/corrected_docx/GEM_Letterhead_Bilingual_Continuation.docx",
+    "preserved_release_edits": [
+      "Separate metadata lines",
+      "Executive optional second signatory retained from corrected candidate",
+      "Bilingual separate recipient organization and transliteration guidance where applicable"
+    ],
+    "discarded": "Unintended export icons, invalid font embedding, split RTL brackets and typographic drift; original files preserved"
+  },
+  {
+    "file": "GEM_Letterhead_Bilingual_First_Page.docx",
+    "baseline": "07_final_audit/corrected_docx/GEM_Letterhead_Bilingual_First_Page.docx",
+    "preserved_release_edits": [
+      "Separate metadata lines",
+      "Executive optional second signatory retained from corrected candidate",
+      "Bilingual separate recipient organization and transliteration guidance where applicable"
+    ],
+    "discarded": "Unintended export icons, invalid font embedding, split RTL brackets and typographic drift; original files preserved"
+  },
+  {
+    "file": "GEM_Letterhead_English_Continuation.docx",
+    "baseline": "07_final_audit/corrected_docx/GEM_Letterhead_English_Continuation.docx",
+    "preserved_release_edits": [
+      "Separate metadata lines",
+      "Executive optional second signatory retained from corrected candidate",
+      "Bilingual separate recipient organization and transliteration guidance where applicable"
+    ],
+    "discarded": "Unintended export icons, invalid font embedding, split RTL brackets and typographic drift; original files preserved"
+  },
+  {
+    "file": "GEM_Letterhead_English_First_Page.docx",
+    "baseline": "07_final_audit/corrected_docx/GEM_Letterhead_English_First_Page.docx",
+    "preserved_release_edits": [
+      "Separate metadata lines",
+      "Executive optional second signatory retained from corrected candidate",
+      "Bilingual separate recipient organization and transliteration guidance where applicable"
+    ],
+    "discarded": "Unintended export icons, invalid font embedding, split RTL brackets and typographic drift; original files preserved"
+  },
+  {
+    "file": "GEM_Letterhead_Executive.docx",
+    "baseline": "07_final_audit/corrected_docx/GEM_Letterhead_Executive.docx",
+    "preserved_release_edits": [
+      "Separate metadata lines",
+      "Executive optional second signatory retained from corrected candidate",
+      "Bilingual separate recipient organization and transliteration guidance where applicable"
+    ],
+    "discarded": "Unintended export icons, invalid font embedding, split RTL brackets and typographic drift; original files preserved"
+  },
+  {
+    "file": "GEM_Letterhead_Minimal.docx",
+    "baseline": "07_final_audit/corrected_docx/GEM_Letterhead_Minimal.docx",
+    "preserved_release_edits": [
+      "Separate metadata lines",
+      "Executive optional second signatory retained from corrected candidate",
+      "Bilingual separate recipient organization and transliteration guidance where applicable"
+    ],
+    "discarded": "Unintended export icons, invalid font embedding, split RTL brackets and typographic drift; original files preserved"
+  }
+]

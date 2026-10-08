@@ -1,0 +1,128 @@
+[
+  {
+    "file": "01_templates/GEM_Letterhead_English_First_Page.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/GEM_Letterhead_English_First_Page\n"
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Arabic_Continuation.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/GEM_Letterhead_Arabic_Continuation\n"
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_English_Continuation.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/GEM_Letterhead_English_Continuation\n"
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Executive.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/GEM_Letterhead_Executive\n"
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Arabic_First_Page.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/GEM_Letterhead_Arabic_First_Page\n"
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Bilingual_First_Page.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/GEM_Letterhead_Bilingual_First_Page\n"
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Minimal.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/GEM_Letterhead_Minimal\n"
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Bilingual_Continuation.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/GEM_Letterhead_Bilingual_Continuation\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_Bilingual_automatic_flow.docx",
+    "rendered": true,
+    "pages": 3,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_Bilingual_automatic_flow\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_Arabic_2_pages.docx",
+    "rendered": true,
+    "pages": 2,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_Arabic_2_pages\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_Bilingual_2_pages.docx",
+    "rendered": true,
+    "pages": 2,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_Bilingual_2_pages\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_Bilingual_long_fields.docx",
+    "rendered": true,
+    "pages": 2,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_Bilingual_long_fields\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_English_3_pages.docx",
+    "rendered": true,
+    "pages": 3,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_English_3_pages\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_Arabic_automatic_flow.docx",
+    "rendered": true,
+    "pages": 3,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_Arabic_automatic_flow\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_English_automatic_flow.docx",
+    "rendered": true,
+    "pages": 3,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_English_automatic_flow\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_English_long_fields.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_English_long_fields\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_Arabic_3_pages.docx",
+    "rendered": true,
+    "pages": 3,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_Arabic_3_pages\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_Bilingual_3_pages.docx",
+    "rendered": true,
+    "pages": 3,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_Bilingual_3_pages\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_Arabic_long_fields.docx",
+    "rendered": true,
+    "pages": 1,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_Arabic_long_fields\n"
+  },
+  {
+    "file": "04_qa/fixtures/QA_English_2_pages.docx",
+    "rendered": true,
+    "pages": 2,
+    "log": "Pages rendered to /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/letterhead_revision_02/render/QA_English_2_pages\n"
+  },
+  {
+    "file": "03_specs/GEM_Letterhead_Specification.docx",
+    "rendered": true,
+    "pages": 3,
+    "log": "Final checked render: work/letterhead_revision_02/spec_release; Inter and Jost only; no theme-font substitution"
+  }
+]

@@ -1,0 +1,3603 @@
+{
+ "method": "macOS PDFKit (Preview engine) page.string and findString vs DOCX logical lines; PASS-full = whole line in extracted text; PASS-search = mixed-direction line whose every directional segment is found by native search",
+ "summary": {
+  "Rev02": {
+   "counts": {
+    "PASS-full": 391,
+    "FAIL": 16,
+    "PASS-search": 6
+   },
+   "fails": [
+    "GEM_Letterhead_Arabic_First_Page: التاريخ: [DATE]",
+    "GEM_Letterhead_Arabic_First_Page: المرجع: [REFERENCE NUMBER]",
+    "GEM_Letterhead_Bilingual_First_Page: التاريخ: [DATE]",
+    "GEM_Letterhead_Bilingual_First_Page: المرجع: [REFERENCE NUMBER]",
+    "QA_Arabic_2_pages: التاريخ: [DATE]",
+    "QA_Arabic_3_pages: التاريخ: [DATE]",
+    "QA_Arabic_automatic_flow: التاريخ: [DATE]",
+    "QA_Arabic_long_fields: التاريخ: [DATE]",
+    "QA_Arabic_long_fields: المرجع: [REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]",
+    "QA_Arabic_long_fields: QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]",
+    "QA_Bilingual_2_pages: التاريخ: [DATE]",
+    "QA_Bilingual_3_pages: التاريخ: [DATE]",
+    "QA_Bilingual_automatic_flow: التاريخ: [DATE]",
+    "QA_Bilingual_long_fields: التاريخ: [DATE]",
+    "QA_Bilingual_long_fields: المرجع: [REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]",
+    "QA_English_long_fields: QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]"
+   ]
+  },
+  "Rev03": {
+   "counts": {
+    "PASS-full": 391,
+    "PASS-search": 20,
+    "FAIL": 2
+   },
+   "fails": [
+    "QA_Arabic_long_fields: QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]",
+    "QA_English_long_fields: QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]"
+   ]
+  }
+ },
+ "detail": {
+  "Rev02": {
+   "GEM_Letterhead_Arabic_Continuation": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "[نص الصفحة التالية]"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ]
+   ],
+   "GEM_Letterhead_Arabic_First_Page": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "FAIL",
+     "المرجع: [REFERENCE NUMBER]",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 0
+     }
+    ]
+   ],
+   "GEM_Letterhead_Bilingual_Continuation": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "[نص الصفحة التالية]"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME] · [TITLE]"
+    ]
+   ],
+   "GEM_Letterhead_Bilingual_First_Page": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "FAIL",
+     "المرجع: [REFERENCE NUMBER]",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 0
+     }
+    ]
+   ],
+   "GEM_Letterhead_English_Continuation": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "[Continuation text]"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "GEM_Letterhead_English_First_Page": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "GEM_Letterhead_Executive": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Formal correspondence regarding the proposed review"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "We request your review of the accompanying information before a formal response is prepared. Please identify any points that need clarification and the appropriate person to coordinate the review."
+    ],
+    [
+     "PASS-full",
+     "This letter is sample administrative correspondence. It records no decision, obligation, approval or contractual commitment."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ],
+    [
+     "PASS-full",
+     "[SECOND SIGNATORY — OPTIONAL]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "GEM_Letterhead_Minimal": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "QA_Arabic_2_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: [REFERENCE NUMBER]",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 1
+     }
+    ]
+   ],
+   "QA_Arabic_3_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: [REFERENCE NUMBER]",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 2
+     }
+    ]
+   ],
+   "QA_Arabic_automatic_flow": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: [REFERENCE NUMBER]",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 2
+     }
+    ]
+   ],
+   "QA_Arabic_long_fields": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة الطويل لاختبار المراسلات الإدارية ومراجعة المشتريات»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة الطويل لاختبار المراسلات الإدارية ومراجعة المشتريات»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "FAIL",
+     "المرجع: [REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]",
+     {
+      "المرجع": 1,
+      "[REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]": 0
+     }
+    ],
+    [
+     "FAIL",
+     "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]",
+     {
+      "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]": 0
+     }
+    ]
+   ],
+   "QA_Bilingual_2_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: [REFERENCE NUMBER]",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 1
+     }
+    ]
+   ],
+   "QA_Bilingual_3_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: [REFERENCE NUMBER]",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 2
+     }
+    ]
+   ],
+   "QA_Bilingual_automatic_flow": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: [REFERENCE NUMBER]",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 2
+     }
+    ]
+   ],
+   "QA_Bilingual_long_fields": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة الطويل لاختبار المراسلات الإدارية ومراجعة المشتريات»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation and clarification of supporting evidence for procurement review and subsequent internal assessment"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة الطويل لاختبار المراسلات الإدارية ومراجعة المشتريات»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "PASS-full",
+     "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]"
+    ],
+    [
+     "FAIL",
+     "التاريخ: [DATE]",
+     {
+      "التاريخ": 1,
+      "[DATE]": 0
+     }
+    ],
+    [
+     "FAIL",
+     "المرجع: [REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]",
+     {
+      "المرجع": 1,
+      "[REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]": 0
+     }
+    ]
+   ],
+   "QA_English_2_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "QA_English_3_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "QA_English_automatic_flow": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "QA_English_long_fields": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[LONG RECIPIENT ORGANIZATION FOR PROCUREMENT AND ADMINISTRATIVE REVIEW]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation and clarification of supporting evidence for procurement review and subsequent internal assessment"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ],
+    [
+     "FAIL",
+     "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]",
+     {
+      "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]": 0
+     }
+    ]
+   ]
+  },
+  "Rev03": {
+   "GEM_Letterhead_Arabic_Continuation": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "[نص الصفحة التالية]"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ]
+   ],
+   "GEM_Letterhead_Arabic_First_Page": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE NUMBER]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 1
+     }
+    ]
+   ],
+   "GEM_Letterhead_Bilingual_Continuation": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "[نص الصفحة التالية]"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME] · [TITLE]"
+    ]
+   ],
+   "GEM_Letterhead_Bilingual_First_Page": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE NUMBER]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 1
+     }
+    ]
+   ],
+   "GEM_Letterhead_English_Continuation": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "[Continuation text]"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "GEM_Letterhead_English_First_Page": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "GEM_Letterhead_Executive": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Formal correspondence regarding the proposed review"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "We request your review of the accompanying information before a formal response is prepared. Please identify any points that need clarification and the appropriate person to coordinate the review."
+    ],
+    [
+     "PASS-full",
+     "This letter is sample administrative correspondence. It records no decision, obligation, approval or contractual commitment."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ],
+    [
+     "PASS-full",
+     "[SECOND SIGNATORY — OPTIONAL]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "GEM_Letterhead_Minimal": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "QA_Arabic_2_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE NUMBER]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 2
+     }
+    ]
+   ],
+   "QA_Arabic_3_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE NUMBER]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 3
+     }
+    ]
+   ],
+   "QA_Arabic_automatic_flow": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE NUMBER]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 3
+     }
+    ]
+   ],
+   "QA_Arabic_long_fields": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة الطويل لاختبار المراسلات الإدارية ومراجعة المشتريات»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة الطويل لاختبار المراسلات الإدارية ومراجعة المشتريات»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]": 1
+     }
+    ],
+    [
+     "FAIL",
+     "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]",
+     {
+      "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]": 0
+     }
+    ]
+   ],
+   "QA_Bilingual_2_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE NUMBER]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 2
+     }
+    ]
+   ],
+   "QA_Bilingual_3_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "نص تجريبي إضافي لمراجعة الصفحات."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE NUMBER]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 3
+     }
+    ]
+   ],
+   "QA_Bilingual_automatic_flow": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE NUMBER]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE NUMBER]": 3
+     }
+    ]
+   ],
+   "QA_Bilingual_long_fields": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL"
+    ],
+    [
+     "PASS-full",
+     "«اسم المستلم»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الجهة الطويل لاختبار المراسلات الإدارية ومراجعة المشتريات»"
+    ],
+    [
+     "PASS-full",
+     "«العنوان»"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "الموضوع: طلب معلومات ووثائق من المورد"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation and clarification of supporting evidence for procurement review and subsequent internal assessment"
+    ],
+    [
+     "PASS-full",
+     "السادة «اسم الجهة الطويل لاختبار المراسلات الإدارية ومراجعة المشتريات»،"
+    ],
+    [
+     "PASS-full",
+     "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي."
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation."
+    ],
+    [
+     "PASS-full",
+     "وتفضلوا بقبول التحية،"
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "«التوقيع»"
+    ],
+    [
+     "PASS-full",
+     "«اسم الموقّع»"
+    ],
+    [
+     "PASS-full",
+     "«المسمى الوظيفي»"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]"
+    ],
+    [
+     "PASS-full",
+     "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]"
+    ],
+    [
+     "PASS-search",
+     "التاريخ: ‎[DATE]‎",
+     {
+      "التاريخ": 1,
+      "[DATE]": 1
+     }
+    ],
+    [
+     "PASS-search",
+     "المرجع: ‎[REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]‎",
+     {
+      "المرجع": 1,
+      "[REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]": 1
+     }
+    ]
+   ],
+   "QA_English_2_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "QA_English_3_pages": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Additional sample content for pagination review."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "QA_English_automatic_flow": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE NUMBER]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT ORGANIZATION]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ]
+   ],
+   "QA_English_long_fields": [
+    [
+     "PASS-full",
+     "SAMPLE CONTENT"
+    ],
+    [
+     "PASS-full",
+     "Date: [DATE]"
+    ],
+    [
+     "PASS-full",
+     "Reference: [REFERENCE-2026-TEST-0123456789-ABCDEFGHIJ]"
+    ],
+    [
+     "PASS-full",
+     "[RECIPIENT NAME]"
+    ],
+    [
+     "PASS-full",
+     "[LONG RECIPIENT ORGANIZATION FOR PROCUREMENT AND ADMINISTRATIVE REVIEW]"
+    ],
+    [
+     "PASS-full",
+     "[ADDRESS]"
+    ],
+    [
+     "PASS-full",
+     "[CITY] · [COUNTRY] · [POSTAL CODE]"
+    ],
+    [
+     "PASS-full",
+     "Request for supplier information and product documentation and clarification of supporting evidence for procurement review and subsequent internal assessment"
+    ],
+    [
+     "PASS-full",
+     "Dear [RECIPIENT NAME],"
+    ],
+    [
+     "PASS-full",
+     "Please share the available product information and supporting documentation for our internal review. Indicate which details are confirmed and which require further validation."
+    ],
+    [
+     "PASS-full",
+     "We would welcome a concise response identifying the relevant contact and any information needed from us. This sample does not create a commercial commitment or confirm a supplier relationship."
+    ],
+    [
+     "PASS-full",
+     "Yours sincerely,"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATURE]"
+    ],
+    [
+     "PASS-full",
+     "[SIGNATORY NAME]"
+    ],
+    [
+     "PASS-full",
+     "[TITLE]"
+    ],
+    [
+     "FAIL",
+     "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]",
+     {
+      "QA ONLY: [E: user@example.invalid] [W: https://example.invalid] [T: +000 000 0000] [ID: TEST-2026-001]": 0
+     }
+    ]
+   ]
+  }
+ }
+}

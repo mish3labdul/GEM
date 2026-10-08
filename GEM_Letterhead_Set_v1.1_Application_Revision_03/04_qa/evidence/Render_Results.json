@@ -1,0 +1,107 @@
+[
+  {
+    "file": "01_templates/GEM_Letterhead_Arabic_Continuation.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Arabic_First_Page.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Bilingual_Continuation.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Bilingual_First_Page.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_English_Continuation.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_English_First_Page.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Executive.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "01_templates/GEM_Letterhead_Minimal.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "04_qa/fixtures/QA_Arabic_2_pages.docx",
+    "rendered": true,
+    "pages": 2
+  },
+  {
+    "file": "04_qa/fixtures/QA_Arabic_3_pages.docx",
+    "rendered": true,
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_Arabic_automatic_flow.docx",
+    "rendered": true,
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_Arabic_long_fields.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "04_qa/fixtures/QA_Bilingual_2_pages.docx",
+    "rendered": true,
+    "pages": 2
+  },
+  {
+    "file": "04_qa/fixtures/QA_Bilingual_3_pages.docx",
+    "rendered": true,
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_Bilingual_automatic_flow.docx",
+    "rendered": true,
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_Bilingual_long_fields.docx",
+    "rendered": true,
+    "pages": 2
+  },
+  {
+    "file": "04_qa/fixtures/QA_English_2_pages.docx",
+    "rendered": true,
+    "pages": 2
+  },
+  {
+    "file": "04_qa/fixtures/QA_English_3_pages.docx",
+    "rendered": true,
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_English_automatic_flow.docx",
+    "rendered": true,
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_English_long_fields.docx",
+    "rendered": true,
+    "pages": 1
+  },
+  {
+    "file": "03_specs/GEM_Letterhead_Specification.docx",
+    "rendered": true,
+    "pages": 3
+  }
+]

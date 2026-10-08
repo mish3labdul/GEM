@@ -1,0 +1,37 @@
+{
+  "print_and_digital_content_streams_identical": true,
+  "pages": [
+    {
+      "template": "English_First_Page",
+      "pdf_mapping_and_tag_repairs_pixel_identical": true
+    },
+    {
+      "template": "English_Continuation",
+      "pdf_mapping_and_tag_repairs_pixel_identical": true
+    },
+    {
+      "template": "Arabic_First_Page",
+      "pdf_mapping_and_tag_repairs_pixel_identical": true
+    },
+    {
+      "template": "Arabic_Continuation",
+      "pdf_mapping_and_tag_repairs_pixel_identical": true
+    },
+    {
+      "template": "Bilingual_First_Page",
+      "pdf_mapping_and_tag_repairs_pixel_identical": true
+    },
+    {
+      "template": "Bilingual_Continuation",
+      "pdf_mapping_and_tag_repairs_pixel_identical": true
+    },
+    {
+      "template": "Executive",
+      "pdf_mapping_and_tag_repairs_pixel_identical": true
+    },
+    {
+      "template": "Minimal",
+      "pdf_mapping_and_tag_repairs_pixel_identical": true
+    }
+  ]
+}

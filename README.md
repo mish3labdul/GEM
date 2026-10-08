@@ -11,3 +11,5 @@ Working repository for the GEM™ V3.0 brand system. Status: **RC2, evidence gat
 | `qa` | Verified change registers, consistency report, open evidence register, release notes, asset sync change log |
 
 Logos are the supplied vector kit, used unchanged. Acceptance as production master is pending (VAL-02).
+
+`GEM_Letterhead_Set_v1.1_Application_Revision_03` holds the supplied letterhead set (8 Word templates, PDFs, specification, QA evidence). Working application, pending validation; it uses the official logo kit byte for byte.

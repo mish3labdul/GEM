@@ -1,0 +1,1071 @@
+{
+  "docx": {
+    "GEM_Letterhead_English_First_Page.docx": {
+      "media_unchanged": true,
+      "regular_fonts_decoded": [
+        {
+          "font": "Inter",
+          "bytes": 341528,
+          "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387"
+        },
+        {
+          "font": "Jost",
+          "bytes": 61144,
+          "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5"
+        },
+        {
+          "font": "Noto Sans Arabic",
+          "bytes": 194500,
+          "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613"
+        }
+      ],
+      "footer_status_and_live_fields": true,
+      "essential_footer_pt": 9,
+      "author_unset": true
+    },
+    "GEM_Letterhead_Arabic_Continuation.docx": {
+      "media_unchanged": true,
+      "regular_fonts_decoded": [
+        {
+          "font": "Inter",
+          "bytes": 341528,
+          "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387"
+        },
+        {
+          "font": "Jost",
+          "bytes": 61144,
+          "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5"
+        },
+        {
+          "font": "Noto Sans Arabic",
+          "bytes": 194500,
+          "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613"
+        }
+      ],
+      "footer_status_and_live_fields": true,
+      "essential_footer_pt": 9,
+      "author_unset": true
+    },
+    "GEM_Letterhead_English_Continuation.docx": {
+      "media_unchanged": true,
+      "regular_fonts_decoded": [
+        {
+          "font": "Inter",
+          "bytes": 341528,
+          "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387"
+        },
+        {
+          "font": "Jost",
+          "bytes": 61144,
+          "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5"
+        },
+        {
+          "font": "Noto Sans Arabic",
+          "bytes": 194500,
+          "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613"
+        }
+      ],
+      "footer_status_and_live_fields": true,
+      "essential_footer_pt": 9,
+      "author_unset": true
+    },
+    "GEM_Letterhead_Executive.docx": {
+      "media_unchanged": true,
+      "regular_fonts_decoded": [
+        {
+          "font": "Inter",
+          "bytes": 341528,
+          "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387"
+        },
+        {
+          "font": "Jost",
+          "bytes": 61144,
+          "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5"
+        },
+        {
+          "font": "Noto Sans Arabic",
+          "bytes": 194500,
+          "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613"
+        }
+      ],
+      "footer_status_and_live_fields": true,
+      "essential_footer_pt": 9,
+      "author_unset": true
+    },
+    "GEM_Letterhead_Arabic_First_Page.docx": {
+      "media_unchanged": true,
+      "regular_fonts_decoded": [
+        {
+          "font": "Inter",
+          "bytes": 341528,
+          "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387"
+        },
+        {
+          "font": "Jost",
+          "bytes": 61144,
+          "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5"
+        },
+        {
+          "font": "Noto Sans Arabic",
+          "bytes": 194500,
+          "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613"
+        }
+      ],
+      "footer_status_and_live_fields": true,
+      "essential_footer_pt": 9,
+      "author_unset": true
+    },
+    "GEM_Letterhead_Bilingual_First_Page.docx": {
+      "media_unchanged": true,
+      "regular_fonts_decoded": [
+        {
+          "font": "Inter",
+          "bytes": 341528,
+          "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387"
+        },
+        {
+          "font": "Jost",
+          "bytes": 61144,
+          "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5"
+        },
+        {
+          "font": "Noto Sans Arabic",
+          "bytes": 194500,
+          "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613"
+        }
+      ],
+      "footer_status_and_live_fields": true,
+      "essential_footer_pt": 9,
+      "author_unset": true
+    },
+    "GEM_Letterhead_Minimal.docx": {
+      "media_unchanged": true,
+      "regular_fonts_decoded": [
+        {
+          "font": "Inter",
+          "bytes": 341528,
+          "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387"
+        },
+        {
+          "font": "Jost",
+          "bytes": 61144,
+          "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5"
+        },
+        {
+          "font": "Noto Sans Arabic",
+          "bytes": 194500,
+          "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613"
+        }
+      ],
+      "footer_status_and_live_fields": true,
+      "essential_footer_pt": 9,
+      "author_unset": true
+    },
+    "GEM_Letterhead_Bilingual_Continuation.docx": {
+      "media_unchanged": true,
+      "regular_fonts_decoded": [
+        {
+          "font": "Inter",
+          "bytes": 341528,
+          "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387"
+        },
+        {
+          "font": "Jost",
+          "bytes": 61144,
+          "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5"
+        },
+        {
+          "font": "Noto Sans Arabic",
+          "bytes": 194500,
+          "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613"
+        }
+      ],
+      "footer_status_and_live_fields": true,
+      "essential_footer_pt": 9,
+      "author_unset": true
+    }
+  },
+  "pdf": {
+    "02_pdf/GEM_Letterhead_Bilingual_Continuation.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Inter-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+Inter-Regular",
+        "/FAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/P": 9,
+        "/Span": 9
+      },
+      "bookmarks": 0,
+      "language": "ar-SA",
+      "author_unset": true,
+      "pdfplumber_arabic_glyph_inventory_matches_source": true,
+      "pypdf_layout_arabic_glyph_inventory_matches_source": true,
+      "source_actualtext_paragraphs": 9,
+      "logical_plain_extraction_acceptance": "FAIL / PENDING: inventory and semantic source text pass; generic plain extraction still reorders or omits mixed RTL fragments. Native reader and AT acceptance pending."
+    },
+    "02_pdf/GEM_Letterhead_Digital.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 3,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 4,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 5,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 6,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 7,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 8,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Inter-Regular",
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/DAAAAA+Jost-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+Inter-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Jost-Regular",
+        "/GAAAAA+NotoSansArabic-Regular",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 8,
+        "/Figure": 5,
+        "/P": 78,
+        "/H1": 6,
+        "/Span": 47
+      },
+      "bookmarks": 8,
+      "language": "en-GB",
+      "author_unset": true
+    },
+    "02_pdf/GEM_Letterhead_Bilingual_First_Page.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Jost-Regular",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Figure": 1,
+        "/P": 14,
+        "/Span": 18,
+        "/H1": 2
+      },
+      "bookmarks": 2,
+      "language": "ar-SA",
+      "author_unset": true,
+      "pdfplumber_arabic_glyph_inventory_matches_source": true,
+      "pypdf_layout_arabic_glyph_inventory_matches_source": true,
+      "source_actualtext_paragraphs": 16,
+      "logical_plain_extraction_acceptance": "FAIL / PENDING: inventory and semantic source text pass; generic plain extraction still reorders or omits mixed RTL fragments. Native reader and AT acceptance pending."
+    },
+    "02_pdf/GEM_Letterhead_English_First_Page.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/FAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Figure": 1,
+        "/P": 10,
+        "/H1": 1
+      },
+      "bookmarks": 1,
+      "language": "en-GB",
+      "author_unset": true,
+      "pdfplumber_arabic_glyph_inventory_matches_source": true,
+      "pypdf_layout_arabic_glyph_inventory_matches_source": true,
+      "source_actualtext_paragraphs": 11
+    },
+    "02_pdf/GEM_Letterhead_Minimal.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Inter-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Jost-Regular",
+        "/EAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Figure": 1,
+        "/P": 10,
+        "/H1": 1
+      },
+      "bookmarks": 1,
+      "language": "en-GB",
+      "author_unset": true,
+      "pdfplumber_arabic_glyph_inventory_matches_source": true,
+      "pypdf_layout_arabic_glyph_inventory_matches_source": true,
+      "source_actualtext_paragraphs": 11
+    },
+    "02_pdf/GEM_Letterhead_English_Continuation.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Inter-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/P": 7
+      },
+      "bookmarks": 0,
+      "language": "en-GB",
+      "author_unset": true,
+      "pdfplumber_arabic_glyph_inventory_matches_source": true,
+      "pypdf_layout_arabic_glyph_inventory_matches_source": true,
+      "source_actualtext_paragraphs": 7
+    },
+    "02_pdf/GEM_Letterhead_Print.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 3,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 4,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 5,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 6,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 7,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 8,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Inter-Regular",
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/DAAAAA+Jost-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+Inter-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Jost-Regular",
+        "/GAAAAA+NotoSansArabic-Regular",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 8,
+        "/Figure": 5,
+        "/P": 78,
+        "/H1": 6,
+        "/Span": 47
+      },
+      "bookmarks": 8,
+      "language": "en-GB",
+      "author_unset": true
+    },
+    "02_pdf/GEM_Letterhead_Executive.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/FAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Figure": 1,
+        "/P": 11,
+        "/H1": 1
+      },
+      "bookmarks": 1,
+      "language": "en-GB",
+      "author_unset": true,
+      "pdfplumber_arabic_glyph_inventory_matches_source": true,
+      "pypdf_layout_arabic_glyph_inventory_matches_source": true,
+      "source_actualtext_paragraphs": 12
+    },
+    "02_pdf/GEM_Letterhead_Arabic_Continuation.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Inter-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/P": 7,
+        "/Span": 7
+      },
+      "bookmarks": 0,
+      "language": "ar-SA",
+      "author_unset": true,
+      "pdfplumber_arabic_glyph_inventory_matches_source": true,
+      "pypdf_layout_arabic_glyph_inventory_matches_source": true,
+      "source_actualtext_paragraphs": 7,
+      "logical_plain_extraction_acceptance": "FAIL / PENDING: inventory and semantic source text pass; generic plain extraction still reorders or omits mixed RTL fragments. Native reader and AT acceptance pending."
+    },
+    "02_pdf/GEM_Letterhead_Arabic_First_Page.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Figure": 1,
+        "/P": 10,
+        "/Span": 13,
+        "/H1": 1
+      },
+      "bookmarks": 1,
+      "language": "ar-SA",
+      "author_unset": true,
+      "pdfplumber_arabic_glyph_inventory_matches_source": true,
+      "pypdf_layout_arabic_glyph_inventory_matches_source": true,
+      "source_actualtext_paragraphs": 11,
+      "logical_plain_extraction_acceptance": "FAIL / PENDING: inventory and semantic source text pass; generic plain extraction still reorders or omits mixed RTL fragments. Native reader and AT acceptance pending."
+    },
+    "04_qa/evidence/QA_Arabic_automatic_flow.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 3,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Inter-Regular",
+        "/HAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 35,
+        "/Span": 38,
+        "/H1": 1
+      },
+      "bookmarks": 1,
+      "language": "ar-SA",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_Bilingual_3_pages.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 3,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Jost-Regular",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+Inter-Regular",
+        "/JAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 21,
+        "/Span": 24,
+        "/H1": 2,
+        "/Text body": 1
+      },
+      "bookmarks": 2,
+      "language": "ar-SA",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_Bilingual_long_fields.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Jost-Regular",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+NotoSansArabic-Regular",
+        "/JAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 14,
+        "/Span": 19,
+        "/H1": 2,
+        "/Text body": 1
+      },
+      "bookmarks": 2,
+      "language": "ar-SA",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_Bilingual_automatic_flow.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 3,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Jost-Regular",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+Inter-Regular",
+        "/JAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 38,
+        "/Span": 43,
+        "/H1": 2,
+        "/Text body": 1
+      },
+      "bookmarks": 2,
+      "language": "ar-SA",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_Bilingual_2_pages.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Jost-Regular",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+Inter-Regular",
+        "/JAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 17,
+        "/Span": 21,
+        "/H1": 2,
+        "/Text body": 1
+      },
+      "bookmarks": 2,
+      "language": "ar-SA",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_English_long_fields.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/FAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 9,
+        "/H1": 1,
+        "/Text body": 2
+      },
+      "bookmarks": 1,
+      "language": "en-GB",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_English_automatic_flow.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 3,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/FAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 8,
+        "/H1": 1,
+        "/Text body": 27
+      },
+      "bookmarks": 1,
+      "language": "en-GB",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_Arabic_3_pages.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 3,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Inter-Regular",
+        "/HAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 18,
+        "/Span": 19,
+        "/H1": 1
+      },
+      "bookmarks": 1,
+      "language": "ar-SA",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_English_2_pages.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/FAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 12,
+        "/H1": 1,
+        "/Text body": 2
+      },
+      "bookmarks": 1,
+      "language": "en-GB",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_Arabic_long_fields.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 11,
+        "/Span": 14,
+        "/H1": 1
+      },
+      "bookmarks": 1,
+      "language": "ar-SA",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_Arabic_2_pages.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+NotoSansArabic-Regular",
+        "/EAAAAA+NotoSansArabic-Regular",
+        "/FAAAAA+NotoSansArabic-Regular",
+        "/GAAAAA+Inter-Regular",
+        "/HAAAAA+NotoSansArabic-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 14,
+        "/Span": 16,
+        "/H1": 1
+      },
+      "bookmarks": 1,
+      "language": "ar-SA",
+      "author_unset": true
+    },
+    "04_qa/evidence/QA_English_3_pages.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 2,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        },
+        {
+          "page": 3,
+          "dimensions_pt": [
+            595.303937,
+            841.889764
+          ]
+        }
+      ],
+      "active_fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/FAAAAA+Inter-Regular"
+      ],
+      "tag_roles": {
+        "/Document": 1,
+        "/Standard": 16,
+        "/H1": 1,
+        "/Text body": 2
+      },
+      "bookmarks": 1,
+      "language": "en-GB",
+      "author_unset": true
+    }
+  },
+  "original_preservation": true,
+  "scope": "Automated package and headless renderer checks. Native Word/AT/supplier tests not covered."
+}
