@@ -1,0 +1,70 @@
+{
+  "source_hashes_unchanged": true,
+  "authoring_scripts_parse": true,
+  "docx_archives_valid_unique_entries": true,
+  "ink_white_contrast": 18.009985826393038,
+  "final_pdfs": [
+    {
+      "file": "02_pdf/GEM_Letterhead_Digital.pdf",
+      "pages": 8,
+      "fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Inter-Regular",
+        "/FAAAAA+Inter-Regular",
+        "/GAAAAA+Jost-Bold",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+Inter-Bold",
+        "/JAAAAA+Jost-Regular",
+        "/KAAAAA+NotoSansArabic-Regular",
+        "/LAAAAA+Inter-Regular",
+        "/MAAAAA+NotoSansArabic-Regular",
+        "/NAAAAA+NotoSansArabic-Bold",
+        "/OAAAAA+NotoSansArabic-Regular",
+        "/PAAAAA+NotoSansArabic-Bold"
+      ],
+      "image_xobjects": 0,
+      "tagged": true,
+      "selectable_text": true
+    },
+    {
+      "file": "02_pdf/GEM_Letterhead_Print.pdf",
+      "pages": 8,
+      "fonts": [
+        "/BAAAAA+Jost-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Inter-Regular",
+        "/FAAAAA+Inter-Regular",
+        "/GAAAAA+Jost-Bold",
+        "/HAAAAA+Inter-Regular",
+        "/IAAAAA+Inter-Bold",
+        "/JAAAAA+Jost-Regular",
+        "/KAAAAA+NotoSansArabic-Regular",
+        "/LAAAAA+Inter-Regular",
+        "/MAAAAA+NotoSansArabic-Regular",
+        "/NAAAAA+NotoSansArabic-Bold",
+        "/OAAAAA+NotoSansArabic-Regular",
+        "/PAAAAA+NotoSansArabic-Bold"
+      ],
+      "image_xobjects": 0,
+      "tagged": true,
+      "selectable_text": true
+    },
+    {
+      "file": "03_specs/GEM_Letterhead_Specification.pdf",
+      "pages": 3,
+      "fonts": [
+        "/BAAAAA+Inter-Regular",
+        "/CAAAAA+Inter-Regular",
+        "/DAAAAA+Inter-Regular",
+        "/EAAAAA+Jost-Regular",
+        "/FAAAAA+Jost-Bold"
+      ],
+      "image_xobjects": 0,
+      "tagged": true,
+      "selectable_text": true
+    }
+  ]
+}

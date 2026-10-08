@@ -1,0 +1,183 @@
+{
+  "repository": "mish3labdul/GEM",
+  "source_commit": "334744c72dbbb6681034996fcca595213a7623a2",
+  "snapshot_date": "2026-10-07",
+  "sources": [
+    {
+      "repository_path": "GEM_V3_RC2/00_originals/GEM_V3_Final_Brand_Approval_Register_Prefilled.xlsx",
+      "sha256": "ccce46135a4f2244dbff21cef94a6160e9d2b6fd96a63647c1e5ea6b662e7ab3"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/04_release/GEM Brand Guidelines V3.0 \u2014 Part A \u2014 RC2.pptx",
+      "sha256": "c50dd3d0c45d6e2753e81b0f978879ed7e596ce52bdd24f7910ae6fcf16243d0"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/04_release/GEM Brand Guidelines V3.0 \u2014 Part A \u2014 RC2 (review export).pdf",
+      "sha256": "bf4931052f8c6ebfc3d18b2d63801a23c90436a03b200e39cb0966cb9e75c74c"
+    },
+    {
+      "repository_path": "PartB_RC2/05_release/GEM Digital Design System V3.0 \u2014 Part B \u2014 RC2.pptx",
+      "sha256": "b0326b6a6d9c2af6e1128911c2da5b4e2990ddfdc1961c9bc9f30fef240f0312"
+    },
+    {
+      "repository_path": "PartB_RC2/05_release/GEM Digital Design System V3.0 \u2014 Part B \u2014 RC2.pdf",
+      "sha256": "e04d33d00161cf313640cba5951618aadd0667952a42fdf26b6b68e408c49c5d"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/04_release/GEM Production Standards V3.0 \u2014 Part C \u2014 RC2.pptx",
+      "sha256": "f9f968d2e51d715658796c69e63c83dfe324bf783f6dc530b49bfc0c6fd3462b"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/04_release/GEM Production Standards V3.0 \u2014 Part C \u2014 RC2 (review export).pdf",
+      "sha256": "ac169bc98ce18017434c27f94ef7751ca623e72a377fe5cb211e95d2ef353060"
+    },
+    {
+      "repository_path": "PartB_RC2/05_release/tokens/gem-tokens.v3.0-rc2.json",
+      "sha256": "8f625821abd162f92ed7bf2ab0e2d7f979007ef2b1bec8e01a74b37dc7b686b9"
+    },
+    {
+      "repository_path": "PartB_RC2/05_release/tokens/gem-tokens.v3.0-rc2.css",
+      "sha256": "2ea7ed543e1e8820f071197932e5ffe8b94d8dec924e1de37eb14d7b84c68b27"
+    },
+    {
+      "repository_path": "PartB_RC2/05_release/tokens/README.md",
+      "sha256": "5e7e87a3218556229ab3f10df1458016cb51d06094bb11a902f3d222e98f5759"
+    },
+    {
+      "repository_path": "GEM_Brand_Assets_v1.0/README.md",
+      "sha256": "8a76c692cfb45672cd9ef86593a62196254e90fa6d6e8a6e507ffd163ac8bae3"
+    },
+    {
+      "repository_path": "GEM_Brand_Assets_v1.0/04_official_kit/logo/metrics.json",
+      "sha256": "42ffa013d2155f4b2decbd2049055318646b27c4e7a3ab4a7cf47876c6b7e145"
+    },
+    {
+      "repository_path": "GEM_Brand_Assets_v1.0/04_official_kit/SHA256SUMS.txt",
+      "sha256": "16a74da8930ec28f46bf17b352db12d47a84da42557ad494b220bb2aeb1a9d05"
+    },
+    {
+      "repository_path": "Amenities_Portfolio_PartD_RC2/README.md",
+      "sha256": "f454c759c33a1f373e85cee1aa5bb9103568958e8ac8cd7d2dee16e6f781abf2"
+    },
+    {
+      "repository_path": "Amenities_Portfolio_PartD_RC2/04_release/GEM Amenities & Packaging \u2014 Concept Product Portfolio V3.0 \u2014 Part D \u2014 RC2.pptx",
+      "sha256": "f6ad77b0f26a2a6bfc8062a76093251b39a2eb4a46631a95e68b725b4a725ec3"
+    },
+    {
+      "repository_path": "Amenities_Portfolio_PartD_RC2/04_release/GEM Amenities & Packaging \u2014 Concept Product Portfolio V3.0 \u2014 Part D \u2014 RC2.pdf",
+      "sha256": "99e191cbb024786c101b9dda89acad216e0dc581faeec25d3d66535116848658"
+    },
+    {
+      "repository_path": "Amenities_Portfolio_PartD_RC2/01_mockups/MOCKUP_REGISTER.csv",
+      "sha256": "cb034162ee699128965211d6a016e37ab58e4818f8063c02bf0695d89950f139"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Consistency_Report.md",
+      "sha256": "9877f8add2eda82628b121c9e92042aa86a083da24a5e00423f11674c406b78a"
+    },
+    {
+      "repository_path": "qa/PartB_RC2_Exact_Patch_Spec.md",
+      "sha256": "d1e629e6ff0a5d36b9539c6f2935d3582a7d24cfbe97b66725dc4b0de1580f5e"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Asset_Sync_Change_Log.md",
+      "sha256": "63f901c17c4c1667d723bba917af079e9543752745a273219e1e0495801076ad"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Final_Open_Evidence_Register.md",
+      "sha256": "aea1bad240f2124f457fefc3887f300f9af804702db8f63a939f2036de0931ca"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Open_Evidence_Register.md",
+      "sha256": "a676b5ed325c105457230ecf5b32d53a72a1512efb20468efc2dbf75dc0cb319"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Verified_Change_Register.csv",
+      "sha256": "bf66c4ce7b958d28345e6a76e885317fd978c6a22a110ee04efbf0e8b8192cfb"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Verified_Change_Register.md",
+      "sha256": "883946c6d3bddd2157f0d82ef90c739b7d53152ca60871dfa5ac358b7cd0d7be"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Visual_QA_Report.md",
+      "sha256": "a9c01b2847434509babef9d9082abe9ece2c1def0e3786e13740512a826ea10d"
+    },
+    {
+      "repository_path": "qa/PartB_RC2_RTL_Localization_QA_Report.md",
+      "sha256": "0c956cb567dac39df0532b2f93aa8abc438dcdeb07e0c49280e4999165c8ffe9"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Final_Release_Notes.md",
+      "sha256": "117de59e3cb0464b6337b5dba2ff65d718dc037d921320d7845b79e7c968a22d"
+    },
+    {
+      "repository_path": "qa/PartB_RC2_Change_Log.md",
+      "sha256": "614f0511d3c00fda9c3f8930aa31a5ebaf2899a6e78aa845137384a3324d599e"
+    },
+    {
+      "repository_path": "qa/PartB_RC2_Visual_QA_Report.md",
+      "sha256": "1007eecd2feabc4fb337d821f2a0e9b06644f8357b6efd4acb6aa3e96e407d77"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Release_Notes.md",
+      "sha256": "e8563badb26beb3472777f1525c7bda49ee6eb213da9a5d9ec0655e586010bd8"
+    },
+    {
+      "repository_path": "qa/PartB_RC2_Verification_Matrix.md",
+      "sha256": "578120af19516cd2353cc1756da152d88a6c9a664e5e745d4fe4dab21b062edc"
+    },
+    {
+      "repository_path": "qa/GEM_V3_RC2_Final_Consistency_Report.md",
+      "sha256": "e11f55b5cf7337a4795a43cd2ead4da698d559aa0553ed622ea1dca159c1a17d"
+    },
+    {
+      "repository_path": "qa/PartB_RC2_Accessibility_QA_Report.md",
+      "sha256": "58d53720a68da7cd32891c684ad73ad1ec27f5d2cd6026bcd595bfb35e358c15"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/03_qa/GEM_V3_RC2_Consistency_Report.md",
+      "sha256": "9877f8add2eda82628b121c9e92042aa86a083da24a5e00423f11674c406b78a"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/03_qa/PartB_RC2_Exact_Patch_Spec.md",
+      "sha256": "d1e629e6ff0a5d36b9539c6f2935d3582a7d24cfbe97b66725dc4b0de1580f5e"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/03_qa/GEM_V3_RC2_Open_Evidence_Register.md",
+      "sha256": "a676b5ed325c105457230ecf5b32d53a72a1512efb20468efc2dbf75dc0cb319"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/03_qa/GEM_V3_RC2_Verified_Change_Register.csv",
+      "sha256": "bf66c4ce7b958d28345e6a76e885317fd978c6a22a110ee04efbf0e8b8192cfb"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/03_qa/GEM_V3_RC2_Verified_Change_Register.md",
+      "sha256": "883946c6d3bddd2157f0d82ef90c739b7d53152ca60871dfa5ac358b7cd0d7be"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/03_qa/GEM_V3_RC2_Visual_QA_Report.md",
+      "sha256": "a9c01b2847434509babef9d9082abe9ece2c1def0e3786e13740512a826ea10d"
+    },
+    {
+      "repository_path": "GEM_V3_RC2/03_qa/GEM_V3_RC2_Release_Notes.md",
+      "sha256": "e8563badb26beb3472777f1525c7bda49ee6eb213da9a5d9ec0655e586010bd8"
+    },
+    {
+      "repository_path": "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/svg/gem-horizontal-ink.svg",
+      "sha256": "6abbd491846178d0fd81561686845fb3c4c07de8f5333450cd27aea7a441bebd"
+    },
+    {
+      "repository_path": "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/png/gem-horizontal-ink-2048.png",
+      "sha256": "ce953ebf3df882323fb513228f68853f49ad0f8fe2641866b156665d02551850"
+    },
+    {
+      "repository_path": "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/svg/gem-horizontal-black.svg",
+      "sha256": "38d89d97ab642b43f273f3dbf9df9e2084933c288ae75aca4e2abb4f11001805"
+    },
+    {
+      "repository_path": "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/png/gem-horizontal-black-2048.png",
+      "sha256": "2c49e1c6bb4b9c6165881bc4d3154fb2ab9207dc0eef4e284caed119ee9928d8"
+    }
+  ]
+}

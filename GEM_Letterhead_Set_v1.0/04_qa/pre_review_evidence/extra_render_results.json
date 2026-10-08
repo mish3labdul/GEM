@@ -1,0 +1,56 @@
+[
+  {
+    "file": "04_qa/fixtures/QA_ar_automatic_10.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_ar_automatic_10",
+    "pages": 2
+  },
+  {
+    "file": "04_qa/fixtures/QA_bi_automatic_10.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_bi_automatic_10",
+    "pages": 2
+  },
+  {
+    "file": "04_qa/fixtures/QA_ar_bidi.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_ar_bidi",
+    "pages": 1
+  },
+  {
+    "file": "04_qa/fixtures/QA_en_automatic_8.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_en_automatic_8",
+    "pages": 2
+  },
+  {
+    "file": "04_qa/fixtures/QA_bi_bidi.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_bi_bidi",
+    "pages": 1
+  },
+  {
+    "file": "04_qa/fixtures/QA_ar_automatic_22.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_ar_automatic_22",
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_bi_automatic_22.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_bi_automatic_22",
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_en_automatic_20.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_en_automatic_20",
+    "pages": 3
+  },
+  {
+    "file": "04_qa/fixtures/QA_Word_Arabic_Reopen.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_Word_Arabic_Reopen",
+    "pages": 1
+  }
+]

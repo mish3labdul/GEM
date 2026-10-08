@@ -1,0 +1,14 @@
+[
+  {
+    "file": "04_qa/fixtures/QA_ar_automatic_10.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_ar_automatic_10",
+    "pages": 2
+  },
+  {
+    "file": "04_qa/fixtures/QA_ar_automatic_22.docx",
+    "rendered": true,
+    "directory": "04_qa/renders/QA_ar_automatic_22",
+    "pages": 3
+  }
+]

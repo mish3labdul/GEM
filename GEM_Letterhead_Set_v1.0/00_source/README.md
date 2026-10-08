@@ -1,0 +1,9 @@
+# Controlled authoring source
+
+Editable source: all eight delivery DOCX files, specification DOCX, and GEM_Letterhead_Portfolio.docx. Exact official artwork is archived unchanged in reused_assets; original repo paths remain in the source register. Fonts include pinned source binaries, static office instances, metadata and OFL licences. R1 uses and embeds only Regular 400; unused Bold 700 inputs are archived. Font/master acceptance gates remain open.
+
+Python source requires Python 3, python-docx, lxml, fonttools, pypdf and Pillow for evidence sheets. Run build_letterheads.py, build_specs.py, build_portfolio.py sequentially from any directory. These scripts overwrite only this application folder's generated files; make a working copy before changes. prepare.py is an optional pinned font regeneration step, not required for ordinary edits. extra_tests.py builds disposable QA fixtures.
+
+Render each DOCX with Microsoft Word or the Codex document renderer into 04_qa/renders/<document stem>/, retaining the same PDF stem and page-N.png files. Install/discover the provided font families before export. With Fontconfig-based renderers, use a configuration pointing to the absolute 00_source/fonts directory. Never silently accept substituted fonts. finalize_pdfs.py preserves tagged export structure, adds metadata/bookmarks and creates the two portfolios plus individual proofs. Export the specification separately with en-GB document language. qa_checks.py checks template font/glyph/assets and individual/portfolio PDFs; visual and native QA remain mandatory.
+
+Build output is not automatically approved. Repeat the QA report's tests after every content, typography, asset or rendering change. Update source/font/output manifests and hashes after intentional edits. Keep production/localization/accessibility/owner gates pending until their required evidence exists.

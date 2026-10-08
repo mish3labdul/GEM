@@ -1,0 +1,103 @@
+{
+  "templates": [
+    {
+      "file": "GEM_Letterhead_English_First_Page.docx",
+      "visible_weight": 400,
+      "embedded_regular_fonts": 3,
+      "unsupported_glyphs": [],
+      "body_style_latin_leading_pt": 16.8,
+      "body_style_end_indent_mm": 30,
+      "explicit_arabic_default": true,
+      "header_footer_ltr_groups": true,
+      "tagline_rule_checked": true
+    },
+    {
+      "file": "GEM_Letterhead_Arabic_Continuation.docx",
+      "visible_weight": 400,
+      "embedded_regular_fonts": 3,
+      "unsupported_glyphs": [],
+      "body_style_latin_leading_pt": 16.8,
+      "body_style_end_indent_mm": 30,
+      "explicit_arabic_default": true,
+      "header_footer_ltr_groups": true,
+      "tagline_rule_checked": false
+    },
+    {
+      "file": "GEM_Letterhead_English_Continuation.docx",
+      "visible_weight": 400,
+      "embedded_regular_fonts": 3,
+      "unsupported_glyphs": [],
+      "body_style_latin_leading_pt": 16.8,
+      "body_style_end_indent_mm": 30,
+      "explicit_arabic_default": true,
+      "header_footer_ltr_groups": true,
+      "tagline_rule_checked": false
+    },
+    {
+      "file": "GEM_Letterhead_Executive.docx",
+      "visible_weight": 400,
+      "embedded_regular_fonts": 3,
+      "unsupported_glyphs": [],
+      "body_style_latin_leading_pt": 16.8,
+      "body_style_end_indent_mm": 30,
+      "explicit_arabic_default": true,
+      "header_footer_ltr_groups": true,
+      "tagline_rule_checked": true
+    },
+    {
+      "file": "GEM_Letterhead_Arabic_First_Page.docx",
+      "visible_weight": 400,
+      "embedded_regular_fonts": 3,
+      "unsupported_glyphs": [],
+      "body_style_latin_leading_pt": 16.8,
+      "body_style_end_indent_mm": 30,
+      "explicit_arabic_default": true,
+      "header_footer_ltr_groups": true,
+      "tagline_rule_checked": true
+    },
+    {
+      "file": "GEM_Letterhead_Bilingual_First_Page.docx",
+      "visible_weight": 400,
+      "embedded_regular_fonts": 3,
+      "unsupported_glyphs": [],
+      "body_style_latin_leading_pt": 16.8,
+      "body_style_end_indent_mm": 30,
+      "explicit_arabic_default": true,
+      "header_footer_ltr_groups": true,
+      "tagline_rule_checked": true
+    },
+    {
+      "file": "GEM_Letterhead_Minimal.docx",
+      "visible_weight": 400,
+      "embedded_regular_fonts": 3,
+      "unsupported_glyphs": [],
+      "body_style_latin_leading_pt": 16.8,
+      "body_style_end_indent_mm": 30,
+      "explicit_arabic_default": true,
+      "header_footer_ltr_groups": true,
+      "tagline_rule_checked": false
+    },
+    {
+      "file": "GEM_Letterhead_Bilingual_Continuation.docx",
+      "visible_weight": 400,
+      "embedded_regular_fonts": 3,
+      "unsupported_glyphs": [],
+      "body_style_latin_leading_pt": 16.8,
+      "body_style_end_indent_mm": 30,
+      "explicit_arabic_default": true,
+      "header_footer_ltr_groups": true,
+      "tagline_rule_checked": false
+    }
+  ],
+  "english_sample_body_line_lengths": [
+    61,
+    65,
+    47,
+    68,
+    65,
+    57
+  ],
+  "authoritative_source_hashes_unchanged": true,
+  "digital_print_artwork_identical": true,
+  "rendered_documents": 28
+}
