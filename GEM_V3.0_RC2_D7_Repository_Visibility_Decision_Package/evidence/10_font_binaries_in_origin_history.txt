@@ -1,0 +1,12 @@
+GEM_Letterhead_Set_v1.0/00_source/fonts/inter/Inter-Bold.ttf
+GEM_Letterhead_Set_v1.0/00_source/fonts/inter/Inter-Regular.ttf
+GEM_Letterhead_Set_v1.0/00_source/fonts/inter/Inter[opsz,wght].ttf
+GEM_Letterhead_Set_v1.0/00_source/fonts/jost/Jost-Bold.ttf
+GEM_Letterhead_Set_v1.0/00_source/fonts/jost/Jost-Regular.ttf
+GEM_Letterhead_Set_v1.0/00_source/fonts/jost/Jost[wght].ttf
+GEM_Letterhead_Set_v1.0/00_source/fonts/notosansarabic/NotoSansArabic-Bold.ttf
+GEM_Letterhead_Set_v1.0/00_source/fonts/notosansarabic/NotoSansArabic-Regular.ttf
+GEM_Letterhead_Set_v1.0/00_source/fonts/notosansarabic/NotoSansArabic[wdth,wght].ttf
+GEM_Letterhead_Set_v1.1_Application_Revision_03/00_source/fonts/inter/Inter-Regular.ttf
+GEM_Letterhead_Set_v1.1_Application_Revision_03/00_source/fonts/jost/Jost-Regular.ttf
+GEM_Letterhead_Set_v1.1_Application_Revision_03/00_source/fonts/notosansarabic/NotoSansArabic-Regular.ttf

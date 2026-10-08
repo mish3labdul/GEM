@@ -1,0 +1,3 @@
+mish3labdul/GEM: {"admin":false,"maintain":false,"pull":true,"push":false,"triage":false}
+mashaelalh/GEM: {"admin":true,"maintain":true,"pull":true,"push":true,"triage":true}
+{"login":"mashaelalh","type":"User"}
