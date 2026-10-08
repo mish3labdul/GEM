@@ -1,0 +1,83 @@
+[
+  {
+    "file": "00_source/fonts/inter/Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "version": "Version 4.001;git-66647c0bb",
+    "family": "Inter",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "WORKING BUILD / VAL-05 AND VAL-19 OPEN"
+  },
+  {
+    "file": "00_source/fonts/inter/Inter-Bold.ttf",
+    "sha256": "e71b947fd82d521f678ba9f3005223575d5fcca30ed566918d6d3893e796128c",
+    "version": "Version 4.001;git-66647c0bb",
+    "family": "Inter",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "ARCHIVED INPUT / 700 NOT USED IN REVIEW R1"
+  },
+  {
+    "file": "00_source/fonts/inter/Inter-Regular.ttf",
+    "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387",
+    "version": "Version 4.001;git-66647c0bb",
+    "family": "Inter",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "WORKING BUILD / VAL-05 AND VAL-19 OPEN"
+  },
+  {
+    "file": "00_source/fonts/notosansarabic/NotoSansArabic-Bold.ttf",
+    "sha256": "2e369a68dbc74a6d16612f623d5319fd08d14f484b4959efe7130da885155300",
+    "version": "Version 2.012",
+    "family": "Noto Sans Arabic",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "ARCHIVED INPUT / 700 NOT USED IN REVIEW R1"
+  },
+  {
+    "file": "00_source/fonts/notosansarabic/NotoSansArabic-Regular.ttf",
+    "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613",
+    "version": "Version 2.012",
+    "family": "Noto Sans Arabic",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "WORKING BUILD / VAL-05 AND VAL-19 OPEN"
+  },
+  {
+    "file": "00_source/fonts/notosansarabic/NotoSansArabic[wdth,wght].ttf",
+    "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+    "version": "Version 2.012",
+    "family": "Noto Sans Arabic",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "WORKING BUILD / VAL-05 AND VAL-19 OPEN"
+  },
+  {
+    "file": "00_source/fonts/jost/Jost-Bold.ttf",
+    "sha256": "b4fe593d2c35b0818f2eada3f1c498a1e6a22100414102241cd7e6d7c1100fa2",
+    "version": "Version 3.710",
+    "family": "Jost",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "ARCHIVED INPUT / 700 NOT USED IN REVIEW R1"
+  },
+  {
+    "file": "00_source/fonts/jost/Jost[wght].ttf",
+    "sha256": "6343b70971000b04c5d401c96ae08ce371086135e999d5e1e1413039c0213076",
+    "version": "Version 3.710",
+    "family": "Jost",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "WORKING BUILD / VAL-05 AND VAL-19 OPEN"
+  },
+  {
+    "file": "00_source/fonts/jost/Jost-Regular.ttf",
+    "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5",
+    "version": "Version 3.710",
+    "family": "Jost",
+    "fsType": 0,
+    "source_commit": "2c605eeda2de57af2b34822b79986f5140299862",
+    "status": "WORKING BUILD / VAL-05 AND VAL-19 OPEN"
+  }
+]

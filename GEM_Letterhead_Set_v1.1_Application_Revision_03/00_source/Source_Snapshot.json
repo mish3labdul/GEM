@@ -1,0 +1,51 @@
+{
+  "repo": "mish3labdul/GEM",
+  "main_sha": "334744c72dbbb6681034996fcca595213a7623a2",
+  "refresh": "Live main SHA and local governing-file hashes reverified 2026-10-07; unchanged",
+  "governing_files": [
+    {
+      "path": "GEM_V3_RC2/00_originals/GEM_V3_Final_Brand_Approval_Register_Prefilled.xlsx",
+      "sha256": "ccce46135a4f2244dbff21cef94a6160e9d2b6fd96a63647c1e5ea6b662e7ab3"
+    },
+    {
+      "path": "GEM_V3_RC2/04_release/GEM Brand Guidelines V3.0 — Part A — RC2.pptx",
+      "sha256": "c50dd3d0c45d6e2753e81b0f978879ed7e596ce52bdd24f7910ae6fcf16243d0"
+    },
+    {
+      "path": "PartB_RC2/05_release/GEM Digital Design System V3.0 — Part B — RC2.pptx",
+      "sha256": "b0326b6a6d9c2af6e1128911c2da5b4e2990ddfdc1961c9bc9f30fef240f0312"
+    },
+    {
+      "path": "GEM_V3_RC2/04_release/GEM Production Standards V3.0 — Part C — RC2.pptx",
+      "sha256": "f9f968d2e51d715658796c69e63c83dfe324bf783f6dc530b49bfc0c6fd3462b"
+    },
+    {
+      "path": "PartB_RC2/05_release/tokens/gem-tokens.v3.0-rc2.json",
+      "sha256": "8f625821abd162f92ed7bf2ab0e2d7f979007ef2b1bec8e01a74b37dc7b686b9"
+    },
+    {
+      "path": "GEM_Brand_Assets_v1.0/README.md",
+      "sha256": "8a76c692cfb45672cd9ef86593a62196254e90fa6d6e8a6e507ffd163ac8bae3"
+    },
+    {
+      "path": "qa/PartB_RC2_Accessibility_QA_Report.md",
+      "sha256": "58d53720a68da7cd32891c684ad73ad1ec27f5d2cd6026bcd595bfb35e358c15"
+    },
+    {
+      "path": "qa/PartB_RC2_RTL_Localization_QA_Report.md",
+      "sha256": "0c956cb567dac39df0532b2f93aa8abc438dcdeb07e0c49280e4999165c8ffe9"
+    },
+    {
+      "path": "qa/GEM_V3_RC2_Final_Open_Evidence_Register.md",
+      "sha256": "aea1bad240f2124f457fefc3887f300f9af804702db8f63a939f2036de0931ca"
+    }
+  ],
+  "revision_03_reverification": {
+    "date": "2026-10-08",
+    "main_sha": "334744c72dbbb6681034996fcca595213a7623a2",
+    "fork_branch": "mashaelalh/GEM codex/gem-letterhead-v1 @ 59cac07c4ea09dc1cb9ac55af42972ffc3c1e922",
+    "governing_files": "all nine unchanged",
+    "revision_02_on_github": false,
+    "revision_02_supplied_zip_sha256": "3714344af0450c9e8bd4efc049a9c7e1ad641c897188d26153879b02205267a6"
+  }
+}

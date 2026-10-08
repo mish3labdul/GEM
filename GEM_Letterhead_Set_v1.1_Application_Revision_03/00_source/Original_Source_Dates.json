@@ -1,0 +1,54 @@
+{
+  "revision_date": "2026-10-07",
+  "packaged_at": "2026-10-07T21:07:26.516708+00:00",
+  "source_dates": [
+    {
+      "file": "GEM_Letterhead_Set_v1.0/07_final_audit/corrected_docx/GEM_Letterhead_English_First_Page.docx",
+      "original_created": "2013-12-23T23:15:00Z",
+      "original_modified": "2013-12-23T23:15:00Z",
+      "sha256": "03caa978d6ed123f67c77afda6c87ef3def751bdd427b8579cb550a977f0ff48"
+    },
+    {
+      "file": "GEM_Letterhead_Set_v1.0/07_final_audit/corrected_docx/GEM_Letterhead_Arabic_Continuation.docx",
+      "original_created": "2013-12-23T23:15:00Z",
+      "original_modified": "2013-12-23T23:15:00Z",
+      "sha256": "d1d75bf73f1d9cd195258aa8479b06a7a36a1221ff7e9a9927781a238853e9e8"
+    },
+    {
+      "file": "GEM_Letterhead_Set_v1.0/07_final_audit/corrected_docx/GEM_Letterhead_English_Continuation.docx",
+      "original_created": "2013-12-23T23:15:00Z",
+      "original_modified": "2013-12-23T23:15:00Z",
+      "sha256": "5c5f6c0b15b068aeac30e9f8d7578ec3e2092a0e98cd8acced8fa93411191473"
+    },
+    {
+      "file": "GEM_Letterhead_Set_v1.0/07_final_audit/corrected_docx/GEM_Letterhead_Executive.docx",
+      "original_created": "2013-12-23T23:15:00Z",
+      "original_modified": "2013-12-23T23:15:00Z",
+      "sha256": "6b87eb7d4583209f1dd7e4b89b2d2f65fcd05538a31ec1a29dd6413c751ca488"
+    },
+    {
+      "file": "GEM_Letterhead_Set_v1.0/07_final_audit/corrected_docx/GEM_Letterhead_Arabic_First_Page.docx",
+      "original_created": "2013-12-23T23:15:00Z",
+      "original_modified": "2013-12-23T23:15:00Z",
+      "sha256": "324a22bc8bf543d29bcdd480c6a06252c6aafc35ba2d38c90d02e80ce521d989"
+    },
+    {
+      "file": "GEM_Letterhead_Set_v1.0/07_final_audit/corrected_docx/GEM_Letterhead_Bilingual_First_Page.docx",
+      "original_created": "2013-12-23T23:15:00Z",
+      "original_modified": "2013-12-23T23:15:00Z",
+      "sha256": "b14da64bde81a725eb46560171db67ea8fe5ad002a1e932e339605506cf3b9e9"
+    },
+    {
+      "file": "GEM_Letterhead_Set_v1.0/07_final_audit/corrected_docx/GEM_Letterhead_Minimal.docx",
+      "original_created": "2013-12-23T23:15:00Z",
+      "original_modified": "2013-12-23T23:15:00Z",
+      "sha256": "4e4fe807781ca2b7df4810d7768891b77de4fb846185b07344794c1235a4b0b5"
+    },
+    {
+      "file": "GEM_Letterhead_Set_v1.0/07_final_audit/corrected_docx/GEM_Letterhead_Bilingual_Continuation.docx",
+      "original_created": "2013-12-23T23:15:00Z",
+      "original_modified": "2013-12-23T23:15:00Z",
+      "sha256": "90c087225c8e838c9f5aeffd5e4edb7fa319b2fe7248163d8ec18116151d6b77"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "GEM_Letterhead_Bilingual_Continuation.pdf": {
+    "pages": 1,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Inter-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/EAAAAA+NotoSansArabic-Regular",
+      "/FAAAAA+NotoSansArabic-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "ar-SA"
+  },
+  "GEM_Letterhead_Digital.pdf": {
+    "pages": 8,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Inter-Regular",
+      "/BAAAAA+Jost-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/DAAAAA+Jost-Regular",
+      "/EAAAAA+Inter-Regular",
+      "/EAAAAA+Jost-Regular",
+      "/EAAAAA+NotoSansArabic-Regular",
+      "/FAAAAA+Inter-Regular",
+      "/FAAAAA+NotoSansArabic-Regular",
+      "/GAAAAA+NotoSansArabic-Regular",
+      "/HAAAAA+Jost-Regular",
+      "/HAAAAA+NotoSansArabic-Regular",
+      "/IAAAAA+NotoSansArabic-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "en-GB"
+  },
+  "GEM_Letterhead_Bilingual_First_Page.pdf": {
+    "pages": 1,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Jost-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/EAAAAA+NotoSansArabic-Regular",
+      "/FAAAAA+NotoSansArabic-Regular",
+      "/GAAAAA+NotoSansArabic-Regular",
+      "/HAAAAA+Jost-Regular",
+      "/IAAAAA+NotoSansArabic-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "ar-SA"
+  },
+  "GEM_Letterhead_English_First_Page.pdf": {
+    "pages": 1,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Jost-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/EAAAAA+Jost-Regular",
+      "/FAAAAA+Inter-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "en-GB"
+  },
+  "GEM_Letterhead_Minimal.pdf": {
+    "pages": 1,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Inter-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Jost-Regular",
+      "/EAAAAA+Inter-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "en-GB"
+  },
+  "GEM_Letterhead_English_Continuation.pdf": {
+    "pages": 1,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Inter-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "en-GB"
+  },
+  "GEM_Letterhead_Print.pdf": {
+    "pages": 8,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Inter-Regular",
+      "/BAAAAA+Jost-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/DAAAAA+Jost-Regular",
+      "/EAAAAA+Inter-Regular",
+      "/EAAAAA+Jost-Regular",
+      "/EAAAAA+NotoSansArabic-Regular",
+      "/FAAAAA+Inter-Regular",
+      "/FAAAAA+NotoSansArabic-Regular",
+      "/GAAAAA+NotoSansArabic-Regular",
+      "/HAAAAA+Jost-Regular",
+      "/HAAAAA+NotoSansArabic-Regular",
+      "/IAAAAA+NotoSansArabic-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "en-GB"
+  },
+  "GEM_Letterhead_Executive.pdf": {
+    "pages": 1,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Jost-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/EAAAAA+Jost-Regular",
+      "/FAAAAA+Inter-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "en-GB"
+  },
+  "GEM_Letterhead_Arabic_Continuation.pdf": {
+    "pages": 1,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Inter-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/EAAAAA+NotoSansArabic-Regular",
+      "/FAAAAA+NotoSansArabic-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "ar-SA"
+  },
+  "GEM_Letterhead_Arabic_First_Page.pdf": {
+    "pages": 1,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Jost-Regular",
+      "/CAAAAA+Inter-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/EAAAAA+NotoSansArabic-Regular",
+      "/FAAAAA+NotoSansArabic-Regular",
+      "/GAAAAA+NotoSansArabic-Regular",
+      "/HAAAAA+NotoSansArabic-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "ar-SA"
+  },
+  "GEM_Letterhead_Specification.pdf": {
+    "pages": 3,
+    "all_fonts_embedded": true,
+    "fonts": [
+      "/BAAAAA+Inter-Regular",
+      "/CAAAAA+Jost-Regular",
+      "/DAAAAA+Inter-Regular",
+      "/EAAAAA+Jost-Regular"
+    ],
+    "raster_images": 0,
+    "tags_present": true,
+    "language": "en-GB"
+  }
+}

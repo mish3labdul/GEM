@@ -1,0 +1,1 @@
+Derivative DOCX dates use retained filesystem birth times and final UTC modification times. Original source dates remain in Original_Source_Dates.json. This metadata-only step changes no visible content, font, media, styles or fields. Revision date is 2026-10-07; final verification crossed into 2026-10-08 Asia/Riyadh.

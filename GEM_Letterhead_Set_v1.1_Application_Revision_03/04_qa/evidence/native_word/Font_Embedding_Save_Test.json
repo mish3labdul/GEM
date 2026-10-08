@@ -1,0 +1,172 @@
+{
+ "test": "Native Microsoft Word for Mac 16.113.3: open English First Page working copy, replace [RECIPIENT NAME], Save As .docx, inspect package. 2026-10-08.",
+ "Rev02_as_supplied": {
+  "file_bytes": 6647983,
+  "settings": [
+   "embedTrueTypeFonts",
+   "embedSystemFonts"
+  ],
+  "embedded": {
+   "Symbol": [
+    "embedRegular"
+   ],
+   "Times New Roman": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Inter": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Noto Sans Arabic": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Jost": [
+    "embedRegular"
+   ],
+   "Calibri": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Courier": [
+    "embedRegular"
+   ],
+   "Cambria": [
+    "embedRegular"
+   ],
+   "Arial": [
+    "embedRegular"
+   ]
+  },
+  "odttf_parts": 21,
+  "zero_byte_parts": 4
+ },
+ "A_remove_embedSystemFonts_only": {
+  "file_bytes": 6647902,
+  "settings": [
+   "embedTrueTypeFonts"
+  ],
+  "embedded": {
+   "Symbol": [
+    "embedRegular"
+   ],
+   "Times New Roman": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Inter": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Noto Sans Arabic": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Jost": [
+    "embedRegular"
+   ],
+   "Calibri": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Courier": [
+    "embedRegular"
+   ],
+   "Cambria": [
+    "embedRegular"
+   ],
+   "Arial": [
+    "embedRegular"
+   ]
+  },
+  "odttf_parts": 21,
+  "zero_byte_parts": 4
+ },
+ "B_remove_embedSystemFonts_add_saveSubsetFonts (adopted R03-01)": {
+  "file_bytes": 431595,
+  "settings": [
+   "embedTrueTypeFonts",
+   "saveSubsetFonts"
+  ],
+  "embedded": {
+   "Inter": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Jost": [
+    "embedRegular"
+   ]
+  },
+  "odttf_parts": 5,
+  "zero_byte_parts": 2
+ },
+ "C_remove_both_embedding_flags": {
+  "file_bytes": 6647879,
+  "settings": [
+   "embedTrueTypeFonts"
+  ],
+  "embedded": {
+   "Symbol": [
+    "embedRegular"
+   ],
+   "Times New Roman": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Inter": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Noto Sans Arabic": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Jost": [
+    "embedRegular"
+   ],
+   "Calibri": [
+    "embedRegular",
+    "embedBold",
+    "embedItalic",
+    "embedBold"
+   ],
+   "Courier": [
+    "embedRegular"
+   ],
+   "Cambria": [
+    "embedRegular"
+   ],
+   "Arial": [
+    "embedRegular"
+   ]
+  },
+  "odttf_parts": 21,
+  "zero_byte_parts": 4
+ },
+ "conclusion": "Only B prevents Word embedding unused Office/system fonts (Times New Roman, Calibri, Cambria, Arial, Symbol, Courier) and unused Bold/Italic faces. Word writes empty Bold/Italic stub parts itself in every variant; delivered templates keep exactly three full Regular payloads."
+}

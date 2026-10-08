@@ -1,0 +1,545 @@
+{
+ "Arabic_Continuation__fields": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 542697,
+  "embedded_font_families": [
+   "Inter",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Arabic_Continuation__open": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 542546,
+  "embedded_font_families": [
+   "Inter",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Arabic_First_Page__explicit3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": false,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 591517,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Arabic_First_Page__fields": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 591377,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Arabic_First_Page__flow2": {
+  "pages": 2,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": false,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 591837,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Arabic_First_Page__flow3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": false,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 592053,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Arabic_First_Page__open": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 590930,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Bilingual_Continuation__fields": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 542897,
+  "embedded_font_families": [
+   "Inter",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Bilingual_Continuation__open": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 542938,
+  "embedded_font_families": [
+   "Inter",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Bilingual_First_Page__explicit3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 614234,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Bilingual_First_Page__fields": {
+  "pages": 2,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 614131,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Bilingual_First_Page__flow2": {
+  "pages": 2,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 614368,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Bilingual_First_Page__flow3": {
+  "pages": 4,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 614712,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Bilingual_First_Page__open": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular",
+   "NotoSansArabic-Regular"
+  ],
+  "saved_docx_bytes": 613415,
+  "embedded_font_families": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "zero_byte_font_parts": 4,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "English_Continuation__fields": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular"
+  ],
+  "saved_docx_bytes": 361547,
+  "embedded_font_families": [
+   "Inter"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "English_Continuation__open": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular"
+  ],
+  "saved_docx_bytes": 361378,
+  "embedded_font_families": [
+   "Inter"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "English_First_Page__explicit3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 432365,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "English_First_Page__fields": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 431976,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "English_First_Page__flow2": {
+  "pages": 2,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 432596,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "English_First_Page__flow3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 432751,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "English_First_Page__open": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 431533,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Executive__explicit3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 432438,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Executive__fields": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 432038,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Executive__flow2": {
+  "pages": 2,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 432646,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Executive__flow3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 432635,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Executive__open": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 431566,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Minimal__explicit3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 404996,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Minimal__fields": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 404592,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Minimal__flow2": {
+  "pages": 2,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 405229,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Minimal__flow3": {
+  "pages": 3,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 405364,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ },
+ "Minimal__open": {
+  "pages": 1,
+  "page_fields_and_status_every_page": true,
+  "continuation_header_pages_2plus": true,
+  "pdf_fonts": [
+   "Inter-Regular",
+   "Jost-Regular"
+  ],
+  "saved_docx_bytes": 403591,
+  "embedded_font_families": [
+   "Inter",
+   "Jost"
+  ],
+  "zero_byte_font_parts": 2,
+  "named_styles_retained": true,
+  "live_fields_in_saved_docx": true
+ }
+}
