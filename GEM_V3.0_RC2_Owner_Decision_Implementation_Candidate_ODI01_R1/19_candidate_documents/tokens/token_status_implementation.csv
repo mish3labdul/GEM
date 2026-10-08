@@ -1,0 +1,154 @@
+Token,Original status,Dependency,Weakest dependency status,New status,Value changed?,Authority,QA result
+foundation.color.ink,APPROVED,—,— (no dependency edge),APPROVED,NO,Register J01,PASS
+foundation.color.beige,APPROVED,—,— (no dependency edge),APPROVED,NO,Register J02,PASS
+foundation.color.black,APPROVED,—,— (no dependency edge),APPROVED,NO,Register J03,PASS
+foundation.color.white,APPROVED,—,— (no dependency edge),APPROVED,NO,Register J04,PASS
+semantic.surface.canvas,APPROVED,foundation.color.white [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.surface.signature,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.surface.selected,APPROVED,foundation.color.beige [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.surface.disabled,APPROVED,foundation.color.white [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.surface.scrim,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q03,PASS
+semantic.text.primary,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.text.inverse,APPROVED,foundation.color.white [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.text.signatureAccent,APPROVED,foundation.color.beige [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.border.essential,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.border.decorative,APPROVED,foundation.color.beige [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.border.focus,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.border.error,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.border.disabled,APPROVED,foundation.color.beige [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.action.background,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.action.foreground,APPROVED,foundation.color.white [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.action.hoverBackground,APPROVED,foundation.color.black [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.action.pressedBackground,APPROVED,foundation.color.black [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.action.disabledBackground,APPROVED,foundation.color.white [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.action.disabledText,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.focus.ringLight,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.focus.ringDark,APPROVED,foundation.color.white [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.focus.ringWidth,APPROVED,—,— (no dependency edge),APPROVED,NO,Register V08,PASS
+semantic.focus.ringOffset,APPROVED,—,— (no dependency edge),APPROVED,NO,Register V08,PASS
+semantic.feedback.errorText,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.feedback.successText,APPROVED,foundation.color.ink [APPROVED],APPROVED,APPROVED,NO,Token alias reference,PASS
+semantic.feedback.errorBorderWidth,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q09,PASS
+semantic.feedback.infoBorderWidth,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q10,PASS
+type.family.display,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L01,PASS
+type.family.body,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L02,PASS
+type.family.arabic,PENDING VALIDATION,—,— (no dependency edge),PENDING VALIDATION,NO,Register M02,PASS
+type.family.fallback,APPROVED,—,— (no dependency edge),APPROVED,NO,Register R13,PASS
+type.weight.regular,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L08,PASS
+type.weight.medium,APPROVED,FILE_500 [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,No accepted weight-500 font file in main; Register Y03 Evidence Required; VAL-05; VAL-19 | D4 owner decision 2026-10-08 | D5: weight-500 annotation only,PASS
+type.size.displayXL,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.size.display,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.size.h1,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.size.h2,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.size.h3,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.size.tagline,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L09,PASS
+type.size.eyebrow,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.size.navLabel,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.size.labelSmall,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.size.body,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L12,PASS
+type.size.caption,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L09,PASS
+type.size.label,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L09,PASS
+type.size.arabicDisplay,CONDITIONAL,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08",PASS
+type.size.arabicH1,CONDITIONAL,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08",PASS
+type.size.arabicH2,CONDITIONAL,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08",PASS
+type.size.arabicH3,CONDITIONAL,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08",PASS
+type.size.arabicBody,CONDITIONAL,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08",PASS
+type.size.arabicLabel,CONDITIONAL,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08",PASS
+type.size.arabicCaption,CONDITIONAL,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08",PASS
+type.lineHeight.displayXL,APPROVED,type.size.displayXL [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08,PASS
+type.lineHeight.display,APPROVED,type.size.display [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08,PASS
+type.lineHeight.h1,APPROVED,type.size.h1 [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08,PASS
+type.lineHeight.h2,APPROVED,type.size.h2 [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08,PASS
+type.lineHeight.h3,APPROVED,type.size.h3 [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08,PASS
+type.lineHeight.tagline,APPROVED,type.size.tagline [APPROVED],APPROVED,APPROVED,NO,Part B type table size/line pair; Register L09,PASS
+type.lineHeight.eyebrow,APPROVED,type.size.eyebrow [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08,PASS
+type.lineHeight.navLabel,APPROVED,type.size.navLabel [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08,PASS
+type.lineHeight.labelSmall,APPROVED,type.size.labelSmall [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08,PASS
+type.lineHeight.body,APPROVED,type.size.body [APPROVED],APPROVED,APPROVED,NO,Part B type table size/line pair; Register L09,PASS
+type.lineHeight.caption,APPROVED,type.size.caption [APPROVED],APPROVED,APPROVED,NO,Part B type table size/line pair; Register L09,PASS
+type.lineHeight.label,APPROVED,type.size.label [APPROVED],APPROVED,APPROVED,NO,Part B type table size/line pair; Register L09,PASS
+type.lineHeight.arabicDisplay,APPROVED,type.size.arabicDisplay [CONDITIONAL]; type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07; Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08",PASS
+type.lineHeight.arabicH1,APPROVED,type.size.arabicH1 [CONDITIONAL]; type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07; Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08",PASS
+type.lineHeight.arabicH2,APPROVED,type.size.arabicH2 [CONDITIONAL]; type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07; Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08",PASS
+type.lineHeight.arabicH3,APPROVED,type.size.arabicH3 [CONDITIONAL]; type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07; Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08",PASS
+type.lineHeight.arabicBody,APPROVED,type.size.arabicBody [CONDITIONAL]; type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07; Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08",PASS
+type.lineHeight.arabicLabel,APPROVED,type.size.arabicLabel [CONDITIONAL]; type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07; Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08",PASS
+type.lineHeight.arabicCaption,APPROVED,type.size.arabicCaption [CONDITIONAL]; type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07; Part B type table size/line pair; Register L09 | D4 owner decision 2026-10-08",PASS
+type.styleWeight.label,APPROVED,FILE_500 [CONDITIONAL],CONDITIONAL,CONDITIONAL,NO,No accepted weight-500 font file in main; Register Y03 Evidence Required; VAL-05; VAL-19 | D4 owner decision 2026-10-08 | D5: weight-500 annotation only,PASS
+type.styleWeight.arabicH3,APPROVED,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION]; FILE_500_ARABIC [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"As FILE_500 and Noto Sans Arabic is interim (M02, VAL-07); Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08 | D5: weight-500 annotation only",PASS
+type.styleWeight.arabicLabel,APPROVED,type.family.arabic [PENDING VALIDATION]; type.arabicLineHeightMin [PENDING VALIDATION]; ARABIC_HIERARCHY [PENDING VALIDATION]; FILE_500_ARABIC [PENDING VALIDATION],PENDING VALIDATION,PENDING VALIDATION,NO,"As FILE_500 and Noto Sans Arabic is interim (M02, VAL-07); Part B Arabic hierarchy, M04; Part B slide 12 ""ARABIC AND RTL · PENDING VALIDATION""; Register M02/M04; VAL-07 | D4 owner decision 2026-10-08 | D5: weight-500 annotation only",PASS
+type.tracking.displayXL,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.tracking.display,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.tracking.h1,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.tracking.h2,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.tracking.h3,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.tracking.tagline,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L09,PASS
+type.tracking.eyebrow,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.tracking.navLabel,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.tracking.labelSmall,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register L09,PASS
+type.tracking.body,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L10,PASS
+type.tracking.caption,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L10,PASS
+type.tracking.label,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L10,PASS
+type.tracking.arabic,APPROVED,—,— (no dependency edge),APPROVED,NO,Register M05,PASS
+type.measure.maxReading,APPROVED,—,— (no dependency edge),APPROVED,NO,Register L11,PASS
+type.arabicLineHeightMin,PENDING VALIDATION,—,— (no dependency edge),PENDING VALIDATION,NO,Register M04,PASS
+space.1,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+space.2,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+space.3,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+space.4,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+space.6,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+space.8,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+space.12,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+space.16,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+space.24,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N13,PASS
+radius.editorial,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q06,PASS
+radius.control,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q06,PASS
+size.target.min,APPROVED,—,— (no dependency edge),APPROVED,NO,Register V12,PASS
+size.logo.lockupMin,APPROVED,—,— (no dependency edge),APPROVED,NO,Register H10,PASS
+size.logo.symbolMin,APPROVED,—,— (no dependency edge),APPROVED,NO,Register H11,PASS
+size.glyph.box,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N15,PASS
+size.glyph.stroke,APPROVED,—,— (no dependency edge),APPROVED,NO,Register N15,PASS
+size.glyph.sizes,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register N15,PASS
+size.hairline,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q03,PASS
+size.emphasisBorder,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q03,PASS
+motion.duration.instant,APPROVED,—,— (no dependency edge),APPROVED,NO,Register P09,PASS
+motion.duration.hover,APPROVED,—,— (no dependency edge),APPROVED,NO,Register P03,PASS
+motion.duration.confirmation,APPROVED,—,— (no dependency edge),APPROVED,NO,Register P03,PASS
+motion.duration.modal,APPROVED,—,— (no dependency edge),APPROVED,NO,Register P03,PASS
+motion.duration.reveal,APPROVED,—,— (no dependency edge),APPROVED,NO,Register P02,PASS
+motion.duration.revealRing,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register P01,PASS
+motion.duration.revealSpark,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register P01,PASS
+motion.duration.revealQuarter,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register P01,PASS
+motion.easing.out,APPROVED,—,— (no dependency edge),APPROVED,NO,Register P03,PASS
+layout.breakpoint.compact,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q17,PASS
+layout.breakpoint.mobile,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q17,PASS
+layout.breakpoint.tablet,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q17,PASS
+layout.breakpoint.desktop,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q17,PASS
+layout.breakpoint.wide,APPROVED,—,— (no dependency edge),APPROVED,NO,Register Q17,PASS
+layout.columns.compact,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.columns.mobile,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.columns.tablet,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.columns.desktop,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.columns.wide,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.gutter.compact,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.gutter.mobile,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.gutter.tablet,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.gutter.desktop,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.gutter.wide,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.margin.compact,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.margin.mobile,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.margin.tablet,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.margin.desktop,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.margin.wide,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.maxWidth.desktop,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.maxWidth.wide,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.maxWidth.modal,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register Q17,PASS
+layout.reflowMin,APPROVED,—,— (no dependency edge),APPROVED,NO,Register V01,PASS
+locale.source,APPROVED,—,— (no dependency edge),APPROVED,NO,Register D03,PASS
+locale.arabic,PENDING VALIDATION,—,— (no dependency edge),PENDING VALIDATION,NO,Register D04,PASS
+locale.numeralsTechnical,APPROVED,—,— (no dependency edge),APPROVED,NO,Register M12,PASS
+locale.numeralsGuestArabic,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register M11,PASS
+locale.calendarDefault,CONDITIONAL,—,— (no dependency edge),CONDITIONAL,NO,Register DS06,PASS
+locale.currencyFormat,PENDING VALIDATION,—,— (no dependency edge),PENDING VALIDATION,NO,Register DS06,PASS
+locale.textExpansion,APPROVED,—,— (no dependency edge),APPROVED,NO,Register DS06,PASS
+locale.direction,APPROVED,—,— (no dependency edge),APPROVED,NO,Register M06,PASS

@@ -1,0 +1,229 @@
+Document,Slide,Shape,Paragraph,Run,Text,Typeface,Font size,Bold flag,Language,Role,Visible?,Current visual purpose,Proposed action
+Part A,15,Table 0 [table r1c1],1,1,Audience,Inter,15,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part A,15,Table 0 [table r1c2],1,1,How GEM says it,Inter,15,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,3,Text 19,1,1,Character.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,3,Text 20,1,1,Principles.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,3,Text 21,1,1,"Tagline. HOSPITALITY, IN PERFECT PROPORTION — fixed; set only with the tagline token (Jost 400, capitals, 0.18em); not translated without brand approval (M10). Secondary line: Every arrival, precisely composed. (Jost 400, sentence case).",Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,3,Text 23,1,1,Not allowed.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,4,Table 0 [table r1c1],1,1,Part,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,4,Table 0 [table r1c2],1,1,Owns,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,4,Table 0 [table r1c3],1,1,This file set,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,5,Table 0 [table r1c1],1,1,Role,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,5,Table 0 [table r1c2],1,1,Responsibility,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,5,Table 1 [table r1c1],1,1,Role,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,5,Table 1 [table r1c2],1,1,Responsibility,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,5,Text 3,1,1,"Canonical role list: the register's Owners & Governance sheet, stated in Part A slide 72; this table lists digital responsibilities only. Change control. Any new token, component or variant states its purpose, register decision, accessibility check and RTL check, signed off by the Design Custodian and Digital Design Lead.",Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,6,Table 0 [table r1c1],1,1,Group,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,6,Table 0 [table r1c2],1,1,Tokens,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Text 3,1,1,INK with WHITE text,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Text 4,1,1,BEIGE with INK text,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Text 5,1,1,BEIGE on BLACK,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Text 6,1,1,BLACK on WHITE,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Text 7,1,1,BEIGE on WHITE,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Text 8,1,1,INK on BLACK,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Table 0 [table r1c1],1,1,State,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Table 0 [table r1c2],1,1,Label,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,7,Table 0 [table r1c3],1,1,Treatment (Q10: no functional colours),Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,10,Table 0 [table r1c1],1,1,Token,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,10,Table 0 [table r1c2],1,1,Size / line,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,10,Table 0 [table r1c3],1,1,Weight,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,10,Table 0 [table r1c4],1,1,Tracking,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,10,Table 0 [table r1c5],1,1,Use,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,11,Text 13,1,1,PowerPoint:,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,11,Text 14,1,1,Always 0:,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,11,Text 15,1,1,"Prohibited: tracking on lowercase running text, on Arabic, below 12px, or to fit a word on a line. Navigation: product UI navigation is sentence case at tracking 0 (body or label tokens); navLabel tracked capitals are used only on editorial signature surfaces.",Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,12,Table 0 [table r1c1],1,1,Token (M04),Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,12,Table 0 [table r1c2],1,1,Size / line,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,12,Table 0 [table r1c3],1,1,Wt,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,12,Table 1 [table r1c1],1,1,Rule,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,12,Table 1 [table r1c2],1,1,Decision,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,13,Table 0 [table r1c1],1,1,Mirrors,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,13,Table 0 [table r1c2],1,1,Does not mirror,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,13,Text 3,1,1,"Implementation. Part B owns the mechanics of the Arabic-first default (S07, Part A slide 65): dir=""rtl"", logical properties only (margin-inline-start, text-align: start, inset-inline), bidi isolation. No left or right in component CSS. Fabrication follows Part C slide 41.",Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,13,Text 4,1,1,Mixed language.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,13,Text 5,1,1,Focus.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,14,Table 0 [table r1c1],1,1,Band,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,14,Table 0 [table r1c2],1,1,Width,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,14,Table 0 [table r1c3],1,1,Columns,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,14,Table 0 [table r1c4],1,1,Gutter,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,14,Table 0 [table r1c5],1,1,Margin,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,14,Table 0 [table r1c6],1,1,Behaviour,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,15,Table 0 [table r1c1],1,1,Family,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,15,Table 0 [table r1c2],1,1,Compact and Mobile,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,15,Table 0 [table r1c3],1,1,Tablet,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,15,Table 0 [table r1c4],1,1,Desktop and Wide,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,16,Table 0 [table r1c1],1,1,Requirement,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,16,Table 0 [table r1c2],1,1,Rule,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,16,Table 1 [table r1c1],1,1,Requirement,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,16,Table 1 [table r1c2],1,1,Rule,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,17,Table 0 [table r1c1],1,1,Token,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,17,Table 0 [table r1c2],1,1,Value,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,17,Table 0 [table r1c3],1,1,Use,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,18,Table 0 [table r1c1],1,1,Category,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,18,Table 0 [table r1c2],1,1,Glyphs,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,18,Table 0 [table r1c3],1,1,Status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,18,Text 4,1,1,Optics.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,18,Text 5,1,1,Accessibility.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,18,Text 6,1,1,"RTL. Only previous and next mirror. SVGs are working geometry, not supplier artwork (DS05). The warning glyph is PENDING VALIDATION and is used only inside Field error and Alert text until functional colour is decided (Q10); Alert has no warning variant.",Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,19,Text 3,1,1,Voice (G01–G10).,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,19,Text 4,1,1,Use:,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,19,Text 4,2,1,Avoid:,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,19,Table 0 [table r1c1],1,1,1. State label,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,19,Table 0 [table r1c2],1,1,2. Title,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,19,Table 0 [table r1c3],1,1,3. Actionable sentence,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,19,Text 5,1,1,Field errors state the fix.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,19,Text 6,1,1,Buttons and links.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,20,Table 0 [table r1c1],1,1,Context,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,20,Table 0 [table r1c2],1,1,Example,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,20,Table 0 [table r1c3],1,1,Note,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,21,Table 0 [table r1c1],1,1,Token,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,21,Table 0 [table r1c2],1,1,Value,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,21,Table 0 [table r1c3],1,1,Status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,21,Text 4,1,1,DatePicker.,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,22,Table 0 [table r1c1],1,1,Component,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,22,Table 0 [table r1c2],1,1,Purpose,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,22,Table 1 [table r1c1],1,1,Component,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,22,Table 1 [table r1c2],1,1,Purpose,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,23,Table 0 [table r1c1],1,1,Component,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,23,Table 0 [table r1c2],1,1,Purpose,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,23,Table 1 [table r1c1],1,1,Component,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,23,Table 1 [table r1c2],1,1,Purpose,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,24,Table 0 [table r1c1],1,1,Check,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,24,Table 0 [table r1c2],1,1,Result,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,24,Text 3,1,2,Not yet included:,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,25,Table 0 [table r1c1],1,1,Pattern,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,25,Table 0 [table r1c2],1,1,Components · status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,26,Flow note 1,1,1,Primary action,Inter,10,1,unset (en by default),Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,26,Flow note 2,1,1,Errors and validation,Inter,10,1,unset (en by default),Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,26,Flow note 3,1,1,RTL / Arabic,Inter,10,1,unset (en by default),Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,26,Flow note 4,1,1,Responsive,Inter,10,1,unset (en by default),Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,26,Flow note 5,1,1,Status,Inter,10,1,unset (en by default),Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,27,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,27,Table 0 [table r1c2],1,1,Rule,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,27,Table 0 [table r1c3],1,1,Status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,29,Table 0 [table r1c1],1,1,Principle,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,29,Table 0 [table r1c2],1,1,Rule,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,30,Text 5,1,1,"Storybook-ready (DS03, VAL-20):",Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,31,Table 0 [table r1c1],1,1,Area,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,31,Table 0 [table r1c2],1,1,Result,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,31,Table 0 [table r1c3],1,1,Notes,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,32,Table 0 [table r1c1],1,1,ID,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,32,Table 0 [table r1c2],1,1,Gate,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,32,Table 0 [table r1c3],1,1,Status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,32,Table 1 [table r1c1],1,1,ID,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,32,Table 1 [table r1c2],1,1,Gate,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,32,Table 1 [table r1c3],1,1,Status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,33,Text 6,1,1,Added:,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,33,Text 7,1,1,Changed:,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,33,Text 7,1,3,Removed:,Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,33,Text 8,1,1,2.1:,Inter,12,1,en-US,Label / caps (≤12 pt),Yes,Label emphasis; Bold removal is applied (D5); bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400,REQUIRES VISUAL REVIEW
+Part B,35,Table 0 [table r1c1],1,1,File,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,35,Table 0 [table r1c2],1,1,Ink,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,35,Table 0 [table r1c3],1,1,Use,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,35,Text 3,1,1,"Rules (H10–H15). Lockup min 120px; symbol min 32px; below that the no-spark symbol (H12; supplied in the kit). Clearspace u = G-ring radius, min 1u, preferred 2u. Never mirror (M08) or recreate in type (L16).",Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part B,35,Text 4,1,1,"Also in the kit: ink and white colourways, stacked lockup, no-spark symbol, clearspace versions, PDF, EPS and PNG, favicon and app icons (H16–H20). Renamed to GEM_[STREAM]_[ASSET]_[VARIANT]_vX.Y_YYYYMMDD.ext (X12) at first manifest (VAL-16), never redrawn. Embroidery and deboss masters not supplied. Acceptance PENDING (VAL-02).",Inter,12,1,en-US,Body / emphasis run,Yes,Inline emphasis; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,4,Table 0 [table r1c1],1,1,Role,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,4,Table 0 [table r1c2],1,1,Prepares,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,4,Table 0 [table r1c3],1,1,Checks,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,4,Table 0 [table r1c4],1,1,Approves,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,4,Table 0 [table r1c5],1,1,Releases,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,4,Table 0 [table r1c6],1,1,Archives,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,7,Table 0 [table r1c1],1,1,Asset,Inter,11.7,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,7,Table 0 [table r1c2],1,1,On file today,Inter,11.7,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,7,Table 0 [table r1c3],1,1,Vector master,Inter,11.7,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,9,Table 0 [table r1c1],1,1,Process,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,9,Table 0 [table r1c2],1,1,Evidence required before use,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,15,Table 0 [table r1c1],1,1,Family,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,15,Table 0 [table r1c2],1,1,Role,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,15,Table 0 [table r1c3],1,1,Weights,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,15,Table 0 [table r1c4],1,1,Build and licence,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,21,Table 0 [table r1c1],1,1,Export item,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,21,Table 0 [table r1c2],1,1,Requirement,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,23,Table 0 [table r1c1],1,1,Attribute,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,23,Table 0 [table r1c2],1,1,Value,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,28,Table 0 [table r1c1],1,1,Product,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,28,Table 0 [table r1c2],1,1,Format,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,28,Table 0 [table r1c3],1,1,Volume,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,28,Table 0 [table r1c4],1,1,Material,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,28,Table 0 [table r1c5],1,1,Closure,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,30,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,30,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,32,Table 0 [table r1c1],1,1,Element,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,32,Table 0 [table r1c2],1,1,Status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,34,Table 0 [table r1c1],1,1,Rule,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,34,Table 0 [table r1c2],1,1,Requirement,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,39,Table 0 [table r1c1],1,1,Type,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,39,Table 0 [table r1c2],1,1,Role,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,39,Table 0 [table r1c3],1,1,Size and material,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,39,Table 0 [table r1c4],1,1,Status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,43,Table 0 [table r1c1],1,1,Check,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,43,Table 0 [table r1c2],1,1,Status,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,44,Table 0 [table r1c1],1,1,Item,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,44,Table 0 [table r1c2],1,1,Format and stock,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,44,Table 0 [table r1c3],1,1,Template,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,47,Table 0 [table r1c1],1,1,Included in the brief,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,47,Table 0 [table r1c2],1,1,Source,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,49,Table 0 [table r1c1],1,1,Level,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,49,Table 0 [table r1c2],1,1,Name,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,49,Table 0 [table r1c3],1,1,Proves,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,49,Table 0 [table r1c4],1,1,Cannot prove / cannot replace,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,51,Table 0 [table r1c1],1,1,Outcome,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,51,Table 0 [table r1c2],1,1,Effect,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,52,Table 0 [table r1c1],1,1,Check,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,52,Table 0 [table r1c2],1,1,Standard,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,54,Table 0 [table r1c1],1,1,Record,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,54,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,57,Table 0 [table r1c1],1,1,Column,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,57,Table 0 [table r1c2],1,1,Content,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,60,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,60,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,60,Table 0 [table r1c3],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,60,Table 0 [table r1c4],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,61,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,61,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,62,Table 0 [table r1c1],1,1,Check,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,62,Table 0 [table r1c2],1,1,Result,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,62,Table 0 [table r1c3],1,1,Evidence,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,62,Table 0 [table r1c4],1,1,Init.,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,62,Table 1 [table r1c1],1,1,Check,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,62,Table 1 [table r1c2],1,1,Result,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,62,Table 1 [table r1c3],1,1,Evidence,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,62,Table 1 [table r1c4],1,1,Init.,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,63,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,63,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,63,Table 0 [table r1c3],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,63,Table 0 [table r1c4],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,64,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,64,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,64,Table 0 [table r1c3],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,64,Table 0 [table r1c4],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,65,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,65,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,66,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,66,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,67,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,67,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,68,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,68,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,68,Table 0 [table r1c3],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,68,Table 0 [table r1c4],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,69,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,69,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,69,Table 0 [table r1c3],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,69,Table 0 [table r1c4],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,70,Table 0 [table r1c1],1,1,Field,Inter,11.93,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,70,Table 0 [table r1c2],1,1,Entry,Inter,11.93,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,70,Table 0 [table r1c3],1,1,Field,Inter,11.93,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,70,Table 0 [table r1c4],1,1,Entry,Inter,11.93,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,71,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,71,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,71,Table 0 [table r1c3],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,71,Table 0 [table r1c4],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,72,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,72,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,72,Table 0 [table r1c3],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,72,Table 0 [table r1c4],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,74,Table 0 [table r1c1],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,74,Table 0 [table r1c2],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,74,Table 0 [table r1c3],1,1,Field,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400
+Part C,74,Table 0 [table r1c4],1,1,Entry,Inter,12,1,en-US,Table header cell,Yes,Column/row header emphasis in a table; Bold removal is applied (D5),REMOVE BOLD — USE 400

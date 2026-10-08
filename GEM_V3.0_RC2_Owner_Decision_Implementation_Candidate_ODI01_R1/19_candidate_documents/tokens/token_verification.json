@@ -1,0 +1,59 @@
+{
+ "verifications": {
+  "Value parity (value+type+name set, 153 tokens)": "PASS",
+  "Decision IDs unchanged": "PASS",
+  "Only status/description changed (no other key touched)": "PASS",
+  "Description changed only on the 4 weight-500 tokens": "PASS",
+  "No promotion (every status \u2264 original)": "PASS",
+  "26 normalizations applied": "PASS",
+  "CSS declarations identical (name+value)": "PASS",
+  "JSON\u2194CSS status parity (153 tokens with a CSS status comment; 0 without)": "PASS",
+  "CSS status comments updated = 26": "PASS",
+  "D5 CSS annotations on 4 weight-500 tokens": "PASS",
+  "Dependency hierarchy: unexplained inflation (candidate)": "PASS \u2014 0",
+  "Arabic hierarchy tokens not stronger than PENDING VALIDATION (16 tokens)": "PASS",
+  "Non-Arabic lineHeight \u2264 paired size status": "PASS",
+  "Non-Arabic CONDITIONAL size \u2192 lineHeight \u2264 CONDITIONAL": "PASS",
+  "Part B slide 21 locale table \u2194 candidate tokens (value+status, 5 rows)": "PASS",
+  "Part B slides 10/12 typography tables: carry no status column \u2192 size/line/weight/tracking values re-verified by audit_tokens.py": "SEE audit_tokens.py (run separately)"
+ },
+ "transitions": {
+  "APPROVED -> CONDITIONAL": 10,
+  "CONDITIONAL -> PENDING VALIDATION": 7,
+  "APPROVED -> PENDING VALIDATION": 9
+ },
+ "changed": [
+  "type.weight.medium",
+  "type.size.arabicDisplay",
+  "type.size.arabicH1",
+  "type.size.arabicH2",
+  "type.size.arabicH3",
+  "type.size.arabicBody",
+  "type.size.arabicLabel",
+  "type.size.arabicCaption",
+  "type.lineHeight.displayXL",
+  "type.lineHeight.display",
+  "type.lineHeight.h1",
+  "type.lineHeight.h2",
+  "type.lineHeight.h3",
+  "type.lineHeight.eyebrow",
+  "type.lineHeight.navLabel",
+  "type.lineHeight.labelSmall",
+  "type.lineHeight.arabicDisplay",
+  "type.lineHeight.arabicH1",
+  "type.lineHeight.arabicH2",
+  "type.lineHeight.arabicH3",
+  "type.lineHeight.arabicBody",
+  "type.lineHeight.arabicLabel",
+  "type.lineHeight.arabicCaption",
+  "type.styleWeight.label",
+  "type.styleWeight.arabicH3",
+  "type.styleWeight.arabicLabel"
+ ],
+ "n500": [
+  "type.weight.medium",
+  "type.styleWeight.label",
+  "type.styleWeight.arabicH3",
+  "type.styleWeight.arabicLabel"
+ ]
+}

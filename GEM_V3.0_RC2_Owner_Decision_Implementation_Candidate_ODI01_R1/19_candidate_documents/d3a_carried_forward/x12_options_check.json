@@ -1,0 +1,16 @@
+{
+ "n": 34,
+ "uniqA": 34,
+ "uniqB": 34,
+ "unmapped": 0,
+ "collA": 0,
+ "collB": 0,
+ "ciA": true,
+ "ciB": true,
+ "existing": 11,
+ "exA": "GEM_BRAND_HORIZONTAL_BLACK_v[X.Y]_[YYYYMMDD].svg",
+ "exB": "GEM_Logo_Horizontal_Black_v[X.Y]_[YYYYMMDD].svg",
+ "ex_partA": "GEM_Logo_Horizontal_Black_v3.0_20261006.svg",
+ "lenA": 66,
+ "lenB": 65
+}

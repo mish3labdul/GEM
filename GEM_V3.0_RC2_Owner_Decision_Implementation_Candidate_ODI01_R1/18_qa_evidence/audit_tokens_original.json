@@ -1,0 +1,579 @@
+{
+ "checks": [
+  {
+   "check": "B10 displayXL size",
+   "documented": "96",
+   "token": "96px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 displayXL lineHeight",
+   "documented": "104",
+   "token": "104px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 displayXL tracking",
+   "documented": "0.12em",
+   "token": "0.12em",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 displayXL weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 display size",
+   "documented": "64",
+   "token": "64px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 display lineHeight",
+   "documented": "72",
+   "token": "72px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 display tracking",
+   "documented": "0.08em",
+   "token": "0.08em",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 display weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 h1 size",
+   "documented": "48",
+   "token": "48px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h1 lineHeight",
+   "documented": "56",
+   "token": "56px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h1 tracking",
+   "documented": "0.02em",
+   "token": "0.02em",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h1 weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 h2 size",
+   "documented": "32",
+   "token": "32px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h2 lineHeight",
+   "documented": "40",
+   "token": "40px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h2 tracking",
+   "documented": "0.01em",
+   "token": "0.01em",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h2 weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 h3 size",
+   "documented": "24",
+   "token": "24px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h3 lineHeight",
+   "documented": "32",
+   "token": "32px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h3 tracking",
+   "documented": "0",
+   "token": "0",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 h3 weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 tagline size",
+   "documented": "14",
+   "token": "14px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 tagline lineHeight",
+   "documented": "20",
+   "token": "20px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 tagline tracking",
+   "documented": "0.18em",
+   "token": "0.18em",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 tagline weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 eyebrow size",
+   "documented": "13",
+   "token": "13px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 eyebrow lineHeight",
+   "documented": "16",
+   "token": "16px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 eyebrow tracking",
+   "documented": "0.16em",
+   "token": "0.16em",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 eyebrow weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 navLabel size",
+   "documented": "14",
+   "token": "14px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 navLabel lineHeight",
+   "documented": "20",
+   "token": "20px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 navLabel tracking",
+   "documented": "0.08em",
+   "token": "0.08em",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 navLabel weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 labelSmall size",
+   "documented": "12",
+   "token": "12px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 labelSmall lineHeight",
+   "documented": "16",
+   "token": "16px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 labelSmall tracking",
+   "documented": "0.08em",
+   "token": "0.08em",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 labelSmall weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 body size",
+   "documented": "16",
+   "token": "16px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 body lineHeight",
+   "documented": "26",
+   "token": "26px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 body tracking",
+   "documented": "0",
+   "token": "0",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 body weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 caption size",
+   "documented": "14",
+   "token": "14px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 caption lineHeight",
+   "documented": "20",
+   "token": "20px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 caption tracking",
+   "documented": "0",
+   "token": "0",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 caption weight",
+   "documented": "400",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B10 label size",
+   "documented": "16",
+   "token": "16px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 label lineHeight",
+   "documented": "24",
+   "token": "24px",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 label tracking",
+   "documented": "0",
+   "token": "0",
+   "result": "PASS"
+  },
+  {
+   "check": "B10 label weight",
+   "documented": "500",
+   "token": "no per-style weight token",
+   "result": "INFO"
+  },
+  {
+   "check": "B12 arabicDisplay size",
+   "documented": "56",
+   "token": "56px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicDisplay lineHeight",
+   "documented": "76",
+   "token": "76px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicH1 size",
+   "documented": "40",
+   "token": "40px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicH1 lineHeight",
+   "documented": "60",
+   "token": "60px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicH2 size",
+   "documented": "30",
+   "token": "30px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicH2 lineHeight",
+   "documented": "46",
+   "token": "46px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicH3 size",
+   "documented": "24",
+   "token": "24px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicH3 lineHeight",
+   "documented": "38",
+   "token": "38px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicBody size",
+   "documented": "18",
+   "token": "18px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicBody lineHeight",
+   "documented": "32",
+   "token": "32px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicLabel size",
+   "documented": "16",
+   "token": "16px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicLabel lineHeight",
+   "documented": "26",
+   "token": "26px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicCaption size",
+   "documented": "15",
+   "token": "15px",
+   "result": "PASS"
+  },
+  {
+   "check": "B12 arabicCaption lineHeight",
+   "documented": "26",
+   "token": "26px",
+   "result": "PASS"
+  },
+  {
+   "check": "B14 breakpoint compact",
+   "documented": "0px",
+   "token": "0px",
+   "result": "PASS"
+  },
+  {
+   "check": "B14 breakpoint mobile",
+   "documented": "480px",
+   "token": "480px",
+   "result": "PASS"
+  },
+  {
+   "check": "B14 breakpoint tablet",
+   "documented": "720px",
+   "token": "720px",
+   "result": "PASS"
+  },
+  {
+   "check": "B14 breakpoint desktop",
+   "documented": "1024px",
+   "token": "1024px",
+   "result": "PASS"
+  },
+  {
+   "check": "B14 breakpoint wide",
+   "documented": "1440px",
+   "token": "1440px",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 duration-instant",
+   "documented": "0ms",
+   "token": "0ms",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 duration-hover",
+   "documented": "150ms",
+   "token": "150ms",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 duration-confirmation",
+   "documented": "180ms",
+   "token": "180ms",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 duration-modal",
+   "documented": "200ms",
+   "token": "200ms",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 duration-reveal",
+   "documented": "1500ms",
+   "token": "1500ms",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 reveal-ring",
+   "documented": "900ms from 0",
+   "token": "900ms",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 reveal-spark",
+   "documented": "200ms from 900",
+   "token": "200ms",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 reveal-quarter",
+   "documented": "400ms from 1100",
+   "token": "400ms",
+   "result": "PASS"
+  },
+  {
+   "check": "B17 easing-out",
+   "documented": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+   "token": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+   "result": "PASS"
+  },
+  {
+   "check": "B8 spacing scale",
+   "documented": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+   ],
+   "token": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+   ],
+   "result": "PASS"
+  }
+ ],
+ "status_findings": [
+  [
+   "type.lineHeight.displayXL",
+   "APPROVED",
+   "paired size token is CONDITIONAL"
+  ],
+  [
+   "type.lineHeight.display",
+   "APPROVED",
+   "paired size token is CONDITIONAL"
+  ],
+  [
+   "type.lineHeight.h1",
+   "APPROVED",
+   "paired size token is CONDITIONAL"
+  ],
+  [
+   "type.lineHeight.h2",
+   "APPROVED",
+   "paired size token is CONDITIONAL"
+  ],
+  [
+   "type.lineHeight.h3",
+   "APPROVED",
+   "paired size token is CONDITIONAL"
+  ],
+  [
+   "type.lineHeight.eyebrow",
+   "APPROVED",
+   "paired size token is CONDITIONAL"
+  ],
+  [
+   "type.lineHeight.navLabel",
+   "APPROVED",
+   "paired size token is CONDITIONAL"
+  ],
+  [
+   "type.lineHeight.labelSmall",
+   "APPROVED",
+   "paired size token is CONDITIONAL"
+  ],
+  [
+   "type.lineHeight.arabicDisplay",
+   "APPROVED",
+   "Arabic hierarchy is PENDING VALIDATION on Part B slide 12 (M01, VAL-07)"
+  ],
+  [
+   "type.lineHeight.arabicH1",
+   "APPROVED",
+   "Arabic hierarchy is PENDING VALIDATION on Part B slide 12 (M01, VAL-07)"
+  ],
+  [
+   "type.lineHeight.arabicH2",
+   "APPROVED",
+   "Arabic hierarchy is PENDING VALIDATION on Part B slide 12 (M01, VAL-07)"
+  ],
+  [
+   "type.lineHeight.arabicH3",
+   "APPROVED",
+   "Arabic hierarchy is PENDING VALIDATION on Part B slide 12 (M01, VAL-07)"
+  ],
+  [
+   "type.lineHeight.arabicBody",
+   "APPROVED",
+   "Arabic hierarchy is PENDING VALIDATION on Part B slide 12 (M01, VAL-07)"
+  ],
+  [
+   "type.lineHeight.arabicLabel",
+   "APPROVED",
+   "Arabic hierarchy is PENDING VALIDATION on Part B slide 12 (M01, VAL-07)"
+  ],
+  [
+   "type.lineHeight.arabicCaption",
+   "APPROVED",
+   "Arabic hierarchy is PENDING VALIDATION on Part B slide 12 (M01, VAL-07)"
+  ]
+ ],
+ "css": {
+  "custom_properties": 153,
+  "reduced_motion_block": true,
+  "raw_hex_outside_foundation": [
+   "#020202",
+   "#12171D",
+   "#BCACA7",
+   "#FFFFFF"
+  ]
+ },
+ "token_count": 153,
+ "summary": {
+  "PASS": 65,
+  "FAIL": 0,
+  "INFO": 12
+ }
+}

@@ -1,0 +1,66 @@
+Document,Slide,Run count before,Brand-font bold flags before,Brand-font bold flags after,Visible change?,Visual QA,Notes
+Part A,15,17,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 17→17; overlaps 0→0; words outside page 0
+Part A,35,13,0,0,Yes — wording,PASS — inspected,word-origin shift 44.39 pt; lines 17→17; overlaps 0→0; words outside page 0
+Part B,3,22,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.14 pt; lines 28→28; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,4,26,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 37→37; overlaps 0→0; words outside page 0
+Part B,5,33,5,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 41→41; overlaps 0→0; words outside page 0
+Part B,6,19,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 20→20; overlaps 0→0; words outside page 0
+Part B,7,30,9,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 30→30; overlaps 0→0; words outside page 0
+Part B,10,71,5,0,Yes — wording,PASS — inspected,word-origin shift 33.04 pt; lines 75→77; overlaps 0→0; words outside page 0
+Part B,11,17,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.15 pt; lines 22→22; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,12,46,5,0,Yes — wording,PASS — inspected,word-origin shift 0.0 pt; lines 49→51; overlaps 0→0; words outside page 0
+Part B,13,22,5,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.16 pt; lines 27→27; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,14,40,6,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 41→41; overlaps 0→0; words outside page 0
+Part B,15,36,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 37→37; overlaps 0→0; words outside page 0
+Part B,16,48,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 49→49; overlaps 0→0; words outside page 0
+Part B,17,37,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 42→42; overlaps 0→0; words outside page 0
+Part B,18,24,6,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.17 pt; lines 32→32; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,19,28,8,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.27 pt; lines 29→29; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,20,30,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 31→31; overlaps 0→0; words outside page 0
+Part B,21,31,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.13 pt; lines 34→34; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,22,36,4,0,Yes — wording,PASS — inspected,word-origin shift 0.65 pt; lines 37→37; overlaps 0→0; words outside page 0
+Part B,23,32,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 33→33; overlaps 0→0; words outside page 0
+Part B,24,24,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 1.19 pt; lines 23→23; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,25,26,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 33→33; overlaps 0→0; words outside page 0
+Part B,26,23,5,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 63→63; overlaps 0→0; words outside page 0
+Part B,27,31,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 34→34; overlaps 0→0; words outside page 0
+Part B,29,20,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 22→22; overlaps 0→0; words outside page 0
+Part B,30,7,1,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.34 pt; lines 22→22; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,31,36,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 37→37; overlaps 0→0; words outside page 0
+Part B,32,69,6,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 70→70; overlaps 0→0; words outside page 0
+Part B,33,20,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.16 pt; lines 18→18; overlaps 0→0; words outside page 0; run-in head / emphasis weakened at 400 — no adjustment applied (owner/native review)
+Part B,35,23,5,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 30→30; overlaps 0→0; words outside page 0
+Part C,4,59,6,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 62→62; overlaps 0→0; words outside page 0
+Part C,7,41,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 42→42; overlaps 0→0; words outside page 0
+Part C,9,27,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 27→27; overlaps 0→0; words outside page 0
+Part C,15,24,4,0,Yes — wording,PASS — inspected,word-origin shift 0.0 pt; lines 27→29; overlaps 0→0; words outside page 0
+Part C,21,23,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 23→23; overlaps 0→0; words outside page 0
+Part C,23,23,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 25→25; overlaps 0→0; words outside page 0
+Part C,28,35,5,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 35→35; overlaps 0→0; words outside page 0
+Part C,30,24,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 24→24; overlaps 0→0; words outside page 0
+Part C,32,21,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 21→21; overlaps 0→0; words outside page 0
+Part C,34,21,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 21→21; overlaps 0→0; words outside page 0
+Part C,39,32,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 33→33; overlaps 0→0; words outside page 0
+Part C,43,18,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 18→18; overlaps 0→0; words outside page 0
+Part C,44,23,3,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 24→24; overlaps 0→0; words outside page 0
+Part C,47,22,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 22→22; overlaps 0→0; words outside page 0
+Part C,49,29,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 32→32; overlaps 0→0; words outside page 0
+Part C,51,16,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 16→16; overlaps 0→0; words outside page 0
+Part C,52,18,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 18→18; overlaps 0→0; words outside page 0
+Part C,54,18,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 18→18; overlaps 0→0; words outside page 0
+Part C,57,18,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 18→18; overlaps 0→0; words outside page 0
+Part C,60,50,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 30→30; overlaps 0→0; words outside page 0
+Part C,61,22,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 24→24; overlaps 0→0; words outside page 0
+Part C,62,91,8,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 55→55; overlaps 0→0; words outside page 0
+Part C,63,42,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 26→26; overlaps 0→0; words outside page 0
+Part C,64,46,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 27→27; overlaps 0→0; words outside page 0
+Part C,65,28,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 28→28; overlaps 0→0; words outside page 0
+Part C,66,18,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 18→18; overlaps 0→0; words outside page 0
+Part C,67,18,2,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 18→18; overlaps 0→0; words outside page 0
+Part C,68,46,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 28→28; overlaps 0→0; words outside page 0
+Part C,69,50,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — automated geometry metrics only (not inspected by eye),word-origin shift 0.0 pt; lines 30→30; overlaps 0→0; words outside page 0
+Part C,70,54,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 31→31; overlaps 0→0; words outside page 0
+Part C,71,50,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 30→30; overlaps 0→0; words outside page 0
+Part C,72,50,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 30→30; overlaps 0→0; words outside page 0
+Part C,74,37,4,0,Yes — weight of text runs (400 instead of synthetic bold),PASS — inspected,word-origin shift 0.0 pt; lines 23→23; overlaps 0→0; words outside page 0
+TOTAL — all slides,,,228,0,,,"total b=""1"" runs before=228; after=0. Brand-font b=""1"" before=228; after=0. Non-brand b=""1"" before=0; after=0. Part D: 0 before, 0 after, deck unchanged."

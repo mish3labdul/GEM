@@ -1,0 +1,753 @@
+{
+ "structure": {
+  "GEM_Letterhead_Arabic_Continuation.docx": {
+   "word/document.xml": [
+    {
+     "text": "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "«نص الصفحة التالية»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي.",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً.",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "وتفضلوا بقبول التحية،",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "«التوقيع»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 18,
+     "script": "AR"
+    },
+    {
+     "text": "«اسم الموقّع»«المسمى الوظيفي»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    }
+   ],
+   "word/footer1.xml": [
+    {
+     "text": "GEM™   [ADDRESS] · [CITY] · [COUNTRY] · [POSTAL CODE]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "[T]   [E]   [W]     Page 1 of 1",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    }
+   ],
+   "word/header1.xml": [
+    {
+     "text": "GEM™    [REFERENCE NUMBER]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 16,
+     "script": "LATIN"
+    }
+   ]
+  },
+  "GEM_Letterhead_Arabic_First_Page.docx": {
+   "word/document.xml": [
+    {
+     "text": "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "التاريخ: ‎[DATE]‎",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 20,
+     "script": "AR"
+    },
+    {
+     "text": "المرجع: ‎[REFERENCE NUMBER]‎",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 20,
+     "script": "AR"
+    },
+    {
+     "text": "«اسم المستلم»«اسم الجهة»«العنوان»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "الموضوع: طلب معلومات ووثائق من المورد",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 26,
+     "script": "AR"
+    },
+    {
+     "text": "السادة «اسم الجهة»،",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي.",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "هذا النص نموذج للمراسلات فقط، ولا يثبت علاقة تجارية أو التزاماً تعاقدياً.",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "وتفضلوا بقبول التحية،",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "«التوقيع»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 18,
+     "script": "AR"
+    },
+    {
+     "text": "«اسم الموقّع»«المسمى الوظيفي»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    }
+   ],
+   "word/footer1.xml": [
+    {
+     "text": "GEM™   [ADDRESS] · [CITY] · [COUNTRY] · [POSTAL CODE]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "[T]   [E]   [W]     Page 1 of 1",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    }
+   ],
+   "word/footer2.xml": [
+    {
+     "text": "GEM™   [ADDRESS] · [CITY] · [COUNTRY] · [POSTAL CODE]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "[T]   [E]   [W]     Page 1 of 1",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    }
+   ],
+   "word/header1.xml": [
+    {
+     "text": "HOSPITALITY, IN PERFECT PROPORTION",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 21,
+     "script": "LATIN"
+    }
+   ],
+   "word/header2.xml": [
+    {
+     "text": "GEM™    [REFERENCE NUMBER]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 16,
+     "script": "LATIN"
+    }
+   ]
+  },
+  "GEM_Letterhead_Bilingual_Continuation.docx": {
+   "word/document.xml": [
+    {
+     "text": "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "«نص الصفحة التالية»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي.",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation.",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 21,
+     "script": "LATIN"
+    },
+    {
+     "text": "وتفضلوا بقبول التحية،",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "Yours sincerely,",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 21,
+     "script": "LATIN"
+    },
+    {
+     "text": "«التوقيع»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 18,
+     "script": "AR"
+    },
+    {
+     "text": "«اسم الموقّع»«المسمى الوظيفي»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "[SIGNATORY NAME] · [TITLE]",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    }
+   ],
+   "word/footer1.xml": [
+    {
+     "text": "GEM™   [ADDRESS] · [CITY] · [COUNTRY] · [POSTAL CODE]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "[T]   [E]   [W]     Page 1 of 1",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    }
+   ],
+   "word/header1.xml": [
+    {
+     "text": "GEM™    [REFERENCE NUMBER]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 16,
+     "script": "LATIN"
+    }
+   ]
+  },
+  "GEM_Letterhead_Bilingual_First_Page.docx": {
+   "word/document.xml": [
+    {
+     "text": "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "التاريخ: ‎[DATE]‎",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 20,
+     "script": "AR"
+    },
+    {
+     "text": "المرجع: ‎[REFERENCE NUMBER]‎",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 20,
+     "script": "AR"
+    },
+    {
+     "text": "«اسم المستلم»«اسم الجهة»«العنوان»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "[RECIPIENT NAME][ORGANIZATION][ADDRESS]",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "الموضوع: طلب معلومات ووثائق من المورد",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 26,
+     "script": "AR"
+    },
+    {
+     "text": "Request for supplier information and product documentation",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 24,
+     "script": "LATIN"
+    },
+    {
+     "text": "السادة «اسم الجهة»،",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "يرجى تزويدنا بالمعلومات والوثائق المتاحة للمراجعة الداخلية، مع توضيح ما تم تأكيده وما يحتاج إلى تحقق إضافي.",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "Dear [RECIPIENT NAME],",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 21,
+     "script": "LATIN"
+    },
+    {
+     "text": "Please share the available information and documentation for our internal review, identifying confirmed details and items requiring further validation.",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 21,
+     "script": "LATIN"
+    },
+    {
+     "text": "وتفضلوا بقبول التحية،",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "Yours sincerely,",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 21,
+     "script": "LATIN"
+    },
+    {
+     "text": "«التوقيع»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 18,
+     "script": "AR"
+    },
+    {
+     "text": "«اسم الموقّع»«المسمى الوظيفي»",
+     "bidi": true,
+     "jc": "start",
+     "sz_half_pt": 23,
+     "script": "AR"
+    },
+    {
+     "text": "[SIGNATORY NAME — ENGLISH / TRANSLITERATION, IF REQUIRED] · [TITLE]",
+     "bidi": false,
+     "jc": "left",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    }
+   ],
+   "word/footer1.xml": [
+    {
+     "text": "GEM™   [ADDRESS] · [CITY] · [COUNTRY] · [POSTAL CODE]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "[T]   [E]   [W]     Page 1 of 1",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    }
+   ],
+   "word/footer2.xml": [
+    {
+     "text": "GEM™   [ADDRESS] · [CITY] · [COUNTRY] · [POSTAL CODE]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "[T]   [E]   [W]     Page 1 of 1",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    },
+    {
+     "text": "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 18,
+     "script": "LATIN"
+    }
+   ],
+   "word/header1.xml": [
+    {
+     "text": "HOSPITALITY, IN PERFECT PROPORTION",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 21,
+     "script": "LATIN"
+    }
+   ],
+   "word/header2.xml": [
+    {
+     "text": "GEM™    [REFERENCE NUMBER]",
+     "bidi": false,
+     "jc": "right",
+     "sz_half_pt": 16,
+     "script": "LATIN"
+    }
+   ]
+  }
+ },
+ "checks": [
+  [
+   "GEM_Letterhead_Arabic_Continuation.docx",
+   "word/document.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "6 Arabic paragraph(s); bidi=[True, True, True, True, True, True]; jc=['start', 'start', 'start', 'start', 'start', 'start']"
+  ],
+  [
+   "GEM_Letterhead_Arabic_Continuation.docx",
+   "word/document.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "0 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Arabic_Continuation.docx",
+   "word/footer1.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Arabic_Continuation.docx",
+   "word/footer1.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "0 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Arabic_Continuation.docx",
+   "word/header1.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Arabic_Continuation.docx",
+   "word/header1.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "0 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/document.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "10 Arabic paragraph(s); bidi=[True, True, True, True, True, True, True, True, True, True]; jc=['start', 'start', 'start', 'start', 'start', 'start', 'start', 'start', 'start', 'start']"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/document.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "0 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/footer1.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/footer1.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "0 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/footer2.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/footer2.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "0 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/header1.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/header1.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "0 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/header2.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Arabic_First_Page.docx",
+   "word/header2.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "0 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_Continuation.docx",
+   "word/document.xml",
+   "Arabic precedes first English content paragraph (status lines excluded)",
+   "PASS",
+   "first AR para #1, first EN para #3"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_Continuation.docx",
+   "word/document.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "5 Arabic paragraph(s); bidi=[True, True, True, True, True]; jc=['start', 'start', 'start', 'start', 'start']"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_Continuation.docx",
+   "word/document.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "4 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_Continuation.docx",
+   "word/footer1.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_Continuation.docx",
+   "word/footer1.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "3 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_Continuation.docx",
+   "word/header1.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_Continuation.docx",
+   "word/header1.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "1 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/document.xml",
+   "Arabic precedes first English content paragraph (status lines excluded)",
+   "PASS",
+   "first AR para #1, first EN para #4"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/document.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "9 Arabic paragraph(s); bidi=[True, True, True, True, True, True, True, True, True]; jc=['start', 'start', 'start', 'start', 'start', 'start', 'start', 'start', 'start']"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/document.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "7 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/footer1.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/footer1.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "3 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/footer2.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/footer2.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "3 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/header1.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/header1.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "1 English paragraph(s)"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/header2.xml",
+   "Arabic paragraphs carry bidi=1 and right/start alignment",
+   "PASS",
+   "0 Arabic paragraph(s); bidi=[]; jc=[]"
+  ],
+  [
+   "GEM_Letterhead_Bilingual_First_Page.docx",
+   "word/header2.xml",
+   "English paragraphs bidi=0",
+   "PASS",
+   "1 English paragraph(s)"
+  ]
+ ]
+}

@@ -1,0 +1,172 @@
+/* GEM Digital Design System tokens · 3.0.0-rc.2 · V3.0 RC2 · GEM-DDS-V3.0-RC2 · 2026-10-06
+   Derived from the approved specification; status per token in the JSON. WORKING SPECIFICATION · NOT RELEASED (AC20 PENDING). ODI01-R1 CANDIDATE · statuses normalized (D4) · 500 = future design intent, current implementation 400 (D5) · UNAPPROVED. */
+:root {
+  --gem-foundation-color-ink: #12171D; /* APPROVED · J01 */
+  --gem-foundation-color-beige: #BCACA7; /* APPROVED · J02 */
+  --gem-foundation-color-black: #020202; /* APPROVED · J03 */
+  --gem-foundation-color-white: #FFFFFF; /* APPROVED · J04 */
+  --gem-semantic-surface-canvas: #FFFFFF; /* APPROVED · Q03 */
+  --gem-semantic-surface-signature: #12171D; /* APPROVED · Q03 */
+  --gem-semantic-surface-selected: #BCACA7; /* APPROVED · Q03 */
+  --gem-semantic-surface-disabled: #FFFFFF; /* APPROVED · Q03 */
+  --gem-semantic-surface-scrim: rgba(18, 23, 29, 0.64); /* APPROVED · Q03 */
+  --gem-semantic-text-primary: #12171D; /* APPROVED · Q03 */
+  --gem-semantic-text-inverse: #FFFFFF; /* APPROVED · Q03 */
+  --gem-semantic-text-signature-accent: #BCACA7; /* APPROVED · K01 */
+  --gem-semantic-border-essential: #12171D; /* APPROVED · Q03 */
+  --gem-semantic-border-decorative: #BCACA7; /* APPROVED · K07 */
+  --gem-semantic-border-focus: #12171D; /* APPROVED · Q08 */
+  --gem-semantic-border-error: #12171D; /* APPROVED · Q09 */
+  --gem-semantic-border-disabled: #BCACA7; /* APPROVED · Q03 */
+  --gem-semantic-action-background: #12171D; /* APPROVED · Q11 */
+  --gem-semantic-action-foreground: #FFFFFF; /* APPROVED · Q11 */
+  --gem-semantic-action-hover-background: #020202; /* APPROVED · Q11 */
+  --gem-semantic-action-pressed-background: #020202; /* APPROVED · Q11 */
+  --gem-semantic-action-disabled-background: #FFFFFF; /* APPROVED · Q11 */
+  --gem-semantic-action-disabled-text: #12171D; /* APPROVED · Q11 */
+  --gem-semantic-focus-ring-light: #12171D; /* APPROVED · Q08 */
+  --gem-semantic-focus-ring-dark: #FFFFFF; /* APPROVED · Q08 */
+  --gem-semantic-focus-ring-width: 2px; /* APPROVED · V08 */
+  --gem-semantic-focus-ring-offset: 2px; /* APPROVED · V08 */
+  --gem-semantic-feedback-error-text: #12171D; /* APPROVED · Q10 */
+  --gem-semantic-feedback-success-text: #12171D; /* APPROVED · Q10 */
+  --gem-semantic-feedback-error-border-width: 2px; /* APPROVED · Q09 */
+  --gem-semantic-feedback-info-border-width: 1px; /* APPROVED · Q10 */
+  --gem-type-family-display: Jost; /* APPROVED · L01 */
+  --gem-type-family-body: Inter; /* APPROVED · L02 */
+  --gem-type-family-arabic: Noto Sans Arabic; /* PENDING VALIDATION · M02 */
+  --gem-type-family-fallback: ["Arial", "system-ui", "sans-serif"]; /* APPROVED · R13 */
+  --gem-type-weight-regular: 400; /* APPROVED · L08 */
+  --gem-type-weight-medium: 500; /* CONDITIONAL · L08 · FUTURE DESIGN INTENT = 500 · CURRENT IMPLEMENTATION = 400 · 500 WEIGHT PENDING ACCEPTED FONT FILE */
+  --gem-type-size-display-xl: 96px; /* CONDITIONAL · L09 */
+  --gem-type-size-display: 64px; /* CONDITIONAL · L09 */
+  --gem-type-size-h1: 48px; /* CONDITIONAL · L09 */
+  --gem-type-size-h2: 32px; /* CONDITIONAL · L09 */
+  --gem-type-size-h3: 24px; /* CONDITIONAL · L09 */
+  --gem-type-size-tagline: 14px; /* APPROVED · L09 */
+  --gem-type-size-eyebrow: 13px; /* CONDITIONAL · L09 */
+  --gem-type-size-nav-label: 14px; /* CONDITIONAL · L09 */
+  --gem-type-size-label-small: 12px; /* CONDITIONAL · L09 */
+  --gem-type-size-body: 16px; /* APPROVED · L12 */
+  --gem-type-size-caption: 14px; /* APPROVED · L09 */
+  --gem-type-size-label: 16px; /* APPROVED · L09 */
+  --gem-type-size-arabic-display: 56px; /* PENDING VALIDATION · L09 */
+  --gem-type-size-arabic-h1: 40px; /* PENDING VALIDATION · L09 */
+  --gem-type-size-arabic-h2: 30px; /* PENDING VALIDATION · L09 */
+  --gem-type-size-arabic-h3: 24px; /* PENDING VALIDATION · L09 */
+  --gem-type-size-arabic-body: 18px; /* PENDING VALIDATION · L09 */
+  --gem-type-size-arabic-label: 16px; /* PENDING VALIDATION · L09 */
+  --gem-type-size-arabic-caption: 15px; /* PENDING VALIDATION · L09 */
+  --gem-type-line-height-display-xl: 104px; /* CONDITIONAL · L12 */
+  --gem-type-line-height-display: 72px; /* CONDITIONAL · L12 */
+  --gem-type-line-height-h1: 56px; /* CONDITIONAL · L12 */
+  --gem-type-line-height-h2: 40px; /* CONDITIONAL · L12 */
+  --gem-type-line-height-h3: 32px; /* CONDITIONAL · L12 */
+  --gem-type-line-height-tagline: 20px; /* APPROVED · L12 */
+  --gem-type-line-height-eyebrow: 16px; /* CONDITIONAL · L12 */
+  --gem-type-line-height-nav-label: 20px; /* CONDITIONAL · L12 */
+  --gem-type-line-height-label-small: 16px; /* CONDITIONAL · L12 */
+  --gem-type-line-height-body: 26px; /* APPROVED · L12 */
+  --gem-type-line-height-caption: 20px; /* APPROVED · L12 */
+  --gem-type-line-height-label: 24px; /* APPROVED · L12 */
+  --gem-type-line-height-arabic-display: 76px; /* PENDING VALIDATION · L12 */
+  --gem-type-line-height-arabic-h1: 60px; /* PENDING VALIDATION · L12 */
+  --gem-type-line-height-arabic-h2: 46px; /* PENDING VALIDATION · L12 */
+  --gem-type-line-height-arabic-h3: 38px; /* PENDING VALIDATION · L12 */
+  --gem-type-line-height-arabic-body: 32px; /* PENDING VALIDATION · L12 */
+  --gem-type-line-height-arabic-label: 26px; /* PENDING VALIDATION · L12 */
+  --gem-type-line-height-arabic-caption: 26px; /* PENDING VALIDATION · L12 */
+  --gem-type-style-weight-label: 500; /* CONDITIONAL · L08 · FUTURE DESIGN INTENT = 500 · CURRENT IMPLEMENTATION = 400 · 500 WEIGHT PENDING ACCEPTED FONT FILE */
+  --gem-type-style-weight-arabic-h3: 500; /* PENDING VALIDATION · L08 · FUTURE DESIGN INTENT = 500 · CURRENT IMPLEMENTATION = 400 · 500 WEIGHT PENDING ACCEPTED FONT FILE */
+  --gem-type-style-weight-arabic-label: 500; /* PENDING VALIDATION · L08 · FUTURE DESIGN INTENT = 500 · CURRENT IMPLEMENTATION = 400 · 500 WEIGHT PENDING ACCEPTED FONT FILE */
+  --gem-type-tracking-display-xl: 0.12em; /* CONDITIONAL · L09 */
+  --gem-type-tracking-display: 0.08em; /* CONDITIONAL · L09 */
+  --gem-type-tracking-h1: 0.02em; /* CONDITIONAL · L09 */
+  --gem-type-tracking-h2: 0.01em; /* CONDITIONAL · L09 */
+  --gem-type-tracking-h3: 0; /* CONDITIONAL · L09 */
+  --gem-type-tracking-tagline: 0.18em; /* APPROVED · L09 */
+  --gem-type-tracking-eyebrow: 0.16em; /* CONDITIONAL · L09 */
+  --gem-type-tracking-nav-label: 0.08em; /* CONDITIONAL · L09 */
+  --gem-type-tracking-label-small: 0.08em; /* CONDITIONAL · L09 */
+  --gem-type-tracking-body: 0; /* APPROVED · L10 */
+  --gem-type-tracking-caption: 0; /* APPROVED · L10 */
+  --gem-type-tracking-label: 0; /* APPROVED · L10 */
+  --gem-type-tracking-arabic: 0; /* APPROVED · M05 */
+  --gem-type-measure-max-reading: 70ch; /* APPROVED · L11 */
+  --gem-type-arabic-line-height-min: 1.7; /* PENDING VALIDATION · M04 */
+  --gem-space-1: 4px; /* APPROVED · N13 */
+  --gem-space-2: 8px; /* APPROVED · N13 */
+  --gem-space-3: 12px; /* APPROVED · N13 */
+  --gem-space-4: 16px; /* APPROVED · N13 */
+  --gem-space-6: 24px; /* APPROVED · N13 */
+  --gem-space-8: 32px; /* APPROVED · N13 */
+  --gem-space-12: 48px; /* APPROVED · N13 */
+  --gem-space-16: 64px; /* APPROVED · N13 */
+  --gem-space-24: 96px; /* APPROVED · N13 */
+  --gem-radius-editorial: 0; /* APPROVED · Q06 */
+  --gem-radius-control: 4px; /* APPROVED · Q06 */
+  --gem-size-target-min: 44px; /* APPROVED · V12 */
+  --gem-size-logo-lockup-min: 120px; /* APPROVED · H10 */
+  --gem-size-logo-symbol-min: 32px; /* APPROVED · H11 */
+  --gem-size-glyph-box: 24px; /* APPROVED · N15 */
+  --gem-size-glyph-stroke: 2px; /* APPROVED · N15 */
+  --gem-size-glyph-sizes: [16, 20, 24, 32]; /* CONDITIONAL · N15 */
+  --gem-size-hairline: 1px; /* APPROVED · Q03 */
+  --gem-size-emphasis-border: 2px; /* APPROVED · Q03 */
+  --gem-motion-duration-instant: 0ms; /* APPROVED · P09 */
+  --gem-motion-duration-hover: 150ms; /* APPROVED · P03 */
+  --gem-motion-duration-confirmation: 180ms; /* APPROVED · P03 */
+  --gem-motion-duration-modal: 200ms; /* APPROVED · P03 */
+  --gem-motion-duration-reveal: 1500ms; /* APPROVED · P02 */
+  --gem-motion-duration-reveal-ring: 900ms; /* CONDITIONAL · P01 */
+  --gem-motion-duration-reveal-spark: 200ms; /* CONDITIONAL · P01 */
+  --gem-motion-duration-reveal-quarter: 400ms; /* CONDITIONAL · P01 */
+  --gem-motion-easing-out: cubic-bezier(0.22, 0.61, 0.36, 1); /* APPROVED · P03 */
+  --gem-layout-breakpoint-compact: 0px; /* APPROVED · Q17 */
+  --gem-layout-breakpoint-mobile: 480px; /* APPROVED · Q17 */
+  --gem-layout-breakpoint-tablet: 720px; /* APPROVED · Q17 */
+  --gem-layout-breakpoint-desktop: 1024px; /* APPROVED · Q17 */
+  --gem-layout-breakpoint-wide: 1440px; /* APPROVED · Q17 */
+  --gem-layout-columns-compact: 4; /* CONDITIONAL · Q17 */
+  --gem-layout-columns-mobile: 4; /* CONDITIONAL · Q17 */
+  --gem-layout-columns-tablet: 8; /* CONDITIONAL · Q17 */
+  --gem-layout-columns-desktop: 12; /* CONDITIONAL · Q17 */
+  --gem-layout-columns-wide: 12; /* CONDITIONAL · Q17 */
+  --gem-layout-gutter-compact: 16px; /* CONDITIONAL · Q17 */
+  --gem-layout-gutter-mobile: 16px; /* CONDITIONAL · Q17 */
+  --gem-layout-gutter-tablet: 24px; /* CONDITIONAL · Q17 */
+  --gem-layout-gutter-desktop: 24px; /* CONDITIONAL · Q17 */
+  --gem-layout-gutter-wide: 24px; /* CONDITIONAL · Q17 */
+  --gem-layout-margin-compact: 16px; /* CONDITIONAL · Q17 */
+  --gem-layout-margin-mobile: 24px; /* CONDITIONAL · Q17 */
+  --gem-layout-margin-tablet: 32px; /* CONDITIONAL · Q17 */
+  --gem-layout-margin-desktop: 48px; /* CONDITIONAL · Q17 */
+  --gem-layout-margin-wide: 48px; /* CONDITIONAL · Q17 */
+  --gem-layout-max-width-desktop: 1080px; /* CONDITIONAL · Q17 */
+  --gem-layout-max-width-wide: 1280px; /* CONDITIONAL · Q17 */
+  --gem-layout-max-width-modal: 440px; /* CONDITIONAL · Q17 */
+  --gem-layout-reflow-min: 320px; /* APPROVED · V01 */
+  --gem-locale-source: en; /* APPROVED · D03 */
+  --gem-locale-arabic: ar-SA; /* PENDING VALIDATION · D04 */
+  --gem-locale-numerals-technical: latn; /* APPROVED · M12 */
+  --gem-locale-numerals-guest-arabic: arab; /* CONDITIONAL · M11 */
+  --gem-locale-calendar-default: gregory; /* CONDITIONAL · DS06 */
+  --gem-locale-currency-format: [REQUIRES OWNER]; /* PENDING VALIDATION · DS06 */
+  --gem-locale-text-expansion: 30-40%; /* APPROVED · DS06 */
+  --gem-locale-direction: {"en": "ltr", "ar-SA": "rtl"}; /* APPROVED · M06 */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --gem-motion-duration-instant: 0ms; /* V11, P09 */
+    --gem-motion-duration-hover: 0ms; /* V11, P09 */
+    --gem-motion-duration-confirmation: 0ms; /* V11, P09 */
+    --gem-motion-duration-modal: 0ms; /* V11, P09 */
+    --gem-motion-duration-reveal: 0ms; /* V11, P09 */
+    --gem-motion-duration-reveal-ring: 0ms; /* V11, P09 */
+    --gem-motion-duration-reveal-spark: 0ms; /* V11, P09 */
+    --gem-motion-duration-reveal-quarter: 0ms; /* V11, P09 */
+  }
+}
+
+[dir="rtl"] { /* logical properties carry direction; no overrides needed (M06) */ }
