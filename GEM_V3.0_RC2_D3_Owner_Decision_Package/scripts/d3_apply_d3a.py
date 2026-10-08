@@ -12,7 +12,8 @@ def edit_deck(src,dst,edits,tag):
     for cid,part,old,newt,slide,auth in edits:
         x=new[part].decode('utf-8');assert x.count(old)==1,(cid,part,x.count(old))
         new[part]=x.replace(old,newt).encode('utf-8')
-        LOG.append(dict(id=cid,document=tag,slide=slide,part=part,before=old,after=newt,authority=auth,part_sha256_before=sha(data[part]),part_sha256_after=sha(new[part])))
+        shp=[m.group(1) for m in re.finditer(r'<p:sp>(?:(?!</p:sp>).)*?<p:cNvPr id="\d+" name="([^"]*)"/>(?:(?!</p:sp>).)*?'+re.escape(newt[:40])+r'(?:(?!</p:sp>).)*?</p:sp>',x.replace(old,newt),re.S)][-1:] if part.startswith('ppt/slides/') else ['(speaker notes placeholder)']
+        LOG.append(dict(id=cid,document=tag,slide=slide,part=part,shape=(shp[0] if shp else 'n/a'),before=old,after=newt,authority=auth,part_sha256_before=sha(data[part]),part_sha256_after=sha(new[part])))
     with zipfile.ZipFile(dst,'w') as zo:
         for i in zin.infolist():
             zi=zipfile.ZipInfo(i.filename,i.date_time);zi.compress_type=i.compress_type;zi.external_attr=i.external_attr;zo.writestr(zi,new[i.filename])
@@ -22,7 +23,8 @@ A=[p for p in glob.glob(R1+'deck_candidates/*Part A*.pptx')][0];C=[p for p in gl
 D={}
 D['A']=edit_deck(A,os.path.join(out,'deck_candidates','GEM Brand Guidelines V3.0 — Part A — RC2 — D3 CANDIDATE (UNAPPROVED).pptx'),[
  ('C1','ppt/notesSlides/notesSlide80.xml',"Part B's document ID is applied through its patch specification until its source is regenerated.","Part B is issued as its own RC2 deck with a token package (PartB_RC2/05_release); its component bundle does not yet exist (VAL-13, VAL-20).",79,'Part B RC2 deck, PDF and token package exist (PartB_RC2/05_release); Part B cover and slide 34 carry document ID GEM-DDS-V3.0-RC2; component bundle absent (open evidence register VAL-13, VAL-20, OD-SRC)'),
- ('C1','ppt/notesSlides/notesSlide79.xml',"Part B is the Digital Design System V3.0 (RC2 patch specification issued; PDF regeneration pending its source).","Part B is the Digital Design System V3.0, issued as Release Candidate 2 with a token package; its component bundle is pending (VAL-13, VAL-20).",80,'same as above')],'Part A')
+ ('C1','ppt/notesSlides/notesSlide79.xml',"Part B is the Digital Design System V3.0 (RC2 patch specification issued; PDF regeneration pending its source).","Part B is the Digital Design System V3.0, issued as Release Candidate 2 with a token package; its component bundle is pending (VAL-13, VAL-20).",80,'same as above'),
+ ('D3B','ppt/slides/slide75.xml',"Example: GEM_Logo_Horizontal_Black_v3.0_20261006.svg","Example: GEM_BRAND_Horizontal_Black_v3.0_20261006.svg",75,'Owner decision D3B (2026-10-09): controlled X12 STREAM = BRAND. Only the STREAM token changes; Horizontal, Black, v3.0 and 20261006 are carried unchanged from the existing Part A example. The ASSET taxonomy is not enumerated in any governing document and is not confirmed by this edit.')],'Part A')
 D['C']=edit_deck(C,os.path.join(out,'deck_candidates','GEM Production Standards V3.0 — Part C — RC2 — D3 CANDIDATE (UNAPPROVED).pptx'),[
  ('C2','ppt/slides/slide44.xml',"Layout follows Part A. Print process and stock follow the print and materials standards. Templates are an OPEN DELIVERABLE (AB10, AB11, W01–W10): none exists yet.","Layout follows Part A. Print process and stock follow the print and materials standards. Templates are an OPEN DELIVERABLE (AB10, AB11, W01–W10): a Letterhead Set (Application Revision 03) exists as a WORKING APPLICATION / PENDING VALIDATION; no template is accepted.",44,'GEM_Letterhead_Set_v1.1_Application_Revision_03 exists in main; its 8 templates carry "WORKING APPLICATION / PENDING VALIDATION"; no acceptance recorded (Register AB10/AB11/W-rows are scope decisions, OD-TPL open); slide 44 table already shows Letterhead [PENDING PRODUCTION MASTER]')],'Part C')
 # ---- C4 notes

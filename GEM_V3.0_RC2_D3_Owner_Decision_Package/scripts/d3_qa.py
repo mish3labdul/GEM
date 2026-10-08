@@ -25,7 +25,7 @@ for k in 'AC':
                 ok=any(e[0]==n and e[1] in (x.text or '') and (x.text or '').replace(e[1],e[2])==(y.text or '') for e in texts)
                 if ok: tot+=1
                 else: bad.append(f'{n}: unexpected text change')
-rec(1,'Edit proof: only the intended text differs from the ODI01-R1 base (parts well-formed, structure and attributes identical)',not bad and tot==3 and set(L['decks']['A']['parts_changed'])=={'ppt/notesSlides/notesSlide79.xml','ppt/notesSlides/notesSlide80.xml'} and L['decks']['C']['parts_changed']==['ppt/slides/slide44.xml'],f'text edits verified={tot} (expected 3); parts changed A={L["decks"]["A"]["parts_changed"]} C={L["decks"]["C"]["parts_changed"]}; problems={bad}')
+rec(1,'Edit proof: only the intended text differs from the ODI01-R1 base (parts well-formed, structure and attributes identical)',not bad and tot==4 and set(L['decks']['A']['parts_changed'])=={'ppt/notesSlides/notesSlide79.xml','ppt/notesSlides/notesSlide80.xml','ppt/slides/slide75.xml'} and L['decks']['C']['parts_changed']==['ppt/slides/slide44.xml'],f'text edits verified={tot} (expected 4: C1 x2, C2, D3B slide 75); parts changed A={L["decks"]["A"]["parts_changed"]} C={L["decks"]["C"]["parts_changed"]}; problems={bad}')
 # 2 originals untouched
 paths=['GEM_V3_RC2','PartB_RC2','Amenities_Portfolio_PartD_RC2','GEM_Brand_Assets_v1.0','GEM_Letterhead_Set_v1.1_Application_Revision_03','qa','README.md','GEM_V3.0_Integrated_Brand_Ecosystem_Audit.md']
 unch=git('diff','--quiet','HEAD','--',*paths).returncode==0;outside=[l for l in git('status','--porcelain').stdout.splitlines() if 'GEM_V3.0_RC2_D3_Owner_Decision_Package' not in l and not l.endswith('.DS_Store')]
@@ -59,7 +59,7 @@ for k in 'AC':
     for pat in (r'Part [A-E]\b',r'RC2',r'V3\.0',r'HOSPITALITY, IN PERFECT PROPORTION',r'VAL-\d\d',r'GEM-(BG|DDS|PS)-V3\.0-RC2'):
         if cnt(a,pat)!=cnt(b,pat) and not (k=='A' and pat in(r'RC2',r'VAL-\d\d',r'Part [A-E]\b')) and not (k=='C' and pat==r'Part [A-E]\b'): ok3=False;ev3.append(f'{k}:{pat} {cnt(a,pat)}->{cnt(b,pat)}')
     if any(re.search(r'Part E\b',l) for l in b): ok3=False;ev3.append(k+': Part E')
-rec(3,'Terminology: changed lines are exactly the intended ones; version/tagline/document-ID counts unchanged; no "Part E"',ok3 and chg['A']==(2,2) and chg['C']==(1,1),f'removed/added lines A={chg["A"]} (expected 2/2), C={chg["C"]} (expected 1/1); deviations={ev3}. VAL/RC2/Part-letter counts in Part A notes change only by the intended wording (Part B described as RC2; VAL-13, VAL-20 named)')
+rec(3,'Terminology: changed lines are exactly the intended ones; version/tagline/document-ID counts unchanged; no "Part E"',ok3 and chg['A']==(3,3) and chg['C']==(1,1),f'removed/added lines A={chg["A"]} (expected 3/3), C={chg["C"]} (expected 1/1); deviations={ev3}. VAL/RC2/Part-letter counts in Part A notes change only by the intended wording (Part B described as RC2; VAL-13, VAL-20 named)')
 # 4 release wording (context-aware checker; see scripts/release_wording_checker.py)
 sys.path.insert(0,os.path.join(pkg,'scripts'))
 import release_wording_checker as W
@@ -126,6 +126,42 @@ for n in L['notes']:
         ids.add(x['id']);(badf if x['verdict']=='FAIL' else expl).append(x)
 ids=sorted(ids)
 rec(9,'Validation-ID regression tests and D3 documents scan',t.startswith('30/30') and not badf,f'regression: {t}; D3 documents scanned in full; notes candidates scanned on the lines D3 added/changed only ({skipped} unchanged carried-forward lines not rescanned; they are byte-identical to the originals, e.g. line 67 "note on VAL-18 and digital gates", which line 74 of the same file explains as "VAL-18 missing → not allocated"); VAL ids in scanned text={ids}; active/unknown-ID findings={len(badf)}; explanatory mentions allowed={len(expl)}')
+
+# ======== D3B owner-decision checks ========
+import csv
+SELF=pkg+'/D3B_X12_Selected_BRAND_Mapping.csv'
+rec10=open(pkg+'/09_D3_Owner_Decision_Record.md',encoding='utf-8').read()
+box=lambda label:re.search(r'^\[(.)\] '+re.escape(label),rec10,re.M).group(1)
+rec(10,'Owner record: D3A ACCEPTED; D3B BRAND selected; Logo/OTHER/STILL-REQUIRED unticked; D3 resolved at owner-decision level',box('ACCEPTED')=='x' and box('PARTIALLY ACCEPTED')==' ' and box('REJECTED')==' ' and box('BRAND')=='x' and box('Logo')==' ' and box('OTHER')==' ' and box('OWNER DECISION STILL REQUIRED')==' ' and 'D3 = RESOLVED AT OWNER-DECISION LEVEL' in rec10 and 'AC20 closed' in rec10,'checkbox states read from 09_D3_Owner_Decision_Record.md; the "does NOT mean" clarification (AC20, release, Legal/IP, migration, production readiness) is present')
+sel=list(csv.DictReader(open(SELF,encoding='utf-8')));names=[r['Controlled X12 filename'] for r in sel]
+RXN=re.compile(r'^GEM_BRAND_[A-Za-z0-9]+_[A-Za-z0-9]+_vX\.Y_YYYYMMDD\.(svg|pdf|eps|png)$')
+K='GEM_Brand_Assets_v1.0/04_official_kit/logo/'
+src_ok=all(os.path.exists(os.path.join(root,r['Source path (unchanged)'])) and os.path.basename(r['Source path (unchanged)'])==r['Current source filename'] and sha(os.path.join(root,r['Source path (unchanged)']))==r['SHA-256 of source'] for r in sel)
+kit_clean=git('diff','--quiet','HEAD','--','GEM_Brand_Assets_v1.0').returncode==0 and not [l for l in git('status','--porcelain','--','GEM_Brand_Assets_v1.0').stdout.splitlines()]
+dup=sum(1 for r in sel if r['STREAM'].lower() in r['ASSET'].lower())
+asset_ok=all(r['ASSET']=='Horizontal' and 'attested only by the Part A slide 75 example' in r['Notes'] or 'REQUIRES TAXONOMY CONFIRMATION' in r['Notes'] for r in sel)
+ids=any(re.search(r'GEM-[A-Z]+-\d{3}\b',' '.join(r.values())) for r in sel)
+rec(11,'Selected BRAND mapping: 128 rows; STREAM=BRAND on every row; 0 Logo; unique and case-insensitively unique; X12 pattern; sources unchanged and no rename; no asset-ID; ASSET values attested or flagged',len(sel)==128 and all(r['STREAM']=='BRAND' for r in sel) and not any('Logo' in r['STREAM'] or '_Logo_' in r['Controlled X12 filename'] for r in sel) and len(set(names))==128 and len({n.lower() for n in names})==128 and all(RXN.match(n) for n in names) and src_ok and kit_clean and all(r['Source rename required?']=='NO' and r['Manifest-only?']=='YES' for r in sel) and not ids and asset_ok and dup==0,f'rows={len(sel)}; STREAM=BRAND on all={all(r["STREAM"]=="BRAND" for r in sel)}; unique={len(set(names))}; case-insensitive unique={len({n.lower() for n in names})}; pattern GEM_BRAND_<ASSET>_<VARIANT>_vX.Y_YYYYMMDD.ext on all={all(RXN.match(n) for n in names)}; every source file exists under its current name with the recorded SHA-256={src_ok}; GEM_Brand_Assets_v1.0 has no change vs HEAD and no untracked/renamed file={kit_clean}; rename required NO and manifest-only YES on all rows; STREAM-in-ASSET duplicates={dup}; asset-ID strings in the mapping={ids}; no checksum rule introduced (the only hash column is the SHA-256 of the unchanged source file, the algorithm the kit already uses); ASSET values attested in the Part A example or flagged REQUIRES TAXONOMY CONFIRMATION={asset_ok}')
+lg=list(csv.reader(open(pkg+'/06_D3B_X12_Logo_Mapping.csv',encoding='utf-8')));br=list(csv.reader(open(pkg+'/05_D3B_X12_BRAND_Mapping.csv',encoding='utf-8')))
+sem=open(pkg+'/07_D3B_X12_Semantic_Test.csv',encoding='utf-8').read()
+c4txt=open(pkg+'/04_D3B_X12_STREAM_Comparison.md',encoding='utf-8').read()
+rec(12,'Logo mapping retained as history and marked NOT SELECTED; semantic test keeps the original 13 criteria and adds the final disposition',lg[0][-1]=='Selection status' and all(x[-1].startswith('NOT SELECTED') for x in lg[1:]) and len(lg)==130 and br[0][-1]=='Selection status' and 'BRAND — SELECTED' in sem and 'Logo — NOT SELECTED' in sem and sem.count('\n')>=15 and 'SELECTED CONTROLLED STREAM: BRAND' in c4txt and 'Prior state' in c4txt,f'06 rows={len(lg)-1} (128 files + metrics note), all marked NOT SELECTED; 05 marked comparison stage; semantic test contains the 13 criteria, the final disposition and the retained conflict note; 04 states SELECTED CONTROLLED STREAM: BRAND and keeps the prior state')
+# pages that differ in the candidate PDFs vs ODI01-R1 PDFs
+def pdfdiff(a,b,n):
+    d=[]
+    for pg in range(1,n+1):
+        x=subprocess.run(['pdftotext','-f',str(pg),'-l',str(pg),'-layout',a,'-'],capture_output=True,text=True).stdout;y=subprocess.run(['pdftotext','-f',str(pg),'-l',str(pg),'-layout',b,'-'],capture_output=True,text=True).stdout
+        if x!=y: d.append(pg)
+    return d
+dA=pdfdiff(g('*Part A*.pdf'),glob.glob(pkg+'/12_Candidate_Files/deck_candidates/*Part A*.pdf')[0],80);dC=pdfdiff(g('*Part C*.pdf'),glob.glob(pkg+'/12_Candidate_Files/deck_candidates/*Part C*.pdf')[0],78)
+a75=[l for l in lines(L['decks']['A']['dst']) if l.startswith('Example: GEM_')];rule=[l for l in lines(L['decks']['A']['dst']) if 'The stream field follows the asset library folder' in l]
+rec(13,'Part A slide 75: example uses BRAND; rule sentence unchanged; candidate PDFs differ from ODI01-R1 only on page 75 (A) and page 44 (C)',len(a75)==1 and 'GEM_BRAND_Horizontal_Black_v3.0_20261006.svg' in a75[0] and 'Logo' not in a75[0] and len(rule)==1 and dA==[75] and dC==[44],f'slide 75 example line={a75}; rule sentence present unchanged={len(rule)==1}; PDF pages differing from ODI01-R1: Part A {dA}, Part C {dC}')
+stale=re.compile(r'OWNER DECISION REQUIRED|D3B pending|D3 unresolved|BRAND vs Logo unresolved|STILL REQUIRED',re.I)
+cur=[(f,l[:90]) for f in ('01_D3_Executive_Summary.md','02_D3A_Authority_Verification.md','03_D3A_Implementation_Trace.md','08_D3_Cross_Document_Consequences.md','10_D3_Remaining_Gates.md') for l in open(pkg+'/'+f,encoding='utf-8').read().splitlines() if stale.search(l)]
+r4=[l[:60] for l in c4txt.splitlines() if stale.search(l)]
+hist_ok=all('Prior state' in l or 'prior state' in l or 'comparison stage' in l for l in [x for x in c4txt.splitlines() if stale.search(x)])
+status_ok=all(('D3A — RESOLVED' in open(pkg+'/'+f,encoding='utf-8').read() and 'D3B — RESOLVED' in open(pkg+'/'+f,encoding='utf-8').read()) for f in ('01_D3_Executive_Summary.md','10_D3_Remaining_Gates.md','09_D3_Owner_Decision_Record.md'))
+rec(14,'Stale-status scan: current-status sections say D3A RESOLVED / D3B RESOLVED / D3 RESOLVED AT OWNER-DECISION LEVEL / STREAM = BRAND; old phrases only in marked prior-state text',not cur and hist_ok and status_ok and all('STREAM = BRAND' in open(pkg+'/'+f,encoding='utf-8').read() or 'STREAM = BRAND' in open(pkg+'/'+f,encoding='utf-8').read().replace('X12 STREAM = BRAND','STREAM = BRAND') for f in ('01_D3_Executive_Summary.md','09_D3_Owner_Decision_Record.md','10_D3_Remaining_Gates.md')),f'stale phrases in current-status documents={cur}; in 04 only in prior-state text={hist_ok} ({r4}); status lines present in 01/09/10={status_ok}')
 json.dump(R,open(pkg+'/11_QA_Evidence/d3_qa_results.json','w'),indent=1,ensure_ascii=False)
 md=['# D3 QA results','',f'**{sum(r["result"]=="PASS" for r in R)}/{len(R)} checks PASS.** These are text, structure and manifest checks; they are not a statement of full system consistency. Native PowerPoint rendering is not tested; the one visibly edited slide (Part C 44) was rendered with LibreOffice (review evidence only): `C44_before_after.png`.','','| # | Check | Result | Evidence |','|---|---|---|---|']+[f"| {r['n']} | {r['name']} | **{r['result']}** | {r['evidence'].replace('|','/')} |" for r in R]
 open(pkg+'/11_QA_Evidence/d3_qa_results.md','w',encoding='utf-8').write('\n'.join(md)+'\n')

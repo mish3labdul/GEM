@@ -18,53 +18,58 @@
  "files": [
   {
    "path": "01_D3_Executive_Summary.md",
-   "bytes": 3327,
-   "sha256": "3ad0dde1e3378043f948d12e3994a3f9e98d43f49c76d4868ef0242a5f02faf1"
+   "bytes": 3990,
+   "sha256": "37fb65ac0551c8c0f73d2c57286926ba8ae7afbd6871bbb80c281e92add3bf06"
   },
   {
    "path": "02_D3A_Authority_Verification.md",
-   "bytes": 7092,
-   "sha256": "b498b4c22261d26d21866d117c047ccf86eecaeec5fe51ef73c78ab85abbc28f"
+   "bytes": 7103,
+   "sha256": "915670b13d9543a0b08b0068a121ed82ea85f25b88671d90d1a871838be02a4c"
   },
   {
    "path": "03_D3A_Implementation_Trace.md",
-   "bytes": 5389,
-   "sha256": "9152bd8402175ad017518c666bdc2cc0cb7f6ca15453f0902716b4283af1cd45"
+   "bytes": 7333,
+   "sha256": "38718156b80bcfdcd7bc65af3d063f6437392d11d8479ff400d9c49644bd5b70"
   },
   {
    "path": "04_D3B_X12_STREAM_Comparison.md",
-   "bytes": 7072,
-   "sha256": "ac01870f9680ae1e402eee7981964cece29f6bfb50e07deb91686e75313096f4"
+   "bytes": 9290,
+   "sha256": "6c126ae47d3cd0d532a01a30090181a96b774e184c11f7600b96e03951da7496"
   },
   {
    "path": "05_D3B_X12_BRAND_Mapping.csv",
-   "bytes": 45329,
-   "sha256": "41cc8ab244e3dc412a0f600697671bcc1ac6b0da26850be7a54e26e03826e8af"
+   "bytes": 61342,
+   "sha256": "3dabb9d3494412c86654d1f80e0e749a4f7bc24f8388882ada29436bb58e9786"
   },
   {
    "path": "06_D3B_X12_Logo_Mapping.csv",
-   "bytes": 44945,
-   "sha256": "207adc3d6a71bd4bb91f60023f021c020bc8ce31de8292df441269c94e56b2cf"
+   "bytes": 55927,
+   "sha256": "c795e5e81e0d854de58a6dfbc557db784c259a0049257cde3471f9e2294a2391"
   },
   {
    "path": "07_D3B_X12_Semantic_Test.csv",
-   "bytes": 4882,
-   "sha256": "de39322a39f8279120cc0ab0e958f930df347533d37d840886118003643ae620"
+   "bytes": 5864,
+   "sha256": "abb561c1576eba78e26d0861f986fc86178801ea3b35983bf01792f3125b2152"
   },
   {
    "path": "08_D3_Cross_Document_Consequences.md",
-   "bytes": 3542,
-   "sha256": "28c4c25d467b37f8bcce3ea58a8d5ed4d3275b9ebcce867c956887677879d0a2"
+   "bytes": 4153,
+   "sha256": "fe961d1f386de9b290d6126abc56a97fff5e64866ade8c33e9cfade531184c65"
   },
   {
    "path": "09_D3_Owner_Decision_Record.md",
-   "bytes": 2110,
-   "sha256": "6e32cef937fe7ff4306d1427987b729cc51129bcbd16c581b7137eef6415eaff"
+   "bytes": 3335,
+   "sha256": "966d7fe1d503efa578ca323fd70baa6a4a3dfd2b924099f481a7ae42d3392272"
   },
   {
    "path": "10_D3_Remaining_Gates.md",
-   "bytes": 1305,
-   "sha256": "d8c1ba1a404d6b53bdfd5f7f5fa711ad59240d7bdf96d73ec59c615f859e9f92"
+   "bytes": 2041,
+   "sha256": "8609ab87b31f300c3d477ecd3d4d4c1ca0694a60c6d67c9099f6d9482b8064dd"
+  },
+  {
+   "path": "11_QA_Evidence/A75_before_after.png",
+   "bytes": 85600,
+   "sha256": "2b263618d87f67679c19ee48327dbe04462c04d52699e855b3333da17fceed33"
   },
   {
    "path": "11_QA_Evidence/C44_before_after.png",
@@ -88,23 +93,23 @@
   },
   {
    "path": "11_QA_Evidence/d3_qa_results.json",
-   "bytes": 3595,
-   "sha256": "048b7d113809c633680610b5038f15afafe2df8c376e512df7db1670ac7a7754"
+   "bytes": 6227,
+   "sha256": "c7a041e31de2a06613921adf9a315bbaf9c523a3c37ad3a5c5b31ec1cee7a0aa"
   },
   {
    "path": "11_QA_Evidence/d3_qa_results.md",
-   "bytes": 3529,
-   "sha256": "c8ed4d2d33e9d50299096450d3d8737553f669a730b43febe2fce4000a1f5afd"
+   "bytes": 5936,
+   "sha256": "738e310a2c31c6ee904592fd01ab11ba1f2dc723fd190011fc1b738c95859a82"
   },
   {
    "path": "11_QA_Evidence/d3a_apply_log.json",
-   "bytes": 5473,
-   "sha256": "73bc1eec7abfdcbb2f3a14190e6fc70a5ac594c936a96cbb857d6824e21f44d3"
+   "bytes": 6363,
+   "sha256": "0fe9fca3c35a9660f13482533cb69159b155ccf43ef28a0b8b69c594fb114b86"
   },
   {
    "path": "11_QA_Evidence/d3a_diff_register.csv",
-   "bytes": 3706,
-   "sha256": "91aa4730699740b6cf03687269b30e56031da812850516d56301aff5a6b1d6be"
+   "bytes": 4378,
+   "sha256": "f2442866fed8443a8f465884aaf684b664b8bdbaf05f44c0877578a1658eb9a2"
   },
   {
    "path": "11_QA_Evidence/d3b_mapping_stats.json",
@@ -122,9 +127,14 @@
    "sha256": "360d9ae094e503ad147189732bb471c9bac3d96fb2588f60532a65fe17677fb1"
   },
   {
+   "path": "12_Candidate_Files/deck_candidates/GEM Brand Guidelines V3.0 — Part A — RC2 — D3 CANDIDATE (UNAPPROVED).pdf",
+   "bytes": 3977311,
+   "sha256": "173124894bbc7faf6061bdcea34d1bb419f566de3908e5fdd9ed1421e52812cd"
+  },
+  {
    "path": "12_Candidate_Files/deck_candidates/GEM Brand Guidelines V3.0 — Part A — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
    "bytes": 8402193,
-   "sha256": "cdf355ce03f58a922af8f3f805f089d90665894ce17559aee211b1ddb9b8e9c8"
+   "sha256": "eca6b80ba6f301cf503b091821736f56c685e10d721c03a5579f9b238e1dc752"
   },
   {
    "path": "12_Candidate_Files/deck_candidates/GEM Production Standards V3.0 — Part C — RC2 — D3 CANDIDATE (UNAPPROVED).pdf",
@@ -152,14 +162,24 @@
    "sha256": "ac43ac198f206146e974dcb62d4db39803bcee597485044acd33007443a8f009"
   },
   {
+   "path": "D3B_X12_Selected_BRAND_Mapping.csv",
+   "bytes": 93394,
+   "sha256": "24a21a865af4935b59e320d4b8afba10d228285c2eb7c7ddf507b1d91c9f5ced"
+  },
+  {
    "path": "scripts/d3_apply_d3a.py",
-   "bytes": 5413,
-   "sha256": "09edfc754e248fa710deca4c8bf46bbd28297e9d536a4ea2b4b652d78685c269"
+   "bytes": 6161,
+   "sha256": "a07738558d1482ed3aacbf5e9e0c4b28668b9fda0f515036c743e9d00b86286b"
   },
   {
    "path": "scripts/d3_build_docs.py",
-   "bytes": 27703,
-   "sha256": "6342124fd770d232d9c36aa31b931e6c229d8fe91d28b17c9b2b172d8d659550"
+   "bytes": 29081,
+   "sha256": "3eff2a351620b568c03bd0fe5f5001653656449e5cc00cf18b7b142fd012a943"
+  },
+  {
+   "path": "scripts/d3_diff_register.py",
+   "bytes": 1526,
+   "sha256": "393742edc4f1c93baa8851e36726bd6a7daacadeecb4974eb898b42e54d158aa"
   },
   {
    "path": "scripts/d3_manifest.py",
@@ -168,13 +188,23 @@
   },
   {
    "path": "scripts/d3_qa.py",
-   "bytes": 14232,
-   "sha256": "9f1f9a981ed53316727becc6dcdd565e632ebaf6ab8d7ede9dc1264fedc3e146"
+   "bytes": 21197,
+   "sha256": "ab571df99c391f18888d4331eef19cbf0f135053ec85313662538d072dbc49fd"
   },
   {
    "path": "scripts/d3_x12_mapping.py",
    "bytes": 4631,
    "sha256": "840a3e8a5570cc7a8e8666f503936e5de416c389740cae0996de039b209b330a"
+  },
+  {
+   "path": "scripts/d3b_docs.py",
+   "bytes": 17181,
+   "sha256": "1252c4fb036cbae192a30f21d963ef5a927bbeab916a58d7440818b372083e06"
+  },
+  {
+   "path": "scripts/d3b_select.py",
+   "bytes": 3943,
+   "sha256": "9684a14fc9d3e787ba091301b03e21aa0c7effde5c6cf1ac38de3f752e757ba5"
   },
   {
    "path": "scripts/release_wording_checker.py",

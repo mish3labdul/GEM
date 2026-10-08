@@ -1,6 +1,19 @@
-# 04 · D3B — X12 STREAM Token: BRAND vs Logo
+# 04 · D3B — X12 STREAM Token: BRAND (SELECTED) vs Logo (NOT SELECTED) — decision record and comparison history
 
-**Outcome: OWNER DECISION REQUIRED.** The evidence does not clearly establish either token as the one consistent with the existing X12 taxonomy. No recommendation is made. Nothing was renamed; no asset-ID or checksum rule was invented.
+**OWNER DECISION RECORDED — SELECTED CONTROLLED STREAM: BRAND (2026-10-09). NOT SELECTED: Logo.** D3B is resolved at owner-decision level. Logo remains in this document as part of the decision history; it is not the governing STREAM token.
+
+Owner rationale:
+- X12 STREAM follows the asset-library / controlled stream taxonomy.
+- The governing asset-library category is Brand Masters.
+- BRAND applies coherently across logo, symbol and related master-brand assets.
+- BRAND avoids semantic duplication between STREAM and ASSET.
+- The Part A slide 75 example using Logo conflicts with the rule stated on the same slide and is therefore treated as a synchronization defect in the example, not as the governing taxonomy.
+- Existing source / historical filenames are not automatically renamed by this decision.
+- No asset-ID algorithm is approved. No new checksum algorithm is approved. Source assets remain unchanged unless separately authorized through controlled migration.
+
+**Prior state (comparison stage, preserved below unchanged): OWNER DECISION REQUIRED.** At that stage the evidence did not clearly establish either token as consistent with the existing X12 taxonomy and no recommendation was made. Nothing was renamed; no asset-ID or checksum rule was invented — and that is still true.
+
+**Controlled outputs:** `D3B_X12_Selected_BRAND_Mapping.csv` (SELECTED CONTROLLED MAPPING; 128 rows; STREAM = BRAND on every row; source rename NO; manifest-only YES). `05` is the comparison-stage copy of the same names; `06` is NOT SELECTED (historical).
 
 ## The pattern and where STREAM is (not) defined
 Register X12 (Approved): `GEM_[STREAM]_[ASSET]_[VARIANT]_vX.Y_YYYYMMDD.ext` — a shape only. **No STREAM values are listed anywhere in the Register.** Part C slide 56 adds: underscores separate fields, no spaces, "Latin letters and digits only", no "final/new/copy". Part A slide 75 adds: "A name should say what it is", "The stream field follows the asset library folder", and one example: `GEM_Logo_Horizontal_Black_v3.0_20261006.svg`.
@@ -16,7 +29,7 @@ Register X12 (Approved): `GEM_[STREAM]_[ASSET]_[VARIANT]_vX.Y_YYYYMMDD.ext` — 
 8. **Does either contradict existing controlled naming?** BRAND contradicts the Part A example. Logo contradicts the Part A folder rule on the same slide and would sit beside 11 BRAND-streamed working files in the same library folder, giving two STREAM values for one folder.
 
 ## Examples (same assets, exact pattern; vX.Y and YYYYMMDD stay placeholders)
-| Source file (unchanged) | If STREAM = BRAND | If STREAM = Logo |
+| Source file (unchanged) | If STREAM = BRAND — SELECTED | If STREAM = Logo — NOT SELECTED |
 |---|---|---|
 | `gem-horizontal-black.svg` | `GEM_BRAND_Horizontal_Black_vX.Y_YYYYMMDD.svg` | `GEM_Logo_Horizontal_Black_vX.Y_YYYYMMDD.svg` |
 | `gem-stacked-ink.pdf` | `GEM_BRAND_Stacked_Ink_vX.Y_YYYYMMDD.pdf` | `GEM_Logo_Stacked_Ink_vX.Y_YYYYMMDD.pdf` |
@@ -25,22 +38,26 @@ Register X12 (Approved): `GEM_[STREAM]_[ASSET]_[VARIANT]_vX.Y_YYYYMMDD.ext` — 
 | `gem-horizontal-ink-clearspace-2u.svg` | `GEM_BRAND_Horizontal_InkClearspace2u_vX.Y_YYYYMMDD.svg` | `GEM_Logo_Horizontal_InkClearspace2u_vX.Y_YYYYMMDD.svg` |
 | `gem-symbol-nospark-black.svg` | `GEM_BRAND_SymbolNoSpark_Black_vX.Y_YYYYMMDD.svg` | `GEM_Logo_SymbolNoSpark_Black_vX.Y_YYYYMMDD.svg` |
 
-Full mappings: `05_D3B_X12_BRAND_Mapping.csv`, `06_D3B_X12_Logo_Mapping.csv` — 128 logo files each (Horizontal 32, Stacked 32, Symbol 32, SymbolNoSpark 32; SVG 32, EPS 16, PDF 16, PNG 64) plus `metrics.json` marked "not mapped". ASSET and VARIANT values are held identical in both files so only STREAM differs.
+Full mappings: `D3B_X12_Selected_BRAND_Mapping.csv` (selected), `05_D3B_X12_BRAND_Mapping.csv` (comparison stage), `06_D3B_X12_Logo_Mapping.csv` (NOT SELECTED, history) — 128 logo files each (Horizontal 32, Stacked 32, Symbol 32, SymbolNoSpark 32; SVG 32, EPS 16, PDF 16, PNG 64) plus `metrics.json` marked "not mapped". ASSET and VARIANT values are held identical in both files so only STREAM differs.
 
 Assumptions (labelled A1–A4 in the CSVs; **none is a naming rule**): ASSET = the kit's shape word in the Title-case style of the Part A example; VARIANT = colour word plus the kit's own qualifiers (2u clearspace, pixel size) appended, because the pattern has one VARIANT field and Part C allows letters and digits only; `vX.Y` and `YYYYMMDD` left as placeholders (version and manifest issue date undecided); extension as in the source.
 
-## Semantic test (`07_D3B_X12_Semantic_Test.csv`, 13 criteria)
+## Semantic test (`07_D3B_X12_Semantic_Test.csv`, 13 criteria + final disposition)
 BRAND wins 6 · Logo wins 2 · Indeterminate 3 · Neither 2 (computed identical for both). The BRAND wins are on taxonomy-fit, scalability and grouping, mostly MODERATE or WEAK; the Logo wins are the exact match to the Part A example and name readability, both MODERATE. The criteria that carry authority (1 definition, 2 worked example, 3 internal consistency, 13 contradiction) point in **opposite directions** or are INDETERMINATE.
 
-## Decision rule applied
+## Decision rule applied at the comparison stage (prior state)
 "If the evidence clearly establishes one option as consistent with the existing X12 taxonomy: recommend it. If genuinely ambiguous: do not choose." The evidence is genuinely ambiguous:
 1. Part A slide 75 gives a rule (stream = library folder) and an example (`Logo`) that cannot both hold; the Register defines no values.
 2. Even if the folder rule governs, the folder-to-token spelling is undefined, so the folder rule supports "something derived from Brand Masters", not BRAND specifically.
 3. The tally is not authority: the extra BRAND wins are design-quality criteria, not governing text.
 
-## What the owner needs to decide (three short questions)
+## The three owner questions (prior state) and how the owner decision answers them
 1. Is STREAM the asset-library folder (rule) or an asset class (example)?
 2. If the folder: which token spells "01 Brand Masters" (BRAND, or another)? If an asset class: how do non-logo master-brand assets (tagline, palette sheet, status labels, stream lines) get a STREAM?
 3. Which Part A slide 75 sentence is then corrected: the example, or the folder rule?
 
-Consequences of each choice for other documents: `08`. Owner record: `09`.
+**Answers recorded by the owner decision:** (1) STREAM follows the asset-library / controlled stream taxonomy (Brand Masters), i.e. the folder rule governs. (2) The folder-derived token is **BRAND**. (3) The Part A slide 75 **example** is the defect and is corrected (candidate: STREAM token only); the rule text stays.
+
+**Still open (not decided by this record):** the enumerated ASSET and VARIANT value lists. `Horizontal` and `Black` appear only in Part A's own example; the kit's other shape words and qualifiers are working tokens. They are marked REQUIRES TAXONOMY CONFIRMATION in the selected mapping and are not silently normalized.
+
+Consequences for other documents: `08`. Owner record: `09`.

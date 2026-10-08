@@ -23,7 +23,7 @@
 - **Current authoritative wording.** "Templates are an OPEN DELIVERABLE (AB10, AB11, W01–W10): none exists yet."
 - **Proposed wording.** "…W01–W10): a Letterhead Set (Application Revision 03) exists as a WORKING APPLICATION / PENDING VALIDATION; no template is accepted."
 - **Governing evidence.** `GEM_Letterhead_Set_v1.1_Application_Revision_03/` exists in `main` with 8 Word templates; the package and its README call it a working application pending validation, and ODI01-R1 QA check 13 confirmed that all 8 templates carry the text "WORKING APPLICATION / PENDING VALIDATION". The Register records AB10, AB11 and W01–W14 as *scope decisions* (included in the final system), not as acceptance; OD-TPL (templates) is still an open deliverable and no template acceptance is recorded. The slide's own table keeps Letterhead as "[PENDING PRODUCTION MASTER]", which the new sentence agrees with. "None exists yet" is therefore contradicted by the repository, and "no template is accepted" is what the evidence supports.
-- **Visual change.** Yes: the body sentence is replaced and still occupies two lines; rendered before and after (`11_QA_Evidence/C44_before_after.png`); no overflow or collision; all other 77 pages of the candidate PDF are text-identical to the ODI01-R1 PDF.
+- **Visual change.** Yes: the body sentence grows from two lines to two lines of different text; rendered before and after (`11_QA_Evidence/C44_before_after.png`); no overflow or collision; all other 77 pages of the candidate PDF are text-identical to the ODI01-R1 PDF.
 - **Remark.** The sentence names "Application Revision 03", a package revision; if a later revision supersedes it the slide will need the same kind of synchronization again.
 - **Verdict: SUPPORTED.**
 

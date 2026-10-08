@@ -60,13 +60,13 @@ A scan of all current decks found exactly three stale statements of the C1/C2 ki
 # ================= 03 trace
 rows=[]
 def rowd(e,deck,orig_hash,cand_hash,vis,notes): return f"| {e['id']} | {deck} | slide {e['slide']} | `{e['part']}` | {e['before']} | {e['after']} | {e['authority']} | {vis} | {notes} | `{orig_hash}` | `{cand_hash}` |"
-ra=[rowd(e,'Part A',dA['src_sha256'],dA['dst_sha256'],'No','Yes') for e in L['edits'] if e['document']=='Part A']
+ra=[rowd(e,'Part A',dA['src_sha256'],dA['dst_sha256'],('Yes' if e['id']=='D3B' else 'No'),('No' if e['id']=='D3B' else 'Yes')) for e in L['edits'] if e['document']=='Part A']
 rc=[rowd(e,'Part C',dC['src_sha256'],dC['dst_sha256'],'Yes','No') for e in L['edits'] if e['document']=='Part C']
 rn=[f"| C4 | `{n['source']}` | line 3{' and 48' if n['occurrences_replaced']==2 else ''} | n/a (Markdown) | …SYNCHRONIZED · SYSTEM READY — EVIDENCE GATES REMAIN… | …SYNCHRONIZED · NOT RELEASED · EVIDENCE GATES REMAIN… | see `02` C4 | No | n/a | `{n['src_sha256']}` | `{n['dst_sha256']}` |" for n in L['notes']]
 c3=L['c3'];r3=f"| C3 | `{c3['source']}` | 3-line list | n/a (text) | includes `…  SHA256SUMS.txt` (self-entry) | self-entry removed; 2 lines | see `02` C3 | No | n/a | `{c3['src_sha256']}` | `{c3['dst_sha256']}` |"
-wr('03_D3A_Implementation_Trace.md',f'''# 03 · D3A Implementation Trace (C1–C4)
+wr('03_D3A_Implementation_Trace.md',f'''# 03 · D3A Implementation Trace (C1–C4) and the D3B example correction
 
-**Owner authorization:** "If C1, C2, C3 and C4 are all verified … ACCEPT AND IMPLEMENT C1–C4" (D3A only). All four verified (`02`), so all four were implemented — as **controlled candidate copies**. **No authoritative original was modified.** Candidate decks are built on the current ODI01-R1 candidates (so accepted D4/D5/D6 work is preserved); "original hash" below is the hash of that base file. Authoritative originals: Part A `{AO['A'][:12]}…`, Part C `{AO['C'][:12]}…` (unchanged; verified by `git diff HEAD`).
+**Owner authorization:** "If C1, C2, C3 and C4 are all verified … ACCEPT AND IMPLEMENT C1–C4" (D3A only). All four verified (`02`), so all four were implemented — as **controlled candidate copies**. A fifth, separate entry (ID D3B) records the Part A slide 75 example correction that follows the **owner decision of 2026-10-09: X12 STREAM = BRAND**; it is not part of C1–C4. **No authoritative original was modified.** Candidate decks are built on the current ODI01-R1 candidates (so accepted D4/D5/D6 work is preserved); "original hash" below is the hash of that base file. Authoritative originals: Part A `{AO['A'][:12]}…`, Part C `{AO['C'][:12]}…` (unchanged; verified by `git diff HEAD`).
 
 Method: zip-level exact text replacement (`scripts/d3_apply_d3a.py`); every other package member is byte-identical to its base. Edit proof by element-level comparison (`11_QA_Evidence/d3a_edit_verification.json`).
 
@@ -77,12 +77,15 @@ Method: zip-level exact text replacement (`scripts/d3_apply_d3a.py`); every othe
 ## Files changed per candidate
 - Part A candidate: parts `{', '.join(dA['parts_changed'])}` only.
 - Part C candidate: part `{', '.join(dC['parts_changed'])}` only; PDF re-exported (LibreOffice 26.8, tagged); 77 of 78 pages text-identical to the ODI01-R1 PDF; page 44 differs as intended.
-- Part A PDF: not regenerated (notes-only change; the PDF contains no notes). The ODI01-R1 Part A PDF remains the reference.
+- Part A PDF: re-exported (LibreOffice 26.8, tagged) because slide 75 now changes visibly; 79 of 80 pages are text-identical to the ODI01-R1 Part A PDF; page 75 differs as intended (render: `11_QA_Evidence/A75_before_after.png`; no overflow, clipping, wrap change or collision; LibreOffice is review evidence, not native PowerPoint validation).
 - Part D deck and PDF: not touched (C3 concerns only the checksum list).
 - Notes: 3 candidate Markdown files (the 03_qa and qa copies of the Release Notes stay identical to each other).
 
+## D3B example correction (slide 75)
+Before: `Example: GEM_Logo_Horizontal_Black_v3.0_20261006.svg · convention X12 …` — After: `Example: GEM_BRAND_Horizontal_Black_v3.0_20261006.svg · convention X12 …` (shape `Text 4`, part `ppt/slides/slide75.xml`). **Only the STREAM token changed.** `Horizontal`, `Black`, `v3.0` and `20261006` are carried unchanged from Part A's own example. The ASSET taxonomy is **not** enumerated in any governing document (Part C slide 56: "Category and variant lists follow the asset library", but no list exists), so this edit does not confirm it: **ASSET token remains subject to existing controlled taxonomy confirmation.** The rule text on the slide ("The stream field follows the asset library folder.") is unchanged and is now consistent with the example.
+
 ## Not done (by design)
-No original was edited in place; candidates were not promoted into authoritative folders; no deck other than A and C was changed; nothing was renamed.
+No original was edited in place; candidates were not promoted into authoritative folders; no deck other than A and C was changed; nothing was renamed (the BRAND mapping is a controlled-name mapping for the manifest, not a source migration).
 ''')
 # ================= 04 comparison
 def sample(csvf,names):
