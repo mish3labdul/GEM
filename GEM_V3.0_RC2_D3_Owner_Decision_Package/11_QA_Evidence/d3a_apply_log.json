@@ -1,0 +1,95 @@
+{
+ "edits": [
+  {
+   "id": "C1",
+   "document": "Part A",
+   "slide": 79,
+   "part": "ppt/notesSlides/notesSlide80.xml",
+   "before": "Part B's document ID is applied through its patch specification until its source is regenerated.",
+   "after": "Part B is issued as its own RC2 deck with a token package (PartB_RC2/05_release); its component bundle does not yet exist (VAL-13, VAL-20).",
+   "authority": "Part B RC2 deck, PDF and token package exist (PartB_RC2/05_release); Part B cover and slide 34 carry document ID GEM-DDS-V3.0-RC2; component bundle absent (open evidence register VAL-13, VAL-20, OD-SRC)",
+   "part_sha256_before": "a9ba3f0339eaffeca651e4fdf08bd3beb7818121f26eb244bd51e7a47bc7806b",
+   "part_sha256_after": "70a652ffa8bd78113dfb273f4e0f77b6712277f049c9755cee824221869b79cf"
+  },
+  {
+   "id": "C1",
+   "document": "Part A",
+   "slide": 80,
+   "part": "ppt/notesSlides/notesSlide79.xml",
+   "before": "Part B is the Digital Design System V3.0 (RC2 patch specification issued; PDF regeneration pending its source).",
+   "after": "Part B is the Digital Design System V3.0, issued as Release Candidate 2 with a token package; its component bundle is pending (VAL-13, VAL-20).",
+   "authority": "same as above",
+   "part_sha256_before": "99c44fff70564e4ca7d48a8ea9a7e886ed81e54b8e527de9fe82c7d67fcd2df2",
+   "part_sha256_after": "a2845a0c38db8da7d57c5ece2cb7f2c12fcc719bf12a480355122433e8620451"
+  },
+  {
+   "id": "C2",
+   "document": "Part C",
+   "slide": 44,
+   "part": "ppt/slides/slide44.xml",
+   "before": "Layout follows Part A. Print process and stock follow the print and materials standards. Templates are an OPEN DELIVERABLE (AB10, AB11, W01–W10): none exists yet.",
+   "after": "Layout follows Part A. Print process and stock follow the print and materials standards. Templates are an OPEN DELIVERABLE (AB10, AB11, W01–W10): a Letterhead Set (Application Revision 03) exists as a WORKING APPLICATION / PENDING VALIDATION; no template is accepted.",
+   "authority": "GEM_Letterhead_Set_v1.1_Application_Revision_03 exists in main; its 8 templates carry \"WORKING APPLICATION / PENDING VALIDATION\"; no acceptance recorded (Register AB10/AB11/W-rows are scope decisions, OD-TPL open); slide 44 table already shows Letterhead [PENDING PRODUCTION MASTER]",
+   "part_sha256_before": "d3847012f3a1f4623fa752e4da43325e5908bc50ba7e3f299484817ee11a514e",
+   "part_sha256_after": "a8d06b6ade0a6997e30a1b98d2f79d457aed5c144e8588feca19314519258979"
+  }
+ ],
+ "decks": {
+  "A": {
+   "src": "./GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Brand Guidelines V3.0 — Part A — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+   "dst": "GEM_V3.0_RC2_D3_Owner_Decision_Package/12_Candidate_Files/deck_candidates/GEM Brand Guidelines V3.0 — Part A — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
+   "src_sha256": "86019d1e83bcf84225b95c0caf6cd2f6bead83e596dc338aabf31de4e027d3d3",
+   "dst_sha256": "cdf355ce03f58a922af8f3f805f089d90665894ce17559aee211b1ddb9b8e9c8",
+   "parts_changed": [
+    "ppt/notesSlides/notesSlide79.xml",
+    "ppt/notesSlides/notesSlide80.xml"
+   ]
+  },
+  "C": {
+   "src": "./GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Production Standards V3.0 — Part C — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+   "dst": "GEM_V3.0_RC2_D3_Owner_Decision_Package/12_Candidate_Files/deck_candidates/GEM Production Standards V3.0 — Part C — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
+   "src_sha256": "add4269aa97af6046c2be17758450525a2e2cf4ba613c67f5e797461314ed4e6",
+   "dst_sha256": "3a8d291816d73f9f6f0c3aa6e1a75f5889ce9a7161d2e059e5874ba8828bb880",
+   "parts_changed": [
+    "ppt/slides/slide44.xml"
+   ]
+  }
+ },
+ "notes": [
+  {
+   "id": "C4",
+   "source": "qa/GEM_V3_RC2_Release_Notes.md",
+   "candidate": "qa__GEM_V3_RC2_Release_Notes.D3-CANDIDATE.md",
+   "occurrences_replaced": 1,
+   "src_sha256": "e8563badb26beb3472777f1525c7bda49ee6eb213da9a5d9ec0655e586010bd8",
+   "dst_sha256": "ac43ac198f206146e974dcb62d4db39803bcee597485044acd33007443a8f009",
+   "base": "current original"
+  },
+  {
+   "id": "C4",
+   "source": "GEM_V3_RC2/03_qa/GEM_V3_RC2_Release_Notes.md",
+   "candidate": "03_qa__GEM_V3_RC2_Release_Notes.D3-CANDIDATE.md",
+   "occurrences_replaced": 1,
+   "src_sha256": "e8563badb26beb3472777f1525c7bda49ee6eb213da9a5d9ec0655e586010bd8",
+   "dst_sha256": "ac43ac198f206146e974dcb62d4db39803bcee597485044acd33007443a8f009",
+   "base": "current original"
+  },
+  {
+   "id": "C4",
+   "source": "GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/partd/qa__GEM_V3_RC2_Final_Release_Notes.ODI01-R1-D6-CANDIDATE.md",
+   "candidate": "qa__GEM_V3_RC2_Final_Release_Notes.D3-CANDIDATE.md",
+   "occurrences_replaced": 2,
+   "src_sha256": "3ec01d1a163ad5c1ceadfe82ed5133526d6b12657f4dc2dac827628fcee9e00d",
+   "dst_sha256": "e1e00563f2962762e0c66f3fa423fcca29f6dd16afa8c8063f743e54240e8ce1",
+   "base": "ODI01-R1 D6 candidate (D6 + C4 combined)"
+  }
+ ],
+ "c3": {
+  "id": "C3",
+  "source": "Amenities_Portfolio_PartD_RC2/04_release/SHA256SUMS.txt",
+  "candidate": "PartD_04_release_SHA256SUMS.D3-CANDIDATE.txt",
+  "removed_line": "0549416c92bdf9751951a9c3acb40ece7545918637acd619b3dd0317c594c2d5  SHA256SUMS.txt",
+  "src_sha256": "a4545133a8c55a8551dc40db802d3e07a4945698a1728b4ce53f247e142f745b",
+  "dst_sha256": "360d9ae094e503ad147189732bb471c9bac3d96fb2588f60532a65fe17677fb1"
+ }
+}

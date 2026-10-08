@@ -1,0 +1,185 @@
+{
+ "package": "GEM_V3.0_RC2_D3_Owner_Decision_Package",
+ "purpose": "D3 owner decision package: D3A implemented as candidates; D3B owner decision required",
+ "status": "D3A IMPLEMENTED IN CANDIDATE · D3B OWNER DECISION REQUIRED · D7 PENDING (NO PUSH) · AC20 OPEN",
+ "release_label": "GEM™ V3.0 RC2 — SYNCHRONIZED / NOT RELEASED / EVIDENCE GATES REMAIN / UNAPPROVED IMPLEMENTATION CANDIDATE",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "ab6d886",
+ "pushed": false,
+ "merged": false,
+ "published": false,
+ "pr_opened": false,
+ "repository_setting_changed": false,
+ "authoritative_originals_modified": false,
+ "d3a": "IMPLEMENTED IN CANDIDATE (C1–C4)",
+ "d3b": "OWNER DECISION REQUIRED",
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "files": [
+  {
+   "path": "01_D3_Executive_Summary.md",
+   "bytes": 3327,
+   "sha256": "3ad0dde1e3378043f948d12e3994a3f9e98d43f49c76d4868ef0242a5f02faf1"
+  },
+  {
+   "path": "02_D3A_Authority_Verification.md",
+   "bytes": 7092,
+   "sha256": "b498b4c22261d26d21866d117c047ccf86eecaeec5fe51ef73c78ab85abbc28f"
+  },
+  {
+   "path": "03_D3A_Implementation_Trace.md",
+   "bytes": 5389,
+   "sha256": "9152bd8402175ad017518c666bdc2cc0cb7f6ca15453f0902716b4283af1cd45"
+  },
+  {
+   "path": "04_D3B_X12_STREAM_Comparison.md",
+   "bytes": 7072,
+   "sha256": "ac01870f9680ae1e402eee7981964cece29f6bfb50e07deb91686e75313096f4"
+  },
+  {
+   "path": "05_D3B_X12_BRAND_Mapping.csv",
+   "bytes": 45329,
+   "sha256": "41cc8ab244e3dc412a0f600697671bcc1ac6b0da26850be7a54e26e03826e8af"
+  },
+  {
+   "path": "06_D3B_X12_Logo_Mapping.csv",
+   "bytes": 44945,
+   "sha256": "207adc3d6a71bd4bb91f60023f021c020bc8ce31de8292df441269c94e56b2cf"
+  },
+  {
+   "path": "07_D3B_X12_Semantic_Test.csv",
+   "bytes": 4882,
+   "sha256": "de39322a39f8279120cc0ab0e958f930df347533d37d840886118003643ae620"
+  },
+  {
+   "path": "08_D3_Cross_Document_Consequences.md",
+   "bytes": 3542,
+   "sha256": "28c4c25d467b37f8bcce3ea58a8d5ed4d3275b9ebcce867c956887677879d0a2"
+  },
+  {
+   "path": "09_D3_Owner_Decision_Record.md",
+   "bytes": 2110,
+   "sha256": "6e32cef937fe7ff4306d1427987b729cc51129bcbd16c581b7137eef6415eaff"
+  },
+  {
+   "path": "10_D3_Remaining_Gates.md",
+   "bytes": 1305,
+   "sha256": "d8c1ba1a404d6b53bdfd5f7f5fa711ad59240d7bdf96d73ec59c615f859e9f92"
+  },
+  {
+   "path": "11_QA_Evidence/C44_before_after.png",
+   "bytes": 88109,
+   "sha256": "56cbf32c885db521799418994024f3ff69fbf87562a83a603d73b28067fb6858"
+  },
+  {
+   "path": "11_QA_Evidence/checksum_list_scan.txt",
+   "bytes": 790,
+   "sha256": "3d8757bea8cd1bb6d3b25f1e8289c713e064353675ac52ca1522969e74125793"
+  },
+  {
+   "path": "11_QA_Evidence/consistency_assertions_d3_candidates.md",
+   "bytes": 9335,
+   "sha256": "801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7"
+  },
+  {
+   "path": "11_QA_Evidence/d3_qa_defect_log.md",
+   "bytes": 2869,
+   "sha256": "f8768779347648ff9a5ed0d7aabaecb7ddbd4105e90796f734155ca4b3eca3bf"
+  },
+  {
+   "path": "11_QA_Evidence/d3_qa_results.json",
+   "bytes": 3595,
+   "sha256": "048b7d113809c633680610b5038f15afafe2df8c376e512df7db1670ac7a7754"
+  },
+  {
+   "path": "11_QA_Evidence/d3_qa_results.md",
+   "bytes": 3529,
+   "sha256": "c8ed4d2d33e9d50299096450d3d8737553f669a730b43febe2fce4000a1f5afd"
+  },
+  {
+   "path": "11_QA_Evidence/d3a_apply_log.json",
+   "bytes": 5473,
+   "sha256": "73bc1eec7abfdcbb2f3a14190e6fc70a5ac594c936a96cbb857d6824e21f44d3"
+  },
+  {
+   "path": "11_QA_Evidence/d3a_diff_register.csv",
+   "bytes": 3706,
+   "sha256": "91aa4730699740b6cf03687269b30e56031da812850516d56301aff5a6b1d6be"
+  },
+  {
+   "path": "11_QA_Evidence/d3b_mapping_stats.json",
+   "bytes": 1647,
+   "sha256": "0b326bdc6830e887f4e7278f6b8c295fab93d78b71f652c585208ec3cb6b5e61"
+  },
+  {
+   "path": "11_QA_Evidence/release_wording_checker_tests.json",
+   "bytes": 1744,
+   "sha256": "be630819384797a21e81a0e8f6cbc621b1bb3879efbb8749d201389f80fcc09a"
+  },
+  {
+   "path": "12_Candidate_Files/checksum_candidates/PartD_04_release_SHA256SUMS.D3-CANDIDATE.txt",
+   "bytes": 301,
+   "sha256": "360d9ae094e503ad147189732bb471c9bac3d96fb2588f60532a65fe17677fb1"
+  },
+  {
+   "path": "12_Candidate_Files/deck_candidates/GEM Brand Guidelines V3.0 — Part A — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 8402193,
+   "sha256": "cdf355ce03f58a922af8f3f805f089d90665894ce17559aee211b1ddb9b8e9c8"
+  },
+  {
+   "path": "12_Candidate_Files/deck_candidates/GEM Production Standards V3.0 — Part C — RC2 — D3 CANDIDATE (UNAPPROVED).pdf",
+   "bytes": 985488,
+   "sha256": "4950ba7902405c4dd9993b0ac593e1a00a024947f684b6b244a524809af30a8b"
+  },
+  {
+   "path": "12_Candidate_Files/deck_candidates/GEM Production Standards V3.0 — Part C — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 948375,
+   "sha256": "3a8d291816d73f9f6f0c3aa6e1a75f5889ce9a7161d2e059e5874ba8828bb880"
+  },
+  {
+   "path": "12_Candidate_Files/notes_candidates/03_qa__GEM_V3_RC2_Release_Notes.D3-CANDIDATE.md",
+   "bytes": 15316,
+   "sha256": "ac43ac198f206146e974dcb62d4db39803bcee597485044acd33007443a8f009"
+  },
+  {
+   "path": "12_Candidate_Files/notes_candidates/qa__GEM_V3_RC2_Final_Release_Notes.D3-CANDIDATE.md",
+   "bytes": 5385,
+   "sha256": "e1e00563f2962762e0c66f3fa423fcca29f6dd16afa8c8063f743e54240e8ce1"
+  },
+  {
+   "path": "12_Candidate_Files/notes_candidates/qa__GEM_V3_RC2_Release_Notes.D3-CANDIDATE.md",
+   "bytes": 15316,
+   "sha256": "ac43ac198f206146e974dcb62d4db39803bcee597485044acd33007443a8f009"
+  },
+  {
+   "path": "scripts/d3_apply_d3a.py",
+   "bytes": 5413,
+   "sha256": "09edfc754e248fa710deca4c8bf46bbd28297e9d536a4ea2b4b652d78685c269"
+  },
+  {
+   "path": "scripts/d3_build_docs.py",
+   "bytes": 27703,
+   "sha256": "6342124fd770d232d9c36aa31b931e6c229d8fe91d28b17c9b2b172d8d659550"
+  },
+  {
+   "path": "scripts/d3_manifest.py",
+   "bytes": 3031,
+   "sha256": "ee76b52f6c9ba30eccb48b5b3228cbbd3e6a843691b35530c928e578a9268041"
+  },
+  {
+   "path": "scripts/d3_qa.py",
+   "bytes": 14232,
+   "sha256": "9f1f9a981ed53316727becc6dcdd565e632ebaf6ab8d7ede9dc1264fedc3e146"
+  },
+  {
+   "path": "scripts/d3_x12_mapping.py",
+   "bytes": 4631,
+   "sha256": "840a3e8a5570cc7a8e8666f503936e5de416c389740cae0996de039b209b330a"
+  },
+  {
+   "path": "scripts/release_wording_checker.py",
+   "bytes": 2246,
+   "sha256": "586cbd9807dd1ab772f800b8ad2bfa47d1079f9dd2978c1b3db7de454b7fb90f"
+  }
+ ]
+}
