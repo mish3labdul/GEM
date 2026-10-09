@@ -1,0 +1,232 @@
+{
+ "package": "GEM_V3.0_RC2_NP01-R1_Native_Layout_Correction",
+ "purpose": "NP01-R1: narrow native layout correction of Part B slide 30 only (controlled candidate copy + QA evidence).",
+ "status": "UNAPPROVED CANDIDATE CORRECTION — NOT RELEASED",
+ "release_label": "GEM™ V3.0 RC2 — SYNCHRONIZED / NOT RELEASED / EVIDENCE GATES REMAIN / UNAPPROVED IMPLEMENTATION CANDIDATE",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "ed81b56",
+ "governance": {
+  "D3": "RESOLVED AT OWNER-DECISION LEVEL (X12 STREAM = BRAND)",
+  "D7": "LEGAL/IP DECISION PENDING — DO NOT PUSH",
+  "D8": "external Arabic/bilingual PDF BLOCKED",
+  "AC20": "OPEN",
+  "Gate 11 (native PowerPoint/Word/Acrobat/AT QA)": "OPEN"
+ },
+ "pushed": false,
+ "merged": false,
+ "published": false,
+ "pr_opened": false,
+ "committed": false,
+ "repository_setting_changed": false,
+ "authoritative_originals_modified": false,
+ "candidate_inputs_modified": false,
+ "change": {
+  "scope": "Part B slide 30 only",
+  "base_candidate_sha256": "22802377eb73448ce3c9c7a0e9d2d3818195d19172f7c07470a415f03d975777",
+  "corrected_candidate_sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+  "members_changed": [
+   "ppt/slides/slide30.xml"
+  ],
+  "attributes_changed": [
+   {
+    "shape": "Text 3",
+    "attribute": "a:ext@cy",
+    "before": 2112963,
+    "after": 2565400
+   },
+   {
+    "shape": "Text 5",
+    "attribute": "a:off@y",
+    "before": 4094113,
+    "after": 4546550
+   }
+  ],
+  "type_size_changed": false,
+  "line_spacing_changed": false
+ },
+ "results": {
+  "p2_before": 1,
+  "p2_after": 0,
+  "p2_scope": "controlled candidate lineage only",
+  "consistency_assertions": "112 PASS / 0 FAIL / 3 INFO, identical to baseline",
+  "pdf": "35 pages; only page 30 differs (32 words +35.6 pt)",
+  "bold_characters_native_slide30": 0
+ },
+ "environment": {
+  "powerpoint": "16.113.3",
+  "libreoffice": "26.8.1.1",
+  "python_pptx": "1.0.2",
+  "lxml": "6.0.2"
+ },
+ "screenshot_policy": "NATIVE SCREENSHOT EVIDENCE EXISTS LOCALLY AND WAS REVIEWED. SCREENSHOTS ARE INTENTIONALLY EXCLUDED FROM VERSION CONTROL PENDING D7 LEGAL/IP REPOSITORY-VISIBILITY DECISION.",
+ "screenshot_register": "07_Local_Screenshot_Evidence_Register.csv (the 4 NP01-R1 captures; NP01's 58 are in the NP01 package register)",
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "controlled_candidate_status": "Accepted in the controlled candidate lineage only; authoritative RC2 release/source decks and the ODI01-R1 baseline are unchanged.",
+ "pdf_status": "INTERNAL WORKING / PENDING VALIDATION — not externally releasable (D8)",
+ "raw_sweep_policy": "Raw sweep TSVs for slide 30 exist locally only and are excluded from version control pending D7.",
+ "files": [
+  {
+   "path": "01_NP01-R1_Summary.md",
+   "sha256": "38df985f6bb1aace625c1d31322b3a2690b492ee79a8a17a4e26a085993d7a72",
+   "bytes": 3913
+  },
+  {
+   "path": "02_Authority_and_Before_State.md",
+   "sha256": "dbb6b58387f0c52261b344fabff465e1177d7c3008f36a86a71fb38921f2c1c4",
+   "bytes": 3717
+  },
+  {
+   "path": "03_Geometry_Change_and_Rationale.md",
+   "sha256": "6bee84f5bf20258b6cfe780341db1acf0bf5e25de9fba3c5539234539e900946",
+   "bytes": 2821
+  },
+  {
+   "path": "04_Native_Revalidation.md",
+   "sha256": "1259a4d2ae2068fb536aed517d6c50a19edb289ae871f4b29370cb1c74926e8e",
+   "bytes": 3154
+  },
+  {
+   "path": "05_Structural_and_PDF_QA.md",
+   "sha256": "f0a6f41a978b565ea5d3acf4267bf063e01bf31093f30c995f451f87cf26c577",
+   "bytes": 3498
+  },
+  {
+   "path": "06_Carried_Forward_Findings.md",
+   "sha256": "284f0ca45a1fd3638d440a64792a36a03df81a2034b33dfbe6d726bb5101347c",
+   "bytes": 1446
+  },
+  {
+   "path": "07_Local_Screenshot_Evidence_Register.csv",
+   "sha256": "d0e564df1e9417297e8c4877313a7d55e64f54092da7d25c19fb30f7fab544bc",
+   "bytes": 1228
+  },
+  {
+   "path": "08_Commit_Proposal.md",
+   "sha256": "5ae9aee866793ab511429353bbf3053df978d164fe91ba6243f435abf776485d",
+   "bytes": 9893
+  },
+  {
+   "path": "candidate_documents/GEM Digital Design System V3.0 — Part B — RC2 — NP01-R1 CANDIDATE (UNAPPROVED).pdf",
+   "sha256": "c3217baadae81b2cb151a25fbbdadd0f702f3cc30ec5c281a2c65e234eb765a1",
+   "bytes": 511063
+  },
+  {
+   "path": "candidate_documents/GEM Digital Design System V3.0 — Part B — RC2 — NP01-R1 CANDIDATE (UNAPPROVED).pptx",
+   "sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+   "bytes": 158013
+  },
+  {
+   "path": "qa_evidence/01_authority_slide30_before_state.json",
+   "sha256": "1bf316f2fcce0fb44ba73d169fbb58463fb224da69bf133c52055f5f4115635a",
+   "bytes": 13086
+  },
+  {
+   "path": "qa_evidence/02_inset_aware_scan_all_decks_BEFORE.csv",
+   "sha256": "241069fe05bf4326763077e05bbfd62db1277dfd495225a54da33a83fe873578",
+   "bytes": 17206
+  },
+  {
+   "path": "qa_evidence/03_edit_log.json",
+   "sha256": "35cd0caa89c8b9fc6bc32cafe4301d7f034ee629ac577d6eec0cdbd4535d2bd2",
+   "bytes": 1220
+  },
+  {
+   "path": "qa_evidence/04_structural_diff.json",
+   "sha256": "b1cc325be26759695469b10558476b1f6c84c94d64ff1575b53d9e0bdc1a86af",
+   "bytes": 1055
+  },
+  {
+   "path": "qa_evidence/05_native_test_copy_staging.json",
+   "sha256": "0c09fcdb8b78f78567430b2d70085386ba1febcfbfbfc5d3a3420a48ae736f80",
+   "bytes": 1332
+  },
+  {
+   "path": "qa_evidence/08_native_slide30_before_after.csv",
+   "sha256": "68e20f2131c1fb37d087f4317f27b200a2c59dd5d94e6d859be5c977fbb40851",
+   "bytes": 598
+  },
+  {
+   "path": "qa_evidence/09_pdf_compare.json",
+   "sha256": "ad443849836f8d628f088971a215b9ab197b7b93d63bc7880dc76d98586f6721",
+   "bytes": 1723
+  },
+  {
+   "path": "qa_evidence/10_tool_versions.txt",
+   "sha256": "72f0b03c8f917ac8ee190fb311e00edc63054e0d4637a3f72edad40f13b8430f",
+   "bytes": 129
+  },
+  {
+   "path": "qa_evidence/11_consistency_BASELINE_current_lineage.md",
+   "sha256": "801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7",
+   "bytes": 9335
+  },
+  {
+   "path": "qa_evidence/12_consistency_AFTER_NP01-R1.md",
+   "sha256": "801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7",
+   "bytes": 9335
+  },
+  {
+   "path": "qa_evidence/13_ooxml_scan_corrected_candidate.json",
+   "sha256": "b90df3d18241038c1a60b5bad415dd691872db41cce399fca995758596deaf81",
+   "bytes": 517
+  },
+  {
+   "path": "scripts/np01_goto.sh",
+   "sha256": "6b32904b5a26c61f4e30a289d65231bbfcf90ce473faa3cbe2ad323e379b7ff2",
+   "bytes": 311
+  },
+  {
+   "path": "scripts/np01_open1.sh",
+   "sha256": "172c9668f45d01ac588d497c00ffffad1eb869f422f6597500f2d1ff2020b1ba",
+   "bytes": 516
+  },
+  {
+   "path": "scripts/np01r1_apply_slide30_fix.py",
+   "sha256": "e283ea5db576da86ae114cf6b07973ffed7231d63e4cddaf6c2862d9cf6fb774",
+   "bytes": 3441
+  },
+  {
+   "path": "scripts/np01r1_authority_check.py",
+   "sha256": "ff40e0a033585fa14a99221c901cac3dc7f109e150346c45baed39e757a7c0ef",
+   "bytes": 3649
+  },
+  {
+   "path": "scripts/np01r1_capture.py",
+   "sha256": "903e2816cfa4c0b7d4ade6486678b707720a4f06fa94963032b605ad2e0f6ddd",
+   "bytes": 457
+  },
+  {
+   "path": "scripts/np01r1_inset_aware_scan.py",
+   "sha256": "77dce4a6a185ab2670e8717f8b0b29b978427d80a9083d6a821b31bd658ff482",
+   "bytes": 4257
+  },
+  {
+   "path": "scripts/np01r1_manifest.py",
+   "sha256": "42ae5018b54c1c6775e22e7a79754a3ec3e43a8281a30a2e675d20381ee8b988",
+   "bytes": 2008
+  },
+  {
+   "path": "scripts/np01r1_open.sh",
+   "sha256": "28c9401619ad2156c2189cbec660186602c792f356d0e08316e0b104d797c41e",
+   "bytes": 515
+  },
+  {
+   "path": "scripts/np01r1_pdf_compare.py",
+   "sha256": "70d4466aa8f5372b2a0d40815ff7a0265d29b7fb683d8afedfeb7d17cb0ba13d",
+   "bytes": 3271
+  },
+  {
+   "path": "scripts/np01r1_structural_qa.py",
+   "sha256": "5022e5f22aec9a7393baf6ae0b7ee6989e96db2258ebca3a4bac38ae9e8de358",
+   "bytes": 2601
+  }
+ ],
+ "excluded_from_manifest_and_version_control": [
+  "12_screenshots/ (NP01, local-only)",
+  "local_only_screenshots/ (NP01-R1, local-only)",
+  "14_raw_native_sweeps/Part_* (NP01 raw sweeps, local-only)",
+  "qa_evidence/06_native_sweep_slide30_BEFORE.tsv and 07_native_sweep_slide30_AFTER.tsv (NP01-R1 raw sweeps, local-only)",
+  ".DS_Store"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "source": "./GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Digital Design System V3.0 — Part B — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+ "source_sha256": "22802377eb73448ce3c9c7a0e9d2d3818195d19172f7c07470a415f03d975777",
+ "output": "GEM_V3.0_RC2_NP01-R1_Native_Layout_Correction/candidate_documents/GEM Digital Design System V3.0 — Part B — RC2 — NP01-R1 CANDIDATE (UNAPPROVED).pptx",
+ "output_sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+ "member_order_identical": true,
+ "parts_changed": [
+  "ppt/slides/slide30.xml"
+ ],
+ "slide30_sha256_before": "f5679eba6e6968f4663073cf5daf49cc0043abbfa2b8366475e8c64e82b32055",
+ "slide30_sha256_after": "f36258ef618fb713eea137ceb8616baa17dfbee2b61399cb9f1ba756578297d9",
+ "edits": [
+  {
+   "shape": "Text 3",
+   "attribute": "a:ext@cy",
+   "before": 2112963,
+   "after": 2565400,
+   "before_pt": 166.37503937007875,
+   "after_pt": 202.0
+  },
+  {
+   "shape": "Text 5",
+   "attribute": "a:off@y",
+   "before": 4094113,
+   "after": 4546550,
+   "before_pt": 322.37110236220474,
+   "after_pt": 357.996062992126
+  }
+ ],
+ "delta_emu": 452437,
+ "delta_pt": 35.62496062992126
+}

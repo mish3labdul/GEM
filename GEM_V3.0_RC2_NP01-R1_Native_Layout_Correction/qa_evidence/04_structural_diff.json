@@ -1,0 +1,38 @@
+{
+ "before_sha256": "22802377eb73448ce3c9c7a0e9d2d3818195d19172f7c07470a415f03d975777",
+ "after_sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+ "member_count_before": 158,
+ "member_count_after": 158,
+ "member_order_identical": true,
+ "zipinfo_identical": true,
+ "members_changed": [
+  "ppt/slides/slide30.xml"
+ ],
+ "slides": 35,
+ "notes_masters_layouts_themes_docprops_byte_identical": true,
+ "slide30_token_count": 347,
+ "slide30_attribute_level_differences": [
+  {
+   "token_index": 152,
+   "before": "<a:ext cx=\"4826000\" cy=\"2112963\"/>",
+   "after": "<a:ext cx=\"4826000\" cy=\"2565400\"/>"
+  },
+  {
+   "token_index": 242,
+   "before": "<a:off x=\"812800\" y=\"4094113\"/>",
+   "after": "<a:off x=\"812800\" y=\"4546550\"/>"
+  }
+ ],
+ "all_a_t_text_identical": true,
+ "a_t_count": 7,
+ "rPr_identical": true,
+ "bodyPr_identical": true,
+ "colours_identical": true,
+ "typefaces_identical": true,
+ "line_spacing_identical": true,
+ "font_sizes_identical": true,
+ "bold_flags_after": [
+  "0"
+ ],
+ "bold_true_count_after": 0
+}
