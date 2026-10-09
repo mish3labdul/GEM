@@ -1,0 +1,187 @@
+{
+ "package": "GEM_V3.0_FA01_Final_Release_Authorization",
+ "purpose": "AC20 final Brand Owner release authorization record (governance documentation only; not the VAL-16 release manifest)",
+ "status": "GEM™ V3.0 — OWNER AUTHORIZED FINAL BRAND-SYSTEM BASELINE — FORMAL DEFERRALS RECORDED — ARTIFACT-SPECIFIC EXTERNAL-ISSUE RESTRICTIONS APPLY",
+ "ac20": "AUTHORIZED WITH FORMAL DEFERRALS AND RELEASE-SCOPE EXCLUSIONS",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "e99c4100eef6e547105be1c1563653d9a7aed109",
+ "gates_closed_by_this_package": 0,
+ "confidential_documents_requested_or_included": false,
+ "remote_operations_authorized": false,
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "files": [
+  {
+   "path": "01_FA01_Executive_Summary.md",
+   "bytes": 2379,
+   "sha256": "4edf811dd145fa0de1d9a735255ebb60b5c3844a927c57145372bad7288f8984"
+  },
+  {
+   "path": "02_FA01_AC20_Decision_Record.md",
+   "bytes": 2705,
+   "sha256": "433fb528283b500c5e7ae5dd7b1af24ddb8b597fe288c21bf94703176f42b786"
+  },
+  {
+   "path": "03_FA01_Release_Governance_Options.md",
+   "bytes": 6598,
+   "sha256": "d568f46a544810d24d86424cdad77d49285b0c7ef3ca51e25586f4d9c4061f55"
+  },
+  {
+   "path": "04_FA01_Final_Owner_Decisions.csv",
+   "bytes": 5224,
+   "sha256": "45f20c50825cc38e8786ccc48c25d335406133adb8b6a0447b6c8a603c9e7743"
+  },
+  {
+   "path": "05_FA01_Deferral_Treatment.md",
+   "bytes": 3281,
+   "sha256": "436cdf35e032ff74dec81c00205e812462e987a2c9bc4bf4abf1e07c774277de"
+  },
+  {
+   "path": "05b_FA01_Gate_Disposition_Register.csv",
+   "bytes": 4691,
+   "sha256": "d6796382156812070073fd397883c6b60f85500901ae2b49a22698d7695c9e7e"
+  },
+  {
+   "path": "06_FA01_Brand_Owner_Holder_Record.md",
+   "bytes": 1404,
+   "sha256": "1c06387b884bd6579818ea580280924eaa2fcc38480e0a71ad5c13d2416fed74"
+  },
+  {
+   "path": "07_FA01_D8_External_Issue_Policy.md",
+   "bytes": 1878,
+   "sha256": "788e452108c838b6b1cb3c4662dea8855ddedf5f28524313bf6c038c17665613"
+  },
+  {
+   "path": "08_FA01_AC19_Disposition.md",
+   "bytes": 1135,
+   "sha256": "696fbc5881b39afe1ac1b8ea65d041cf09203bcb13fab16cdd470a9e62114705"
+  },
+  {
+   "path": "09_FA01_AC20_Acceptance_Test.csv",
+   "bytes": 2689,
+   "sha256": "bfdd2c6171c1e6bdb90d60afc72fb83520fb9696ebf81dd24007d351696a2293"
+  },
+  {
+   "path": "10_FA01_Release_Scope_Matrix.csv",
+   "bytes": 7169,
+   "sha256": "3c002f550f9876abe053cbc0697ecfff0d809696cb2eedd77aec2aa7472417c6"
+  },
+  {
+   "path": "11_FA01_Residual_Limitations.md",
+   "bytes": 3068,
+   "sha256": "ddede0564e01b22efc749ec84ed8b63bcd45bdc923cd25051b1a95564dbd7fd8"
+  },
+  {
+   "path": "12_FA01_Governance_Supersession_Log.md",
+   "bytes": 2328,
+   "sha256": "0e2aaed85928e34ff151d8e482dd302cc7134d3966dc15b918e2bb770fc80f53"
+  },
+  {
+   "path": "13_FA01_Evidence_Index.md",
+   "bytes": 1519,
+   "sha256": "7e90da69d99d68c8e8b33f3cf45ab9d7de922d255585690384544605ada38002"
+  },
+  {
+   "path": "14_scripts/fa01_build_docs.py",
+   "bytes": 20258,
+   "sha256": "ef3cff8be86bdc43d80575c505c345af7fab3eb25b1b859f1a19c197507eea35"
+  },
+  {
+   "path": "14_scripts/fa01_build_registers.py",
+   "bytes": 22672,
+   "sha256": "eaa80e6a3f8a0ff2aafe596ef649583c8bb6db733c54bd068ab164cd0bde4256"
+  },
+  {
+   "path": "14_scripts/fa01_manifest.py",
+   "bytes": 2615,
+   "sha256": "81ff59b63dfb7d4401a9789ea7c9eeb9487a0cc7f2530c303d4810a3fd3d46aa"
+  },
+  {
+   "path": "14_scripts/fa01_qa.py",
+   "bytes": 9724,
+   "sha256": "9d5a85b00ae5823774c62b64a6265476004595d5d98bf6528a8e6cf480ea5e8e"
+  },
+  {
+   "path": "15_qa/FA01_QA_Report.md",
+   "bytes": 2668,
+   "sha256": "dbfafcdd5eebbe359d873e59cf9b6c77105fe655dfca9e433bef6d54500e1110"
+  }
+ ],
+ "baseline_files_outside_package": [
+  {
+   "path": "GEM_Brand_Assets_v1.0/04_official_kit/SHA256SUMS.txt",
+   "bytes": 19117,
+   "sha256": "16a74da8930ec28f46bf17b352db12d47a84da42557ad494b220bb2aeb1a9d05"
+  },
+  {
+   "path": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_English_Continuation.docx",
+   "bytes": 316475,
+   "sha256": "4103307647e5e4c6178bb9276c740c89e46b7a283015fed963f0d795578707ef"
+  },
+  {
+   "path": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_English_First_Page.docx",
+   "bytes": 380486,
+   "sha256": "8cb2e02bb9890f3701b20da6cb9de9962340cf2fda7fa3a320c579b3b2cf4299"
+  },
+  {
+   "path": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Executive.docx",
+   "bytes": 380504,
+   "sha256": "584848519da4defdc2e71a67bd4f837eeaee8082d29197755e4c175823b3366a"
+  },
+  {
+   "path": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Minimal.docx",
+   "bytes": 372637,
+   "sha256": "0d6678606dc443baf6f56fd19fe6ca4eb26f125c3e13c95993615cd65e183bf6"
+  },
+  {
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 29078579,
+   "sha256": "7347efc71126012322bb15453cb5ac4b351e583ac0a756edeed790018e23d598"
+  },
+  {
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM Brand Guidelines V3.0 — Part A — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 8411377,
+   "sha256": "aeaf96ea70b34f015da975949f0e4ac742ffaa86ffee4b6a722a8995c21f4995"
+  },
+  {
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM Digital Design System V3.0 — Part B — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 161537,
+   "sha256": "bde41b51e0e92a20a14a4f71f9dd25021a289751417564f8ce3737b9d0e7b506"
+  },
+  {
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM Production Standards V3.0 — Part C — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 951091,
+   "sha256": "30e2399d03725f17e7ed92398cc410e717f751fd771022d10fbcfcc875c6a397"
+  },
+  {
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM_Letterhead_Arabic_Continuation_HR01_CANDIDATE.docx",
+   "bytes": 316730,
+   "sha256": "2216d4d37b38e26bf89dd9892b4e49a03e6fff617a8b9333c43c6dfad14cc563"
+  },
+  {
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM_Letterhead_Arabic_First_Page_HR01_CANDIDATE.docx",
+   "bytes": 380861,
+   "sha256": "aa0ac92d99dbb30d76818237056cddeb96772a6e303927acb0113ab626e0a71d"
+  },
+  {
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM_Letterhead_Bilingual_Continuation_HR01_CANDIDATE.docx",
+   "bytes": 316858,
+   "sha256": "70fa0c3047c407139963912ea1ff5765534f59d2e59d5ffc47ada1935f1f12a8"
+  },
+  {
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM_Letterhead_Bilingual_First_Page_HR01_CANDIDATE.docx",
+   "bytes": 381171,
+   "sha256": "c253cef8f8b3dd0c82add9b3081aa8104736d94f4dc31b0da9f78a26985ed9be"
+  },
+  {
+   "path": "PartB_RC2/05_release/tokens/gem-tokens.v3.0-rc2.css",
+   "bytes": 10289,
+   "sha256": "2ea7ed543e1e8820f071197932e5ffe8b94d8dec924e1de37eb14d7b84c68b27"
+  },
+  {
+   "path": "PartB_RC2/05_release/tokens/gem-tokens.v3.0-rc2.json",
+   "bytes": 24985,
+   "sha256": "8f625821abd162f92ed7bf2ab0e2d7f979007ef2b1bec8e01a74b37dc7b686b9"
+  }
+ ]
+}
