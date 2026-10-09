@@ -15,3 +15,5 @@ Logos are the supplied vector kit, used unchanged. Acceptance as production mast
 `GEM_Letterhead_Set_v1.1_Application_Revision_03` holds the supplied letterhead set (8 Word templates, PDFs, specification, QA evidence). Working application, pending validation; it uses the official logo kit byte for byte.
 
 Current owner-decision layer (OD-G01 to OD-G12), role assignments and the post-decision open-evidence view: `GEM_V3.0_RC2_OD01_Owner_Decision_Formalization/`. Release authorization (AC20) is open and Legal/IP evidence gates remain open.
+
+Current governance overlay (owner acceptance and formal deferrals): `GEM_V3.0_RC2_FD01_Formal_Deferral_Owner_Acceptance/`. GEM™ V3.0 RC2 is owner accepted as-is with formal deferrals and is not yet final-release authorized (AC20 open); other evidence gates remain open.
