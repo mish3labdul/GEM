@@ -53,7 +53,7 @@ check("OD-G09 and OD-G10 = ASSIGNED to Mashal",
       all(reg[k]["Status"] == "ASSIGNED" and "Mashal" in reg[k]["Decision"] for k in ("OD-G09", "OD-G10")))
 check("OD-G11 = RESOLVED — OWNER REPOSITORY VISIBILITY APPROVAL (exact string), current public approved",
       reg["OD-G11"]["Status"] == "RESOLVED — OWNER REPOSITORY VISIBILITY APPROVAL"
-      and "C — CURRENT PUBLIC REPOSITORY APPROVED" in reg["OD-G11"]["Decision"])
+      and "OD-G11 — C — CURRENT PUBLIC REPOSITORY APPROVED" in reg["OD-G11"]["Decision"])
 check("OD-G12 = OPEN — FINAL RELEASE AUTHORIZATION PENDING (exact string)", reg["OD-G12"]["Status"] == "OPEN — FINAL RELEASE AUTHORIZATION PENDING")
 check("no decision closes an evidence gate", all(r["Does this close an evidence gate?"] == "NO" for r in reg.values()))
 imp = rows("04_OD01_Gate_Impact_Matrix.csv")
@@ -112,7 +112,8 @@ check("committed package does not claim the branch is published",
 # 5 immutability
 check("original Approval Register unchanged", sha(REGISTER) == REGISTER_SHA)
 changed = set(git("diff", "--name-only", "HEAD").split("\n")) - {""}
-check("only allowed tracked files changed", changed <= ALLOWED_TRACKED_CHANGES, str(sorted(changed - ALLOWED_TRACKED_CHANGES)))
+outside = {c for c in changed - ALLOWED_TRACKED_CHANGES if not c.startswith(str(OD) + "/")}
+check("only allowed tracked files changed (OD01 package, D7 record + checksums, README)", not outside, str(sorted(outside)))
 untracked = set(git("ls-files", "--others", "--exclude-standard").split("\n")) - {""}
 check("only the OD01 package is new", all(u.startswith(str(OD) + "/") for u in untracked), str(sorted(u for u in untracked if not u.startswith(str(OD) + "/"))))
 touched_hist = [c for c in changed if any(c == h or c.startswith(h + "/") for h in HISTORICAL)]
@@ -133,8 +134,12 @@ for line in (D7 / "SHA256SUMS.txt").read_text(encoding="utf-8").splitlines():
         bad_d7.append(name)
 check("D7 package checksums verify after the 09 update", not bad_d7, str(bad_d7))
 d7rec = (D7 / "09_D7_Owner_Decision_Record.md").read_text(encoding="utf-8")
-check("D7 record: option E ticked, A-D unticked, Legal/IP reviewer NOT PROVIDED",
-      "[x] E" in d7rec and len(re.findall(r"\[x\] [A-D] ", d7rec)) == 0 and "NOT PROVIDED" in d7rec)
+check("D7 record: OD-G11 recorded verbatim, taxonomy note present, no legacy option ticked, Legal/IP reviewer NOT PROVIDED",
+      ("OD-G11 \u2014 C \u2014 CURRENT PUBLIC REPOSITORY APPROVED" in d7rec or "**OD-G11 \u2014 C \u2014 CURRENT PUBLIC REPOSITORY APPROVED**" in d7rec)
+      and "independent of the historical D7 option lettering" in d7rec
+      and len(re.findall(r"\[x\] [A-E] ", d7rec)) == 0 and "NOT PROVIDED" in d7rec)
+check("AC19 stated OPEN / HOLDER CONDITION INCOMPLETE and not closed",
+      "OPEN / HOLDER CONDITION INCOMPLETE" in ev["AC19"]["Current status"] and ev["AC19"]["Can close now?"] == "NO")
 check("D7 record keeps Legal/IP evidence open and AC20 open", "AC20 remains OPEN" in d7rec and "OPEN WHERE THE GOVERNING GATES REQUIRE IT" in d7rec)
 
 # 6 local-only files

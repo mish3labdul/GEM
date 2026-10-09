@@ -12,7 +12,7 @@ The Register (`GEM_V3_RC2/00_originals/GEM_V3_Final_Brand_Approval_Register_Pref
 ## 3. Files changed outside the OD01 package
 | File | Change | Why |
 |---|---|---|
-| `GEM_V3.0_RC2_D7_Repository_Visibility_Decision_Package/09_D7_Owner_Decision_Record.md` | Populated with the OD-G11 decision (option E, owner wording quoted); header status updated; prior blank text preserved in Git history | The record exists to receive the decision; the instruction was to populate it, not replace the package |
+| `GEM_V3.0_RC2_D7_Repository_Visibility_Decision_Package/09_D7_Owner_Decision_Record.md` | Populated with the OD-G11 decision recorded verbatim ("C — CURRENT PUBLIC REPOSITORY APPROVED"); historical options A–E kept unticked as provenance; header status updated; prior blank text preserved in Git history | The record exists to receive the decision; the instruction was to populate it, not replace the package |
 | `GEM_V3.0_RC2_D7_Repository_Visibility_Decision_Package/MANIFEST.json` | `files` entry for `09` re-hashed; supersession pointer added; original `status` string kept as the as-created value | Keep the package verifiable |
 | `GEM_V3.0_RC2_D7_Repository_Visibility_Decision_Package/SHA256SUMS.txt` | Lines for `09` and `MANIFEST.json` updated | Same |
 | `README.md` | One pointer line to OD01 | Discoverability of the current decision layer |
@@ -58,3 +58,8 @@ Counts (exact, from `git grep` over tracked files for the phrases "DO NOT PUSH",
 
 ## 8. Publication-scope statement
 The OD01 brief authorizes one controlled push of the existing branch to `origin` after QA. It does not authorize a merge, PR, tag, release, force-push, remote history rewrite, branch deletion, change to `main`, or visibility change. It is not a release authorization. The committed package therefore records the push only as *authorized*; whether it happened is recorded outside the commit.
+
+## 9. Follow-up clarification (2026-10-09, after the first OD01 commit)
+- **OD-G11 taxonomy.** OD-G11 option lettering belongs to the OD01 Owner Decision Register taxonomy and is independent of the historical D7 option lettering. Historical D7 options are preserved as provenance and are not rewritten. The first OD01 commit had recorded the decision against the D7 lettering (ticking legacy option E and describing legacy option C). That mapping was removed; the decision is now recorded as "OD-G11 — C — CURRENT PUBLIC REPOSITORY APPROVED" and the legacy options are preserved unticked as provenance.
+- **Role mapping.** The owner confirmed that Mashal as Native Arabic Reviewer / Localization Lead is 1 of the 12 canonical roles; OD-G10 is a working authority assignment, not a canonical role. AC19 stays OPEN / HOLDER CONDITION INCOMPLETE.
+- No gate status, release status or Legal/IP position changed.

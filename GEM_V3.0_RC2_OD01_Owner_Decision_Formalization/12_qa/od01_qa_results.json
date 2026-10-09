@@ -116,7 +116,7 @@
    "detail": ""
   },
   {
-   "check": "only allowed tracked files changed",
+   "check": "only allowed tracked files changed (OD01 package, D7 record + checksums, README)",
    "result": "PASS",
    "detail": "[]"
   },
@@ -151,7 +151,12 @@
    "detail": "[]"
   },
   {
-   "check": "D7 record: option E ticked, A-D unticked, Legal/IP reviewer NOT PROVIDED",
+   "check": "D7 record: OD-G11 recorded verbatim, taxonomy note present, no legacy option ticked, Legal/IP reviewer NOT PROVIDED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "AC19 stated OPEN / HOLDER CONDITION INCOMPLETE and not closed",
    "result": "PASS",
    "detail": ""
   },

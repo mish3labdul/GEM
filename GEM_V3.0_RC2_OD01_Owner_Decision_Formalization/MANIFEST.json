@@ -14,48 +14,48 @@
  "files": [
   {
    "path": "01_OD01_Executive_Summary.md",
-   "bytes": 4735,
-   "sha256": "965475642d0ae6e4f08ffc3bfb61c6b326a3f7b2ed222dea249d9b251152028d"
+   "bytes": 4946,
+   "sha256": "8b41e88d150f47f14b095373bed3ebe00c162519840a2563a669585fafdbdf5e"
   },
   {
    "path": "02_OD01_Owner_Decision_Register.csv",
-   "bytes": 9238,
-   "sha256": "1c3f33b2a25bec8d8ab4e6c60ddfecf7cc22d61686a0c41b0efead9ac0b31d1f"
+   "bytes": 9322,
+   "sha256": "cc3da1cadefecc118f71294b0a86e74a91fa133c845715e928a46f7fe71e015a"
   },
   {
    "path": "03_OD01_Decision_Detail.md",
-   "bytes": 6605,
-   "sha256": "f8d6f2013e46d075b56e2bcde3aef1a637e2a761e9a8b904c1114129c26929ec"
+   "bytes": 6616,
+   "sha256": "6fccf856ac913a2010721078a516a06f648ab239e4a3e5313ebfc8520e71642b"
   },
   {
    "path": "04_OD01_Gate_Impact_Matrix.csv",
-   "bytes": 4180,
-   "sha256": "408bd064ee398f13c5e04c7135c318f1ab79852cac8c93be0f44909bdd467b05"
+   "bytes": 4273,
+   "sha256": "50d96bab264b0a14fb4a37706b4300c8824e0ab290935bf0bb2def264411924b"
   },
   {
    "path": "05_OD01_Role_Assignments.md",
-   "bytes": 3253,
-   "sha256": "ba2248dc92ec958b1f8ead0d02302e404c0542474fbb52b7a97cad8f1a8b96be"
+   "bytes": 3311,
+   "sha256": "44147225d41202b5c54650afa4b903b37afb565d44960a8253ceed7a92bc04d1"
   },
   {
    "path": "06_OD01_D7_Repository_Visibility_Decision.md",
-   "bytes": 4084,
-   "sha256": "f27fbe0a6b3ec0ead5178b530aa75a8ae9b3d6cc503bf1a61834dab0667a0990"
+   "bytes": 4069,
+   "sha256": "dba1ac586ac8f0e3ad32e8f38ac2d5c28c0e2d44b46ee5b173e55d41b7d603c5"
   },
   {
    "path": "07_OD01_AC20_Release_Authorization_Status.md",
-   "bytes": 3088,
-   "sha256": "adfaf88f3e906684c65b2774afb88686229b922ffc3d04c6ffdd3040553efc8d"
+   "bytes": 3103,
+   "sha256": "bb9ac0d77044c6ffeb4bc4234ac9a4df540328d8b948935ccb13d93cb58d7f73"
   },
   {
    "path": "08_OD01_Open_Evidence_After_Decisions.csv",
-   "bytes": 7943,
-   "sha256": "a700ee37808fdff8705ff415071786f56e1dabeac00f3092591c1870439741c4"
+   "bytes": 7978,
+   "sha256": "c0c6e037fb7bf674870c31c8bc948f717955f76b12cf4be8356a37f7fe2a868e"
   },
   {
    "path": "09_OD01_Governance_Synchronization_Log.md",
-   "bytes": 7374,
-   "sha256": "2325bad8db1102845f56783d7218851bc0d2b9b2b27ca1daa532d7bea8030910"
+   "bytes": 8370,
+   "sha256": "38966fb336899c60a40f811890fa6c96833cf59a748ff77be149c330c0e2b608"
   },
   {
    "path": "10_OD01_Evidence_Index.md",
@@ -64,8 +64,8 @@
   },
   {
    "path": "11_scripts/od01_build_tables.py",
-   "bytes": 28112,
-   "sha256": "782d3475f91dee6b0ca3dc6f1e137022b45324b1bc0baae49f92e00b90a85f3b"
+   "bytes": 28320,
+   "sha256": "e28c7320be5289262535a2519ce6e38c430d2d7ef0f6d54823239a3ef7d6ccde"
   },
   {
    "path": "11_scripts/od01_manifest.py",
@@ -79,8 +79,8 @@
   },
   {
    "path": "11_scripts/od01_qa.py",
-   "bytes": 9990,
-   "sha256": "856664c314e0a016b2bcaaff6497923feb3f24bf743245556ac8df51729de88c"
+   "bytes": 10528,
+   "sha256": "ac67c8c2e7054f50d373e4b4d6db6684bcc56b9f6633964f0f269d3d550ce051"
   },
   {
    "path": "12_qa/od01_prepublication_audit.md",
@@ -89,13 +89,13 @@
   },
   {
    "path": "12_qa/od01_qa_results.json",
-   "bytes": 3776,
-   "sha256": "65cb92f0dd91dc1c43127e2850b0f0fca9b784f6400653adfc7cfc5331931091"
+   "bytes": 3988,
+   "sha256": "0eb22e58956e679378607389ca5da25936c32e5b28df0ee8f0f420fbd3cbef40"
   },
   {
    "path": "12_qa/od01_qa_results.md",
-   "bytes": 2582,
-   "sha256": "f415490c9356fe715afb4009f11627ef5cae17efc6b78ae18d78f3a4d00563cd"
+   "bytes": 2752,
+   "sha256": "35d12df7088ad931589facaf109aba8a110fed866641c99bf056641f385a8878"
   },
   {
    "path": "OD01_Mashal_Accessibility_Content_Queue.csv",

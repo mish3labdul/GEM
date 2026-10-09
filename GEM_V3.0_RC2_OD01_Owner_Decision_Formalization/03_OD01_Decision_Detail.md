@@ -52,7 +52,7 @@ Each entry gives the decision as adopted, what it settles, and what it does not.
 - **Does not:** resolve the 30 titles, the 23 Part D alt-text items or the remaining ambiguous objects. Working queue: `OD01_Mashal_Accessibility_Content_Queue.csv`.
 
 ## OD-G11 — Repository / Legal-IP visibility policy · RESOLVED (owner level)
-- **Adopted:** "C — current public repository approved". The current GEM repository may remain public; public visibility is approved for the current repository and future controlled project material.
+- **Adopted:** "OD-G11 — C — CURRENT PUBLIC REPOSITORY APPROVED". The current GEM repository may remain public; public visibility is approved for the current repository and future controlled project material.
 - **Settles:** the owner-level repository-visibility decision. D7 is therefore no longer an owner-level repository-visibility blocker.
 - **Does not:** constitute legal clearance of any kind. See `06` for the visibility-versus-evidence matrix.
 - **Wording to use:** "Public repository visibility has been approved by the Brand Owner. This is not a legal opinion and does not substitute for the Legal/IP evidence required by the Approval Register."

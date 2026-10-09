@@ -30,7 +30,7 @@ It records twelve Brand Owner decisions (OD-G01 to OD-G12) adopted after AR01 an
 | OD-G08 | Word section direction (no forced section RTL) | APPROVED |
 | OD-G09 | Native Arabic Reviewer / Localization Lead — Mashal | ASSIGNED |
 | OD-G10 | Accessibility Content Owner / Brand Content Owner — Mashal | ASSIGNED |
-| OD-G11 | Repository visibility: current public repository approved by the Brand Owner | RESOLVED — OWNER REPOSITORY VISIBILITY APPROVAL |
+| OD-G11 | OD-G11 — C — CURRENT PUBLIC REPOSITORY APPROVED (repository visibility, Brand Owner) | RESOLVED — OWNER REPOSITORY VISIBILITY APPROVAL |
 | OD-G12 | AC20 final release authorization | OPEN — FINAL RELEASE AUTHORIZATION PENDING |
 
 ## What these decisions do not do
@@ -42,8 +42,8 @@ It records twelve Brand Owner decisions (OD-G01 to OD-G12) adopted after AR01 an
 The original Approval Register (`GEM_V3_RC2/00_originals/…xlsx`) is not edited, and no successor register is created. The repository's precedent (ODI01 register adoption record; D3 owner decision record) is to leave the workbook untouched and record owner decisions in dated overlay records. OD01 is that overlay for OD-G01 to OD-G12. See `09_OD01_Governance_Synchronization_Log.md`.
 
 ## Items for owner attention
-1. **Option label.** The owner's OD-G11 calls the selection "C". Option C in the D7 package's own decision record reads "Make repository private before any ODI01-R1 push". The owner's wording, not the package label, is recorded (see `06`).
-2. **Role mapping.** Whether OD-G09's role equals the Register role "Arabic / Localization Lead", and the fact that OD-G10's role is not one of the 12 Register roles, need the owner's confirmation (see `05`).
+1. **Option label.** **Option lettering (clarified).** OD-G11 option lettering belongs to the OD01 Owner Decision Register taxonomy and is independent of the historical D7 option lettering. Historical D7 options are preserved as provenance and are not rewritten.
+2. **Role mapping (confirmed by the owner).** Mashal as Native Arabic Reviewer / Localization Lead is 1 of the 12 canonical governance roles (*Arabic / Localization Lead*). Mashal as Accessibility Content Owner / Brand Content Owner is an OD01 working authority assignment and does not satisfy another canonical Register role (see `05`). AC19 stays OPEN / HOLDER CONDITION INCOMPLETE.
 3. **Scope of repository approval.** OD-G11 is recorded for `mish3labdul/GEM`. A second public repository, `mashaelalh/GEM`, is not covered.
 
 ## Remote publication

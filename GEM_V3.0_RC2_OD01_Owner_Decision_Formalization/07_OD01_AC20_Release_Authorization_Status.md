@@ -19,7 +19,7 @@ AC20 is the **final** release-authorization gate. It depends on upstream evidenc
 ## How to read "dispositioned or formally deferred"
 - It does **not** mean every open gate must be PASS.
 - It does **not** create waiver authority. A formal deferral or waiver can satisfy a dependency only where the governing system permits that disposition for that item. The Register shows deferral language in these places: AC10 ("Approve or formally defer"), VAL-12 (status Deferred, via S02) and R17/S02 (Deferred). No other item is recorded here as deferrable, and no deferral is exercised by OD01.
-- Who counts as an "authorized owner" for each gate is the Register's Owner / Approver column and its *Owners & Governance* sheet. Eleven of the twelve role holders are unnamed (or twelve, if the owner does not confirm the OD-G09 mapping; see `05`).
+- Who counts as an "authorized owner" for each gate is the Register's Owner / Approver column and its *Owners & Governance* sheet. Eleven of the twelve canonical role holders are unnamed; one (Arabic / Localization Lead) is named by OD-G09 (see `05`).
 
 ## Dependencies visible today (none closed by OD01)
 | Group | Items | State |
@@ -29,7 +29,7 @@ AC20 is the **final** release-authorization gate. It depends on upstream evidenc
 | Accessibility | VAL-08 | Open; assistive-technology testing not run; WCAG 2.2 AA not demonstrated |
 | Production | VAL-02, AC07, AC17, VAL-09, VAL-10, VAL-11, VAL-12 (Deferred), VAL-13, VAL-14, OD-TPL, OD-SRC | Open |
 | Release consistency | VAL-15, VAL-16, VAL-17, VAL-19, VAL-20, VAL-21 | Open |
-| Governance | AC19 role-holder condition; a named Brand Owner holder (the Register requires it before AC20 authorization) | Open |
+| Governance | AC19 OPEN / HOLDER CONDITION INCOMPLETE; a named Brand Owner holder (the Register requires it before AC20 authorization) | Open |
 
 VAL-18 is NOT ALLOCATED and is not part of this list.
 

@@ -14,10 +14,10 @@ OD-G07,VAL-07,Preserves Latin LTR identifiers. No new typography is introduced.,
 OD-G08,VAL-07,No forced section-level RTL. Word evidence decides.,NO,Not started - open,"Windows Word, Word Online and multi-page checks"
 OD-G09,VAL-07,Names the authorized reviewer. The queue is not executed.,NO,Not started - open,44 queue items reviewed and evidenced
 OD-G09,AC10,Names the authorized reviewer. No Arabic approval.,NO,Evidence Required - open,Brand Owner decision with localization evidence
-OD-G09,AC19,Possibly names 1 of 12 Register roles (Arabic / Localization Lead) once the owner confirms the mapping.,NO,Approved with modification; role-holder condition UNMET,"11 further holders (or 12 if the mapping is not confirmed), including the named Brand Owner"
+OD-G09,AC19,"Names 1 of the 12 canonical roles (Arabic / Localization Lead), as confirmed by the owner. Does not close AC19.",NO,OPEN / HOLDER CONDITION INCOMPLETE (Register status: Approved with modification),"11 further holders (or 12 if the mapping is not confirmed), including the named Brand Owner"
 OD-G10,VAL-08,Names the authorized content owner. No title or alt text is decided.,NO,In progress - open,Dispositions for the accessibility queue
-OD-G10,AC19,Role is not one of the 12 Register roles; it does not name a Register holder.,NO,Approved with modification; role-holder condition UNMET,As above
-OD-G11,D7 (owner level),Owner repository-visibility decision resolved: current public repository approved.,NO (D7 is not a validation gate; it is an owner decision),Owner decision RESOLVED; Legal/IP evidence OPEN where required,None for the owner-level visibility decision
+OD-G10,AC19,Working authority assignment; not a canonical Register role and does not satisfy another one.,NO,OPEN / HOLDER CONDITION INCOMPLETE (Register status: Approved with modification),As above
+OD-G11,D7 (owner level),OD-G11 — C — CURRENT PUBLIC REPOSITORY APPROVED: owner repository-visibility decision resolved.,NO (D7 is not a validation gate; it is an owner decision),Owner decision RESOLVED; Legal/IP evidence OPEN where required,None for the owner-level visibility decision
 OD-G11,VAL-03 / Y01,None. Public visibility is not trademark clearance.,NO,Not started / Evidence Required - open,Target-market clearance or legal advice
 OD-G11,VAL-04 / Y02,None. Not artwork-ownership evidence.,NO,Not started / Evidence Required - open,Executed ownership or assignment evidence
 OD-G11,VAL-05 / Y03,None. Not font-licence evidence.,NO,In progress / Evidence Required - open,Licence and exact-build verification for intended uses

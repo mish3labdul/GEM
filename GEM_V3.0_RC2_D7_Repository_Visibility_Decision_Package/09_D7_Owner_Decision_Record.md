@@ -8,7 +8,15 @@ Prepared 2026-10-09. Scope note: the choice applies to the repository or reposit
 
 ## Recorded owner decision (OD-G11, 2026-10-09)
 
-D7 — Repository Visibility
+**OD-G11 — C — CURRENT PUBLIC REPOSITORY APPROVED**
+
+OD-G11 option lettering belongs to the OD01 Owner Decision Register taxonomy and is independent of the historical D7 option lettering. Historical D7 options are preserved as provenance and are not rewritten.
+
+Owner decision text: the current GEM repository may remain public. The Brand Owner approves public repository visibility for the current repository and future controlled project material.
+
+## Historical D7 options (as prepared 2026-10-09; provenance, preserved and not rewritten)
+
+None of the boxes below is the recorded decision. They are the options the D7 package offered before the owner decided; the owner's decision is recorded above under the OD01 taxonomy.
 
 [ ] A — Keep repository public; keep ODI01-R1 local for now
 
@@ -18,9 +26,7 @@ D7 — Repository Visibility
 
 [ ] D — Keep public baseline repository; move candidate/audit work to private controlled repository
 
-[x] E — Other: **OWNER SELECTION AS WORDED BY THE BRAND OWNER — "C — CURRENT PUBLIC REPOSITORY APPROVED"** (OD-G11). The owner's letter "C" is the owner's own label for this selection. It is **not** this record's option C above, which reads "Make repository private" and was **not** selected. No box A–D is ticked because the owner's selection does not match any listed option verbatim; it is similar in substance to B (keep public) but is not recorded as B so that the owner's decision is not reinterpreted. The owner is asked to confirm this mapping.
-
-Owner decision text: the current GEM repository may remain public. The Brand Owner approves public repository visibility for the current repository and future controlled project material.
+[ ] E — Other: __________________
 
 Legal/IP reviewer:
 NOT PROVIDED. No Legal/IP review or opinion was supplied with this decision.

@@ -14,7 +14,7 @@ REPOSITORY VISIBILITY OWNER DECISION: RESOLVED · LEGAL/IP EVIDENCE: OPEN WHERE 
 Statement to use wherever public visibility is mentioned: *"Public repository visibility has been approved by the Brand Owner. This is not a legal opinion and does not substitute for the Legal/IP evidence required by the Approval Register."*
 
 ## Selection label
-The owner's selection is "C — CURRENT PUBLIC REPOSITORY APPROVED". In the D7 package's decision record (`GEM_V3.0_RC2_D7_Repository_Visibility_Decision_Package/09_D7_Owner_Decision_Record.md`) option C reads "Make repository private before any ODI01-R1 push", which is the opposite of the owner's text. The owner's wording governs. The D7 record was populated by ticking *E — Other*, quoting the owner, and leaving A–D unticked; the owner is asked to confirm the mapping (similar in substance to option B, not recorded as B).
+**OD-G11 — C — CURRENT PUBLIC REPOSITORY APPROVED.** OD-G11 option lettering belongs to the OD01 Owner Decision Register taxonomy and is independent of the historical D7 option lettering. Historical D7 options are preserved as provenance and are not rewritten. The D7 record (`GEM_V3.0_RC2_D7_Repository_Visibility_Decision_Package/09_D7_Owner_Decision_Record.md`) therefore records the decision verbatim and keeps the historical options A–E unticked as provenance; it does not map the decision to any of them.
 
 ## Scope
 - Covered: `mish3labdul/GEM` (`origin`).

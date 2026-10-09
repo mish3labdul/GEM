@@ -1,7 +1,7 @@
 # 05 · OD01 — Role Assignments
 
 **GEM™ V3.0 RC2 — SYNCHRONIZED / NOT RELEASED / EVIDENCE GATES REMAIN / UNAPPROVED IMPLEMENTATION CANDIDATE**
-AC19 role-holder condition: UNMET · AC20: OPEN
+AC19: OPEN / HOLDER CONDITION INCOMPLETE · AC20: OPEN
 
 ## Assignments recorded (2026-10-09, Brand Owner instruction)
 | Decision | Role | Assignee | Authority |
@@ -21,12 +21,12 @@ The Register sheet *Owners & Governance* lists twelve roles. All twelve carry "T
 
 | Question | Answer |
 |---|---|
-| Do the two assignments partially satisfy AC19? | **Possibly one role, and only after owner confirmation.** OD-G09 corresponds in substance to the Register role *Arabic / Localization Lead* (role 8 of 12). OD-G10's *Accessibility Content Owner / Brand Content Owner* is **not** one of the twelve Register roles; the nearest, *Accessibility QA*, is a verification role and is not mapped, so that the content owner and the verifier are not conflated. |
-| Count of Register roles that may now be named | 1 of 12 (Arabic / Localization Lead), pending the owner's confirmation of the mapping. 11 remain unnamed, including the **Brand Owner**, which the Register says must be named before AC20 authorization. |
-| Is AC19 closed? | **No.** The condition (all required holders actually named) is not met. |
+| Does OD-G09 name a canonical role holder? | **Yes, one.** The owner confirmed (2026-10-09) that Mashal as Native Arabic Reviewer / Localization Lead is 1 of the 12 canonical governance roles (Register role *Arabic / Localization Lead*, role 8 of 12). |
+| Does OD-G10 satisfy a canonical role? | **No.** *Accessibility Content Owner / Brand Content Owner* is an OD01 working authority assignment. It does not automatically satisfy another Register role; the nearest, *Accessibility QA*, is a verification role and is not mapped, so that the content owner and the verifier are not conflated. |
+| Canonical roles named by these decisions | 1 of 12. 11 remain unnamed, including the **Brand Owner**, which the Register says must be named before AC20 authorization. |
+| AC19 status | **OPEN / HOLDER CONDITION INCOMPLETE** (Register status: Approved with modification). Not closed: all required holders are not named. |
 | Effect on AC20 | Unchanged: OPEN. A named Brand Owner holder is an AC20 dependency (see `07`). |
 
 ## Open questions for the owner
-1. Confirm whether OD-G09 fills the Register role "Arabic / Localization Lead".
-2. State whether OD-G10's role should be added to the Register's role list or mapped to an existing role. OD01 does not edit the Register.
-3. Name the remaining holders, starting with the Brand Owner.
+1. State whether OD-G10's working role should later be added to the Register's role list or mapped to an existing role. OD01 does not edit the Register.
+2. Name the remaining holders, starting with the Brand Owner.
