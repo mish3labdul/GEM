@@ -1,0 +1,218 @@
+Document,Slide,Shapes,Text shapes,Native families (character-level where mixed),Bold characters,Shapes reporting range-level mixed bold,Arabic text shapes,Hidden shapes,Text extent exceeds box?,Notes text present,Priority slide,Visually inspected (evidence file),Result (native property sweep + visual where stated)
+Part A,1,6,4,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,2,17,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,3,30,19,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,4,18,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,5,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part A,6,6,5,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,7,19,14,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,8,12,9,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,9,5,4,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,10,10,8,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,11,6,5,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,12,23,14,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,13,14,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,14,19,14,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,15,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: A_slide015_native.jpg,PASS - visually inspected: Table header at regular weight; layout clean (D5-touched slide).
+Part A,16,16,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,17,16,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,18,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part A,19,16,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,20,18,17,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,21,20,16,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,22,21,17,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,23,11,9,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,24,19,15,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,25,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part A,26,14,8,Inter,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,27,19,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,28,13,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,29,15,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,30,28,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,31,21,14,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,32,16,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,33,17,13,Inter; Jost,0,0,0,0,"YES Text 13(txt 71>box 68,None)",yes,no,yes: A_slide033_native.jpg,PASS - visually inspected: Visually clean; 3pt box overrun is a metric only.
+Part A,34,8,8,Inter; Jost,0,0,0,0,"YES Text 5(txt 93>box 82,None)",yes,yes,yes: A_slide034_native.jpg; A_slide034_body_vs_footer_zoom.jpg,MINOR NATIVE VARIANCE [P3] - visually inspected: 400-only wording correct ('500 WEIGHT PENDING ACCEPTED FONT FILE (use 400)'). Body text overruns its box by ~12pt but clears the footer.
+Part A,35,17,13,Inter; Jost,0,0,0,0,no,yes,yes,yes: A_slide035_native.jpg,MINOR NATIVE VARIANCE [P3] - visually inspected: 'EMPHASIS · INTER 400 · 500 PENDING' fits on one line and renders regular weight. Kicker wraps to two lines and sits directly above the 'Aa' specimen.
+Part A,36,21,15,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,37,14,10,Inter; Jost; Noto Sans Arabic,0,0,1,0,no,yes,no,yes: A_slide037_arabic_native.jpg,PASS [OBSERVATION] - visually inspected: Arabic string shapes and aligns right correctly. Observation only; localization approval pending.
+Part A,38,14,12,Inter; Jost; Noto Sans Arabic,0,0,3,0,no,yes,no,yes: A_slide038_arabic_native.jpg,PASS [OBSERVATION] - visually inspected: Arabic strings shape correctly in both bilingual panels. Observation only.
+Part A,39,16,13,Inter; Jost; Noto Sans Arabic,0,0,2,0,no,yes,no,yes: A_slide039_arabic_mixed_order_native.jpg,REQUIRES NATIVE REVIEW [P3] - visually inspected: Mixed Arabic/Latin line resolves with a left-to-right base direction (no rtl=1 on the paragraph); label and code order is not the RTL reading order. Working placeholder string; belongs to the localization pass (VAL-07/08/15 stay open).
+Part A,40,8,6,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,41,6,5,Inter; Jost,0,0,0,0,"YES Text 2(txt 82>box 79,None)",yes,no,yes: A_slide041_native.jpg,MINOR NATIVE VARIANCE [P3] - visually inspected: Four-line headline sits tight against the body paragraph below it; no overlap.
+Part A,42,19,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,43,14,8,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,44,8,7,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,45,15,9,Inter; Jost,0,0,0,0,"YES Text 2(txt 82>box 65,None)",yes,no,yes: A_slide045_native.jpg,PASS - visually inspected: Visually clean.
+Part A,46,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part A,47,13,8,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,48,30,17,Inter; Jost,0,0,0,0,"YES Text 24(txt 49>box 43,None)",yes,no,yes: A_slide048_native.jpg,PASS - visually inspected: Visually clean; caption fits above the bottom frame.
+Part A,49,17,9,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,50,15,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,51,17,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,52,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part A,53,19,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,54,23,18,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,55,18,17,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,56,16,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,57,11,8,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,58,16,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,59,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part A,60,17,14,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,61,24,17,Inter; Jost,0,0,0,0,"YES Text 2(txt 74>box 59,None)",yes,no,yes: A_slide061_native.jpg,PASS - visually inspected: Six-level hierarchy reads clearly by size with 400 weight only.
+Part A,62,29,19,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,63,24,14,Inter,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,64,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part A,65,16,12,Inter; Jost; Noto Sans Arabic,0,0,1,0,no,yes,no,yes: A_slide065_arabic_native.jpg,PASS [OBSERVATION] - visually inspected: Arabic bracketed placeholder renders; bilingual order panel matches the stated rule. Observation only.
+Part A,66,17,12,Inter; Jost; Noto Sans Arabic,0,0,3,0,no,yes,no,yes: A_slide066_arabic_native.jpg,PASS [OBSERVATION] - visually inspected: Arabic words shape correctly. Observation only.
+Part A,67,22,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,68,16,11,Inter; Jost; Noto Sans Arabic,0,0,1,0,no,yes,no,no,PASS (native property sweep)
+Part A,69,19,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,70,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part A,71,28,20,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,72,41,29,Inter; Jost,0,0,0,0,"YES Text 27(txt 33>box 19,mixed)",yes,no,yes: A_slide072_footer_wrap_native.jpg,MINOR NATIVE VARIANCE [P3] - visually inspected: Footer text wraps to a second line ('GOVERNANCE'); no collision.
+Part A,73,17,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,74,27,15,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,75,13,9,Inter; Jost,0,0,0,0,"YES Text 10(txt 112>box 96,None)",yes,yes,yes: A_slide075_native.jpg,PASS - visually inspected: Example reads 'GEM_BRAND_Horizontal_Black_v3.0_20261006.svg'; STREAM = BRAND; no overflow or ambiguity; footer clear.
+Part A,76,29,16,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,77,27,14,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,78,27,15,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part A,79,27,15,Inter; Jost,0,0,0,0,no,yes,yes,yes: A_slide079_with_notes_pane.jpg; A_slide079_changelog_rule_zoom.jpg,"MINOR NATIVE VARIANCE [P3] - visually inspected: Notes pane shows the C1 wording for slide 79, correctly attached. A hairline rule runs through the first line of the change-log text; slide XML is identical to ODI01-R1 (pre-existing, not introduced by D3)."
+Part A,80,4,2,Inter; Jost,0,0,0,0,no,yes,yes,yes: A_slide080_with_notes_pane.jpg,PASS - visually inspected: Notes pane shows the C1 wording for slide 80 ('Closing. Part B is the Digital Design System V3.0...'); no 79/80 inversion in the user-visible UI.
+Part B,1,7,5,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part B,2,16,14,Inter; Jost,0,0,0,0,"YES Text 11(txt 101>box 86,None)",empty/none,no,yes: B_slide002_flagged_coverage.png,PASS - visually inspected: Visually clean (flagged by extent metric only).
+Part B,3,25,19,Inter; Jost,0,3,0,0,no,empty/none,yes,yes: B_slide003_native.jpg,"PASS [OBSERVATION] - visually inspected: Run-in lead-ins ('Character.', 'Principles.', 'Tagline.', 'Not allowed.') render at regular weight: the hierarchy cue is gone. Accepted D5 consequence (400 only); bold not restored."
+Part B,4,11,8,Inter; Jost,0,0,0,0,"YES Text 8(txt 70>box 50,None)",yes,no,yes: B_slide004_table_growth_native.jpg,MINOR NATIVE VARIANCE [P3] - visually inspected: Table row grows to three lines natively; the 'Authority order' and 'Source of truth' headings sit directly against the table bottom.
+Part B,5,8,5,Inter; Jost,0,0,0,0,"YES Text 3(txt 84>box 79,None)",empty/none,no,yes: B_D5_coverage_sheet01.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,6,7,5,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet01.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,7,11,9,Inter; Jost,0,6,0,0,no,empty/none,no,yes: B_D5_coverage_sheet01.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,8,32,19,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part B,9,17,13,Inter; Jost; Noto Sans Arabic,0,0,1,0,no,empty/none,yes,yes: B_slide009_native.jpg,PASS - visually inspected: Families slide; 'Weights in use: 400 only...' wording correct; Arabic 'أب' shapes.
+Part B,10,9,7,Inter; Jost,0,0,0,0,no,empty/none,yes,yes: B_slide010_native.jpg,PASS - visually inspected: Type styles table at regular weight; 'CURRENT IMPLEMENTATION: 400 for every row. 500: PENDING ACCEPTED FONT FILE.' visible.
+Part B,11,17,15,Inter; Jost,0,2,0,0,"YES Text 15(txt 84>box 72,None)",empty/none,yes,yes: B_slide011_native.jpg,PASS - visually inspected: Tracking specimens render with the stated letter-spacing.
+Part B,12,8,5,Inter; Jost,0,0,0,0,no,empty/none,yes,yes: B_slide012_native.jpg; B_slide012_table_to_paragraph_zoom.jpg,MINOR NATIVE VARIANCE [P3] - visually inspected: Wt column shows 400; note present. Right-hand table last row grows to three lines and the paragraph below starts with no clearance (no glyph overlap).
+Part B,13,8,6,Inter; Jost,0,2,0,0,"YES Text 3(txt 101>box 94,None)",empty/none,yes,yes: B_slide013_native.jpg,PASS - visually inspected: Visually clean.
+Part B,14,18,4,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet01.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,15,6,4,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet02.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,16,7,4,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet02.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,17,9,7,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet02.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,18,9,7,Inter; Jost,0,2,0,0,"YES Text 6(txt 101>box 79,None)",empty/none,yes,yes: B_slide018_native.jpg,PASS - visually inspected: Visually clean; third column clears the footer.
+Part B,19,9,7,Inter; Jost,0,4,0,0,no,empty/none,yes,yes: B_slide019_native.jpg,PASS [OBSERVATION] - visually inspected: Visually clean. 'Voice (G01-G10).' lead-in at regular weight (accepted D5 consequence).
+Part B,20,5,3,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet02.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,21,7,5,Inter; Jost,0,1,0,0,no,empty/none,yes,yes: B_slide021_native.jpg,PASS - visually inspected: Visually clean.
+Part B,22,7,4,Inter; Jost,0,0,0,0,no,empty/none,yes,yes: B_slide022_native.jpg,"PASS - visually inspected: 'Navigates; underlined, 400, ink' wording present."
+Part B,23,7,4,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet03.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,24,6,4,Inter; Jost,0,1,0,0,no,empty/none,yes,yes: B_slide024_native.jpg,PASS - visually inspected: Visually clean; RTL/screen-reader rows still show native QA PENDING (VAL-07/08).
+Part B,25,7,5,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet03.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,26,18,13,Inter; Jost,0,5,0,0,no,yes,no,yes: B_D5_coverage_sheet03.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,27,6,4,Inter; Jost,0,0,0,0,no,yes,no,yes: B_D5_coverage_sheet03.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,28,14,10,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part B,29,6,4,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet04.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,30,7,6,Courier New; Inter; Jost,0,1,0,0,"YES Text 3(txt 169>box 166,None)",empty/none,yes,yes: B_slide030_native.jpg; B_slide030_excerpt_box_overflow_zoom.jpg; B_slide030_candidate_PDF_LibreOffice_comparison.png,"REAL CANDIDATE DEFECT [P2] - visually inspected: Token-excerpt box is shorter than its text (9 logical lines that wrap to 10 in Courier New). In native PowerPoint the last line ('motion · layout · locale') falls outside the dark box and is not visible, and the line above is partly clipped. The candidate's LibreOffice PDF shows all lines, so this is a native-only visible defect. Not fixed in NP01."
+Part B,31,5,3,Inter; Jost,0,0,0,0,no,empty/none,no,yes: B_D5_coverage_sheet04.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,32,6,3,Inter; Jost,0,0,0,0,"YES Text 3(txt 33>box 19,None)",yes,no,yes: B_D5_coverage_sheet04.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part B,33,10,8,Inter; Jost,0,3,0,0,no,yes,yes,yes: B_slide033_native.jpg,PASS - visually inspected: Visually clean.
+Part B,34,10,8,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part B,35,7,5,Inter; Jost,0,0,0,0,"YES Text 4(txt 101>box 72,None)",yes,no,yes: (inspected; screenshot not retained),PASS - visually inspected: Visually clean.
+Part C,1,8,6,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,2,19,15,Inter; Jost,0,0,0,0,"YES Text 14(txt 93>box 90,None)",yes,no,yes: C_flagged_coverage_sheet01.png,PASS - visually inspected: Visually clean (flagged by extent metric only).
+Part C,3,26,26,Inter; Jost,0,0,0,0,"YES Text 22(txt 50>box 43,None); Text 25(txt 32>box 30,None)",yes,no,yes: C_slide003_placeholder_lines_abut_zoom.jpg; C_flagged_coverage_sheet01.png,MINOR NATIVE VARIANCE [P3] - visually inspected: The third line of the placeholder list abuts the 'Edition states' line below it (no leading between them); both legible.
+Part C,4,6,5,Inter; Jost,0,0,0,0,"YES Text 2(txt 50>box 43,None)",yes,no,yes: C_D5_coverage_sheet01.png,MINOR NATIVE VARIANCE [P3] - visually inspected: D5-touched slide; table last row grows and the paragraph below starts with no clearance (no glyph overlap).
+Part C,5,47,33,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,6,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part C,7,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet01.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,8,21,19,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,9,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet01.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,10,15,10,Inter,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,11,29,25,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,12,26,20,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,13,23,17,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,14,14,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,15,10,9,Inter; Jost,0,0,0,0,no,yes,yes,yes: C_slide015_native.jpg,"PASS - visually inspected: '400 · 500 PENDING' and 'CURRENT IMPLEMENTED WEIGHT = 400 (Jost, Inter). 500 is PENDING ACCEPTED FONT FILE...' render correctly."
+Part C,16,15,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,17,21,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,18,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part C,19,41,23,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,20,13,9,Inter; Jost,0,0,0,0,"YES Text 4(txt 38>box 36,None)",yes,no,yes: C_flagged_coverage_sheet01.png,PASS - visually inspected: Visually clean (flagged by extent metric only).
+Part C,21,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet01.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,22,20,18,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,23,8,7,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet02.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,24,23,19,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,25,8,8,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,26,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part C,27,17,14,Inter; Jost,0,0,0,0,"YES Text 12(txt 58>box 50,None)",yes,no,yes: C_slide027_native.jpg,MINOR NATIVE VARIANCE [P3] - visually inspected: Paragraph sits tight above the dashed boxes; no overlap.
+Part C,28,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet02.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,29,11,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,30,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet02.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,31,10,9,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,32,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet02.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,33,12,12,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,34,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet03.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,35,15,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,36,13,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,37,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part C,38,15,13,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,39,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet03.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,40,11,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,41,11,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,42,11,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,43,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet03.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,44,6,5,Inter; Jost,0,0,0,0,"YES Text 2(txt 31>box 18,None)",yes,yes,yes: C_slide044_native.jpg,PASS - visually inspected: C2 wording renders: 'a Letterhead Set (Application Revision 03) exists as a WORKING APPLICATION / PENDING VALIDATION; no template is accepted.' Text wraps one line past its one-line box with clear space below.
+Part C,45,11,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,46,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part C,47,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet03.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,48,15,12,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,49,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet04.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,50,11,11,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,51,9,8,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet04.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,52,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet04.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,53,10,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,54,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet04.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,55,10,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,56,10,10,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,57,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet05.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,58,9,9,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,59,5,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part C,60,7,6,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet05.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,61,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet05.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,62,13,11,Inter; Jost,0,0,0,0,no,yes,no,yes: C_slide062_right_table_flush_to_edge_native.jpg; C_D5_coverage_sheet05.png,"MINOR NATIVE VARIANCE [P3] - visually inspected: D5-touched slide; the right-hand table is flush with the slide right edge (table right boundary = slide width in the XML: zero right margin; all content visible). Geometry is in the file, identical in the ODI01-R1 candidate."
+Part C,63,7,6,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet06.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,64,7,6,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet06.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,65,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet06.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,66,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet06.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,67,5,4,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet07.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,68,7,6,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet07.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,69,7,6,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet07.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,70,7,6,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet07.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,71,7,6,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet08.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,72,7,6,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet08.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,73,33,33,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,74,6,5,Inter; Jost,0,0,0,0,no,yes,no,yes: C_D5_coverage_sheet08.png,"PASS - visually inspected: D5-touched slide; viewed on contact sheet; regular-weight tables/text, no overflow or collision."
+Part C,75,22,22,Inter; Jost,0,0,0,0,"YES Text 21(txt 50>box 43,None)",yes,no,yes: C_flagged_coverage_sheet01.png,PASS - visually inspected: Visually clean (flagged by extent metric only).
+Part C,76,24,18,Inter; Jost,0,0,0,0,no,yes,no,no,PASS (native property sweep)
+Part C,77,25,19,Inter; Jost,0,0,0,0,"YES Text 24(txt 66>box 58,None)",yes,no,yes: C_flagged_coverage_sheet02.png,MINOR NATIVE VARIANCE [P3] - visually inspected: 'Edition state: WORKING EDITION · NOT RELEASED' renders; the release-status box text fills its box tightly.
+Part C,78,6,4,Inter; Jost,0,0,0,0,no,empty/none,no,no,PASS (native property sweep)
+Part D,1,9,5,Inter; Jost,0,0,0,0,no,yes,yes,yes: D_slide001_native.jpg,PASS - visually inspected: Opens cleanly; images intact; 'CONCEPT / NOT PRODUCTION ARTWORK' visible.
+Part D,2,15,11,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,3,20,14,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,4,12,6,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,5,20,14,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,6,20,14,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,7,16,12,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,8,13,10,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,9,10,8,Inter; Jost,0,0,0,0,"YES shape #8(txt 213>box 200,None)",yes,yes,yes: D_slide009_native.jpg,"PASS - visually inspected: Concept status retained ('CONCEPT / NOT PRODUCTION ARTWORK / DISPENSING FORMAT PENDING', 'v1.0 WORKING EDITION')."
+Part D,10,18,12,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,11,22,18,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,12,14,11,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,13,10,8,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,14,29,21,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,15,17,13,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,16,10,8,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,17,10,8,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,18,32,24,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,19,10,8,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,20,10,8,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,21,49,34,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,22,31,24,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,23,9,7,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)
+Part D,24,5,4,Inter; Jost,0,0,0,0,no,yes,yes,no,PASS (native property sweep)

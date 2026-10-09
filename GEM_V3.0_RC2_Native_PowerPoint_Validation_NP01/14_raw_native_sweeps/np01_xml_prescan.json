@@ -1,0 +1,103 @@
+[
+ {
+  "file": "GEM Brand Guidelines V3.0 — Part A — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
+  "slides": 80,
+  "notesSlides": 80,
+  "charts": [],
+  "diagrams": [],
+  "embedded_fonts": false,
+  "media_external_links": [],
+  "defaultTextStyle_bold": 0,
+  "explicit_bold_parts": {},
+  "tableStyleIds": {},
+  "tableFlags": {},
+  "tableStyles_defined_ids": [],
+  "tableStyles_bold_tokens": 0,
+  "arabic_slides": {
+   "37": {
+    "arabic_runs": 1,
+    "runs_with_cs_noto": 1,
+    "rtl_paras": 0
+   },
+   "38": {
+    "arabic_runs": 3,
+    "runs_with_cs_noto": 3,
+    "rtl_paras": 0
+   },
+   "39": {
+    "arabic_runs": 2,
+    "runs_with_cs_noto": 2,
+    "rtl_paras": 0
+   },
+   "65": {
+    "arabic_runs": 1,
+    "runs_with_cs_noto": 1,
+    "rtl_paras": 0
+   },
+   "66": {
+    "arabic_runs": 3,
+    "runs_with_cs_noto": 3,
+    "rtl_paras": 0
+   },
+   "68": {
+    "arabic_runs": 1,
+    "runs_with_cs_noto": 1,
+    "rtl_paras": 0
+   }
+  }
+ },
+ {
+  "file": "GEM Digital Design System V3.0 — Part B — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "slides": 35,
+  "notesSlides": 35,
+  "charts": [],
+  "diagrams": [],
+  "embedded_fonts": false,
+  "media_external_links": [],
+  "defaultTextStyle_bold": 0,
+  "explicit_bold_parts": {},
+  "tableStyleIds": {},
+  "tableFlags": {},
+  "tableStyles_defined_ids": [],
+  "tableStyles_bold_tokens": 0,
+  "arabic_slides": {
+   "9": {
+    "arabic_runs": 1,
+    "runs_with_cs_noto": 1,
+    "rtl_paras": 0
+   }
+  }
+ },
+ {
+  "file": "GEM Production Standards V3.0 — Part C — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
+  "slides": 78,
+  "notesSlides": 78,
+  "charts": [],
+  "diagrams": [],
+  "embedded_fonts": false,
+  "media_external_links": [],
+  "defaultTextStyle_bold": 0,
+  "explicit_bold_parts": {},
+  "tableStyleIds": {},
+  "tableFlags": {},
+  "tableStyles_defined_ids": [],
+  "tableStyles_bold_tokens": 0,
+  "arabic_slides": {}
+ },
+ {
+  "file": "GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "slides": 24,
+  "notesSlides": 24,
+  "charts": [],
+  "diagrams": [],
+  "embedded_fonts": false,
+  "media_external_links": [],
+  "defaultTextStyle_bold": 0,
+  "explicit_bold_parts": {},
+  "tableStyleIds": {},
+  "tableFlags": {},
+  "tableStyles_defined_ids": [],
+  "tableStyles_bold_tokens": 0,
+  "arabic_slides": {}
+ }
+]

@@ -1,0 +1,20 @@
+4f27cafb8a233fde39c371497ff570aefc92c19ec53938814c86eadbc07e5886  ./Amenities_Portfolio_PartD_RC2/00_originals/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 (as supplied).pptx
+f6ad77b0f26a2a6bfc8062a76093251b39a2eb4a46631a95e68b725b4a725ec3  ./Amenities_Portfolio_PartD_RC2/04_release/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2.pptx
+eca6b80ba6f301cf503b091821736f56c685e10d721c03a5579f9b238e1dc752  ./GEM_V3.0_RC2_D3_Owner_Decision_Package/12_Candidate_Files/deck_candidates/GEM Brand Guidelines V3.0 — Part A — RC2 — D3 CANDIDATE (UNAPPROVED).pptx
+3a8d291816d73f9f6f0c3aa6e1a75f5889ce9a7161d2e059e5874ba8828bb880  ./GEM_V3.0_RC2_D3_Owner_Decision_Package/12_Candidate_Files/deck_candidates/GEM Production Standards V3.0 — Part C — RC2 — D3 CANDIDATE (UNAPPROVED).pptx
+04d325f83fc77a01220430c00688d73529ed6de20e912fcda9ef2ddfb5bec9e1  ./GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx
+86019d1e83bcf84225b95c0caf6cd2f6bead83e596dc338aabf31de4e027d3d3  ./GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Brand Guidelines V3.0 — Part A — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx
+22802377eb73448ce3c9c7a0e9d2d3818195d19172f7c07470a415f03d975777  ./GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Digital Design System V3.0 — Part B — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx
+add4269aa97af6046c2be17758450525a2e2cf4ba613c67f5e797461314ed4e6  ./GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Production Standards V3.0 — Part C — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx
+021f639d72521803143a328d4826fd2e98bbd87ef74d764e63ef1bc3cef38767  ./GEM_V3_RC2/00_originals/GEM_Brand_Guidelines_V3.0_Part_A-2.pptx
+29a85ac01be166ca0e592c92b7a48e25cb5cd2a4fc90196ae0170763b56f3eac  ./GEM_V3_RC2/00_originals/GEM_Production_Standards_V3.0_Part_C_Release_Candidate_1.pptx
+5746a964c07f893427fd4b7dc9fb5b313e6f7b395b525df05297d19336242f0f  ./GEM_V3_RC2/00_originals/RC2_pre_asset_sync/A-RC2_pre_asset_sync.pptx
+2fd24d61ae658f7b3dc4cbc4fdc8c0e2dd9274550bbfbd3cd144ee1227b1b9ec  ./GEM_V3_RC2/00_originals/RC2_pre_asset_sync/B-RC2_pre_asset_sync.pptx
+6a6e08a7655050a69b8e574dcc1e8fdaa02263f60ec5cf02149033acf78ded0c  ./GEM_V3_RC2/00_originals/RC2_pre_asset_sync/C-RC2_pre_asset_sync.pptx
+c50dd3d0c45d6e2753e81b0f978879ed7e596ce52bdd24f7910ae6fcf16243d0  ./GEM_V3_RC2/01_working/A-RC2.pptx
+f9f968d2e51d715658796c69e63c83dfe324bf783f6dc530b49bfc0c6fd3462b  ./GEM_V3_RC2/01_working/C-RC2.pptx
+c50dd3d0c45d6e2753e81b0f978879ed7e596ce52bdd24f7910ae6fcf16243d0  ./GEM_V3_RC2/04_release/GEM Brand Guidelines V3.0 — Part A — RC2.pptx
+f9f968d2e51d715658796c69e63c83dfe324bf783f6dc530b49bfc0c6fd3462b  ./GEM_V3_RC2/04_release/GEM Production Standards V3.0 — Part C — RC2.pptx
+4a6289fd29b3fae2c3121b8d29a5599859ca77b6ff675bdfd1250ba436269708  ./PartB_RC2/00_originals/GEM__Digital_Design_System_V3.0.pptx
+b0326b6a6d9c2af6e1128911c2da5b4e2990ddfdc1961c9bc9f30fef240f0312  ./PartB_RC2/01_source/B-RC2.pptx
+b0326b6a6d9c2af6e1128911c2da5b4e2990ddfdc1961c9bc9f30fef240f0312  ./PartB_RC2/05_release/GEM Digital Design System V3.0 — Part B — RC2.pptx
