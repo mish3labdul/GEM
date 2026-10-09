@@ -1,0 +1,5 @@
+Slide,Shape,Logical class sequence (A=Arabic L=Latin D=digit S=space P=punct),Arabic,Latin,Digits,Block arrangement,Characters measured
+39,Text 8,A3SA5SL3PD4,Arabic runs: RTL/RTL,Latin letter runs: LTR,digit runs: LTR,Latin/digit block lies left of the Arabic block,18
+39,Text 4,A4SD3,Arabic runs: RTL,Latin letter runs: n/a,digit runs: LTR,Latin/digit block lies left of the Arabic block,8
+65,Text 9,PA4P,Arabic runs: RTL,Latin letter runs: n/a,digit runs: n/a,n/a (no Latin/digits),6
+68,Text 10,PA4P,Arabic runs: RTL,Latin letter runs: n/a,digit runs: n/a,n/a (no Latin/digits),6

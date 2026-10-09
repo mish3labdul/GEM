@@ -1,0 +1,43 @@
+Document,Slide / part,Shape label,Paragraph index,Arabic run language(s),Latin/missing language on Arabic run?,Paragraph direction flag absent?,Mixed run?,Expected,Classification,Status after AR01 (owner decision 1)
+Part A,37,Text 4,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,38,Text 4,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,38,Text 7,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,38,Text 8,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,39,Text 4,0,en-US,yes,yes,yes,ar-SA expected on Arabic runs,ARABIC + NUMERIC,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,39,Text 8,0,en-US,yes,yes,yes,ar-SA expected on Arabic runs,ARABIC + TECHNICAL ID,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,65,Text 9,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,66,Text 6,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,66,Text 7,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,66,Text 10,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part A,68,Text 10,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Part B,9,Text 12,0,en-US,yes,yes,no,ar-SA expected on Arabic runs,ARABIC ONLY,CORRECTED in AR01 candidate: pPr rtl=1; Arabic run lang ar-SA
+Letterhead Arabic First Page,word/document.xml,,1,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC + TECHNICAL ID,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,2,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC + TECHNICAL ID,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,3,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,4,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,5,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,6,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,7,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,8,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,9,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic First Page,word/document.xml,,10,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic Continuation,word/document.xml,,1,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic Continuation,word/document.xml,,2,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic Continuation,word/document.xml,,3,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic Continuation,word/document.xml,,4,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic Continuation,word/document.xml,,5,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Arabic Continuation,word/document.xml,,6,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,1,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC + TECHNICAL ID,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,2,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC + TECHNICAL ID,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,3,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,5,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,7,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,8,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,11,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,13,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual First Page,word/document.xml,,14,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual Continuation,word/document.xml,,1,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual Continuation,word/document.xml,,2,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual Continuation,word/document.xml,,4,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual Continuation,word/document.xml,,6,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)
+Letterhead Bilingual Continuation,word/document.xml,,7,ar-SA/ar-SA,no,no,no,ar-SA expected on Arabic runs,ARABIC ONLY,No change (Word template not modified; native Word PASS in AR01)

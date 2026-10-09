@@ -1,0 +1,134 @@
+{
+ "pptx": {
+  "Part A (D3)": {
+   "arabic_slides": [
+    37,
+    38,
+    39,
+    65,
+    66,
+    68
+   ],
+   "pictures_on_arabic_slides": 5,
+   "pictures_flipped_on_arabic_slides": [],
+   "pictures_flipped_anywhere_in_deck": [],
+   "arabic_in_notes_masters_layouts": [],
+   "arabic_paragraphs_with_manual_space_patterns": [],
+   "arabic_text_rotation_or_vertical": []
+  },
+  "Part A (AR01)": {
+   "arabic_slides": [
+    37,
+    38,
+    39,
+    65,
+    66,
+    68
+   ],
+   "pictures_on_arabic_slides": 5,
+   "pictures_flipped_on_arabic_slides": [],
+   "pictures_flipped_anywhere_in_deck": [],
+   "arabic_in_notes_masters_layouts": [],
+   "arabic_paragraphs_with_manual_space_patterns": [],
+   "arabic_text_rotation_or_vertical": []
+  },
+  "Part B (NP01-R1)": {
+   "arabic_slides": [
+    9
+   ],
+   "pictures_on_arabic_slides": 0,
+   "pictures_flipped_on_arabic_slides": [],
+   "pictures_flipped_anywhere_in_deck": [],
+   "arabic_in_notes_masters_layouts": [],
+   "arabic_paragraphs_with_manual_space_patterns": [],
+   "arabic_text_rotation_or_vertical": []
+  },
+  "Part B (AR01)": {
+   "arabic_slides": [
+    9
+   ],
+   "pictures_on_arabic_slides": 0,
+   "pictures_flipped_on_arabic_slides": [],
+   "pictures_flipped_anywhere_in_deck": [],
+   "arabic_in_notes_masters_layouts": [],
+   "arabic_paragraphs_with_manual_space_patterns": [],
+   "arabic_text_rotation_or_vertical": []
+  },
+  "Part C (D3)": {
+   "arabic_slides": [],
+   "pictures_on_arabic_slides": 0,
+   "pictures_flipped_on_arabic_slides": [],
+   "pictures_flipped_anywhere_in_deck": [],
+   "arabic_in_notes_masters_layouts": [],
+   "arabic_paragraphs_with_manual_space_patterns": [],
+   "arabic_text_rotation_or_vertical": []
+  },
+  "Part D (ODI01-R1)": {
+   "arabic_slides": [],
+   "pictures_on_arabic_slides": 0,
+   "pictures_flipped_on_arabic_slides": [],
+   "pictures_flipped_anywhere_in_deck": [],
+   "arabic_in_notes_masters_layouts": [],
+   "arabic_paragraphs_with_manual_space_patterns": [],
+   "arabic_text_rotation_or_vertical": []
+  }
+ },
+ "docx": {
+  "Arabic_First_Page": {
+   "content_paragraph_script_sequence": "EAAAAAAAAAA",
+   "drawings_in_body_headers_footers": 2,
+   "flipped_drawings": 0,
+   "arabic_paragraphs_with_double_space_or_tab": 0,
+   "arabic_paragraphs_without_bidi": 0
+  },
+  "Arabic_Continuation": {
+   "content_paragraph_script_sequence": "EAAAAAA",
+   "drawings_in_body_headers_footers": 0,
+   "flipped_drawings": 0,
+   "arabic_paragraphs_with_double_space_or_tab": 0,
+   "arabic_paragraphs_without_bidi": 0
+  },
+  "Bilingual_First_Page": {
+   "content_paragraph_script_sequence": "EAAAEAEAAEEAEAAE",
+   "drawings_in_body_headers_footers": 2,
+   "flipped_drawings": 0,
+   "arabic_paragraphs_with_double_space_or_tab": 0,
+   "arabic_paragraphs_without_bidi": 0
+  },
+  "Bilingual_Continuation": {
+   "content_paragraph_script_sequence": "EAAEAEAAE",
+   "drawings_in_body_headers_footers": 0,
+   "flipped_drawings": 0,
+   "arabic_paragraphs_with_double_space_or_tab": 0,
+   "arabic_paragraphs_without_bidi": 0
+  },
+  "Executive": {
+   "content_paragraph_script_sequence": "EEEEEEEEEEEE",
+   "drawings_in_body_headers_footers": 2,
+   "flipped_drawings": 0,
+   "arabic_paragraphs_with_double_space_or_tab": 0,
+   "arabic_paragraphs_without_bidi": 0
+  },
+  "Minimal": {
+   "content_paragraph_script_sequence": "EEEEEEEEEEE",
+   "drawings_in_body_headers_footers": 2,
+   "flipped_drawings": 0,
+   "arabic_paragraphs_with_double_space_or_tab": 0,
+   "arabic_paragraphs_without_bidi": 0
+  },
+  "English_First_Page": {
+   "content_paragraph_script_sequence": "EEEEEEEEEEE",
+   "drawings_in_body_headers_footers": 2,
+   "flipped_drawings": 0,
+   "arabic_paragraphs_with_double_space_or_tab": 0,
+   "arabic_paragraphs_without_bidi": 0
+  },
+  "English_Continuation": {
+   "content_paragraph_script_sequence": "EEEEEEE",
+   "drawings_in_body_headers_footers": 0,
+   "flipped_drawings": 0,
+   "arabic_paragraphs_with_double_space_or_tab": 0,
+   "arabic_paragraphs_without_bidi": 0
+  }
+ }
+}

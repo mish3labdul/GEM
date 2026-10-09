@@ -1,0 +1,218 @@
+[
+ {
+  "pair": "D3 baseline vs final",
+  "before": "A_baseline_D3_slide037.png",
+  "after": "A_AR01_final_slide037.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 314,
+  "pixels_diff_gt24": 237,
+  "diff_bbox": [
+   2083,
+   446,
+   2129,
+   505
+  ]
+ },
+ {
+  "pair": "D3 baseline vs final",
+  "before": "A_baseline_D3_slide038.png",
+  "after": "A_AR01_final_slide038.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 4802,
+  "pixels_diff_gt24": 3383,
+  "diff_bbox": [
+   959,
+   312,
+   2184,
+   901
+  ]
+ },
+ {
+  "pair": "D3 baseline vs final",
+  "before": "A_baseline_D3_slide039.png",
+  "after": "A_AR01_final_slide039.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 13610,
+  "pixels_diff_gt24": 12547,
+  "diff_bbox": [
+   707,
+   507,
+   1533,
+   577
+  ]
+ },
+ {
+  "pair": "D3 baseline vs final",
+  "before": "A_baseline_D3_slide065.png",
+  "after": "A_AR01_final_slide065.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 685,
+  "pixels_diff_gt24": 512,
+  "diff_bbox": [
+   2062,
+   767,
+   2195,
+   832
+  ]
+ },
+ {
+  "pair": "D3 baseline vs final",
+  "before": "A_baseline_D3_slide066.png",
+  "after": "A_AR01_final_slide066.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 1851,
+  "pixels_diff_gt24": 1356,
+  "diff_bbox": [
+   1292,
+   393,
+   2202,
+   979
+  ]
+ },
+ {
+  "pair": "D3 baseline vs final",
+  "before": "A_baseline_D3_slide068.png",
+  "after": "A_AR01_final_slide068.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 884,
+  "pixels_diff_gt24": 540,
+  "diff_bbox": [
+   1596,
+   648,
+   2219,
+   810
+  ]
+ },
+ {
+  "pair": "stage-1 vs final",
+  "before": "A_corrected_AR01_slide037.png",
+  "after": "A_AR01_final_slide037.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 314,
+  "pixels_diff_gt24": 237,
+  "diff_bbox": [
+   2083,
+   446,
+   2129,
+   505
+  ]
+ },
+ {
+  "pair": "stage-1 vs final",
+  "before": "A_corrected_AR01_slide038.png",
+  "after": "A_AR01_final_slide038.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 4802,
+  "pixels_diff_gt24": 3383,
+  "diff_bbox": [
+   959,
+   312,
+   2184,
+   901
+  ]
+ },
+ {
+  "pair": "stage-1 vs final",
+  "before": "A_corrected_AR01_slide039.png",
+  "after": "A_AR01_final_slide039.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 0,
+  "pixels_diff_gt24": 0,
+  "diff_bbox": null
+ },
+ {
+  "pair": "stage-1 vs final",
+  "before": "A_corrected_AR01_slide065.png",
+  "after": "A_AR01_final_slide065.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 685,
+  "pixels_diff_gt24": 512,
+  "diff_bbox": [
+   2062,
+   767,
+   2195,
+   832
+  ]
+ },
+ {
+  "pair": "stage-1 vs final",
+  "before": "A_corrected_AR01_slide066.png",
+  "after": "A_AR01_final_slide066.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 1851,
+  "pixels_diff_gt24": 1356,
+  "diff_bbox": [
+   1292,
+   393,
+   2202,
+   979
+  ]
+ },
+ {
+  "pair": "stage-1 vs final",
+  "before": "A_corrected_AR01_slide068.png",
+  "after": "A_AR01_final_slide068.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 884,
+  "pixels_diff_gt24": 540,
+  "diff_bbox": [
+   1596,
+   648,
+   2219,
+   810
+  ]
+ },
+ {
+  "pair": "NP01-R1 vs final",
+  "before": "B_NP01R1_slide009.png",
+  "after": "B_AR01_final_slide009.png",
+  "size": [
+   2410,
+   1350
+  ],
+  "differing_pixels": 269,
+  "pixels_diff_gt24": 181,
+  "diff_bbox": [
+   1664,
+   393,
+   1758,
+   533
+  ]
+ }
+]

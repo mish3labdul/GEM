@@ -1,0 +1,272 @@
+{
+ "partA": {
+  "source_sha256": "73712e1cf1a74ee23240cc674cf6af5939ca0bb2cf810b622f091f39df22c7a7",
+  "output": "GEM Brand Guidelines V3.0 — Part A — RC2 — AR01 CANDIDATE (UNAPPROVED).pptx",
+  "output_sha256": "2caa4c5c01ad12fde68f131fe67496c78ed299b9dcb44018388034552d0cab8f",
+  "members_changed": [
+   "ppt/slides/slide37.xml",
+   "ppt/slides/slide38.xml",
+   "ppt/slides/slide65.xml",
+   "ppt/slides/slide66.xml",
+   "ppt/slides/slide68.xml"
+  ],
+  "member_order_identical": true,
+  "member_sha256_before": {
+   "ppt/slides/slide37.xml": "7eaeb3c541aca89cee9cd3464d041714d5e8e4783207394f784407f846b80c59",
+   "ppt/slides/slide38.xml": "5110dc591cadc37c60ee87f0c9c4ea7046d717a1fb5f19a3d51e517f02761d67",
+   "ppt/slides/slide65.xml": "c0a8358e87d4d59e8e321adf0be71cfddee3496f93c4eecf90ad38cdb28ff133",
+   "ppt/slides/slide66.xml": "db2c92971904ad463aa6357334d71949793575f369690442670117d10c8023dd",
+   "ppt/slides/slide68.xml": "d5e04dbe1ddf0d6a9c8f4a6583cd3124f1cd354f8ccd39286d86c309872448c2"
+  },
+  "member_sha256_after": {
+   "ppt/slides/slide37.xml": "f5e9294166f678648530985b78307ca1383a6ef224db7be5e03e0a1dee74f8f8",
+   "ppt/slides/slide38.xml": "4749cf5ba83c368f8863d7e97695f7afc4803bc8b5df7c3185961a8ea5b1f6ad",
+   "ppt/slides/slide65.xml": "9b1f2c68ef2d802e21255feab8a8a25471f29fb2d774238c0b0cc5a485eee152",
+   "ppt/slides/slide66.xml": "f66cbc833540595c94f868807eb52af2907ac2661146c88773bc46e124d59ce4",
+   "ppt/slides/slide68.xml": "6b6b0ab25741c998994ba24d5228cba5eda0673b83aec283f8b628c599c3f044"
+  },
+  "attribute_edits": [
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide37.xml",
+    "shape": "Text 4",
+    "shape_id": "6",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide37.xml",
+    "shape": "Text 4",
+    "shape_id": "6",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide38.xml",
+    "shape": "Text 4",
+    "shape_id": "6",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide38.xml",
+    "shape": "Text 4",
+    "shape_id": "6",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide38.xml",
+    "shape": "Text 7",
+    "shape_id": "9",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide38.xml",
+    "shape": "Text 7",
+    "shape_id": "9",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide38.xml",
+    "shape": "Text 8",
+    "shape_id": "10",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide38.xml",
+    "shape": "Text 8",
+    "shape_id": "10",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide65.xml",
+    "shape": "Text 9",
+    "shape_id": "12",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide65.xml",
+    "shape": "Text 9",
+    "shape_id": "12",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide66.xml",
+    "shape": "Text 6",
+    "shape_id": "9",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide66.xml",
+    "shape": "Text 6",
+    "shape_id": "9",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide66.xml",
+    "shape": "Text 7",
+    "shape_id": "11",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide66.xml",
+    "shape": "Text 7",
+    "shape_id": "11",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide66.xml",
+    "shape": "Text 10",
+    "shape_id": "14",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide66.xml",
+    "shape": "Text 10",
+    "shape_id": "14",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide68.xml",
+    "shape": "Text 10",
+    "shape_id": "14",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part A",
+    "part": "ppt/slides/slide68.xml",
+    "shape": "Text 10",
+    "shape_id": "14",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   }
+  ]
+ },
+ "partB": {
+  "source_sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+  "output": "GEM Digital Design System V3.0 — Part B — RC2 — AR01 CANDIDATE (UNAPPROVED).pptx",
+  "output_sha256": "63f706220053f62619b69a657f82ceaf257957d60c67596b182d8e2e0f017c86",
+  "members_changed": [
+   "ppt/slides/slide9.xml"
+  ],
+  "member_order_identical": true,
+  "member_sha256_before": {
+   "ppt/slides/slide9.xml": "e3ee42d837fc952990d26faeda084e461c80532c53513de0c8dfd50b8b17819e"
+  },
+  "member_sha256_after": {
+   "ppt/slides/slide9.xml": "6cdf5699badcfc95977e8c4ff83b1b7050ab1e3095b1469562a913674166c77b"
+  },
+  "attribute_edits": [
+   {
+    "deck": "Part B",
+    "part": "ppt/slides/slide9.xml",
+    "shape": "Text 12",
+    "shape_id": "14",
+    "element": "a:pPr",
+    "attribute": "rtl",
+    "expected_source_occurrences": 1,
+    "before": "(absent)",
+    "after": "1"
+   },
+   {
+    "deck": "Part B",
+    "part": "ppt/slides/slide9.xml",
+    "shape": "Text 12",
+    "shape_id": "14",
+    "element": "a:rPr (Arabic run)",
+    "attribute": "lang",
+    "expected_source_occurrences": 1,
+    "before": "en-US",
+    "after": "ar-SA"
+   }
+  ],
+  "np01r1_slide30_preserved": {
+   "slide30_member_byte_identical": true,
+   "slide30_sha256": "f36258ef618fb713eea137ceb8616baa17dfbee2b61399cb9f1ba756578297d9"
+  }
+ }
+}

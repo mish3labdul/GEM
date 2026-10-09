@@ -1,0 +1,13 @@
+Document,Slide,Shape,Script content,Current paragraph direction (rtl),Target paragraph direction (rtl),Current Arabic-run language,Target Arabic-run language,Latin run present?,Latin-run target direction/language,Text changes required?,Needs correction now?
+Part A,37,Text 4 (id 6),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part A,38,Text 4 (id 6),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part A,38,Text 7 (id 9),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part A,38,Text 8 (id 10),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part A,39,Text 4 (id 6),Arabic + numerals/neutrals,1,1,ar-SA,ar-SA,NO,n/a,NO,NO - already corrected (AR01 stage 1)
+Part A,39,Text 8 (id 10),MIXED Arabic+Latin,1,1,ar-SA,ar-SA,"YES (single run, not fragmented)","LTR via bidi algorithm; no separate Latin run exists, so no run-level Latin language is applied",NO,NO - already corrected (AR01 stage 1)
+Part A,65,Text 9 (id 12),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part A,66,Text 10 (id 14),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part A,66,Text 6 (id 9),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part A,66,Text 7 (id 11),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part A,68,Text 10 (id 14),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES
+Part B,9,Text 12 (id 14),Arabic-only,(absent = LTR),1,en-US,ar-SA,NO,n/a,NO,YES

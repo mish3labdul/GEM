@@ -1,0 +1,44 @@
+Template,Word paragraph #,Script classes,Content type,Native char count,Source char count (+para mark),Native alignment,Native language,Native font,Size pt,Bold,Bold (complex script),Char spacing pt,Source w:bidi,Arabic segments native direction,Latin segments native direction,Block arrangement (native positions),Result
+Arabic First Page,1,L,Latin-only,47,47,align paragraph right,english uk,Inter,9.0,false,false,0.0,no,n/a,LTR,n/a,PASS
+Arabic First Page,2,AL,mixed Arabic+Latin,18,18,align paragraph right,missing value,(mixed runs),missing value,false,false,0.0,yes,RTL,LTR,Latin/digit block left of Arabic block,PASS
+Arabic First Page,3,AL,mixed Arabic+Latin,29,29,align paragraph right,missing value,(mixed runs),missing value,false,false,0.0,yes,RTL,LTR,Latin/digit block left of Arabic block,PASS
+Arabic First Page,4,A,Arabic-only,36,36,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic First Page,5,A,Arabic-only,38,38,align paragraph right,arabic,Noto Sans Arabic,13.0,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic First Page,6,A,Arabic-only,20,20,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic First Page,7,A,Arabic-only,108,108,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic First Page,8,A,Arabic-only,74,74,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic First Page,9,A,Arabic-only,22,22,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic First Page,10,A,Arabic-only,10,10,align paragraph right,arabic,Noto Sans Arabic,9.0,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic First Page,11,A,Arabic-only,31,31,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic Continuation,1,L,Latin-only,47,47,align paragraph right,english uk,Inter,9.0,false,false,0.0,no,n/a,LTR,n/a,PASS
+Arabic Continuation,2,A,Arabic-only,20,20,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic Continuation,3,A,Arabic-only,108,108,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic Continuation,4,A,Arabic-only,74,74,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic Continuation,5,A,Arabic-only,22,22,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic Continuation,6,A,Arabic-only,10,10,align paragraph right,arabic,Noto Sans Arabic,9.0,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Arabic Continuation,7,A,Arabic-only,31,31,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual First Page,1,L,Latin-only,47,47,align paragraph right,english uk,Inter,9.0,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual First Page,2,AL,mixed Arabic+Latin,18,18,align paragraph right,missing value,(mixed runs),missing value,false,false,0.0,yes,RTL,LTR,Latin/digit block left of Arabic block,PASS
+Bilingual First Page,3,AL,mixed Arabic+Latin,29,29,align paragraph right,missing value,(mixed runs),missing value,false,false,0.0,yes,RTL,LTR,Latin/digit block left of Arabic block,PASS
+Bilingual First Page,4,A,Arabic-only,36,36,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual First Page,5,L,Latin-only,42,42,align paragraph left,english uk,Inter,9.0,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual First Page,6,A,Arabic-only,38,38,align paragraph right,arabic,Noto Sans Arabic,13.0,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual First Page,7,L,Latin-only,59,59,align paragraph left,english uk,Jost,12.0,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual First Page,8,A,Arabic-only,20,20,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual First Page,9,A,Arabic-only,108,108,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual First Page,10,L,Latin-only,23,23,align paragraph left,english uk,Inter,10.5,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual First Page,11,L,Latin-only,152,152,align paragraph left,english uk,Inter,10.5,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual First Page,12,A,Arabic-only,22,22,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual First Page,13,L,Latin-only,17,17,align paragraph left,english uk,Inter,10.5,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual First Page,14,A,Arabic-only,10,10,align paragraph right,arabic,Noto Sans Arabic,9.0,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual First Page,15,A,Arabic-only,31,31,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual First Page,16,L,Latin-only,68,68,align paragraph left,english uk,Inter,9.0,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual Continuation,1,L,Latin-only,47,47,align paragraph right,english uk,Inter,9.0,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual Continuation,2,A,Arabic-only,20,20,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual Continuation,3,A,Arabic-only,108,108,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual Continuation,4,L,Latin-only,152,152,align paragraph left,english uk,Inter,10.5,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual Continuation,5,A,Arabic-only,22,22,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual Continuation,6,L,Latin-only,17,17,align paragraph left,english uk,Inter,10.5,false,false,0.0,no,n/a,LTR,n/a,PASS
+Bilingual Continuation,7,A,Arabic-only,10,10,align paragraph right,arabic,Noto Sans Arabic,9.0,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual Continuation,8,A,Arabic-only,31,31,align paragraph right,arabic,Noto Sans Arabic,11.5,false,false,0.0,yes,RTL,n/a,n/a,PASS
+Bilingual Continuation,9,L,Latin-only,27,27,align paragraph left,english uk,Inter,9.0,false,false,0.0,no,n/a,LTR,n/a,PASS

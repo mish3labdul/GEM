@@ -1,0 +1,41 @@
+{
+ "source_sha256": "eca6b80ba6f301cf503b091821736f56c685e10d721c03a5579f9b238e1dc752",
+ "output": "GEM Brand Guidelines V3.0 — Part A — RC2 — AR01 CANDIDATE (UNAPPROVED).pptx",
+ "output_sha256": "73712e1cf1a74ee23240cc674cf6af5939ca0bb2cf810b622f091f39df22c7a7",
+ "members_changed": [
+  "ppt/slides/slide39.xml"
+ ],
+ "member_order_identical": true,
+ "slide39_sha256_before": "ad16f291305d7009263b83a9c3fbeae50b0e52d5755a0d3c353e90a99988f91c",
+ "slide39_sha256_after": "9382b7af86f8aac062213c12662714d7819c745caa1228426eaa7d4d02c11b52",
+ "attribute_edits": [
+  {
+   "shape": "Text 4",
+   "element": "a:pPr",
+   "attribute": "rtl",
+   "before": "(absent)",
+   "after": "1"
+  },
+  {
+   "shape": "Text 4",
+   "element": "a:rPr (Arabic run)",
+   "attribute": "lang",
+   "before": "en-US",
+   "after": "ar-SA"
+  },
+  {
+   "shape": "Text 8",
+   "element": "a:pPr",
+   "attribute": "rtl",
+   "before": "(absent)",
+   "after": "1"
+  },
+  {
+   "shape": "Text 8",
+   "element": "a:rPr (Arabic run)",
+   "attribute": "lang",
+   "before": "en-US",
+   "after": "ar-SA"
+  }
+ ]
+}

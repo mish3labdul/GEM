@@ -1,0 +1,37 @@
+[
+ {
+  "slide": 37,
+  "bbox": null,
+  "changed_pixels": 0
+ },
+ {
+  "slide": 38,
+  "bbox": null,
+  "changed_pixels": 0
+ },
+ {
+  "slide": 39,
+  "bbox": [
+   707,
+   507,
+   1533,
+   577
+  ],
+  "changed_pixels": 13610
+ },
+ {
+  "slide": 65,
+  "bbox": null,
+  "changed_pixels": 0
+ },
+ {
+  "slide": 66,
+  "bbox": null,
+  "changed_pixels": 0
+ },
+ {
+  "slide": 68,
+  "bbox": null,
+  "changed_pixels": 0
+ }
+]
