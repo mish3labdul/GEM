@@ -1,0 +1,337 @@
+{
+ "package": "GEM_V3.0_RP01_Release_Artifact_Promotion",
+ "purpose": "GEM V3.0 release-artifact promotion record and promoted artifacts (not the VAL-16 release manifest)",
+ "status": "GEM™ V3.0 — OWNER AUTHORIZED FINAL BRAND-SYSTEM BASELINE — FORMAL DEFERRALS RECORDED — ARTIFACT-SPECIFIC EXTERNAL-ISSUE RESTRICTIONS APPLY",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "a8ebc8da1f5cb66f4ab369c90dcf5844a17e18ed",
+ "gates_closed_by_this_package": 0,
+ "pdfs_generated": 0,
+ "tags_or_releases_created": 0,
+ "confidential_documents_included": false,
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "baseline_sources": [
+  {
+   "id": "P-A",
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM Brand Guidelines V3.0 — Part A — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "fa01_sha256": "aeaf96ea70b34f015da975949f0e4ac742ffaa86ffee4b6a722a8995c21f4995",
+   "current_sha256": "aeaf96ea70b34f015da975949f0e4ac742ffaa86ffee4b6a722a8995c21f4995"
+  },
+  {
+   "id": "P-B",
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM Digital Design System V3.0 — Part B — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "fa01_sha256": "bde41b51e0e92a20a14a4f71f9dd25021a289751417564f8ce3737b9d0e7b506",
+   "current_sha256": "bde41b51e0e92a20a14a4f71f9dd25021a289751417564f8ce3737b9d0e7b506"
+  },
+  {
+   "id": "P-C",
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM Production Standards V3.0 — Part C — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "fa01_sha256": "30e2399d03725f17e7ed92398cc410e717f751fd771022d10fbcfcc875c6a397",
+   "current_sha256": "30e2399d03725f17e7ed92398cc410e717f751fd771022d10fbcfcc875c6a397"
+  },
+  {
+   "id": "P-D",
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "fa01_sha256": "7347efc71126012322bb15453cb5ac4b351e583ac0a756edeed790018e23d598",
+   "current_sha256": "7347efc71126012322bb15453cb5ac4b351e583ac0a756edeed790018e23d598"
+  },
+  {
+   "id": "L-English_First_Page",
+   "path": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_English_First_Page.docx",
+   "fa01_sha256": "8cb2e02bb9890f3701b20da6cb9de9962340cf2fda7fa3a320c579b3b2cf4299",
+   "current_sha256": "8cb2e02bb9890f3701b20da6cb9de9962340cf2fda7fa3a320c579b3b2cf4299"
+  },
+  {
+   "id": "L-English_Continuation",
+   "path": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_English_Continuation.docx",
+   "fa01_sha256": "4103307647e5e4c6178bb9276c740c89e46b7a283015fed963f0d795578707ef",
+   "current_sha256": "4103307647e5e4c6178bb9276c740c89e46b7a283015fed963f0d795578707ef"
+  },
+  {
+   "id": "L-Executive",
+   "path": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Executive.docx",
+   "fa01_sha256": "584848519da4defdc2e71a67bd4f837eeaee8082d29197755e4c175823b3366a",
+   "current_sha256": "584848519da4defdc2e71a67bd4f837eeaee8082d29197755e4c175823b3366a"
+  },
+  {
+   "id": "L-Minimal",
+   "path": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Minimal.docx",
+   "fa01_sha256": "0d6678606dc443baf6f56fd19fe6ca4eb26f125c3e13c95993615cd65e183bf6",
+   "current_sha256": "0d6678606dc443baf6f56fd19fe6ca4eb26f125c3e13c95993615cd65e183bf6"
+  },
+  {
+   "id": "L-Arabic_First_Page",
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM_Letterhead_Arabic_First_Page_HR01_CANDIDATE.docx",
+   "fa01_sha256": "aa0ac92d99dbb30d76818237056cddeb96772a6e303927acb0113ab626e0a71d",
+   "current_sha256": "aa0ac92d99dbb30d76818237056cddeb96772a6e303927acb0113ab626e0a71d"
+  },
+  {
+   "id": "L-Arabic_Continuation",
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM_Letterhead_Arabic_Continuation_HR01_CANDIDATE.docx",
+   "fa01_sha256": "2216d4d37b38e26bf89dd9892b4e49a03e6fff617a8b9333c43c6dfad14cc563",
+   "current_sha256": "2216d4d37b38e26bf89dd9892b4e49a03e6fff617a8b9333c43c6dfad14cc563"
+  },
+  {
+   "id": "L-Bilingual_First_Page",
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM_Letterhead_Bilingual_First_Page_HR01_CANDIDATE.docx",
+   "fa01_sha256": "c253cef8f8b3dd0c82add9b3081aa8104736d94f4dc31b0da9f78a26985ed9be",
+   "current_sha256": "c253cef8f8b3dd0c82add9b3081aa8104736d94f4dc31b0da9f78a26985ed9be"
+  },
+  {
+   "id": "L-Bilingual_Continuation",
+   "path": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure/18_candidate_corrections/GEM_Letterhead_Bilingual_Continuation_HR01_CANDIDATE.docx",
+   "fa01_sha256": "70fa0c3047c407139963912ea1ff5765534f59d2e59d5ffc47ada1935f1f12a8",
+   "current_sha256": "70fa0c3047c407139963912ea1ff5765534f59d2e59d5ffc47ada1935f1f12a8"
+  },
+  {
+   "id": "T-JSON",
+   "path": "PartB_RC2/05_release/tokens/gem-tokens.v3.0-rc2.json",
+   "fa01_sha256": "8f625821abd162f92ed7bf2ab0e2d7f979007ef2b1bec8e01a74b37dc7b686b9",
+   "current_sha256": "8f625821abd162f92ed7bf2ab0e2d7f979007ef2b1bec8e01a74b37dc7b686b9"
+  },
+  {
+   "id": "T-CSS",
+   "path": "PartB_RC2/05_release/tokens/gem-tokens.v3.0-rc2.css",
+   "fa01_sha256": "2ea7ed543e1e8820f071197932e5ffe8b94d8dec924e1de37eb14d7b84c68b27",
+   "current_sha256": "2ea7ed543e1e8820f071197932e5ffe8b94d8dec924e1de37eb14d7b84c68b27"
+  },
+  {
+   "id": "K-KIT",
+   "path": "GEM_Brand_Assets_v1.0/04_official_kit/SHA256SUMS.txt",
+   "fa01_sha256": "16a74da8930ec28f46bf17b352db12d47a84da42557ad494b220bb2aeb1a9d05",
+   "current_sha256": "16a74da8930ec28f46bf17b352db12d47a84da42557ad494b220bb2aeb1a9d05"
+  }
+ ],
+ "files": [
+  {
+   "path": "01_RP01_Executive_Summary.md",
+   "bytes": 2271,
+   "sha256": "f67c114d0363c3b3454c8220637cbdc55ae11fba1ba950ee8db63b4c347463c0"
+  },
+  {
+   "path": "02_RP01_Authorized_Baseline.csv",
+   "bytes": 7945,
+   "sha256": "8789cfd4aa993be49b1008aa7aab42a5a7316e5630c65f8d7f9b46eb1943b1fc"
+  },
+  {
+   "path": "03_RP01_Artifact_Promotion_Register.csv",
+   "bytes": 6171,
+   "sha256": "31e0d8356f17aa5ee4ab90982379b697f7ded394d5f80c27336613e3debbeef4"
+  },
+  {
+   "path": "04_RP01_Status_Label_Change_Register.csv",
+   "bytes": 42737,
+   "sha256": "6db3c09c94fe24fd32997d8fe2e0b82ee8d40370f7f22f9ac822edd986283178"
+  },
+  {
+   "path": "05_RP01_Release_Scope_Matrix.csv",
+   "bytes": 8101,
+   "sha256": "c428a304a4f1c7f2b22238f4e5d5c6119e174f85cff3801ef4f720db04050bff"
+  },
+  {
+   "path": "06_RP01_Restricted_Artifact_Register.csv",
+   "bytes": 3473,
+   "sha256": "5984f6f52264a8e10020fd158af360af285d9aff35e7620807b23b0268d3ed33"
+  },
+  {
+   "path": "07_RP01_Release_File_Index.csv",
+   "bytes": 3459,
+   "sha256": "779cf98130162db27e5f79daa2bd55088eae6a1fc194659c8ade8e70b2e473e1"
+  },
+  {
+   "path": "08_RP01_Lineage_Proof.csv",
+   "bytes": 8884,
+   "sha256": "ee8ccb08a4472083947000c30633b9a383336bbdeef9d4359764fd258c5f1920"
+  },
+  {
+   "path": "09_RP01_Native_Validation.md",
+   "bytes": 4455,
+   "sha256": "3ac799ed73f61a8086a04d3d5eeb4b33291f8f2f405c944a6cd4a85c949cdc23"
+  },
+  {
+   "path": "10_RP01_Visual_Regression.md",
+   "bytes": 2787,
+   "sha256": "533bf2173f01fb2747044da6d442b545f1a16d16793203f7e3cf549bb43c275e"
+  },
+  {
+   "path": "11_RP01_Release_Consistency_Audit.md",
+   "bytes": 2300,
+   "sha256": "e0e49df48870e2df7df5c24773582414192b93bfa061293b602d0ce012c50260"
+  },
+  {
+   "path": "12_RP01_Superseded_Artifact_Map.csv",
+   "bytes": 3348,
+   "sha256": "bcff4f7b1211f344505a7bf5bcb4488b4c4217399bb678a45f983f704517f292"
+  },
+  {
+   "path": "13_RP01_Residual_Limitations.md",
+   "bytes": 3208,
+   "sha256": "df73e41ba8805ea0c3b9a1a7ef16582dc91e2a9276ee581bb131dde19bd01942"
+  },
+  {
+   "path": "14_RP01_Evidence_Index.md",
+   "bytes": 1506,
+   "sha256": "ec1adb37650184461d84080baed42e3517e78804393a05e3ada87155ec2d4d17"
+  },
+  {
+   "path": "15_scripts/rp01_build.py",
+   "bytes": 16756,
+   "sha256": "7cd2c717343c59a8e4d02832ae19fdcc61bf25ed1698bf00ca98f86cb35e81aa"
+  },
+  {
+   "path": "15_scripts/rp01_consistency.py",
+   "bytes": 10859,
+   "sha256": "a377fc2433e672fed3c059b49b0aaf32e6a0eb60df177c2c25aa2c5eb4b70efb"
+  },
+  {
+   "path": "15_scripts/rp01_docs.py",
+   "bytes": 32076,
+   "sha256": "d7628fb2171deb7f93a6c41e104b33bd7931dfa5a297434f8a0acfa6cb3b3b37"
+  },
+  {
+   "path": "15_scripts/rp01_engine.py",
+   "bytes": 4265,
+   "sha256": "657d8b023e4faffbd0d8d64cc2e14f9d76880a9db1a306eab2871324773073c9"
+  },
+  {
+   "path": "15_scripts/rp01_inventory.py",
+   "bytes": 3537,
+   "sha256": "c5e143705721e337fe7fc9690de16d71b5b93e009c59ac656abc8c9354e2cb8b"
+  },
+  {
+   "path": "15_scripts/rp01_manifest.py",
+   "bytes": 2033,
+   "sha256": "c8745b36e2cb5d69352e6a3eba515e2ec4ab79f5985dd7548fd6ea21e1d9ce81"
+  },
+  {
+   "path": "15_scripts/rp01_preservation.py",
+   "bytes": 8335,
+   "sha256": "98ef04d013e13645fff646b62bbbcfaacf170f84d3c3e6d738e4811e1585cdd2"
+  },
+  {
+   "path": "15_scripts/rp01_qa.py",
+   "bytes": 12186,
+   "sha256": "9d16cc86425d512dc73fef20c1c9693f8cfc351dc26acc8a2e4ec3918a53ca9e"
+  },
+  {
+   "path": "15_scripts/rp01_rules.py",
+   "bytes": 20347,
+   "sha256": "30b2a2d260c1d5fa7726c6fdf18c68f2a7fa3ba8ec56592e74a5119d40376305"
+  },
+  {
+   "path": "15_scripts/rp01_visual.py",
+   "bytes": 2795,
+   "sha256": "33ed1685909b028966490ff06d60f5e6fefb50884e734842afa6defdaff74f0a"
+  },
+  {
+   "path": "16_qa/RP01_QA_Report.md",
+   "bytes": 3489,
+   "sha256": "e907d0a1ef25e7024466a93f3e038b29eed2a8f1a25de56e2bde9167bba9444d"
+  },
+  {
+   "path": "16_qa/rp01_build_result.json",
+   "bytes": 1801,
+   "sha256": "abe252438d05aee0fd26e7a828b7467e1e341b12804ffcb732cbe2edd7b4508e"
+  },
+  {
+   "path": "16_qa/rp01_consistency.md",
+   "bytes": 9150,
+   "sha256": "f020d4042118cb5de16e330c891ea063bbc36b52da8b2113d6db84103ddb4978"
+  },
+  {
+   "path": "16_qa/rp01_preservation.csv",
+   "bytes": 6524,
+   "sha256": "00e0bfdf9b54ba88dc767150ca6e0301dfe21ea7f78bbe432b79ecb8c243a55b"
+  },
+  {
+   "path": "16_qa/rp01_visual_regression.csv",
+   "bytes": 27807,
+   "sha256": "cab1b1cbb315ef056971f2edd71ab6025087266ab715ff8be76407bfb3b38915"
+  },
+  {
+   "path": "17_release_artifacts/01_brand_guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx",
+   "bytes": 8411328,
+   "sha256": "ec7152f6e9075091114b97ea6c23edb4b00c0fa3f948b9e80d909fb63b1b0fb3"
+  },
+  {
+   "path": "17_release_artifacts/02_digital_design_system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx",
+   "bytes": 161424,
+   "sha256": "b537ead6a9831d2bc9ab10f0a15499e7727b852f37275795923c61f27660c4e4"
+  },
+  {
+   "path": "17_release_artifacts/03_production_standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx",
+   "bytes": 950957,
+   "sha256": "ca0afb799381d43ad7dced73e97bac2121e1f84e6a430aac216e87a232297d5e"
+  },
+  {
+   "path": "17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+   "bytes": 29078473,
+   "sha256": "15f6685e3339330ff65e4b97d413fbef93353a387bfcdd1ad3d359d889f12d9b"
+  },
+  {
+   "path": "17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_EnglishContinuation_v3.0_20261009.docx",
+   "bytes": 316408,
+   "sha256": "b623acfc498236140ee036dadfe7e27ceb4e407d755ec56fffdb3febbfc7b70c"
+  },
+  {
+   "path": "17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_EnglishFirstPage_v3.0_20261009.docx",
+   "bytes": 380388,
+   "sha256": "01be19dafc0ee3c11403ae3113bdeb2b6e6ea348d23fd5f44398dfbac79d16fd"
+  },
+  {
+   "path": "17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_Executive_v3.0_20261009.docx",
+   "bytes": 380407,
+   "sha256": "5338df2fe8c2d81ae4de823eb7607085f9cd0fb60064cc21f8965d19d2f2519a"
+  },
+  {
+   "path": "17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_Minimal_v3.0_20261009.docx",
+   "bytes": 372535,
+   "sha256": "a99ea2fca2563332cefbf7356414f9be233d8defa09b9cb27aa6c15ba6f1f7ee"
+  },
+  {
+   "path": "17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_ArabicContinuationInternal_v3.0_20261009.docx",
+   "bytes": 316815,
+   "sha256": "b5584f62219eaa5d5a16c317341fb10fd7a70792088a7ae56dad21e040eea2df"
+  },
+  {
+   "path": "17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_ArabicFirstPageInternal_v3.0_20261009.docx",
+   "bytes": 381003,
+   "sha256": "17b82dd13f2e0c6c18f3be7859ab7636e33f9a3095a28065d4290c3a398ed2b5"
+  },
+  {
+   "path": "17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_BilingualContinuationInternal_v3.0_20261009.docx",
+   "bytes": 316944,
+   "sha256": "8844eab0348ff7aa646f187ed393bb155f24e4cfeb2cb8ec93c5eb96528c3a2a"
+  },
+  {
+   "path": "17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_BilingualFirstPageInternal_v3.0_20261009.docx",
+   "bytes": 381312,
+   "sha256": "1f807acc999a4358fb3ec0380178c279fc2d3b9c2b25fac1eb50dba1ee22e59a"
+  },
+  {
+   "path": "17_release_artifacts/06_brand_assets/README.md",
+   "bytes": 883,
+   "sha256": "d49d0e4991d5f9f3d2da76a935f5178b1cdac4fa6a4babafbf4a2c776bc6eef7"
+  },
+  {
+   "path": "17_release_artifacts/07_tokens/README.md",
+   "bytes": 1459,
+   "sha256": "3e8a7884541f6f90a9b03e778d136402598a93a5e8baa9602799b49d869577f8"
+  },
+  {
+   "path": "17_release_artifacts/07_tokens/gem-tokens.v3.0.css",
+   "bytes": 10346,
+   "sha256": "0c9dfce3597b42e4579a73737135f80a0fe8ad47d5f2902cb83f78e9b7e95851"
+  },
+  {
+   "path": "17_release_artifacts/07_tokens/gem-tokens.v3.0.json",
+   "bytes": 25068,
+   "sha256": "c629ac4508e426f7dcc1140743333d217c721a2dfcc1549b0c215b0a31dfe8c0"
+  },
+  {
+   "path": "17_release_artifacts/08_release_index/RELEASE_INDEX.md",
+   "bytes": 1877,
+   "sha256": "e970de6de5c2506bc0c0ef798344ac8a7fb4631aedd1e8c0e4b007cf0e95f573"
+  }
+ ]
+}

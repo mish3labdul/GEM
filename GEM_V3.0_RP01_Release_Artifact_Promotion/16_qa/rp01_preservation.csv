@@ -1,0 +1,71 @@
+Artifact,Check,Result,Detail
+P-A,member list and order identical,PASS,
+P-A,zip integrity,PASS,
+P-A,"all parts identical after blanking text/shape names (structure, geometry, alt text, decorative, titles, RTL, tables)",PASS,[]
+P-A,media / binary members byte-identical,PASS,[]
+P-A,"AX01 static predicates unchanged (slides, no-title, shapes+pics w/o alt, tables w/o alt, decorative, alt)",PASS,"(80, 0, 0, 1, 326, 89) -> (80, 0, 0, 1, 326, 89)"
+P-A,Arabic text runs identical (content and count),PASS,11 runs
+P-A,"rtl=""1"" and lang=""ar-SA"" attribute counts unchanged",PASS,"rtl 11->11, ar-SA 11->11"
+P-A,AR01 slide 39 mixed Arabic/Latin run structure preserved,PASS,
+P-B,member list and order identical,PASS,
+P-B,zip integrity,PASS,
+P-B,"all parts identical after blanking text/shape names (structure, geometry, alt text, decorative, titles, RTL, tables)",PASS,[]
+P-B,media / binary members byte-identical,PASS,[]
+P-B,"AX01 static predicates unchanged (slides, no-title, shapes+pics w/o alt, tables w/o alt, decorative, alt)",PASS,"(35, 0, 0, 30, 78, 2) -> (35, 0, 0, 30, 78, 2)"
+P-B,Arabic text runs identical (content and count),PASS,1 runs
+P-B,"rtl=""1"" and lang=""ar-SA"" attribute counts unchanged",PASS,"rtl 1->1, ar-SA 1->1"
+P-B,NP01-R1 slide 30 structure preserved,PASS,
+P-C,member list and order identical,PASS,
+P-C,zip integrity,PASS,
+P-C,"all parts identical after blanking text/shape names (structure, geometry, alt text, decorative, titles, RTL, tables)",PASS,[]
+P-C,media / binary members byte-identical,PASS,[]
+P-C,"AX01 static predicates unchanged (slides, no-title, shapes+pics w/o alt, tables w/o alt, decorative, alt)",PASS,"(78, 0, 0, 34, 113, 14) -> (78, 0, 0, 34, 113, 14)"
+P-C,Arabic text runs identical (content and count),PASS,0 runs
+P-C,"rtl=""1"" and lang=""ar-SA"" attribute counts unchanged",PASS,"rtl 0->0, ar-SA 0->0"
+P-D,member list and order identical,PASS,
+P-D,zip integrity,PASS,
+P-D,"all parts identical after blanking text/shape names (structure, geometry, alt text, decorative, titles, RTL, tables)",PASS,[]
+P-D,media / binary members byte-identical,PASS,[]
+P-D,"AX01 static predicates unchanged (slides, no-title, shapes+pics w/o alt, tables w/o alt, decorative, alt)",PASS,"(24, 0, 0, 1, 77, 31) -> (24, 0, 0, 1, 77, 31)"
+P-D,Arabic text runs identical (content and count),PASS,0 runs
+P-D,"rtl=""1"" and lang=""ar-SA"" attribute counts unchanged",PASS,"rtl 0->0, ar-SA 0->0"
+L-English_First_Page,member list and order identical,PASS,
+L-English_First_Page,zip integrity,PASS,
+L-English_First_Page,"only footers and core.xml (subject) differ; everything else byte-identical (body, headers, logo media, styles, settings, numbering, fields)",PASS,"[('docProps/core.xml', True), ('word/footer1.xml', True), ('word/footer2.xml', True)]"
+L-English_First_Page,PAGE / NUMPAGES field structure in footer unchanged,PASS,fldChar 12->12
+L-English_Continuation,member list and order identical,PASS,
+L-English_Continuation,zip integrity,PASS,
+L-English_Continuation,"only footers and core.xml (subject) differ; everything else byte-identical (body, headers, logo media, styles, settings, numbering, fields)",PASS,"[('docProps/core.xml', True), ('word/footer1.xml', True)]"
+L-English_Continuation,PAGE / NUMPAGES field structure in footer unchanged,PASS,fldChar 12->12
+L-Executive,member list and order identical,PASS,
+L-Executive,zip integrity,PASS,
+L-Executive,"only footers and core.xml (subject) differ; everything else byte-identical (body, headers, logo media, styles, settings, numbering, fields)",PASS,"[('docProps/core.xml', True), ('word/footer1.xml', True), ('word/footer2.xml', True)]"
+L-Executive,PAGE / NUMPAGES field structure in footer unchanged,PASS,fldChar 12->12
+L-Minimal,member list and order identical,PASS,
+L-Minimal,zip integrity,PASS,
+L-Minimal,"only footers and core.xml (subject) differ; everything else byte-identical (body, headers, logo media, styles, settings, numbering, fields)",PASS,"[('docProps/core.xml', True), ('word/footer1.xml', True), ('word/footer2.xml', True)]"
+L-Minimal,PAGE / NUMPAGES field structure in footer unchanged,PASS,fldChar 12->12
+L-Arabic_First_Page,member list and order identical,PASS,
+L-Arabic_First_Page,zip integrity,PASS,
+L-Arabic_First_Page,"only footers and core.xml (subject) differ; everything else byte-identical (body, headers, logo media, styles, settings, numbering, fields)",PASS,"[('docProps/core.xml', True), ('word/footer1.xml', True), ('word/footer2.xml', True)]"
+L-Arabic_First_Page,PAGE / NUMPAGES field structure in footer unchanged,PASS,fldChar 12->12
+L-Arabic_First_Page,both D8 markings verbatim and restriction line present in every footer,PASS,
+L-Arabic_First_Page,Arabic body text identical,PASS,17 runs
+L-Arabic_Continuation,member list and order identical,PASS,
+L-Arabic_Continuation,zip integrity,PASS,
+L-Arabic_Continuation,"only footers and core.xml (subject) differ; everything else byte-identical (body, headers, logo media, styles, settings, numbering, fields)",PASS,"[('docProps/core.xml', True), ('word/footer1.xml', True)]"
+L-Arabic_Continuation,PAGE / NUMPAGES field structure in footer unchanged,PASS,fldChar 12->12
+L-Arabic_Continuation,both D8 markings verbatim and restriction line present in every footer,PASS,
+L-Arabic_Continuation,Arabic body text identical,PASS,9 runs
+L-Bilingual_First_Page,member list and order identical,PASS,
+L-Bilingual_First_Page,zip integrity,PASS,
+L-Bilingual_First_Page,"only footers and core.xml (subject) differ; everything else byte-identical (body, headers, logo media, styles, settings, numbering, fields)",PASS,"[('docProps/core.xml', True), ('word/footer1.xml', True), ('word/footer2.xml', True)]"
+L-Bilingual_First_Page,PAGE / NUMPAGES field structure in footer unchanged,PASS,fldChar 12->12
+L-Bilingual_First_Page,both D8 markings verbatim and restriction line present in every footer,PASS,
+L-Bilingual_First_Page,Arabic body text identical,PASS,16 runs
+L-Bilingual_Continuation,member list and order identical,PASS,
+L-Bilingual_Continuation,zip integrity,PASS,
+L-Bilingual_Continuation,"only footers and core.xml (subject) differ; everything else byte-identical (body, headers, logo media, styles, settings, numbering, fields)",PASS,"[('docProps/core.xml', True), ('word/footer1.xml', True)]"
+L-Bilingual_Continuation,PAGE / NUMPAGES field structure in footer unchanged,PASS,fldChar 12->12
+L-Bilingual_Continuation,both D8 markings verbatim and restriction line present in every footer,PASS,
+L-Bilingual_Continuation,Arabic body text identical,PASS,8 runs
