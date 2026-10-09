@@ -1,0 +1,258 @@
+{
+ "Part A": {
+  "source": "GEM_V3.0_RC2_AX01_Accessibility_Validation_Remediation/21_candidate_corrections/GEM Brand Guidelines V3.0 — Part A — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "572eb199a87a1fb09cbfe0d7d78a1021d1af8adb08a107e748601a8afab9565e",
+  "titles": [
+   1,
+   12,
+   19,
+   20,
+   23,
+   26,
+   28,
+   29,
+   30,
+   32,
+   34,
+   35,
+   38,
+   42,
+   48,
+   49,
+   53,
+   54,
+   56,
+   58,
+   62,
+   63,
+   65,
+   67,
+   76,
+   77,
+   80
+  ],
+  "decorative": 31,
+  "alt": 0,
+  "arabic": [
+   [
+    38,
+    "Text 7",
+    "old_sha12=735fbbbdf59c",
+    "new_sha12=977d9a85c0c0"
+   ],
+   [
+    65,
+    "Text 9",
+    "old_sha12=46085c9bb8c4",
+    "new_sha12=0096ab549076"
+   ],
+   [
+    68,
+    "Text 10",
+    "old_sha12=46085c9bb8c4",
+    "new_sha12=0096ab549076"
+   ]
+  ],
+  "candidate": "GEM Brand Guidelines V3.0 — Part A — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+  "candidate_sha256": "aeaf96ea70b34f015da975949f0e4ac742ffaa86ffee4b6a722a8995c21f4995",
+  "members_changed": [
+   "ppt/slides/slide1.xml",
+   "ppt/slides/slide12.xml",
+   "ppt/slides/slide19.xml",
+   "ppt/slides/slide20.xml",
+   "ppt/slides/slide23.xml",
+   "ppt/slides/slide26.xml",
+   "ppt/slides/slide28.xml",
+   "ppt/slides/slide29.xml",
+   "ppt/slides/slide30.xml",
+   "ppt/slides/slide32.xml",
+   "ppt/slides/slide34.xml",
+   "ppt/slides/slide35.xml",
+   "ppt/slides/slide38.xml",
+   "ppt/slides/slide42.xml",
+   "ppt/slides/slide43.xml",
+   "ppt/slides/slide48.xml",
+   "ppt/slides/slide49.xml",
+   "ppt/slides/slide53.xml",
+   "ppt/slides/slide54.xml",
+   "ppt/slides/slide56.xml",
+   "ppt/slides/slide58.xml",
+   "ppt/slides/slide62.xml",
+   "ppt/slides/slide63.xml",
+   "ppt/slides/slide65.xml",
+   "ppt/slides/slide67.xml",
+   "ppt/slides/slide68.xml",
+   "ppt/slides/slide76.xml",
+   "ppt/slides/slide77.xml",
+   "ppt/slides/slide80.xml"
+  ],
+  "inverse_proof": "PASS"
+ },
+ "Part B": {
+  "source": "GEM_V3.0_RC2_AX01_Accessibility_Validation_Remediation/21_candidate_corrections/GEM Digital Design System V3.0 — Part B — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "d30ba3f3ed1ab05d94e08b09caba7b20ec81395f7c58737e2a083fd340fc193a",
+  "titles": [],
+  "decorative": 28,
+  "alt": 2,
+  "arabic": [],
+  "candidate": "GEM Digital Design System V3.0 — Part B — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+  "candidate_sha256": "bde41b51e0e92a20a14a4f71f9dd25021a289751417564f8ce3737b9d0e7b506",
+  "members_changed": [
+   "ppt/slides/slide1.xml",
+   "ppt/slides/slide14.xml",
+   "ppt/slides/slide26.xml",
+   "ppt/slides/slide8.xml"
+  ],
+  "inverse_proof": "PASS"
+ },
+ "Part C": {
+  "source": "GEM_V3.0_RC2_AX01_Accessibility_Validation_Remediation/21_candidate_corrections/GEM Production Standards V3.0 — Part C — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "f99581d2c6c2a10af69c9d78b409e6a4cb433a4f72035a3afe0b102859647717",
+  "titles": [
+   1,
+   10,
+   14
+  ],
+  "decorative": 26,
+  "alt": 0,
+  "arabic": [],
+  "candidate": "GEM Production Standards V3.0 — Part C — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+  "candidate_sha256": "30e2399d03725f17e7ed92398cc410e717f751fd771022d10fbcfcc875c6a397",
+  "members_changed": [
+   "ppt/slides/slide1.xml",
+   "ppt/slides/slide10.xml",
+   "ppt/slides/slide11.xml",
+   "ppt/slides/slide14.xml",
+   "ppt/slides/slide19.xml"
+  ],
+  "inverse_proof": "PASS"
+ },
+ "Part D": {
+  "source": "GEM_V3.0_RC2_AX01_Accessibility_Validation_Remediation/21_candidate_corrections/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "f1cbc9dcd010d2be5262847c0a8ee68c540eeeb34e7dfdf9c0c7be1ab625cbc1",
+  "titles": [],
+  "decorative": 2,
+  "alt": 31,
+  "arabic": [],
+  "candidate": "GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+  "candidate_sha256": "7347efc71126012322bb15453cb5ac4b351e583ac0a756edeed790018e23d598",
+  "members_changed": [
+   "ppt/slides/slide1.xml",
+   "ppt/slides/slide10.xml",
+   "ppt/slides/slide12.xml",
+   "ppt/slides/slide13.xml",
+   "ppt/slides/slide16.xml",
+   "ppt/slides/slide17.xml",
+   "ppt/slides/slide19.xml",
+   "ppt/slides/slide2.xml",
+   "ppt/slides/slide20.xml",
+   "ppt/slides/slide24.xml",
+   "ppt/slides/slide3.xml",
+   "ppt/slides/slide4.xml",
+   "ppt/slides/slide5.xml",
+   "ppt/slides/slide6.xml",
+   "ppt/slides/slide7.xml",
+   "ppt/slides/slide8.xml",
+   "ppt/slides/slide9.xml"
+  ],
+  "inverse_proof": "PASS"
+ },
+ "Letterhead Arabic First Page": {
+  "source": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Arabic_First_Page.docx",
+  "source_sha256": "85c7e640968b40acc7bcd18f3a697658816714f58f300465838d5d79dc7eb6ea",
+  "text_edits": [
+   [
+    "AR-16,AR-32",
+    1
+   ],
+   [
+    "AR-17,AR-33",
+    1
+   ],
+   [
+    "AR-19,AR-25",
+    1
+   ],
+   [
+    "AR-20,AR-26,AR-35,AR-40",
+    1
+   ]
+  ],
+  "footer_page_labels": 2,
+  "candidate": "GEM_Letterhead_Arabic_First_Page_HR01_CANDIDATE.docx",
+  "candidate_sha256": "aa0ac92d99dbb30d76818237056cddeb96772a6e303927acb0113ab626e0a71d",
+  "members_changed": [
+   "word/document.xml",
+   "word/footer1.xml",
+   "word/footer2.xml"
+  ],
+  "inverse_proof": "PASS"
+ },
+ "Letterhead Arabic Continuation": {
+  "source": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Arabic_Continuation.docx",
+  "source_sha256": "351da5985eb60801a9b3b4f4bbabe9ab5edf0cfcb5010b56979b098f1d3b2dd9",
+  "text_edits": [
+   [
+    "AR-19,AR-25",
+    1
+   ],
+   [
+    "AR-20,AR-26,AR-35,AR-40",
+    1
+   ]
+  ],
+  "footer_page_labels": 1,
+  "candidate": "GEM_Letterhead_Arabic_Continuation_HR01_CANDIDATE.docx",
+  "candidate_sha256": "2216d4d37b38e26bf89dd9892b4e49a03e6fff617a8b9333c43c6dfad14cc563",
+  "members_changed": [
+   "word/document.xml",
+   "word/footer1.xml"
+  ],
+  "inverse_proof": "PASS"
+ },
+ "Letterhead Bilingual First Page": {
+  "source": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Bilingual_First_Page.docx",
+  "source_sha256": "eb85104ac6bbf8685f0b0ce1277482b07e6ccc589227879eae98abcf49b74100",
+  "text_edits": [
+   [
+    "AR-16,AR-32",
+    1
+   ],
+   [
+    "AR-17,AR-33",
+    1
+   ],
+   [
+    "AR-20,AR-26,AR-35,AR-40",
+    1
+   ]
+  ],
+  "footer_page_labels": 2,
+  "candidate": "GEM_Letterhead_Bilingual_First_Page_HR01_CANDIDATE.docx",
+  "candidate_sha256": "c253cef8f8b3dd0c82add9b3081aa8104736d94f4dc31b0da9f78a26985ed9be",
+  "members_changed": [
+   "word/document.xml",
+   "word/footer1.xml",
+   "word/footer2.xml"
+  ],
+  "inverse_proof": "PASS"
+ },
+ "Letterhead Bilingual Continuation": {
+  "source": "GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Bilingual_Continuation.docx",
+  "source_sha256": "0171fa3fab4e460f1af1218e2c0dc2c18b56529cd40234652cfe7de82e52c2e6",
+  "text_edits": [
+   [
+    "AR-20,AR-26,AR-35,AR-40",
+    1
+   ]
+  ],
+  "footer_page_labels": 1,
+  "candidate": "GEM_Letterhead_Bilingual_Continuation_HR01_CANDIDATE.docx",
+  "candidate_sha256": "70fa0c3047c407139963912ea1ff5765534f59d2e59d5ffc47ada1935f1f12a8",
+  "members_changed": [
+   "word/document.xml",
+   "word/footer1.xml"
+  ],
+  "inverse_proof": "PASS"
+ }
+}

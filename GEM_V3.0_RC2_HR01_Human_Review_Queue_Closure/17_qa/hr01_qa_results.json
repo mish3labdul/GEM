@@ -1,0 +1,160 @@
+{
+ "checks": [
+  {
+   "check": "Queue 1: 44 queue items + 4 extras, every one dispositioned",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue 1: dispositions limited to the allowed vocabulary",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue 1: 31 as is / 13 recommendation / 0 deferred",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue 2: 144 queue items + 2 extras, every one dispositioned, none auto-applied without an owner disposition",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue 2: 30 titles, 23+1+2 alt-text items, 89 shapes (87 decorative / 2 informative), 1 specimen",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue 3: 13 tests; 11 PASS reviewer observed (Mashal); SR-11 and SR-12 DEFERRED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue 3: deferrals not recorded as Accessibility QA approval",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue 3: 13 pre-selected reading-order slides, all PASS",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue 4: 8 gates dispositioned, none closeable, none 'EVIDENCE SUFFICIENT'",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Gate matrix: every gate Can close? = NO; AC20 OPEN; zero gates closed",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Gate matrix covers required gates",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Queue baseline has four queues with HR01 outcomes",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no Arabic-script text in committed registers, docs or scripts",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no absolute or session-local paths",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no credential patterns",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "overclaim phrases appear only in negated/prohibiting context",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "8 candidates present and match the build log hashes; all inverse proofs PASS",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no new font family and no added bold in any candidate",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no geometry edit: only title shapes added, decorative/alt metadata and text runs changed (inverse proof)",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "visual regression: 0 visible regressions; 214 slides pixel identical + 3 expected + 4 Word pages expected",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "static accessibility predicates: 0 slides without title and 0 shapes/pictures without alt or decorative flag on all four decks",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "consistency: 112 automated assertions PASSED, 0 FAILED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "original Approval Register unchanged",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no tracked file modified (HR01 is additive)",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "only the HR01 package is new",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 checksums still verify",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 checksums still verify",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 checksums still verify",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 checksums still verify",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "local-only files not tracked",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no local-only or temp files among the new files",
+   "result": "PASS",
+   "detail": "[]"
+  }
+ ],
+ "failures": 0
+}
