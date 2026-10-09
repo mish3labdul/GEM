@@ -60,8 +60,8 @@
   },
   {
    "path": "09_D7_Owner_Decision_Record.md",
-   "bytes": 1080,
-   "sha256": "601b86587208561ac373a5a4f0426b5b89a008601e800f90a19774be2d7fe6dd"
+   "bytes": 3314,
+   "sha256": "3c5b37b87d7b8bae0bc01c3274e4cbec01a432d09dc7db88c25acb6bc1274d6b"
   },
   {
    "path": "10_Evidence_Index.md",
@@ -173,5 +173,6 @@
    "bytes": 2871,
    "sha256": "841b3171eeb823c33b916788ef8d98eaa5e545d8c0cde42d7b9d6eccbe0c0c7f"
   }
- ]
+ ],
+ "superseded_status_note": "The 'status' value above is the as-created (2026-10-09, commit ab6d886) state. 09_D7_Owner_Decision_Record.md was later populated with the Brand Owner's OD-G11 decision (current public repository approved; Legal/IP evidence open where required; AC20 open). See GEM_V3.0_RC2_OD01_Owner_Decision_Formalization/06_OD01_D7_Repository_Visibility_Decision.md. The pushed/merged/published flags describe the as-created state."
 }

@@ -13,3 +13,5 @@ Working repository for the GEM™ V3.0 brand system. Status: **RC2, evidence gat
 Logos are the supplied vector kit, used unchanged. Acceptance as production master is pending (VAL-02).
 
 `GEM_Letterhead_Set_v1.1_Application_Revision_03` holds the supplied letterhead set (8 Word templates, PDFs, specification, QA evidence). Working application, pending validation; it uses the official logo kit byte for byte.
+
+Current owner-decision layer (OD-G01 to OD-G12), role assignments and the post-decision open-evidence view: `GEM_V3.0_RC2_OD01_Owner_Decision_Formalization/`. Release authorization (AC20) is open and Legal/IP evidence gates remain open.

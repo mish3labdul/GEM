@@ -1,0 +1,25 @@
+Decision ID,Gate / item,Effect of decision on this gate,Gate closed by decision?,Gate status after OD01,Evidence still needed
+OD-G01,VAL-07,Removes ambiguity on correspondence order (Arabic leads). Not linguistic approval.,NO,Not started (Register) - open,Native review; screen-reader order; production RTL layouts
+OD-G01,AC10,Policy input only.,NO,Evidence Required - open,"Brand Owner decision with localization evidence, or formal deferral where the Register allows"
+OD-G01,VAL-12 / S07,None. S07 keeps its wayfinding scope; it is not extended to correspondence.,NO,Deferred (unchanged),Unchanged
+OD-G02,VAL-08,Defines the title policy for remediation. Resolves none of the 30 titles.,NO,In progress - open,Owner disposition for 30 titles; assistive-technology testing
+OD-G03,VAL-08,Defines alt-text ownership. Writes or approves none of the 23 Part D descriptions.,NO,In progress - open,Owner-approved alt text for 23 pictures; classification of 89 shapes; 6 generic alt texts
+OD-G04,VAL-08,Defines reading-order policy. No order was changed or validated.,NO,In progress - open,Manual assistive-technology review
+OD-G04,VAL-07,Arabic/bilingual logical order still needs a screen reader.,NO,Not started - open,Screen-reader order evidence
+OD-G05,VAL-08,Settles palette-policy treatment of Beige on White. Accessibility evidence stays contextual.,NO,In progress - open,Confirm slide 33 is a specimen; manual contrast of text over pictures; formal exceptions
+OD-G06,VAL-07,Policy for localized functional labels. No Arabic wording approved.,NO,Not started - open,Native linguistic sign-off
+OD-G06,AC10,Policy input only.,NO,Evidence Required - open,As above
+OD-G07,VAL-05 / Y03 / VAL-19,Permits Inter for Latin IDs only where natively validated. No font licence or build is verified.,NO,VAL-05 In progress; Y03 Evidence Required; VAL-19 In progress - open,Font licence/build verification; native validation of any Inter introduction
+OD-G07,VAL-07,Preserves Latin LTR identifiers. No new typography is introduced.,NO,Not started - open,Native validation
+OD-G08,VAL-07,No forced section-level RTL. Word evidence decides.,NO,Not started - open,"Windows Word, Word Online and multi-page checks"
+OD-G09,VAL-07,Names the authorized reviewer. The queue is not executed.,NO,Not started - open,44 queue items reviewed and evidenced
+OD-G09,AC10,Names the authorized reviewer. No Arabic approval.,NO,Evidence Required - open,Brand Owner decision with localization evidence
+OD-G09,AC19,Possibly names 1 of 12 Register roles (Arabic / Localization Lead) once the owner confirms the mapping.,NO,Approved with modification; role-holder condition UNMET,"11 further holders (or 12 if the mapping is not confirmed), including the named Brand Owner"
+OD-G10,VAL-08,Names the authorized content owner. No title or alt text is decided.,NO,In progress - open,Dispositions for the accessibility queue
+OD-G10,AC19,Role is not one of the 12 Register roles; it does not name a Register holder.,NO,Approved with modification; role-holder condition UNMET,As above
+OD-G11,D7 (owner level),Owner repository-visibility decision resolved: current public repository approved.,NO (D7 is not a validation gate; it is an owner decision),Owner decision RESOLVED; Legal/IP evidence OPEN where required,None for the owner-level visibility decision
+OD-G11,VAL-03 / Y01,None. Public visibility is not trademark clearance.,NO,Not started / Evidence Required - open,Target-market clearance or legal advice
+OD-G11,VAL-04 / Y02,None. Not artwork-ownership evidence.,NO,Not started / Evidence Required - open,Executed ownership or assignment evidence
+OD-G11,VAL-05 / Y03,None. Not font-licence evidence.,NO,In progress / Evidence Required - open,Licence and exact-build verification for intended uses
+OD-G11,VAL-06 / Y04,None. Not image/model/property-rights evidence.,NO,Not started / Evidence Required - open,Rights register for every approved production image
+OD-G12,AC20,Keeps AC20 open as the final Brand Owner release-authorization gate.,NO,Evidence Required - OPEN / FINAL RELEASE AUTHORIZATION PENDING,Upstream evidence closed or formally dispositioned/deferred by authorized owners where the governing system permits

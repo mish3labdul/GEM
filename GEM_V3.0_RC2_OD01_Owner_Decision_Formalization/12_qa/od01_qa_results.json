@@ -1,0 +1,170 @@
+{
+ "checks": [
+  {
+   "check": "register has OD-G01..OD-G12",
+   "result": "PASS",
+   "detail": "['OD-G01', 'OD-G02', 'OD-G03', 'OD-G04', 'OD-G05', 'OD-G06', 'OD-G07', 'OD-G08', 'OD-G09', 'OD-G10', 'OD-G11', 'OD-G12']"
+  },
+  {
+   "check": "OD-G01..G08 = APPROVED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OD-G09 and OD-G10 = ASSIGNED to Mashal",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OD-G11 = RESOLVED \u2014 OWNER REPOSITORY VISIBILITY APPROVAL (exact string), current public approved",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "OD-G12 = OPEN \u2014 FINAL RELEASE AUTHORIZATION PENDING (exact string)",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no decision closes an evidence gate",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "impact matrix closes no gate",
+   "result": "PASS",
+   "detail": "24 rows"
+  },
+  {
+   "check": "evidence view covers every required ID",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "no evidence item can close now",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "VAL-18 = NOT ALLOCATED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "AC20 = OPEN / FINAL RELEASE AUTHORIZATION PENDING",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Legal/IP gates VAL-03..06 and Y01..Y04 not closed",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Arabic review queue rows carry element, SHA prefix and AR01 row",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Arabic review queue has 44 items, all PENDING, dispositions blank",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "accessibility queue: 30 titles, 23 pictures, 89 shapes, 2 further; all pending, nothing pre-filled",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no Arabic-script text in the package",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no absolute or session-local paths in the package",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no credentials patterns",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "overclaim phrases appear only in negated/prohibiting context",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "S07 not broadened (OD-G01 scope states wayfinding limit)",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "public approval stated as not a legal opinion",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "committed package does not claim the branch is published",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "original Approval Register unchanged",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "only allowed tracked files changed",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "only the OD01 package is new",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "no historical package modified (AR01, AX01, NP01, NP01-R1, ODI01-R1, D3, RC2 originals, qa)",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 checksums still verify",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 checksums still verify",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 checksums still verify",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "D7 package checksums verify after the 09 update",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "D7 record: option E ticked, A-D unticked, Legal/IP reviewer NOT PROVIDED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "D7 record keeps Legal/IP evidence open and AC20 open",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "CLAUDE.local.md, .claude/ and local_only/ not tracked",
+   "result": "PASS",
+   "detail": ""
+  }
+ ],
+ "failures": 0
+}
