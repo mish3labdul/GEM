@@ -1,0 +1,162 @@
+[
+ [
+  "Part A",
+  1,
+  "REVIEW: possible visible change",
+  "10943 differing px (9087 > 24)",
+  10943,
+  9087
+ ],
+ [
+  "Part A",
+  3,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  12,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  15,
+  "SUB-PIXEL NATIVE VARIANCE",
+  "291 differing px (0 > 24)",
+  291,
+  0
+ ],
+ [
+  "Part A",
+  19,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  26,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  28,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  30,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  32,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  37,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  38,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  39,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  48,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  53,
+  "SUB-PIXEL NATIVE VARIANCE",
+  "377 differing px (0 > 24)",
+  377,
+  0
+ ],
+ [
+  "Part A",
+  54,
+  "SUB-PIXEL NATIVE VARIANCE",
+  "70 differing px (0 > 24)",
+  70,
+  0
+ ],
+ [
+  "Part A",
+  65,
+  "SUB-PIXEL NATIVE VARIANCE",
+  "42 differing px (0 > 24)",
+  42,
+  0
+ ],
+ [
+  "Part A",
+  66,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  68,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  76,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ],
+ [
+  "Part A",
+  80,
+  "PIXEL-IDENTICAL",
+  "0 differing px (0 > 24)",
+  0,
+  0
+ ]
+]

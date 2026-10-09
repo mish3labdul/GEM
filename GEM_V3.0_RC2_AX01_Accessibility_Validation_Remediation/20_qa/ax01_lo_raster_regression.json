@@ -1,0 +1,30 @@
+{
+ "A": {
+  "pages": 80,
+  "pages_differing": []
+ },
+ "B": {
+  "pages": 35,
+  "pages_differing": []
+ },
+ "C": {
+  "pages": 78,
+  "pages_differing": []
+ },
+ "D": {
+  "pages": 24,
+  "pages_differing": [
+   [
+    3,
+    600,
+    231
+   ],
+   [
+    24,
+    705,
+    237
+   ]
+  ],
+  "note": "after pinning explicit lnSpc 100% on title-mapped headings (incl. paragraphs without pPr)"
+ }
+}

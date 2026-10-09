@@ -1,0 +1,9 @@
+Template,SHA-256,Document title (core properties),updateFields set,Body paragraphs,Heading/Title-style paragraphs,Heading structure,Tables,Drawings (body+header/footer),Floating drawings,Blank spacing paragraphs,Header/footer parts,PAGE/NUMPAGES fields,Different first page,RTL paragraphs (w:bidi),Run languages (count),Default language in styles
+English_First_Page,8cb2e02bb9890f3701b20da6cb9de9962340cf2fda7fa3a320c579b3b2cf4299,yes: set,yes,11,1,1 heading paragraphs,0,1,0,0,4,4,yes,yes,en-GB=46,yes
+English_Continuation,4103307647e5e4c6178bb9276c740c89e46b7a283015fed963f0d795578707ef,yes: set,yes,7,0,no Heading/Title styles used (all paragraphs Normal or custom),0,0,0,0,2,2,no,yes,en-GB=24,yes
+Arabic_First_Page,85c7e640968b40acc7bcd18f3a697658816714f58f300465838d5d79dc7eb6ea,yes: set,yes,11,1,1 heading paragraphs,0,1,0,0,4,4,yes,yes,ar-SA=10;en-GB=38,yes
+Arabic_Continuation,351da5985eb60801a9b3b4f4bbabe9ab5edf0cfcb5010b56979b098f1d3b2dd9,yes: set,yes,7,0,no Heading/Title styles used (all paragraphs Normal or custom),0,0,0,0,2,2,no,yes,ar-SA=6;en-GB=19,yes
+Bilingual_First_Page,eb85104ac6bbf8685f0b0ce1277482b07e6ccc589227879eae98abcf49b74100,yes: set,yes,16,2,2 heading paragraphs,0,1,0,0,4,4,yes,yes,ar-SA=9;en-GB=46,yes
+Bilingual_Continuation,0171fa3fab4e460f1af1218e2c0dc2c18b56529cd40234652cfe7de82e52c2e6,yes: set,yes,9,0,no Heading/Title styles used (all paragraphs Normal or custom),0,0,0,0,2,2,no,yes,ar-SA=5;en-GB=22,yes
+Executive,584848519da4defdc2e71a67bd4f837eeaee8082d29197755e4c175823b3366a,yes: set,yes,12,1,1 heading paragraphs,0,1,0,0,4,4,yes,yes,en-GB=47,yes
+Minimal,0d6678606dc443baf6f56fd19fe6ca4eb26f125c3e13c95993615cd65e183bf6,yes: set,yes,11,1,1 heading paragraphs,0,1,0,0,4,4,yes,yes,en-GB=45,yes

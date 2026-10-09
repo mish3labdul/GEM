@@ -1,0 +1,378 @@
+{
+ "package": "GEM_V3.0_RC2_AX01_Accessibility_Validation_Remediation",
+ "purpose": "Document-accessibility validation and structural remediation of the controlled PowerPoint candidates and Revision 03 Word templates. Not a redesign, not a linguistic review, not a release pass.",
+ "status": "AX01 — TECHNICAL ACCESSIBILITY VALIDATION AND SAFE STRUCTURAL REMEDIATION COMPLETE FOR DEFINED SCOPE",
+ "release_label": "GEM™ V3.0 RC2 — SYNCHRONIZED / NOT RELEASED / EVIDENCE GATES REMAIN / UNAPPROVED IMPLEMENTATION CANDIDATE",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "79409f445746a64afcdde149b78df2d237cf9adc",
+ "governance": {
+  "D5": "400 only; Noto Sans Arabic 400 interim; 500 pending accepted font file; no faux bold",
+  "D7": "LEGAL/IP DECISION PENDING — DO NOT PUSH",
+  "D8": "external Arabic/bilingual PDF validation OPEN",
+  "AC20": "OPEN",
+  "VAL-07": "OPEN",
+  "VAL-08": "OPEN",
+  "VAL-15": "OPEN",
+  "arabic_linguistic_status": "PENDING NATIVE ARABIC REVIEW",
+  "X12": "STREAM = BRAND (unchanged)"
+ },
+ "pushed": false,
+ "merged": false,
+ "published": false,
+ "pr_opened": false,
+ "committed": false,
+ "staged": false,
+ "authoritative_originals_modified": false,
+ "historical_packages_modified": false,
+ "gates_closed": [],
+ "candidates": {
+  "Part A": {
+   "source_sha256": "bb75f1c1d1ebaf7c429eff38cac4d7eaaed9c2468b9e06bc037a837432c2bbb5",
+   "ax01_candidate": "GEM Brand Guidelines V3.0 — Part A — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+   "ax01_candidate_sha256": "572eb199a87a1fb09cbfe0d7d78a1021d1af8adb08a107e748601a8afab9565e",
+   "members_changed": 58
+  },
+  "Part B": {
+   "source_sha256": "63f706220053f62619b69a657f82ceaf257957d60c67596b182d8e2e0f017c86",
+   "ax01_candidate": "GEM Digital Design System V3.0 — Part B — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+   "ax01_candidate_sha256": "d30ba3f3ed1ab05d94e08b09caba7b20ec81395f7c58737e2a083fd340fc193a",
+   "members_changed": 33
+  },
+  "Part C": {
+   "source_sha256": "3a8d291816d73f9f6f0c3aa6e1a75f5889ce9a7161d2e059e5874ba8828bb880",
+   "ax01_candidate": "GEM Production Standards V3.0 — Part C — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+   "ax01_candidate_sha256": "f99581d2c6c2a10af69c9d78b409e6a4cb433a4f72035a3afe0b102859647717",
+   "members_changed": 50
+  },
+  "Part D": {
+   "source_sha256": "04d325f83fc77a01220430c00688d73529ed6de20e912fcda9ef2ddfb5bec9e1",
+   "ax01_candidate": "GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+   "ax01_candidate_sha256": "f1cbc9dcd010d2be5262847c0a8ee68c540eeeb34e7dfdf9c0c7be1ab625cbc1",
+   "members_changed": 24
+  }
+ },
+ "edits": {
+  "title_placeholders_mapped": 24,
+  "decorative_shapes_marked": 486,
+  "table_header_flags_set": 66,
+  "text_changed": false,
+  "fonts_changed": false,
+  "colours_changed": false,
+  "geometry_changed": false
+ },
+ "native_checker_counts": {
+  "Part A": {
+   "alt": "313->31",
+   "table_header": "1->0",
+   "missing_title": "27->27",
+   "reading_order": "58->55"
+  },
+  "Part B": {
+   "alt": "80->30",
+   "table_header": "30->0",
+   "missing_title": "0->0",
+   "reading_order": "35->35"
+  },
+  "Part C": {
+   "alt": "105->26",
+   "table_header": "34->0",
+   "missing_title": "3->3",
+   "reading_order": "75->75"
+  },
+  "Part D": {
+   "alt": "100->25",
+   "table_header": "1->0",
+   "missing_title": "24->0",
+   "reading_order": "23->24"
+  }
+ },
+ "word_native": "8/8 templates: Looks good! No issues found (compatibilityMode 14; Continuation templates have no heading paragraphs); no Word change",
+ "screen_reader_tests_completed": 0,
+ "screen_reader_tests_manual": 13,
+ "wcag_2_2_aa_demonstrated": false,
+ "consistency_assertions": "112 PASS / 0 FAIL (AX01 lineage; AR01 Part B PDF input; AX01 regenerated no PDFs)",
+ "screenshot_policy": "NATIVE SCREENSHOT EVIDENCE EXISTS LOCALLY AND WAS REVIEWED. SCREENSHOTS ARE INTENTIONALLY EXCLUDED FROM VERSION CONTROL PENDING D7 LEGAL/IP REPOSITORY-VISIBILITY DECISION.",
+ "screenshot_register": "18_AX01_Local_Screenshot_Register.csv",
+ "raw_text_policy": "Committed files contain identifiers, counts and hashes only; raw object tables, probes, renders and scratch are local-only pending D7.",
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "carried_open": [
+  "manual screen-reader tests",
+  "unresolved title semantics (Part A 27 incl. slide 1, Part C 3 incl. slide 1)",
+  "informative alt-text content (23 Part D images + 89 objects)",
+  "manual reading-order review (200 flags)",
+  "contrast governance decision (Part A slide 33)",
+  "content-owner decisions"
+ ],
+ "files": [
+  {
+   "path": "01_AX01_Executive_Summary.md",
+   "sha256": "501d9786ef58a8d4c77587febc9c636a1108e15566bf4718eb00f5191cacb3e3",
+   "bytes": 6613
+  },
+  {
+   "path": "02_AX01_Candidate_Baseline.csv",
+   "sha256": "e00598f73e3eae575d9d9428030ed3cd2d42e48e29e849627e337b971dc634cf",
+   "bytes": 5454
+  },
+  {
+   "path": "03_AX01_Structural_Inventory.csv",
+   "sha256": "4862c181e28c07e5d3eafaccd8d0eb7931161381787e7bc4fee1a58f46c5aa96",
+   "bytes": 21257
+  },
+  {
+   "path": "04_AX01_PowerPoint_Native_Checker.csv",
+   "sha256": "11d3c50dbf31958081de24cf189a256aac5867576debe6918d89453baa174312",
+   "bytes": 15733
+  },
+  {
+   "path": "05_AX01_Title_Remediation_Register.csv",
+   "sha256": "60aaf77be768e93cf1c8115211905c7b60b2055a71c63ced7da9b74801dad04d",
+   "bytes": 20481
+  },
+  {
+   "path": "06_AX01_Reading_Order_Register.csv",
+   "sha256": "7c221f43ddee2457444aa4c697cb9cd967f81bac6a78cc6b0e37dd34ca59227b",
+   "bytes": 54039
+  },
+  {
+   "path": "07_AX01_Alt_Text_Register.csv",
+   "sha256": "bbafeb86160e7d8195ba31aa80f46eab67eb2a2d255a0193c26feeec7f39b141",
+   "bytes": 104588
+  },
+  {
+   "path": "08_AX01_Table_Accessibility_Register.csv",
+   "sha256": "74e461cd8aa6e2d4d7c1f5c5bfe227c19770aa8ec11d838c56f3abe0dfc3d997",
+   "bytes": 14049
+  },
+  {
+   "path": "09_AX01_Contrast_Assessment.csv",
+   "sha256": "1ffbff9fc57edcc3e13072261e48f61cedd947b14048543783a6e38bab43c733",
+   "bytes": 1171
+  },
+  {
+   "path": "10_AX01_Screen_Reader_Test_Matrix.csv",
+   "sha256": "76970c7e2c96fe13aaf85e6c39e8344120fae080a49f1dec7fd4e81f63e436d6",
+   "bytes": 5130
+  },
+  {
+   "path": "11_AX01_PowerPoint_Correction_Register.csv",
+   "sha256": "4f42264b81d3895bd8b334ee81c0f1d8d800a2d9f0331297f3de13e6b0d8cbe9",
+   "bytes": 222190
+  },
+  {
+   "path": "12_AX01_Word_Correction_Register.csv",
+   "sha256": "e74deaf22ed9a2dc9510176c2e9fd2f2b219917ac5f66734bb22acf0e826bbbe",
+   "bytes": 2540
+  },
+  {
+   "path": "13_AX01_Native_Revalidation.md",
+   "sha256": "4d2a2cf9770adb2545072267593e7e1aa6102c561ef0fba89276138e9c94e921",
+   "bytes": 4283
+  },
+  {
+   "path": "14_AX01_Visual_Regression_QA.md",
+   "sha256": "bb9f87f0a77fd40020feed3423ebb41a149de0d66270a53618ef5006d419d40f",
+   "bytes": 2433
+  },
+  {
+   "path": "15_AX01_Validation_Gate_Assessment.md",
+   "sha256": "07a57a8dd349addf6e223b65cdc3329d8a5525985244eba3fd05c58a41e278d7",
+   "bytes": 3424
+  },
+  {
+   "path": "16_AX01_Open_Findings.md",
+   "sha256": "9541e77d09ef6e3101a67000c2527d6a51137e18a53d731828a35df1347977fc",
+   "bytes": 4764
+  },
+  {
+   "path": "17_AX01_Evidence_Index.md",
+   "sha256": "d9cc562b92dd0e17fc1c87943ba8125f32e5532dbe873c7c242c2abb42164ca0",
+   "bytes": 3324
+  },
+  {
+   "path": "18_AX01_Local_Screenshot_Register.csv",
+   "sha256": "9a1a4f467bcb4aa3ae7360930d1c094bf78a8897f90680335b0a59cbbde4815a",
+   "bytes": 36950
+  },
+  {
+   "path": "19_scripts/ax01_apply_decorative.py",
+   "sha256": "d59e936b7abc02cdf5ef7fd1f52b96b31f3b9061f1fcef69d7832334dc8f5016",
+   "bytes": 2795
+  },
+  {
+   "path": "19_scripts/ax01_apply_tables.py",
+   "sha256": "561f756a84fea152842a693e64c77dd43e6f266cbb1ae6feb616d2bb782038e3",
+   "bytes": 1818
+  },
+  {
+   "path": "19_scripts/ax01_apply_titles.py",
+   "sha256": "043b129fe7fcc9de68e9070939c4a2c5d08eb5ed26cee6470648cb8f7a67044b",
+   "bytes": 4796
+  },
+  {
+   "path": "19_scripts/ax01_build_candidates.py",
+   "sha256": "58ef53a3edbfc84c206bcaf36893fb6c1dd5357cb9d02dea43fafb83a019f940",
+   "bytes": 2848
+  },
+  {
+   "path": "19_scripts/ax01_build_registers.py",
+   "sha256": "93c4da04a60c6a3ad05550b736f100644bed9a0003d9b5ef90817dd3058479e6",
+   "bytes": 5029
+  },
+  {
+   "path": "19_scripts/ax01_build_screenshot_register.py",
+   "sha256": "08594f02d8133cf9af6afca16408331761120cd5dabedb3177305d83bcd560d3",
+   "bytes": 1771
+  },
+  {
+   "path": "19_scripts/ax01_capture.py",
+   "sha256": "4a56424b5b38ddccd1425bdd1670b99d4a36f43bd51a34f0089a1c687d25f8af",
+   "bytes": 522
+  },
+  {
+   "path": "19_scripts/ax01_classify_alt.py",
+   "sha256": "1667344f04c4db3edb3ce454461b794e2347b182c92e147378216703673bb0b2",
+   "bytes": 4550
+  },
+  {
+   "path": "19_scripts/ax01_classify_tables.py",
+   "sha256": "e47a703d0e9134158dbce0b0e8186352fa9fc159bd876ca9d4651db59427a9b9",
+   "bytes": 4292
+  },
+  {
+   "path": "19_scripts/ax01_common.py",
+   "sha256": "de01602264b9e7d10a5467c1f4b6812a8f81e4bf6b8ee248abe693d327d36590",
+   "bytes": 5508
+  },
+  {
+   "path": "19_scripts/ax01_contrast.py",
+   "sha256": "e6708a9076bda10cf265194b1b11dbb63bb7add071f2101149f9bb9f601e74ca",
+   "bytes": 4715
+  },
+  {
+   "path": "19_scripts/ax01_inventory.py",
+   "sha256": "a01fcfc386a12fc47c606c7e3cb42a002efc29d26495d61b65692b41a35611eb",
+   "bytes": 5565
+  },
+  {
+   "path": "19_scripts/ax01_inverse_proof.py",
+   "sha256": "59a3a8ea48d3800837311a08c9811791e2722e2f6ac059f894bfe948c8758f02",
+   "bytes": 1568
+  },
+  {
+   "path": "19_scripts/ax01_lo_regression.sh",
+   "sha256": "72b26c0790ea9204b1edc923e970c306d327b7122950d6ca54b7258b50067653",
+   "bytes": 1515
+  },
+  {
+   "path": "19_scripts/ax01_manifest.py",
+   "sha256": "0c5ed0287150f79968200ec9f8ad1ebfefe7fc13340d2a01844caae4418de04a",
+   "bytes": 1271
+  },
+  {
+   "path": "19_scripts/ax01_native_capture.py",
+   "sha256": "06b488477606eee39569190bbfd07c9bcda38f445f5beb5214d1223b8175952d",
+   "bytes": 1998
+  },
+  {
+   "path": "19_scripts/ax01_native_regress.sh",
+   "sha256": "b7f2833776e24ede09f0af08f015f27bea36868743bdeb73cf6e15002d1e1ae6",
+   "bytes": 429
+  },
+  {
+   "path": "19_scripts/ax01_pixel_compare.py",
+   "sha256": "981d42e16ed5b374f6445cc9d1eb9988ee3decdb6dedf24d1c29aa1366d1cc40",
+   "bytes": 1950
+  },
+  {
+   "path": "19_scripts/ax01_static_verify.py",
+   "sha256": "8186cf6d9b10d015e86fdd6df4efadab786f73b8dbe262b25d79d29f1822adf8",
+   "bytes": 4253
+  },
+  {
+   "path": "19_scripts/ax01_title_candidates.py",
+   "sha256": "c7fa92b69d26606e14ec2b509535b6012815c674380da6fadb17727d0fa334d9",
+   "bytes": 1968
+  },
+  {
+   "path": "19_scripts/ax01_titles_reading.py",
+   "sha256": "d47f6166c271ecda7547967ba15b40e7e75548e89121677a9195deb48d994036",
+   "bytes": 6820
+  },
+  {
+   "path": "19_scripts/ax01_word_inventory.py",
+   "sha256": "ce4ef5d62db3e81e8afe5d9065b72a8d73e3f4a7689444f48fc408aa536bb273",
+   "bytes": 4030
+  },
+  {
+   "path": "20_qa/ax01_edit_log.json",
+   "sha256": "7a76a98fd519d775184013a06a55235fe2b400c3dd045a36177a3268c5c496f7",
+   "bytes": 26100
+  },
+  {
+   "path": "20_qa/ax01_inverse_proof.json",
+   "sha256": "922011b4ff4a906437d1f88521b888611cb43373b6cb5ccabeb6046d4a2207ee",
+   "bytes": 320
+  },
+  {
+   "path": "20_qa/ax01_lo_raster_regression.json",
+   "sha256": "792078a58fb0665d2a0718e18ebcc616d2780d9f96d92e74866589b66a316f68",
+   "bytes": 382
+  },
+  {
+   "path": "20_qa/ax01_native_pixel_compare_A.json",
+   "sha256": "856f263f092efd893ae352f80dcf1e7c228dc07b0e6080aff819ffcabb3cd31a",
+   "bytes": 1762
+  },
+  {
+   "path": "20_qa/ax01_native_pixel_compare_all.json",
+   "sha256": "b4d414c278ef49c0ebd91e33bd60d46bf7c13750fc3ea6032acd7f33e5a51c7f",
+   "bytes": 4990
+  },
+  {
+   "path": "20_qa/ax01_native_word_checker.csv",
+   "sha256": "fd976b9da7a86aa47e4598106cafa47959f817e6eee3f67e7a2bb47e0181981e",
+   "bytes": 2221
+  },
+  {
+   "path": "20_qa/ax01_static_verification.csv",
+   "sha256": "e917d405bb7b7b45fae5dcf05ef73d50b74e6a9a65ec61f6b871330b5ee507c6",
+   "bytes": 1969
+  },
+  {
+   "path": "20_qa/ax01_word_structural_inventory.csv",
+   "sha256": "9b0acde08ee24b4efcbdb0e7780a0b018e8df245d69b738a6fb84f3a0f6bd48f",
+   "bytes": 1745
+  },
+  {
+   "path": "20_qa/consistency_AX01.md",
+   "sha256": "801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7",
+   "bytes": 9335
+  },
+  {
+   "path": "21_candidate_corrections/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+   "sha256": "f1cbc9dcd010d2be5262847c0a8ee68c540eeeb34e7dfdf9c0c7be1ab625cbc1",
+   "bytes": 29077590
+  },
+  {
+   "path": "21_candidate_corrections/GEM Brand Guidelines V3.0 — Part A — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+   "sha256": "572eb199a87a1fb09cbfe0d7d78a1021d1af8adb08a107e748601a8afab9565e",
+   "bytes": 8408045
+  },
+  {
+   "path": "21_candidate_corrections/GEM Digital Design System V3.0 — Part B — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+   "sha256": "d30ba3f3ed1ab05d94e08b09caba7b20ec81395f7c58737e2a083fd340fc193a",
+   "bytes": 161051
+  },
+  {
+   "path": "21_candidate_corrections/GEM Production Standards V3.0 — Part C — RC2 — AX01 CANDIDATE (UNAPPROVED).pptx",
+   "sha256": "f99581d2c6c2a10af69c9d78b409e6a4cb433a4f72035a3afe0b102859647717",
+   "bytes": 950473
+  }
+ ],
+ "excluded_from_manifest_and_version_control": [
+  "local_only/ (raw text-bearing inventory, scratch variants and probes, PDFs, screenshots)",
+  ".DS_Store"
+ ]
+}

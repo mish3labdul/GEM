@@ -1,0 +1,797 @@
+{
+ "Part A": {
+  "source": "GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation/19_candidate_corrections/GEM Brand Guidelines V3.0 \u2014 Part A \u2014 RC2 \u2014 AR01 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "bb75f1c1d1ebaf7c429eff38cac4d7eaaed9c2468b9e06bc037a837432c2bbb5",
+  "output": "GEM Brand Guidelines V3.0 \u2014 Part A \u2014 RC2 \u2014 AX01 CANDIDATE (UNAPPROVED).pptx",
+  "output_sha256": "572eb199a87a1fb09cbfe0d7d78a1021d1af8adb08a107e748601a8afab9565e",
+  "members_changed": [
+   "ppt/slides/slide10.xml",
+   "ppt/slides/slide12.xml",
+   "ppt/slides/slide13.xml",
+   "ppt/slides/slide14.xml",
+   "ppt/slides/slide15.xml",
+   "ppt/slides/slide16.xml",
+   "ppt/slides/slide17.xml",
+   "ppt/slides/slide19.xml",
+   "ppt/slides/slide2.xml",
+   "ppt/slides/slide20.xml",
+   "ppt/slides/slide21.xml",
+   "ppt/slides/slide22.xml",
+   "ppt/slides/slide23.xml",
+   "ppt/slides/slide24.xml",
+   "ppt/slides/slide26.xml",
+   "ppt/slides/slide27.xml",
+   "ppt/slides/slide3.xml",
+   "ppt/slides/slide31.xml",
+   "ppt/slides/slide32.xml",
+   "ppt/slides/slide33.xml",
+   "ppt/slides/slide35.xml",
+   "ppt/slides/slide36.xml",
+   "ppt/slides/slide37.xml",
+   "ppt/slides/slide38.xml",
+   "ppt/slides/slide39.xml",
+   "ppt/slides/slide4.xml",
+   "ppt/slides/slide40.xml",
+   "ppt/slides/slide42.xml",
+   "ppt/slides/slide45.xml",
+   "ppt/slides/slide47.xml",
+   "ppt/slides/slide48.xml",
+   "ppt/slides/slide49.xml",
+   "ppt/slides/slide51.xml",
+   "ppt/slides/slide53.xml",
+   "ppt/slides/slide54.xml",
+   "ppt/slides/slide56.xml",
+   "ppt/slides/slide57.xml",
+   "ppt/slides/slide58.xml",
+   "ppt/slides/slide60.xml",
+   "ppt/slides/slide61.xml",
+   "ppt/slides/slide62.xml",
+   "ppt/slides/slide63.xml",
+   "ppt/slides/slide65.xml",
+   "ppt/slides/slide66.xml",
+   "ppt/slides/slide67.xml",
+   "ppt/slides/slide68.xml",
+   "ppt/slides/slide69.xml",
+   "ppt/slides/slide7.xml",
+   "ppt/slides/slide71.xml",
+   "ppt/slides/slide72.xml",
+   "ppt/slides/slide73.xml",
+   "ppt/slides/slide74.xml",
+   "ppt/slides/slide75.xml",
+   "ppt/slides/slide76.xml",
+   "ppt/slides/slide77.xml",
+   "ppt/slides/slide78.xml",
+   "ppt/slides/slide79.xml",
+   "ppt/slides/slide8.xml"
+  ],
+  "steps": {
+   "decorative": {
+    "n": 282,
+    "log": {
+     "src_sha256": "bb75f1c1d1ebaf7c429eff38cac4d7eaaed9c2468b9e06bc037a837432c2bbb5",
+     "dst_sha256": "61071fae0f0aace887a785775536cf85f47a1c4d298c5fa34c90945b1413eb26",
+     "members_changed": [
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide17.xml",
+      "ppt/slides/slide19.xml",
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide20.xml",
+      "ppt/slides/slide21.xml",
+      "ppt/slides/slide22.xml",
+      "ppt/slides/slide23.xml",
+      "ppt/slides/slide24.xml",
+      "ppt/slides/slide26.xml",
+      "ppt/slides/slide27.xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/slide31.xml",
+      "ppt/slides/slide32.xml",
+      "ppt/slides/slide33.xml",
+      "ppt/slides/slide35.xml",
+      "ppt/slides/slide36.xml",
+      "ppt/slides/slide37.xml",
+      "ppt/slides/slide38.xml",
+      "ppt/slides/slide39.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide40.xml",
+      "ppt/slides/slide42.xml",
+      "ppt/slides/slide45.xml",
+      "ppt/slides/slide47.xml",
+      "ppt/slides/slide48.xml",
+      "ppt/slides/slide49.xml",
+      "ppt/slides/slide51.xml",
+      "ppt/slides/slide53.xml",
+      "ppt/slides/slide54.xml",
+      "ppt/slides/slide56.xml",
+      "ppt/slides/slide57.xml",
+      "ppt/slides/slide58.xml",
+      "ppt/slides/slide60.xml",
+      "ppt/slides/slide61.xml",
+      "ppt/slides/slide62.xml",
+      "ppt/slides/slide63.xml",
+      "ppt/slides/slide65.xml",
+      "ppt/slides/slide66.xml",
+      "ppt/slides/slide67.xml",
+      "ppt/slides/slide68.xml",
+      "ppt/slides/slide69.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide71.xml",
+      "ppt/slides/slide72.xml",
+      "ppt/slides/slide73.xml",
+      "ppt/slides/slide74.xml",
+      "ppt/slides/slide75.xml",
+      "ppt/slides/slide76.xml",
+      "ppt/slides/slide77.xml",
+      "ppt/slides/slide78.xml",
+      "ppt/slides/slide79.xml",
+      "ppt/slides/slide8.xml"
+     ],
+     "shapes_marked": 282
+    }
+   },
+   "table": {
+    "n": 1,
+    "log": {
+     "src_sha256": "61071fae0f0aace887a785775536cf85f47a1c4d298c5fa34c90945b1413eb26",
+     "dst_sha256": "572eb199a87a1fb09cbfe0d7d78a1021d1af8adb08a107e748601a8afab9565e",
+     "members_changed": [
+      "ppt/slides/slide15.xml"
+     ],
+     "tables_flagged": 1
+    }
+   }
+  }
+ },
+ "Part B": {
+  "source": "GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation/19_candidate_corrections/GEM Digital Design System V3.0 \u2014 Part B \u2014 RC2 \u2014 AR01 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "63f706220053f62619b69a657f82ceaf257957d60c67596b182d8e2e0f017c86",
+  "output": "GEM Digital Design System V3.0 \u2014 Part B \u2014 RC2 \u2014 AX01 CANDIDATE (UNAPPROVED).pptx",
+  "output_sha256": "d30ba3f3ed1ab05d94e08b09caba7b20ec81395f7c58737e2a083fd340fc193a",
+  "members_changed": [
+   "ppt/slides/slide10.xml",
+   "ppt/slides/slide11.xml",
+   "ppt/slides/slide12.xml",
+   "ppt/slides/slide13.xml",
+   "ppt/slides/slide14.xml",
+   "ppt/slides/slide15.xml",
+   "ppt/slides/slide16.xml",
+   "ppt/slides/slide17.xml",
+   "ppt/slides/slide18.xml",
+   "ppt/slides/slide19.xml",
+   "ppt/slides/slide2.xml",
+   "ppt/slides/slide20.xml",
+   "ppt/slides/slide21.xml",
+   "ppt/slides/slide22.xml",
+   "ppt/slides/slide23.xml",
+   "ppt/slides/slide24.xml",
+   "ppt/slides/slide25.xml",
+   "ppt/slides/slide27.xml",
+   "ppt/slides/slide28.xml",
+   "ppt/slides/slide29.xml",
+   "ppt/slides/slide3.xml",
+   "ppt/slides/slide30.xml",
+   "ppt/slides/slide31.xml",
+   "ppt/slides/slide32.xml",
+   "ppt/slides/slide33.xml",
+   "ppt/slides/slide34.xml",
+   "ppt/slides/slide35.xml",
+   "ppt/slides/slide4.xml",
+   "ppt/slides/slide5.xml",
+   "ppt/slides/slide6.xml",
+   "ppt/slides/slide7.xml",
+   "ppt/slides/slide8.xml",
+   "ppt/slides/slide9.xml"
+  ],
+  "steps": {
+   "decorative": {
+    "n": 50,
+    "log": {
+     "src_sha256": "63f706220053f62619b69a657f82ceaf257957d60c67596b182d8e2e0f017c86",
+     "dst_sha256": "01de8dd7e4c7b1498085cfa59d193087051d4c36eb53fa680a383925005748f6",
+     "members_changed": [
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide11.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide17.xml",
+      "ppt/slides/slide18.xml",
+      "ppt/slides/slide19.xml",
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide20.xml",
+      "ppt/slides/slide21.xml",
+      "ppt/slides/slide22.xml",
+      "ppt/slides/slide23.xml",
+      "ppt/slides/slide24.xml",
+      "ppt/slides/slide25.xml",
+      "ppt/slides/slide27.xml",
+      "ppt/slides/slide28.xml",
+      "ppt/slides/slide29.xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/slide30.xml",
+      "ppt/slides/slide31.xml",
+      "ppt/slides/slide32.xml",
+      "ppt/slides/slide33.xml",
+      "ppt/slides/slide34.xml",
+      "ppt/slides/slide35.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide5.xml",
+      "ppt/slides/slide6.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide8.xml",
+      "ppt/slides/slide9.xml"
+     ],
+     "shapes_marked": 50
+    }
+   },
+   "table": {
+    "n": 30,
+    "log": {
+     "src_sha256": "01de8dd7e4c7b1498085cfa59d193087051d4c36eb53fa680a383925005748f6",
+     "dst_sha256": "d30ba3f3ed1ab05d94e08b09caba7b20ec81395f7c58737e2a083fd340fc193a",
+     "members_changed": [
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide17.xml",
+      "ppt/slides/slide18.xml",
+      "ppt/slides/slide19.xml",
+      "ppt/slides/slide20.xml",
+      "ppt/slides/slide21.xml",
+      "ppt/slides/slide22.xml",
+      "ppt/slides/slide23.xml",
+      "ppt/slides/slide24.xml",
+      "ppt/slides/slide25.xml",
+      "ppt/slides/slide27.xml",
+      "ppt/slides/slide29.xml",
+      "ppt/slides/slide31.xml",
+      "ppt/slides/slide32.xml",
+      "ppt/slides/slide35.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide5.xml",
+      "ppt/slides/slide6.xml",
+      "ppt/slides/slide7.xml"
+     ],
+     "tables_flagged": 30
+    }
+   }
+  }
+ },
+ "Part C": {
+  "source": "GEM_V3.0_RC2_D3_Owner_Decision_Package/12_Candidate_Files/deck_candidates/GEM Production Standards V3.0 \u2014 Part C \u2014 RC2 \u2014 D3 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "3a8d291816d73f9f6f0c3aa6e1a75f5889ce9a7161d2e059e5874ba8828bb880",
+  "output": "GEM Production Standards V3.0 \u2014 Part C \u2014 RC2 \u2014 AX01 CANDIDATE (UNAPPROVED).pptx",
+  "output_sha256": "f99581d2c6c2a10af69c9d78b409e6a4cb433a4f72035a3afe0b102859647717",
+  "members_changed": [
+   "ppt/slides/slide12.xml",
+   "ppt/slides/slide13.xml",
+   "ppt/slides/slide14.xml",
+   "ppt/slides/slide15.xml",
+   "ppt/slides/slide16.xml",
+   "ppt/slides/slide17.xml",
+   "ppt/slides/slide2.xml",
+   "ppt/slides/slide20.xml",
+   "ppt/slides/slide21.xml",
+   "ppt/slides/slide22.xml",
+   "ppt/slides/slide23.xml",
+   "ppt/slides/slide24.xml",
+   "ppt/slides/slide27.xml",
+   "ppt/slides/slide28.xml",
+   "ppt/slides/slide30.xml",
+   "ppt/slides/slide32.xml",
+   "ppt/slides/slide34.xml",
+   "ppt/slides/slide35.xml",
+   "ppt/slides/slide38.xml",
+   "ppt/slides/slide39.xml",
+   "ppt/slides/slide4.xml",
+   "ppt/slides/slide43.xml",
+   "ppt/slides/slide44.xml",
+   "ppt/slides/slide47.xml",
+   "ppt/slides/slide48.xml",
+   "ppt/slides/slide49.xml",
+   "ppt/slides/slide5.xml",
+   "ppt/slides/slide51.xml",
+   "ppt/slides/slide52.xml",
+   "ppt/slides/slide54.xml",
+   "ppt/slides/slide57.xml",
+   "ppt/slides/slide60.xml",
+   "ppt/slides/slide61.xml",
+   "ppt/slides/slide62.xml",
+   "ppt/slides/slide63.xml",
+   "ppt/slides/slide64.xml",
+   "ppt/slides/slide65.xml",
+   "ppt/slides/slide66.xml",
+   "ppt/slides/slide67.xml",
+   "ppt/slides/slide68.xml",
+   "ppt/slides/slide69.xml",
+   "ppt/slides/slide7.xml",
+   "ppt/slides/slide70.xml",
+   "ppt/slides/slide71.xml",
+   "ppt/slides/slide72.xml",
+   "ppt/slides/slide74.xml",
+   "ppt/slides/slide76.xml",
+   "ppt/slides/slide77.xml",
+   "ppt/slides/slide8.xml",
+   "ppt/slides/slide9.xml"
+  ],
+  "steps": {
+   "decorative": {
+    "n": 79,
+    "log": {
+     "src_sha256": "3a8d291816d73f9f6f0c3aa6e1a75f5889ce9a7161d2e059e5874ba8828bb880",
+     "dst_sha256": "bd769fa5329458404023252c87b321882cbb0642e09d4ed1d700f8f355478e4d",
+     "members_changed": [
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide17.xml",
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide20.xml",
+      "ppt/slides/slide22.xml",
+      "ppt/slides/slide24.xml",
+      "ppt/slides/slide27.xml",
+      "ppt/slides/slide35.xml",
+      "ppt/slides/slide38.xml",
+      "ppt/slides/slide48.xml",
+      "ppt/slides/slide5.xml",
+      "ppt/slides/slide76.xml",
+      "ppt/slides/slide77.xml",
+      "ppt/slides/slide8.xml"
+     ],
+     "shapes_marked": 79
+    }
+   },
+   "table": {
+    "n": 34,
+    "log": {
+     "src_sha256": "bd769fa5329458404023252c87b321882cbb0642e09d4ed1d700f8f355478e4d",
+     "dst_sha256": "f99581d2c6c2a10af69c9d78b409e6a4cb433a4f72035a3afe0b102859647717",
+     "members_changed": [
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide21.xml",
+      "ppt/slides/slide23.xml",
+      "ppt/slides/slide28.xml",
+      "ppt/slides/slide30.xml",
+      "ppt/slides/slide32.xml",
+      "ppt/slides/slide34.xml",
+      "ppt/slides/slide39.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide43.xml",
+      "ppt/slides/slide44.xml",
+      "ppt/slides/slide47.xml",
+      "ppt/slides/slide49.xml",
+      "ppt/slides/slide51.xml",
+      "ppt/slides/slide52.xml",
+      "ppt/slides/slide54.xml",
+      "ppt/slides/slide57.xml",
+      "ppt/slides/slide60.xml",
+      "ppt/slides/slide61.xml",
+      "ppt/slides/slide62.xml",
+      "ppt/slides/slide63.xml",
+      "ppt/slides/slide64.xml",
+      "ppt/slides/slide65.xml",
+      "ppt/slides/slide66.xml",
+      "ppt/slides/slide67.xml",
+      "ppt/slides/slide68.xml",
+      "ppt/slides/slide69.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide70.xml",
+      "ppt/slides/slide71.xml",
+      "ppt/slides/slide72.xml",
+      "ppt/slides/slide74.xml",
+      "ppt/slides/slide9.xml"
+     ],
+     "tables_flagged": 34
+    }
+   }
+  }
+ },
+ "Part D": {
+  "source": "GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Amenities & Packaging \u2014 Concept Product Portfolio V3.0 \u2014 Part D \u2014 RC2 \u2014 ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "04d325f83fc77a01220430c00688d73529ed6de20e912fcda9ef2ddfb5bec9e1",
+  "output": "GEM Amenities & Packaging \u2014 Concept Product Portfolio V3.0 \u2014 Part D \u2014 RC2 \u2014 AX01 CANDIDATE (UNAPPROVED).pptx",
+  "output_sha256": "f1cbc9dcd010d2be5262847c0a8ee68c540eeeb34e7dfdf9c0c7be1ab625cbc1",
+  "members_changed": [
+   "ppt/slides/slide1.xml",
+   "ppt/slides/slide10.xml",
+   "ppt/slides/slide11.xml",
+   "ppt/slides/slide12.xml",
+   "ppt/slides/slide13.xml",
+   "ppt/slides/slide14.xml",
+   "ppt/slides/slide15.xml",
+   "ppt/slides/slide16.xml",
+   "ppt/slides/slide17.xml",
+   "ppt/slides/slide18.xml",
+   "ppt/slides/slide19.xml",
+   "ppt/slides/slide2.xml",
+   "ppt/slides/slide20.xml",
+   "ppt/slides/slide21.xml",
+   "ppt/slides/slide22.xml",
+   "ppt/slides/slide23.xml",
+   "ppt/slides/slide24.xml",
+   "ppt/slides/slide3.xml",
+   "ppt/slides/slide4.xml",
+   "ppt/slides/slide5.xml",
+   "ppt/slides/slide6.xml",
+   "ppt/slides/slide7.xml",
+   "ppt/slides/slide8.xml",
+   "ppt/slides/slide9.xml"
+  ],
+  "steps": {
+   "title": {
+    "n": 24,
+    "log": {
+     "src_sha256": "04d325f83fc77a01220430c00688d73529ed6de20e912fcda9ef2ddfb5bec9e1",
+     "dst_sha256": "55245c322016210c492962a7e1832e7c99ef4edb5604b427ae0039ab1ad415db",
+     "members_changed": [
+      "ppt/slides/slide1.xml",
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide11.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide17.xml",
+      "ppt/slides/slide18.xml",
+      "ppt/slides/slide19.xml",
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide20.xml",
+      "ppt/slides/slide21.xml",
+      "ppt/slides/slide22.xml",
+      "ppt/slides/slide23.xml",
+      "ppt/slides/slide24.xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide5.xml",
+      "ppt/slides/slide6.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide8.xml",
+      "ppt/slides/slide9.xml"
+     ],
+     "edits": [
+      {
+       "part": "ppt/slides/slide1.xml",
+       "shape_id": "2",
+       "shape": "shape id 2",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide2.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide3.xml",
+       "shape_id": "6",
+       "shape": "shape id 6",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide4.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide5.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide6.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide7.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide8.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide9.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide10.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide11.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide12.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide13.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide14.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide15.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide16.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide17.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide18.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide19.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide20.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide21.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide22.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide23.xml",
+       "shape_id": "3",
+       "shape": "shape id 3",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      },
+      {
+       "part": "ppt/slides/slide24.xml",
+       "shape_id": "2",
+       "shape": "shape id 2",
+       "element": "p:nvPr",
+       "before": "(empty)",
+       "after": "<p:ph type=\"title\"/>",
+       "expected_source_occurrences": 1,
+       "pinned_to_preserve_appearance": [
+        "a:pPr: explicit lnSpc 100% (previous effective value; master titleStyle would otherwise apply 90%)"
+       ]
+      }
+     ]
+    }
+   },
+   "decorative": {
+    "n": 75,
+    "log": {
+     "src_sha256": "55245c322016210c492962a7e1832e7c99ef4edb5604b427ae0039ab1ad415db",
+     "dst_sha256": "6f28e2944131639096331305cc2375fa1d4006fd77e05e0c1ef8e88f768dafd6",
+     "members_changed": [
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide11.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide17.xml",
+      "ppt/slides/slide18.xml",
+      "ppt/slides/slide19.xml",
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide20.xml",
+      "ppt/slides/slide21.xml",
+      "ppt/slides/slide22.xml",
+      "ppt/slides/slide23.xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide5.xml",
+      "ppt/slides/slide6.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide8.xml",
+      "ppt/slides/slide9.xml"
+     ],
+     "shapes_marked": 75
+    }
+   },
+   "table": {
+    "n": 1,
+    "log": {
+     "src_sha256": "6f28e2944131639096331305cc2375fa1d4006fd77e05e0c1ef8e88f768dafd6",
+     "dst_sha256": "f1cbc9dcd010d2be5262847c0a8ee68c540eeeb34e7dfdf9c0c7be1ab625cbc1",
+     "members_changed": [
+      "ppt/slides/slide23.xml"
+     ],
+     "tables_flagged": 1
+    }
+   }
+  }
+ }
+}
