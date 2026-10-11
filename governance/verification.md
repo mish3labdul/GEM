@@ -9,3 +9,7 @@ Negative utility checks: altered README bytes were correctly rejected by checksu
 Website baseline and migrated regression: 484/484 each. Migrated correction/font suite: 76/76. Six full-page before/after pairs were pixel-identical at desktop/mobile sizes. Their contact sheet was manually inspected. See `../website/records/cleanup-qa/` for original JSON, environment and screenshots. Chromium-only coverage; native Office/RTL, human screen-reader, other-engine, mail-client, legal and production acceptance remain outside this cleanup.
 
 No document, artwork, site code or source font bytes were edited. Existing historical checksum manifests are preserved byte-identically, not rewritten or represented as newly validated source-era claims. Migration identity is established independently through the inventory and current collection manifest.
+
+## Authorized merge validation
+
+The owner subsequently instructed proceeding with the merge. The remote validator now accepts main advancing only when its history contains both the frozen main commit and the validated checkout HEAD. Other frozen source branches and all release checks remain exact. This prevents the intended merge from becoming a false preservation failure while rejecting a divergent main history or a main that lacks the tested cleanup.

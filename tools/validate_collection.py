@@ -132,7 +132,17 @@ def main():
         stable=lambda assets:sorted([tuple(a[k] for k in fields) for a in assets])
         check(stable(current['assets'])==stable(freeze['release']['assets']),'Published release attachments changed')
         branches={b['name']:b['commit']['sha'] for b in api('repos/mish3labdul/GEM/branches?per_page=100')}
-        for b in freeze['branches']:check(branches.get(b['name'])==b['sha'],'Existing source branch moved: '+b['name'])
+        for b in freeze['branches']:
+            live=branches.get(b['name'])
+            if b['name']=='main' and live and live!=b['sha']:
+                # An authorized merge advances main; it must preserve the frozen
+                # history and contain the checkout whose manifest was validated.
+                head=subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD']).decode().strip()
+                for ancestor in (b['sha'],head):
+                    comparison=api(f'repos/mish3labdul/GEM/compare/{ancestor}...{live}')
+                    check(comparison['merge_base_commit']['sha']==ancestor, 'Main does not preserve validated history: '+ancestor)
+            else:
+                check(live==b['sha'],'Existing source branch moved: '+b['name'])
     report={'status':'FAIL' if failures else 'PASS','counts':counts,'remote_checked':not args.skip_remote,'checksums_checked':not args.skip_checksums,'failures':failures,'scope':'Collection identity and migration; Chromium QA is reported separately. No new approval or deferred gate closure.'}
     print(json.dumps(report,indent=2))
     return bool(failures)
