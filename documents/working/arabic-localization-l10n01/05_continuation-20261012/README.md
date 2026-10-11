@@ -1,0 +1,9 @@
+# Arabic localization continuation — 12 October 2026
+
+WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE.
+
+The exact private Part D R4 was recovered and verified before continuation. Parts B, A and C now have private editable Arabic proposals covering 35, 80 and 78 slides respectively (3,383 nonempty paragraphs translated or explicitly retained). Four existing Arabic/bilingual correspondence variants were recovered exactly, and Executive/Minimal Arabic samples were created as separate working derivatives. Released files are untouched. Full restricted content stays private.
+
+Package/XML/import and encoded font/glyph checks pass for the three decks. Native PowerPoint rendered all 193 slides to private PNG evidence. All six correspondence variants rendered to one page each and opened in native Word without repair prompts. These are bounded checks, not acceptance. Part B slide 10 was repaired and retested; its table fits above the footer. Part C slide 7 fits. Native review found Part B slide 5 title/table/notes collisions; Repairs were retested in native PNGs and are separated. A24 heading and C62 table repairs also pass bounded native retests. Current candidates are A R6, B R8 and C R6. Mixed-direction punctuation/spacing and C62 disposition-line fit still require refinement. All-slide visual, font-substitution, edit/save/reopen, reading-order and assistive-technology acceptance remain open. Part D's 23 reading-order review items are not closed by collecting pane evidence.
+
+**No new matching PDFs were produced.** PDF export/copy/search validation stays gated on native editable acceptance. Existing recovered historical PDFs are evidence only. New translations remain proposed. See [working artifact register](working-artifact-register.json) for hashes, coverage and open gates, and [Part D recovery](part-d-recovery.json). D8 and all production/legal/linguistic restrictions remain active.

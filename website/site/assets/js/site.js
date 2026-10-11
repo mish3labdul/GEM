@@ -11,10 +11,14 @@
    No network request is made by this file. */
 (function () {
   "use strict";
+  var isArabic = document.documentElement.lang === "ar";
+  if (isArabic && !window.GEM_AR_MESSAGES) return; /* fail closed when localized messages cannot load */
+  var t = function (s) { return isArabic ? window.GEM_AR_MESSAGES[s] : s; };
 
   /* Owner-supplied enquiry address (WD-12). Both the enquiry form and the concept discussion request
      hand their draft to the visitor's email app; this page itself sends nothing. */
   var MAILTO = "mish3labdul@gmail.com";
+  var isolate = function (s) { return isArabic ? "\u2068" + s + "\u2069" : s; };
   var mailtoOk = function (a) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(a) && !/\.(example|invalid|test)$/i.test(a); };
 
   /* ---------- Navigation disclosure ---------- */
@@ -26,7 +30,7 @@
       var setOpen = function (open) {
         header.classList.toggle("is-open", open);
         toggle.setAttribute("aria-expanded", String(open));
-        toggle.textContent = open ? "Close" : "Menu";
+        toggle.textContent = open ? t("Close") : t("Menu");
       };
       toggle.addEventListener("click", function () { setOpen(toggle.getAttribute("aria-expanded") !== "true"); });
       nav.addEventListener("click", function (e) { if (e.target.closest("a")) setOpen(false); });
@@ -130,8 +134,8 @@
       var qSampling = q$("q-sampling"), qSamplingStatus = q$("q-sampling-status"), qStationery = q$("q-stationery");
       var qDraft = false;
       var qRules = [
-        { id: "q-package", first: "pkg-room", msg: "Choose a package.", ok: function () { return !!qf.querySelector('input[name="package"]:checked'); } },
-        { id: "q-rooms", first: "q-rooms", msg: "Enter a positive whole number of rooms.", ok: function () { var v = qRooms.value.trim(); return /^[0-9]+$/.test(v) && /[1-9]/.test(v); } }
+        { id: "q-package", first: "pkg-room", msg: t("Choose a package."), ok: function () { return !!qf.querySelector('input[name="package"]:checked'); } },
+        { id: "q-rooms", first: "q-rooms", msg: t("Enter a positive whole number of rooms."), ok: function () { var v = qRooms.value.trim(); return /^[0-9]+$/.test(v) && /[1-9]/.test(v); } }
       ];
       var qSetError = function (rule, msg) {
         var err = q$(rule.id + "-error");
@@ -148,7 +152,7 @@
         qEmail.hidden = true; qEmail.removeAttribute("href"); qDraft = false;
       };
       var qEdited = function () {
-        if (qDraft) { qClear(); qStatus.textContent = "Your choices changed. Draft the discussion request again to update it."; }
+        if (qDraft) { qClear(); qStatus.textContent = t("Your choices changed. Draft the discussion request again to update it."); }
       };
       qf.addEventListener("input", function (e) { if (e.target !== qOut) qEdited(); });
       qf.addEventListener("change", function (e) { if (e.target !== qOut) qEdited(); });
@@ -157,8 +161,8 @@
       qSampling.addEventListener("click", function () {
         var on = qSampling.getAttribute("aria-pressed") !== "true";
         qSampling.setAttribute("aria-pressed", String(on));
-        qSampling.textContent = on ? "Remove sampling from brief" : "Add sampling to brief";
-        qSamplingStatus.textContent = on ? "Sampling selected." : "Sampling not selected.";
+        qSampling.textContent = on ? t("Remove sampling from brief") : t("Add sampling to brief");
+        qSamplingStatus.textContent = on ? t("Sampling selected.") : t("Sampling not selected.");
         qEdited();
       });
 
@@ -181,15 +185,15 @@
         qSummary.hidden = true;
         var pkg = qf.querySelector('input[name="package"]:checked').value;
         qOut.value = [
-          "Concept discussion for GEM",
-          "Concept package: " + pkg,
-          "Estimated rooms: " + qRooms.value.trim(),
-          "Arrival stationery interest: " + (qStationery.checked ? "Yes" : "No"),
-          "Sampling interest: " + (qSampling.getAttribute("aria-pressed") === "true" ? "Yes" : "No"),
-          "Availability and specifications are pending."
+          t("Concept discussion for GEM"),
+          t("Concept package: ") + pkg,
+          t("Estimated rooms: ") + isolate(qRooms.value.trim()),
+          t("Arrival stationery interest: ") + (qStationery.checked ? t("Yes") : t("No")),
+          t("Sampling interest: ") + (qSampling.getAttribute("aria-pressed") === "true" ? t("Yes") : t("No")),
+          t("Availability and specifications are pending.")
         ].join("\n");
         if (mailtoOk(MAILTO)) {
-          qEmail.setAttribute("href", "mailto:" + MAILTO + "?subject=" + encodeURIComponent("Concept discussion for GEM: " + pkg) + "&body=" + encodeURIComponent(qOut.value));
+          qEmail.setAttribute("href", "mailto:" + MAILTO + "?subject=" + encodeURIComponent(t("Concept discussion for GEM: ") + pkg) + "&body=" + encodeURIComponent(qOut.value));
           qEmail.hidden = false;
         }
         qDraft = true; qResult.hidden = false; qResult.focus();
@@ -197,8 +201,8 @@
 
       qCopy.addEventListener("click", function () {
         if (!qDraft) return;
-        var done = function () { qCopyStatus.textContent = "Copied to your clipboard."; };
-        var fail = function () { qOut.focus(); qOut.select(); qCopyStatus.textContent = "Copy is not available here. The text is selected; copy it with your keyboard."; };
+        var done = function () { qCopyStatus.textContent = t("Copied to your clipboard."); };
+        var fail = function () { qOut.focus(); qOut.select(); qCopyStatus.textContent = t("Copy is not available here. The text is selected; copy it with your keyboard."); };
         try { if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(qOut.value).then(done, fail); else fail(); } catch (err) { fail(); }
       });
 
@@ -244,10 +248,10 @@
     var hasDraft = false;
 
     var rules = [
-      { id: "f-name", test: function (v) { return v.trim() !== ""; }, msg: "Enter your name." },
-      { id: "f-email", test: function (v) { return emailPattern.test(v.trim()); }, msg: "Enter an email address in the format name@example.com." },
-      { id: "f-interest", radio: "interest", msg: "Choose what your enquiry is about." },
-      { id: "f-message", test: function (v) { return v.trim() !== ""; }, msg: "Tell us a little about your property or project." }
+      { id: "f-name", test: function (v) { return v.trim() !== ""; }, msg: t("Enter your name.") },
+      { id: "f-email", test: function (v) { return emailPattern.test(v.trim()); }, msg: t("Enter an email address in the format name@example.com.") },
+      { id: "f-interest", radio: "interest", msg: t("Choose what your enquiry is about.") },
+      { id: "f-message", test: function (v) { return v.trim() !== ""; }, msg: t("Tell us a little about your property or project.") }
     ];
     var controlsFor = function (rule) {
       return rule.radio ? Array.prototype.slice.call(form.querySelectorAll('input[name="' + rule.radio + '"]')) : [$(rule.id)];
@@ -285,11 +289,11 @@
     var compose = function () {
       var interest = form.querySelector('input[name="interest"]:checked');
       return [
-        "Enquiry for GEM",
-        "Name: " + value("name"),
-        "Email: " + value("email"),
-        "Organisation or property: " + (value("organisation") || "Not given"),
-        "About: " + (interest ? interest.value : ""),
+        t("Enquiry for GEM"),
+        t("Name: ") + value("name"),
+        t("Email: ") + isolate(value("email")),
+        t("Organisation or property: ") + (value("organisation") || t("Not given")),
+        t("About: ") + (interest ? interest.value : ""),
         "",
         value("message")
       ].join("\n");
@@ -308,7 +312,7 @@
       if (e.target === trap || e.target === output) return;
       if (hasDraft) {
         clearDraft();
-        draftStatus.textContent = "Your details changed. Draft the enquiry again to update it.";
+        draftStatus.textContent = t("Your details changed. Draft the enquiry again to update it.");
       }
     };
     form.addEventListener("input", onEdit);
@@ -339,7 +343,7 @@
       /* DELIVERY.endpoint is empty, so nothing is sent. */
       output.value = compose();
       if (emailOut && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(DELIVERY.mailto) && !/\.(example|invalid|test)$/i.test(DELIVERY.mailto)) {
-        emailOut.setAttribute("href", "mailto:" + DELIVERY.mailto + "?subject=" + encodeURIComponent("Enquiry for GEM") + "&body=" + encodeURIComponent(output.value));
+        emailOut.setAttribute("href", "mailto:" + DELIVERY.mailto + "?subject=" + encodeURIComponent(t("Enquiry for GEM")) + "&body=" + encodeURIComponent(output.value));
         emailOut.hidden = false;
       }
       hasDraft = true;
@@ -357,8 +361,8 @@
 
     copyBtn.addEventListener("click", function () {
       if (!hasDraft) return;
-      var done = function () { copyStatus.textContent = "Copied to your clipboard."; };
-      var fail = function () { output.focus(); output.select(); copyStatus.textContent = "Copy is not available here. The text is selected; copy it with your keyboard."; };
+      var done = function () { copyStatus.textContent = t("Copied to your clipboard."); };
+      var fail = function () { output.focus(); output.select(); copyStatus.textContent = t("Copy is not available here. The text is selected; copy it with your keyboard."); };
       try {
         if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(output.value).then(done, fail);
         else fail();

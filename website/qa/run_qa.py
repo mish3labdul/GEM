@@ -173,7 +173,7 @@ async def main():
                 R.add(f"no-text-outside-viewport {tag}", not L["textOutside"], L["textOutside"])
                 R.add(f"fonts-jost-inter-400 {tag}", any(f.startswith("Jost 400") for f in L["fonts"]) and any(f.startswith("Inter 400") for f in L["fonts"]), L["fonts"])
                 R.add(f"weights-400-only {tag}", L["weights"] == ["400"], L["weights"])
-                R.add(f"families-jost-inter-only {tag}", set(L["families"]) <= {"Jost", "Inter"}, L["families"])
+                R.add(f"families-prescribed-latin-and-arabic-only {tag}", set(L["families"]) <= {"Jost", "Inter", "Noto Sans Arabic"}, L["families"])
                 bad_img = [i for i in L["imgs"] if i["visible"] and not i["ok"]]
                 R.add(f"visible-images-load {tag}", not bad_img, bad_img)
                 R.add(f"images-have-alt-attr {tag}", all(i["alt"] is not None for i in L["imgs"]), [i["src"] for i in L["imgs"] if i["alt"] is None])

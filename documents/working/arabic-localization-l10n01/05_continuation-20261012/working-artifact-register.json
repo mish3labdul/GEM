@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-12",
+  "restriction": "CONTROL/QA ONLY. No restricted editable documents, PDFs, full document translation ledger, font binaries or native slide renders are published.",
+  "files": [
+    {
+      "file": "GEM_BRAND_BrandGuidelines_PartA_AR_L10N02_R6_20261012.pptx",
+      "sha256": "3ef6c32d1cbfbc00deb4afc016f7d5dca0b2ddaab99a8c0e56e6a5641ad0ac5d",
+      "slides": 80,
+      "paragraphs": 929,
+      "translated_or_deliberately_retained": 929,
+      "status": "PRIVATE WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT PASSED",
+      "structural_check": "PASS",
+      "encoded_glyph_coverage": "PASS",
+      "native_pngs": 80,
+      "native_layout_warnings": [
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "8",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "25",
+          "object_kind": "sp",
+          "slide": 12
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 19
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "20",
+          "object_kind": "sp",
+          "slide": 20
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "13",
+          "object_kind": "sp",
+          "slide": 23
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "16",
+          "object_kind": "sp",
+          "slide": 26
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "15",
+          "object_kind": "sp",
+          "slide": 28
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "17",
+          "object_kind": "sp",
+          "slide": 29
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "30",
+          "object_kind": "sp",
+          "slide": 30
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 32
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "10",
+          "object_kind": "sp",
+          "slide": 34
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "19",
+          "object_kind": "sp",
+          "slide": 35
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "16",
+          "object_kind": "sp",
+          "slide": 38
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "21",
+          "object_kind": "sp",
+          "slide": 42
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "32",
+          "object_kind": "sp",
+          "slide": 48
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "19",
+          "object_kind": "sp",
+          "slide": 49
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "21",
+          "object_kind": "sp",
+          "slide": 53
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "25",
+          "object_kind": "sp",
+          "slide": 54
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 56
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 58
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "31",
+          "object_kind": "sp",
+          "slide": 62
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "26",
+          "object_kind": "sp",
+          "slide": 63
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 65
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "24",
+          "object_kind": "sp",
+          "slide": 67
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "31",
+          "object_kind": "sp",
+          "slide": 76
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "29",
+          "object_kind": "sp",
+          "slide": 77
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "6",
+          "object_kind": "sp",
+          "slide": 80
+        }
+      ]
+    },
+    {
+      "file": "GEM_BRAND_DigitalDesignSystem_PartB_AR_L10N02_R8_20261012.pptx",
+      "sha256": "825c1a318eda203ad48d8bdeadd5f99fb73e40ba1868e0b206fea4c03e5aa016",
+      "slides": 35,
+      "paragraphs": 970,
+      "translated_or_deliberately_retained": 970,
+      "status": "PRIVATE WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT PASSED",
+      "structural_check": "PASS",
+      "encoded_glyph_coverage": "PASS",
+      "native_pngs": 35,
+      "native_layout_warnings": [
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "2",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "3",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "available_bottom_in": 6.8223,
+          "columns": 5,
+          "declared_bottom_in": 6.0327,
+          "estimated_native_bottom_in": 7.1294,
+          "footer_object_ids": [
+            "9"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.3071,
+          "rows": 13,
+          "slide": 10,
+          "table_id": "5"
+        }
+      ]
+    },
+    {
+      "file": "GEM_BRAND_ProductionStandards_PartC_AR_L10N02_R6_20261012.pptx",
+      "sha256": "9edee630fe2f3bb3295a3657da63191000f9bdd078ca421465305d5f7dbd5a1b",
+      "slides": 78,
+      "paragraphs": 1484,
+      "translated_or_deliberately_retained": 1484,
+      "status": "PRIVATE WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT PASSED",
+      "structural_check": "PASS",
+      "encoded_glyph_coverage": "PASS",
+      "native_pngs": 78,
+      "native_layout_warnings": [
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "10",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "available_bottom_in": 6.1,
+          "columns": 3,
+          "declared_bottom_in": 6.0303,
+          "estimated_native_bottom_in": 7.8714,
+          "footer_object_ids": [
+            "5",
+            "6",
+            "7"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 1.7714,
+          "rows": 12,
+          "slide": 7,
+          "table_id": "4"
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "17",
+          "object_kind": "sp",
+          "slide": 10
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "16",
+          "object_kind": "sp",
+          "slide": 14
+        }
+      ]
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_ArabicContinuationInternal_AR_L10N02_R3_20261012.docx",
+      "sha256": "b5584f62219eaa5d5a16c317341fb10fd7a70792088a7ae56dad21e040eea2df",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_ArabicFirstPageInternal_AR_L10N02_R3_20261012.docx",
+      "sha256": "17b82dd13f2e0c6c18f3be7859ab7636e33f9a3095a28065d4290c3a398ed2b5",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_BilingualContinuationInternal_AR_L10N02_R3_20261012.docx",
+      "sha256": "8844eab0348ff7aa646f187ed393bb155f24e4cfeb2cb8ec93c5eb96528c3a2a",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_BilingualFirstPageInternal_AR_L10N02_R3_20261012.docx",
+      "sha256": "1f807acc999a4358fb3ec0380178c279fc2d3b9c2b25fac1eb50dba1ee22e59a",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_Executive_AR_L10N02_R3_20261012.docx",
+      "sha256": "68af06703620da204a25fb238e3748ab45b98e82da87f0f2d7394731b54ecda0",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_Minimal_AR_L10N02_R3_20261012.docx",
+      "sha256": "4077ebdf9172c4d606f199447f20655d161610044d2ce633be488763cc6a0261",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1
+    }
+  ],
+  "part_d": "Exact recovered R4, SHA256 2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e; no replacement creation. Native reading-order pane evidence captured all 24 slides. Existing 23 reading-order review items remain open.",
+  "native_scope": "Current A R6, B R8, C R6 all render in native PowerPoint (193 private PNGs). Native retests confirm A24 heading separation, B5 title/table/notes separation, B10 footer clearance and C62 table/disposition-box separation. Logical right safety margins, LRM boundaries and NBSP separators were added. Remaining mixed-direction punctuation/spacing and C62 disposition-line fit require refinement. Contact-sheet triage covers the 193-slide prior iteration; final full-size all-slide visual acceptance, assigned-font verification, save/edit/reopen and reading-order/AT acceptance are not complete. All six correspondence variants open in Word and have one-page renderer evidence.",
+  "open_gates": [
+    "Linguistic review of every new proposal",
+    "Finish mixed-direction punctuation/spacing and disposition-line fit; full-size review of every final native slide",
+    "Verify all assigned fonts in native Office without unintended substitution",
+    "Native editing/save/reopen and reading-order/assistive-technology acceptance",
+    "New matching PDFs only after editable acceptance; then independent copy/search/text fidelity checks",
+    "Part D programme terminology alignment in a separately validated revision; recovered R4 remains unchanged"
+  ],
+  "new_matching_pdfs": "WITHHELD: native acceptance not passed",
+  "release": "V3.0 and B01/B02/D8 remain unchanged; no production, Arabic linguistic, font-master or external-issue approval."
+}

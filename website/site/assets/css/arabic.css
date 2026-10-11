@@ -1,0 +1,20 @@
+/* Arabic working edition. Noto Sans Arabic 400 is the documented interim face. */
+@font-face { font-family: "Noto Sans Arabic"; src: url("../fonts/noto-sans-arabic-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+html[lang="ar"] { --font-display: "Noto Sans Arabic", sans-serif; --font-body: "Noto Sans Arabic", sans-serif; }
+html[lang="ar"] body { line-height: 1.75; }
+html[lang="ar"] :is(h1,h2,h3,h4,p,li,a,label,legend,button,span,th,td) { letter-spacing: 0; text-transform: none; }
+html[lang="ar"] :is(.h1,.h2,.h3,.h4) { line-height: 1.55; }
+html[lang="ar"] .latin-copy, html[lang="ar"] :is(input[dir="ltr"],bdi[dir="ltr"]) { font-family: "Inter", sans-serif; unicode-bidi: isolate; }
+html[lang="ar"] .tagline { direction: ltr; font-family: "Jost", sans-serif; text-transform: uppercase; letter-spacing: var(--gem-type-tracking-tagline); }
+html[lang="ar"] .hero .h1:has(.latin-copy) { font-family: "Jost", sans-serif; }
+.language-switch { flex: 0 0 auto; font-size: 14px; margin-inline: 12px; text-decoration: underline; text-underline-offset: .2em; }
+.language-switch:lang(ar) { font-family: "Noto Sans Arabic", sans-serif; letter-spacing: 0; }
+html[lang="ar"] .type-specimen .specimen-display { font-family: "Noto Sans Arabic", sans-serif; letter-spacing: 0; }
+html[lang="ar"] .tagline .latin-copy, html[lang="ar"] .hero .h1 .latin-copy { font-family: "Jost", sans-serif; }
+/* Keep the language action and menu on one row at compact widths; logo remains ≥120px. */
+@media (max-width: 479px) {
+  .header-inner { gap: 8px; }
+  .header-inner .brand img { inline-size: 120px; }
+  .language-switch { margin-inline: 0; }
+}
+html[lang="en"] :lang(ar) { font-family: "Noto Sans Arabic", sans-serif; letter-spacing: 0; }

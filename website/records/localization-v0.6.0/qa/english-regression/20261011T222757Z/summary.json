@@ -1,0 +1,148 @@
+{
+ "run": "20261011T222757Z",
+ "total": 487,
+ "passed": 471,
+ "failed": 16,
+ "failures": [
+  {
+   "id": "families-jost-inter-only index.html@desktop-1440",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only index.html@breakpoint-1024",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only index.html@tablet-768",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only index.html@mobile-375",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only index.html@narrow-320",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only reference.html@desktop-1440",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only reference.html@breakpoint-1024",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only reference.html@tablet-768",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only reference.html@mobile-375",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only reference.html@narrow-320",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only privacy.html@desktop-1440",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only privacy.html@breakpoint-1024",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only privacy.html@tablet-768",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only privacy.html@mobile-375",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "families-jost-inter-only privacy.html@narrow-320",
+   "status": "FAIL",
+   "detail": [
+    "Inter",
+    "Noto Sans Arabic",
+    "Jost"
+   ]
+  },
+  {
+   "id": "compact-first-screen-shows-primary-action-320x640",
+   "status": "FAIL",
+   "detail": 656.6875
+  }
+ ]
+}

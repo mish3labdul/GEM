@@ -25,3 +25,7 @@ screen-reader acceptance, native browser zoom, actual email-client compatibility
 clearance, supplier/production proof or WCAG certification.
 
 Latest authorized correction evidence: `../records/remediation-2026-10-11-01/START_HERE.md`.
+
+## Bilingual working v0.6.0
+
+Run `python3 website/qa/run_arabic_qa.py --root website/site --out-base <fresh-directory>` from the repository root in addition to the English suites. The Arabic suite checks all six routes, reciprocal language links, responsive layouts, keyboard navigation, Arabic runtime messages, both draft flows, Western-digit validation, exact long room estimates, LTR isolates, fail-closed/no-JavaScript behavior and actual Chromium glyph fonts. The documented interim Noto Sans Arabic Regular 400 is required for Arabic; synthetic styling and unintended glyph fallback fail. The original two-Latin-face discussion above applies to the historical baseline. Linguistic, native screen-reader, other browser-engine and email-client acceptance remain separate gates.

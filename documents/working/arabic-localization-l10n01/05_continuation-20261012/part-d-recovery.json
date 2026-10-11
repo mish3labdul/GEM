@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-12",
+  "status": "RECOVERED EXACT / NATIVE VALIDATION PENDING",
+  "original_sha256": "2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e",
+  "recorded_sha256": "2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e",
+  "slides": 24,
+  "source": "Private prior L10N01 R4 output package",
+  "private_outputs": "Retained locally, excluded from public repository",
+  "prior_gates": "Native R4 Office/viewer/AT and linguistic acceptance remain pending until retested"
+}

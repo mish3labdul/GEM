@@ -39,3 +39,9 @@ Website working v0.5.2 keeps the recipient only in draft handoff and presents al
 ## Follow-up — owner decisions WD-20/WD-21, 12 October 2026
 
 Working website v0.5.3 retains amber and ivory hand-wash concept variations with explicit scene captions and an unchanged-image hash register. Supporting records distinguish this concept choice from final product colour and naming approval. Room estimates accept positive whole decimal numbers without the previous 100,000 ceiling or numeric rounding. Regression passes 484/484; correction/font checks pass 81/81. Exact previous sources are archived and mapped; the source inventory now has 6,425 records. See website records 26/27 for scope and evidence.
+
+## Arabic working localization — 12 October 2026
+
+PR #14 owner approval was recorded at unchanged head as a comment because the authenticated account is also the author; merging remains separate. Website v0.6.0 adds three Arabic counterparts, reciprocal language links, proposed translation register, interim licensed Noto Sans Arabic 400, isolated LTR draft values and maintained bilingual QA. Fresh suites pass 487/487, 81/81 and 196/196. The site-only preview contains 87 files. Exact v0.5.3 originals and failed QA iterations are preserved; the source inventory has 6,438 rows. See website records 28/29.
+
+Private Part D R4 was recovered exactly; new private A/B/C editable proposals cover 193 slides and six correspondence variants are available for internal review. Only permitted control/QA records are published. Structural and encoded glyph checks do not establish native acceptance; remaining layout, mixed-direction, reading-order and linguistic gates are explicit. No new document PDF was exported. Released documents/tag/attachments and B01/B02/D8 remain unchanged.
