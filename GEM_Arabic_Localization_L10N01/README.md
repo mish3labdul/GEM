@@ -15,3 +15,7 @@ Next: resolve rendering and composition failures and complete native/linguistic 
 ## R2 technical follow-up — 11 October 2026
 
 Slide3 collision, dark status-label contrast and explicit punctuation-font repairs are implemented in a separate local 24-slide internal review PPTX. All24 slides rendered and visually inspected. Original media preserved. See `04_qa/R2/QA_Report.md`. Word-level Arabic PDF extraction still fails despite a mapping-repair trial. No PDF or unvalidated PPTX is added to this PR. Native PowerPoint access rejected again; native/AT and linguistic approval remain pending. This PR remains controls and evidence only.
+
+## R3 native retest —11 October2026
+
+PowerPoint access is now available. Native Mac open/save/close/reopen and bounded Arabic title editability checks completed. Local PDF fails Arabic Unicode fidelity and tagging; the user-authorized Microsoft online export substituted Calibri and was rejected. Native reading-order and square-bracket findings remain; native save also removed four compatibility fallback PNGs from the private test copy. Canonical R2 remains unchanged. See `04_qa/R3/QA_Report.md`. No rejected PDF or native copy is published.
