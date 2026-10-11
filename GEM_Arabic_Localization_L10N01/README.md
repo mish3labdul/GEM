@@ -11,3 +11,7 @@ The 24-slide Part D draft is quarantined locally after PDF Arabic text-fidelity 
 No source, original asset or governance register is changed. AC20 remains authorized for the source baseline with formal deferrals; it does not approve this derivative. D8 external-issue restrictions remain. Both signature lines stay English, and Western digits follow OD-G07 / HR01.
 
 Next: resolve rendering and composition failures and complete native/linguistic QA, then proceed with Parts A/B/C and remaining correspondence variants.
+
+## R2 technical follow-up — 11 October 2026
+
+Slide3 collision, dark status-label contrast and explicit punctuation-font repairs are implemented in a separate local 24-slide internal review PPTX. All24 slides rendered and visually inspected. Original media preserved. See `04_qa/R2/QA_Report.md`. Word-level Arabic PDF extraction still fails despite a mapping-repair trial. No PDF or unvalidated PPTX is added to this PR. Native PowerPoint access rejected again; native/AT and linguistic approval remain pending. This PR remains controls and evidence only.

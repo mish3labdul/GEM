@@ -1,0 +1,19 @@
+{
+  "all_media_byte_identical": true,
+  "visible_text_unchanged": true,
+  "dark_status_slides": [
+    "ppt/slides/slide24.xml",
+    "ppt/slides/slide1.xml",
+    "ppt/slides/slide15.xml",
+    "ppt/slides/slide18.xml",
+    "ppt/slides/slide9.xml",
+    "ppt/slides/slide22.xml",
+    "ppt/slides/slide3.xml"
+  ],
+  "changes": [
+    "Slide 3 headline width 600 px",
+    "Inter ASCII punctuation runs",
+    "BEIGE review status on INK backgrounds"
+  ],
+  "source": "4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d"
+}
