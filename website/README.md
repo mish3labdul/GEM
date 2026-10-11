@@ -1,6 +1,6 @@
-# GEM website — proposed working preview v0.5.2
+# GEM website — proposed working preview v0.5.3
 
-The preserved v0.5.1 baseline matches all 80 entries of `GEM_Website_Preview_2026-10-11.zip`. The ZIP SHA-256 is recorded in [source-freeze.json](../governance/source-freeze.json). Current v0.5.2 applies [WD-18/WD-19](records/24_Owner_Concept_Discussion_and_Contact.md); [site-revisions.json](records/site-revisions.json) records exact changed-file lineage. Local Finder metadata is excluded. The existing post-v0.5.1 correction evidence is preserved in [records/remediation-2026-10-11-01](records/remediation-2026-10-11-01/START_HERE.md). This remains a proposed website, not a release or deployment.
+The preserved v0.5.1 baseline matches all 80 entries of `GEM_Website_Preview_2026-10-11.zip`. The ZIP SHA-256 is recorded in [source-freeze.json](../governance/source-freeze.json). The v0.5.2 revision applies [WD-18/WD-19](records/24_Owner_Concept_Discussion_and_Contact.md); current v0.5.3 applies [WD-20/WD-21](records/26_Colourway_and_Estimate_Decisions_v0.5.3.md). [site-revisions.json](records/site-revisions.json) records exact changed-file lineage. Local Finder metadata is excluded. The existing post-v0.5.1 correction evidence is preserved in [records/remediation-2026-10-11-01](records/remediation-2026-10-11-01/START_HERE.md). This remains a proposed website, not a release or deployment.
 
 | Folder | Purpose |
 |---|---|
@@ -24,3 +24,5 @@ QA requires Python, Playwright with Chromium, and Pillow for the visual comparis
 [Historical website README](../archive/website-original/README.md) and existing records retain their original wording and paths. Resolve them through [path-migration.csv](../governance/path-migration.csv); they do not override the frozen site or current limitations. Original imagery and concept status are preserved. Forms draft locally and do not submit to a backend.
 
 Experimental concept packages, independent audit folders, unrelated previews and prior exports are retained at their original local source locations and catalogued as outside this import; the active website does not depend on them. Its selected concept masters and provenance are included under `source-images/`.
+
+Current decision and QA handoff: [colourways and estimates](records/26_Colourway_and_Estimate_Decisions_v0.5.3.md), [v0.5.3 verification](records/27_Colourway_and_Estimate_Verification_v0.5.3.md). Historical pending-status statements are superseded only where these records explicitly say so.

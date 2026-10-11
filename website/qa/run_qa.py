@@ -434,7 +434,7 @@ async def main():
             R.add(f"quote-initial-enabled-notice-hidden {qt}", not init["disabled"] and init["notice"], init)
             await pg.click("#quote-button"); await pg.wait_for_timeout(100)
             errs = await pg.locator("#quote-error-list li").all_inner_texts()
-            R.add(f"quote-empty-two-linked-errors-focus-first {qt}", errs == ["Choose a package.", "Enter a whole number of rooms from 1 to 100,000."] and await pg.evaluate("document.activeElement.id") == "pkg-room", errs)
+            R.add(f"quote-empty-two-linked-errors-focus-first {qt}", errs == ["Choose a package.", "Enter a positive whole number of rooms."] and await pg.evaluate("document.activeElement.id") == "pkg-room", errs)
             # whole card is the target: click the middle of the Wall-mounted card's table
             await pg.evaluate("document.querySelectorAll('.package-card')[1].querySelector('.spec-table').scrollIntoView({block:'center'})"); await pg.wait_for_timeout(100)
             box = await pg.locator(".package-card").nth(1).locator(".spec-table").bounding_box()
@@ -448,7 +448,7 @@ async def main():
             await pg.fill("#q-rooms", "abc"); await pg.click("#quote-button"); await pg.wait_for_timeout(100)
             errs = await pg.locator("#quote-error-list li").all_inner_texts()
             inv = await pg.get_attribute("#q-rooms", "aria-invalid"); desc = await pg.get_attribute("#q-rooms", "aria-describedby")
-            R.add(f"quote-invalid-rooms-only {qt}", errs == ["Enter a whole number of rooms from 1 to 100,000."] and inv == "true" and "q-rooms-hint" in desc and "q-rooms-error" in desc, [errs, inv, desc])
+            R.add(f"quote-invalid-rooms-only {qt}", errs == ["Enter a positive whole number of rooms."] and inv == "true" and "q-rooms-hint" in desc and "q-rooms-error" in desc, [errs, inv, desc])
             await pg.fill("#q-rooms", "120"); await pg.check("#q-stationery")
             await pg.click("#q-sampling")
             tg = await pg.evaluate("({p:document.getElementById('q-sampling').getAttribute('aria-pressed'),t:document.getElementById('q-sampling').textContent,s:document.getElementById('q-sampling-status').textContent})")

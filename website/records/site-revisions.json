@@ -1,6 +1,6 @@
 {
   "baseline_version": "0.5.1",
-  "current_version": "0.5.2",
+  "current_version": "0.5.3",
   "revisions": [
     {
       "from": "0.5.1",
@@ -34,6 +34,33 @@
           "decision_record": "website/records/24_Owner_Concept_Discussion_and_Contact.md",
           "decision_ids": [
             "WD-19"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "0.5.2",
+      "to": "0.5.3",
+      "changes": [
+        {
+          "path": "index.html",
+          "before_sha256": "acac3a5fcee735a906a3def45d794bee37c552a9304c2877c1aa59462d1a6189",
+          "after_sha256": "c28bca7a91ce052ff70d172d38b94182fc0a52e76c5b91e14838f2af5906fea2",
+          "before_archive": "archive/website-v0.5.2-before-colourway-and-estimate-decisions/site/index.html",
+          "decision_record": "website/records/26_Colourway_and_Estimate_Decisions_v0.5.3.md",
+          "decision_ids": [
+            "WD-20",
+            "WD-21"
+          ]
+        },
+        {
+          "path": "assets/js/site.js",
+          "before_sha256": "a2570c27ae51a7ea59f6ad82878150b21835bbc49bb265f35e7caac5caf71914",
+          "after_sha256": "03f789078e80a94b6f4a218eb18f1247ad7beddf079ba31d6ca133a685ec53a9",
+          "before_archive": "archive/website-v0.5.2-before-colourway-and-estimate-decisions/site/assets/js/site.js",
+          "decision_record": "website/records/26_Colourway_and_Estimate_Decisions_v0.5.3.md",
+          "decision_ids": [
+            "WD-21"
           ]
         }
       ]

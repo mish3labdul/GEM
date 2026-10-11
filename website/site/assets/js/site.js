@@ -131,7 +131,7 @@
       var qDraft = false;
       var qRules = [
         { id: "q-package", first: "pkg-room", msg: "Choose a package.", ok: function () { return !!qf.querySelector('input[name="package"]:checked'); } },
-        { id: "q-rooms", first: "q-rooms", msg: "Enter a whole number of rooms from 1 to 100,000.", ok: function () { var v = qRooms.value.trim(); return /^[0-9]+$/.test(v) && +v >= 1 && +v <= 100000; } }
+        { id: "q-rooms", first: "q-rooms", msg: "Enter a positive whole number of rooms.", ok: function () { var v = qRooms.value.trim(); return /^[0-9]+$/.test(v) && /[1-9]/.test(v); } }
       ];
       var qSetError = function (rule, msg) {
         var err = q$(rule.id + "-error");
