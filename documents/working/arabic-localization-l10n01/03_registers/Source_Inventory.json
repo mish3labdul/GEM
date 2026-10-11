@@ -1,0 +1,184 @@
+{
+  "source_commit": "4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d",
+  "source_branch": "claude/gem-worktree-safety-30b559",
+  "release_scope": "FA01 / RP01",
+  "RP01_hash_checks": [
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/01_brand_guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/02_digital_design_system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/03_production_standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_EnglishFirstPage_v3.0_20261009.docx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_EnglishContinuation_v3.0_20261009.docx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_Executive_v3.0_20261009.docx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_Minimal_v3.0_20261009.docx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_ArabicFirstPageInternal_v3.0_20261009.docx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_ArabicContinuationInternal_v3.0_20261009.docx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_BilingualFirstPageInternal_v3.0_20261009.docx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_BilingualContinuationInternal_v3.0_20261009.docx",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/07_tokens/gem-tokens.v3.0.json",
+      "matches_register": true
+    },
+    {
+      "path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/07_tokens/gem-tokens.v3.0.css",
+      "matches_register": true
+    }
+  ],
+  "files": [
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/01_brand_guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx",
+      "sha256": "ec7152f6e9075091114b97ea6c23edb4b00c0fa3f948b9e80d909fb63b1b0fb3",
+      "bytes": 8411328,
+      "slides": 80,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/02_digital_design_system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx",
+      "sha256": "b537ead6a9831d2bc9ab10f0a15499e7727b852f37275795923c61f27660c4e4",
+      "bytes": 161424,
+      "slides": 35,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/03_production_standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx",
+      "sha256": "ca0afb799381d43ad7dced73e97bac2121e1f84e6a430aac216e87a232297d5e",
+      "bytes": 950957,
+      "slides": 78,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "sha256": "15f6685e3339330ff65e4b97d413fbef93353a387bfcdd1ad3d359d889f12d9b",
+      "bytes": 29078473,
+      "slides": 24,
+      "status": "VISIBLE TEXT DRAFTED / QUARANTINED: RENDERING AND LAYOUT FAILURES"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_EnglishContinuation_v3.0_20261009.docx",
+      "sha256": "b623acfc498236140ee036dadfe7e27ceb4e407d755ec56fffdb3febbfc7b70c",
+      "bytes": 316408,
+      "slides": null,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_EnglishFirstPage_v3.0_20261009.docx",
+      "sha256": "01be19dafc0ee3c11403ae3113bdeb2b6e6ea348d23fd5f44398dfbac79d16fd",
+      "bytes": 380388,
+      "slides": null,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_Executive_v3.0_20261009.docx",
+      "sha256": "5338df2fe8c2d81ae4de823eb7607085f9cd0fb60064cc21f8965d19d2f2519a",
+      "bytes": 380407,
+      "slides": null,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/GEM_BRAND_Letterhead_Minimal_v3.0_20261009.docx",
+      "sha256": "a99ea2fca2563332cefbf7356414f9be233d8defa09b9cb27aa6c15ba6f1f7ee",
+      "bytes": 372535,
+      "slides": null,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_ArabicContinuationInternal_v3.0_20261009.docx",
+      "sha256": "b5584f62219eaa5d5a16c317341fb10fd7a70792088a7ae56dad21e040eea2df",
+      "bytes": 316815,
+      "slides": null,
+      "status": "EXISTING CONTROLLED INTERNAL ARABIC: PRESERVE HR01 WORDING; D8 RESTRICTED"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_ArabicFirstPageInternal_v3.0_20261009.docx",
+      "sha256": "17b82dd13f2e0c6c18f3be7859ab7636e33f9a3095a28065d4290c3a398ed2b5",
+      "bytes": 381003,
+      "slides": null,
+      "status": "EXISTING CONTROLLED INTERNAL ARABIC: PRESERVE HR01 WORDING; D8 RESTRICTED"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_BilingualContinuationInternal_v3.0_20261009.docx",
+      "sha256": "8844eab0348ff7aa646f187ed393bb155f24e4cfeb2cb8ec93c5eb96528c3a2a",
+      "bytes": 316944,
+      "slides": null,
+      "status": "EXISTING CONTROLLED INTERNAL ARABIC: PRESERVE HR01 WORDING; D8 RESTRICTED"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/05_letterheads/restricted_internal_only/GEM_BRAND_Letterhead_BilingualFirstPageInternal_v3.0_20261009.docx",
+      "sha256": "1f807acc999a4358fb3ec0380178c279fc2d3b9c2b25fac1eb50dba1ee22e59a",
+      "bytes": 381312,
+      "slides": null,
+      "status": "EXISTING CONTROLLED INTERNAL ARABIC: PRESERVE HR01 WORDING; D8 RESTRICTED"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/06_brand_assets/README.md",
+      "sha256": "d49d0e4991d5f9f3d2da76a935f5178b1cdac4fa6a4babafbf4a2c776bc6eef7",
+      "bytes": 883,
+      "slides": null,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/07_tokens/README.md",
+      "sha256": "3e8a7884541f6f90a9b03e778d136402598a93a5e8baa9602799b49d869577f8",
+      "bytes": 1459,
+      "slides": null,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/07_tokens/gem-tokens.v3.0.css",
+      "sha256": "0c9dfce3597b42e4579a73737135f80a0fe8ad47d5f2902cb83f78e9b7e95851",
+      "bytes": 10346,
+      "slides": null,
+      "status": "TECHNICAL IDENTIFIERS/VALUES PRESERVED; ARABIC HUMAN GUIDE PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/07_tokens/gem-tokens.v3.0.json",
+      "sha256": "c629ac4508e426f7dcc1140743333d217c721a2dfcc1549b0c215b0a31dfe8c0",
+      "bytes": 25068,
+      "slides": null,
+      "status": "TECHNICAL IDENTIFIERS/VALUES PRESERVED; ARABIC HUMAN GUIDE PENDING"
+    },
+    {
+      "source_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/08_release_index/RELEASE_INDEX.md",
+      "sha256": "e970de6de5c2506bc0c0ef798344ac8a7fb4631aedd1e8c0e4b007cf0e95f573",
+      "bytes": 1877,
+      "slides": null,
+      "status": "INVENTORIED / TRANSLATION PENDING"
+    }
+  ]
+}

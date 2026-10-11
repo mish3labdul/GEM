@@ -1,0 +1,38 @@
+[
+  {
+    "id": "GEM-WEB-B01",
+    "slug": "amenity-family",
+    "title": "One family, held together",
+    "alt": "Five GEM-branded amber and ivory pump bottles on a warm stone surface.",
+    "placement": "Amenities & Packaging concept family",
+    "qualification": "Branded family concept following the supplied Part D references. Forms, formula and supplier compatibility remain unvalidated.",
+    "focus": "62% 50%"
+  },
+  {
+    "id": "GEM-WEB-B02",
+    "slug": "packaging-study",
+    "title": "Structure with restraint",
+    "alt": "An open ivory GEM amenity box with five travel bottles and a branded lid.",
+    "placement": "Packaging direction",
+    "qualification": "Proposed box and sleeve forms. No accepted dieline, dimensions, substrate or production feasibility.",
+    "focus": "67% 55%"
+  },
+  {
+    "id": "GEM-WEB-B03",
+    "slug": "material-study",
+    "title": "Material before decoration",
+    "alt": "Close view of textured ivory GEM packaging, a debossed arc and contrasting dark material.",
+    "placement": "Material direction",
+    "qualification": "Concept material appearance. No stock grade, weight, certification or print-color standard is specified.",
+    "focus": "62% 50%"
+  },
+  {
+    "id": "GEM-WEB-B04",
+    "slug": "guest-arrangement",
+    "title": "Objects in quiet company",
+    "alt": "GEM-branded bottles and guest stationery arranged on warm stone beside a white towel.",
+    "placement": "Proposed guest-room context",
+    "qualification": "Generated staging concept. Not a real property, installation, client project or finished product collection.",
+    "focus": "37% 50%"
+  }
+]

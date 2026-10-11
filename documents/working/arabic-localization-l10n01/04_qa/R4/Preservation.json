@@ -1,0 +1,10 @@
+{
+  "source": "outputs/GEM_Arabic_Localization_L10N01_R2/01_editable/internal_review/GEM_BRAND_AmenitiesPackagingConcept_PartD_AR_L10N01_R2.pptx",
+  "source_sha256": "bb0b006160c42e2099dee63bc2538b6bba2b19e31908c8bc283b9455e25c008b",
+  "commit": "4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d",
+  "all_21_media_byte_identical": true,
+  "shape_text_unchanged": true,
+  "all_overlap_pairs_preserved": true,
+  "punctuation_runs_restored_to_arabic_context": 256,
+  "all_24_meaningful_orders_match_explicit_plan": true
+}

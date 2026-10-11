@@ -1,0 +1,668 @@
+{
+  "browser": "143.0.7499.4",
+  "website-desktop": {
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": [
+        {
+          "family": "Jost",
+          "status": "loaded",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 150,
+          "height": 49,
+          "naturalWidth": 480,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/support/gem-symbol-beige.svg",
+          "width": 360,
+          "height": 360,
+          "naturalWidth": 468,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/amenity-family-800.webp",
+          "width": 705,
+          "height": 470,
+          "naturalWidth": 633,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/packaging-study-800.webp",
+          "width": 624,
+          "height": 416,
+          "naturalWidth": 633,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/material-study-800.webp",
+          "width": 624,
+          "height": 416,
+          "naturalWidth": 633,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/guest-arrangement-800.webp",
+          "width": 705,
+          "height": 470,
+          "naturalWidth": 633,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 180,
+          "height": 58,
+          "naturalWidth": 480,
+          "complete": true
+        }
+      ],
+      "fontFailure": false,
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#amenities",
+          "valid": true
+        },
+        {
+          "href": "#materials",
+          "valid": true
+        },
+        {
+          "href": "#enquiry",
+          "valid": true
+        },
+        {
+          "href": "#amenities",
+          "valid": true
+        }
+      ],
+      "textWeights": [
+        "400"
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  "website-tablet": {
+    "layout": {
+      "width": 768,
+      "scrollWidth": 768,
+      "fonts": [
+        {
+          "family": "Jost",
+          "status": "loaded",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 150,
+          "height": 49,
+          "naturalWidth": 480,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/support/gem-symbol-beige.svg",
+          "width": 240,
+          "height": 240,
+          "naturalWidth": 468,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/amenity-family-480.webp",
+          "width": 373,
+          "height": 249,
+          "naturalWidth": 353,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/packaging-study-480.webp",
+          "width": 320,
+          "height": 213,
+          "naturalWidth": 353,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/material-study-480.webp",
+          "width": 320,
+          "height": 213,
+          "naturalWidth": 353,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/guest-arrangement-480.webp",
+          "width": 373,
+          "height": 249,
+          "naturalWidth": 353,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 180,
+          "height": 58,
+          "naturalWidth": 480,
+          "complete": true
+        }
+      ],
+      "fontFailure": false,
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#amenities",
+          "valid": true
+        },
+        {
+          "href": "#materials",
+          "valid": true
+        },
+        {
+          "href": "#enquiry",
+          "valid": true
+        },
+        {
+          "href": "#amenities",
+          "valid": true
+        }
+      ],
+      "textWeights": [
+        "400"
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  "website-mobile": {
+    "layout": {
+      "width": 375,
+      "scrollWidth": 375,
+      "fonts": [
+        {
+          "family": "Jost",
+          "status": "loaded",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 132,
+          "height": 43,
+          "naturalWidth": 480,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/support/gem-symbol-beige.svg",
+          "width": 468,
+          "height": 468,
+          "naturalWidth": 468,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/amenity-family-480.webp",
+          "width": 335,
+          "height": 223,
+          "naturalWidth": 335,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/packaging-study-480.webp",
+          "width": 335,
+          "height": 223,
+          "naturalWidth": 335,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/material-study-480.webp",
+          "width": 335,
+          "height": 223,
+          "naturalWidth": 335,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/guest-arrangement-480.webp",
+          "width": 335,
+          "height": 223,
+          "naturalWidth": 335,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 180,
+          "height": 58,
+          "naturalWidth": 480,
+          "complete": true
+        }
+      ],
+      "fontFailure": false,
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#amenities",
+          "valid": true
+        },
+        {
+          "href": "#materials",
+          "valid": true
+        },
+        {
+          "href": "#enquiry",
+          "valid": true
+        },
+        {
+          "href": "#amenities",
+          "valid": true
+        }
+      ],
+      "textWeights": [
+        "400"
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  "website-narrow": {
+    "layout": {
+      "width": 320,
+      "scrollWidth": 320,
+      "fonts": [
+        {
+          "family": "Jost",
+          "status": "loaded",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 132,
+          "height": 43,
+          "naturalWidth": 480,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/support/gem-symbol-beige.svg",
+          "width": 468,
+          "height": 468,
+          "naturalWidth": 468,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/amenity-family-480.webp",
+          "width": 280,
+          "height": 187,
+          "naturalWidth": 280,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/packaging-study-480.webp",
+          "width": 280,
+          "height": 187,
+          "naturalWidth": 280,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/material-study-480.webp",
+          "width": 280,
+          "height": 187,
+          "naturalWidth": 280,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/guest-arrangement-480.webp",
+          "width": 280,
+          "height": 187,
+          "naturalWidth": 280,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 180,
+          "height": 58,
+          "naturalWidth": 480,
+          "complete": true
+        }
+      ],
+      "fontFailure": false,
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        },
+        {
+          "href": "#amenities",
+          "valid": true
+        },
+        {
+          "href": "#materials",
+          "valid": true
+        },
+        {
+          "href": "#enquiry",
+          "valid": true
+        },
+        {
+          "href": "#amenities",
+          "valid": true
+        }
+      ],
+      "textWeights": [
+        "400"
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  "gallery-desktop": {
+    "layout": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": [
+        {
+          "family": "Jost",
+          "status": "loaded",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 150,
+          "height": 49,
+          "naturalWidth": 480,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/amenity-family-800.webp",
+          "width": 624,
+          "height": 416,
+          "naturalWidth": 633,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/packaging-study-800.webp",
+          "width": 624,
+          "height": 416,
+          "naturalWidth": 633,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/material-study-800.webp",
+          "width": 624,
+          "height": 416,
+          "naturalWidth": 633,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/guest-arrangement-800.webp",
+          "width": 624,
+          "height": 416,
+          "naturalWidth": 633,
+          "complete": true
+        }
+      ],
+      "fontFailure": false,
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        }
+      ],
+      "textWeights": [
+        "400"
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  "gallery-tablet": {
+    "layout": {
+      "width": 768,
+      "scrollWidth": 768,
+      "fonts": [
+        {
+          "family": "Jost",
+          "status": "loaded",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 150,
+          "height": 49,
+          "naturalWidth": 480,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/amenity-family-480.webp",
+          "width": 320,
+          "height": 213,
+          "naturalWidth": 353,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/packaging-study-480.webp",
+          "width": 320,
+          "height": 213,
+          "naturalWidth": 353,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/material-study-480.webp",
+          "width": 320,
+          "height": 213,
+          "naturalWidth": 353,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/guest-arrangement-480.webp",
+          "width": 320,
+          "height": 213,
+          "naturalWidth": 353,
+          "complete": true
+        }
+      ],
+      "fontFailure": false,
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        }
+      ],
+      "textWeights": [
+        "400"
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  "gallery-mobile": {
+    "layout": {
+      "width": 375,
+      "scrollWidth": 375,
+      "fonts": [
+        {
+          "family": "Jost",
+          "status": "loaded",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 132,
+          "height": 43,
+          "naturalWidth": 480,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/amenity-family-480.webp",
+          "width": 335,
+          "height": 223,
+          "naturalWidth": 335,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/packaging-study-480.webp",
+          "width": 335,
+          "height": 223,
+          "naturalWidth": 335,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/material-study-480.webp",
+          "width": 335,
+          "height": 223,
+          "naturalWidth": 335,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/guest-arrangement-480.webp",
+          "width": 335,
+          "height": 223,
+          "naturalWidth": 335,
+          "complete": true
+        }
+      ],
+      "fontFailure": false,
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        }
+      ],
+      "textWeights": [
+        "400"
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  "gallery-narrow": {
+    "layout": {
+      "width": 320,
+      "scrollWidth": 320,
+      "fonts": [
+        {
+          "family": "Jost",
+          "status": "loaded",
+          "weight": "400"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "400"
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:8882/support/gem-horizontal-beige.svg",
+          "width": 132,
+          "height": 43,
+          "naturalWidth": 480,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/amenity-family-480.webp",
+          "width": 280,
+          "height": 187,
+          "naturalWidth": 280,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/packaging-study-480.webp",
+          "width": 280,
+          "height": 187,
+          "naturalWidth": 280,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/material-study-480.webp",
+          "width": 280,
+          "height": 187,
+          "naturalWidth": 280,
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:8882/web/guest-arrangement-480.webp",
+          "width": 280,
+          "height": 187,
+          "naturalWidth": 280,
+          "complete": true
+        }
+      ],
+      "fontFailure": false,
+      "anchors": [
+        {
+          "href": "#main",
+          "valid": true
+        }
+      ],
+      "textWeights": [
+        "400"
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": []
+  },
+  "font_failure_state": true
+}

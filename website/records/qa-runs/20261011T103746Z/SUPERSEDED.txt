@@ -1,0 +1,1 @@
+Superseded development run for the Ready packages section. 103602Z stopped when Playwright could not click a radio covered by the card-wide target (fixed in CSS); 103746Z failed two test assumptions (focus ring checked on the radio instead of its card; card not scrolled into view at 375px), fixed in qa/run_qa.py. Authoritative: 20261011T103930Z.

@@ -1,0 +1,35 @@
+{
+ "run": "20261011T154336Z",
+ "total": 482,
+ "passed": 479,
+ "failed": 3,
+ "failures": [
+  {
+   "id": "head-integrity index.html: title, standard viewport, no inline styles",
+   "status": "FAIL",
+   "detail": {
+    "title": "GEM\u2122 \u2014 Hospitality supplier and partner",
+    "vp": "width=device-width, initial-scale=1",
+    "styles": 1
+   }
+  },
+  {
+   "id": "head-integrity reference.html: title, standard viewport, no inline styles",
+   "status": "FAIL",
+   "detail": {
+    "title": "GEM\u2122 brand and design reference",
+    "vp": "width=device-width, initial-scale=1",
+    "styles": 1
+   }
+  },
+  {
+   "id": "head-integrity privacy.html: title, standard viewport, no inline styles",
+   "status": "FAIL",
+   "detail": {
+    "title": "GEM\u2122 privacy and legal notice",
+    "vp": "width=device-width, initial-scale=1",
+    "styles": 1
+   }
+  }
+ ]
+}

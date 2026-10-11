@@ -1,0 +1,29 @@
+[
+  {
+    "font": "Inter-Regular.ttf",
+    "family": "Inter",
+    "source_sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387",
+    "fsType": 0,
+    "embedded_part": "ppt/fonts/font1.fntdata",
+    "sfnt_bytes_identical": true,
+    "native_acceptance": "PENDING"
+  },
+  {
+    "font": "Jost-Regular.ttf",
+    "family": "Jost",
+    "source_sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5",
+    "fsType": 0,
+    "embedded_part": "ppt/fonts/font2.fntdata",
+    "sfnt_bytes_identical": true,
+    "native_acceptance": "PENDING"
+  },
+  {
+    "font": "NotoSansArabic-Regular.ttf",
+    "family": "Noto Sans Arabic",
+    "source_sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613",
+    "fsType": 0,
+    "embedded_part": "ppt/fonts/font3.fntdata",
+    "sfnt_bytes_identical": true,
+    "native_acceptance": "PENDING"
+  }
+]

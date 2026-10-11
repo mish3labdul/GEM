@@ -1,0 +1,344 @@
+--- before/qa/run_qa.py
++++ qa/run_qa.py
+@@ -17,7 +17,7 @@
+ 
+ PAGES = ["index.html", "reference.html", "privacy.html"]
+ VIEWPORTS = [("desktop-1440", 1440, 900), ("breakpoint-1024", 1024, 768), ("tablet-768", 768, 1024), ("mobile-375", 375, 812), ("narrow-320", 320, 640)]
+-PROBES = ["records/", "source-images/", "qa/run_qa.py", "verify_func.py", "verify_shots.py", ".git/config", "audit-2026-10-10-independent-01/", "README.md"]
++PROBES = [".DS_Store", "assets/.DS_Store", "records/", "source-images/", "qa/run_qa.py", "verify_func.py", "verify_shots.py", ".git/config", "audit-2026-10-10-independent-01/", "README.md"]
+ SYNTH = {"name": "Synthetic Tester", "organisation": "Example Org", "email": "qa@example.invalid", "message": "Synthetic QA enquiry. Do not send."}
+ 
+ 
+@@ -434,7 +434,7 @@
+             R.add(f"quote-initial-enabled-notice-hidden {qt}", not init["disabled"] and init["notice"], init)
+             await pg.click("#quote-button"); await pg.wait_for_timeout(100)
+             errs = await pg.locator("#quote-error-list li").all_inner_texts()
+-            R.add(f"quote-empty-two-linked-errors-focus-first {qt}", errs == ["Choose a package.", "Enter the number of rooms, for example 120."] and await pg.evaluate("document.activeElement.id") == "pkg-room", errs)
++            R.add(f"quote-empty-two-linked-errors-focus-first {qt}", errs == ["Choose a package.", "Enter a whole number of rooms from 1 to 100,000."] and await pg.evaluate("document.activeElement.id") == "pkg-room", errs)
+             # whole card is the target: click the middle of the Wall-mounted card's table
+             await pg.evaluate("document.querySelectorAll('.package-card')[1].querySelector('.spec-table').scrollIntoView({block:'center'})"); await pg.wait_for_timeout(100)
+             box = await pg.locator(".package-card").nth(1).locator(".spec-table").bounding_box()
+@@ -448,7 +448,7 @@
+             await pg.fill("#q-rooms", "abc"); await pg.click("#quote-button"); await pg.wait_for_timeout(100)
+             errs = await pg.locator("#quote-error-list li").all_inner_texts()
+             inv = await pg.get_attribute("#q-rooms", "aria-invalid"); desc = await pg.get_attribute("#q-rooms", "aria-describedby")
+-            R.add(f"quote-invalid-rooms-only {qt}", errs == ["Enter the number of rooms, for example 120."] and inv == "true" and "q-rooms-hint" in desc and "q-rooms-error" in desc, [errs, inv, desc])
++            R.add(f"quote-invalid-rooms-only {qt}", errs == ["Enter a whole number of rooms from 1 to 100,000."] and inv == "true" and "q-rooms-hint" in desc and "q-rooms-error" in desc, [errs, inv, desc])
+             await pg.fill("#q-rooms", "120"); await pg.check("#q-stationery")
+             await pg.click("#q-sampling")
+             tg = await pg.evaluate("({p:document.getElementById('q-sampling').getAttribute('aria-pressed'),t:document.getElementById('q-sampling').textContent,s:document.getElementById('q-sampling-status').textContent})")
+--- before/site/assets/css/site.css
++++ site/assets/css/site.css
+@@ -67,6 +67,7 @@
+   font-size: var(--gem-type-size-body);
+   line-height: var(--gem-type-line-height-body);
+   letter-spacing: var(--gem-type-tracking-body);
++  font-synthesis: none; /* Required faces must be real; fail missing-face QA rather than synthesize. */
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+ }
+@@ -75,6 +76,7 @@
+ ul[role="list"], .family, .hierarchy, .sequence-list, .site-footer ul, .primary-nav ul { list-style: none; padding: 0; }
+ p, li { max-inline-size: var(--site-measure); }
+ .hierarchy li, .family li, .sequence-list li, .footer-note { max-inline-size: none; }
++em { font-style: normal; } /* Preserve semantic emphasis within the accepted regular-face system. */
+ strong, b { font-weight: var(--gem-type-weight-regular); } /* no bold weight in the system */
+ 
+ .container {
+--- before/site/assets/js/site.js
++++ site/assets/js/site.js
+@@ -7,7 +7,7 @@
+    - Header: stays reachable on long pages (hides while reading down, returns on scroll up)
+    - Section links: "you are here" marking in the navigation (aria-current="location")
+    - Section calls to action preselect the enquiry topic
+-   - Delivery: OFF. No receiving destination is configured. See DELIVERY below.
++   - Delivery: no webpage submission. Owner-approved email-app handoff only; see DELIVERY.
+    No network request is made by this file. */
+ (function () {
+   "use strict";
+@@ -131,7 +131,7 @@
+       var qDraft = false;
+       var qRules = [
+         { id: "q-package", first: "pkg-room", msg: "Choose a package.", ok: function () { return !!qf.querySelector('input[name="package"]:checked'); } },
+-        { id: "q-rooms", first: "q-rooms", msg: "Enter the number of rooms, for example 120.", ok: function () { var v = qRooms.value.trim(); return /^[0-9]+$/.test(v) && +v >= 1 && +v <= 100000; } }
++        { id: "q-rooms", first: "q-rooms", msg: "Enter a whole number of rooms from 1 to 100,000.", ok: function () { var v = qRooms.value.trim(); return /^[0-9]+$/.test(v) && +v >= 1 && +v <= 100000; } }
+       ];
+       var qSetError = function (rule, msg) {
+         var err = q$(rule.id + "-error");
+--- before/site/index.html
++++ site/index.html
+@@ -130,8 +130,8 @@
+              disabled in the markup until site.js has installed its handlers. -->
+         <form class="quote-form" id="quote-form" method="post" novalidate aria-labelledby="packages-title">
+           <div class="notice form-unavailable" id="quote-unavailable" role="note">
+-            <p class="notice-title">Requesting a quotation needs JavaScript</p>
+-            <p>This form needs JavaScript, which is off or blocked in your browser. Turn it on to request a quotation, or use the contact details at the end of this page.</p>
++            <p class="notice-title">Drafting a package request is unavailable</p>
++            <p>This form needs JavaScript. It is off, blocked or could not start. No package request can be sent from this page. The contact details shown in this preview are placeholders.</p>
+           </div>
+ 
+           <div class="error-summary" id="quote-error-summary" role="alert" hidden>
+@@ -216,7 +216,7 @@
+               <div class="field">
+                 <label for="q-rooms">Rooms to supply <span class="req">(required)</span></label>
+                 <input id="q-rooms" name="rooms" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" aria-describedby="q-rooms-hint">
+-                <p class="hint" id="q-rooms-hint">An estimate is fine.</p>
++                <p class="hint" id="q-rooms-hint">An estimate is fine. Enter a whole number from 1 to 100,000.</p>
+                 <p class="field-error" id="q-rooms-error" hidden></p>
+               </div>
+ 
+@@ -369,8 +369,8 @@
+              with JavaScript off, blocked or failed, neither the button nor Enter can submit. -->
+         <form class="enquiry-form" id="enquiry-form" method="post" novalidate aria-describedby="form-intro">
+           <div class="notice form-unavailable" id="form-unavailable" role="note">
+-            <p class="notice-title">Drafting an enquiry needs JavaScript</p>
+-            <p>This form needs JavaScript, which is off or blocked in your browser. Turn it on to draft an enquiry, or use the contact details at the end of this page.</p>
++            <p class="notice-title">Drafting an enquiry is unavailable</p>
++            <p>This form needs JavaScript. It is off, blocked or could not start. No enquiry can be sent from this page. The contact details shown in this preview are placeholders.</p>
+           </div>
+ 
+           <div class="error-summary" id="error-summary" role="alert" hidden>
+@@ -431,10 +431,11 @@
+             <p class="status-label status-label--info">Information</p>
+             <p class="form-result-title">Enquiry drafted. It has not been sent.</p>
+             <p>Copy it, or open it in your email app and send it from there.</p>
++            <p class="caption" id="email-copy-guidance">If the email-app link cannot open the complete draft, use Copy enquiry and paste the full text into your email app.</p>
+             <label for="f-output" class="visually-hidden">Drafted enquiry</label>
+             <textarea id="f-output" rows="8" readonly></textarea>
+             <div class="form-actions">
+-              <a class="button" id="email-output" hidden>Open in your email app</a>
++              <a class="button" id="email-output" aria-describedby="email-copy-guidance" hidden>Open in your email app</a>
+               <button class="button button--secondary" type="button" id="copy-output">Copy enquiry</button>
+               <span class="copy-status" id="copy-status" role="status"></span>
+             </div>
+--- before/site/privacy.html
++++ site/privacy.html
+@@ -53,11 +53,13 @@
+         <div class="prose">
+           <p class="status-note"><span class="status-label status-label--pending">Temporary</span> Company and contact details on this page are placeholders until GEM confirms them.</p>
+ 
+-          <h2 class="h2">What this preview collects</h2>
+-          <p>Nothing. The enquiry form prepares a draft in your browser so you can copy it or open it in your email app. It does not send, store or log what you type, and this site sets no cookies and loads no analytics or third-party services.</p>
++          <h2 class="h2">Drafts in this preview</h2>
++          <p>Both forms prepare a draft in your browser. This website does not transmit the draft to GEM, save it to a website account or use analytics. It sets no cookies and loads no third-party services in this preview.</p>
++          <p>The enquiry draft includes your name, email address, organisation or property if provided, selected topic and message. The package request includes the selected package, room count and your arrival-stationery and sampling choices.</p>
+ 
+-          <h2 class="h2">Sending an enquiry</h2>
+-          <p>If you choose “Open in your email app”, the draft opens in your own email program, addressed to GEM. Nothing leaves your device unless you send it from there. The details you send (your name, email address, organisation or property, and message) will be used only to reply to your enquiry. GEM’s approved notice will say how long enquiries are kept and how to ask for them to be corrected or deleted.</p>
++          <h2 class="h2">Sending a draft</h2>
++          <p>You can copy the draft or choose “Open in your email app”. After that handoff, your selected email application handles the draft under its own privacy and synchronization settings. You must send the message there to submit it to GEM. Preparing or opening a draft does not confirm that GEM has received it.</p>
++          <p>This is a temporary preview notice. GEM’s verified operator details and final privacy notice, including how received enquiries are handled and retained, remain to be approved.</p>
+ 
+           <h2 class="h2">Who operates this site</h2>
+           <address class="contact-lines contact-lines--light" data-contact-status="temporary">
+--- /dev/null
++++ qa/README.md
+@@ -0,0 +1,27 @@
++# GEM local QA
++
++Run both suites after changes. Use a new evidence directory; neither command publishes,
++submits enquiries or follows an email-app link. Both start their own 127.0.0.1 static server.
++
++```sh
++python3 qa/run_qa.py --root site --out-base <new-evidence-directory>/regression
++python3 qa/run_corrections_qa.py --root site --out-base <new-evidence-directory>/corrections
++```
++
++Requires Python, Playwright and its Chromium binary. The original suite also locates the
++available axe-core script (or accepts `--axe /path/to/axe.min.js`). See its `--help`.
++Each suite refuses to overwrite a timestamped run folder and exits nonzero on failure.
++
++`font_validation.py` validates actual Chromium platform glyph usage as well as required
++loaded regular 400 Jost/Inter faces. Current visible text, field values and placeholders
++form the samples. Required-face errors, system fallback or unsupported glyphs return
++**FAIL brand acceptance**. Future Arabic DOM text is subject to the same rule; these Latin
++files do not establish Arabic support. The targeted suite includes expected negative tests:
++its PASS means it correctly detected a failed brand state, not that blocked fonts or Arabic
++fallback are acceptable. No missing font is replaced or approved automatically.
++
++The suites are Chromium automation. They do not establish Safari/Firefox behavior, native
++screen-reader acceptance, native browser zoom, actual email-client compatibility, legal
++clearance, supplier/production proof or WCAG certification.
++
++Latest authorized correction evidence: `../remediation-2026-10-11-01/START_HERE.md`.
+--- /dev/null
++++ qa/font_validation.py
+@@ -0,0 +1,55 @@
++"""Chromium brand-font acceptance, including actual glyph fallback (not just CSS family names).
++
++Requires a Playwright page. A failed result is a failed brand acceptance, even if fallback
++keeps content readable. Future Arabic DOM text enters the same samples automatically.
++This is engine-specific font evidence, not native-language or accessibility acceptance.
++"""
++
++
++async def validate_brand_fonts(page, samples=None):
++    if samples is None:
++        samples = await page.evaluate("""() => {
++          const samples = {Jost: '', Inter: ''};
++          for (const e of document.querySelectorAll('body *')) {
++            if (!e.getClientRects().length) continue;
++            const family = getComputedStyle(e).fontFamily.split(',')[0].replaceAll('"', '').trim();
++            if (!(family in samples)) continue;
++            for (const n of e.childNodes) if (n.nodeType === Node.TEXT_NODE) samples[family] += n.textContent;
++            if ('value' in e) samples[family] += e.value || '';
++            if (e.hasAttribute('placeholder')) samples[family] += e.getAttribute('placeholder');
++          }
++          for (const family of Object.keys(samples)) samples[family] = [...new Set(samples[family])].join('');
++          return samples;
++        }""")
++    await page.evaluate("document.fonts.ready")
++    faces = await page.evaluate("[...document.fonts].map(f=>({family:f.family.replaceAll('\"',''),weight:f.weight,style:f.style,status:f.status}))")
++    cdp = await page.context.new_cdp_session(page)
++    rows = []
++    try:
++        await cdp.send("DOM.enable")
++        await cdp.send("CSS.enable")
++        for family in ("Jost", "Inter"):
++            sample = samples.get(family, "")
++            # Render an off-screen probe, never display it or include it in screenshots.
++            await page.evaluate("""({family,sample}) => {
++              const e = document.createElement('span'); e.id = 'gem-qa-font-probe';
++              e.textContent = sample; e.setAttribute('aria-hidden', 'true');
++              Object.assign(e.style, {position:'fixed',left:'-100000px',top:'0',whiteSpace:'pre',fontFamily:'"'+family+'"',fontSize:'20px',fontWeight:'400',fontStyle:'normal',fontSynthesis:'none'});
++              document.body.append(e);
++            }""", {"family": family, "sample": sample})
++            try:
++                await page.evaluate("({family,sample})=>document.fonts.load('400 20px \"'+family+'\"', sample).catch(()=>[])", {"family": family, "sample": sample})
++                # Platform-font evidence is populated after layout/paint, not font-load alone.
++                await page.evaluate("new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))")
++                doc = await cdp.send("DOM.getDocument")
++                node = await cdp.send("DOM.querySelector", {"nodeId": doc["root"]["nodeId"], "selector": "#gem-qa-font-probe"})
++                fonts = (await cdp.send("CSS.getPlatformFontsForNode", {"nodeId": node["nodeId"]}))["fonts"]
++                loaded = any(f["family"] == family and f["style"] == "normal" and f["weight"] == "400" and f["status"] == "loaded" for f in faces)
++                actual = [f for f in fonts if f["glyphCount"] > 0]
++                ok = loaded and bool(sample.strip()) and bool(actual) and all(f["isCustomFont"] and f["familyName"] == family for f in actual)
++                rows.append({"family": family, "requested_weight": 400, "sample": sample, "platform_fonts": fonts, "required_face_loaded": loaded, "status": "PASS" if ok else "FAIL"})
++            finally:
++                await page.evaluate("document.getElementById('gem-qa-font-probe')?.remove()")
++    finally:
++        await cdp.detach()
++    return {"status": "PASS" if all(r["status"] == "PASS" for r in rows) else "FAIL", "faces": faces, "families": rows}
+--- /dev/null
++++ qa/run_corrections_qa.py
+@@ -0,0 +1,116 @@
++#!/usr/bin/env python3
++"""Targeted G26 correction checks. Loopback only, synthetic data, new output only; no mailto.
++
++python3 qa/run_corrections_qa.py --root site --out-base <new-evidence-dir>
++"""
++import argparse, asyncio, datetime, json
++from pathlib import Path
++from playwright.async_api import async_playwright
++from run_qa import Results, free_port, serve, watch, sha, settle_lazy
++from font_validation import validate_brand_fonts
++
++
++async def run(args):
++    root = Path(args.root).resolve()
++    out = Path(args.out_base) / datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
++    out.mkdir(parents=True, exist_ok=False)
++    (out / 'screenshots').mkdir()
++    server = serve(root, free_port()); base = f'http://127.0.0.1:{server.server_port}/'
++    R = Results(); raw = {}
++    try:
++        async with async_playwright() as p:
++            browser = await p.chromium.launch()
++            environment = {'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(), 'browser':browser.version, 'url':base, 'site_files':{str(f.relative_to(root)):sha(f) for f in root.rglob('*') if f.is_file()}}
++            for route in ('index','reference','privacy'):
++                for width,height in ((1440,900),(768,1024),(375,812),(320,700)):
++                    context = await browser.new_context(viewport={'width':width,'height':height})
++                    page = await context.new_page(); log = await watch(page)
++                    await page.goto(base+route+'.html',wait_until='networkidle')
++                    await settle_lazy(page)
++                    fonts = await validate_brand_fonts(page)
++                    tag = f'{route}-{width}'; raw[tag] = {'font_acceptance':fonts}
++                    R.add('brand faces and current glyphs '+tag,fonts['status']=='PASS',fonts)
++                    R.add('responsive reflow '+tag,await page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
++                    R.add('normal network and runtime '+tag,not log['console_errors'] and not log['page_errors'] and not log['failed'] and all(r['url'].startswith(base) and r['method']=='GET' for r in log['requests']),log)
++                    await page.screenshot(path=str(out/'screenshots'/f'{tag}-full.png'),full_page=True)
++                    if route=='reference':
++                        emph = await page.locator('em').evaluate_all('(es)=>es.map(e=>({style:getComputedStyle(e).fontStyle,synthesis:getComputedStyle(e).fontSynthesis}))')
++                        R.add('semantic emphasis uses real regular face '+tag,bool(emph) and all(e['style']=='normal' and e['synthesis']=='none' for e in emph),emph)
++                    await context.close()
++            context = await browser.new_context(); page = await context.new_page()
++            await page.route('**/*.woff2',lambda r:r.abort())
++            await page.goto(base,wait_until='networkidle')
++            raw['blocked_fonts'] = await validate_brand_fonts(page)
++            R.add('blocked required fonts FAIL brand acceptance',raw['blocked_fonts']['status']=='FAIL' and all(r['status']=='FAIL' for r in raw['blocked_fonts']['families']),raw['blocked_fonts'])
++            R.add('font failure preserves readable content',await page.locator('h1').is_visible())
++            await page.screenshot(path=str(out/'screenshots'/'blocked-fonts-failed-brand-acceptance.png'))
++            await context.close()
++            context = await browser.new_context(permissions=['clipboard-read','clipboard-write']); page = await context.new_page(); log = await watch(page)
++            await page.goto(base,wait_until='networkidle')
++            raw['unsupported_arabic_probe'] = await validate_brand_fonts(page,{'Jost':'العربية','Inter':'العربية'})
++            R.add('unsupported Arabic fallback FAILS brand acceptance',raw['unsupported_arabic_probe']['status']=='FAIL' and all(r['status']=='FAIL' for r in raw['unsupported_arabic_probe']['families']),raw['unsupported_arabic_probe'])
++            await page.check('#pkg-room')
++            for val in ('','0','-1','1.5','abc','100001'):
++                await page.fill('#q-rooms',val); await page.click('#quote-button')
++                error = await page.locator('#q-rooms-error').inner_text()
++                R.add('room error explains range '+repr(val),error=='Enter a whole number of rooms from 1 to 100,000.' and await page.input_value('#q-rooms')==val and await page.evaluate('document.activeElement.id')=='q-rooms',error)
++                await page.locator('#quote-error-list a').click()
++                R.add('room summary focuses input '+repr(val),await page.evaluate('document.activeElement.id')=='q-rooms')
++            for val in ('1','100000',' 120 '):
++                await page.fill('#q-rooms',val); await page.click('#quote-button')
++                R.add('room boundary valid '+repr(val),await page.locator('#quote-result').is_visible() and ('Rooms to supply: '+val.strip()) in await page.input_value('#q-output'))
++            await page.fill('#q-rooms','100001');await page.click('#quote-button');await page.wait_for_timeout(400)
++            await page.locator('#quote-form').screenshot(path=str(out/'screenshots'/'room-range-error.png'))
++            for sel,val in (('#f-name','Synthetic Tester'),('#f-email','qa@example.invalid'),('#f-org','Example Org')): await page.fill(sel,val)
++            await page.check('#f-interest-partner')
++            for repeats in (1,1000,3000):
++                msg='Synthetic QA enquiry. Do not send. '*repeats
++                await page.fill('#f-message',msg);await page.click('#prepare-button')
++                draft=await page.input_value('#f-output');href=await page.get_attribute('#email-output','href')
++                await page.click('#copy-output');await page.wait_for_function('document.getElementById("copy-status").textContent.includes("Copied")')
++                copied=await page.evaluate('navigator.clipboard.readText()')
++                R.add(f'full copy preserved at {repeats} repeats',draft.endswith(msg.strip()) and copied==draft)
++                R.add(f'email copy guidance at {repeats} repeats',await page.locator('#email-copy-guidance').is_visible() and await page.get_attribute('#email-output','aria-describedby')=='email-copy-guidance')
++                raw[f'draft-{repeats}']={'draft_characters':len(draft),'mailto_characters':len(href),'copy_matches':copied==draft}
++            await page.wait_for_timeout(400)
++            await page.locator('#enquiry-form').screenshot(path=str(out/'screenshots'/'long-draft-copy.png'))
++            await page.fill('#f-message','Changed synthetic text')
++            R.add('editing long draft withdraws handoff',not await page.locator('#form-result').is_visible() and await page.get_attribute('#email-output','href') is None)
++            await page.click('button[type=reset]');await page.wait_for_timeout(50)
++            R.add('clear removes long draft',await page.input_value('#f-output')=='' and await page.input_value('#f-message')=='')
++            R.add('drafting and copying make no submission',all(r['url'].startswith(base) and r['method']=='GET' and r['post'] is None for r in log['requests']),log)
++            await page.goto(base+'privacy.html');text=await page.locator('main').inner_text()
++            R.add('privacy covers both drafts and external app',all(s in text for s in ('room count','sampling choices','privacy and synchronization settings','does not confirm that GEM has received it','remain to be approved')) and 'Nothing leaves your device' not in text and 'used only to reply' not in text)
++            for path in ('.DS_Store','assets/.DS_Store'):
++                resp=await context.request.get(base+path);R.add('Finder metadata not served '+path,resp.status in (403,404),resp.status)
++            await context.close()
++            for mode in ('disabled','blocked','enquiry-init-failure','quote-init-failure'):
++                context=await browser.new_context(java_script_enabled=mode!='disabled');page=await context.new_page()
++                if mode=='blocked': await page.route('**/assets/js/site.js',lambda r:r.abort())
++                if mode.endswith('init-failure'):
++                    src=(root/'assets/js/site.js').read_text()
++                    token='var qDraft = false;' if mode.startswith('quote') else 'var hasDraft = false;'
++                    assert token in src
++                    src=src.replace(token,'throw new Error("Synthetic initialization failure"); '+token)
++                    await page.route('**/assets/js/site.js',lambda r:r.fulfill(status=200,content_type='text/javascript',body=src))
++                await page.goto(base,wait_until='networkidle')
++                affected=['quote','enquiry'] if mode in ('disabled','blocked') else [mode.split('-')[0]]
++                for form in affected:
++                    notice='#quote-unavailable' if form=='quote' else '#form-unavailable';button='#quote-button' if form=='quote' else '#prepare-button'
++                    text=await page.locator(notice).inner_text()
++                    R.add('safe truthful unavailable notice '+mode+' '+form,await page.locator(button).is_disabled() and await page.locator(notice).is_visible() and 'could not start' in text and 'placeholders' in text and 'use the contact details' not in text,text)
++                await context.close()
++            await browser.close()
++    finally:
++        server.shutdown();server.server_close()
++        (out/'checks.json').write_text(json.dumps(R.checks,indent=2,ensure_ascii=False))
++        (out/'observations.json').write_text(json.dumps(raw,indent=2,ensure_ascii=False))
++        if 'environment' in locals(): (out/'environment.json').write_text(json.dumps(environment,indent=2))
++    summary={'total':len(R.checks),'passed':len(R.checks)-len(R.failed),'failed':len(R.failed),'failures':R.failed}
++    (out/'summary.json').write_text(json.dumps(summary,indent=2,ensure_ascii=False));print(json.dumps(summary,indent=2,ensure_ascii=False))
++    return bool(R.failed)
++
++
++if __name__=='__main__':
++    parser=argparse.ArgumentParser();parser.add_argument('--root',default='site');parser.add_argument('--out-base',required=True)
++    raise SystemExit(asyncio.run(run(parser.parse_args())))
+
+Removed public Finder metadata (exact bytes preserved in before/):
+site/.DS_Store
+site/assets/.DS_Store

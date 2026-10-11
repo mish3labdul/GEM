@@ -1,0 +1,23 @@
+{
+ "run": "20261011T103746Z",
+ "total": 476,
+ "passed": 474,
+ "failed": 2,
+ "failures": [
+  {
+   "id": "focus-visible-ring-2px",
+   "status": "FAIL",
+   "detail": [
+    {
+     "t": "pkg-room",
+     "outline": "none 0px"
+    }
+   ]
+  },
+  {
+   "id": "quote-whole-card-selects @375",
+   "status": "FAIL",
+   "detail": null
+  }
+ ]
+}

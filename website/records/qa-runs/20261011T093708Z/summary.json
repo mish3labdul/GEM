@@ -1,0 +1,65 @@
+{
+ "run": "20261011T093708Z",
+ "total": 450,
+ "passed": 444,
+ "failed": 6,
+ "failures": [
+  {
+   "id": "in-page-anchors-resolve index.html@desktop-1440",
+   "status": "FAIL",
+   "detail": [
+    {
+     "href": "#",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "id": "in-page-anchors-resolve index.html@breakpoint-1024",
+   "status": "FAIL",
+   "detail": [
+    {
+     "href": "#",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "id": "in-page-anchors-resolve index.html@tablet-768",
+   "status": "FAIL",
+   "detail": [
+    {
+     "href": "#",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "id": "in-page-anchors-resolve index.html@mobile-375",
+   "status": "FAIL",
+   "detail": [
+    {
+     "href": "#",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "id": "in-page-anchors-resolve index.html@narrow-320",
+   "status": "FAIL",
+   "detail": [
+    {
+     "href": "#",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "id": "audit-C2 focus not obscured by sticky header (45 tab stops)",
+   "status": "FAIL",
+   "detail": [
+    "Skip to content"
+   ]
+  }
+ ]
+}

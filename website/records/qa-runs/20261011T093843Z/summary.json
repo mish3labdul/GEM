@@ -1,0 +1,41 @@
+{
+ "run": "20261011T093843Z",
+ "total": 450,
+ "passed": 449,
+ "failed": 1,
+ "failures": [
+  {
+   "id": "audit-C2 focus not obscured by sticky header (45 tab stops)",
+   "status": "FAIL",
+   "detail": [
+    "See the label order in the bra",
+    "Discuss the pilot for a proper",
+    "See the full release sequence ",
+    "Start a partner conversation",
+    "Read the privacy notice",
+    "f-name",
+    "f-email",
+    "f-org",
+    "f-interest",
+    "f-message",
+    "Draft enquiry",
+    "Start again",
+    "Approach",
+    "Amenities & Packaging",
+    "Formats",
+    "Who it serves",
+    "Partners",
+    "Draft an enquiry",
+    "Brand and design reference",
+    "Privacy and legal notice",
+    "Skip to content",
+    "Draft an enquiry",
+    "Explore the concept range",
+    "See the label order in the bra",
+    "Discuss the pilot for a proper",
+    "See the full release sequence ",
+    "Start a partner conversation"
+   ]
+  }
+ ]
+}

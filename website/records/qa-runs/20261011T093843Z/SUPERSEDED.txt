@@ -1,0 +1,1 @@
+Superseded test-development run; failures were a hidden link with href="#" (fixed) and a focus test that did not wait for smooth scrolling (test fixed). Authoritative run: 20261011T094027Z.
