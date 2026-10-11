@@ -1,0 +1,17 @@
+# Verification — branded revision 02
+
+10 October 2026. Four native imagegen outputs used supplied local references directly; all four accepted after a visual review of the first attempt. Exact prompts, reference paths and generation receipts are retained in evidence/. Root review confirmed visible GEM lettering, English function names, short rules, arcs, plausible object separation and reference-led materials/light. No obvious corrupted English labels or major geometry errors were found. Fine trademark proportions and logo/arc geometry are not certified exact; generated rasters must never become production artwork masters.
+
+The prior error was creative direction: removing branding produced generic imagery. This revision restores the attached Part D look. English-only output is the chosen variant for these new scenes. No Arabic rendering validation is claimed.
+
+PNG masters are 1536×1024. Pillow resized and encoded 24 full-frame derivatives only (480/800/1200 widths, WebP quality86/method6, JPEG quality90/progressive/subsampling0). No code altered the generated scene content. build_deliverables.py created the gallery and mockup files only in this new package.
+
+Fresh Playwright/Chromium preview verification ran against a loopback-only standard-library server on 127.0.0.1:8882: gallery and website at 1440×1000,768×1024,375×812,320×700. Checks passed for no document overflow, successful image decoding and required font loading, 400 text weights, page errors, failed requests and unintended third-party requests. Lazy images were explicitly loaded before capture. Denying fonts triggered an explicit typography failure state. Raw results and screenshots are included. Root visually reviewed desktop/mobile full-page placements and all four masters. Chromium only; no cross-engine, hardware-device, assistive-technology, field-performance or WCAG certification claim.
+
+Source preservation was checked against the creation baseline and earlier audit’s 70-file manifest. All 15 attached source-image hashes were rechecked. Exact copied support fonts/licenses/logos were checked against supplied files. See evidence/final-integrity.json. The earlier website and first asset package were not edited.
+
+No website integration/deployment, real enquiry, supplier proof, production label check, color-calibrated print proof or legal/IP clearance occurred. Public-use acceptance, working-logo master acceptance and concept/supplier decisions remain pending; B01/B02 and formal deferrals are not closed by this work. The local review surface replaces the unavailable direct rich production-board surface.
+
+## Concurrent evidence update
+
+During this revision Claude added records/09–15 and QA-run evidence. records/10_Owner_Website_Decisions_2026-10-10.md records WD-04/05/06 website permissions for the existing kit/studies/selected bilingual Part D mockups. These newer records narrow the prior restriction statements; do not treat this revision’s English-only choice as a prohibition on the owner-authorized originals. This package does not independently authenticate another chat or extend those decisions to new generated artwork/publication. README.md differs from the earlier audit baseline. Existing files in this revision’s creation baseline remain unchanged; added files are listed in evidence/final-integrity.json. Reconcile integration/copy with Claude’s newer site/records rather than applying the earlier audit handoff blindly.

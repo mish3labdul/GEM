@@ -1,0 +1,97 @@
+{
+ "purpose": "Regression fixture for 17_scripts/validation_id_checker.py (ODI01-R1 Defect 1). VAL-18 is intentionally unallocated: explanatory mentions are allowed; any use as an active validation gate fails. Unknown IDs fail.",
+ "positive": [
+  {
+   "text": "VAL-18 is unallocated."
+  },
+  {
+   "text": "No VAL-18 exists."
+  },
+  {
+   "text": "VAL-18 remains intentionally unallocated."
+  },
+  {
+   "text": "VAL-18 unallocated"
+  },
+  {
+   "text": "VAL-18 is not allocated."
+  },
+  {
+   "text": "ID 18 intentionally unallocated"
+  },
+  {
+   "text": "VAL-18 not allocated"
+  },
+  {
+   "text": "no VAL-18"
+  },
+  {
+   "text": "VAL-01 to VAL-21 (no VAL-18); VAL-07 open."
+  },
+  {
+   "text": "VAL-18 is unallocated; it carries no owner, status or release condition."
+  },
+  {
+   "text": "VAL-05, VAL-07 and VAL-15 remain open; VAL-18 stays unallocated."
+  },
+  {
+   "text": "VAL-01 to VAL-21 (no VAL-18)"
+  },
+  {
+   "text": "Allocated IDs are VAL-01 to VAL-21 except VAL-18."
+  },
+  {
+   "text": "VAL-18 has not been created."
+  },
+  {
+   "text": "Validation IDs (VAL-01…21, no VAL-18; S02 deferred), packaging status, release state."
+  }
+ ],
+ "negative": [
+  {
+   "text": "VAL-18 owner: Brand Owner"
+  },
+  {
+   "text": "VAL-18 status: OPEN"
+  },
+  {
+   "text": "VAL-18 must close before release"
+  },
+  {
+   "text": "depends on VAL-18"
+  },
+  {
+   "text": "VAL-18 evidence required"
+  },
+  {
+   "text": "VAL-18 is unallocated. VAL-18 owner: Brand Owner"
+  },
+  {
+   "text": "VAL-18 passed"
+  },
+  {
+   "text": "VAL-18"
+  },
+  {
+   "text": "See VAL-18 for the digital gate."
+  },
+  {
+   "text": "VAL-18 is unallocated but must close before release"
+  },
+  {
+   "text": "VAL-22 evidence required"
+  },
+  {
+   "text": "VAL-00 is open"
+  },
+  {
+   "text": "VAL-18 (owner: Brand Owner)"
+  },
+  {
+   "text": "VAL-18 (unallocated) must close before release"
+  },
+  {
+   "text": "VAL-18 is absent from the register but is blocked by VAL-07"
+  }
+ ]
+}

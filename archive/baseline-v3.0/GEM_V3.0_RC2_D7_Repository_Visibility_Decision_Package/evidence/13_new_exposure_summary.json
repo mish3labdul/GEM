@@ -1,0 +1,57 @@
+{
+ "files": 164,
+ "new_files": 164,
+ "new_bytes": 54946624,
+ "already_on_remote": 0,
+ "by_type": {
+  "Markdown": [
+   32,
+   216050
+  ],
+  "CSV": [
+   16,
+   219118
+  ],
+  "Python script": [
+   22,
+   169993
+  ],
+  "JSON": [
+   10,
+   120407
+  ],
+  "Text": [
+   11,
+   30749
+  ],
+  "PNG render": [
+   64,
+   5995635
+  ],
+  "PDF export": [
+   4,
+   9600069
+  ],
+  "PPTX deck (editable)": [
+   4,
+   38583608
+  ],
+  "CSS": [
+   1,
+   10995
+  ]
+ },
+ "editable_new": 96,
+ "high_ip_new": [
+  "GEM Amenities & Packaging \u2014 Concept Product Portfolio V3.0 \u2014 Part D \u2014 RC2 \u2014 ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "GEM Brand Guidelines V3.0 \u2014 Part A \u2014 RC2 \u2014 ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "GEM Digital Design System V3.0 \u2014 Part B \u2014 RC2 \u2014 ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "GEM Production Standards V3.0 \u2014 Part C \u2014 RC2 \u2014 ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "gem-tokens.v3.0-rc2.ODI01-R1-candidate.css",
+  "gem-tokens.v3.0-rc2.ODI01-R1-candidate.json"
+ ],
+ "git": {
+  "commits_new": 2,
+  "objects_new": 197
+ }
+}

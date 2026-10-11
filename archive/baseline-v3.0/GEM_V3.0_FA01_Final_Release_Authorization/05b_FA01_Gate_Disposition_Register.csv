@@ -1,0 +1,36 @@
+Gate / item,Register status or prior state,FA01 disposition,Decided by,Evidence level,Closed by evidence?,Release effect
+VAL-01,In progress,FORMALLY DEFERRED,FA-F1,n/a,NO,No signed commercial scope in the baseline
+VAL-02,Not started (kit received; acceptance pending),FORMALLY DEFERRED — CONFIRMED IN AC20 CONFIRMATION,FA-H (with AC07),n/a,NO,Logo kit stays WORKING ASSETS; not a production master
+VAL-03,Not started,OWNER ACCEPTED UNDER FORMAL DEFERRAL (offline owner-declared evidence; independent verification not performed),FD01 (FD-G01) + FA-E,OWNER DECLARED,NO,No legal clearance claimed
+VAL-04,Not started,OWNER ACCEPTED UNDER FORMAL DEFERRAL,FD01 (FD-G01) + FA-E,OWNER DECLARED,NO,No ownership verification claimed
+VAL-05,In progress,OWNER ACCEPTED UNDER FORMAL DEFERRAL (repository OFL text for three Regular builds; exact-build and deployment acceptance deferred),FD01 (FD-G01),PARTIALLY VERIFIED,NO,Fonts: working builds only
+VAL-06,Not started,OWNER ACCEPTED UNDER FORMAL DEFERRAL / DIGITAL TERMS REVIEW DEFERRED,FD01 (FD-G01),OWNER DECLARED (provenance statement),NO,Part D stays concept; no production image approved
+VAL-07,Not started,OPEN — unfinished parts FORMALLY DEFERRED (production RTL layouts with real content; Windows; candidate promotion),FA-F2 + FD-G03,REVIEWER OBSERVED (macOS) + human linguistic review; not independently verified,NO,"Arabic/bilingual external issue restricted (D8, C2)"
+VAL-08,In progress,"OPEN — unfinished parts FORMALLY DEFERRED (contrast over pictures, independent QA, Windows, PDF, formal exceptions)",FA-F2 + FD-G03/G04,REVIEWER OBSERVED (macOS); no conformance claim,NO,No WCAG certification or conformance claim
+VAL-09,Not started,FORMALLY DEFERRED,FA-F2,n/a,NO,No production packaging authorized
+VAL-10,Not started,FORMALLY DEFERRED,FA-F2,n/a,NO,No regulated packaging/claims authorized
+VAL-11,Not started,FORMALLY DEFERRED,FA-F2,n/a,NO,No supplier acceptance
+VAL-12,Deferred (Register status; S02),DEFERRED (Register),Register,n/a,NO,Wayfinding fabrication outside scope
+VAL-13,In progress,FORMALLY DEFERRED,FA-F2,n/a,NO,No component implementation authorized
+VAL-14,In progress,FORMALLY DEFERRED,FA-F2,n/a,NO,No motion masters authorized
+VAL-15,Not started,FORMALLY DEFERRED,FA-F2 + FD-G04,Partial (open/render only),NO,No final deliverables; PDFs not authorized
+VAL-16,Not started,FORMALLY DEFERRED,FA-F2,n/a,NO,No release manifest exists; the FA01 manifest is not one
+VAL-17,Not started,FORMALLY DEFERRED,FA-F2,n/a,NO,No usability test
+VAL-18,NOT ALLOCATED,NOT ALLOCATED (no such gate),Register,n/a,n/a,None
+VAL-19,In progress,FORMALLY DEFERRED,FA-F2,n/a,NO,Fonts: working builds only
+VAL-20,Not started,FORMALLY DEFERRED,FA-F2,n/a,NO,No locale/responsive implementation
+VAL-21,Not started,FORMALLY DEFERRED,FA-F2,112 automated assertions pass (not a sign-off),NO,No formal cross-document sign-off
+Y01,Evidence Required,OWNER ACCEPTED UNDER FORMAL DEFERRAL,FD01 (FD-G01) + FA-E,OWNER DECLARED,NO,No trademark clearance claimed
+Y02,Evidence Required,OWNER ACCEPTED UNDER FORMAL DEFERRAL,FD01 (FD-G01) + FA-E,OWNER DECLARED,NO,No ownership verification claimed
+Y03,Evidence Required,OWNER ACCEPTED UNDER FORMAL DEFERRAL,FD01 (FD-G01),PARTIALLY VERIFIED,NO,Fonts: working builds only
+Y04,Evidence Required,OWNER ACCEPTED UNDER FORMAL DEFERRAL / DIGITAL TERMS REVIEW DEFERRED,FD01 (FD-G01),OWNER DECLARED (provenance statement),NO,Part D stays concept
+AC07,Evidence Required,FORMALLY DEFERRED,FA-F1,n/a,NO,No accepted master artwork in the baseline
+AC10,Evidence Required,FORMALLY DEFERRED (Register 'formally defer' route),FA-F1,Human linguistic review (Mashal); not independently verified,NO,No Arabic system approval
+AC17,Evidence Required,FORMALLY DEFERRED,FA-F1,n/a,NO,No approved production specifications
+AC19,OPEN / HOLDER CONDITION INCOMPLETE (FD01: FORMALLY DEFERRED),OPEN — FORMALLY DEFERRED / OWNER ACCEPTED FOR RELEASE (2 of 12 canonical roles named; 10 unnamed),FD-G02 + FA-B,n/a,NO,Role matrix incomplete
+AC20,OPEN / FINAL RELEASE AUTHORIZATION PENDING,AUTHORIZED WITH FORMAL DEFERRALS AND RELEASE-SCOPE EXCLUSIONS,FA-AC20,n/a,n/a,See 02
+OD-TPL,Open deliverable,FORMALLY DEFERRED,FA-F2,n/a,NO,No templates beyond the working letterheads
+OD-SRC,Open,FORMALLY DEFERRED,FA-F2,n/a,NO,No component source or Storybook
+D8,OPEN — FORMALLY DEFERRED,NARROWED (C2): internal controlled use authorized; external issue of affected Arabic/bilingual DOCX/PDF restricted pending D8 validation,FA-C,n/a,NO,Enforceable file list in 10
+SR-11,FORMALLY DEFERRED,FORMALLY DEFERRED (not performed),FD-G04,n/a,NO,No PDF result claimed
+SR-12,FORMALLY DEFERRED,FORMALLY DEFERRED (not performed),FD-G03,n/a,NO,No Windows result claimed

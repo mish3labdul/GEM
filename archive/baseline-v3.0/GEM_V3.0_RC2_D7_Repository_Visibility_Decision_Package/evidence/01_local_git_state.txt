@@ -1,0 +1,25 @@
+# collected 2026-10-09 02:04:33 +0300 — read-only
+## branch / HEAD
+claude/gem-worktree-safety-30b559
+209c934479bbfb57fbe5961119404b0cf84e0bdd
+209c934 (HEAD -> claude/gem-worktree-safety-30b559) audit: close ODI01-R1 review notes and document git ref movement
+a5d9acc audit: reconcile ODI01 validation-id QA and 400-only font implementation
+4ea0d11 (origin/main, origin/HEAD, main) Merge pull request #11 from mish3labdul/claude/pensive-mayer-s1xbmb
+## git remote -v
+letterhead-fork	https://github.com/mashaelalh/GEM.git (fetch)
+letterhead-fork	https://github.com/mashaelalh/GEM.git (push)
+origin	https://github.com/mish3labdul/GEM.git (fetch)
+origin	https://github.com/mish3labdul/GEM.git (push)
+## git branch -a -vv
+  claude/gem-letterhead-v1.1-rev03                         3f88732 [letterhead-fork/claude/gem-letterhead-v1.1-rev03] feat: add GEM letterhead set v1.1 Application Revisi
+* claude/gem-worktree-safety-30b559                        209c934 audit: close ODI01-R1 review notes and document git ref movement
+  codex/gem-letterhead-v1                                  59cac07 Remove obsolete intermediate contact sheet from review evidence
++ main                                                     4ea0d11 (/Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/GEM) 
+  remotes/letterhead-fork/HEAD                             -> letterhead-fork/main
+  remotes/letterhead-fork/claude/gem-letterhead-v1.1-rev03 3f88732 feat: add GEM letterhead set v1.1 Application Revision 03
+  remotes/letterhead-fork/claude/pensive-mayer-s1xbmb      18c44b1 Merge pull request #8 from mish3labdul/main
+  remotes/letterhead-fork/codex/gem-letterhead-v1          59cac07 Remove obsolete intermediate contact sheet from review evidence
+  remotes/letterhead-fork/main                             334744c Merge pull request #9 from mish3labdul/claude/pensive-mayer-s1xbmb
+  remotes/origin/HEAD                                      -> origin/main
+  remotes/origin/claude/pensive-mayer-s1xbmb               3ba158e Add supplied GEM letterhead set v1.1 Application Revision 03
+  remotes/origin/main                                      4ea0d11 Merge pull request #11 from mish3labdul/claude/pensive-mayer-s1xbmb

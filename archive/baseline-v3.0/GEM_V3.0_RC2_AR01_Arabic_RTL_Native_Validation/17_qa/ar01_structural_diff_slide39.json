@@ -1,0 +1,48 @@
+{
+ "before_sha256": "eca6b80ba6f301cf503b091821736f56c685e10d721c03a5579f9b238e1dc752",
+ "after_sha256": "73712e1cf1a74ee23240cc674cf6af5939ca0bb2cf810b622f091f39df22c7a7",
+ "member_count_before": 439,
+ "member_count_after": 439,
+ "member_order_identical": true,
+ "zipinfo_identical": true,
+ "members_changed": [
+  "ppt/slides/slide39.xml"
+ ],
+ "slides": 80,
+ "notes_masters_layouts_themes_docprops_byte_identical": true,
+ "slide39_token_count": 712,
+ "slide39_attribute_level_differences": [
+  {
+   "token_index": 215,
+   "before": "<a:pPr algn=\"r\" indent=\"0\" marL=\"0\">",
+   "after": "<a:pPr algn=\"r\" indent=\"0\" marL=\"0\" rtl=\"1\">"
+  },
+  {
+   "token_index": 222,
+   "before": "<a:rPr lang=\"en-US\" sz=\"2800\" dirty=\"0\">",
+   "after": "<a:rPr lang=\"ar-SA\" sz=\"2800\" dirty=\"0\">"
+  },
+  {
+   "token_index": 380,
+   "before": "<a:pPr algn=\"r\" indent=\"0\" marL=\"0\">",
+   "after": "<a:pPr algn=\"r\" indent=\"0\" marL=\"0\" rtl=\"1\">"
+  },
+  {
+   "token_index": 387,
+   "before": "<a:rPr lang=\"en-US\" sz=\"2400\" dirty=\"0\">",
+   "after": "<a:rPr lang=\"ar-SA\" sz=\"2400\" dirty=\"0\">"
+  }
+ ],
+ "all_a_t_text_identical": true,
+ "a_t_count": 13,
+ "rPr_identical": false,
+ "bodyPr_identical": true,
+ "colours_identical": true,
+ "typefaces_identical": true,
+ "line_spacing_identical": true,
+ "font_sizes_identical": true,
+ "bold_flags_after": [
+  "0"
+ ],
+ "bold_true_count_after": 0
+}

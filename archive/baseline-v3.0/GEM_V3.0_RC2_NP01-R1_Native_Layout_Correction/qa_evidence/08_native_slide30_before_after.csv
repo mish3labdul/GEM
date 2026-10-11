@@ -1,0 +1,7 @@
+Shape,Native family (requested),Bold (range),Size pt,Text bounds height pt BEFORE,Box height pt BEFORE,Text bounds height pt AFTER,Box height pt AFTER,Inset-aware need (tIns+text+bIns) pt AFTER,Slack pt AFTER,Fits?
+Text 1,Jost,false,12.0,16.275,18.796,16.3,18.8,16.3,2.5,yes
+Text 2,Jost,false,32.0,35.849,37.199,35.8,37.2,35.8,1.3,yes
+Text 3,Courier New,false,12.0,169.33,166.37,169.3,202.0,199.3,2.7,yes
+Text 4,Inter,false,12.0,117.62,168.37,117.6,168.4,117.6,50.8,yes
+Text 5,Inter,true,12.0,32.619,35.593,32.6,35.6,32.6,3.0,yes
+Text 6,Inter,false,12.0,15.619,18.796,15.6,18.8,15.6,3.2,yes

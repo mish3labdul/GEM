@@ -1,0 +1,83 @@
+{
+ "note": "Native captures of the AR01 Part A candidate before (A_AR01_final) and after (A_AR01_final2) the slide-39 Text 8 run split. The floating Copilot button in the bottom-right of the window is UI, not slide content, and is excluded; remaining differences on slides 65 and 68 (XML byte-identical between the two candidates) are sub-threshold (max channel difference <= 27, none > 24) capture jitter. Slide 39 is pixel-identical before/after the split.",
+ "rows": [
+  {
+   "slide": 37,
+   "differing_pixels_all": 12563,
+   "max_channel_difference": 204,
+   "bbox_all": [
+    2276,
+    1211,
+    2409,
+    1349
+   ],
+   "differing_pixels_excluding_floating_Copilot_button_region": 0,
+   "pixels_gt24_excluding_button": 0
+  },
+  {
+   "slide": 38,
+   "differing_pixels_all": 16678,
+   "max_channel_difference": 27,
+   "bbox_all": [
+    2257,
+    1217,
+    2409,
+    1349
+   ],
+   "differing_pixels_excluding_floating_Copilot_button_region": 0,
+   "pixels_gt24_excluding_button": 0
+  },
+  {
+   "slide": 39,
+   "differing_pixels_all": 16678,
+   "max_channel_difference": 27,
+   "bbox_all": [
+    2257,
+    1217,
+    2409,
+    1349
+   ],
+   "differing_pixels_excluding_floating_Copilot_button_region": 0,
+   "pixels_gt24_excluding_button": 0
+  },
+  {
+   "slide": 65,
+   "differing_pixels_all": 16861,
+   "max_channel_difference": 27,
+   "bbox_all": [
+    2062,
+    767,
+    2409,
+    1349
+   ],
+   "differing_pixels_excluding_floating_Copilot_button_region": 183,
+   "pixels_gt24_excluding_button": 0
+  },
+  {
+   "slide": 66,
+   "differing_pixels_all": 12563,
+   "max_channel_difference": 204,
+   "bbox_all": [
+    2276,
+    1211,
+    2409,
+    1349
+   ],
+   "differing_pixels_excluding_floating_Copilot_button_region": 0,
+   "pixels_gt24_excluding_button": 0
+  },
+  {
+   "slide": 68,
+   "differing_pixels_all": 12656,
+   "max_channel_difference": 204,
+   "bbox_all": [
+    1596,
+    648,
+    2409,
+    1349
+   ],
+   "differing_pixels_excluding_floating_Copilot_button_region": 93,
+   "pixels_gt24_excluding_button": 0
+  }
+ ]
+}

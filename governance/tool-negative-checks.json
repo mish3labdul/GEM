@@ -1,0 +1,11 @@
+{
+  "tamper_detection": {
+    "status": "PASS",
+    "behavior": "Changed README bytes rejected by final checksum verification",
+    "detected_failure": "Collection checksum mismatch: README.md"
+  },
+  "package_overwrite_guard": {
+    "status": "PASS",
+    "behavior": "Existing ZIP overwrite refused; SHA-256 unchanged"
+  }
+}

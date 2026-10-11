@@ -1,0 +1,16 @@
+#,Test,Result,Basis
+1,Owner identity established?,PASS,The owner supplied the exact holder name 'Mashal' (role Brand Owner). It is recorded verbatim; no further identification exists or is claimed (FA-B)
+2,Owner release decision explicit?,PASS,A3 was selected as the deferral treatment; the AC20 authorization itself needs a separate explicit yes (FA-AC20) — given
+3,"All unresolved items closed by evidence, formally deferred, or explicitly excluded?",PASS WITH FORMAL DEFERRAL,"05b: 0 closed by evidence; every Register gate and the D8 rule are formally deferred, owner-accepted under formal deferral, or Register-Deferred; VAL-02 is covered by FA-H"
+4,No non-waivable gate falsely bypassed?,PASS WITH FORMAL DEFERRAL,Legal/IP approver overridden for AC20 only by explicit owner decision FA-E and disclosed; no gate is recorded as passed; no gate was identified as non-waivable by the owner
+5,D8 treatment explicit?,PASS,C2 narrowed D8; enforceable file list in 10 and policy text in 07
+6,Legal/IP limitation explicit?,PASS WITH FORMAL DEFERRAL,"OWNER ACCEPTED UNDER FORMAL DEFERRAL; offline hard copies owner-declared; no verification or clearance claimed (04, 11)"
+7,AC19 treatment explicit?,PASS WITH FORMAL DEFERRAL,OPEN — FORMALLY DEFERRED / OWNER ACCEPTED FOR RELEASE; 2 of 12 canonical roles named (08)
+8,Release scope defined?,PASS,10 names the baseline files by path and hash and states eligibility per artifact
+9,Candidate/working files distinguished from release artifacts?,PASS WITH FORMAL DEFERRAL,"The baseline is made of unpromoted HR01 candidates whose visible labels still read working edition / not released; promotion and relabel are a separate change not made here (FA-G, 10)"
+10,Residual limitations disclosed?,PASS,11
+11,Historical evidence preserved?,PASS,"QA verifies AR01, AX01, OD01, HR01, FD01 and the Approval Register are unchanged"
+12,No false WCAG / legal / IP claims?,PASS,QA scans every FA01 file; macOS VoiceOver is recorded as reviewer observed only
+13,Release naming/version defined?,PASS,GEM™ V3.0 — OWNER AUTHORIZED FINAL BRAND-SYSTEM BASELINE — FORMAL DEFERRALS RECORDED — ARTIFACT-SPECIFIC EXTERNAL-ISSUE RESTRICTIONS APPLY; file names keep RC2 / HR01 CANDIDATE until promotion
+14,Owner accepts residual risk?,PASS,"FD-G05 accepted the RC2 state as-is; FA01 decisions A3, C2, E, F1, F2 accept the further limitations; the final yes confirms the complete list"
+15,AC20 authority valid under current governance?,PASS WITH FORMAL DEFERRAL,Valid only through the narrow superseding AC20 rule (05) and the named Brand Owner holder; the Register text is preserved; the same person authorizes the release and produced all human evidence (11)

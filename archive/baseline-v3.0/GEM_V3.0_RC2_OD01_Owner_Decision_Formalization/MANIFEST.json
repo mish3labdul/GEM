@@ -1,0 +1,111 @@
+{
+ "package": "GEM_V3.0_RC2_OD01_Owner_Decision_Formalization",
+ "purpose": "Formalization of Brand Owner decisions OD-G01 to OD-G12; governance synchronization (documentation only)",
+ "status": "OD-G01..OD-G08 APPROVED; OD-G09 and OD-G10 ASSIGNED (Mashal); OD-G11 OWNER REPOSITORY VISIBILITY DECISION RESOLVED (current public repository approved); LEGAL/IP EVIDENCE OPEN WHERE REQUIRED; OD-G12 AC20 OPEN",
+ "release_label": "GEM™ V3.0 RC2 — SYNCHRONIZED / NOT RELEASED / EVIDENCE GATES REMAIN / UNAPPROVED IMPLEMENTATION CANDIDATE",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "f550ddc901c012f0f0c3acfa4893f91569e87384",
+ "gates_closed_by_this_package": 0,
+ "ac20": "OPEN / FINAL RELEASE AUTHORIZATION PENDING",
+ "val_18": "NOT ALLOCATED",
+ "remote_authorization": "ONE controlled push of the existing branch to origin after QA (task-specific). No merge, PR, tag, release, force-push or visibility change.",
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "files": [
+  {
+   "path": "01_OD01_Executive_Summary.md",
+   "bytes": 4946,
+   "sha256": "8b41e88d150f47f14b095373bed3ebe00c162519840a2563a669585fafdbdf5e"
+  },
+  {
+   "path": "02_OD01_Owner_Decision_Register.csv",
+   "bytes": 9322,
+   "sha256": "cc3da1cadefecc118f71294b0a86e74a91fa133c845715e928a46f7fe71e015a"
+  },
+  {
+   "path": "03_OD01_Decision_Detail.md",
+   "bytes": 6616,
+   "sha256": "6fccf856ac913a2010721078a516a06f648ab239e4a3e5313ebfc8520e71642b"
+  },
+  {
+   "path": "04_OD01_Gate_Impact_Matrix.csv",
+   "bytes": 4273,
+   "sha256": "50d96bab264b0a14fb4a37706b4300c8824e0ab290935bf0bb2def264411924b"
+  },
+  {
+   "path": "05_OD01_Role_Assignments.md",
+   "bytes": 3311,
+   "sha256": "44147225d41202b5c54650afa4b903b37afb565d44960a8253ceed7a92bc04d1"
+  },
+  {
+   "path": "06_OD01_D7_Repository_Visibility_Decision.md",
+   "bytes": 4069,
+   "sha256": "dba1ac586ac8f0e3ad32e8f38ac2d5c28c0e2d44b46ee5b173e55d41b7d603c5"
+  },
+  {
+   "path": "07_OD01_AC20_Release_Authorization_Status.md",
+   "bytes": 3103,
+   "sha256": "bb9ac0d77044c6ffeb4bc4234ac9a4df540328d8b948935ccb13d93cb58d7f73"
+  },
+  {
+   "path": "08_OD01_Open_Evidence_After_Decisions.csv",
+   "bytes": 7978,
+   "sha256": "c0c6e037fb7bf674870c31c8bc948f717955f76b12cf4be8356a37f7fe2a868e"
+  },
+  {
+   "path": "09_OD01_Governance_Synchronization_Log.md",
+   "bytes": 8370,
+   "sha256": "38966fb336899c60a40f811890fa6c96833cf59a748ff77be149c330c0e2b608"
+  },
+  {
+   "path": "10_OD01_Evidence_Index.md",
+   "bytes": 3177,
+   "sha256": "dee0ab90e066a34daf1f46e959839e3076e56bb250d20809b28951941d0638d9"
+  },
+  {
+   "path": "11_scripts/od01_build_tables.py",
+   "bytes": 28320,
+   "sha256": "e28c7320be5289262535a2519ce6e38c430d2d7ef0f6d54823239a3ef7d6ccde"
+  },
+  {
+   "path": "11_scripts/od01_manifest.py",
+   "bytes": 4386,
+   "sha256": "e81ad19b315cf520e60b02ee63eb66ffc477a42c89ad1cf3764c125b167b84f2"
+  },
+  {
+   "path": "11_scripts/od01_prepublication_scan.py",
+   "bytes": 6853,
+   "sha256": "60f2b046d3a347b15da5da365ff5df7686abcfb6cd9bc509c380a1c0a48e8730"
+  },
+  {
+   "path": "11_scripts/od01_qa.py",
+   "bytes": 10528,
+   "sha256": "ac67c8c2e7054f50d373e4b4d6db6684bcc56b9f6633964f0f269d3d550ce051"
+  },
+  {
+   "path": "12_qa/od01_prepublication_audit.md",
+   "bytes": 5273,
+   "sha256": "a4161d4391a4bf87b42c8628784b4c42c9432020fb61350caa2224e329c40dac"
+  },
+  {
+   "path": "12_qa/od01_qa_results.json",
+   "bytes": 3988,
+   "sha256": "0eb22e58956e679378607389ca5da25936c32e5b28df0ee8f0f420fbd3cbef40"
+  },
+  {
+   "path": "12_qa/od01_qa_results.md",
+   "bytes": 2752,
+   "sha256": "35d12df7088ad931589facaf109aba8a110fed866641c99bf056641f385a8878"
+  },
+  {
+   "path": "OD01_Mashal_Accessibility_Content_Queue.csv",
+   "bytes": 41055,
+   "sha256": "ae3675678eb723177def0cceaab5f3a7bb67245750515ce7d19e4a3a902ca349"
+  },
+  {
+   "path": "OD01_Mashal_Arabic_Review_Queue.csv",
+   "bytes": 15018,
+   "sha256": "a698070d108d5748438df0f5a3ae26547f5adcd8921057e7f91925d0b8391863"
+  }
+ ]
+}

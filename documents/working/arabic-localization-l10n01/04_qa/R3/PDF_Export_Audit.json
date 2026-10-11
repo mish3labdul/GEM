@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "local",
+    "sha256": "7a0060f3c7c89236011523ce15ec5da9bc2231ccdd0af2d6a4a6ac2d9d01d568",
+    "pages": 24,
+    "tagged": false,
+    "language": "None",
+    "dimensions_pts": [
+      0.0,
+      0.0,
+      1200.0,
+      675.0
+    ],
+    "metadata": {
+      "/CreationDate": "D:20261011100836Z00'00'",
+      "/Producer": "macOS Version 26.3.1 (Build 25D2128) Quartz PDFContext",
+      "/ModDate": "D:20261011100836Z00'00'"
+    },
+    "release_status": "REJECTED / NOT FOR USE"
+  },
+  {
+    "mode": "online",
+    "sha256": "d7738559156509fb20ca33748f7874f80767e97c1a6cbb8b5529cc9e670c70dd",
+    "pages": 24,
+    "tagged": true,
+    "language": "en",
+    "dimensions_pts": [
+      0.0,
+      0.0,
+      1200.24,
+      675.36
+    ],
+    "metadata": {
+      "/Title": "GEM™ — مستلزمات الضيافة والتغليف — مجموعة تصورات المنتجات V3.0 — مسودة تعريب L10N01 / R2",
+      "/Author": "",
+      "/Subject": "ARABIC LOCALIZATION WORKING DRAFT / PENDING LOCALIZATION APPROVAL / INTERNAL REVIEW ONLY / CONCEPT / NOT PRODUCTION ARTWORK",
+      "/CreationDate": "D:20261011101142+00'00'",
+      "/ModDate": "D:20261011101142+00'00'"
+    },
+    "release_status": "REJECTED / NOT FOR USE"
+  }
+]

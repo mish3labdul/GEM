@@ -1,0 +1,3850 @@
+{
+ "index.html@desktop-1440": {
+  "layout": {
+   "width": 1440,
+   "scrollWidth": 1440,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-symbol-beige.svg",
+     "alt": "",
+     "visible": true,
+     "ok": true,
+     "w": 468
+    },
+    {
+     "src": "material-study-800.webp",
+     "alt": "Close view of textured ivory GEM packaging, a debossed arc and contrasting dark material.",
+     "visible": true,
+     "ok": true,
+     "w": 740
+    },
+    {
+     "src": "amenity-family-800.webp",
+     "alt": "Five GEM-branded amber and ivory pump bottles on a warm stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 740
+    },
+    {
+     "src": "room-set-3x2-480.webp",
+     "alt": "Concept image: five GEM pump bottles in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 400
+    },
+    {
+     "src": "wall-mounted-480.webp",
+     "alt": "Concept image: GEM body wash bottle held in a black wall-mounted bracket on a stone wall.",
+     "visible": true,
+     "ok": true,
+     "w": 400
+    },
+    {
+     "src": "packaging-study-480.webp",
+     "alt": "An open ivory GEM amenity box with five travel bottles and a branded lid.",
+     "visible": true,
+     "ok": true,
+     "w": 400
+    },
+    {
+     "src": "arrival-800.webp",
+     "alt": "Concept image: a cream GEM welcome card, a dark key sleeve and a key card on a stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 620
+    },
+    {
+     "src": "guest-arrangement-800.webp",
+     "alt": "GEM-branded bottles and guest stationery arranged on warm stone beside a white towel.",
+     "visible": true,
+     "ok": true,
+     "w": 740
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "reference.html#labels",
+    "reference.html#production",
+    "privacy.html",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 7516.703125,
+     "bottom": 7560.703125,
+     "left": 80,
+     "right": 144.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 7560.703125,
+     "bottom": 7604.703125,
+     "left": 80,
+     "right": 231.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 7604.703125,
+     "bottom": 7648.703125,
+     "left": 80,
+     "right": 144.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 7648.703125,
+     "bottom": 7692.703125,
+     "left": 80,
+     "right": 170.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 7692.703125,
+     "bottom": 7736.703125,
+     "left": 80,
+     "right": 135.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 7736.703125,
+     "bottom": 7780.703125,
+     "left": 80,
+     "right": 186.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 7516.703125,
+     "bottom": 7560.703125,
+     "left": 732,
+     "right": 915.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 7560.703125,
+     "bottom": 7604.703125,
+     "left": 732,
+     "right": 889.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     48
+    ],
+    "frames": [
+     {
+      "src": "material-study-800.webp",
+      "box": 1.5,
+      "nat": 1.501
+     },
+     {
+      "src": "amenity-family-800.webp",
+      "box": 1.5,
+      "nat": 1.501
+     },
+     {
+      "src": "room-set-3x2-480.webp",
+      "box": 1.5,
+      "nat": 1.504
+     },
+     {
+      "src": "packaging-study-480.webp",
+      "box": 1.5,
+      "nat": 1.504
+     },
+     {
+      "src": "arrival-800.webp",
+      "box": 1.5,
+      "nat": 1.501
+     },
+     {
+      "src": "guest-arrangement-800.webp",
+      "box": 1.5,
+      "nat": 1.501
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [
+     {
+      "id": "f-name",
+      "w": 420
+     },
+     {
+      "id": "f-email",
+      "w": 420
+     },
+     {
+      "id": "f-org",
+      "w": 420
+     },
+     {
+      "id": "f-message",
+      "w": 420
+     }
+    ],
+    "radios": [
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ]
+    ],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 1
+   }
+  ],
+  "requests": 15
+ },
+ "index.html@breakpoint-1024": {
+  "layout": {
+   "width": 1024,
+   "scrollWidth": 1024,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-symbol-beige.svg",
+     "alt": "",
+     "visible": true,
+     "ok": true,
+     "w": 468
+    },
+    {
+     "src": "material-study-800.webp",
+     "alt": "Close view of textured ivory GEM packaging, a debossed arc and contrasting dark material.",
+     "visible": true,
+     "ok": true,
+     "w": 593
+    },
+    {
+     "src": "amenity-family-800.webp",
+     "alt": "Five GEM-branded amber and ivory pump bottles on a warm stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 593
+    },
+    {
+     "src": "room-set-3x2-480.webp",
+     "alt": "Concept image: five GEM pump bottles in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 307
+    },
+    {
+     "src": "wall-mounted-480.webp",
+     "alt": "Concept image: GEM body wash bottle held in a black wall-mounted bracket on a stone wall.",
+     "visible": true,
+     "ok": true,
+     "w": 307
+    },
+    {
+     "src": "packaging-study-480.webp",
+     "alt": "An open ivory GEM amenity box with five travel bottles and a branded lid.",
+     "visible": true,
+     "ok": true,
+     "w": 307
+    },
+    {
+     "src": "arrival-480.webp",
+     "alt": "Concept image: a cream GEM welcome card, a dark key sleeve and a key card on a stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 460
+    },
+    {
+     "src": "guest-arrangement-800.webp",
+     "alt": "GEM-branded bottles and guest stationery arranged on warm stone beside a white towel.",
+     "visible": true,
+     "ok": true,
+     "w": 593
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "reference.html#labels",
+    "reference.html#production",
+    "privacy.html",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 7474.5,
+     "bottom": 7518.5,
+     "left": 48,
+     "right": 112.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 7518.5,
+     "bottom": 7562.5,
+     "left": 48,
+     "right": 199.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 7562.5,
+     "bottom": 7606.5,
+     "left": 48,
+     "right": 112.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 7606.5,
+     "bottom": 7650.5,
+     "left": 48,
+     "right": 138.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 7650.5,
+     "bottom": 7694.5,
+     "left": 48,
+     "right": 103.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 7694.5,
+     "bottom": 7738.5,
+     "left": 48,
+     "right": 154.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 7474.5,
+     "bottom": 7518.5,
+     "left": 524,
+     "right": 707.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 7518.5,
+     "bottom": 7562.5,
+     "left": 524,
+     "right": 681.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     48
+    ],
+    "frames": [
+     {
+      "src": "material-study-800.webp",
+      "box": 1.5,
+      "nat": 1.501
+     },
+     {
+      "src": "amenity-family-800.webp",
+      "box": 1.5,
+      "nat": 1.501
+     },
+     {
+      "src": "room-set-3x2-480.webp",
+      "box": 1.5,
+      "nat": 1.505
+     },
+     {
+      "src": "packaging-study-480.webp",
+      "box": 1.5,
+      "nat": 1.505
+     },
+     {
+      "src": "arrival-480.webp",
+      "box": 1.5,
+      "nat": 1.498
+     },
+     {
+      "src": "guest-arrangement-800.webp",
+      "box": 1.5,
+      "nat": 1.501
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [
+     {
+      "id": "f-name",
+      "w": 420
+     },
+     {
+      "id": "f-email",
+      "w": 420
+     },
+     {
+      "id": "f-org",
+      "w": 420
+     },
+     {
+      "id": "f-message",
+      "w": 420
+     }
+    ],
+    "radios": [
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ]
+    ],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [
+   {
+    "id": "color-contrast",
+    "nodes": 2
+   }
+  ],
+  "requests": 15
+ },
+ "index.html@tablet-768": {
+  "layout": {
+   "width": 768,
+   "scrollWidth": 768,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-symbol-beige.svg",
+     "alt": "",
+     "visible": true,
+     "ok": true,
+     "w": 468
+    },
+    {
+     "src": "material-study-480.webp",
+     "alt": "Close view of textured ivory GEM packaging, a debossed arc and contrasting dark material.",
+     "visible": true,
+     "ok": true,
+     "w": 384
+    },
+    {
+     "src": "amenity-family-800.webp",
+     "alt": "Five GEM-branded amber and ivory pump bottles on a warm stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 768
+    },
+    {
+     "src": "room-set-3x2-480.webp",
+     "alt": "Concept image: five GEM pump bottles in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 345
+    },
+    {
+     "src": "wall-mounted-480.webp",
+     "alt": "Concept image: GEM body wash bottle held in a black wall-mounted bracket on a stone wall.",
+     "visible": true,
+     "ok": true,
+     "w": 345
+    },
+    {
+     "src": "packaging-study-480.webp",
+     "alt": "An open ivory GEM amenity box with five travel bottles and a branded lid.",
+     "visible": true,
+     "ok": true,
+     "w": 345
+    },
+    {
+     "src": "arrival-800.webp",
+     "alt": "Concept image: a cream GEM welcome card, a dark key sleeve and a key card on a stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 768
+    },
+    {
+     "src": "guest-arrangement-800.webp",
+     "alt": "GEM-branded bottles and guest stationery arranged on warm stone beside a white towel.",
+     "visible": true,
+     "ok": true,
+     "w": 768
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "reference.html#labels",
+    "reference.html#production",
+    "privacy.html",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 10273.9375,
+     "bottom": 10317.9375,
+     "left": 32,
+     "right": 96.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 10317.9375,
+     "bottom": 10361.9375,
+     "left": 32,
+     "right": 183.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 10361.9375,
+     "bottom": 10405.9375,
+     "left": 32,
+     "right": 96.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 10405.9375,
+     "bottom": 10449.9375,
+     "left": 32,
+     "right": 122.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 10449.9375,
+     "bottom": 10493.9375,
+     "left": 32,
+     "right": 87.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 10493.9375,
+     "bottom": 10537.9375,
+     "left": 32,
+     "right": 138.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 10597.9375,
+     "bottom": 10641.9375,
+     "left": 32,
+     "right": 215.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 10641.9375,
+     "bottom": 10685.9375,
+     "left": 32,
+     "right": 189.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     48
+    ],
+    "frames": [
+     {
+      "src": "material-study-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     },
+     {
+      "src": "amenity-family-800.webp",
+      "box": 1.5,
+      "nat": 1.503
+     },
+     {
+      "src": "room-set-3x2-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     },
+     {
+      "src": "packaging-study-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     },
+     {
+      "src": "arrival-800.webp",
+      "box": 1.5,
+      "nat": 1.503
+     },
+     {
+      "src": "guest-arrangement-800.webp",
+      "box": 1.5,
+      "nat": 1.503
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [
+     {
+      "id": "f-name",
+      "w": 420
+     },
+     {
+      "id": "f-email",
+      "w": 420
+     },
+     {
+      "id": "f-org",
+      "w": 420
+     },
+     {
+      "id": "f-message",
+      "w": 420
+     }
+    ],
+    "radios": [
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ]
+    ],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 15
+ },
+ "index.html@mobile-375": {
+  "layout": {
+   "width": 375,
+   "scrollWidth": 375,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-symbol-beige.svg",
+     "alt": "",
+     "visible": true,
+     "ok": true,
+     "w": 468
+    },
+    {
+     "src": "material-study-480.webp",
+     "alt": "Close view of textured ivory GEM packaging, a debossed arc and contrasting dark material.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "amenity-family-480.webp",
+     "alt": "Five GEM-branded amber and ivory pump bottles on a warm stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "room-set-3x2-480.webp",
+     "alt": "Concept image: five GEM pump bottles in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "wall-mounted-480.webp",
+     "alt": "Concept image: GEM body wash bottle held in a black wall-mounted bracket on a stone wall.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "packaging-study-480.webp",
+     "alt": "An open ivory GEM amenity box with five travel bottles and a branded lid.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "arrival-480.webp",
+     "alt": "Concept image: a cream GEM welcome card, a dark key sleeve and a key card on a stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "guest-arrangement-480.webp",
+     "alt": "GEM-branded bottles and guest stationery arranged on warm stone beside a white towel.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "reference.html#labels",
+    "reference.html#production",
+    "privacy.html",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 11094.234375,
+     "bottom": 11138.234375,
+     "left": 16,
+     "right": 80.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 11138.234375,
+     "bottom": 11182.234375,
+     "left": 16,
+     "right": 167.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 11182.234375,
+     "bottom": 11226.234375,
+     "left": 16,
+     "right": 80.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 11226.234375,
+     "bottom": 11270.234375,
+     "left": 16,
+     "right": 106.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 11270.234375,
+     "bottom": 11314.234375,
+     "left": 16,
+     "right": 71.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 11314.234375,
+     "bottom": 11358.234375,
+     "left": 16,
+     "right": 122.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 11606.234375,
+     "bottom": 11650.234375,
+     "left": 16,
+     "right": 199.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 11650.234375,
+     "bottom": 11694.234375,
+     "left": 16,
+     "right": 173.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     40
+    ],
+    "frames": [
+     {
+      "src": "material-study-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     },
+     {
+      "src": "amenity-family-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     },
+     {
+      "src": "room-set-3x2-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     },
+     {
+      "src": "packaging-study-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     },
+     {
+      "src": "arrival-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     },
+     {
+      "src": "guest-arrangement-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [
+     {
+      "id": "f-name",
+      "w": 343
+     },
+     {
+      "id": "f-email",
+      "w": 343
+     },
+     {
+      "id": "f-org",
+      "w": 343
+     },
+     {
+      "id": "f-message",
+      "w": 343
+     }
+    ],
+    "radios": [
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ]
+    ],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 15
+ },
+ "index.html@narrow-320": {
+  "layout": {
+   "width": 320,
+   "scrollWidth": 320,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-symbol-beige.svg",
+     "alt": "",
+     "visible": true,
+     "ok": true,
+     "w": 468
+    },
+    {
+     "src": "material-study-480.webp",
+     "alt": "Close view of textured ivory GEM packaging, a debossed arc and contrasting dark material.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "amenity-family-480.webp",
+     "alt": "Five GEM-branded amber and ivory pump bottles on a warm stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "room-set-3x2-480.webp",
+     "alt": "Concept image: five GEM pump bottles in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "wall-mounted-480.webp",
+     "alt": "Concept image: GEM body wash bottle held in a black wall-mounted bracket on a stone wall.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "packaging-study-480.webp",
+     "alt": "An open ivory GEM amenity box with five travel bottles and a branded lid.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "arrival-480.webp",
+     "alt": "Concept image: a cream GEM welcome card, a dark key sleeve and a key card on a stone surface.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "guest-arrangement-480.webp",
+     "alt": "GEM-branded bottles and guest stationery arranged on warm stone beside a white towel.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    },
+    {
+     "href": "#approach",
+     "ok": true
+    },
+    {
+     "href": "#amenities",
+     "ok": true
+    },
+    {
+     "href": "#packages",
+     "ok": true
+    },
+    {
+     "href": "#clients",
+     "ok": true
+    },
+    {
+     "href": "#partners",
+     "ok": true
+    },
+    {
+     "href": "#enquire",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "reference.html#labels",
+    "reference.html#production",
+    "privacy.html",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 11541.59375,
+     "bottom": 11585.59375,
+     "left": 16,
+     "right": 80.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 11585.59375,
+     "bottom": 11629.59375,
+     "left": 16,
+     "right": 167.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 11629.59375,
+     "bottom": 11673.59375,
+     "left": 16,
+     "right": 80.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 11673.59375,
+     "bottom": 11717.59375,
+     "left": 16,
+     "right": 106.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 11717.59375,
+     "bottom": 11761.59375,
+     "left": 16,
+     "right": 71.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 11761.59375,
+     "bottom": 11805.59375,
+     "left": 16,
+     "right": 122.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 12053.59375,
+     "bottom": 12097.59375,
+     "left": 16,
+     "right": 199.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 12097.59375,
+     "bottom": 12141.59375,
+     "left": 16,
+     "right": 173.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     40
+    ],
+    "frames": [
+     {
+      "src": "material-study-480.webp",
+      "box": 1.5,
+      "nat": 1.502
+     },
+     {
+      "src": "amenity-family-480.webp",
+      "box": 1.5,
+      "nat": 1.502
+     },
+     {
+      "src": "room-set-3x2-480.webp",
+      "box": 1.5,
+      "nat": 1.502
+     },
+     {
+      "src": "packaging-study-480.webp",
+      "box": 1.5,
+      "nat": 1.502
+     },
+     {
+      "src": "arrival-480.webp",
+      "box": 1.5,
+      "nat": 1.502
+     },
+     {
+      "src": "guest-arrangement-480.webp",
+      "box": 1.5,
+      "nat": 1.502
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [
+     {
+      "id": "f-name",
+      "w": 288
+     },
+     {
+      "id": "f-email",
+      "w": 288
+     },
+     {
+      "id": "f-org",
+      "w": 288
+     },
+     {
+      "id": "f-message",
+      "w": 288
+     }
+    ],
+    "radios": [
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ],
+     [
+      24,
+      24
+     ]
+    ],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 15
+ },
+ "reference.html@desktop-1440": {
+  "layout": {
+   "width": 1440,
+   "scrollWidth": 1440,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM horizontal logo, beige on ink",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-ink.svg",
+     "alt": "GEM horizontal logo, ink on white",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "materials-1200.webp",
+     "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring.",
+     "visible": true,
+     "ok": true,
+     "w": 864
+    },
+    {
+     "src": "threshold-480.webp",
+     "alt": "A tall pale opening of light in a dark room, its glow falling across the floor.",
+     "visible": true,
+     "ok": true,
+     "w": 432
+    },
+    {
+     "src": "room-set-1200.webp",
+     "alt": "Concept image: five GEM bottles (shampoo, conditioner, body wash, body lotion, hand wash) in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 820
+    },
+    {
+     "src": "label-study-1200.webp",
+     "alt": "Concept image: an amber GEM shampoo bottle on a stone ledge. Its dark label reads GEM, then a short rule, then Shampoo in English with the Arabic name beneath, then an open field above a cropped ring.",
+     "visible": true,
+     "ok": true,
+     "w": 820
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 3
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#principles",
+     "ok": true
+    },
+    {
+     "href": "#logo",
+     "ok": true
+    },
+    {
+     "href": "#colour",
+     "ok": true
+    },
+    {
+     "href": "#type",
+     "ok": true
+    },
+    {
+     "href": "#graphic",
+     "ok": true
+    },
+    {
+     "href": "#imagery",
+     "ok": true
+    },
+    {
+     "href": "#voice",
+     "ok": true
+    },
+    {
+     "href": "#labels",
+     "ok": true
+    },
+    {
+     "href": "#production",
+     "ok": true
+    },
+    {
+     "href": "#status",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 8421.484375,
+     "bottom": 8465.484375,
+     "left": 80,
+     "right": 144.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 8465.484375,
+     "bottom": 8509.484375,
+     "left": 80,
+     "right": 231.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 8509.484375,
+     "bottom": 8553.484375,
+     "left": 80,
+     "right": 144.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 8553.484375,
+     "bottom": 8597.484375,
+     "left": 80,
+     "right": 170.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 8597.484375,
+     "bottom": 8641.484375,
+     "left": 80,
+     "right": 135.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 8641.484375,
+     "bottom": 8685.484375,
+     "left": 80,
+     "right": 186.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 8421.484375,
+     "bottom": 8465.484375,
+     "left": 732,
+     "right": 915.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 8465.484375,
+     "bottom": 8509.484375,
+     "left": 732,
+     "right": 889.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     48
+    ],
+    "frames": [
+     {
+      "src": "label-study-1200.webp",
+      "box": 1.5,
+      "nat": 1.502
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 12
+ },
+ "reference.html@breakpoint-1024": {
+  "layout": {
+   "width": 1024,
+   "scrollWidth": 1024,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM horizontal logo, beige on ink",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-ink.svg",
+     "alt": "GEM horizontal logo, ink on white",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "materials-800.webp",
+     "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring.",
+     "visible": true,
+     "ok": true,
+     "w": 614
+    },
+    {
+     "src": "threshold-480.webp",
+     "alt": "A tall pale opening of light in a dark room, its glow falling across the floor.",
+     "visible": true,
+     "ok": true,
+     "w": 307
+    },
+    {
+     "src": "room-set-800.webp",
+     "alt": "Concept image: five GEM bottles (shampoo, conditioner, body wash, body lotion, hand wash) in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 614
+    },
+    {
+     "src": "label-study-800.webp",
+     "alt": "Concept image: an amber GEM shampoo bottle on a stone ledge. Its dark label reads GEM, then a short rule, then Shampoo in English with the Arabic name beneath, then an open field above a cropped ring.",
+     "visible": true,
+     "ok": true,
+     "w": 614
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 3
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#principles",
+     "ok": true
+    },
+    {
+     "href": "#logo",
+     "ok": true
+    },
+    {
+     "href": "#colour",
+     "ok": true
+    },
+    {
+     "href": "#type",
+     "ok": true
+    },
+    {
+     "href": "#graphic",
+     "ok": true
+    },
+    {
+     "href": "#imagery",
+     "ok": true
+    },
+    {
+     "href": "#voice",
+     "ok": true
+    },
+    {
+     "href": "#labels",
+     "ok": true
+    },
+    {
+     "href": "#production",
+     "ok": true
+    },
+    {
+     "href": "#status",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 8313.21875,
+     "bottom": 8357.21875,
+     "left": 48,
+     "right": 112.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 8357.21875,
+     "bottom": 8401.21875,
+     "left": 48,
+     "right": 199.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 8401.21875,
+     "bottom": 8445.21875,
+     "left": 48,
+     "right": 112.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 8445.21875,
+     "bottom": 8489.21875,
+     "left": 48,
+     "right": 138.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 8489.21875,
+     "bottom": 8533.21875,
+     "left": 48,
+     "right": 103.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 8533.21875,
+     "bottom": 8577.21875,
+     "left": 48,
+     "right": 154.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 8313.21875,
+     "bottom": 8357.21875,
+     "left": 524,
+     "right": 707.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 8357.21875,
+     "bottom": 8401.21875,
+     "left": 524,
+     "right": 681.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     48
+    ],
+    "frames": [
+     {
+      "src": "label-study-800.webp",
+      "box": 1.5,
+      "nat": 1.501
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 12
+ },
+ "reference.html@tablet-768": {
+  "layout": {
+   "width": 768,
+   "scrollWidth": 768,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM horizontal logo, beige on ink",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-ink.svg",
+     "alt": "GEM horizontal logo, ink on white",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "materials-800.webp",
+     "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring.",
+     "visible": true,
+     "ok": true,
+     "w": 768
+    },
+    {
+     "src": "threshold-480.webp",
+     "alt": "A tall pale opening of light in a dark room, its glow falling across the floor.",
+     "visible": true,
+     "ok": true,
+     "w": 460
+    },
+    {
+     "src": "room-set-800.webp",
+     "alt": "Concept image: five GEM bottles (shampoo, conditioner, body wash, body lotion, hand wash) in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 768
+    },
+    {
+     "src": "label-study-800.webp",
+     "alt": "Concept image: an amber GEM shampoo bottle on a stone ledge. Its dark label reads GEM, then a short rule, then Shampoo in English with the Arabic name beneath, then an open field above a cropped ring.",
+     "visible": true,
+     "ok": true,
+     "w": 768
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 3
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#principles",
+     "ok": true
+    },
+    {
+     "href": "#logo",
+     "ok": true
+    },
+    {
+     "href": "#colour",
+     "ok": true
+    },
+    {
+     "href": "#type",
+     "ok": true
+    },
+    {
+     "href": "#graphic",
+     "ok": true
+    },
+    {
+     "href": "#imagery",
+     "ok": true
+    },
+    {
+     "href": "#voice",
+     "ok": true
+    },
+    {
+     "href": "#labels",
+     "ok": true
+    },
+    {
+     "href": "#production",
+     "ok": true
+    },
+    {
+     "href": "#status",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 8670.171875,
+     "bottom": 8714.171875,
+     "left": 32,
+     "right": 96.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 8714.171875,
+     "bottom": 8758.171875,
+     "left": 32,
+     "right": 183.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 8758.171875,
+     "bottom": 8802.171875,
+     "left": 32,
+     "right": 96.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 8802.171875,
+     "bottom": 8846.171875,
+     "left": 32,
+     "right": 122.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 8846.171875,
+     "bottom": 8890.171875,
+     "left": 32,
+     "right": 87.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 8890.171875,
+     "bottom": 8934.171875,
+     "left": 32,
+     "right": 138.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 8994.171875,
+     "bottom": 9038.171875,
+     "left": 32,
+     "right": 215.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 9038.171875,
+     "bottom": 9082.171875,
+     "left": 32,
+     "right": 189.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     48
+    ],
+    "frames": [
+     {
+      "src": "label-study-800.webp",
+      "box": 1.5,
+      "nat": 1.503
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 12
+ },
+ "reference.html@mobile-375": {
+  "layout": {
+   "width": 375,
+   "scrollWidth": 375,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM horizontal logo, beige on ink",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-ink.svg",
+     "alt": "GEM horizontal logo, ink on white",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "materials-480.webp",
+     "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "threshold-480.webp",
+     "alt": "A tall pale opening of light in a dark room, its glow falling across the floor.",
+     "visible": true,
+     "ok": true,
+     "w": 224
+    },
+    {
+     "src": "room-set-480.webp",
+     "alt": "Concept image: five GEM bottles (shampoo, conditioner, body wash, body lotion, hand wash) in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "label-study-480.webp",
+     "alt": "Concept image: an amber GEM shampoo bottle on a stone ledge. Its dark label reads GEM, then a short rule, then Shampoo in English with the Arabic name beneath, then an open field above a cropped ring.",
+     "visible": true,
+     "ok": true,
+     "w": 375
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 3
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#principles",
+     "ok": true
+    },
+    {
+     "href": "#logo",
+     "ok": true
+    },
+    {
+     "href": "#colour",
+     "ok": true
+    },
+    {
+     "href": "#type",
+     "ok": true
+    },
+    {
+     "href": "#graphic",
+     "ok": true
+    },
+    {
+     "href": "#imagery",
+     "ok": true
+    },
+    {
+     "href": "#voice",
+     "ok": true
+    },
+    {
+     "href": "#labels",
+     "ok": true
+    },
+    {
+     "href": "#production",
+     "ok": true
+    },
+    {
+     "href": "#status",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 10448.9375,
+     "bottom": 10492.9375,
+     "left": 16,
+     "right": 80.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 10492.9375,
+     "bottom": 10536.9375,
+     "left": 16,
+     "right": 167.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 10536.9375,
+     "bottom": 10580.9375,
+     "left": 16,
+     "right": 80.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 10580.9375,
+     "bottom": 10624.9375,
+     "left": 16,
+     "right": 106.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 10624.9375,
+     "bottom": 10668.9375,
+     "left": 16,
+     "right": 71.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 10668.9375,
+     "bottom": 10712.9375,
+     "left": 16,
+     "right": 122.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 10960.9375,
+     "bottom": 11004.9375,
+     "left": 16,
+     "right": 199.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 11004.9375,
+     "bottom": 11048.9375,
+     "left": 16,
+     "right": 173.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     40,
+     48
+    ],
+    "frames": [
+     {
+      "src": "label-study-480.webp",
+      "box": 1.5,
+      "nat": 1.5
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 12
+ },
+ "reference.html@narrow-320": {
+  "layout": {
+   "width": 320,
+   "scrollWidth": 320,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM horizontal logo, beige on ink",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-ink.svg",
+     "alt": "GEM horizontal logo, ink on white",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "materials-480.webp",
+     "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "threshold-480.webp",
+     "alt": "A tall pale opening of light in a dark room, its glow falling across the floor.",
+     "visible": true,
+     "ok": true,
+     "w": 192
+    },
+    {
+     "src": "room-set-480.webp",
+     "alt": "Concept image: five GEM bottles (shampoo, conditioner, body wash, body lotion, hand wash) in a tray on a stone shelf beside a folded towel and a cream card.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "label-study-480.webp",
+     "alt": "Concept image: an amber GEM shampoo bottle on a stone ledge. Its dark label reads GEM, then a short rule, then Shampoo in English with the Arabic name beneath, then an open field above a cropped ring.",
+     "visible": true,
+     "ok": true,
+     "w": 320
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 3
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    },
+    {
+     "href": "#principles",
+     "ok": true
+    },
+    {
+     "href": "#logo",
+     "ok": true
+    },
+    {
+     "href": "#colour",
+     "ok": true
+    },
+    {
+     "href": "#type",
+     "ok": true
+    },
+    {
+     "href": "#graphic",
+     "ok": true
+    },
+    {
+     "href": "#imagery",
+     "ok": true
+    },
+    {
+     "href": "#voice",
+     "ok": true
+    },
+    {
+     "href": "#labels",
+     "ok": true
+    },
+    {
+     "href": "#production",
+     "ok": true
+    },
+    {
+     "href": "#status",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 11237.4375,
+     "bottom": 11281.4375,
+     "left": 16,
+     "right": 80.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 11281.4375,
+     "bottom": 11325.4375,
+     "left": 16,
+     "right": 167.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 11325.4375,
+     "bottom": 11369.4375,
+     "left": 16,
+     "right": 80.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 11369.4375,
+     "bottom": 11413.4375,
+     "left": 16,
+     "right": 106.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 11413.4375,
+     "bottom": 11457.4375,
+     "left": 16,
+     "right": 71.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 11457.4375,
+     "bottom": 11501.4375,
+     "left": 16,
+     "right": 122.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 11749.4375,
+     "bottom": 11793.4375,
+     "left": 16,
+     "right": 199.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 11793.4375,
+     "bottom": 11837.4375,
+     "left": 16,
+     "right": 173.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     24,
+     32,
+     40,
+     48
+    ],
+    "frames": [
+     {
+      "src": "label-study-480.webp",
+      "box": 1.5,
+      "nat": 1.502
+     }
+    ],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 12
+ },
+ "privacy.html@desktop-1440": {
+  "layout": {
+   "width": 1440,
+   "scrollWidth": 1440,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 1706.609375,
+     "bottom": 1750.609375,
+     "left": 80,
+     "right": 144.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 1750.609375,
+     "bottom": 1794.609375,
+     "left": 80,
+     "right": 231.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 1794.609375,
+     "bottom": 1838.609375,
+     "left": 80,
+     "right": 144.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 1838.609375,
+     "bottom": 1882.609375,
+     "left": 80,
+     "right": 170.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 1882.609375,
+     "bottom": 1926.609375,
+     "left": 80,
+     "right": 135.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 1926.609375,
+     "bottom": 1970.609375,
+     "left": 80,
+     "right": 186.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 1706.609375,
+     "bottom": 1750.609375,
+     "left": 732,
+     "right": 915.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 1750.609375,
+     "bottom": 1794.609375,
+     "left": 732,
+     "right": 889.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     32,
+     48
+    ],
+    "frames": [],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 7
+ },
+ "privacy.html@breakpoint-1024": {
+  "layout": {
+   "width": 1024,
+   "scrollWidth": 1024,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 1753.921875,
+     "bottom": 1797.921875,
+     "left": 48,
+     "right": 112.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 1797.921875,
+     "bottom": 1841.921875,
+     "left": 48,
+     "right": 199.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 1841.921875,
+     "bottom": 1885.921875,
+     "left": 48,
+     "right": 112.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 1885.921875,
+     "bottom": 1929.921875,
+     "left": 48,
+     "right": 138.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 1929.921875,
+     "bottom": 1973.921875,
+     "left": 48,
+     "right": 103.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 1973.921875,
+     "bottom": 2017.921875,
+     "left": 48,
+     "right": 154.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 1753.921875,
+     "bottom": 1797.921875,
+     "left": 524,
+     "right": 707.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 1797.921875,
+     "bottom": 1841.921875,
+     "left": 524,
+     "right": 681.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     32,
+     48
+    ],
+    "frames": [],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 7
+ },
+ "privacy.html@tablet-768": {
+  "layout": {
+   "width": 768,
+   "scrollWidth": 768,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 1706.609375,
+     "bottom": 1750.609375,
+     "left": 32,
+     "right": 96.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 1750.609375,
+     "bottom": 1794.609375,
+     "left": 32,
+     "right": 183.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 1794.609375,
+     "bottom": 1838.609375,
+     "left": 32,
+     "right": 96.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 1838.609375,
+     "bottom": 1882.609375,
+     "left": 32,
+     "right": 122.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 1882.609375,
+     "bottom": 1926.609375,
+     "left": 32,
+     "right": 87.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 1926.609375,
+     "bottom": 1970.609375,
+     "left": 32,
+     "right": 138.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 2030.609375,
+     "bottom": 2074.609375,
+     "left": 32,
+     "right": 215.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 2074.609375,
+     "bottom": 2118.609375,
+     "left": 32,
+     "right": 189.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     32,
+     48
+    ],
+    "frames": [],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 7
+ },
+ "privacy.html@mobile-375": {
+  "layout": {
+   "width": 375,
+   "scrollWidth": 375,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 2050.609375,
+     "bottom": 2094.609375,
+     "left": 16,
+     "right": 80.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 2094.609375,
+     "bottom": 2138.609375,
+     "left": 16,
+     "right": 167.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 2138.609375,
+     "bottom": 2182.609375,
+     "left": 16,
+     "right": 80.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 2182.609375,
+     "bottom": 2226.609375,
+     "left": 16,
+     "right": 106.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 2226.609375,
+     "bottom": 2270.609375,
+     "left": 16,
+     "right": 71.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 2270.609375,
+     "bottom": 2314.609375,
+     "left": 16,
+     "right": 122.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 2562.609375,
+     "bottom": 2606.609375,
+     "left": 16,
+     "right": 199.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 2606.609375,
+     "bottom": 2650.609375,
+     "left": 16,
+     "right": 173.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     32,
+     40
+    ],
+    "frames": [],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 7
+ },
+ "privacy.html@narrow-320": {
+  "layout": {
+   "width": 320,
+   "scrollWidth": 320,
+   "fonts": [
+    "Jost 400",
+    "Inter 400"
+   ],
+   "weights": [
+    "400"
+   ],
+   "families": [
+    "Inter",
+    "Jost"
+   ],
+   "imgs": [
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    },
+    {
+     "src": "gem-horizontal-beige.svg",
+     "alt": "GEM",
+     "visible": true,
+     "ok": true,
+     "w": 480
+    }
+   ],
+   "h1": 1,
+   "landmarks": {
+    "header": 1,
+    "main": 1,
+    "footer": 1,
+    "nav": 2
+   },
+   "anchors": [
+    {
+     "href": "#main",
+     "ok": true
+    }
+   ],
+   "links": [
+    "index.html",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "index.html#approach",
+    "index.html#amenities",
+    "index.html#packages",
+    "index.html#clients",
+    "index.html#partners",
+    "index.html#enquire",
+    "reference.html",
+    "privacy.html"
+   ],
+   "footerLinks": [
+    {
+     "text": "Approach",
+     "top": 2254.609375,
+     "bottom": 2298.609375,
+     "left": 16,
+     "right": 80.515625,
+     "h": 44
+    },
+    {
+     "text": "Amenities & Packaging",
+     "top": 2298.609375,
+     "bottom": 2342.609375,
+     "left": 16,
+     "right": 167.34375,
+     "h": 44
+    },
+    {
+     "text": "Packages",
+     "top": 2342.609375,
+     "bottom": 2386.609375,
+     "left": 16,
+     "right": 80.484375,
+     "h": 44
+    },
+    {
+     "text": "Who it serves",
+     "top": 2386.609375,
+     "bottom": 2430.609375,
+     "left": 16,
+     "right": 106.515625,
+     "h": 44
+    },
+    {
+     "text": "Partners",
+     "top": 2430.609375,
+     "bottom": 2474.609375,
+     "left": 16,
+     "right": 71.96875,
+     "h": 44
+    },
+    {
+     "text": "Draft an enquiry",
+     "top": 2474.609375,
+     "bottom": 2518.609375,
+     "left": 16,
+     "right": 122.5625,
+     "h": 44
+    },
+    {
+     "text": "Brand and design reference",
+     "top": 2766.609375,
+     "bottom": 2810.609375,
+     "left": 16,
+     "right": 199.796875,
+     "h": 44
+    },
+    {
+     "text": "Privacy and legal notice",
+     "top": 2810.609375,
+     "bottom": 2854.609375,
+     "left": 16,
+     "right": 173.703125,
+     "h": 44
+    }
+   ],
+   "ds": {
+    "tokenSizes": [
+     12,
+     13,
+     14,
+     16,
+     18,
+     24,
+     32,
+     40,
+     48,
+     64,
+     96
+    ],
+    "sizes": [
+     12,
+     13,
+     14,
+     16,
+     32,
+     40
+    ],
+    "frames": [],
+    "uncaptioned": [],
+    "fieldWidths": [],
+    "radios": [],
+    "labelRadius": [],
+    "imgRadius": []
+   },
+   "textOutside": []
+  },
+  "axe_incomplete": [],
+  "requests": 7
+ },
+ "keyboard_desktop": [
+  {
+   "t": "Skip to content",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "GEM home",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Approach",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Amenities & Packaging",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Packages",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Who it serves",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Partners",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Draft an enquiry",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Draft an enquiry",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "See the pilot range",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "See the label order in the bra",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "pkg-room",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "q-rooms",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "q-stationery",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Add sampling to brief",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Request a quotation",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Tell us about your project",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "See all fourteen production st",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Start a partner conversation",
+   "outline": "solid 2px"
+  },
+  {
+   "t": "Read the privacy notice",
+   "outline": "solid 2px"
+  }
+ ],
+ "cta_bottom_320x640": 588.6875,
+ "perf": {
+  "lcp": 1992,
+  "cls": 0,
+  "fcp": 1180,
+  "bytes": 304661,
+  "requests": 10,
+  "conditions": "Chromium headless, 1440x900, DPR1, 4x CPU throttle, 150ms latency, 200000 B/s down, cache disabled, loopback server; viewport only, no scroll"
+ }
+}

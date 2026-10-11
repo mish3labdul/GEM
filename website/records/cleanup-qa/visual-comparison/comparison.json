@@ -1,0 +1,98 @@
+{
+  "engine": "Chromium",
+  "browser_version": "143.0.7499.4",
+  "reduced_motion": "reduce",
+  "comparisons": [
+    {
+      "page": "index",
+      "width": 1440,
+      "before_size": [
+        1440,
+        7890
+      ],
+      "after_size": [
+        1440,
+        7890
+      ],
+      "pixel_identical": true,
+      "before": "index-1440-before.png",
+      "after": "index-1440-after.png"
+    },
+    {
+      "page": "index",
+      "width": 375,
+      "before_size": [
+        375,
+        11931
+      ],
+      "after_size": [
+        375,
+        11931
+      ],
+      "pixel_identical": true,
+      "before": "index-375-before.png",
+      "after": "index-375-after.png"
+    },
+    {
+      "page": "reference",
+      "width": 1440,
+      "before_size": [
+        1440,
+        8794
+      ],
+      "after_size": [
+        1440,
+        8794
+      ],
+      "pixel_identical": true,
+      "before": "reference-1440-before.png",
+      "after": "reference-1440-after.png"
+    },
+    {
+      "page": "reference",
+      "width": 375,
+      "before_size": [
+        375,
+        11266
+      ],
+      "after_size": [
+        375,
+        11266
+      ],
+      "pixel_identical": true,
+      "before": "reference-375-before.png",
+      "after": "reference-375-after.png"
+    },
+    {
+      "page": "privacy",
+      "width": 1440,
+      "before_size": [
+        1440,
+        2216
+      ],
+      "after_size": [
+        1440,
+        2216
+      ],
+      "pixel_identical": true,
+      "before": "privacy-1440-before.png",
+      "after": "privacy-1440-after.png"
+    },
+    {
+      "page": "privacy",
+      "width": 375,
+      "before_size": [
+        375,
+        3068
+      ],
+      "after_size": [
+        375,
+        3068
+      ],
+      "pixel_identical": true,
+      "before": "privacy-375-before.png",
+      "after": "privacy-375-after.png"
+    }
+  ],
+  "passed": true
+}

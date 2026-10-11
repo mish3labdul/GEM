@@ -1,0 +1,1 @@
+Superseded: tested the build before the room-set 480w srcset change and the removal of four unused 1536px derivatives. Kept as history.

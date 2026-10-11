@@ -1,0 +1,253 @@
+{
+ "package": "GEM_V3.0_RC2_Native_PowerPoint_Validation_NP01",
+ "purpose": "Native Microsoft PowerPoint validation evidence for the current GEM V3.0 RC2 controlled candidate decks (A-D). Evidence only; not approval.",
+ "status": "NATIVE POWERPOINT EVIDENCE — NOT AN APPROVAL — NOT RELEASED (P2 corrected in NP01-R1 in the candidate lineage only; original finding preserved)",
+ "release_label": "GEM™ V3.0 RC2 — SYNCHRONIZED / NOT RELEASED / EVIDENCE GATES REMAIN / UNAPPROVED IMPLEMENTATION CANDIDATE",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "ed81b56",
+ "governance": {
+  "D3": "RESOLVED AT OWNER-DECISION LEVEL (X12 STREAM = BRAND)",
+  "D7": "LEGAL/IP DECISION PENDING — DO NOT PUSH",
+  "D8": "external Arabic/bilingual PDF BLOCKED pending native validation",
+  "AC20": "OPEN",
+  "VAL-07/VAL-08/VAL-15": "NOT closed",
+  "Remaining Gate 11 (native PowerPoint/Word/Acrobat/AT QA)": "OPEN — NP01 supplies PowerPoint-only evidence on one Mac with unaccepted working-build fonts"
+ },
+ "pushed": false,
+ "merged": false,
+ "published": false,
+ "pr_opened": false,
+ "committed": false,
+ "repository_setting_changed": false,
+ "authoritative_originals_modified": false,
+ "candidate_inputs_modified": false,
+ "powerpoint_saves_performed": false,
+ "environment": {
+  "powerpoint": "Microsoft PowerPoint 16.113.3 (macOS)",
+  "macos": "26.3.1",
+  "installed_fonts": {
+   "GEM-Working-Jost-Regular.ttf": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5",
+   "GEM-Working-Inter-Regular.ttf": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387",
+   "GEM-Working-NotoSansArabic-Regular.ttf": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613",
+   "GEM-Working-Jost-Bold.ttf (UNACCEPTED, 700, not exercised)": "b4fe593d2c35b0818f2eada3f1c498a1e6a22100414102241cd7e6d7c1100fa2",
+   "GEM-Working-Inter-Bold.ttf (UNACCEPTED, 700, not exercised)": "e71b947fd82d521f678ba9f3005223575d5fcca30ed566918d6d3893e796128c",
+   "GEM-Working-NotoSansArabic-Bold.ttf (UNACCEPTED, 700, not exercised)": "2e369a68dbc74a6d16612f623d5319fd08d14f484b4959efe7130da885155300"
+  }
+ },
+ "method": {
+  "candidates": "byte-identical copies (hash-verified before opening and after all sessions); opened from PowerPoint's own sandbox container; closed with saving off; deleted after testing",
+  "property_sweep": "PowerPoint AppleScript; slide text ranges and table cells; range bold=true resolved per character",
+  "visual": "native window captures (89 of 217 slides) incl. all 63 D5-bold-inventory slides, all extent-flagged slides and all priority slides",
+  "limits": [
+   "object model reports requested family; substitution not detectable by properties",
+   "notes/master/layout text covered by OOXML scan only",
+   "Part B/C/D accessibility not completed",
+   "PDF/Word/Acrobat not tested",
+   "one Mac, unaccepted working-build fonts"
+  ]
+ },
+ "candidates": [
+  {
+   "Document": "Part A",
+   "Path": "GEM_V3.0_RC2_D3_Owner_Decision_Package/12_Candidate_Files/deck_candidates/GEM Brand Guidelines V3.0 — Part A — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
+   "SHA-256": "eca6b80ba6f301cf503b091821736f56c685e10d721c03a5579f9b238e1dc752",
+   "Source package": "GEM_V3.0_RC2_D3_Owner_Decision_Package",
+   "Candidate status": "D3 CANDIDATE (UNAPPROVED) — derived from ODI01-R1 Part A (86019d1e…) by C1 notes + D3B slide 75 only",
+   "Slide count": "80"
+  },
+  {
+   "Document": "Part B",
+   "Path": "GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Digital Design System V3.0 — Part B — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+   "SHA-256": "22802377eb73448ce3c9c7a0e9d2d3818195d19172f7c07470a415f03d975777",
+   "Source package": "GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1",
+   "Candidate status": "ODI01-R1 CANDIDATE (UNAPPROVED) — latest; not reissued under D3",
+   "Slide count": "35"
+  },
+  {
+   "Document": "Part C",
+   "Path": "GEM_V3.0_RC2_D3_Owner_Decision_Package/12_Candidate_Files/deck_candidates/GEM Production Standards V3.0 — Part C — RC2 — D3 CANDIDATE (UNAPPROVED).pptx",
+   "SHA-256": "3a8d291816d73f9f6f0c3aa6e1a75f5889ce9a7161d2e059e5874ba8828bb880",
+   "Source package": "GEM_V3.0_RC2_D3_Owner_Decision_Package",
+   "Candidate status": "D3 CANDIDATE (UNAPPROVED) — derived from ODI01-R1 Part C (add4269a…) by C2 slide 44 only",
+   "Slide count": "78"
+  },
+  {
+   "Document": "Part D",
+   "Path": "GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+   "SHA-256": "04d325f83fc77a01220430c00688d73529ed6de20e912fcda9ef2ddfb5bec9e1",
+   "Source package": "GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1",
+   "Candidate status": "ODI01-R1 CANDIDATE (UNAPPROVED) — D3 did not touch the Part D deck (D3A trace)",
+   "Slide count": "24"
+  }
+ ],
+ "findings": {
+  "P0": 0,
+  "P1": 0,
+  "P2": [
+   "Part B slide 30 token-excerpt box clips last line (predates ODI01/D5; same geometry in RC2 release deck)"
+  ],
+  "P3": [
+   "Part A 34, 35, 39, 41, 72, 79",
+   "Part B 4, 12",
+   "Part C 3, 4, 27, 62, 77"
+  ],
+  "bold_characters_observed": 0,
+  "environment": "macOS/PowerPoint sandbox file-access prompts (A, C, D from repo/scratch folders) — not candidate defects"
+ },
+ "screenshot_policy": "NATIVE SCREENSHOT EVIDENCE EXISTS LOCALLY AND WAS REVIEWED. SCREENSHOTS ARE INTENTIONALLY EXCLUDED FROM VERSION CONTROL PENDING D7 LEGAL/IP REPOSITORY-VISIBILITY DECISION.",
+ "screenshot_register": "GEM_V3.0_RC2_Native_PowerPoint_Validation_NP01/NP01_Local_Screenshot_Evidence_Register.csv",
+ "np01_r1": {
+  "original_p2": "Part B slide 30 (preserved)",
+  "correction_package": "GEM_V3.0_RC2_NP01-R1_Native_Layout_Correction",
+  "p2_open_count_candidate_lineage": {
+   "before": 1,
+   "after": 0
+  },
+  "note": "identical geometry remains in authoritative RC2 release/source decks"
+ },
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "powerpoint_save_note": "No deck was saved (every test copy closed with saving off; no PowerPoint-written file exists). Two scripted 'save presentation … as PNG' export attempts were made; neither wrote any file.",
+ "current_candidate_lineage_after_np01_r1": {
+  "Part A": "D3 candidate",
+  "Part B": "NP01-R1 candidate (supersedes ODI01-R1 for Part B only)",
+  "Part C": "D3 candidate",
+  "Part D": "ODI01-R1 candidate"
+ },
+ "raw_sweep_policy": "Raw native sweep evidence (per-shape and per-table-cell TSVs and per-deck notes JSON) exists locally and was used to derive the summarized results in the CSVs and reports. It is intentionally excluded from version control pending D7 because it contains short excerpts of governed deck content.",
+ "np01_status": "COMPLETE FOR THE DEFINED NATIVE POWERPOINT EVIDENCE SCOPE (evidence, not approval; not released)",
+ "files": [
+  {
+   "path": "01_NP01_Executive_Summary.md",
+   "sha256": "ae60f8ed764f883f06c18cee0a1af4e606b8768bf6a7d8b73dbcc08c0d824e25",
+   "bytes": 6708
+  },
+  {
+   "path": "02_NP01_Candidate_Baseline.csv",
+   "sha256": "034b7a47347901836afa353ccd67f8620c77e3e1f0da52323a3c12fd32954583",
+   "bytes": 2790
+  },
+  {
+   "path": "03_NP01_Font_Environment.md",
+   "sha256": "3aa46c834c1a3b071fa78d481d2ba967c258c4bb4c1f876297c01aba142f4ce2",
+   "bytes": 5795
+  },
+  {
+   "path": "04_NP01_Native_Slide_Results.csv",
+   "sha256": "df166d586e5c5700fbab1e6f0d7636c328971c9deb96e5bc920e7e8f9299f171",
+   "bytes": 30356
+  },
+  {
+   "path": "05_NP01_Priority_Slide_Findings.md",
+   "sha256": "4d54730c20abb906e9be5722fbf6a2f237a072f96ad40d6a09572beecdc3df4e",
+   "bytes": 6941
+  },
+  {
+   "path": "06_NP01_Native_Font_Validation.csv",
+   "sha256": "8b42b5befbc11782efb62abff092c36001f1cb4caf7d8e0729f8e8b18106e219",
+   "bytes": 99051
+  },
+  {
+   "path": "07_NP01_Notes_Validation.md",
+   "sha256": "7840fa0a2611dc55bc9e5470d717ad0b720580f4631afad9fd0f95187e538163",
+   "bytes": 2751
+  },
+  {
+   "path": "08_NP01_Arabic_PowerPoint_Findings.md",
+   "sha256": "4bb3ff45885ad93fb9767a544633abe24989d809e6e616cdb9669237d13703ef",
+   "bytes": 2999
+  },
+  {
+   "path": "09_NP01_Accessibility_Observation.md",
+   "sha256": "44c7e425f531817945917762daa25d8c0d336500cda09cb72ea478de6d3ab303",
+   "bytes": 2769
+  },
+  {
+   "path": "10_NP01_Open_Findings.md",
+   "sha256": "f3ff3a4b761dcb92df4db65d640e46d45106e1fd15e9c7ec9dfca8f97d5b953f",
+   "bytes": 7199
+  },
+  {
+   "path": "11_NP01_Evidence_Index.md",
+   "sha256": "017d2d8d7f637859675e8de9a044385d58ae59c85f16004717e314d957c501e1",
+   "bytes": 6139
+  },
+  {
+   "path": "14_raw_native_sweeps/np01_sweep_summary.json",
+   "sha256": "6a83d2143828fe3f134fd8c9e62069da13a563915722b181b93a288ce83ad644",
+   "bytes": 1358
+  },
+  {
+   "path": "14_raw_native_sweeps/np01_xml_prescan.json",
+   "sha256": "8c86c06dc32f3ed485457ce43f1ebe36d7062978ab5be0a7bb7fab0e52887dee",
+   "bytes": 2332
+  },
+  {
+   "path": "14_raw_native_sweeps/source_pptx_hashes_BEFORE_powerpoint.txt",
+   "sha256": "9031d1ab874569b2feb62dbf9dad85aaf75cb8cb4c5288495800eed8c58e138d",
+   "bytes": 3470
+  },
+  {
+   "path": "NP01_Local_Screenshot_Evidence_Register.csv",
+   "sha256": "373c046ea6dc9b69ec2a9a306ded20d78d4b7444cfb0b234cbb3f4872a681c37",
+   "bytes": 14875
+  },
+  {
+   "path": "NP01_Staging_Log.csv",
+   "sha256": "7a4d57f5d7279be80ba054bd348359b0a324770767b736282f6b712f9bbb8feb",
+   "bytes": 8190
+  },
+  {
+   "path": "scripts/np01_analyze.py",
+   "sha256": "eb899808a530d69effeff52ea49695940b6342b103943ffa30071c2f4112a38a",
+   "bytes": 22650
+  },
+  {
+   "path": "scripts/np01_coverage_sheets.py",
+   "sha256": "bc24f8d571fe45b77d76b1d2f1c579ce69e6e12571f1dc03cfefe17c5ba29efe",
+   "bytes": 1508
+  },
+  {
+   "path": "scripts/np01_goto.sh",
+   "sha256": "6b32904b5a26c61f4e30a289d65231bbfcf90ce473faa3cbe2ad323e379b7ff2",
+   "bytes": 311
+  },
+  {
+   "path": "scripts/np01_native_sweep_slide.applescript",
+   "sha256": "2a8e13e50e1ecee0c13231b6beb67b118a4e64b0003984be73016681d7f0e15f",
+   "bytes": 3900
+  },
+  {
+   "path": "scripts/np01_native_table_sweep_slide.applescript",
+   "sha256": "4e16517025391edde97ea8a8f3bb7ef9063080d151c244bae8d2cf815cebffc6",
+   "bytes": 2528
+  },
+  {
+   "path": "scripts/np01_open1.sh",
+   "sha256": "172c9668f45d01ac588d497c00ffffad1eb869f422f6597500f2d1ff2020b1ba",
+   "bytes": 516
+  },
+  {
+   "path": "scripts/np01_run_sweep.sh",
+   "sha256": "4af0ea1b1e0dadfe3f92e911cf7c9c5f3d5b2b0cc24635a514a58e9388ebddf7",
+   "bytes": 872
+  },
+  {
+   "path": "scripts/np01_run_table_sweep.sh",
+   "sha256": "145f49ebf299d4741ab74aba3885f4a15903c9a8c17c5ad4d617a7b31df4c2cc",
+   "bytes": 840
+  },
+  {
+   "path": "scripts/np01_xml_scan.py",
+   "sha256": "db9cd2fcefbc43f0d1454aef725ccdc1a0e060f4bac3785164c77cfe76e35ef3",
+   "bytes": 2778
+  }
+ ],
+ "excluded_from_manifest_and_version_control": [
+  "12_screenshots/ (NP01, local-only)",
+  "local_only_screenshots/ (NP01-R1, local-only)",
+  "14_raw_native_sweeps/Part_* (NP01 raw sweeps, local-only)",
+  "qa_evidence/06_native_sweep_slide30_BEFORE.tsv and 07_native_sweep_slide30_AFTER.tsv (NP01-R1 raw sweeps, local-only)",
+  ".DS_Store"
+ ]
+}

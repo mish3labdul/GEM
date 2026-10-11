@@ -1,0 +1,121 @@
+{
+ "tab_order_desktop": [
+  "Skip to content | outline solid 2px rgb(18, 23, 29)",
+  " | outline solid 2px rgb(255, 255, 255)",
+  "Approach | outline solid 2px rgb(255, 255, 255)",
+  "Amenities & Packaging | outline solid 2px rgb(255, 255, 255)",
+  "Who we work with | outline solid 2px rgb(255, 255, 255)",
+  "Partners | outline solid 2px rgb(255, 255, 255)",
+  "Start an enquiry | outline solid 2px rgb(255, 255, 255)",
+  "Start an enquiry | outline solid 2px rgb(255, 255, 255)",
+  "See what GEM provides | outline solid 2px rgb(255, 255, 255)",
+  "name | outline solid 2px rgb(18, 23, 29)",
+  "organisation | outline solid 2px rgb(18, 23, 29)",
+  "email | outline solid 2px rgb(18, 23, 29)",
+  "Choose one\n                Own | outline solid 2px rgb(18, 23, 29)",
+  "property | outline solid 2px rgb(18, 23, 29)"
+ ],
+ "skip_link_target": "main",
+ "anchors": {
+  "#approach": true,
+  "#amenities": true,
+  "#clients": true,
+  "#partners": true,
+  "#enquire": true,
+  "#top": true,
+  "#main": true
+ },
+ "headings": [
+  "H1: Every arrival, precisely composed.",
+  "H2: A supplier and partner. Not a hotel operator.",
+  "H3: Precision over decoration",
+  "H3: Restraint is the luxury",
+  "H3: Geometry is the language",
+  "H3: Space is part of the identity",
+  "H2: Amenities & Packaging",
+  "H3: The pilot family",
+  "H3: One order of information",
+  "H3: How a programme may be shaped",
+  "H4: A consistent GEM range",
+  "H4: Property Edition",
+  "H4: Bespoke Programme",
+  "H2: Who we work with",
+  "H3: Owners and developers",
+  "H3: Operations",
+  "H3: Procurement",
+  "H3: Brand and design teams",
+  "H2: Partners stand beside GEM, not inside it.",
+  "H3: Properties and brands",
+  "H3: Suppliers and manufacturers",
+  "H3: Production release sequence",
+  "H2: Tell us about your property or project.",
+  "H2: Explore",
+  "H2: Information",
+  "H2: Language"
+ ],
+ "landmarks": [
+  "header:1",
+  "nav:2",
+  "main:1",
+  "footer:1"
+ ],
+ "axe_desktop": {
+  "violations": [],
+  "passes": 47,
+  "incomplete": [
+   "color-contrast"
+  ]
+ },
+ "form_empty": {
+  "summary_visible": true,
+  "errors": [
+   "Enter your name.",
+   "Enter an email address in the format name@example.com.",
+   "Choose what your enquiry is about.",
+   "Tell us a little about your property or project."
+  ],
+  "focused": "f-name",
+  "invalid": [
+   "f-name",
+   "f-email",
+   "f-interest",
+   "interest",
+   "interest",
+   "f-message"
+  ]
+ },
+ "form_bad_email": [
+  "Enter an email address in the format name@example.com."
+ ],
+ "form_valid": {
+  "result_visible": true,
+  "focused": "form-result",
+  "output": "Enquiry for GEM\nName: Test Person\nOrganisation: Not given\nEmail: test@example.com\nRole: Procurement\nProperty or project: Not given\nAbout: Amenities & Packaging\n\nTest message for a preview check.",
+  "network_requests_on_submit": [],
+  "summary_hidden": true
+ },
+ "form_clear": {
+  "result_hidden": true,
+  "name": "",
+  "focused": "f-name",
+  "invalid_left": 0
+ },
+ "menu_initial": "false",
+ "menu_open": {
+  "expanded": "true",
+  "nav_visible": true
+ },
+ "menu_next_focus": "Approach",
+ "menu_escape": {
+  "expanded": "false",
+  "focus": "nav-toggle"
+ },
+ "axe_mobile": [],
+ "reduced_motion": {
+  "mask": "none",
+  "core": "none",
+  "stage": "mark-stage is-settled",
+  "hover": "0ms"
+ },
+ "reveal_final": "mark-stage is-settled"
+}

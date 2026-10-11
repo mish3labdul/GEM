@@ -1,0 +1,157 @@
+{
+  "reuse_policy": "No redrawing, recoloring, mirroring or media replacement; exact official kit mapping inherited from RP01 lineage, not independently reconstructed",
+  "assets": [
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image5.png",
+      "sha256": "13cacef258fd122c59eeda0fb150ffa5566348300be6617354926928219bd7cf",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image2.png",
+      "sha256": "145f91ee77c1a58a1d867c28b55dc70e07718ad94675d89382815a60c4e68c77",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image10.png",
+      "sha256": "e1d86b98741be73841b4db170667fc49b5190c32e049e11f2290e5308f6e05a9",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image3.png",
+      "sha256": "d6477709080e86da2f5e91bfcaeebf4e861868cca2ffb3285bd104c8c6a859ce",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image20.png",
+      "sha256": "4f40afbbc9192ee37da51cf44f90af74af1f5a0ad4e9ad89b84f88f6fa938d2d",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image21.svg",
+      "sha256": "21cbd8cbd930a13c3b86d235fb27228eae7200638a15d97bfbf186339203cfc2",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": true
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image14.png",
+      "sha256": "b38b813dee1a39066c0d79c92466c580e153fc1e66c84a6d390e78e83a33a989",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image1.png",
+      "sha256": "bbdba69cb979beca778540f4c339294da17275d9f479d5d827ee5d885fc9cc2d",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image18.png",
+      "sha256": "3a774abca97fb5ef563d0a0b35a7b7c8389b2a59cda6e8a8774f90500e007497",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image19.svg",
+      "sha256": "1388c586e0ad40379edf8b2e9c9747cb23e2fca2a1e247073e1469f7c0e8939a",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": true
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image16.png",
+      "sha256": "1b9bb8d732757fc1c0ab493e1b33cc9e3eeae0235cb47d39af5c6fd9240321d3",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image9.png",
+      "sha256": "1689ccef7a5a34938f625de5f3867658a20302e4138e9ae387af2c4ecbbc88f1",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image8.png",
+      "sha256": "c4008b27d503f02ef878ca0bbbd70349642abb0172f05e482a65414fa869298e",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image6.png",
+      "sha256": "03a7ba44522bbecccd2ddc2bbf3c07f16e514e0d4de098df02b2996a872cacf6",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image7.png",
+      "sha256": "b973c2119891c25e12ed29c6217a9affdc9879800ca91755e61db1cfbd0c5462",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image4.png",
+      "sha256": "2d0fd6bc252af804a0114c691c9189daddf70169c5dea1dfe23c2de37c489aea",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image13.png",
+      "sha256": "385ca6f245c3571fc0f31623715a1fff44d55742179fe8e5970ae4207413009d",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image15.png",
+      "sha256": "8c851e0f18075efb7fbd7aa462c09201bbbe9e86a41f21b55b38f447484ee1e2",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image12.png",
+      "sha256": "b71e03a81acda367850f0f2bbb8860d2f21806c818ff2caec839ab4e0d14ddde",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image11.png",
+      "sha256": "c4738363559c7b77f9b64d49e07d0991c469809db2bc1454a7d077a5ec306590",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    },
+    {
+      "repository_container": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "member": "ppt/media/image17.png",
+      "sha256": "0f85f9d1a75828faa445fd6b8e20288122f08f0abdc7242f5602e9eb91ee6b37",
+      "status": "Retained byte for byte from authorized source; source rights/master gates retained",
+      "vector": false
+    }
+  ],
+  "font_sources": [
+    "GEM_Letterhead_Set_v1.1_Application_Revision_03/00_source/fonts/inter/Inter-Regular.ttf",
+    "GEM_Letterhead_Set_v1.1_Application_Revision_03/00_source/fonts/notosansarabic/NotoSansArabic-Regular.ttf",
+    "GEM_Letterhead_Set_v1.1_Application_Revision_03/00_source/fonts/jost/Jost-Regular.ttf"
+  ]
+}

@@ -1,0 +1,70 @@
+"""ODI01-R1 explicit-bold inventory from raw OOXML. Lists EVERY <a:r> whose <a:rPr> carries b="1"/"true"/"on" (plus any bold on endParaRPr/defRPr/list levels), in every slide part.
+Usage: r1_bold_inventory.py <out_csv> <out_md> <label=pptx_path> ...   (e.g. "Part A=/path/a.pptx")"""
+import sys,csv,zipfile,collections
+sys.path.insert(0,__import__('os').path.dirname(__import__('os').path.abspath(__file__)))
+from r1_ooxml import *
+def classify(typeface,text,visible,mixed_sole,arabic,role):
+    if typeface in BRAND or typeface is None:
+        if not visible: return 'REMOVE BOLD — USE 400','No glyph is drawn (empty/whitespace run); flag removed for consistency'
+        if arabic or mixed_sole: return 'REQUIRES VISUAL REVIEW','Bold removal is applied (D5); '+('Arabic shaping/RTL to be re-checked' if arabic else 'bold is the only weight cue inside a mixed-run paragraph; confirm hierarchy survives at 400')
+        return 'REMOVE BOLD — USE 400','Bold removal is applied (D5)'
+    return 'NON-BRAND / FALSE POSITIVE','Typeface "%s" is not a GEM brand family; not subject to D5'%typeface
+def inventory(label,path):
+    z=zipfile.ZipFile(path);rows=[];parts=dict((p,n) for n,p in slide_order(z));th=theme_fonts(z)
+    for part,num in sorted(parts.items(),key=lambda x:x[1]):
+        root=etree.fromstring(z.read(part));hidden_slide=root.get('show')=='0'
+        for run in root.iter('{%s}r'%NS['a']):
+            rpr=run.find('a:rPr',NS)
+            if rpr is None or rpr.get('b') not in BOLD_VALS: continue
+            para=run.getparent();txb=para.getparent()
+            pidx=[c for c in txb if c.tag=='{%s}p'%NS['a']].index(para)+1
+            ridx=[c for c in para if c.tag in ('{%s}r'%NS['a'],'{%s}fld'%NS['a'])].index(run)+1
+            anc=[a for a in run.iterancestors() if a.tag in ('{%s}sp'%NS['p'],'{%s}graphicFrame'%NS['p'],'{%s}cxnSp'%NS['p'],'{%s}pic'%NS['p'])]
+            shp=anc[0];nm=shp.find('.//p:cNvPr',NS);shape=(nm.get('name') if nm is not None else '?')
+            hidden_shape=nm is not None and nm.get('hidden') in ('1','true')
+            tc=[a for a in run.iterancestors() if a.tag=='{%s}tc'%NS['a']]
+            ph=shp.find('.//p:nvPr/p:ph',NS)
+            if tc:
+                tr=tc[0].getparent();tb=tr.getparent();rr=[c for c in tb if c.tag=='{%s}tr'%NS['a']].index(tr);cc=[c for c in tr if c.tag=='{%s}tc'%NS['a']].index(tc[0])
+                shape+=f' [table r{rr+1}c{cc+1}]';role='Table header cell' if rr==0 else 'Table body cell'
+            elif ph is not None and ph.get('type') in ('title','ctrTitle'): role='Title placeholder'
+            else: role=None
+            lat=rpr.find('a:latin',NS);cs=rpr.find('a:cs',NS)
+            tf=lat.get('typeface') if lat is not None else None
+            tfr=th.get(tf,tf) if tf else None
+            text=''.join(t.text or '' for t in run.findall('a:t',NS))
+            sz=rpr.get('sz');size=f'{int(sz)/100:g}' if sz else 'inherited'
+            arabic=bool(ARABIC.search(text)) or rpr.get('lang','').startswith('ar')
+            lang=rpr.get('lang') or ('ar (script detected)' if arabic else 'unset (en by default)')
+            siblings=[r for r in para.findall('a:r',NS) if r is not run]
+            mixed_sole=any(s.find('a:rPr',NS) is None or s.find('a:rPr',NS).get('b') not in BOLD_VALS for s in siblings) and text.strip()!=''
+            if role is None:
+                fs=float(sz)/100 if sz else 0
+                role='Heading (≥24 pt)' if fs>=24 else ('Label / caps (≤12 pt)' if text.strip() and text.strip()==text.strip().upper() and fs<=12 and fs>0 else 'Body / emphasis run')
+            visible=(not hidden_slide) and (not hidden_shape) and text.strip()!=''
+            purpose={'Table header cell':'Column/row header emphasis in a table','Table body cell':'Emphasis of a table cell value','Title placeholder':'Slide title emphasis'}.get(role) or ('Heading emphasis' if role.startswith('Heading') else ('Label emphasis' if role.startswith('Label') else 'Inline emphasis'))
+            act,why=classify(tfr,text,visible,mixed_sole,arabic,role)
+            rows.append([label,num,shape,pidx,ridx,text,tfr or '(inherited theme)',size,rpr.get('b'),lang,role,'Yes' if visible else 'No',purpose+('; '+why),act])
+    return rows
+def main():
+    out_csv,out_md=sys.argv[1:3];allr=[]
+    for a in sys.argv[3:]:
+        lab,p=a.split('=',1);allr+=inventory(lab,p)
+    H=['Document','Slide','Shape','Paragraph','Run','Text','Typeface','Font size','Bold flag','Language','Role','Visible?','Current visual purpose','Proposed action']
+    with open(out_csv,'w',newline='',encoding='utf-8') as f:
+        w=csv.writer(f);w.writerow(H);w.writerows(allr)
+    by=collections.Counter((r[0],r[13]) for r in allr);docs=sorted({r[0] for r in allr})
+    md=['# 07 Font Bold-Flag Inventory — ODI01 candidates (before R1 edits)','','Source: raw OOXML of the ODI01 candidate PPTX files, every `<a:r>` with an explicit bold flag (`b="1"`). Generated by `17_scripts/r1_bold_inventory.py`. Full per-run data: `07_Font_Bold_Flag_Inventory.csv` (%d rows, none skipped).'%len(allr),'',
+        '| Document | Explicit bold runs | REMOVE BOLD — USE 400 | REQUIRES VISUAL REVIEW | NON-BRAND / FALSE POSITIVE | EMBEDDED ARTWORK / NOT TEXT |','|---|---|---|---|---|---|']
+    for d in docs:
+        n=sum(v for (dd,a),v in by.items() if dd==d)
+        md.append(f'| {d} | {n} | {by[(d,"REMOVE BOLD — USE 400")]} | {by[(d,"REQUIRES VISUAL REVIEW")]} | {by[(d,"NON-BRAND / FALSE POSITIVE")]} | 0 |')
+    md.append(f'| **Total** | **{len(allr)}** | {sum(v for (d,a),v in by.items() if a.startswith("REMOVE"))} | {sum(v for (d,a),v in by.items() if a.startswith("REQUIRES"))} | {sum(v for (d,a),v in by.items() if a.startswith("NON"))} | 0 |')
+    md+=['','`EMBEDDED ARTWORK / NOT TEXT` = 0 because `b` is a text-run property and no picture/vector object carries it; embedded logos/artwork are separate `p:pic` parts and are not inventoried as text.','',
+         '## By slide','','| Document | Slide | Bold runs | Roles | Typefaces |','|---|---|---|---|---|']
+    g=collections.defaultdict(list)
+    for r in allr: g[(r[0],r[1])].append(r)
+    for (d,s),rs in sorted(g.items()): md.append(f'| {d} | {s} | {len(rs)} | {", ".join(sorted({x[10] for x in rs}))} | {", ".join(sorted({x[6] for x in rs}))} |')
+    open(out_md,'w',encoding='utf-8').write('\n'.join(md)+'\n')
+    print({d:sum(v for (dd,a),v in by.items() if dd==d) for d in docs},len(allr))
+if __name__=='__main__': main()

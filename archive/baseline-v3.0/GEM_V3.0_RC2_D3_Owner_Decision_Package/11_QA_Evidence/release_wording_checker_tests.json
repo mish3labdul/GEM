@@ -1,0 +1,70 @@
+{
+ "purpose": "Regression fixture for scripts/release_wording_checker.py. allowed = must produce 0 violations; forbidden = must produce at least 1.",
+ "allowed": [
+  {
+   "text": "WORKING EDITION · NOT RELEASED"
+  },
+  {
+   "text": "RELEASE STATUS: HOLD · CONDITIONAL RELEASE · RELEASED"
+  },
+  {
+   "text": "RELEASED is not permitted while any mandatory open item is unresolved."
+  },
+  {
+   "text": "Release form. A RELEASED state is blocked while mandatory open items remain. Release authorization holder is [REQUIRES OWNER]."
+  },
+  {
+   "text": "**Ecosystem status: GEM™ V3.0 RC2 — SYNCHRONIZED · NOT RELEASED · EVIDENCE GATES REMAIN.** **Not** \"Approved V3.0\": AC20 remains open."
+  },
+  {
+   "text": "No item in this portfolio is a released asset."
+  },
+  {
+   "text": "Released assets must carry a version and a date."
+  },
+  {
+   "text": "Release authorization follows the production release sequence."
+  },
+  {
+   "text": "Pending release: AC20 is OPEN."
+  },
+  {
+   "text": "Edition state · WORKING EDITION · NOT RELEASED"
+  },
+  {
+   "text": "CARRIED FROM PART A · APPROVED"
+  },
+  {
+   "text": "FINAL STATUS: HOLD · CONDITIONAL · APPROVED FOR FABRICATION"
+  },
+  {
+   "text": "# GEM™ V3.0 RC2 — Final Release Notes"
+  },
+  {
+   "text": "Status classes: APPROVED, CONDITIONAL, PENDING VALIDATION, REFERENCE."
+  }
+ ],
+ "forbidden": [
+  {
+   "text": "GEM V3.0 RC2 is RELEASED."
+  },
+  {
+   "text": "State: RC2 SYNCHRONIZED · SYSTEM READY — EVIDENCE GATES REMAIN"
+  },
+  {
+   "text": "The system is PRODUCTION READY."
+  },
+  {
+   "text": "Ecosystem status: FINAL"
+  },
+  {
+   "text": "Edition state: APPROVED"
+  },
+  {
+   "text": "Package status: RELEASED"
+  },
+  {
+   "text": "**Status:** SYSTEM READY"
+  }
+ ]
+}

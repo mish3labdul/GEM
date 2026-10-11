@@ -1,0 +1,11 @@
+Text colour,Background colour,Contrast ratio,Runs,Runs < 18 pt (needs 4.5:1),Runs >= 18 pt (needs 3:1),Normal-text verdict (4.5:1),Large-text verdict (3:1),Documents,Slides,Finding
+INK,WHITE,18.01,1338,1077,261,PASS,PASS,"Part A, Part B, Part C, Part D",141,
+WHITE,INK,18.01,421,287,134,PASS,PASS,"Part A, Part B, Part C, Part D",77,
+BEIGE,INK,8.23,357,337,20,PASS,PASS,"Part A, Part B, Part C, Part D",72,
+INK,BEIGE,8.23,125,106,19,PASS,PASS,"Part A, Part B, Part C",33,
+WHITE,BLACK,20.75,11,8,3,PASS,PASS,"Part A, Part B, Part C",5,
+BEIGE,BLACK,9.48,4,4,0,PASS,PASS,"Part A, Part B",2,
+BLACK,WHITE,20.75,2,2,0,PASS,PASS,Part B,1,
+BEIGE,WHITE,2.19,1,0,1,FAIL,FAIL,Part A,1,Governed pair fails both thresholds (4.5:1 and 3:1): GOVERNANCE / DESIGN ACCESSIBILITY REVIEW; may intentionally demonstrate a prohibited combination (Part A slide 33); no palette change inferred or made
+(manual),text over picture / unresolved background,,80,,,MANUAL,MANUAL,Part A,,Cannot be measured statically; manual contrast check required
+(manual),text over picture / unresolved background,,33,,,MANUAL,MANUAL,Part C,,Cannot be measured statically; manual contrast check required

@@ -1,0 +1,22 @@
+[
+ {
+  "label": "before",
+  "source": "GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/19_candidate_documents/deck_candidates/GEM Digital Design System V3.0 — Part B — RC2 — ODI01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "22802377eb73448ce3c9c7a0e9d2d3818195d19172f7c07470a415f03d975777",
+  "test_copy": "~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/GEM_NP01R1_NATIVE_TEST/NP01R1_before_test_copy.pptx",
+  "test_copy_sha256": "22802377eb73448ce3c9c7a0e9d2d3818195d19172f7c07470a415f03d975777",
+  "identical": true,
+  "post_test_sha256": "22802377eb73448ce3c9c7a0e9d2d3818195d19172f7c07470a415f03d975777",
+  "post_test_identical": true
+ },
+ {
+  "label": "after",
+  "source": "GEM_V3.0_RC2_NP01-R1_Native_Layout_Correction/candidate_documents/GEM Digital Design System V3.0 — Part B — RC2 — NP01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "source_sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+  "test_copy": "~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/GEM_NP01R1_NATIVE_TEST/NP01R1_after_test_copy.pptx",
+  "test_copy_sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+  "identical": true,
+  "post_test_sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+  "post_test_identical": true
+ }
+]

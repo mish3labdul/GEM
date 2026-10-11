@@ -1,0 +1,170 @@
+{
+ "checks": [
+  {
+   "check": "FD-G01..FD-G06 recorded",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "FD-G01 status OWNER ACCEPTED / DIGITAL REVIEW FORMALLY DEFERRED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "FD-G02, G03, G04 FORMALLY DEFERRED BY BRAND OWNER",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "FD-G05 and FD-G06 APPROVED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "every owner decision has a 'does NOT' limit and no signature is invented",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "all required gates reassessed",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "no gate can close (Can close? = NO everywhere)",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Legal/IP gates: owner-declared offline, independent verification NOT PERFORMED, none VERIFIED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "VAL-03 / Y01 stay OPEN \u2014 EXTERNAL VERIFICATION NOT PERFORMED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "VAL-06 / Y04 use OWNER ACCEPTED / DIGITAL TERMS REVIEW DEFERRED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no evidence-level cell claims VERIFIED except the font rows' PARTIALLY VERIFIED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "VAL-07 / VAL-08 macOS evidence labelled REVIEWER OBSERVED, not verified",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "digital-evidence-retained column set (NO by owner decision for six gates; YES for fonts)",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no row calls the hard copies missing",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "font evidence kept distinct and preserved (partially verified, repository OFL text)",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "AC19 OPEN \u2014 FORMALLY DEFERRED; SR-12, SR-11 FORMALLY DEFERRED; D8 OPEN \u2014 FORMALLY DEFERRED",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "AC20 OPEN / FINAL BRAND OWNER RELEASE AUTHORIZATION PENDING",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "owner declaration wording present and 'does not mean Claude inspected'",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no request for confidential documents anywhere in the package",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "overclaim phrases appear only in negated/prohibiting context",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no scan, image or PDF files in the package",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no absolute paths and no credential patterns",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "no Arabic-script text",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "original Approval Register unchanged",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "only README.md changed among tracked files",
+   "result": "PASS",
+   "detail": "['README.md']"
+  },
+  {
+   "check": "only the FD01 package is new",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 unchanged (checksums verify)",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 unchanged (checksums verify)",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 unchanged (checksums verify)",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 unchanged (checksums verify)",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "RC2 unchanged (checksums verify)",
+   "result": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "HR01 / AR01 / AX01 / OD01 packages have no git changes",
+   "result": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "local-only files not tracked",
+   "result": "PASS",
+   "detail": ""
+  }
+ ],
+ "failures": 0
+}

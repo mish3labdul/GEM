@@ -1,0 +1,99 @@
+{
+ "artifacts": [
+  {
+   "id": "P-A",
+   "changed_members": 65,
+   "identical": 374,
+   "residual_preserved": 5
+  },
+  {
+   "id": "P-B",
+   "changed_members": 37,
+   "identical": 121,
+   "residual_preserved": 6
+  },
+  {
+   "id": "P-C",
+   "changed_members": 75,
+   "identical": 273,
+   "residual_preserved": 13
+  },
+  {
+   "id": "P-D",
+   "changed_members": 48,
+   "identical": 103,
+   "residual_preserved": 2
+  },
+  {
+   "id": "L-English_First_Page",
+   "changed_members": 3,
+   "identical": 25,
+   "residual_preserved": 0
+  },
+  {
+   "id": "L-English_Continuation",
+   "changed_members": 2,
+   "identical": 21,
+   "residual_preserved": 0
+  },
+  {
+   "id": "L-Executive",
+   "changed_members": 3,
+   "identical": 25,
+   "residual_preserved": 0
+  },
+  {
+   "id": "L-Minimal",
+   "changed_members": 3,
+   "identical": 25,
+   "residual_preserved": 0
+  },
+  {
+   "id": "L-Arabic_First_Page",
+   "changed_members": 3,
+   "identical": 25,
+   "residual_preserved": 2
+  },
+  {
+   "id": "L-Arabic_Continuation",
+   "changed_members": 2,
+   "identical": 21,
+   "residual_preserved": 1
+  },
+  {
+   "id": "L-Bilingual_First_Page",
+   "changed_members": 3,
+   "identical": 25,
+   "residual_preserved": 2
+  },
+  {
+   "id": "L-Bilingual_Continuation",
+   "changed_members": 2,
+   "identical": 21,
+   "residual_preserved": 1
+  }
+ ],
+ "token_meta_diff": {
+  "version": [
+   "3.0.0-rc.2",
+   "3.0.0"
+  ],
+  "edition": [
+   "V3.0 RC2",
+   "V3.0"
+  ],
+  "documentId": [
+   "GEM-DDS-V3.0-RC2",
+   "GEM-DDS-V3.0"
+  ],
+  "issued": [
+   "2026-10-06",
+   "2026-10-09"
+  ],
+  "status": [
+   "WORKING SPECIFICATION · NOT RELEASED (AC20 PENDING)",
+   "OWNER AUTHORIZED FINAL BRAND-SYSTEM BASELINE · TOKEN VALUES UNCHANGED FROM RC2 · COMPONENT IMPLEMENTATION NOT AUTHORIZED (VAL-13, VAL-20 DEFERRED)"
+  ]
+ },
+ "stop": false
+}

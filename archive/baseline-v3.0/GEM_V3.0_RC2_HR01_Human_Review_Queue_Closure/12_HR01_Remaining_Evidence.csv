@@ -1,0 +1,17 @@
+Remaining evidence,Gate(s) blocked,Owner,Next action,Why still open
+Legal / IP Counsel review of GEM trademark position,VAL-03; Y01,Legal / IP Counsel (unnamed),Retain the hard-copy document in the confidential archive; counsel reviews,No reviewed legal advice or clearance
+Logo artwork ownership / assignment document,VAL-04; Y02,Brand Owner + Legal / IP Counsel,Supply and retain the document; Brand Owner / Legal accepts,Provenance statement is not ownership evidence
+Frozen font builds and licence documents for any build beyond the Regular files,VAL-05; Y03; VAL-19,Design Custodian + Legal / IP Counsel,Freeze builds; confirm deployment uses; licence documents for further builds,Only OFL text for three Regular builds is in the repository
+Image rights register incl. generation-tool terms,VAL-06; Y04,Art Direction + Legal / IP Counsel,Record source/usage per image; supply tool terms; counsel review,Part D imagery is concept/reference only
+Continuous production RTL layouts with real multi-page content,VAL-07,Arabic / Localization Lead,Test real letters and documents,Templates are single-page samples
+Windows Word / Word Online and cross-reader (SR-12) validation,VAL-07; VAL-08,Accessibility QA (unnamed),Test on Windows with NVDA/JAWS,No Windows environment
+"Native PDF route, Acrobat and tagged-PDF validation (SR-11)",D8; VAL-15; VAL-08,Presentation / Document QA,Define route and run tests,No PDF regenerated in HR01
+Contrast of text over pictures (113 runs) and formal accessibility exceptions,VAL-08,Accessibility QA (unnamed),Manual contrast checks; record exceptions,Not measurable statically
+Independent Accessibility QA holder,VAL-08,Brand Owner,Name the holder,Content owner cannot also be the independent verifier
+Brand Owner decision on the Arabic system (approve or formally defer),AC10,Brand Owner,Decide after the VAL-07 conditions,No decision exercised
+"Brand approval of any Arabic tagline (M10), if wanted",AC10,Brand Owner,Only if a translation is requested,Tagline stays English
+Linguistic review of Arabic text embedded in Part D images,VAL-07; VAL-06,Arabic / Localization Lead,Review when production artwork exists,Concept images; wording not approved
+Promotion of HR01 candidates into authoritative folders,VAL-15; VAL-21,Brand Owner (separate authorization),Separate authorized change,Candidates are unapproved implementation candidates
+Eleven unnamed canonical role holders,AC19; AC20,Brand Owner,Name holders,Register requires names before release
+Final cross-document release consistency sign-off,VAL-21,Brand Governance / Design Custodian,Perform on final documents,Only automated assertions exist
+Final Brand Owner release authorization,AC20,Brand Owner,After upstream evidence is closed or formally dispositioned,OPEN

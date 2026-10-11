@@ -1,0 +1,60 @@
+{
+ "BRAND": {
+  "stream": "BRAND",
+  "files": 128,
+  "unique": 128,
+  "unique_case_insensitive": 128,
+  "max_len": 63,
+  "min_len": 38,
+  "stream_in_asset": 0,
+  "stream_in_asset_if_noun": 0,
+  "collisions_with_existing_working_names": 0,
+  "charset_ok": true,
+  "sample": [
+   "GEM_BRAND_Horizontal_BeigeClearspace2u1024_vX.Y_YYYYMMDD.png",
+   "GEM_BRAND_SymbolNoSpark_Ink_vX.Y_YYYYMMDD.svg"
+  ]
+ },
+ "Logo": {
+  "stream": "Logo",
+  "files": 128,
+  "unique": 128,
+  "unique_case_insensitive": 128,
+  "max_len": 62,
+  "min_len": 37,
+  "stream_in_asset": 0,
+  "stream_in_asset_if_noun": 128,
+  "collisions_with_existing_working_names": 0,
+  "charset_ok": true,
+  "sample": [
+   "GEM_Logo_Horizontal_BeigeClearspace2u1024_vX.Y_YYYYMMDD.png",
+   "GEM_Logo_SymbolNoSpark_Ink_vX.Y_YYYYMMDD.svg"
+  ]
+ },
+ "existing_working_files": [
+  "GEM_BRAND_STATUS-LABEL_REFERENCE_v0.1_20261006.svg",
+  "GEM_BRAND_PALETTE-SHEET_LIGHT_v0.1_20261006.svg",
+  "GEM_BRAND_STATUS-LABEL_PENDING-VALIDATION_v0.1_20261006.svg",
+  "GEM_BRAND_STREAM-LINE_BEIGE-ON-INK_v0.1_20261006.svg",
+  "GEM_BRAND_TAGLINE_INK-ON-WHITE_v0.1_20261006.svg",
+  "GEM_BRAND_STATUS-LABEL_APPROVED_v0.1_20261006.svg",
+  "GEM_BRAND_STATUS-LABEL_CONDITIONAL_v0.1_20261006.svg",
+  "GEM_BRAND_TAGLINE_BLACK-ON-WHITE_v0.1_20261006.svg",
+  "GEM_BRAND_TAGLINE_WHITE-ON-INK_v0.1_20261006.svg",
+  "GEM_BRAND_TAGLINE_BEIGE-ON-INK_v0.1_20261006.svg",
+  "GEM_BRAND_STREAM-LINE_INK-ON-WHITE_v0.1_20261006.svg"
+ ],
+ "kit_logo_files_mapped": 128,
+ "by_shape": {
+  "Horizontal": 32,
+  "Stacked": 32,
+  "SymbolNoSpark": 32,
+  "Symbol": 32
+ },
+ "by_format": {
+  "PNG": 64,
+  "SVG": 32,
+  "EPS": 16,
+  "PDF": 16
+ }
+}

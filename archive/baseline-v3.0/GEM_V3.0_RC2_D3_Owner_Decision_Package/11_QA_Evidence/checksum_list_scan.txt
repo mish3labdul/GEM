@@ -1,0 +1,11 @@
+0 self-entries | Amenities_Portfolio_PartD_RC2/00_originals/SHA256SUMS.txt
+1 self-entries | Amenities_Portfolio_PartD_RC2/04_release/SHA256SUMS.txt
+0 self-entries | GEM_Brand_Assets_v1.0/04_official_kit/SHA256SUMS.txt
+0 self-entries | GEM_Letterhead_Set_v1.1_Application_Revision_03/05_release/SHA256SUMS.txt
+0 self-entries | GEM_Letterhead_Set_v1.1_Application_Revision_03/SHA256SUMS.txt
+0 self-entries | GEM_V3_RC2/00_originals/RC2_pre_asset_sync/SHA256SUMS.txt
+0 self-entries | GEM_V3_RC2/05_logs/originals_sha256.txt
+0 self-entries | GEM_V3_RC2/05_logs/release_sha256.txt
+0 self-entries | PartB_RC2/06_logs/baseline_sha256.txt
+0 self-entries | PartB_RC2/06_logs/release_sha256.txt
+(scan of the 10 checksum lists tracked in the repository at HEAD, excluding the ODI01-R1/D7/D3 packages)

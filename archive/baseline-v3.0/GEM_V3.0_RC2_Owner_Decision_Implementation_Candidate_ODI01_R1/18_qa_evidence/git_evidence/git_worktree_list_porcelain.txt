@@ -1,0 +1,8 @@
+worktree /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/GEM
+HEAD 4ea0d117da03850854654288afcdde98f39994d5
+branch refs/heads/main
+
+worktree /Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/work/GEM/.claude/worktrees/gem-worktree-safety-30b559
+HEAD a5d9acca28082d9a3e916f12723afb47124e495c
+branch refs/heads/claude/gem-worktree-safety-30b559
+

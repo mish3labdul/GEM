@@ -1,0 +1,170 @@
+{
+ "variant": "A",
+ "src_sha256": "2caa4c5c01ad12fde68f131fe67496c78ed299b9dcb44018388034552d0cab8f",
+ "dst_sha256": "bb75f1c1d1ebaf7c429eff38cac4d7eaaed9c2468b9e06bc037a837432c2bbb5",
+ "members_changed": [
+  "ppt/slides/slide39.xml"
+ ],
+ "member_order_identical": true,
+ "before": {
+  "paragraph_text_sha256": "91d86293afd973318ccc537d29f96b929e86ab91dfcf51e2e83e76dcfb81b79e",
+  "characters": 18,
+  "codepoint_sequence_sha256": "4599caa18bbf27f610eca93fd32eadc6d668f9b3b2397d00044751713e480c82",
+  "whitespace_count": 2,
+  "punctuation_count": 1,
+  "direction_control_characters": 0,
+  "run_count": 1,
+  "run_lengths": [
+   18
+  ],
+  "run_languages": [
+   "ar-SA"
+  ],
+  "run_rtl_child_elements": 0,
+  "paragraph_rtl": "1",
+  "paragraph_algn": "r",
+  "paragraph_indent_marL": [
+   "0",
+   "0"
+  ],
+  "line_spacing": "3360",
+  "bodyPr": {
+   "wrap": "square",
+   "lIns": "0",
+   "tIns": "0",
+   "rIns": "0",
+   "bIns": "0",
+   "rtlCol": "0",
+   "anchor": "t"
+  },
+  "font_family": [
+   "Noto Sans Arabic/Noto Sans Arabic/Noto Sans Arabic"
+  ],
+  "font_size": [
+   "2400"
+  ],
+  "bold": [
+   "None"
+  ],
+  "tracking_spc": [
+   "None"
+  ],
+  "run_rPr_other_attrs": [
+   "{\"dirty\": \"0\", \"sz\": \"2400\"}"
+  ],
+  "text_box_geometry": {
+   "off": {
+    "x": "4319016",
+    "y": "2461171"
+   },
+   "ext": {
+    "cx": "3453384",
+    "cy": "452090"
+   }
+  },
+  "endParaRPr": {
+   "lang": "en-US",
+   "sz": "2400",
+   "dirty": "0"
+  },
+  "slide_xml_sha256": "9382b7af86f8aac062213c12662714d7819c745caa1228426eaa7d4d02c11b52"
+ },
+ "after": {
+  "paragraph_text_sha256": "91d86293afd973318ccc537d29f96b929e86ab91dfcf51e2e83e76dcfb81b79e",
+  "characters": 18,
+  "codepoint_sequence_sha256": "4599caa18bbf27f610eca93fd32eadc6d668f9b3b2397d00044751713e480c82",
+  "whitespace_count": 2,
+  "punctuation_count": 1,
+  "direction_control_characters": 0,
+  "run_count": 2,
+  "run_lengths": [
+   10,
+   8
+  ],
+  "run_languages": [
+   "ar-SA",
+   "en-US"
+  ],
+  "run_rtl_child_elements": 0,
+  "paragraph_rtl": "1",
+  "paragraph_algn": "r",
+  "paragraph_indent_marL": [
+   "0",
+   "0"
+  ],
+  "line_spacing": "3360",
+  "bodyPr": {
+   "wrap": "square",
+   "lIns": "0",
+   "tIns": "0",
+   "rIns": "0",
+   "bIns": "0",
+   "rtlCol": "0",
+   "anchor": "t"
+  },
+  "font_family": [
+   "Noto Sans Arabic/Noto Sans Arabic/Noto Sans Arabic"
+  ],
+  "font_size": [
+   "2400"
+  ],
+  "bold": [
+   "None"
+  ],
+  "tracking_spc": [
+   "None"
+  ],
+  "run_rPr_other_attrs": [
+   "{\"dirty\": \"0\", \"sz\": \"2400\"}"
+  ],
+  "text_box_geometry": {
+   "off": {
+    "x": "4319016",
+    "y": "2461171"
+   },
+   "ext": {
+    "cx": "3453384",
+    "cy": "452090"
+   }
+  },
+  "endParaRPr": {
+   "lang": "en-US",
+   "sz": "2400",
+   "dirty": "0"
+  },
+  "slide_xml_sha256": "b121ac42515342fb78c02d7b42d51ce35fcb7df9afeac5f541f196dbd04cb7c2"
+ },
+ "preserved_exactly": {
+  "paragraph_text_sha256": true,
+  "characters": true,
+  "codepoint_sequence_sha256": true,
+  "whitespace_count": true,
+  "punctuation_count": true,
+  "direction_control_characters": true,
+  "paragraph_rtl": true,
+  "paragraph_algn": true,
+  "paragraph_indent_marL": true,
+  "line_spacing": true,
+  "bodyPr": true,
+  "font_family": true,
+  "font_size": true,
+  "bold": true,
+  "tracking_spc": true,
+  "run_rPr_other_attrs": true,
+  "text_box_geometry": true,
+  "endParaRPr": true
+ },
+ "changed_elements": [
+  "a:p/a:r: one run replaced by two consecutive runs (run boundary)",
+  "second run a:rPr@lang: ar-SA -> en-US (identifier run); first run keeps lang=ar-SA",
+  "no a:rPr/a:rtl child elements added; no pPr change; no control characters; no spaces added or removed"
+ ],
+ "rest_of_slide_member_byte_identical": true,
+ "inverse_transform_reproduces_source_member": true,
+ "run_split": {
+  "run1_chars": 10,
+  "run2_chars": 8,
+  "run1_ends_with_space": true,
+  "run2_starts_with_space": false
+ }
+}

@@ -1,0 +1,1 @@
+Superseded only as a tool run: site bytes identical to the final run; a BrokenPipe traceback from intentionally aborted requests was printed to stderr. QA tool then silenced expected aborts.

@@ -1,0 +1,206 @@
+{
+ "desktop-1440": {
+  "console": [],
+  "failed": [],
+  "external": [],
+  "requests": 11,
+  "hscroll": false,
+  "sw": 1440,
+  "fonts": [
+   "Jost 400",
+   "Inter 400"
+  ],
+  "h1": "Every arrival, precisely composed.",
+  "h1font": "Jost, Arial, system-ui, sans-serif",
+  "imgs": [
+   {
+    "src": "gem-horizontal-beige.svg",
+    "ok": true,
+    "alt": "GEM"
+   },
+   {
+    "src": "gem-symbol-beige.svg",
+    "ok": true,
+    "alt": ""
+   },
+   {
+    "src": "gem-symbol-beige.svg",
+    "ok": true,
+    "alt": ""
+   },
+   {
+    "src": "finish-800.webp",
+    "ok": true,
+    "alt": "A white board box with a single ring debossed into its lid, resting on dark textured card."
+   },
+   {
+    "src": "materials-800.webp",
+    "ok": true,
+    "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring."
+   },
+   {
+    "src": "threshold-480.webp",
+    "ok": true,
+    "alt": "A tall pale opening of light in a dark room, its glow falling across the floor."
+   },
+   {
+    "src": "gem-horizontal-beige.svg",
+    "ok": true,
+    "alt": "GEM"
+   }
+  ]
+ },
+ "tablet-768": {
+  "console": [],
+  "failed": [],
+  "external": [],
+  "requests": 10,
+  "hscroll": false,
+  "sw": 768,
+  "fonts": [
+   "Jost 400",
+   "Inter 400"
+  ],
+  "h1": "Every arrival, precisely composed.",
+  "h1font": "Jost, Arial, system-ui, sans-serif",
+  "imgs": [
+   {
+    "src": "gem-horizontal-beige.svg",
+    "ok": true,
+    "alt": "GEM"
+   },
+   {
+    "src": "gem-symbol-beige.svg",
+    "ok": true,
+    "alt": ""
+   },
+   {
+    "src": "gem-symbol-beige.svg",
+    "ok": true,
+    "alt": ""
+   },
+   {
+    "src": "finish-480.webp",
+    "ok": true,
+    "alt": "A white board box with a single ring debossed into its lid, resting on dark textured card."
+   },
+   {
+    "src": "materials-800.webp",
+    "ok": true,
+    "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring."
+   },
+   {
+    "src": "",
+    "ok": false,
+    "alt": "A tall pale opening of light in a dark room, its glow falling across the floor."
+   },
+   {
+    "src": "gem-horizontal-beige.svg",
+    "ok": true,
+    "alt": "GEM"
+   }
+  ]
+ },
+ "mobile-375": {
+  "console": [],
+  "failed": [],
+  "external": [],
+  "requests": 10,
+  "hscroll": false,
+  "sw": 375,
+  "fonts": [
+   "Jost 400",
+   "Inter 400"
+  ],
+  "h1": "Every arrival, precisely composed.",
+  "h1font": "Jost, Arial, system-ui, sans-serif",
+  "imgs": [
+   {
+    "src": "gem-horizontal-beige.svg",
+    "ok": true,
+    "alt": "GEM"
+   },
+   {
+    "src": "gem-symbol-beige.svg",
+    "ok": true,
+    "alt": ""
+   },
+   {
+    "src": "gem-symbol-beige.svg",
+    "ok": true,
+    "alt": ""
+   },
+   {
+    "src": "finish-480.webp",
+    "ok": true,
+    "alt": "A white board box with a single ring debossed into its lid, resting on dark textured card."
+   },
+   {
+    "src": "materials-480.webp",
+    "ok": true,
+    "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring."
+   },
+   {
+    "src": "",
+    "ok": false,
+    "alt": "A tall pale opening of light in a dark room, its glow falling across the floor."
+   },
+   {
+    "src": "gem-horizontal-beige.svg",
+    "ok": true,
+    "alt": "GEM"
+   }
+  ]
+ },
+ "compact-320": {
+  "console": [],
+  "failed": [],
+  "external": [],
+  "requests": 10,
+  "hscroll": false,
+  "sw": 320,
+  "fonts": [
+   "Jost 400",
+   "Inter 400"
+  ],
+  "h1": "Every arrival, precisely composed.",
+  "h1font": "Jost, Arial, system-ui, sans-serif",
+  "imgs": [
+   {
+    "src": "gem-horizontal-beige.svg",
+    "ok": true,
+    "alt": "GEM"
+   },
+   {
+    "src": "gem-symbol-beige.svg",
+    "ok": true,
+    "alt": ""
+   },
+   {
+    "src": "gem-symbol-beige.svg",
+    "ok": true,
+    "alt": ""
+   },
+   {
+    "src": "finish-480.webp",
+    "ok": true,
+    "alt": "A white board box with a single ring debossed into its lid, resting on dark textured card."
+   },
+   {
+    "src": "materials-480.webp",
+    "ok": true,
+    "alt": "Layered sheets of warm white, black and beige uncoated card; the top sheet carries a debossed ring."
+   },
+   {
+    "src": "",
+    "ok": false,
+    "alt": "A tall pale opening of light in a dark room, its glow falling across the floor."
+   },
+   {
+    "src": "gem-horizontal-beige.svg",
+    "ok": true,
+    "alt": "GEM"
+   }
+  ]
+ }
+}

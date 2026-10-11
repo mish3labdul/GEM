@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-11T17:17:18.569556+00:00",
+  "baseline_files": 2159,
+  "final_files_outside_evidence": 2160,
+  "changed": [
+    "qa/run_qa.py",
+    "site/assets/css/site.css",
+    "site/assets/js/site.js",
+    "site/index.html",
+    "site/privacy.html"
+  ],
+  "deleted": [
+    "site/.DS_Store",
+    "site/assets/.DS_Store"
+  ],
+  "added": [
+    "qa/README.md",
+    "qa/font_validation.py",
+    "qa/run_corrections_qa.py"
+  ],
+  "unexpected_concurrent_changes": {
+    "changed": [],
+    "deleted": [],
+    "added": []
+  },
+  "site_matches_successful_test_hashes": {
+    "regression": true,
+    "corrections": true
+  }
+}

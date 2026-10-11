@@ -1,0 +1,1037 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "name": "GEM Digital Design System tokens",
+    "version": "3.0.0",
+    "edition": "V3.0",
+    "documentId": "GEM-DDS-V3.0",
+    "issued": "2026-10-09",
+    "derivedFrom": "GEM Digital Design System V3.0 — Part B — RC2 (deck) and the V3.0 review specification",
+    "note": "Derived token package. tokens.json as the DS03 living source and the component bundle do not exist in the workspace; VAL-13 and VAL-20 remain open. Every value below is stated in the approved specification; none is invented.",
+    "status": "OWNER AUTHORIZED FINAL BRAND-SYSTEM BASELINE · TOKEN VALUES UNCHANGED FROM RC2 · COMPONENT IMPLEMENTATION NOT AUTHORIZED (VAL-13, VAL-20 DEFERRED)"
+  },
+  "foundation": {
+    "color": {
+      "ink": {
+        "$value": "#12171D",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "J01",
+        "description": "Principal dark field and default text"
+      },
+      "beige": {
+        "$value": "#BCACA7",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "J02",
+        "description": "Signature tone, selected fill, hairlines"
+      },
+      "black": {
+        "$value": "#020202",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "J03",
+        "description": "Monochrome, hover and pressed fill"
+      },
+      "white": {
+        "$value": "#FFFFFF",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "J04",
+        "description": "Canvas"
+      }
+    }
+  },
+  "semantic": {
+    "surface": {
+      "canvas": {
+        "$value": "{foundation.color.white}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03"
+      },
+      "signature": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03"
+      },
+      "selected": {
+        "$value": "{foundation.color.beige}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03"
+      },
+      "disabled": {
+        "$value": "{foundation.color.white}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03"
+      },
+      "scrim": {
+        "$value": "rgba(18, 23, 29, 0.64)",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03",
+        "description": "INK at 64%, modal scrim; the only permitted elevation device"
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03"
+      },
+      "inverse": {
+        "$value": "{foundation.color.white}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03"
+      },
+      "signatureAccent": {
+        "$value": "{foundation.color.beige}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "K01",
+        "description": "On INK only; never essential text on WHITE (K05)"
+      }
+    },
+    "border": {
+      "essential": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03"
+      },
+      "decorative": {
+        "$value": "{foundation.color.beige}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "K07"
+      },
+      "focus": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q08"
+      },
+      "error": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q09",
+        "description": "2px"
+      },
+      "disabled": {
+        "$value": "{foundation.color.beige}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q03"
+      }
+    },
+    "action": {
+      "background": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q11"
+      },
+      "foreground": {
+        "$value": "{foundation.color.white}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q11"
+      },
+      "hoverBackground": {
+        "$value": "{foundation.color.black}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q11"
+      },
+      "pressedBackground": {
+        "$value": "{foundation.color.black}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q11"
+      },
+      "disabledBackground": {
+        "$value": "{foundation.color.white}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q11"
+      },
+      "disabledText": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q11",
+        "description": "aria-disabled with reason in text"
+      }
+    },
+    "focus": {
+      "ringLight": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q08"
+      },
+      "ringDark": {
+        "$value": "{foundation.color.white}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q08"
+      },
+      "ringWidth": {
+        "$value": "2px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "V08"
+      },
+      "ringOffset": {
+        "$value": "2px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "V08"
+      }
+    },
+    "feedback": {
+      "errorText": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q10",
+        "description": "No functional colours; state label + border weight + text"
+      },
+      "successText": {
+        "$value": "{foundation.color.ink}",
+        "$type": "color",
+        "status": "APPROVED",
+        "decision": "Q10"
+      },
+      "errorBorderWidth": {
+        "$value": "2px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "Q09"
+      },
+      "infoBorderWidth": {
+        "$value": "1px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "Q10"
+      }
+    }
+  },
+  "type": {
+    "family": {
+      "display": {
+        "$value": "Jost",
+        "$type": "fontFamily",
+        "status": "APPROVED",
+        "decision": "L01",
+        "description": "Exact build to freeze (L06, VAL-19)"
+      },
+      "body": {
+        "$value": "Inter",
+        "$type": "fontFamily",
+        "status": "APPROVED",
+        "decision": "L02"
+      },
+      "arabic": {
+        "$value": "Noto Sans Arabic",
+        "$type": "fontFamily",
+        "status": "PENDING VALIDATION",
+        "decision": "M02",
+        "description": "Interim; VAL-07"
+      },
+      "fallback": {
+        "$value": [
+          "Arial",
+          "system-ui",
+          "sans-serif"
+        ],
+        "$type": "fontFamily",
+        "status": "APPROVED",
+        "decision": "R13",
+        "description": "Email and non-embedding contexts"
+      }
+    },
+    "weight": {
+      "regular": {
+        "$value": 400,
+        "$type": "fontWeight",
+        "status": "APPROVED",
+        "decision": "L08"
+      },
+      "medium": {
+        "$value": 500,
+        "$type": "fontWeight",
+        "status": "APPROVED",
+        "decision": "L08",
+        "description": "Max two weights per composition"
+      }
+    },
+    "size": {
+      "displayXL": {
+        "$value": "96px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "display": {
+        "$value": "64px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "h1": {
+        "$value": "48px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "h2": {
+        "$value": "32px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "h3": {
+        "$value": "24px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "tagline": {
+        "$value": "14px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L09"
+      },
+      "eyebrow": {
+        "$value": "13px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "navLabel": {
+        "$value": "14px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "labelSmall": {
+        "$value": "12px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "body": {
+        "$value": "16px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "caption": {
+        "$value": "14px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L09"
+      },
+      "label": {
+        "$value": "16px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L09"
+      },
+      "arabicDisplay": {
+        "$value": "56px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "arabicH1": {
+        "$value": "40px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "arabicH2": {
+        "$value": "30px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "arabicH3": {
+        "$value": "24px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "arabicBody": {
+        "$value": "18px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "arabicLabel": {
+        "$value": "16px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "arabicCaption": {
+        "$value": "15px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      }
+    },
+    "lineHeight": {
+      "displayXL": {
+        "$value": "104px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "display": {
+        "$value": "72px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "h1": {
+        "$value": "56px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "h2": {
+        "$value": "40px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "h3": {
+        "$value": "32px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "tagline": {
+        "$value": "20px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "eyebrow": {
+        "$value": "16px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "navLabel": {
+        "$value": "20px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "labelSmall": {
+        "$value": "16px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "body": {
+        "$value": "26px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "caption": {
+        "$value": "20px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "label": {
+        "$value": "24px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "arabicDisplay": {
+        "$value": "76px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "arabicH1": {
+        "$value": "60px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "arabicH2": {
+        "$value": "46px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "arabicH3": {
+        "$value": "38px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "arabicBody": {
+        "$value": "32px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "arabicLabel": {
+        "$value": "26px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      },
+      "arabicCaption": {
+        "$value": "26px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L12"
+      }
+    },
+    "styleWeight": {
+      "label": {
+        "$value": 500,
+        "$type": "fontWeight",
+        "status": "APPROVED",
+        "decision": "L08"
+      },
+      "arabicH3": {
+        "$value": 500,
+        "$type": "fontWeight",
+        "status": "APPROVED",
+        "decision": "L08"
+      },
+      "arabicLabel": {
+        "$value": 500,
+        "$type": "fontWeight",
+        "status": "APPROVED",
+        "decision": "L08"
+      }
+    },
+    "tracking": {
+      "displayXL": {
+        "$value": "0.12em",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "display": {
+        "$value": "0.08em",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "h1": {
+        "$value": "0.02em",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "h2": {
+        "$value": "0.01em",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "h3": {
+        "$value": "0",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "tagline": {
+        "$value": "0.18em",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L09"
+      },
+      "eyebrow": {
+        "$value": "0.16em",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "navLabel": {
+        "$value": "0.08em",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09",
+        "description": "Editorial signature surfaces only; product UI navigation uses body/label at 0"
+      },
+      "labelSmall": {
+        "$value": "0.08em",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "L09"
+      },
+      "body": {
+        "$value": "0",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L10"
+      },
+      "caption": {
+        "$value": "0",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L10"
+      },
+      "label": {
+        "$value": "0",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L10"
+      },
+      "arabic": {
+        "$value": "0",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "M05",
+        "description": "Never track Arabic"
+      }
+    },
+    "measure": {
+      "maxReading": {
+        "$value": "70ch",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "L11",
+        "description": "45–75 characters"
+      }
+    },
+    "arabicLineHeightMin": {
+      "$value": 1.7,
+      "$type": "number",
+      "status": "PENDING VALIDATION",
+      "decision": "M04"
+    }
+  },
+  "space": {
+    "1": {
+      "$value": "4px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    },
+    "2": {
+      "$value": "8px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    },
+    "3": {
+      "$value": "12px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    },
+    "4": {
+      "$value": "16px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    },
+    "6": {
+      "$value": "24px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    },
+    "8": {
+      "$value": "32px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    },
+    "12": {
+      "$value": "48px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    },
+    "16": {
+      "$value": "64px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    },
+    "24": {
+      "$value": "96px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "N13"
+    }
+  },
+  "radius": {
+    "editorial": {
+      "$value": "0",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "Q06",
+      "description": "Cards, panels, images, hero fields"
+    },
+    "control": {
+      "$value": "4px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "Q06",
+      "description": "Buttons, inputs, selects, chips. No pills"
+    }
+  },
+  "size": {
+    "target": {
+      "min": {
+        "$value": "44px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "V12"
+      }
+    },
+    "logo": {
+      "lockupMin": {
+        "$value": "120px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "H10"
+      },
+      "symbolMin": {
+        "$value": "32px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "H11",
+        "description": "Below: no-spark symbol (H12), supplied in the vector kit; acceptance pending"
+      }
+    },
+    "glyph": {
+      "box": {
+        "$value": "24px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "N15"
+      },
+      "stroke": {
+        "$value": "2px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "N15"
+      },
+      "sizes": {
+        "$value": [
+          16,
+          20,
+          24,
+          32
+        ],
+        "$type": "number",
+        "status": "CONDITIONAL",
+        "decision": "N15"
+      }
+    },
+    "hairline": {
+      "$value": "1px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "Q03"
+    },
+    "emphasisBorder": {
+      "$value": "2px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "Q03"
+    }
+  },
+  "motion": {
+    "duration": {
+      "instant": {
+        "$value": "0ms",
+        "$type": "duration",
+        "status": "APPROVED",
+        "decision": "P09",
+        "description": "All, under reduced motion"
+      },
+      "hover": {
+        "$value": "150ms",
+        "$type": "duration",
+        "status": "APPROVED",
+        "decision": "P03"
+      },
+      "confirmation": {
+        "$value": "180ms",
+        "$type": "duration",
+        "status": "APPROVED",
+        "decision": "P03"
+      },
+      "modal": {
+        "$value": "200ms",
+        "$type": "duration",
+        "status": "APPROVED",
+        "decision": "P03"
+      },
+      "reveal": {
+        "$value": "1500ms",
+        "$type": "duration",
+        "status": "APPROVED",
+        "decision": "P02"
+      },
+      "revealRing": {
+        "$value": "900ms",
+        "$type": "duration",
+        "status": "CONDITIONAL",
+        "decision": "P01",
+        "description": "from 0"
+      },
+      "revealSpark": {
+        "$value": "200ms",
+        "$type": "duration",
+        "status": "CONDITIONAL",
+        "decision": "P01",
+        "description": "from 900ms"
+      },
+      "revealQuarter": {
+        "$value": "400ms",
+        "$type": "duration",
+        "status": "CONDITIONAL",
+        "decision": "P01",
+        "description": "from 1100ms"
+      }
+    },
+    "easing": {
+      "out": {
+        "$value": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+        "$type": "cubicBezier",
+        "status": "APPROVED",
+        "decision": "P03",
+        "description": "Only easing; reversed for exits"
+      }
+    }
+  },
+  "layout": {
+    "breakpoint": {
+      "compact": {
+        "$value": "0px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "Q17"
+      },
+      "mobile": {
+        "$value": "480px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "Q17"
+      },
+      "tablet": {
+        "$value": "720px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "Q17"
+      },
+      "desktop": {
+        "$value": "1024px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "Q17"
+      },
+      "wide": {
+        "$value": "1440px",
+        "$type": "dimension",
+        "status": "APPROVED",
+        "decision": "Q17",
+        "description": "Max-width enhancement, not a separate model"
+      }
+    },
+    "columns": {
+      "compact": {
+        "$value": 4,
+        "$type": "number",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "mobile": {
+        "$value": 4,
+        "$type": "number",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "tablet": {
+        "$value": 8,
+        "$type": "number",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "desktop": {
+        "$value": 12,
+        "$type": "number",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "wide": {
+        "$value": 12,
+        "$type": "number",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      }
+    },
+    "gutter": {
+      "compact": {
+        "$value": "16px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "mobile": {
+        "$value": "16px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "tablet": {
+        "$value": "24px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "desktop": {
+        "$value": "24px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "wide": {
+        "$value": "24px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      }
+    },
+    "margin": {
+      "compact": {
+        "$value": "16px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "mobile": {
+        "$value": "24px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "tablet": {
+        "$value": "32px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "desktop": {
+        "$value": "48px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "wide": {
+        "$value": "48px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      }
+    },
+    "maxWidth": {
+      "desktop": {
+        "$value": "1080px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "wide": {
+        "$value": "1280px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      },
+      "modal": {
+        "$value": "440px",
+        "$type": "dimension",
+        "status": "CONDITIONAL",
+        "decision": "Q17"
+      }
+    },
+    "reflowMin": {
+      "$value": "320px",
+      "$type": "dimension",
+      "status": "APPROVED",
+      "decision": "V01",
+      "description": "WCAG 1.4.10"
+    }
+  },
+  "locale": {
+    "source": {
+      "$value": "en",
+      "$type": "string",
+      "status": "APPROVED",
+      "decision": "D03"
+    },
+    "arabic": {
+      "$value": "ar-SA",
+      "$type": "string",
+      "status": "PENDING VALIDATION",
+      "decision": "D04"
+    },
+    "numeralsTechnical": {
+      "$value": "latn",
+      "$type": "string",
+      "status": "APPROVED",
+      "decision": "M12"
+    },
+    "numeralsGuestArabic": {
+      "$value": "arab",
+      "$type": "string",
+      "status": "CONDITIONAL",
+      "decision": "M11"
+    },
+    "calendarDefault": {
+      "$value": "gregory",
+      "$type": "string",
+      "status": "CONDITIONAL",
+      "decision": "DS06",
+      "description": "Hijri display [REQUIRES OWNER · Arabic / Localization Lead]"
+    },
+    "currencyFormat": {
+      "$value": "[REQUIRES OWNER]",
+      "$type": "string",
+      "status": "PENDING VALIDATION",
+      "decision": "DS06",
+      "description": "SAR symbol/code position for ar-SA and en; no price invented"
+    },
+    "textExpansion": {
+      "$value": "30-40%",
+      "$type": "string",
+      "status": "APPROVED",
+      "decision": "DS06"
+    },
+    "direction": {
+      "$value": {
+        "en": "ltr",
+        "ar-SA": "rtl"
+      },
+      "$type": "string",
+      "status": "APPROVED",
+      "decision": "M06"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+ "A vs D3": {
+  "members_differing": [
+   "ppt/slides/slide37.xml",
+   "ppt/slides/slide38.xml",
+   "ppt/slides/slide39.xml",
+   "ppt/slides/slide65.xml",
+   "ppt/slides/slide66.xml",
+   "ppt/slides/slide68.xml"
+  ],
+  "detail": {
+   "ppt/slides/slide37.xml": {
+    "inverse_equals_original": true,
+    "rtl_added": 1,
+    "arsa_rPr_added": 1,
+    "bytes_delta": 8
+   },
+   "ppt/slides/slide38.xml": {
+    "inverse_equals_original": true,
+    "rtl_added": 3,
+    "arsa_rPr_added": 3,
+    "bytes_delta": 24
+   },
+   "ppt/slides/slide39.xml": {
+    "inverse_equals_original": true,
+    "rtl_added": 2,
+    "arsa_rPr_added": 2,
+    "bytes_delta": 16
+   },
+   "ppt/slides/slide65.xml": {
+    "inverse_equals_original": true,
+    "rtl_added": 1,
+    "arsa_rPr_added": 1,
+    "bytes_delta": 8
+   },
+   "ppt/slides/slide66.xml": {
+    "inverse_equals_original": true,
+    "rtl_added": 3,
+    "arsa_rPr_added": 3,
+    "bytes_delta": 24
+   },
+   "ppt/slides/slide68.xml": {
+    "inverse_equals_original": true,
+    "rtl_added": 1,
+    "arsa_rPr_added": 1,
+    "bytes_delta": 8
+   }
+  }
+ },
+ "B vs NP01-R1": {
+  "members_differing": [
+   "ppt/slides/slide9.xml"
+  ],
+  "detail": {
+   "ppt/slides/slide9.xml": {
+    "inverse_equals_original": true,
+    "rtl_added": 1,
+    "arsa_rPr_added": 1,
+    "bytes_delta": 8
+   }
+  }
+ }
+}

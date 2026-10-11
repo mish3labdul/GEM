@@ -1,0 +1,5 @@
+Document,Slides,Slides without title (AX01),Slides without title (HR01),Shapes+pictures without alt/decorative (AX01),Shapes+pictures without alt/decorative (HR01),Tables without alt text (HR01; not counted by the native rule),Decorative flags (AX01 -> HR01),Objects with alt text (AX01 -> HR01)
+Part A,80,27,0,31,0,1,295 -> 326,89 -> 89
+Part B,35,0,0,30,0,30,50 -> 78,0 -> 2
+Part C,78,3,0,26,0,34,87 -> 113,14 -> 14
+Part D,24,0,0,25,0,1,75 -> 77,8 -> 31

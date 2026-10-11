@@ -1,0 +1,45 @@
+* a5d9acc (HEAD -> claude/gem-worktree-safety-30b559) audit: reconcile ODI01 validation-id QA and 400-only font implementation
+| *-.   9f37952 (refs/stash) On claude/gem-letterhead-v1.1-rev03: epitaxy: pre-switch from claude/gem-letterhead-v1.1-rev03
+| |\ \  
+| | * | a5689f8 index on claude/gem-letterhead-v1.1-rev03: 3f88732 feat: add GEM letterhead set v1.1 Application Revision 03
+| |/ /  
+| | * 7206e5f untracked files on claude/gem-letterhead-v1.1-rev03: 3f88732 feat: add GEM letterhead set v1.1 Application Revision 03
+* |   4ea0d11 (origin/main, origin/HEAD, main) Merge pull request #11 from mish3labdul/claude/pensive-mayer-s1xbmb
+|\ \  
+| * | 3ba158e (origin/claude/pensive-mayer-s1xbmb) Add supplied GEM letterhead set v1.1 Application Revision 03
+|/ /  
+| * 3f88732 (letterhead-fork/claude/gem-letterhead-v1.1-rev03, claude/gem-letterhead-v1.1-rev03) feat: add GEM letterhead set v1.1 Application Revision 03
+| * ee611b4 chore: add GEM letterhead set v1.1 Application Revision 02 as supplied
+| * 59cac07 (letterhead-fork/codex/gem-letterhead-v1, codex/gem-letterhead-v1) Remove obsolete intermediate contact sheet from review evidence
+| * 642f3c0 Correct GEM letterhead typography and document defaults after RC2 review
+| * d0d13bc Add GEM RC2 letterhead working application and QA evidence
+|/  
+*   334744c (letterhead-fork/main, letterhead-fork/HEAD) Merge pull request #9 from mish3labdul/claude/pensive-mayer-s1xbmb
+|\  
+| *   18c44b1 (letterhead-fork/claude/pensive-mayer-s1xbmb) Merge pull request #8 from mish3labdul/main
+| |\  
+| |/  
+|/|   
+* | 32b5f89 Merge pull request #7 from mish3labdul/claude/pensive-mayer-s1xbmb
+|\| 
+| * 49672ac Replace concept mockups with approved Part D RC2; sync vector logo kit across A, B, C and D
+|/  
+*   026c83c Merge pull request #6 from mish3labdul/claude/pensive-mayer-s1xbmb
+|\  
+| * ae9017b Import supplied GEM master asset kit; remove superseded traced replicas
+| * 66c1f5b Add traced SVG replicas of the supplied logo set (working, pending production master)
+* | 4b1b98e Merge pull request #5 from mish3labdul/claude/pensive-mayer-s1xbmb
+|\| 
+| * d5726ce Add GEM brand assets v0.1: outlined tagline, stream line, palette sheet, status labels
+* | 06b8a71 Merge pull request #4 from mish3labdul/claude/pensive-mayer-s1xbmb
+|\| 
+| * da94288 Portfolio v1.0: deck-resolution edition (3 MB), full-res edition kept out of git
+| * 7cb8278 Amenities & Packaging Concept Portfolio v1.0: final deck, tagged PDF, mockups, registers, QA
+| * e7f65d6 Portfolio mockups: native raqm Arabic shaping for the bilingual label
+| * 5980392 Portfolio mockups: label auto-fit, pump geometry, frame-relative compositions, stamp contrast
+| * 5010ec5 Amenities & Packaging concept portfolio v1.0: mockup renderer, deck builder, QA script, registers (work in progress)
+* | d177d0f Merge pull request #3 from mish3labdul/claude/pensive-mayer-s1xbmb
+|\| 
+| * 17a79ee final RC2: release checksum list for Part B
+| * b3ae591 final RC2: final open evidence register and final release notes for A/B/C RC2
+| * c5a503d build/export: Part B RC2 release files, tagged PDF, token package, visual QA, final consistency report (112/112)

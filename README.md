@@ -1,15 +1,18 @@
-# GEM™
+# GEM — brand library and website development
 
-Working repository for the GEM™ V3.0 brand system. Status: **RC2, evidence gates remain open. Nothing here is labelled Approved V3.0.**
+This collection distinguishes the owner-authorized V3.0 release, working brand assets, working Arabic localization, and the proposed website. Organization does not confer production approval or close validation gates.
 
-| Folder | Content |
+| Start here | Contents and status |
 |---|---|
-| `GEM_V3_RC2/04_release` | Part A Brand Guidelines and Part C Production Standards (PPTX and review PDF) |
-| `PartB_RC2/05_release` | Part B Digital Design System (PPTX, PDF, token package) |
-| `Amenities_Portfolio_PartD_RC2` | Part D Amenities & Packaging concept portfolio, approved mockups, change log |
-| `GEM_Brand_Assets_v1.0` | Official vector logo kit (SVG, PDF, EPS, PNG, icons, motion), layout-matched logo files, outlined tagline, palette and status-label SVGs |
-| `qa` | Verified change registers, consistency report, open evidence register, release notes, asset sync change log |
+| [Released documents](documents/README.md) | Exact V3.0 release copies and token documentation; artifact-specific limitations apply |
+| [Brand library](brand/README.md) | Working artwork and catalogue; production-master acceptance pending |
+| [Website development](website/README.md) | Proposed static site, imagery, records and Chromium QA |
+| [Governance](governance/README.md) | Frozen sources, naming, migration, checksums and retained limitations |
+| [Historical archive](archive/README.md) | Original package trees; historical files are not current-use recommendations |
+| [Tools](tools/README.md) | Collection validation and website packaging |
 
-Logos are the supplied vector kit, used unchanged. Acceptance as production master is pending (VAL-02).
+Published baseline: [V3.0](https://github.com/mish3labdul/GEM/releases/tag/v3.0), commit `4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d`. Existing release files and tag are not changed by this cleanup. B01/B02 remain recorded. Public availability does not grant unrestricted external-issue permission.
 
-`GEM_Letterhead_Set_v1.1_Application_Revision_03` holds the supplied letterhead set (8 Word templates, PDFs, specification, QA evidence). Working application, pending validation; it uses the official logo kit byte for byte.
+Validate the collection: `python3 tools/validate_collection.py`.
+
+No deployment, new release, document content correction, font substitution, or production approval is included.

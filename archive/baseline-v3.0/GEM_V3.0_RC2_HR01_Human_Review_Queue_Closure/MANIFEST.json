@@ -1,0 +1,204 @@
+{
+ "package": "GEM_V3.0_RC2_HR01_Human_Review_Queue_Closure",
+ "purpose": "Human review queue closure: dispositions of the Arabic, accessibility-content, assistive-technology and Legal/IP review queues (documentation + unapproved candidates)",
+ "status": "Queues dispositioned; 0 gates closed; Legal/IP gates OPEN; AC19 OPEN / HOLDER CONDITION INCOMPLETE; AC20 OPEN / FINAL RELEASE AUTHORIZATION PENDING; D8 OPEN",
+ "release_label": "GEM™ V3.0 RC2 — SYNCHRONIZED / NOT RELEASED / EVIDENCE GATES REMAIN / UNAPPROVED IMPLEMENTATION CANDIDATE",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "c4671ecfed5f6eec1833b8fe3aabc63f8f4004c1",
+ "gates_closed_by_this_package": 0,
+ "publication": "Version-control publication of the branch is authorized for one controlled push; it is not release authorization.",
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "files": [
+  {
+   "path": "01_HR01_Executive_Summary.md",
+   "bytes": 5015,
+   "sha256": "7d4f04f7b42cd2f4603189480d66887528c0e7d113de4e095d64e025cd2f70bf"
+  },
+  {
+   "path": "02_HR01_Queue_Baseline.csv",
+   "bytes": 3635,
+   "sha256": "dc9c70ed8c54f1c0de91158e2157be2eef74b8b325312dd2966eed1212773945"
+  },
+  {
+   "path": "03_HR01_Arabic_Review_Register.csv",
+   "bytes": 16928,
+   "sha256": "103487da4fe176f09b2e8535cf658729ca214b9fca63b29d501d902b4c95c318"
+  },
+  {
+   "path": "04_HR01_Arabic_Decision_Log.md",
+   "bytes": 3835,
+   "sha256": "f448956745b4150e4975347252b25dd07a09a650f34261eca47cf70e5394a878"
+  },
+  {
+   "path": "05_HR01_Accessibility_Content_Register.csv",
+   "bytes": 40378,
+   "sha256": "6b858c71c2bf3e67d8172321a9aa6c1ea911d1c4d67e4dcf7dd6d37495fd5509"
+  },
+  {
+   "path": "06_HR01_Accessibility_Decision_Log.md",
+   "bytes": 4175,
+   "sha256": "67575a36363ad82a2e2faf902413bd65ce01de76076b49889d59b832daa26762"
+  },
+  {
+   "path": "07_HR01_Screen_Reader_Test_Register.csv",
+   "bytes": 7694,
+   "sha256": "54538ffbc64a2a1f64107d07679a2a1787b8bf508a7fc235bd6b6241f43f4f47"
+  },
+  {
+   "path": "08_HR01_Reading_Order_Manual_Review.csv",
+   "bytes": 3905,
+   "sha256": "20fcd9daaabde7d60830ce1885c77021c0bdc087486d158ef721e5feb28c56dd"
+  },
+  {
+   "path": "09_HR01_Legal_IP_Evidence_Inventory.csv",
+   "bytes": 7427,
+   "sha256": "3c94b7561901546c116bcb86bb0858bbd62e0bbc054d01321efb293730200876"
+  },
+  {
+   "path": "10_HR01_Legal_IP_Disposition_Register.csv",
+   "bytes": 3166,
+   "sha256": "6300695598263c04671ff898fc296ed5d4152fa15912d79b15ec5a1873c31260"
+  },
+  {
+   "path": "11_HR01_Gate_Impact_Matrix.csv",
+   "bytes": 6126,
+   "sha256": "22396fbfab6788d5aa2738677b74f9156fbf2add5ab6f198c05311a0b73e7e67"
+  },
+  {
+   "path": "12_HR01_Remaining_Evidence.csv",
+   "bytes": 2762,
+   "sha256": "227125160795b726fa4346fd0541d7fe15c199e62f2e7be9e67b1dc85a1e21ec"
+  },
+  {
+   "path": "13_HR01_Native_Revalidation.md",
+   "bytes": 4289,
+   "sha256": "192bbc1052f17b92373bea20641b44361b748ec775db6bcc240447be57b22c9b"
+  },
+  {
+   "path": "14_HR01_Visual_Regression_QA.md",
+   "bytes": 2280,
+   "sha256": "38cda67db965868bc71252bb631d6a5a35ba49c6648c72f88a3b7fe878264a6a"
+  },
+  {
+   "path": "15_HR01_Evidence_Index.md",
+   "bytes": 3730,
+   "sha256": "6bc4108b785de238e5278312015910cc5222397cef7c31b29153c7a4401e7b2a"
+  },
+  {
+   "path": "16_scripts/hr01_build_candidates.py",
+   "bytes": 16898,
+   "sha256": "a9b6b812ac5f6d416d2efd8bd3c97b5670354ad45d36d92599f8f06ff95b4093"
+  },
+  {
+   "path": "16_scripts/hr01_build_gate_registers.py",
+   "bytes": 11797,
+   "sha256": "f5625af96ba0595cacb78c278b8e5055d61594ccd6072eea798fa766557113c7"
+  },
+  {
+   "path": "16_scripts/hr01_build_legal_registers.py",
+   "bytes": 12251,
+   "sha256": "ed2f3e3a57f3d6277cd02c67cd13ffc844ae54d82d6b7193d236c3f716871e83"
+  },
+  {
+   "path": "16_scripts/hr01_build_registers.py",
+   "bytes": 9040,
+   "sha256": "8714250e3e5bed313b8708daf6d76a8986f071554e564e5e568b98f731c0c613"
+  },
+  {
+   "path": "16_scripts/hr01_build_sr_registers.py",
+   "bytes": 9339,
+   "sha256": "5fa5480564ee311e9f9c43ca06a526e30e70820b83a601cbb791fba8aecaec28"
+  },
+  {
+   "path": "16_scripts/hr01_manifest.py",
+   "bytes": 2187,
+   "sha256": "6780314e8b00cb5cfabd22c69e48cce81f23ccdd04aca2ec830c371e35c1a57e"
+  },
+  {
+   "path": "16_scripts/hr01_qa.py",
+   "bytes": 10682,
+   "sha256": "c14f212c47692aa1464d0f788288b09829358807f68e18cc4e56181ca388215a"
+  },
+  {
+   "path": "16_scripts/hr01_static_accessibility_check.py",
+   "bytes": 2713,
+   "sha256": "8b97a0fd78b156dc937368ae6a3962465fc83ed1150bbb9cf809e67550aaca7e"
+  },
+  {
+   "path": "16_scripts/hr01_visual_regression.py",
+   "bytes": 2845,
+   "sha256": "43b6b7dd6a2edb9ba0bc294d24c7b5491360565a417b05f2c9a324ed2e8c7c87"
+  },
+  {
+   "path": "17_qa/candidate_build_log.json",
+   "bytes": 7199,
+   "sha256": "c0286d39770b3e79a7d443f3549003ed052ab239c79df0c43ac5902a12222936"
+  },
+  {
+   "path": "17_qa/consistency_HR01.md",
+   "bytes": 9335,
+   "sha256": "801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7"
+  },
+  {
+   "path": "17_qa/hr01_qa_results.json",
+   "bytes": 3737,
+   "sha256": "c251cb08e7b0c2e32fa100d72fd26621ea4d06ada79fe4cd3075029c37f26554"
+  },
+  {
+   "path": "17_qa/hr01_qa_results.md",
+   "bytes": 2633,
+   "sha256": "f0d6be34a58037c60e328ef521561454a4459a02b1b9df8666843a554b958164"
+  },
+  {
+   "path": "17_qa/hr01_static_accessibility_check.csv",
+   "bytes": 455,
+   "sha256": "542af0b8f52092b06341d1f15a0f918a1ee4261b27d913141b2dccbbb8982876"
+  },
+  {
+   "path": "17_qa/hr01_visual_regression.csv",
+   "bytes": 11113,
+   "sha256": "85e9674b91f06ceb977d07328ac2774abeabcf4b8bc83d19e8f25933d2850de5"
+  },
+  {
+   "path": "18_candidate_corrections/GEM Amenities & Packaging — Concept Product Portfolio V3.0 — Part D — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 29078579,
+   "sha256": "7347efc71126012322bb15453cb5ac4b351e583ac0a756edeed790018e23d598"
+  },
+  {
+   "path": "18_candidate_corrections/GEM Brand Guidelines V3.0 — Part A — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 8411377,
+   "sha256": "aeaf96ea70b34f015da975949f0e4ac742ffaa86ffee4b6a722a8995c21f4995"
+  },
+  {
+   "path": "18_candidate_corrections/GEM Digital Design System V3.0 — Part B — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 161537,
+   "sha256": "bde41b51e0e92a20a14a4f71f9dd25021a289751417564f8ce3737b9d0e7b506"
+  },
+  {
+   "path": "18_candidate_corrections/GEM Production Standards V3.0 — Part C — RC2 — HR01 CANDIDATE (UNAPPROVED).pptx",
+   "bytes": 951091,
+   "sha256": "30e2399d03725f17e7ed92398cc410e717f751fd771022d10fbcfcc875c6a397"
+  },
+  {
+   "path": "18_candidate_corrections/GEM_Letterhead_Arabic_Continuation_HR01_CANDIDATE.docx",
+   "bytes": 316730,
+   "sha256": "2216d4d37b38e26bf89dd9892b4e49a03e6fff617a8b9333c43c6dfad14cc563"
+  },
+  {
+   "path": "18_candidate_corrections/GEM_Letterhead_Arabic_First_Page_HR01_CANDIDATE.docx",
+   "bytes": 380861,
+   "sha256": "aa0ac92d99dbb30d76818237056cddeb96772a6e303927acb0113ab626e0a71d"
+  },
+  {
+   "path": "18_candidate_corrections/GEM_Letterhead_Bilingual_Continuation_HR01_CANDIDATE.docx",
+   "bytes": 316858,
+   "sha256": "70fa0c3047c407139963912ea1ff5765534f59d2e59d5ffc47ada1935f1f12a8"
+  },
+  {
+   "path": "18_candidate_corrections/GEM_Letterhead_Bilingual_First_Page_HR01_CANDIDATE.docx",
+   "bytes": 381171,
+   "sha256": "c253cef8f8b3dd0c82add9b3081aa8104736d94f4dc31b0da9f78a26985ed9be"
+  }
+ ]
+}

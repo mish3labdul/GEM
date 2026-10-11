@@ -1,0 +1,503 @@
+{
+ "package": "GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation",
+ "purpose": "Technical Arabic/RTL native validation (PowerPoint and Word, native). Not native-speaker, translation or localization approval.",
+ "status": "AR01 — TECHNICALLY COMPLETE FOR DEFINED POWERPOINT + WORD NATIVE SCOPE — NOT LINGUISTICALLY APPROVED — NOT RELEASE-READY",
+ "release_label": "GEM™ V3.0 RC2 — SYNCHRONIZED / NOT RELEASED / EVIDENCE GATES REMAIN / UNAPPROVED IMPLEMENTATION CANDIDATE",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "1a66c109a826fba21de1f825c8132f601174127f",
+ "governance": {
+  "D3": "RESOLVED AT OWNER-DECISION LEVEL (X12 STREAM = BRAND)",
+  "D5": "400 only; Noto Sans Arabic 400 interim; 500 pending accepted font file",
+  "D7": "LEGAL/IP DECISION PENDING — DO NOT PUSH",
+  "D8": "external Arabic/bilingual PDF validation OPEN",
+  "AC20": "OPEN",
+  "VAL-07": "OPEN (not closable by AR01)",
+  "VAL-08": "OPEN",
+  "VAL-15": "OPEN",
+  "AC10": "Evidence Required (owner decision)",
+  "arabic_linguistic_status": "PENDING NATIVE ARABIC REVIEW"
+ },
+ "pushed": false,
+ "merged": false,
+ "published": false,
+ "pr_opened": false,
+ "committed": false,
+ "staged": false,
+ "authoritative_originals_modified": false,
+ "historical_packages_modified": false,
+ "gates_closed": [],
+ "candidate_lineage_after_ar01": {
+  "Part A": "AR01 candidate (supersedes D3 for Part A only)",
+  "Part B": "AR01 candidate (supersedes NP01-R1 for Part B only; NP01-R1 slide-30 fix preserved)",
+  "Part C": "D3 candidate",
+  "Part D": "ODI01-R1 candidate",
+  "Letterheads": "Revision 03 working set (unchanged)"
+ },
+ "change": {
+  "scope": "Part A slides 37, 38, 39, 65, 66, 68 (11 paragraphs) and Part B slide 9 (1 paragraph): paragraph direction and run language metadata only",
+  "partA": {
+   "base_candidate_sha256": "eca6b80ba6f301cf503b091821736f56c685e10d721c03a5579f9b238e1dc752",
+   "stage1_sha256_slide39_only": "73712e1cf1a74ee23240cc674cf6af5939ca0bb2cf810b622f091f39df22c7a7",
+   "final_candidate_sha256": "bb75f1c1d1ebaf7c429eff38cac4d7eaaed9c2468b9e06bc037a837432c2bbb5",
+   "members_changed_vs_D3": [
+    "ppt/slides/slide37.xml",
+    "ppt/slides/slide38.xml",
+    "ppt/slides/slide39.xml",
+    "ppt/slides/slide65.xml",
+    "ppt/slides/slide66.xml",
+    "ppt/slides/slide68.xml"
+   ],
+   "stage2_sha256_before_run_split": "2caa4c5c01ad12fde68f131fe67496c78ed299b9dcb44018388034552d0cab8f"
+  },
+  "partB": {
+   "base_candidate_sha256": "44145a44c4529db0c0c5d9f38a6d2881e3c5fa549ba21686f1b694699a874d01",
+   "final_candidate_sha256": "63f706220053f62619b69a657f82ceaf257957d60c67596b182d8e2e0f017c86",
+   "members_changed_vs_NP01R1": [
+    "ppt/slides/slide9.xml"
+   ],
+   "np01r1_slide30_preserved": true
+  },
+  "attribute_edits": "a:pPr rtl=1 and the Arabic a:rPr lang en-US->ar-SA on 12 paragraphs (24 attribute edits); slide 39 Text 8 additionally split into an Arabic run (ar-SA) and a Latin identifier run (en-US); inverse transforms reproduce the base bytes",
+  "wording_changed": false,
+  "linguistic_meaning_changed": false,
+  "font_size_tracking_bold_alignment_changed": false,
+  "slide39_text8_run_split": {
+   "applied": true,
+   "runs_before": 1,
+   "runs_after": 2,
+   "arabic_run": "ar-SA (10 characters: Arabic words + following space)",
+   "latin_run": "en-US (8 characters: technical identifier, digits and hyphen inside the same run)",
+   "text_identical": true,
+   "code_points_identical": true,
+   "whitespace_identical": true,
+   "control_characters_added": 0,
+   "font_size_tracking_bold_geometry_identical": true,
+   "native_character_positions_identical": true
+  }
+ },
+ "results": {
+  "arabic_paragraphs": 42,
+  "powerpoint": 12,
+  "word": 30,
+  "arabic_only": 36,
+  "mixed": 6,
+  "P0": 0,
+  "P1": 0,
+  "P2": 1,
+  "p2_corrected_in_candidate": true,
+  "P3_metadata_paragraphs": 12,
+  "p3_corrected": 12,
+  "p3_proposed_not_applied": 0,
+  "arabic_tracking_defects": 0,
+  "bold_on_arabic": 0,
+  "font_family_defects": 0,
+  "unaccepted_font_exercised": false,
+  "consistency_assertions": "112 PASS / 0 FAIL, identical to baseline",
+  "word_native": "PASS (technical): 4 templates opened without repair; 43/43 paragraphs; Arabic characters advance right-to-left, Latin placeholders left-to-right and left of the Arabic label; Noto Sans Arabic; not bold; spacing 0; fields resolve; continuation exercised once with an in-memory page break (Arabic First Page)",
+  "reviewer_queue_items": 44,
+  "powerpoint_native_revalidation": "PASS on the final split candidate: 7 Arabic slides, 12 paragraphs, requested direction RTL, text bounds and all native character positions unchanged versus the previously validated candidate",
+  "pdf": "Part A 80 pages, Part B 35 pages; no new font substitution; text/word boxes identical to the pre-split render; GEM-0000 extracts intact; pages 65/68 bracket code points swap versus the D3 render"
+ },
+ "environment": {
+  "powerpoint": "16.113.3",
+  "word_installed": "16.113.3 (driven for native validation)",
+  "libreoffice": "26.8.1.1",
+  "python_pptx": "1.0.2",
+  "lxml": "6.0.2"
+ },
+ "screenshot_policy": "NATIVE SCREENSHOT EVIDENCE EXISTS LOCALLY AND WAS REVIEWED. SCREENSHOTS ARE INTENTIONALLY EXCLUDED FROM VERSION CONTROL PENDING D7 LEGAL/IP REPOSITORY-VISIBILITY DECISION.",
+ "screenshot_register": "16_AR01_Local_Screenshot_Register.csv",
+ "raw_text_policy": "Committed files contain no Arabic strings; text-bearing raw files are local-only pending D7.",
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "word_native": "COMPLETED: byte-identical temporary copies opened without repair; field-update prompt declined on first opens; one copy edited in memory only for the continuation test (never saved); no repair accepted; inherited Word evidence cited separately and not re-verified",
+ "relationship_to_np01": "NP01-F09 (Part A slide 39) is technically corrected in the AR01 Part A candidate; wording pending native review; NP01 record unchanged",
+ "excluded_from_manifest_and_version_control": [
+  "local_only/ (raw text-bearing inventory, scratch variants and probes, PDFs, screenshots)",
+  ".DS_Store"
+ ],
+ "approval_register_updated": false,
+ "correspondence_authority": "GOVERNANCE REVIEW — OPEN (S07 governs Saudi/GCC wayfinding; Arabic-first correspondence exists in working templates; formal register authority incomplete; not generalized)",
+ "files": [
+  {
+   "path": "01_AR01_Executive_Summary.md",
+   "sha256": "667795db1421e3851826c4e65eb99ba978f9b9700e95a569334fad405de237ee",
+   "bytes": 8310
+  },
+  {
+   "path": "02_AR01_Candidate_Baseline.csv",
+   "sha256": "a09bc66500d8cde8cecaa1bd72734dcec8b794a796d41590103925fdc81cbfc7",
+   "bytes": 5993
+  },
+  {
+   "path": "03_AR01_Arabic_Content_Inventory.csv",
+   "sha256": "c60164fcf49253124114b1857b310e9bc9c73e94e8f5ceb8e94717122bd747df",
+   "bytes": 12811
+  },
+  {
+   "path": "04_AR01_Language_Metadata_Findings.csv",
+   "sha256": "80199b029eafb48575de4f9090b8ac8a243cf32d36985b9a5bdf377c3d888e0e",
+   "bytes": 7406
+  },
+  {
+   "path": "05_AR01_RTL_Bidi_Findings.csv",
+   "sha256": "82df12e5a599f5130b30a2dcaf66165d4f1722515a1bb05695528e421ea189a9",
+   "bytes": 14673
+  },
+  {
+   "path": "06_AR01_Arabic_Typography_Findings.csv",
+   "sha256": "c31e0d6ed0cfdb114a49f07c92fcf76bbcc1973b6a50c9049515f185fc5ba830",
+   "bytes": 5279
+  },
+  {
+   "path": "07_AR01_Native_PowerPoint_Findings.md",
+   "sha256": "b09a50a4a0e3f3600833bf5724c54584066245bfb0dbf5531933f3de61154f02",
+   "bytes": 12747
+  },
+  {
+   "path": "08_AR01_Word_Letterhead_Findings.md",
+   "sha256": "7cedb72732c55afc26085d24977df50cba75a6070261158d57325a650ea74896",
+   "bytes": 10088
+  },
+  {
+   "path": "09_AR01_Mixed_Run_Test_Matrix.csv",
+   "sha256": "0e68fbbf9a64076055887374bbb8574361b60daa9a9cdfbf3610083bd4b1fb20",
+   "bytes": 3174
+  },
+  {
+   "path": "10_AR01_Technical_Correction_Register.csv",
+   "sha256": "5b9f8a6d7bf57114d138efc695edd345d09214921b3cbc7376c5d7c848c68723",
+   "bytes": 9527
+  },
+  {
+   "path": "11_AR01_Native_Arabic_Reviewer_Queue.csv",
+   "sha256": "c967dadaaf9d5e896d35796e6caa6438d92b10040e118a65ea9bcc5f868dbd4e",
+   "bytes": 17136
+  },
+  {
+   "path": "12_AR01_Accessibility_Intersection.md",
+   "sha256": "ea17157b0d4c9ff084cadca9c5b919cd357dfe558581c138bb66f66cb865b5af",
+   "bytes": 3266
+  },
+  {
+   "path": "13_AR01_Validation_Gate_Assessment.md",
+   "sha256": "4d41024c6bd115c63f55151601fe597f8fc65d6d5a043b6d6eacae39b34da01d",
+   "bytes": 4242
+  },
+  {
+   "path": "14_AR01_Open_Findings.md",
+   "sha256": "ffba84caa5087d0bd30b4152c2c7618cf1d9b53f58bac2498d6df9b5b17679b8",
+   "bytes": 7737
+  },
+  {
+   "path": "15_AR01_Evidence_Index.md",
+   "sha256": "2b16652e5be2673672873f5c0109509613748d3f171f79c292cd562da189dfc6",
+   "bytes": 6388
+  },
+  {
+   "path": "16_AR01_Local_Screenshot_Register.csv",
+   "sha256": "fa847195e4a3bd38d6c6099e939ea09f39983cec7b75370bb895502bb4b2eb96",
+   "bytes": 17566
+  },
+  {
+   "path": "17_qa/ar01_edit_log_remaining_ten.json",
+   "sha256": "002a36952cefaf1edd9e999571d5b217afeefa9b192be7fb6a16a5044c607ea1",
+   "bytes": 7429
+  },
+  {
+   "path": "17_qa/ar01_edit_log_slide39.json",
+   "sha256": "ac93d521d6f7afe49522792c2eb96bdf39ef54a12d282c28dfb783d61e70a307",
+   "bytes": 1070
+  },
+  {
+   "path": "17_qa/ar01_metadata_correction_table_PRE_EDIT.csv",
+   "sha256": "472e1d685af2500b669f2258547b5073027b3b0a813dc5262df16d93d62e162d",
+   "bytes": 1418
+  },
+  {
+   "path": "17_qa/ar01_mixed_run_native_char_order_final.csv",
+   "sha256": "4bc2b3378851c8abe454336f23453f90f564ec50bf22f5574a7983dbc3577c72",
+   "bytes": 587
+  },
+  {
+   "path": "17_qa/ar01_partA_pdf_compare.json",
+   "sha256": "99964f0035a6d1e26cb90da22451df8a748b389347d01f49f9414e59490d386a",
+   "bytes": 1672
+  },
+  {
+   "path": "17_qa/ar01_partA_pdf_compare_final.json",
+   "sha256": "16308782ab4c7fba223582096bb0eeb431b6ea77d340e00281dcf5dd6ed5b582",
+   "bytes": 1878
+  },
+  {
+   "path": "17_qa/ar01_partA_pdf_compare_split_vs_previous.json",
+   "sha256": "4c3c61c3b2369134e9511da61ffe0dfea97dd5be96119400f9b8dbb216d1aa58",
+   "bytes": 1588
+  },
+  {
+   "path": "17_qa/ar01_partB_pdf_compare_final.json",
+   "sha256": "553b9cbf57212d667af5a81e87736974fca8fe69000d492d478ce6b159bb93ff",
+   "bytes": 1297
+  },
+  {
+   "path": "17_qa/ar01_slide39_text8_run_split.json",
+   "sha256": "ce6ccdac2a7b3c2d44c0ef6f46d60a32cd3a73bc8d4fe1f5dd5a33b61a5d1acf",
+   "bytes": 3821
+  },
+  {
+   "path": "17_qa/ar01_static_checks.json",
+   "sha256": "43e3c6e5c05a616ad0a1107edcb804748dcaa83f36da6c37d51200374cdaca41",
+   "bytes": 3971
+  },
+  {
+   "path": "17_qa/ar01_structural_diff_remaining_ten.json",
+   "sha256": "c47fac614b30d4ac8f5dfdb2e3defc3247a238f23806a692745d08203434f316",
+   "bytes": 1319
+  },
+  {
+   "path": "17_qa/ar01_structural_diff_slide39.json",
+   "sha256": "f6f7e414a2a39a372f41cb9df2839584b932b05ffab43ab32cef7732ae8cf5f3",
+   "bytes": 1411
+  },
+  {
+   "path": "17_qa/consistency_AFTER_AR01.md",
+   "sha256": "801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7",
+   "bytes": 9335
+  },
+  {
+   "path": "17_qa/consistency_AFTER_AR01_final.md",
+   "sha256": "801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7",
+   "bytes": 9335
+  },
+  {
+   "path": "17_qa/consistency_BASELINE_current_lineage.md",
+   "sha256": "801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7",
+   "bytes": 9335
+  },
+  {
+   "path": "17_qa/native_pass_A_AR01_final.csv",
+   "sha256": "3be320ab1cc49299f969d710cd91d14cbbcc3c424872c730b2fe316cfe11fb54",
+   "bytes": 1623
+  },
+  {
+   "path": "17_qa/native_pass_A_AR01_final2.csv",
+   "sha256": "3d935b0a99daf5d22aaa0b16ac0e0ae61f7612387a49a2cc2657b6e42384042f",
+   "bytes": 1634
+  },
+  {
+   "path": "17_qa/native_pass_A_baseline_D3.csv",
+   "sha256": "47d93e8642fe3aef9115edf33919a7fb0d20515cb397409ee5547abe532d1a6c",
+   "bytes": 1634
+  },
+  {
+   "path": "17_qa/native_pass_A_corrected_AR01.csv",
+   "sha256": "6551f8851a0bbf6100f94076eb3beffa34ce888724d92835bd57495832505dd2",
+   "bytes": 1667
+  },
+  {
+   "path": "17_qa/native_pass_B_AR01_final.csv",
+   "sha256": "c4afd9350a47560b7dbbecec27df2c82d732cedaeacccd1529ec4249c1a4a3ed",
+   "bytes": 390
+  },
+  {
+   "path": "17_qa/native_pass_B_NP01R1.csv",
+   "sha256": "e06674b98142a0892ab02a026008a8734b082f1737e3a1271df795c2b951904e",
+   "bytes": 386
+  },
+  {
+   "path": "17_qa/native_word_continuation_test.csv",
+   "sha256": "14d20bfae9637e88daf54da71205283e85ae7e57932571792c5ce795d8683a21",
+   "bytes": 1873
+  },
+  {
+   "path": "17_qa/native_word_paragraphs.csv",
+   "sha256": "0e41d91080540b0c0b51afecc4a9eb4558010f0e5e18c5fd46f3e046ab4e7c9c",
+   "bytes": 6080
+  },
+  {
+   "path": "17_qa/native_word_template_summary.csv",
+   "sha256": "7d3bebed3473f5bafaa266f0b68a9f904a839710a9e988771537b111cb6a7ef2",
+   "bytes": 2685
+  },
+  {
+   "path": "17_qa/pdfkit_logical_order_class_runs.json",
+   "sha256": "9587349d623f5bb42f3412a8ee0f8aa7144ed286566f6f1a396a122748464bc8",
+   "bytes": 16038
+  },
+  {
+   "path": "17_qa/pdfkit_logical_order_class_runs_final.json",
+   "sha256": "b8c6f3d916b723d1707f34a14b4f8d8e6e6ca721eae685f0eb42d7df58c64d2b",
+   "bytes": 16034
+  },
+  {
+   "path": "17_qa/screenshot_pixel_diff_AR01_final.json",
+   "sha256": "2883f97c1a662cdb6e2c706852c603c2befb58147290923a6ad90a1045f58c2f",
+   "bytes": 3403
+  },
+  {
+   "path": "17_qa/screenshot_pixel_diff_baseline_vs_corrected.json",
+   "sha256": "7df27728ae74df64f132ce639c38c33b742191f05097e878fcfbe8cafed3f47f",
+   "bytes": 399
+  },
+  {
+   "path": "17_qa/screenshot_pixel_diff_final_vs_split.json",
+   "sha256": "73f2d9902230392cbc5f1ba7afff6b401bec276609a6cd541e98b57c29c31da9",
+   "bytes": 2027
+  },
+  {
+   "path": "18_scripts/ar01_apply_remaining_metadata.py",
+   "sha256": "4a16696a4edc47c5227fa0f49a482f5f680dba84d689ac0a846e00549921d2a4",
+   "bytes": 5540
+  },
+  {
+   "path": "18_scripts/ar01_apply_slide39_fix.py",
+   "sha256": "bacef860f169754061dcc4aeb3e3f1b80c103a632f09f5ea46ef26048f8e2221",
+   "bytes": 3107
+  },
+  {
+   "path": "18_scripts/ar01_build_findings.py",
+   "sha256": "c8e960e27b566e689bc4cd35a30e77ce2fd0c6f2966c803997580e0935df165d",
+   "bytes": 12782
+  },
+  {
+   "path": "18_scripts/ar01_build_metadata_register.py",
+   "sha256": "83ea7b9c372afa4214375ceaa951752f2cd8d5facf7e7c9d8148d1d184241edb",
+   "bytes": 6760
+  },
+  {
+   "path": "18_scripts/ar01_build_register.py",
+   "sha256": "1f9e6cf78da61f6065b71ebb502742fd2293c5decfc9d7bac65b67dff4dc5705",
+   "bytes": 4952
+  },
+  {
+   "path": "18_scripts/ar01_capture.py",
+   "sha256": "4a56424b5b38ddccd1425bdd1670b99d4a36f43bd51a34f0089a1c687d25f8af",
+   "bytes": 522
+  },
+  {
+   "path": "18_scripts/ar01_common.py",
+   "sha256": "2c5f698e0da8ca380aa86edefb13ac4de3f927f3f81e54073aa33a9c8589c13f",
+   "bytes": 9097
+  },
+  {
+   "path": "18_scripts/ar01_inventory.py",
+   "sha256": "4d9fe8cf23f758632039f9a53205d83b18cd6b88c5c23749930d5ebf43526411",
+   "bytes": 11248
+  },
+  {
+   "path": "18_scripts/ar01_make_variants.py",
+   "sha256": "ae6e982d3b46091e8071d838e11ab30bccda94f0d83e528a8bd3485d6b7c82a0",
+   "bytes": 2830
+  },
+  {
+   "path": "18_scripts/ar01_manifest.py",
+   "sha256": "75a10ec585f1546316fbd7944b2f7ea67f565ea73ef43b87fa060b596c84225c",
+   "bytes": 1271
+  },
+  {
+   "path": "18_scripts/ar01_mixed_native_order.py",
+   "sha256": "2902624e25119c20634149184660e4b9cae1b8286c99ed92bc6ec8e46a2e662b",
+   "bytes": 3449
+  },
+  {
+   "path": "18_scripts/ar01_native_char_bounds.applescript",
+   "sha256": "f333ebc2bb160b951576636aee10b4503e001653c1ad07b654a5ebaa9805b8ed",
+   "bytes": 1187
+  },
+  {
+   "path": "18_scripts/ar01_native_pass.py",
+   "sha256": "33f4e831ab6eafe7805dec835f48159a024d131f31cac6d0e3f0e1b58160dd32",
+   "bytes": 4239
+  },
+  {
+   "path": "18_scripts/ar01_native_slide39_probe.py",
+   "sha256": "2ed9fcb48c81ee447b96eb30d948f013037c2295e519872d8cebf462187d65fd",
+   "bytes": 3115
+  },
+  {
+   "path": "18_scripts/ar01_pdf_compare.py",
+   "sha256": "3d611d892927e2b937067d6cae67cf7ce00b4806e9c4cb308dc778d8b03b7b0b",
+   "bytes": 3436
+  },
+  {
+   "path": "18_scripts/ar01_pdfkit_extract.py",
+   "sha256": "f59da50fd2f85ec8edd9f8dc64432648e1ee49ad34ed05ab5f0ac7eae839c5b3",
+   "bytes": 1964
+  },
+  {
+   "path": "18_scripts/ar01_probe_variant.sh",
+   "sha256": "de3bd5526a6bfdaa0ba29ffe33d4bcd4ce58f99ae82754464a3f92e1bade6c85",
+   "bytes": 1228
+  },
+  {
+   "path": "18_scripts/ar01_run_variants.py",
+   "sha256": "e5323a155c8b8bd585bc604937c0d5daf778769089a240d205ba894b755d6847",
+   "bytes": 2979
+  },
+  {
+   "path": "18_scripts/ar01_split_slide39_text8.py",
+   "sha256": "79d09e227b39ccc84ee46540b1b86fca044be2927addd0f71247dfa33db54c68",
+   "bytes": 7110
+  },
+  {
+   "path": "18_scripts/ar01_static_checks.py",
+   "sha256": "e25837844f4698a35b40d52de81b5b8c164b027219a01d0cba4ced8c9ca08d67",
+   "bytes": 4775
+  },
+  {
+   "path": "18_scripts/ar01_structural_qa.py",
+   "sha256": "4860841cef8ad738256b3c56c1a852b5a38e1ed1570c223b47a4dee2c3725c66",
+   "bytes": 2631
+  },
+  {
+   "path": "18_scripts/ar01_update_after_owner_decision.py",
+   "sha256": "4d0b7599a30955c38b23c10b3226501e12da17ed0d81b096f8b41504122ecfe7",
+   "bytes": 7286
+  },
+  {
+   "path": "18_scripts/ar01_word_analyze.py",
+   "sha256": "8013544b175a03c03387e1a26098996309ab0bddc86fd284af957d300e53c149",
+   "bytes": 2977
+  },
+  {
+   "path": "18_scripts/ar01_word_hf_probe.applescript",
+   "sha256": "a24a10a75af63a202e1881192f10952a6386bb0d824033a018890c661fc969a6",
+   "bytes": 1812
+  },
+  {
+   "path": "18_scripts/ar01_word_probe.applescript",
+   "sha256": "413e68b9939d47f2abaa78d776721e84fcb6eef341022acce06cf0c8baff3b9d",
+   "bytes": 1785
+  },
+  {
+   "path": "18_scripts/ar01_word_summarize.py",
+   "sha256": "57ad99338884df88cb197a0c26a3ad590c555ef92c6819b006e6858343970af0",
+   "bytes": 4514
+  },
+  {
+   "path": "19_candidate_corrections/GEM Brand Guidelines V3.0 — Part A — RC2 — AR01 CANDIDATE (UNAPPROVED).pdf",
+   "sha256": "c99180654f9443aa7d1603414de2c016041ce51f721ccab6592b6e77cb36fcf0",
+   "bytes": 3977297
+  },
+  {
+   "path": "19_candidate_corrections/GEM Brand Guidelines V3.0 — Part A — RC2 — AR01 CANDIDATE (UNAPPROVED).pptx",
+   "sha256": "bb75f1c1d1ebaf7c429eff38cac4d7eaaed9c2468b9e06bc037a837432c2bbb5",
+   "bytes": 8402294
+  },
+  {
+   "path": "19_candidate_corrections/GEM Digital Design System V3.0 — Part B — RC2 — AR01 CANDIDATE (UNAPPROVED).pdf",
+   "sha256": "f284996687c36cae1cc10d239d9b51e933ec16c8f8868ffee60bd908caa6fba1",
+   "bytes": 511085
+  },
+  {
+   "path": "19_candidate_corrections/GEM Digital Design System V3.0 — Part B — RC2 — AR01 CANDIDATE (UNAPPROVED).pptx",
+   "sha256": "63f706220053f62619b69a657f82ceaf257957d60c67596b182d8e2e0f017c86",
+   "bytes": 158027
+  },
+  {
+   "path": "AR01_PowerPoint_Metadata_Correction_Register.csv",
+   "sha256": "a584565ae4c3a791f11607a66711a8a4b8bc0fb544a877d7b75fa4b1b76dc300",
+   "bytes": 7705
+  }
+ ]
+}

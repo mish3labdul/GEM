@@ -1,0 +1,23 @@
+# git ls-remote --heads --tags origin  (2026-10-09 02:04:33 +0300)
+3ba158ef22f5f5ceb60a1bbc2766c7a053b877de	refs/heads/claude/pensive-mayer-s1xbmb
+4ea0d117da03850854654288afcdde98f39994d5	refs/heads/main
+
+# git ls-remote origin 'refs/pull/*'
+e0cb8cc1191047bc58ca2dc107f632444a2f4c68	refs/pull/1/head
+59cac07c4ea09dc1cb9ac55af42972ffc3c1e922	refs/pull/10/head
+79d88fdab68cd65bcde9cc9016af90ad4d847a40	refs/pull/10/merge
+3ba158ef22f5f5ceb60a1bbc2766c7a053b877de	refs/pull/11/head
+9600541004c0d9f0283f9f07e3e69301f02c11eb	refs/pull/2/head
+17a79ee5dec85a72ebc19a8b52e1d3c0254fa38d	refs/pull/3/head
+da9428869b6454ba2bb83efe40203da40c907cab	refs/pull/4/head
+d5726cee4312d3171603b408433c9c2d0f59fd5e	refs/pull/5/head
+ae9017b149ae395859e0716829940ba1fa3f536d	refs/pull/6/head
+49672ac4ee8773b0a134523ae59fffcb6b7fb71b	refs/pull/7/head
+32b5f894e0e0578f1826d044d0349e72e3b5c469	refs/pull/8/head
+18c44b124fe4862427b930e50893917cc9659089	refs/pull/9/head
+
+# git ls-remote --heads letterhead-fork
+3f887328e6bfec590313bd6cb80faad7fadcfba7	refs/heads/claude/gem-letterhead-v1.1-rev03
+18c44b124fe4862427b930e50893917cc9659089	refs/heads/claude/pensive-mayer-s1xbmb
+59cac07c4ea09dc1cb9ac55af42972ffc3c1e922	refs/heads/codex/gem-letterhead-v1
+334744c72dbbb6681034996fcca595213a7623a2	refs/heads/main

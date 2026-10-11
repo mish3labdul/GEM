@@ -1,0 +1,24 @@
+[
+ {
+  "file": "GEM Digital Design System V3.0 — Part B — RC2 — NP01-R1 CANDIDATE (UNAPPROVED).pptx",
+  "slides": 35,
+  "notesSlides": 35,
+  "charts": [],
+  "diagrams": [],
+  "embedded_fonts": false,
+  "media_external_links": [],
+  "defaultTextStyle_bold": 0,
+  "explicit_bold_parts": {},
+  "tableStyleIds": {},
+  "tableFlags": {},
+  "tableStyles_defined_ids": [],
+  "tableStyles_bold_tokens": 0,
+  "arabic_slides": {
+   "9": {
+    "arabic_runs": 1,
+    "runs_with_cs_noto": 1,
+    "rtl_paras": 0
+   }
+  }
+ }
+]

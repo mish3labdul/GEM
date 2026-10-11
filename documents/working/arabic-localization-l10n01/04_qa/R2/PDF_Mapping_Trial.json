@@ -1,0 +1,123 @@
+{
+  "repairs": [
+    {
+      "page": 1,
+      "font": "F6",
+      "code": "11",
+      "unicode": "U+064B",
+      "evidence": "Exporter ActualText يً"
+    },
+    {
+      "page": 7,
+      "font": "F6",
+      "code": "2D",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText رّ"
+    },
+    {
+      "page": 8,
+      "font": "F31",
+      "code": "20",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText رّ"
+    },
+    {
+      "page": 10,
+      "font": "F26",
+      "code": "24",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText رّ"
+    },
+    {
+      "page": 10,
+      "font": "F26",
+      "code": "29",
+      "unicode": "U+064B",
+      "evidence": "Exporter ActualText نً"
+    },
+    {
+      "page": 13,
+      "font": "F19",
+      "code": "37",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText وّ"
+    },
+    {
+      "page": 13,
+      "font": "F19",
+      "code": "38",
+      "unicode": "U+064F",
+      "evidence": "Exporter ActualText يُ"
+    },
+    {
+      "page": 14,
+      "font": "F44",
+      "code": "3E",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText رّ"
+    },
+    {
+      "page": 15,
+      "font": "F12",
+      "code": "42",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText رّ"
+    },
+    {
+      "page": 15,
+      "font": "F37",
+      "code": "38",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText رّ"
+    },
+    {
+      "page": 15,
+      "font": "F37",
+      "code": "42",
+      "unicode": "U+064F",
+      "evidence": "Exporter ActualText تُ"
+    },
+    {
+      "page": 16,
+      "font": "F47",
+      "code": "20",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText وّ"
+    },
+    {
+      "page": 17,
+      "font": "F26",
+      "code": "49",
+      "unicode": "U+064F",
+      "evidence": "Exporter ActualText يُ"
+    },
+    {
+      "page": 21,
+      "font": "F6",
+      "code": "4E",
+      "unicode": "U+064F",
+      "evidence": "Exporter ActualText تُ"
+    },
+    {
+      "page": 22,
+      "font": "F64",
+      "code": "16",
+      "unicode": "U+0651",
+      "evidence": "Exporter ActualText رّ"
+    },
+    {
+      "page": 23,
+      "font": "F64",
+      "code": "27",
+      "unicode": "U+064B",
+      "evidence": "Exporter ActualText لًا"
+    },
+    {
+      "page": 23,
+      "font": "F64",
+      "code": "34",
+      "unicode": "U+064F",
+      "evidence": "Exporter ActualText يُ"
+    }
+  ]
+}

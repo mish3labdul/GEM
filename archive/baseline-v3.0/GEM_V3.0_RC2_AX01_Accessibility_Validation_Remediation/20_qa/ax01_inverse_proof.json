@@ -1,0 +1,17 @@
+{
+ "Part A": {
+  "members_changed": 58,
+  "reproduced_by_inverse_transform": 58,
+  "not_reproduced": []
+ },
+ "Part B": {
+  "members_changed": 33,
+  "reproduced_by_inverse_transform": 33,
+  "not_reproduced": []
+ },
+ "Part C": {
+  "members_changed": 50,
+  "reproduced_by_inverse_transform": 50,
+  "not_reproduced": []
+ }
+}

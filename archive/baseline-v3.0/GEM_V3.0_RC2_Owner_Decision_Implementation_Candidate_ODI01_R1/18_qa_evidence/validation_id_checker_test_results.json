@@ -1,0 +1,306 @@
+{
+ "total": 30,
+ "passed": 30,
+ "failed": 0,
+ "results": [
+  {
+   "group": "positive",
+   "text": "VAL-18 is unallocated.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "No VAL-18 exists.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "VAL-18 remains intentionally unallocated.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "VAL-18 unallocated",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "VAL-18 is not allocated.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "ID 18 intentionally unallocated",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": []
+  },
+  {
+   "group": "positive",
+   "text": "VAL-18 not allocated",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "no VAL-18",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "VAL-01 to VAL-21 (no VAL-18); VAL-07 open.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "VAL-18 is unallocated; it carries no owner, status or release condition.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "VAL-05, VAL-07 and VAL-15 remain open; VAL-18 stays unallocated.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "VAL-01 to VAL-21 (no VAL-18)",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "Allocated IDs are VAL-01 to VAL-21 except VAL-18.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "VAL-18 has not been created.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "positive",
+   "text": "Validation IDs (VAL-01…21, no VAL-18; S02 deferred), packaging status, release state.",
+   "expected": "ALLOW",
+   "actual": "ALLOW",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 owner: Brand Owner",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 status: OPEN",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 must close before release",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "depends on VAL-18",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 evidence required",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 is unallocated. VAL-18 owner: Brand Owner",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "EXPLANATORY",
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 passed",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "UNCLASSIFIED"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "See VAL-18 for the digital gate.",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 is unallocated but must close before release",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-22 evidence required",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "UNKNOWN_ID"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-00 is open",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "UNKNOWN_ID"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 (owner: Brand Owner)",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "UNCLASSIFIED"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 (unallocated) must close before release",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "UNCLASSIFIED"
+   ]
+  },
+  {
+   "group": "negative",
+   "text": "VAL-18 is absent from the register but is blocked by VAL-07",
+   "expected": "FAIL",
+   "actual": "FAIL",
+   "result": "PASS",
+   "classes": [
+    "ACTIVE"
+   ]
+  }
+ ]
+}

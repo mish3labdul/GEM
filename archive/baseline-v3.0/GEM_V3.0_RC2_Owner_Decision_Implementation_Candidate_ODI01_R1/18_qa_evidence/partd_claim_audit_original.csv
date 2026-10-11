@@ -1,0 +1,64 @@
+Classification,Where,Slides,Occurrences,Text,Rule,Reason
+BRAND RULE APPROVED,shape,10,1,"Six levels, in the register’s approved order.",R-brand,Six-level hierarchy is a Register decision (T05).
+BRAND RULE APPROVED,shape,2,1,One master brand,R-brand,"Master-brand architecture (Register, Part A)."
+BRAND RULE APPROVED,shape,2,1,"Amenities & Packaging is the primary descriptive business stream under GEM. It inherits the master logo, palette, typography and voice.",R-brand,"Master-brand architecture (Register, Part A)."
+BRAND RULE APPROVED,notes,2,1,Amenities & Packaging is the approved descriptive stream.,R-brand,Register T01/AC03 (architecture); capability evidence stays conditional (same note).
+BRAND RULE APPROVED,notes,"5,6",2,The enlarged label is editable and carries all six approved hierarchy levels.,R-brand,Six-level hierarchy is a Register decision (T05).
+BRAND RULE APPROVED,shape,9,1,The master identity stays constant.,R-brand,"Master-brand architecture (Register, Part A)."
+OWNER-DESIGNATED CONCEPT,shape,1,1,CONCEPT / NOT PRODUCTION ARTWORK,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,notes,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",24,"Authority: V3 Final Brand Approval Register, then domain-owning RC2 Part A/B/C.",R-disclaimer,Boilerplate that negates release/production authorization and states the concept status.
+OWNER-DESIGNATED CONCEPT,notes,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",24,No production or commercial release is authorized by this portfolio.,R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,notes,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",24,"Logos are the supplied vector kit (SVG), used unchanged; acceptance as production master remains PENDING (VAL-02).",R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,notes,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",24,"All photorealistic images are AI-generated concepts, NOT PRODUCTION PHOTOGRAPHY.",R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,shape,10,1,CONCEPT / NOT PRODUCTION ARTWORK   /   NO DIMENSIONAL SPECIFICATION,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,11,1,Name [REQUIRES OWNER],R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,shape,12,1,Partner artwork and precedence: [REQUIRES OWNER],R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,shape,12,1,CONDITIONAL   /   CONCEPT / NOT PRODUCTION ARTWORK,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,13,1,CONDITIONAL   /   STRUCTURAL CONCEPT   /   SUPPLIER PROOF REQUIRED,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,14,1,CONCEPT / NOT PRODUCTION ARTWORK   /   LABEL DATA REMAINS PENDING,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,15,1,STRUCTURAL CONCEPT   /   SUPPLIER PROOF REQUIRED,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,16,1,[REQUIRES SUPPLIER / OWNER],R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,shape,"16,17",2,CONCEPT / NOT PRODUCTION PHOTOGRAPHY   /   PENDING PHYSICAL PROOF,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,notes,17,1,"Macro image is illustrative, not a tooling specification or approved logo reproduction.",R-negation,Negative statement: no approval claimed.
+OWNER-DESIGNATED CONCEPT,shape,18,1,CONCEPT / NOT PRODUCTION ARTWORK   /   TOUCHPOINT SCOPE CONDITIONAL,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,19,1,CONCEPT / NOT PRODUCTION PHOTOGRAPHY   /   COPY AND PRODUCTION DATA PENDING,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,20,1,[REQUIRES OWNER],R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,shape,20,1,CONCEPT / NOT PRODUCTION PHOTOGRAPHY   /   OPERATIONAL VALIDATION PENDING,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,table,23,1,[REQUIRES OWNER],R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,shape,23,1,No item in this portfolio is an approved production asset.,R-negation,Negative statement: no approval claimed.
+OWNER-DESIGNATED CONCEPT,notes,23,1,"IDs are internal portfolio references, not SKUs or approved master IDs.",R-negation,Negative statement: no approval claimed.
+OWNER-DESIGNATED CONCEPT,shape,24,1,WORKING EDITION   /   CONCEPT / NOT PRODUCTION ARTWORK,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,notes,24,1,No approval or capability claim is implied.,R-negation,Negative statement: no approval claimed.
+OWNER-DESIGNATED CONCEPT,shape,3,1,CONCEPT / NOT PRODUCTION PHOTOGRAPHY,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,4,1,PILOT COLLECTION   /   CONCEPT / NOT PRODUCTION ARTWORK,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,notes,"5,6",2,Source: Part C pp.28–35; Part A pp.61–62; chat product direction.,R-owner,"Source cited as ""chat product direction"": an owner/product direction, not a validated rule; unverifiable in the repository."
+OWNER-DESIGNATED CONCEPT,shape,"5,6,8",3,CONCEPT / NOT PRODUCTION ARTWORK   /   PRODUCT DATA PENDING,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,7,1,CONCEPT / NOT PRODUCTION ARTWORK   /   FORMAT AND COMPATIBILITY PENDING,R-label,Required concept marking retained.
+OWNER-DESIGNATED CONCEPT,shape,8,1,[PENDING]   Supplier testing and product-owner review.,R-default,Keyword appears in a process or label context; no approval claim.
+OWNER-DESIGNATED CONCEPT,shape,9,1,CONCEPT / NOT PRODUCTION ARTWORK   /   DISPENSING FORMAT PENDING,R-label,Required concept marking retained.
+EVIDENCE REQUIRED,notes,11,1,Core Collection name requires owner approval.,R-gate,States an open gate.
+EVIDENCE REQUIRED,shape,14,1,GEM master artwork,R-master,"""Master artwork"" label while production-master acceptance is open (AC07 Evidence Required, VAL-02)."
+EVIDENCE REQUIRED,shape,14,1,PENDING LOCALIZATION APPROVAL,R-gate,States an open gate.
+EVIDENCE REQUIRED,shape,15,1,[PENDING PHYSICAL PROOF],R-gate,States an open gate.
+EVIDENCE REQUIRED,shape,15,1,"Bleed, safe area and tolerances come from the approved supplier dieline.",R-future,Reads as if an approved dieline exists; none does (supplier proof gate). Candidate wording provided.
+EVIDENCE REQUIRED,shape,"15,21",2,Physical proof,R-gate,States an open gate.
+EVIDENCE REQUIRED,notes,19,1,"Final copy, dimensions and property information require approval.",R-gate,States an open gate.
+EVIDENCE REQUIRED,notes,20,1,"Dimensions, cleaning, durability and product compatibility require supplier and operations validation.",R-gate,States an open gate.
+EVIDENCE REQUIRED,shape,22,1,Physical validation,R-gate,States an open gate.
+EVIDENCE REQUIRED,table,23,1,PENDING VALIDATION,R-gate,States an open gate.
+EVIDENCE REQUIRED,shape,23,1,REVIEW PACKAGE   /   OWNER APPROVAL AND PRODUCTION RELEASE REMAIN OPEN,R-gate,States an open gate.
+EVIDENCE REQUIRED,shape,7,2,SUPPLIER PROOF REQUIRED,R-gate,States an open gate.
+PRODUCTION STATUS,shape,10,1,Supplied vector kit; production master acceptance pending.,R-gate,States an open gate.
+PRODUCTION STATUS,shape,21,1,PRODUCTION,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,21,1,Production release sequence,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,21,1,Correct master,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,21,1,proof,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,21,1,Final approval,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,21,1,Production,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,21,1,Step 11 corrections return to step 5. No step is bypassed without written approval.,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,22,1,Master assets,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,22,1,Production specification,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,22,1,Supplier proof,R-process,Describes the Part C release sequence; no claim about any item.
+PRODUCTION STATUS,shape,22,1,WORKING EDITION   /   PENDING PRODUCTION VALIDATION,R-gate,States an open gate.
+PRODUCTION STATUS,table,23,1,"Scope, source and validation dependency",R-process,Describes the Part C release sequence; no claim about any item.
+UNSUPPORTED CLAIM,notes,23,1,"Supporting CSV registers contain full concept, source, asset, change and open-decision records.",R-dangling,"Notes cite supporting CSV registers (concept, source, asset, change, open decisions). Only 01_mockups/MOCKUP_REGISTER.csv exists in the package."

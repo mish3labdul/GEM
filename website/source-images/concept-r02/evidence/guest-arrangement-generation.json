@@ -1,0 +1,30 @@
+{
+  "asset": "guest-arrangement",
+  "date": "2026-10-10",
+  "status": "PROPOSED / CONCEPT VISUALIZATION / NOT PRODUCTION ARTWORK OR PRODUCT PHOTOGRAPHY",
+  "mode": "built-in image_gen.imagegen",
+  "prompt": "Use case: product-mockup. Create one high-resolution landscape 3:2 GEM branded guest-room vanity concept visualization using the three supplied reference images DIRECTLY for identity, packaging, palette, typography, surface materials and lighting. Reference 1: ivory GEM welcome card and charcoal key sleeve with exact slender GEM lettering, short fine horizontal rule, and large cropped circular arc with a few small ticks. Reference 2: branded amber and ivory pump bottle family on warm travertine, with white towel. Reference 3: close bottle label and precise black pump geometry. New scene: exactly TWO amber cylindrical bottles with black pumps plus ONE ivory cylindrical hand wash bottle with black pump, on a shallow warm-ivory rectangular amenity tray on warm travertine. Bottles labeled English only, respectively BODY WASH, SHAMPOO, HAND WASH, with prominent GEM and fine short rule above function, same understated thin-weight source typography. Use the reference's cropped arc with sparse ticks at the base of each bottle label; black labels on amber, ivory label on ivory. Beside tray, one upright ivory welcome card with GEM and WELCOME, fine short rule and cropped arc with ticks, and one upright dark charcoal GEM key sleeve. Folded plush white towel nearby. Warm natural afternoon light with strong architectural shadow and credible soft contact shadows, tactile paper and stone, premium editorial photography, slightly elevated eye-level camera, carefully legible branded faces. Close-cropped anonymous wall and counter, no identified hotel or property, no people. These are concept mockups, not real installed work or production artwork. Match supplied GEM mark feel without inventing a new symbol or logo. NO Arabic at all, no extra text or pseudo-text, no quantities, ingredient lists, certifications, claims, client names, watermarks, gold, flowers or plants. Exactly three bottles, one card and one key sleeve, coherent physical geometry. Brand and graphic language are central to the scene, never plain unbranded generic bottles.",
+  "referenced_image_paths": [
+    "/Users/mediacenter1/Downloads/GEM-3.0/Amenities_Portfolio_PartD_RC2/01_mockups/slide-19_1536x1024_1b9bb8d7.png",
+    "/Users/mediacenter1/Downloads/GEM-3.0/Amenities_Portfolio_PartD_RC2/01_mockups/slide-20_1536x1024_0f85f9d1.png",
+    "/Users/mediacenter1/Downloads/GEM-3.0/Amenities_Portfolio_PartD_RC2/01_mockups/slide-06_1536x1024_e1d86b98.png"
+  ],
+  "reference_roles": [
+    "Welcome card/key sleeve identity, rule and arc system",
+    "Amenity family, materials and hospitality arrangement",
+    "Amber pump geometry and label design"
+  ],
+  "generation_attempts": 1,
+  "original_path": "/Users/mediacenter1/.codex/generated_images/01a125cd-824e-7731-bd43-a1aca78b4f33/exec-a19a4384-bde3-4632-a3ae-733db5634b45.png",
+  "final_path": "masters/guest-arrangement.png",
+  "format": "PNG",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "adbb31cdd790f71a75f4d69bcf8e40ed803fe30572b993f4ca16a054733e963c",
+  "qa": {
+    "method": "Generated image visually inspected inline and through view_image",
+    "result": "Selected as branded concept visualization",
+    "observed": "Exactly two amber and one ivory black-pump bottle. Visible English function names read BODY WASH, SHAMPOO, HAND WASH. GEM on all bottles, card and sleeve. One welcome card and one dark sleeve. Cropped arc/tick graphic and short rule reproduce supplied concept language. Warm travertine and folded white towel with afternoon architectural shadow. No Arabic, quantities, property/client identifiers or unsupported claims observed. Credible contact shadows and packaging geometry.",
+    "limitations": "AI-rendered wordmarks are visual interpretations, not accepted production master artwork or native typography. Exact mark fidelity, supplier feasible forms, legal/IP and public-use acceptance remain pending. Scene represents proposed hospitality concept only."
+  }
+}

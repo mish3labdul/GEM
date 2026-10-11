@@ -1,0 +1,730 @@
+{
+ "GEM_Letterhead_Arabic_Continuation.docx": {
+  "sections": 1,
+  "pgSz": {
+   "w": "11906",
+   "h": "16838"
+  },
+  "pgMar": {
+   "top": "1701",
+   "right": "1417",
+   "bottom": "2098",
+   "left": "1417",
+   "header": "1020",
+   "footer": "680",
+   "gutter": "0"
+  },
+  "A4": true,
+  "titlePg": false,
+  "headerRefs": [
+   "default"
+  ],
+  "footerRefs": [
+   "default"
+  ],
+  "hf_targets_exist": true,
+  "fields": {
+   "footer1.xml:PAGE": 1,
+   "footer1.xml:NUMPAGES": 1
+  },
+  "media": {},
+  "drawings": 0,
+  "drawings_with_descr": 0,
+  "fonts_used_in_content": {
+   "Inter": 66,
+   "Noto Sans Arabic": 18
+  },
+  "fonts_in_styles": {
+   "Inter": 6,
+   "Noto Sans Arabic": 7,
+   "Jost": 8,
+   "Courier": 4
+  },
+  "real_bold_runs_in_content": 0,
+  "bold_in_styles": 305,
+  "italic_runs": 0,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": true,
+  "fontTable_embedded": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "embed_files": [
+   "word/fonts/Inter-Regular.odttf",
+   "word/fonts/Jost-Regular.odttf",
+   "word/fonts/NotoSansArabic-Regular.odttf"
+  ],
+  "bidi_paragraphs": 6,
+  "rtl_runs": 6,
+  "lrm_marks": 0,
+  "rlm_marks": 0,
+  "lang": [
+   "<w:lang w:val=\"ar-SA\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"en-GB\"/>"
+  ],
+  "heading_styles_used": [],
+  "core_title": "GEM Branded Letterhead Set v1.1 Application Revision 03 Arabic Continuation",
+  "core_lang": "ar-SA",
+  "status_lines": [
+   "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL",
+   "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL"
+  ],
+  "tagline": [],
+  "tagline_runs_spacing_twips_and_halfpt": []
+ },
+ "GEM_Letterhead_Arabic_First_Page.docx": {
+  "sections": 1,
+  "pgSz": {
+   "w": "11906",
+   "h": "16838"
+  },
+  "pgMar": {
+   "top": "1701",
+   "right": "1417",
+   "bottom": "2098",
+   "left": "1417",
+   "header": "1020",
+   "footer": "680",
+   "gutter": "0"
+  },
+  "A4": true,
+  "titlePg": true,
+  "headerRefs": [
+   "first",
+   "default"
+  ],
+  "footerRefs": [
+   "first",
+   "default"
+  ],
+  "hf_targets_exist": true,
+  "fields": {
+   "footer1.xml:PAGE": 1,
+   "footer1.xml:NUMPAGES": 1,
+   "footer2.xml:PAGE": 1,
+   "footer2.xml:NUMPAGES": 1
+  },
+  "media": {
+   "word/media/image1.png": {
+    "sha256": "ce953ebf3df88232",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/png/gem-horizontal-ink-2048.png"
+    ]
+   },
+   "word/media/gem-horizontal-ink.svg": {
+    "sha256": "6abbd491846178d0",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/svg/gem-horizontal-ink.svg"
+    ]
+   }
+  },
+  "drawings": 1,
+  "drawings_with_descr": 1,
+  "fonts_used_in_content": {
+   "Inter": 129,
+   "Noto Sans Arabic": 30,
+   "Jost": 3
+  },
+  "fonts_in_styles": {
+   "Inter": 6,
+   "Noto Sans Arabic": 7,
+   "Jost": 8,
+   "Courier": 4
+  },
+  "real_bold_runs_in_content": 0,
+  "bold_in_styles": 305,
+  "italic_runs": 0,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": true,
+  "fontTable_embedded": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "embed_files": [
+   "word/fonts/Inter-Regular.odttf",
+   "word/fonts/Jost-Regular.odttf",
+   "word/fonts/NotoSansArabic-Regular.odttf"
+  ],
+  "bidi_paragraphs": 10,
+  "rtl_runs": 10,
+  "lrm_marks": 4,
+  "rlm_marks": 0,
+  "lang": [
+   "<w:lang w:val=\"ar-SA\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"en-GB\"/>"
+  ],
+  "heading_styles_used": [
+   "Heading1"
+  ],
+  "core_title": "GEM Branded Letterhead Set v1.1 Application Revision 03 Arabic First Page",
+  "core_lang": "ar-SA",
+  "status_lines": [
+   "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL",
+   "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL"
+  ],
+  "tagline": [
+   "HOSPITALITY, IN PERFECT PROPORTION"
+  ],
+  "tagline_runs_spacing_twips_and_halfpt": [
+   [
+    38,
+    21
+   ]
+  ]
+ },
+ "GEM_Letterhead_Bilingual_Continuation.docx": {
+  "sections": 1,
+  "pgSz": {
+   "w": "11906",
+   "h": "16838"
+  },
+  "pgMar": {
+   "top": "1701",
+   "right": "1417",
+   "bottom": "2098",
+   "left": "1417",
+   "header": "1020",
+   "footer": "680",
+   "gutter": "0"
+  },
+  "A4": true,
+  "titlePg": false,
+  "headerRefs": [
+   "default"
+  ],
+  "footerRefs": [
+   "default"
+  ],
+  "hf_targets_exist": true,
+  "fields": {
+   "footer1.xml:PAGE": 1,
+   "footer1.xml:NUMPAGES": 1
+  },
+  "media": {},
+  "drawings": 0,
+  "drawings_with_descr": 0,
+  "fonts_used_in_content": {
+   "Inter": 75,
+   "Noto Sans Arabic": 15
+  },
+  "fonts_in_styles": {
+   "Inter": 6,
+   "Noto Sans Arabic": 7,
+   "Jost": 8,
+   "Courier": 4
+  },
+  "real_bold_runs_in_content": 0,
+  "bold_in_styles": 305,
+  "italic_runs": 0,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": true,
+  "fontTable_embedded": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "embed_files": [
+   "word/fonts/Inter-Regular.odttf",
+   "word/fonts/Jost-Regular.odttf",
+   "word/fonts/NotoSansArabic-Regular.odttf"
+  ],
+  "bidi_paragraphs": 5,
+  "rtl_runs": 5,
+  "lrm_marks": 0,
+  "rlm_marks": 0,
+  "lang": [
+   "<w:lang w:val=\"ar-SA\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"en-GB\"/>"
+  ],
+  "heading_styles_used": [
+   "BodyText"
+  ],
+  "core_title": "GEM Branded Letterhead Set v1.1 Application Revision 03 Bilingual Continuation",
+  "core_lang": "ar-SA",
+  "status_lines": [
+   "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL",
+   "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL"
+  ],
+  "tagline": [],
+  "tagline_runs_spacing_twips_and_halfpt": []
+ },
+ "GEM_Letterhead_Bilingual_First_Page.docx": {
+  "sections": 1,
+  "pgSz": {
+   "w": "11906",
+   "h": "16838"
+  },
+  "pgMar": {
+   "top": "1701",
+   "right": "1417",
+   "bottom": "2098",
+   "left": "1417",
+   "header": "1020",
+   "footer": "680",
+   "gutter": "0"
+  },
+  "A4": true,
+  "titlePg": true,
+  "headerRefs": [
+   "first",
+   "default"
+  ],
+  "footerRefs": [
+   "first",
+   "default"
+  ],
+  "hf_targets_exist": true,
+  "fields": {
+   "footer1.xml:PAGE": 1,
+   "footer1.xml:NUMPAGES": 1,
+   "footer2.xml:PAGE": 1,
+   "footer2.xml:NUMPAGES": 1
+  },
+  "media": {
+   "word/media/image1.png": {
+    "sha256": "ce953ebf3df88232",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/png/gem-horizontal-ink-2048.png"
+    ]
+   },
+   "word/media/gem-horizontal-ink.svg": {
+    "sha256": "6abbd491846178d0",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/svg/gem-horizontal-ink.svg"
+    ]
+   }
+  },
+  "drawings": 1,
+  "drawings_with_descr": 1,
+  "fonts_used_in_content": {
+   "Inter": 150,
+   "Noto Sans Arabic": 27,
+   "Jost": 6
+  },
+  "fonts_in_styles": {
+   "Inter": 6,
+   "Noto Sans Arabic": 7,
+   "Jost": 8,
+   "Courier": 4
+  },
+  "real_bold_runs_in_content": 0,
+  "bold_in_styles": 305,
+  "italic_runs": 0,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": true,
+  "fontTable_embedded": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "embed_files": [
+   "word/fonts/Inter-Regular.odttf",
+   "word/fonts/Jost-Regular.odttf",
+   "word/fonts/NotoSansArabic-Regular.odttf"
+  ],
+  "bidi_paragraphs": 9,
+  "rtl_runs": 9,
+  "lrm_marks": 4,
+  "rlm_marks": 0,
+  "lang": [
+   "<w:lang w:val=\"ar-SA\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"en-GB\"/>"
+  ],
+  "heading_styles_used": [
+   "BodyText",
+   "Heading1"
+  ],
+  "core_title": "GEM Branded Letterhead Set v1.1 Application Revision 03 Bilingual First Page",
+  "core_lang": "ar-SA",
+  "status_lines": [
+   "SAMPLE CONTENT · PENDING LOCALIZATION APPROVAL",
+   "WORKING APPLICATION / PENDING VALIDATIONPENDING LOCALIZATION APPROVAL"
+  ],
+  "tagline": [
+   "HOSPITALITY, IN PERFECT PROPORTION"
+  ],
+  "tagline_runs_spacing_twips_and_halfpt": [
+   [
+    38,
+    21
+   ]
+  ]
+ },
+ "GEM_Letterhead_English_Continuation.docx": {
+  "sections": 1,
+  "pgSz": {
+   "w": "11906",
+   "h": "16838"
+  },
+  "pgMar": {
+   "top": "1701",
+   "right": "1417",
+   "bottom": "2098",
+   "left": "1417",
+   "header": "1020",
+   "footer": "680",
+   "gutter": "0"
+  },
+  "A4": true,
+  "titlePg": false,
+  "headerRefs": [
+   "default"
+  ],
+  "footerRefs": [
+   "default"
+  ],
+  "hf_targets_exist": true,
+  "fields": {
+   "footer1.xml:PAGE": 1,
+   "footer1.xml:NUMPAGES": 1
+  },
+  "media": {},
+  "drawings": 0,
+  "drawings_with_descr": 0,
+  "fonts_used_in_content": {
+   "Inter": 78
+  },
+  "fonts_in_styles": {
+   "Inter": 6,
+   "Noto Sans Arabic": 7,
+   "Jost": 8,
+   "Courier": 4
+  },
+  "real_bold_runs_in_content": 0,
+  "bold_in_styles": 305,
+  "italic_runs": 0,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": true,
+  "fontTable_embedded": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "embed_files": [
+   "word/fonts/Inter-Regular.odttf",
+   "word/fonts/Jost-Regular.odttf",
+   "word/fonts/NotoSansArabic-Regular.odttf"
+  ],
+  "bidi_paragraphs": 0,
+  "rtl_runs": 0,
+  "lrm_marks": 0,
+  "rlm_marks": 0,
+  "lang": [
+   "<w:lang w:val=\"en-GB\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"en-GB\"/>"
+  ],
+  "heading_styles_used": [
+   "BodyText"
+  ],
+  "core_title": "GEM Branded Letterhead Set v1.1 Application Revision 03 English Continuation",
+  "core_lang": "en-GB",
+  "status_lines": [
+   "SAMPLE CONTENT",
+   "WORKING APPLICATION / PENDING VALIDATION"
+  ],
+  "tagline": [],
+  "tagline_runs_spacing_twips_and_halfpt": []
+ },
+ "GEM_Letterhead_English_First_Page.docx": {
+  "sections": 1,
+  "pgSz": {
+   "w": "11906",
+   "h": "16838"
+  },
+  "pgMar": {
+   "top": "1701",
+   "right": "1417",
+   "bottom": "2098",
+   "left": "1417",
+   "header": "1020",
+   "footer": "680",
+   "gutter": "0"
+  },
+  "A4": true,
+  "titlePg": true,
+  "headerRefs": [
+   "first",
+   "default"
+  ],
+  "footerRefs": [
+   "first",
+   "default"
+  ],
+  "hf_targets_exist": true,
+  "fields": {
+   "footer1.xml:PAGE": 1,
+   "footer1.xml:NUMPAGES": 1,
+   "footer2.xml:PAGE": 1,
+   "footer2.xml:NUMPAGES": 1
+  },
+  "media": {
+   "word/media/image1.png": {
+    "sha256": "ce953ebf3df88232",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/png/gem-horizontal-ink-2048.png"
+    ]
+   },
+   "word/media/gem-horizontal-ink.svg": {
+    "sha256": "6abbd491846178d0",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/svg/gem-horizontal-ink.svg"
+    ]
+   }
+  },
+  "drawings": 1,
+  "drawings_with_descr": 1,
+  "fonts_used_in_content": {
+   "Inter": 144,
+   "Jost": 6
+  },
+  "fonts_in_styles": {
+   "Inter": 6,
+   "Noto Sans Arabic": 7,
+   "Jost": 8,
+   "Courier": 4
+  },
+  "real_bold_runs_in_content": 0,
+  "bold_in_styles": 305,
+  "italic_runs": 0,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": true,
+  "fontTable_embedded": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "embed_files": [
+   "word/fonts/Inter-Regular.odttf",
+   "word/fonts/Jost-Regular.odttf",
+   "word/fonts/NotoSansArabic-Regular.odttf"
+  ],
+  "bidi_paragraphs": 0,
+  "rtl_runs": 0,
+  "lrm_marks": 0,
+  "rlm_marks": 0,
+  "lang": [
+   "<w:lang w:val=\"en-GB\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"en-GB\"/>"
+  ],
+  "heading_styles_used": [
+   "BodyText",
+   "Heading1"
+  ],
+  "core_title": "GEM Branded Letterhead Set v1.1 Application Revision 03 English First Page",
+  "core_lang": "en-GB",
+  "status_lines": [
+   "SAMPLE CONTENT",
+   "WORKING APPLICATION / PENDING VALIDATION"
+  ],
+  "tagline": [
+   "HOSPITALITY, IN PERFECT PROPORTION"
+  ],
+  "tagline_runs_spacing_twips_and_halfpt": [
+   [
+    38,
+    21
+   ]
+  ]
+ },
+ "GEM_Letterhead_Executive.docx": {
+  "sections": 1,
+  "pgSz": {
+   "w": "11906",
+   "h": "16838"
+  },
+  "pgMar": {
+   "top": "2041",
+   "right": "1417",
+   "bottom": "2098",
+   "left": "1417",
+   "header": "1020",
+   "footer": "680",
+   "gutter": "0"
+  },
+  "A4": true,
+  "titlePg": true,
+  "headerRefs": [
+   "first",
+   "default"
+  ],
+  "footerRefs": [
+   "first",
+   "default"
+  ],
+  "hf_targets_exist": true,
+  "fields": {
+   "footer1.xml:PAGE": 1,
+   "footer1.xml:NUMPAGES": 1,
+   "footer2.xml:PAGE": 1,
+   "footer2.xml:NUMPAGES": 1
+  },
+  "media": {
+   "word/media/image1.png": {
+    "sha256": "ce953ebf3df88232",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/png/gem-horizontal-ink-2048.png"
+    ]
+   },
+   "word/media/gem-horizontal-ink.svg": {
+    "sha256": "6abbd491846178d0",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/svg/gem-horizontal-ink.svg"
+    ]
+   }
+  },
+  "drawings": 1,
+  "drawings_with_descr": 1,
+  "fonts_used_in_content": {
+   "Inter": 147,
+   "Jost": 6
+  },
+  "fonts_in_styles": {
+   "Inter": 6,
+   "Noto Sans Arabic": 7,
+   "Jost": 8,
+   "Courier": 4
+  },
+  "real_bold_runs_in_content": 0,
+  "bold_in_styles": 305,
+  "italic_runs": 0,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": true,
+  "fontTable_embedded": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "embed_files": [
+   "word/fonts/Inter-Regular.odttf",
+   "word/fonts/Jost-Regular.odttf",
+   "word/fonts/NotoSansArabic-Regular.odttf"
+  ],
+  "bidi_paragraphs": 0,
+  "rtl_runs": 0,
+  "lrm_marks": 0,
+  "rlm_marks": 0,
+  "lang": [
+   "<w:lang w:val=\"en-GB\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"en-GB\"/>"
+  ],
+  "heading_styles_used": [
+   "BodyText",
+   "Heading1"
+  ],
+  "core_title": "GEM Branded Letterhead Set v1.1 Application Revision 03 Executive",
+  "core_lang": "en-GB",
+  "status_lines": [
+   "SAMPLE CONTENT",
+   "WORKING APPLICATION / PENDING VALIDATION"
+  ],
+  "tagline": [
+   "HOSPITALITY, IN PERFECT PROPORTION"
+  ],
+  "tagline_runs_spacing_twips_and_halfpt": [
+   [
+    38,
+    21
+   ]
+  ]
+ },
+ "GEM_Letterhead_Minimal.docx": {
+  "sections": 1,
+  "pgSz": {
+   "w": "11906",
+   "h": "16838"
+  },
+  "pgMar": {
+   "top": "1701",
+   "right": "1417",
+   "bottom": "2098",
+   "left": "1417",
+   "header": "1020",
+   "footer": "680",
+   "gutter": "0"
+  },
+  "A4": true,
+  "titlePg": true,
+  "headerRefs": [
+   "first",
+   "default"
+  ],
+  "footerRefs": [
+   "first",
+   "default"
+  ],
+  "hf_targets_exist": true,
+  "fields": {
+   "footer1.xml:PAGE": 1,
+   "footer1.xml:NUMPAGES": 1,
+   "footer2.xml:PAGE": 1,
+   "footer2.xml:NUMPAGES": 1
+  },
+  "media": {
+   "word/media/image1.png": {
+    "sha256": "2c49e1c6bb4b9c61",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/png/gem-horizontal-black-2048.png"
+    ]
+   },
+   "word/media/gem-horizontal-black.svg": {
+    "sha256": "38d89d97ab642b43",
+    "kit_match": [
+     "GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/svg/gem-horizontal-black.svg"
+    ]
+   }
+  },
+  "drawings": 1,
+  "drawings_with_descr": 1,
+  "fonts_used_in_content": {
+   "Inter": 144,
+   "Jost": 3
+  },
+  "fonts_in_styles": {
+   "Inter": 6,
+   "Noto Sans Arabic": 7,
+   "Jost": 8,
+   "Courier": 4
+  },
+  "real_bold_runs_in_content": 0,
+  "bold_in_styles": 305,
+  "italic_runs": 0,
+  "embedTrueTypeFonts": true,
+  "saveSubsetFonts": true,
+  "fontTable_embedded": [
+   "Inter",
+   "Jost",
+   "Noto Sans Arabic"
+  ],
+  "embed_files": [
+   "word/fonts/Inter-Regular.odttf",
+   "word/fonts/Jost-Regular.odttf",
+   "word/fonts/NotoSansArabic-Regular.odttf"
+  ],
+  "bidi_paragraphs": 0,
+  "rtl_runs": 0,
+  "lrm_marks": 0,
+  "rlm_marks": 0,
+  "lang": [
+   "<w:lang w:val=\"en-GB\" w:bidi=\"ar-SA\"/>",
+   "<w:lang w:val=\"en-GB\" w:bidi=\"en-GB\"/>"
+  ],
+  "heading_styles_used": [
+   "BodyText",
+   "Heading1"
+  ],
+  "core_title": "GEM Branded Letterhead Set v1.1 Application Revision 03 Minimal",
+  "core_lang": "en-GB",
+  "status_lines": [
+   "SAMPLE CONTENT",
+   "WORKING APPLICATION / PENDING VALIDATION"
+  ],
+  "tagline": [],
+  "tagline_runs_spacing_twips_and_halfpt": []
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "package": "GEM_V3.0_RC2_FD01_Formal_Deferral_Owner_Acceptance",
+ "purpose": "Formal deferrals and owner acceptance of RC2 as-is (governance documentation only)",
+ "status": "GEM™ V3.0 RC2 — OWNER ACCEPTED WITH FORMAL DEFERRALS; SYNCHRONIZED; NOT YET FINAL-RELEASE AUTHORIZED; AC20 OPEN",
+ "created": "2026-10-09",
+ "branch": "claude/gem-worktree-safety-30b559",
+ "based_on_head": "617456255231a6b36ca5eb688451f8a72eef0eb7",
+ "gates_closed_by_this_package": 0,
+ "confidential_documents_requested_or_included": false,
+ "remote_operations_authorized": false,
+ "self_hash_policy": "MANIFEST.json and SHA256SUMS.txt do not hash themselves; SHA256SUMS.txt also covers MANIFEST.json.",
+ "files": [
+  {
+   "path": "01_FD01_Executive_Summary.md",
+   "bytes": 4066,
+   "sha256": "cd19b64595beffafadd0b018f40889fcc95d07f1960bcb7b2c3eb2ed4ff8568b"
+  },
+  {
+   "path": "02_FD01_Owner_Decision_Register.csv",
+   "bytes": 6275,
+   "sha256": "437453ee700b34b088ed51c7fe508bd7b015e7e0a6ae64efec735876893ae3e4"
+  },
+  {
+   "path": "03_FD01_Formal_Deferral_Register.csv",
+   "bytes": 2439,
+   "sha256": "1a224725cae7949bab41cce30e730f510169856cb55e634d9bb4593e68f53a40"
+  },
+  {
+   "path": "04_FD01_Legal_IP_Offline_Evidence_Declaration.md",
+   "bytes": 3935,
+   "sha256": "5f227bb63b4f72d590a77799cd1747de700a58bbfea454f7fa4371f2b8693804"
+  },
+  {
+   "path": "05_FD01_Governance_Role_Deferral.md",
+   "bytes": 2194,
+   "sha256": "f821eb4ca2d6e36b0b8ae4766db2a87a466e689226443956b43c2e1464efa47b"
+  },
+  {
+   "path": "06_FD01_Accessibility_Validation_Deferral.md",
+   "bytes": 2033,
+   "sha256": "513f7899b6b59298c00349a9689f915d73d968ad91fbd1295df1c7bd91b1cdd7"
+  },
+  {
+   "path": "07_FD01_D8_PDF_Validation_Deferral.md",
+   "bytes": 2365,
+   "sha256": "0f13060010fac7c01a34eecb9234fc541b649309dddd3b85ab52da19d1db849b"
+  },
+  {
+   "path": "08_FD01_Gate_Impact_Matrix.csv",
+   "bytes": 11875,
+   "sha256": "8e1849020f086af9b01f630e7d3702cb45402c0c4eee5c2d0234edb9916c2b2a"
+  },
+  {
+   "path": "09_FD01_Remaining_Evidence_After_Deferral.csv",
+   "bytes": 2661,
+   "sha256": "673fbf4ba6da14780867652c58329b14ff9ddf10087986dffad1a256bf3bfe4b"
+  },
+  {
+   "path": "10_FD01_Risk_Acceptance_Record.md",
+   "bytes": 3491,
+   "sha256": "ddbbc125b2bcc8936e1009684fa452177bcd3d298be281283a33f7a25069fbfb"
+  },
+  {
+   "path": "11_FD01_Governance_Synchronization_Log.md",
+   "bytes": 4628,
+   "sha256": "030558fd06ee169274c85f324d30abb0282addab58160ea8d6a10bca62fcee7b"
+  },
+  {
+   "path": "12_FD01_Evidence_Index.md",
+   "bytes": 2336,
+   "sha256": "008828fcd99add6c83af81bb52e6fac79cc104502397509bd2d54f17190e9e00"
+  },
+  {
+   "path": "13_scripts/fd01_build_registers.py",
+   "bytes": 23792,
+   "sha256": "cc6376965466126bada1a7e8d82c8285f5e0aef4d2abbeb425d07a0f1c4c8a28"
+  },
+  {
+   "path": "13_scripts/fd01_manifest.py",
+   "bytes": 1783,
+   "sha256": "e04f9d5a83528b709c4cf8336f4211513fed9b65c3078afa2881939a793b4f89"
+  },
+  {
+   "path": "13_scripts/fd01_qa.py",
+   "bytes": 9432,
+   "sha256": "999fb2f7b63c14fc0c63a77b4d6dacb9c0eaccc95b26c8810cca8ffba1650417"
+  },
+  {
+   "path": "14_qa/fd01_qa_results.json",
+   "bytes": 3799,
+   "sha256": "edecaad748e018e2574ac2b8dced061f52b1956cfa89cf94b9d6ad9ea6817d1e"
+  },
+  {
+   "path": "14_qa/fd01_qa_results.md",
+   "bytes": 2585,
+   "sha256": "fda76214a166af0ae7e55c9049a03eb91e098c88cab501549f580c659b46ac3d"
+  }
+ ]
+}

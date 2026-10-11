@@ -1,0 +1,2 @@
+On branch claude/gem-worktree-safety-30b559
+nothing to commit, working tree clean
