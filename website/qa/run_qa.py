@@ -425,7 +425,7 @@ async def main():
         R.add("audit-I2 menu has scrim, closes on outside tap and on tabbing out", "0.64" in scrim and out1 == "false" and out2 == "false", {"scrim": scrim, "outside": out1, "tabout": out2})
         await ctx.close()
 
-        # ---------- 3c. Ready packages: quotation request (2026-10-11) ----------
+        # ---------- 3c. Concept packages: discussion request (2026-10-11) ----------
         for vw, vh in [(1440, 900), (375, 812)]:
             ctx = await browser.new_context(viewport={"width": vw, "height": vh}); await ctx.grant_permissions(["clipboard-read", "clipboard-write"])
             pg = await ctx.new_page(); log = await watch(pg); qt = f"@{vw}"
@@ -458,8 +458,8 @@ async def main():
             out_ = await pg.input_value("#q-output"); href = await pg.get_attribute("#quote-email", "href") or ""
             from urllib.parse import urlparse, parse_qs, unquote
             u = urlparse(href); qq = parse_qs(u.query)
-            expect = "Quotation request for GEM\nPackage: Travel set\nRooms to supply: 120\nArrival stationery: Yes\nSampling: Yes"
-            R.add(f"quote-drafted-not-sent-email-handoff {qt}", out_ == expect and await pg.evaluate("document.activeElement.id") == "quote-result" and unquote(u.path) == "mish3labdul@gmail.com" and qq.get("subject") == ["Quotation request for GEM: Travel set"] and qq.get("body") == [expect] and len(log["requests"]) == n0,
+            expect = "Concept discussion for GEM\nConcept package: Travel set\nEstimated rooms: 120\nArrival stationery interest: Yes\nSampling interest: Yes\nAvailability and specifications are pending."
+            R.add(f"quote-drafted-not-sent-email-handoff {qt}", out_ == expect and await pg.evaluate("document.activeElement.id") == "quote-result" and unquote(u.path) == "mish3labdul@gmail.com" and qq.get("subject") == ["Concept discussion for GEM: Travel set"] and qq.get("body") == [expect] and len(log["requests"]) == n0,
                   {"out": out_, "href": href[:80], "requests": log["requests"][n0:]})
             await pg.click("#quote-copy"); await pg.wait_for_timeout(150)
             R.add(f"quote-copy {qt}", await pg.evaluate("navigator.clipboard.readText()") == expect)

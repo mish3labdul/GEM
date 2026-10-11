@@ -58,7 +58,7 @@ async def run(args):
                 R.add('room summary focuses input '+repr(val),await page.evaluate('document.activeElement.id')=='q-rooms')
             for val in ('1','100000',' 120 '):
                 await page.fill('#q-rooms',val); await page.click('#quote-button')
-                R.add('room boundary valid '+repr(val),await page.locator('#quote-result').is_visible() and ('Rooms to supply: '+val.strip()) in await page.input_value('#q-output'))
+                R.add('room boundary valid '+repr(val),await page.locator('#quote-result').is_visible() and ('Estimated rooms: '+val.strip()) in await page.input_value('#q-output'))
             await page.fill('#q-rooms','100001');await page.click('#quote-button');await page.wait_for_timeout(400)
             await page.locator('#quote-form').screenshot(path=str(out/'screenshots'/'room-range-error.png'))
             for sel,val in (('#f-name','Synthetic Tester'),('#f-email','qa@example.invalid'),('#f-org','Example Org')): await page.fill(sel,val)

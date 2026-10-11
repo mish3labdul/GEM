@@ -13,3 +13,7 @@ No document, artwork, site code or source font bytes were edited. Existing histo
 ## Authorized merge validation
 
 The owner subsequently instructed proceeding with the merge. The remote validator now accepts main advancing only when its history contains both the frozen main commit and the validated checkout HEAD. Other frozen source branches and all release checks remain exact. This prevents the intended merge from becoming a false preservation failure while rejecting a divergent main history or a main that lacks the tested cleanup.
+
+## Subsequent website revisions
+
+Working website revisions use `website/records/site-revisions.json`: each changed public file must identify its previous digest, preserved original, new digest and owner decision record. Historical preview ZIPs are verified against their own version rather than the current site. Main must retain the frozen main history and the original cleanup commit that introduced `source-freeze.json`; an unmerged follow-up PR need not already be present in main. Checkout integrity remains checked independently against the inventory, final checksum manifest and optional Git-index validation.

@@ -1,0 +1,42 @@
+{
+  "baseline_version": "0.5.1",
+  "current_version": "0.5.2",
+  "revisions": [
+    {
+      "from": "0.5.1",
+      "to": "0.5.2",
+      "changes": [
+        {
+          "path": "index.html",
+          "before_sha256": "4ec83cce1f1c090092be99c876b86477a5c556680babc85386964e897650d725",
+          "after_sha256": "acac3a5fcee735a906a3def45d794bee37c552a9304c2877c1aa59462d1a6189",
+          "before_archive": "archive/website-v0.5.1-before-owner-decisions/site/index.html",
+          "decision_record": "website/records/24_Owner_Concept_Discussion_and_Contact.md",
+          "decision_ids": [
+            "WD-19"
+          ]
+        },
+        {
+          "path": "assets/js/site.js",
+          "before_sha256": "aaa83e7f971e2247b9eaaf4cf272fb49fa4e3fbbd4ccf8e95dae12485dd09eb4",
+          "after_sha256": "a2570c27ae51a7ea59f6ad82878150b21835bbc49bb265f35e7caac5caf71914",
+          "before_archive": "archive/website-v0.5.1-before-owner-decisions/site/assets/js/site.js",
+          "decision_record": "website/records/24_Owner_Concept_Discussion_and_Contact.md",
+          "decision_ids": [
+            "WD-19"
+          ]
+        },
+        {
+          "path": "assets/css/site.css",
+          "before_sha256": "e9948c1233da57985690be0be34344d3c6fbc42467cb5eb1c613c1596e974022",
+          "after_sha256": "b30674d4aeba0dcdabe8eb363e305df2d50da959265537791d96c4b1c8a584f3",
+          "before_archive": "archive/website-v0.5.1-before-owner-decisions/site/assets/css/site.css",
+          "decision_record": "website/records/24_Owner_Concept_Discussion_and_Contact.md",
+          "decision_ids": [
+            "WD-19"
+          ]
+        }
+      ]
+    }
+  ]
+}

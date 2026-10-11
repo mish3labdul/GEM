@@ -1,0 +1,727 @@
+{
+  "index-1440": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "GEM™ —Amenits&Packgvryl,pod.fbOhTSCBWLHxR-uN’?jqwI",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 50
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nArahms&PgWvDfquyGEMdlw,bC.OTINz;:x-/RBLH·FU()10jY2+96@",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 64
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "index-768": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "GEM™ —Amenits&Packgvryl,pod.fbOhTSCBWLHxR-uN’?jqwI",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 50
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuGEsdvlgamfrhyw,AbC.ODqTWINz;:Px-/RBLH·FU()10jY&2+96@",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 64
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "index-375": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "GEM™ —Amenits&Packgvryl,pod.fbOhTSCBWLHxR-uN’?jqwI",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 50
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuGEsdvlgamfrhyw,AbC.ODqTWINz;:Px-/RBLH·FU()10jY&2+96@",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 64
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "index-320": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "GEM™ —Amenits&Packgvryl,pod.fbOhTSCBWLHxR-uN’?jqwI",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 50
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuGEsdvlgamfrhyw,AbC.ODqTWINz;:Px-/RBLH·FU()10jY&2+96@",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 64
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "reference-1440": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "For designauplBfcOthPvRxyGmSLCUTJ40·AqIbH,QkM.16:9Vw-E",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 54
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nArahms&PgWvDfquywGEM™d,l.TV30B()C;LIb:FxjRUz-N12 #78O456–K/9QJH+@",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 75
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "reference-768": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "For designauplBfcOthPvRxyGmSLCUTJ40·AqIbH,QkM.16:9Vw-E",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 54
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuAwrgsmayfhGE™d,vl.TV30B(P)DC;LIb:qFxjRUz-N12 W#78O456–K/9QJ&H+@",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 75
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "reference-375": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "For designauplBfcOthPvRxyGmSLCUTJ40·AqIbH,QkM.16:9Vw-E",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 54
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuAwrgsmayfhGE™d,vl.TV30B(P)DC;LIb:qFxjRUz-N12 W#78O456–K/9QJ&H+@",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 75
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "reference-320": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "For designauplBfcOthPvRxyGmSLCUTJ40·AqIbH,QkM.16:9Vw-E",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 54
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuAwrgsmayfhGE™d,vl.TV30B(P)DC;LIb:qFxjRUz-N12 W#78O456–K/9QJ&H+@",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 75
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "privacy-1440": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Temporay nticPvdlgDfshwSWkH,ExCILu",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nArahms&PgWvDfquyTwb.GEMldxCB,I-Y“O”z’HR12+960@™",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 57
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "privacy-768": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Temporay nticPvdlgDfshwSWkH,ExCILu",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuThsamryfwbv.GEldgxCB,I-qY“O”AzP’HR12+960@™&WD",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 57
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "privacy-375": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Temporay nticPvdlgDfshwSWkH,ExCILu",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuThsamryfwbv.GEldgxCB,I-qY“O”AzP’HR12+960@™&WD",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 57
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "privacy-320": {
+    "font_acceptance": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Temporay nticPvdlgDfshwSWkH,ExCILu",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "Skip tocne\nMuThsamryfwbv.GEldgxCB,I-qY“O”AzP’HR12+960@™&WD",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 57
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  "blocked_fonts": {
+    "status": "FAIL",
+    "faces": [
+      {
+        "family": "Jost",
+        "weight": "400",
+        "style": "normal",
+        "status": "error"
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "status": "error"
+      }
+    ],
+    "families": [
+      {
+        "family": "Jost",
+        "requested_weight": 400,
+        "sample": "GEM™ —Amenits&Packgvryl,pod.fbOhTSCBWLHxR-uN’?jqwI",
+        "platform_fonts": [
+          {
+            "familyName": "Jost",
+            "postScriptName": "Jost-Regular",
+            "isCustomFont": false,
+            "glyphCount": 50
+          }
+        ],
+        "required_face_loaded": false,
+        "status": "FAIL"
+      },
+      {
+        "family": "Inter",
+        "requested_weight": 400,
+        "sample": "Skip tocne\nArahms&PgWvDfquyGEMdlw,bC.OTINz;:x-/RBLH·FU()10jY2+96@",
+        "platform_fonts": [
+          {
+            "familyName": "Inter",
+            "postScriptName": "Inter-Regular",
+            "isCustomFont": false,
+            "glyphCount": 64
+          }
+        ],
+        "required_face_loaded": false,
+        "status": "FAIL"
+      }
+    ]
+  },
+  "unsupported_arabic_probe": {
+    "status": "FAIL",
+    "faces": [
+      {
+        "family": "Jost",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Inter",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      }
+    ],
+    "families": [
+      {
+        "family": "Jost",
+        "requested_weight": 400,
+        "sample": "العربية",
+        "platform_fonts": [
+          {
+            "familyName": "Geeza Pro",
+            "postScriptName": "GeezaPro",
+            "isCustomFont": false,
+            "glyphCount": 7
+          }
+        ],
+        "required_face_loaded": true,
+        "status": "FAIL"
+      },
+      {
+        "family": "Inter",
+        "requested_weight": 400,
+        "sample": "العربية",
+        "platform_fonts": [
+          {
+            "familyName": "Geeza Pro",
+            "postScriptName": "GeezaPro",
+            "isCustomFont": false,
+            "glyphCount": 7
+          }
+        ],
+        "required_face_loaded": true,
+        "status": "FAIL"
+      }
+    ]
+  },
+  "draft-1": {
+    "draft_characters": 164,
+    "mailto_characters": 282,
+    "copy_matches": true
+  },
+  "draft-1000": {
+    "draft_characters": 35129,
+    "mailto_characters": 47235,
+    "copy_matches": true
+  },
+  "draft-3000": {
+    "draft_characters": 105129,
+    "mailto_characters": 141235,
+    "copy_matches": true
+  }
+}

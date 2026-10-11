@@ -1,6 +1,6 @@
-# GEM website — proposed working preview v0.5.1
+# GEM website — proposed working preview v0.5.2
 
-The initial `site/` contents match all 80 entries of `GEM_Website_Preview_2026-10-11.zip`. The ZIP SHA-256 is recorded in [source-freeze.json](../governance/source-freeze.json). Local Finder metadata is excluded. The existing post-v0.5.1 correction evidence is preserved in [records/remediation-2026-10-11-01](records/remediation-2026-10-11-01/START_HERE.md). This remains a proposed website, not a release or deployment.
+The preserved v0.5.1 baseline matches all 80 entries of `GEM_Website_Preview_2026-10-11.zip`. The ZIP SHA-256 is recorded in [source-freeze.json](../governance/source-freeze.json). Current v0.5.2 applies [WD-18/WD-19](records/24_Owner_Concept_Discussion_and_Contact.md); [site-revisions.json](records/site-revisions.json) records exact changed-file lineage. Local Finder metadata is excluded. The existing post-v0.5.1 correction evidence is preserved in [records/remediation-2026-10-11-01](records/remediation-2026-10-11-01/START_HERE.md). This remains a proposed website, not a release or deployment.
 
 | Folder | Purpose |
 |---|---|

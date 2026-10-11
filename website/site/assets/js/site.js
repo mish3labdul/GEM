@@ -12,7 +12,7 @@
 (function () {
   "use strict";
 
-  /* Owner-supplied enquiry address (WD-12). Both the enquiry form and the quotation request
+  /* Owner-supplied enquiry address (WD-12). Both the enquiry form and the concept discussion request
      hand their draft to the visitor's email app; this page itself sends nothing. */
   var MAILTO = "mish3labdul@gmail.com";
   var mailtoOk = function (a) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(a) && !/\.(example|invalid|test)$/i.test(a); };
@@ -115,7 +115,7 @@
     });
   } catch (err) { /* the link still goes to the form */ }
 
-  /* ---------- Quotation request: Ready packages (2026-10-11) ----------
+  /* ---------- Concept discussion: Concept packages (2026-10-11) ----------
      Same fail-closed pattern as the enquiry form: submit is prevented first and the button is
      enabled only after every handler is installed. No prices or quantities are invented; the
      request carries only what the visitor chose. */
@@ -148,7 +148,7 @@
         qEmail.hidden = true; qEmail.removeAttribute("href"); qDraft = false;
       };
       var qEdited = function () {
-        if (qDraft) { qClear(); qStatus.textContent = "Your choices changed. Request the quotation again to update it."; }
+        if (qDraft) { qClear(); qStatus.textContent = "Your choices changed. Draft the discussion request again to update it."; }
       };
       qf.addEventListener("input", function (e) { if (e.target !== qOut) qEdited(); });
       qf.addEventListener("change", function (e) { if (e.target !== qOut) qEdited(); });
@@ -181,14 +181,15 @@
         qSummary.hidden = true;
         var pkg = qf.querySelector('input[name="package"]:checked').value;
         qOut.value = [
-          "Quotation request for GEM",
-          "Package: " + pkg,
-          "Rooms to supply: " + qRooms.value.trim(),
-          "Arrival stationery: " + (qStationery.checked ? "Yes" : "No"),
-          "Sampling: " + (qSampling.getAttribute("aria-pressed") === "true" ? "Yes" : "No")
+          "Concept discussion for GEM",
+          "Concept package: " + pkg,
+          "Estimated rooms: " + qRooms.value.trim(),
+          "Arrival stationery interest: " + (qStationery.checked ? "Yes" : "No"),
+          "Sampling interest: " + (qSampling.getAttribute("aria-pressed") === "true" ? "Yes" : "No"),
+          "Availability and specifications are pending."
         ].join("\n");
         if (mailtoOk(MAILTO)) {
-          qEmail.setAttribute("href", "mailto:" + MAILTO + "?subject=" + encodeURIComponent("Quotation request for GEM: " + pkg) + "&body=" + encodeURIComponent(qOut.value));
+          qEmail.setAttribute("href", "mailto:" + MAILTO + "?subject=" + encodeURIComponent("Concept discussion for GEM: " + pkg) + "&body=" + encodeURIComponent(qOut.value));
           qEmail.hidden = false;
         }
         qDraft = true; qResult.hidden = false; qResult.focus();
