@@ -1,0 +1,15 @@
+evidence_id,scene,hand_wash_concept_colour,path,sha256,status,production_colour,decision_id
+GEM-WEB-B01,amenity-family,amber,website/source-images/concept-r02/masters/amenity-family.png,ff07f001fed50521a45ef426d058bc186b7f5145866762437e44035ed2335029,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B01,amenity-family,amber,website/site/assets/img/amenity-family-1200.jpg,532c16972284f35c835a6b1261b5e66cfb2a2d6573f17b8e9b42fc72c7936ed0,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B01,amenity-family,amber,website/site/assets/img/amenity-family-1200.webp,16df65a7ceeb7da229ee28da1f4ac92307ee68bde637151b083b26ed7d5633fc,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B01,amenity-family,amber,website/site/assets/img/amenity-family-480.jpg,b6c3cbf39bea1b75bd0191bd4b2622593e69a6605a3b17462460eb77ce808994,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B01,amenity-family,amber,website/site/assets/img/amenity-family-480.webp,0b95291febaa16ce611e3423f0db1010679d167b29440ca945b17a8ed73761e5,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B01,amenity-family,amber,website/site/assets/img/amenity-family-800.jpg,c4174b945ccab65976262edd7edea3b40e10c1ebf44af4497bd699d3317b9626,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B01,amenity-family,amber,website/site/assets/img/amenity-family-800.webp,95930d294e13a073ea360c7b1c022766389091990decbd86859491fec39b45a9,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B04,guest-arrangement,ivory,website/source-images/concept-r02/masters/guest-arrangement.png,adbb31cdd790f71a75f4d69bcf8e40ed803fe30572b993f4ca16a054733e963c,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B04,guest-arrangement,ivory,website/site/assets/img/guest-arrangement-1200.jpg,d3b3521e6a34d205d4ff15df0e898215d358ad98492a9beb0972fb1c43e91e2d,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B04,guest-arrangement,ivory,website/site/assets/img/guest-arrangement-1200.webp,e24828ba0531949b015cf769728e7c61c3f1c99ba036829a0ec31ec772bdc3cb,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B04,guest-arrangement,ivory,website/site/assets/img/guest-arrangement-480.jpg,5cf17dad7d91a9c7f90b9bbb338b44b90acc3a8c5df5bace36b0ce8a68f88e69,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B04,guest-arrangement,ivory,website/site/assets/img/guest-arrangement-480.webp,106a1bf6c7ea94e70e797ece7b017bdef7714be29fa2e05f58327deaa6163bed,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B04,guest-arrangement,ivory,website/site/assets/img/guest-arrangement-800.jpg,a4c481e8c7887abed45be1198b5eeea903fe699657020981b6dccd8ab7777c28,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20
+GEM-WEB-B04,guest-arrangement,ivory,website/site/assets/img/guest-arrangement-800.webp,c347c03d11ba7d7a3fcf595ef5d4148ba66453f7a9d76495ab013072bd9f7648,OWNER-RETAINED CONCEPT VARIATION,PENDING,WD-20

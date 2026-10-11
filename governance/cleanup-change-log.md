@@ -31,3 +31,11 @@ No site HTML/CSS/JavaScript, image, logo, font, DOCX or PPTX content was changed
 ## Retained limitations
 
 B01/B02, D8 external-issue restrictions, working logo-master acceptance, Part C production validation, Part D concept status, Legal/IP deferral and native/browser/human acceptance limitations remain unchanged. No WCAG certification, release, deployment, merge, font substitution or document remediation is claimed.
+
+## Follow-up — owner website decisions WD-18/WD-19
+
+Website working v0.5.2 keeps the recipient only in draft handoff and presents all packages as concepts for discussion. Availability/specifications remain pending. Three public source files changed; previous source and QA versions were archived with exact path/digest lineage, and the inventory now has 6,421 records. Active specification labels wrap under 200% text enlargement after a captured initial failure. Final regression is 484/484 and correction/font checks 76/76. See `website/records/24_Owner_Concept_Discussion_and_Contact.md` and `25_Concept_Discussion_Verification_v0.5.2.md`. The version-aware validator preserves both historical and current preview packages, and permits unmerged follow-up checkouts while checking main retains original cleanup history. Unanswered owner questions remain open.
+
+## Follow-up — owner decisions WD-20/WD-21, 12 October 2026
+
+Working website v0.5.3 retains amber and ivory hand-wash concept variations with explicit scene captions and an unchanged-image hash register. Supporting records distinguish this concept choice from final product colour and naming approval. Room estimates accept positive whole decimal numbers without the previous 100,000 ceiling or numeric rounding. Regression passes 484/484; correction/font checks pass 81/81. Exact previous sources are archived and mapped; the source inventory now has 6,425 records. See website records 26/27 for scope and evidence.

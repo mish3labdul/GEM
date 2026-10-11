@@ -1,0 +1,69 @@
+{
+ "run": "20261011T191702Z",
+ "total": 484,
+ "passed": 481,
+ "failed": 3,
+ "failures": [
+  {
+   "id": "text200-stress-no-loss 1440",
+   "status": "FAIL",
+   "detail": {
+    "scroll": [
+     1460,
+     1440
+    ],
+    "outside": [
+     "FIGCAPTION.: Generated GEM concept The lid wording is a placeho",
+     "TD.: Five travel bottles in a box",
+     "TD.: Shampoo, Conditioner, Body Wash, Body Lotion, Hand",
+     "TD.: Pending confirmation",
+     "TD.: Concept \u00b7 supplier proof required"
+    ],
+    "clipped": []
+   }
+  },
+  {
+   "id": "text200-stress-no-loss 768",
+   "status": "FAIL",
+   "detail": {
+    "scroll": [
+     906,
+     768
+    ],
+    "outside": [
+     "FIGCAPTION.: Concept / not production artwork Supplier proof re",
+     "SPAN.status-label: Concept / not production artwork",
+     "LABEL.: Wall-mounted set",
+     "TD.: Dispensers in wall brackets",
+     "TD.: Shampoo, Conditioner, Body Wash, Body Lotion, Hand",
+     "TD.: Pending confirmation",
+     "TD.: Concept \u00b7 supplier proof required"
+    ],
+    "clipped": []
+   }
+  },
+  {
+   "id": "text200-stress-no-loss 320",
+   "status": "FAIL",
+   "detail": {
+    "scroll": [
+     347,
+     320
+    ],
+    "outside": [
+     "FIGCAPTION.: Concept / not production artwork Not production ph",
+     "SPAN.status-label: Concept / not production artwork",
+     "TH.: Concept format",
+     "TD.: Pump bottles for the guest bathroom",
+     "TH.: Proposed contents",
+     "TD.: Shampoo, Conditioner, Body Wash, Body Lotion, Hand",
+     "TH.: Availability",
+     "TD.: Pending confirmation",
+     "TH.: Status",
+     "TD.: Concept"
+    ],
+    "clipped": []
+   }
+  }
+ ]
+}

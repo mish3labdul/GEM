@@ -638,7 +638,7 @@ button[disabled] { cursor: not-allowed; background: var(--gem-semantic-action-di
 }
 .package-card:has(input:focus-visible) { outline: var(--gem-semantic-focus-ring-width) solid var(--gem-semantic-focus-ring-light); outline-offset: var(--gem-semantic-focus-ring-offset); }
 .package-card:has(input:focus-visible) input:focus-visible { outline: none; }
-.package-body { display: grid; gap: var(--gem-space-3); }
+.package-body { display: grid; gap: var(--gem-space-3); min-inline-size: 0; }
 .package-choice { display: flex; align-items: center; gap: var(--gem-space-3); min-block-size: var(--gem-size-target-min); }
 .package-choice h3 { margin: 0; }
 .package-choice label { cursor: pointer; }
@@ -662,7 +662,7 @@ button[disabled] { cursor: not-allowed; background: var(--gem-semantic-action-di
 .spec-table { inline-size: 100%; border-collapse: collapse; font-size: var(--gem-type-size-caption); line-height: var(--gem-type-line-height-caption); }
 .spec-table th, .spec-table td { text-align: start; vertical-align: top; padding: var(--gem-space-2) var(--gem-space-3) var(--gem-space-2) 0; border-block-start: var(--gem-size-hairline) solid var(--gem-semantic-border-decorative); }
 .package-card:has(input:checked) .spec-table th, .package-card:has(input:checked) .spec-table td { border-block-start-color: var(--gem-semantic-border-essential); }
-.spec-table th { font-weight: var(--gem-type-weight-regular); font-size: var(--gem-type-size-label-small); line-height: var(--gem-type-line-height-label-small); letter-spacing: var(--gem-type-tracking-label-small); text-transform: uppercase; white-space: nowrap; padding-block-start: calc(var(--gem-space-2) + 2px); }
+.spec-table th { font-weight: var(--gem-type-weight-regular); font-size: var(--gem-type-size-label-small); line-height: var(--gem-type-line-height-label-small); letter-spacing: var(--gem-type-tracking-label-small); text-transform: uppercase; white-space: normal; overflow-wrap: anywhere; padding-block-start: calc(var(--gem-space-2) + 2px); }
 @media (max-width: 479px) {
   .spec-table, .spec-table tbody, .spec-table tr, .spec-table th, .spec-table td { display: block; }
   .spec-table td { border-block-start: 0; padding-block-start: 0; }

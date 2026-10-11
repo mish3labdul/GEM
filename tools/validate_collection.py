@@ -101,14 +101,33 @@ def main():
             if not u.scheme and not u.netloc:check((p.parent/unquote(u.path)).exists(),'Broken navigation link: '+str(p.relative_to(ROOT))+' -> '+target)
     public_files={p.relative_to(site).as_posix():hashed(p) for p in site.rglob('*') if p.is_file()}
     original={r['source_path']:r['sha256'] for r in inventory if r['source_scope']=='zip'}
-    check(public_files==original,'Website differs from frozen ZIP')
+    versions={'0.5.1':dict(original)}; current_version='0.5.1'; expected_site=dict(original)
+    revision_path=ROOT/'website/records/site-revisions.json'
+    if revision_path.exists():
+        lineage=json.loads(revision_path.read_text())
+        check(lineage['baseline_version']==current_version, 'Unexpected website baseline version')
+        for revision in lineage['revisions']:
+            check(revision['from']==current_version and revision['to'] not in versions, 'Broken website version lineage')
+            changed_paths=set()
+            for change in revision['changes']:
+                path=change['path']; archive=ROOT/change['before_archive']
+                check(path not in changed_paths, 'Duplicate revision path: '+path); changed_paths.add(path)
+                check(expected_site.get(path)==change['before_sha256'], 'Revision baseline mismatch: '+path)
+                check(archive.is_file() and hashed(archive)==change['before_sha256'], 'Missing exact pre-revision source: '+path)
+                check((ROOT/change['decision_record']).is_file() and bool(change['decision_ids']), 'Missing website decision provenance: '+path)
+                expected_site[path]=change['after_sha256']
+            current_version=revision['to']; versions[current_version]=dict(expected_site)
+        check(current_version==lineage['current_version'], 'Website current version mismatch')
+    check(public_files==expected_site,'Website differs from authorized version manifest')
     packages=list((ROOT/'website/previews').glob('*.zip'))
-    check(bool(packages),'Missing preview ZIP')
+    check(any(f'_v{current_version}_' in p.name for p in packages),'Missing current-version preview ZIP')
     for p in packages:
         with zipfile.ZipFile(p) as z:
             check(len(z.namelist())==len(set(z.namelist())),'Duplicate ZIP entries')
             zipped={n:hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist()}
-            check(zipped==public_files,'Preview contains missing/extra/changed files: '+p.name)
+            match=re.search(r'_v(\d+\.\d+\.\d+)_',p.name)
+            expected_package=versions.get(match.group(1)) if match else None
+            check(zipped==expected_package,'Preview contains missing/extra/changed files for its version: '+p.name)
             check(z.testzip() is None,'ZIP CRC failure: '+p.name)
     if not args.skip_checksums:
         sums={}
@@ -136,8 +155,10 @@ def main():
             live=branches.get(b['name'])
             if b['name']=='main' and live and live!=b['sha']:
                 # An authorized merge advances main; it must preserve the frozen
-                # history and contain the checkout whose manifest was validated.
-                head=subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD']).decode().strip()
+                # history and contain the original cleanup; newer PR checkouts
+                # need not already be merged into main.
+                cleanup_history=subprocess.check_output(['git','-C',str(ROOT),'log','--diff-filter=A','--format=%H','--','governance/source-freeze.json']).decode().splitlines()
+                head=cleanup_history[-1] if cleanup_history else freeze['base_commit']
                 for ancestor in (b['sha'],head):
                     comparison=api(f'repos/mish3labdul/GEM/compare/{ancestor}...{live}')
                     check(comparison['merge_base_commit']['sha']==ancestor, 'Main does not preserve validated history: '+ancestor)
