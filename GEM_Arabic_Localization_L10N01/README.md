@@ -1,3 +1,15 @@
+# Current status: L10N01 / R4 recovery
+
+11 October 2026. WORKING DRAFT / PENDING LOCALIZATION APPROVAL.
+
+Local internal-review Part D R4 now has a 24-slide editable counterpart and matching font-faithful tagged PDF. Exact Poppler extraction checks passed for all 393 paragraphs; all pages visually inspected. See `04_qa/R4/QA_Report.md` and artifact checksums. Native R4 PowerPoint, viewer copy/search, Microsoft online conversion retry and assistive-technology acceptance remain PENDING because Computer Use returns a closed native pipe. No accessibility, production or Arabic approval is claimed.
+
+This public PR contains control/QA records only. Internal PPTX/PDF, page renders, font files and the full new translation ledger remain in the local controlled package. Part B first five slides (103 paragraphs) drafted/retained; the remaining localization scope is incomplete. Two source-governance wording issues are recorded for owner review. Original releases and prior QA evidence preserved. No merge.
+
+Source branch `claude/gem-worktree-safety-30b559`, commit `4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d`, live rechecked. FA01 AC20 formal deferrals/scope exclusions and all localization, rights, supplier, master/font and D8 restrictions retained. External Partners Brief excluded.
+
+## Historical iterations (superseded by status above)
+
 # GEM™ Arabic localization L10N01 — blocked working review
 
 ARABIC LOCALIZATION WORKING DRAFT / PENDING LOCALIZATION APPROVAL

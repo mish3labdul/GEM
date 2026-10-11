@@ -1,0 +1,54 @@
+[
+  {
+    "document": "PartA",
+    "repository_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/01_brand_guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx",
+    "source_sha256": "ec7152f6e9075091114b97ea6c23edb4b00c0fa3f948b9e80d909fb63b1b0fb3",
+    "slides": 80,
+    "nonempty_paragraphs": 929,
+    "unique_nonempty_paragraphs": 819,
+    "notes_parts": 80,
+    "meaningful_image_descriptions": 89,
+    "translation_status": "PENDING full localization; source extraction refreshed",
+    "native_validation": "PENDING",
+    "source_commit": "4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d"
+  },
+  {
+    "document": "PartB",
+    "repository_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/02_digital_design_system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx",
+    "source_sha256": "b537ead6a9831d2bc9ab10f0a15499e7727b852f37275795923c61f27660c4e4",
+    "slides": 35,
+    "nonempty_paragraphs": 970,
+    "unique_nonempty_paragraphs": 827,
+    "notes_parts": 35,
+    "meaningful_image_descriptions": 2,
+    "translation_status": "PENDING full localization; source extraction refreshed",
+    "native_validation": "PENDING",
+    "source_commit": "4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d"
+  },
+  {
+    "document": "PartC",
+    "repository_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/03_production_standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx",
+    "source_sha256": "ca0afb799381d43ad7dced73e97bac2121e1f84e6a430aac216e87a232297d5e",
+    "slides": 78,
+    "nonempty_paragraphs": 1484,
+    "unique_nonempty_paragraphs": 1106,
+    "notes_parts": 78,
+    "meaningful_image_descriptions": 14,
+    "translation_status": "PENDING full localization; source extraction refreshed",
+    "native_validation": "PENDING",
+    "source_commit": "4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d"
+  },
+  {
+    "document": "PartD",
+    "repository_path": "GEM_V3.0_RP01_Release_Artifact_Promotion/17_release_artifacts/04_amenities_concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+    "source_sha256": "15f6685e3339330ff65e4b97d413fbef93353a387bfcdd1ad3d359d889f12d9b",
+    "slides": 24,
+    "nonempty_paragraphs": 369,
+    "unique_nonempty_paragraphs": 259,
+    "notes_parts": 24,
+    "meaningful_image_descriptions": 31,
+    "translation_status": "R4 visible slide text completed; notes pending",
+    "native_validation": "PENDING",
+    "source_commit": "4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d"
+  }
+]

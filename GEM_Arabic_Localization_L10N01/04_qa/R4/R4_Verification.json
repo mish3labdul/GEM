@@ -1,0 +1,430 @@
+{
+  "pdf": "02_pdf/internal_review/GEM_BRAND_AmenitiesPackagingConcept_PartD_AR_L10N01_R4.pdf",
+  "pdf_sha256": "080ad47f95b57a59cd3af1a915a55d1d1fa60e4331b3f7a4feb31e9f1f176466",
+  "pages": 24,
+  "page_size_pt": [
+    0,
+    0,
+    1199.99055,
+    675.014173
+  ],
+  "paragraphs_checked": 393,
+  "exact_paragraph_mismatches": [],
+  "normalization": "NFC only; undo explicit Poppler RLE/PDF serialization; no diacritic, whitespace or identifier removal",
+  "tags": {
+    "/H1": 1,
+    "/P": 395,
+    "/Div": 302,
+    "/Figure": 31,
+    "/H2": 23,
+    "/Table": 1,
+    "/TR": 5,
+    "/TH": 3,
+    "/TD": 12
+  },
+  "meaningful_figures_with_alt": 31,
+  "bookmarks": 24,
+  "language": "ar-SA",
+  "embedded_fonts": {
+    "/BAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/CAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/DAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/EAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/FAAAAA+Jost-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/GAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/HAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/IAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/JAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/KAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/LAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/MAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/NAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/OAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/PAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/QAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/RAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/SAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/TAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/UAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/VAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/WAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/XAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/YAAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/ZAAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/ABAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/BBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/CBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/DBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/EBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/FBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/GBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/HBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/IBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/JBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/KBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/LBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/MBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/NBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/OBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/PBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/QBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/RBAAAA+Jost-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/SBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/TBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/UBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/VBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/WBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/XBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/YBAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/ZBAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/ACAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/BCAAAA+Jost-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/CCAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/DCAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/ECAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/FCAAAA+Jost-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/GCAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/HCAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/ICAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/JCAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/KCAAAA+Jost-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/LCAAAA+Jost-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/MCAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/NCAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/OCAAAA+NotoSansArabic-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/PCAAAA+Inter-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    },
+    "/QCAAAA+Jost-Regular": {
+      "embedded": true,
+      "to_unicode": true
+    }
+  },
+  "font_trial": [
+    {
+      "family": "Inter",
+      "header_valid": true,
+      "complete_source_sfnt_preserved": true,
+      "native_acceptance": "PENDING"
+    },
+    {
+      "family": "Jost",
+      "header_valid": true,
+      "complete_source_sfnt_preserved": true,
+      "native_acceptance": "PENDING"
+    },
+    {
+      "family": "Noto Sans Arabic",
+      "header_valid": true,
+      "complete_source_sfnt_preserved": true,
+      "native_acceptance": "PENDING"
+    }
+  ],
+  "painting_operators": [
+    {
+      "page": 1,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 2,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 3,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 4,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 5,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 6,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 7,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 8,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 9,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 10,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 11,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 12,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 13,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 14,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 15,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 16,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 17,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 18,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 19,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 20,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 21,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 22,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 23,
+      "all_painting_operators_unchanged": true
+    },
+    {
+      "page": 24,
+      "all_painting_operators_unchanged": true
+    }
+  ],
+  "link_count": 0,
+  "qpdf": "checking work/arabic_localization/r4/render/PartD_R4_Local_Validated_Working.pdf\nPDF Version: 1.7\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect",
+  "native_powerpoint_r4": "PENDING: Computer Use native pipe closed",
+  "pdf_viewer_copy_search": "PENDING: native viewer unavailable; Poppler source-bound extraction passed",
+  "assistive_technology": "PENDING",
+  "per_span_language": "PENDING: paragraph tags verified; every embedded Latin span not independently tested",
+  "notes_localization": "PENDING: source English technical notes preserved",
+  "editable_sha256": "2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e",
+  "editable_equals_export_input": true,
+  "pdf_version": "1.7"
+}

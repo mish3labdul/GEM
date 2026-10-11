@@ -1,0 +1,4 @@
+2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e  01_editable/internal_review/GEM_BRAND_AmenitiesPackagingConcept_PartD_AR_L10N01_R4.pptx
+080ad47f95b57a59cd3af1a915a55d1d1fa60e4331b3f7a4feb31e9f1f176466  02_pdf/internal_review/GEM_BRAND_AmenitiesPackagingConcept_PartD_AR_L10N01_R4.pdf
+
+Internal-review files and renders retained locally; not published in this public PR.
