@@ -1,0 +1,21 @@
+{
+  "repository": "mish3labdul/GEM",
+  "authoritative_branch": "claude/gem-worktree-safety-30b559",
+  "source_commit": "4e8c7f18f73d9f4b368fcd735c1cd5e3725a879d",
+  "refreshed_utc": "2026-10-11T10:37:44.533558+00:00",
+  "source_date": "2026-10-09",
+  "derivative_date": "2026-10-11",
+  "revision": "L10N01 / R4",
+  "source_parent": "L10N01 / R2",
+  "R3": "QA iteration only",
+  "publication": "Local internal-review package; public PR control records only",
+  "remaining_gates": [
+    "native R4 Office/viewer/AT",
+    "localization approval",
+    "supplier",
+    "rights",
+    "master/font acceptance",
+    "D8 restrictions",
+    "external issue authorization"
+  ]
+}

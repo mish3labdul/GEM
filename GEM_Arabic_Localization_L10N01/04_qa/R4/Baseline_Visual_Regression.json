@@ -1,0 +1,154 @@
+[
+  {
+    "page": 1,
+    "nontext_pixel_diff_bbox": [
+      1002,
+      403,
+      1004,
+      416
+    ],
+    "result": "PASS visual review, bounded raster difference",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object",
+    "changed_nontext_pixels": 2,
+    "max_rgb_channel_difference": 14,
+    "disposition": "Two antialiased pixels on retained cover ring edge; media, geometry and overlap pair order unchanged. No content or composition change warranted."
+  },
+  {
+    "page": 2,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 3,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 4,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 5,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 6,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 7,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 8,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 9,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 10,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 11,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 12,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 13,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 14,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 15,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 16,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 17,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 18,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 19,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 20,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 21,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 22,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 23,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  },
+  {
+    "page": 24,
+    "nontext_pixel_diff_bbox": null,
+    "result": "PASS",
+    "method": "Exact 1600 px render comparison outside unchanged text-shape bounds plus 4 px padding; native table excluded as text object"
+  }
+]
