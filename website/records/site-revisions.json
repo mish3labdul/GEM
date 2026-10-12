@@ -1,6 +1,6 @@
 {
   "baseline_version": "0.5.1",
-  "current_version": "0.5.3",
+  "current_version": "0.6.0",
   "revisions": [
     {
       "from": "0.5.1",
@@ -62,6 +62,129 @@
           "decision_ids": [
             "WD-21"
           ]
+        }
+      ]
+    },
+    {
+      "from": "0.5.3",
+      "to": "0.6.0",
+      "changes": [
+        {
+          "path": "index.html",
+          "before_sha256": "c28bca7a91ce052ff70d172d38b94182fc0a52e76c5b91e14838f2af5906fea2",
+          "after_sha256": "43610b34394303cc625deda2154637af62e853fd523cd3046b89a8493d126453",
+          "before_archive": "archive/website-v0.5.3-before-localization/site/index.html",
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ]
+        },
+        {
+          "path": "reference.html",
+          "before_sha256": "e1d6bf3aebdce5fad7e56657c34039b237985a7556161a3edce6f89cb0decc7a",
+          "after_sha256": "c297c381ebd9224c2267cf2aacc02a5b2fcdd4efc65bebb499548a52802e957c",
+          "before_archive": "archive/website-v0.5.3-before-localization/site/reference.html",
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ]
+        },
+        {
+          "path": "privacy.html",
+          "before_sha256": "96ac7d5aeb8b9d9fc3b9d952832af537930f9aa57aadaedd6ac1b60fcd362c41",
+          "after_sha256": "9fd35895d98b6b707f0990cafcec343f3537c09470a738720976da97d2f5137b",
+          "before_archive": "archive/website-v0.5.3-before-localization/site/privacy.html",
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ]
+        },
+        {
+          "path": "ar/index.html",
+          "before_sha256": null,
+          "after_sha256": "964a21df427eda959c43390ac29162f8eb43b8616b311e2b86adc9a4a367ef7c",
+          "before_archive": null,
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ],
+          "action": "add"
+        },
+        {
+          "path": "ar/reference.html",
+          "before_sha256": null,
+          "after_sha256": "3b8151037c0495d6b3d75bc90060364557c4ddb39affe565b546b7df046c5706",
+          "before_archive": null,
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ],
+          "action": "add"
+        },
+        {
+          "path": "ar/privacy.html",
+          "before_sha256": null,
+          "after_sha256": "f0c96c01e5464cee4c2bf01e5a93f74dba83c46eddae44dcf059fdede3e323d8",
+          "before_archive": null,
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ],
+          "action": "add"
+        },
+        {
+          "path": "assets/css/arabic.css",
+          "before_sha256": null,
+          "after_sha256": "b72ed261b3f10ae53169fb38811fe2a91d2b55d7bc1a3f7c867f1ad9db83d5de",
+          "before_archive": null,
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ],
+          "action": "add"
+        },
+        {
+          "path": "assets/js/messages-ar.js",
+          "before_sha256": null,
+          "after_sha256": "cb28122a90d61fb33afc69fdbbd865fd0ef15e2efd12565c09cc0a1dc4338a0e",
+          "before_archive": null,
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ],
+          "action": "add"
+        },
+        {
+          "path": "assets/js/site.js",
+          "before_sha256": "03f789078e80a94b6f4a218eb18f1247ad7beddf079ba31d6ca133a685ec53a9",
+          "after_sha256": "bebea6875fcf71fbdfaf09ea1b9cd91b3675deb9a90ef366b0220d0aaa865693",
+          "before_archive": "archive/website-v0.5.3-before-localization/site/assets/js/site.js",
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ]
+        },
+        {
+          "path": "assets/fonts/noto-sans-arabic-400.woff2",
+          "before_sha256": null,
+          "after_sha256": "53ef016d12b9ecc45c12566da8a800ad51f12084f207160e5871107ac5a72995",
+          "before_archive": null,
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ],
+          "action": "add"
+        },
+        {
+          "path": "assets/fonts/OFL-NotoSansArabic.txt",
+          "before_sha256": null,
+          "after_sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+          "before_archive": null,
+          "decision_record": "website/records/28_Arabic_Localization_Working_v0.6.0.md",
+          "decision_ids": [
+            "WD-22"
+          ],
+          "action": "add"
         }
       ]
     }

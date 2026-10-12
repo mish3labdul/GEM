@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-12",
+  "restriction": "CONTROL/QA ONLY. No restricted editable documents, PDFs, full document translation ledger, font binaries or native slide renders are published.",
+  "files": [
+    {
+      "file": "GEM_BRAND_BrandGuidelines_PartA_AR_L10N02_R15_20261012.pptx",
+      "sha256": "4cb444d62474ae1e8a29dd91842a59980a005edba5569c8518e32d3c5937509e",
+      "slides": 80,
+      "paragraphs": 929,
+      "translated_or_deliberately_retained": 929,
+      "status": "PRIVATE WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT PASSED",
+      "structural_check": "PASS import/package/layout/font policy",
+      "encoded_glyph_coverage": "PASS encoded script-font cmap; native all-font substitution acceptance remains pending",
+      "native_layout_warnings_basis": "Retained conservative geometry warnings from earlier iteration; not native failure or acceptance. Targeted native retests recorded separately.",
+      "structural_layout_warnings_prior": [
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "8",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "25",
+          "object_kind": "sp",
+          "slide": 12
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 19
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "20",
+          "object_kind": "sp",
+          "slide": 20
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "13",
+          "object_kind": "sp",
+          "slide": 23
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "16",
+          "object_kind": "sp",
+          "slide": 26
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "15",
+          "object_kind": "sp",
+          "slide": 28
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "17",
+          "object_kind": "sp",
+          "slide": 29
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "30",
+          "object_kind": "sp",
+          "slide": 30
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 32
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "10",
+          "object_kind": "sp",
+          "slide": 34
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "19",
+          "object_kind": "sp",
+          "slide": 35
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "16",
+          "object_kind": "sp",
+          "slide": 38
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "21",
+          "object_kind": "sp",
+          "slide": 42
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "32",
+          "object_kind": "sp",
+          "slide": 48
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "19",
+          "object_kind": "sp",
+          "slide": 49
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "21",
+          "object_kind": "sp",
+          "slide": 53
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "25",
+          "object_kind": "sp",
+          "slide": 54
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 56
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 58
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "31",
+          "object_kind": "sp",
+          "slide": 62
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "26",
+          "object_kind": "sp",
+          "slide": 63
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "18",
+          "object_kind": "sp",
+          "slide": 65
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "24",
+          "object_kind": "sp",
+          "slide": 67
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "31",
+          "object_kind": "sp",
+          "slide": 76
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "29",
+          "object_kind": "sp",
+          "slide": 77
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "6",
+          "object_kind": "sp",
+          "slide": 80
+        }
+      ],
+      "native_edit_save_reopen": "PASS one Arabic text object per deck on private QA copies; A14/B16/C12 basis, same text bodies in A15/C13",
+      "prior_native_pngs": 80,
+      "current_full_deck_native_pngs": 0,
+      "native_evidence_basis": "Earlier full native PNG set plus exact unchanged-slide comparison and current corrected-slide native captures"
+    },
+    {
+      "file": "GEM_BRAND_DigitalDesignSystem_PartB_AR_L10N02_R16_20261012.pptx",
+      "sha256": "f07b4460e4325739ad7a38be36744c6148a6480a63d5b6acf56e635254b08d18",
+      "slides": 35,
+      "paragraphs": 970,
+      "translated_or_deliberately_retained": 970,
+      "status": "PRIVATE WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT PASSED",
+      "structural_check": "PASS import/package/layout/font policy",
+      "encoded_glyph_coverage": "PASS encoded script-font cmap; native all-font substitution acceptance remains pending",
+      "native_pngs": 35,
+      "native_layout_warnings_basis": "Retained conservative geometry warnings from earlier iteration; not native failure or acceptance. Targeted native retests recorded separately.",
+      "structural_layout_warnings_prior": [
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "2",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "3",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "available_bottom_in": 6.8223,
+          "columns": 5,
+          "declared_bottom_in": 6.0327,
+          "estimated_native_bottom_in": 7.1294,
+          "footer_object_ids": [
+            "9"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.3071,
+          "rows": 13,
+          "slide": 10,
+          "table_id": "5"
+        }
+      ],
+      "native_edit_save_reopen": "PASS one Arabic text object per deck on private QA copies; A14/B16/C12 basis, same text bodies in A15/C13"
+    },
+    {
+      "file": "GEM_BRAND_ProductionStandards_PartC_AR_L10N02_R13_20261012.pptx",
+      "sha256": "fb212b063ca533ec558b131aad4f6ac36aeec6d3127b258ab4b5f7cf28067d97",
+      "slides": 78,
+      "paragraphs": 1484,
+      "translated_or_deliberately_retained": 1484,
+      "status": "PRIVATE WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT PASSED",
+      "structural_check": "PASS import/package/layout/font policy",
+      "encoded_glyph_coverage": "PASS encoded script-font cmap; native all-font substitution acceptance remains pending",
+      "native_layout_warnings_basis": "Retained conservative geometry warnings from earlier iteration; not native failure or acceptance. Targeted native retests recorded separately.",
+      "structural_layout_warnings_prior": [
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "10",
+          "object_kind": "sp",
+          "slide": 1
+        },
+        {
+          "available_bottom_in": 6.1,
+          "columns": 3,
+          "declared_bottom_in": 6.0303,
+          "estimated_native_bottom_in": 7.8714,
+          "footer_object_ids": [
+            "5",
+            "6",
+            "7"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 1.7714,
+          "rows": 12,
+          "slide": 7,
+          "table_id": "4"
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "17",
+          "object_kind": "sp",
+          "slide": 10
+        },
+        {
+          "kind": "object_outside_slide_boundary",
+          "object_id": "16",
+          "object_kind": "sp",
+          "slide": 14
+        }
+      ],
+      "native_edit_save_reopen": "PASS one Arabic text object per deck on private QA copies; A14/B16/C12 basis, same text bodies in A15/C13",
+      "prior_native_pngs": 78,
+      "current_full_deck_native_pngs": 0,
+      "native_evidence_basis": "Earlier full native PNG set plus exact unchanged-slide comparison and current corrected-slide native captures"
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_ArabicContinuationInternal_AR_L10N02_R3_20261012.docx",
+      "sha256": "b5584f62219eaa5d5a16c317341fb10fd7a70792088a7ae56dad21e040eea2df",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1,
+      "native_edit_save_reopen": "PASS marker persisted, removed, saved and cleanly reopened; canonical original untouched",
+      "native_full_page_review": "PASS all six full-page screenshots inspected in Word; sample content only",
+      "native_accessibility_checker": "0 issues reported; not WCAG certification or assistive-technology sign-off",
+      "auxiliary_font_resources": "PASS actual temporary rasterization PDF uses only Jost/Inter/Noto Sans Arabic Regular; no PDF persisted"
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_ArabicFirstPageInternal_AR_L10N02_R3_20261012.docx",
+      "sha256": "17b82dd13f2e0c6c18f3be7859ab7636e33f9a3095a28065d4290c3a398ed2b5",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1,
+      "native_edit_save_reopen": "PASS marker persisted, removed, saved and cleanly reopened; canonical original untouched",
+      "native_full_page_review": "PASS all six full-page screenshots inspected in Word; sample content only",
+      "native_accessibility_checker": "0 issues reported; not WCAG certification or assistive-technology sign-off",
+      "auxiliary_font_resources": "PASS actual temporary rasterization PDF uses only Jost/Inter/Noto Sans Arabic Regular; no PDF persisted"
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_BilingualContinuationInternal_AR_L10N02_R3_20261012.docx",
+      "sha256": "8844eab0348ff7aa646f187ed393bb155f24e4cfeb2cb8ec93c5eb96528c3a2a",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1,
+      "native_edit_save_reopen": "PASS marker persisted, removed, saved and cleanly reopened; canonical original untouched",
+      "native_full_page_review": "PASS all six full-page screenshots inspected in Word; sample content only",
+      "native_accessibility_checker": "0 issues reported; not WCAG certification or assistive-technology sign-off",
+      "auxiliary_font_resources": "PASS actual temporary rasterization PDF uses only Jost/Inter/Noto Sans Arabic Regular; no PDF persisted"
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_BilingualFirstPageInternal_AR_L10N02_R3_20261012.docx",
+      "sha256": "1f807acc999a4358fb3ec0380178c279fc2d3b9c2b25fac1eb50dba1ee22e59a",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1,
+      "native_edit_save_reopen": "PASS marker persisted, removed, saved and cleanly reopened; canonical original untouched",
+      "native_full_page_review": "PASS all six full-page screenshots inspected in Word; sample content only",
+      "native_accessibility_checker": "0 issues reported; not WCAG certification or assistive-technology sign-off",
+      "auxiliary_font_resources": "PASS actual temporary rasterization PDF uses only Jost/Inter/Noto Sans Arabic Regular; no PDF persisted"
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_Executive_AR_L10N02_R3_20261012.docx",
+      "sha256": "68af06703620da204a25fb238e3748ab45b98e82da87f0f2d7394731b54ecda0",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1,
+      "native_edit_save_reopen": "PASS marker persisted, removed, saved and cleanly reopened; canonical original untouched",
+      "native_full_page_review": "PASS all six full-page screenshots inspected in Word; sample content only",
+      "native_accessibility_checker": "0 issues reported; not WCAG certification or assistive-technology sign-off",
+      "auxiliary_font_resources": "PASS actual temporary rasterization PDF uses only Jost/Inter/Noto Sans Arabic Regular; no PDF persisted"
+    },
+    {
+      "file": "GEM_BRAND_Letterhead_Minimal_AR_L10N02_R3_20261012.docx",
+      "sha256": "4077ebdf9172c4d606f199447f20655d161610044d2ce633be488763cc6a0261",
+      "status": "PRIVATE WORKING LOCALIZATION / PENDING NATIVE AND LINGUISTIC ACCEPTANCE",
+      "native_word_open": "PASS without repair prompt; ordinary PAGE/NUMPAGES fields only",
+      "renderer_pages": 1,
+      "native_edit_save_reopen": "PASS marker persisted, removed, saved and cleanly reopened; canonical original untouched",
+      "native_full_page_review": "PASS all six full-page screenshots inspected in Word; sample content only",
+      "native_accessibility_checker": "0 issues reported; not WCAG certification or assistive-technology sign-off",
+      "auxiliary_font_resources": "PASS actual temporary rasterization PDF uses only Jost/Inter/Noto Sans Arabic Regular; no PDF persisted"
+    }
+  ],
+  "part_d": {
+    "recovered_r4_sha256": "2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e",
+    "file": "GEM_BRAND_AmenitiesPackagingConcept_PartD_AR_L10N02_R5_20261012.pptx",
+    "sha256": "cc0bf8ba0515f78814dacbd130bebdb47472c088e7061c21e820054a5dbbd29a",
+    "status": "PRIVATE WORKING LOCALIZATION / NATIVE AND LINGUISTIC ACCEPTANCE PENDING",
+    "structural_check": "PASS",
+    "native_sequence_match_slides": 24,
+    "native_manual_reading_order_prompts": 23,
+    "native_edit_save_reopen": "PASS one visible Arabic heading, QA copy only",
+    "all_non_slide_parts_and_individual_shapes_preserved": true,
+    "linguistic_programme_alignment": "PENDING"
+  },
+  "native_scope": "Current private candidates: A R15, B R16, C R13 and D R5. A15 repairs duplicate shape IDs on slide 27 without content or geometry changes; native slide 27 retest passed. C13 repairs slide 4 table/note overlap and slide 19 RTL checkbox positioning; both native visual retests passed. Earlier A14/B16/C12 have 193 native PNGs; unchanged slide parts remain byte-identical in A15/C13. New full-deck PNG export was unavailable because PowerPoint disabled its Export button; current changed slides were captured directly. D5 repairs shape reading sequence on ten slides, preserving individual shapes, text, media and geometry. All 24 D5 native Reading Order pane sequences match the candidate; PowerPoint still reports 23 manual review prompts. One Arabic text object per presentation passed native edit/save/close/reopen/restoration on QA copies (A14/B16/C12/D5). Six Word R3 variants passed native editing and complete one-page visual review. This is bounded evidence; complete presentation visual/font/assistive-technology acceptance remains open.",
+  "open_gates": [
+    "Linguistic review of all new proposals; focused review sheet is triage only",
+    "Complete full-size slide review and mixed-direction/technical-identifier punctuation acceptance across A/B/C",
+    "Verify all presentation fonts in native Office without unintended substitution; encoded glyph coverage alone is insufficient",
+    "Complete presentation reading-order and assistive-technology acceptance, including Part D 23 manual review prompts",
+    "New matching PDFs only after editable acceptance, followed by independent copy/search/text-fidelity checks",
+    "Part D programme terminology alignment in a separately validated working revision; no approved Arabic programme names invented"
+  ],
+  "new_matching_pdfs": "WITHHELD: native acceptance not passed",
+  "release": "V3.0 and B01/B02/D8 remain unchanged; no production, Arabic linguistic, font-master or external-issue approval."
+}

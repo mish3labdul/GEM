@@ -1,0 +1,14 @@
+{
+  "family": "Noto Sans Arabic",
+  "weight": 400,
+  "status": "DOCUMENTED INTERIM FACE / PENDING BRAND ACCEPTANCE",
+  "source_file": "/Users/mediacenter1/Documents/Codex/2026-10-07/github-plugin-github-openai-curated-remote-3/outputs/GEM_Arabic_Localization_L10N01_R4/00_source/fonts/notosansarabic/NotoSansArabic-Regular.ttf",
+  "source_sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613",
+  "licence": "SIL OFL 1.1",
+  "licence_sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+  "fsType": 0,
+  "web_path": "website/site/assets/fonts/noto-sans-arabic-400.woff2",
+  "web_sha256": "53ef016d12b9ecc45c12566da8a800ad51f12084f207160e5871107ac5a72995",
+  "conversion": "FontTools WOFF2, no subsetting or glyph changes",
+  "source_cmap_codepoints": 1561
+}

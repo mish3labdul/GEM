@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "part": "A",
+      "source_sha256": "3f77c2bddbeca3d66c63723f14ed9bf1d5a3bb0fac1f84adb2ed40d2ac2c544b",
+      "candidate_sha256": "4cb444d62474ae1e8a29dd91842a59980a005edba5569c8518e32d3c5937509e",
+      "changed_parts": [
+        "ppt/slides/slide27.xml"
+      ],
+      "text_bodies_and_font_runs_unchanged": true,
+      "all_non_slide_parts_exact": true
+    },
+    {
+      "part": "C",
+      "source_sha256": "8172951bcb1ab0834d3113a02a6cc8eb82f7da7a9b6091b0f7db712ec10866d3",
+      "candidate_sha256": "fb212b063ca533ec558b131aad4f6ac36aeec6d3127b258ab4b5f7cf28067d97",
+      "changed_parts": [
+        "ppt/slides/slide4.xml",
+        "ppt/slides/slide19.xml"
+      ],
+      "text_bodies_and_font_runs_unchanged": true,
+      "all_non_slide_parts_exact": true
+    },
+    {
+      "part": "D",
+      "source_sha256": "2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e",
+      "candidate_sha256": "cc0bf8ba0515f78814dacbd130bebdb47472c088e7061c21e820054a5dbbd29a",
+      "changed_parts": [
+        "ppt/slides/slide16.xml",
+        "ppt/slides/slide10.xml",
+        "ppt/slides/slide15.xml",
+        "ppt/slides/slide4.xml",
+        "ppt/slides/slide3.xml",
+        "ppt/slides/slide8.xml",
+        "ppt/slides/slide2.xml",
+        "ppt/slides/slide7.xml",
+        "ppt/slides/slide12.xml",
+        "ppt/slides/slide20.xml"
+      ],
+      "text_bodies_and_font_runs_unchanged": true,
+      "all_non_slide_parts_exact": true
+    }
+  ]
+}

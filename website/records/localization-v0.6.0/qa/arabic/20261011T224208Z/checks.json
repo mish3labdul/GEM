@@ -1,0 +1,5437 @@
+[
+  {
+    "id": "Arabic root index-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow index-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces index-1440",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Every ail,pcsomd.Htnf",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™Propety dinBskgam.HlSuC12+960h@x",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 36
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishهجسزضيفةغعئدشركء—طآبخ.،صُأّؤ؛:ثًذ/ظ·()؟«»",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 81
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images index-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only index-1440",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link index-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination index-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination index-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations index-1440",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "200 percent RTL text reflow index-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root index-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow index-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces index-1024",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Every ail,pcsomd.Htnf",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™Propety dinBskgam.HlSuC12+960h@x",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 36
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishهجسزضيفةغعئدشركء—طآبخ.،صُأّؤ؛:ثًذ/ظ·()؟«»",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 81
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images index-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only index-1024",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link index-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination index-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination index-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations index-1024",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic root index-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow index-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces index-768",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Every ail,pcsomd.Htnf",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™Propety dinBskgam.HlSuC12+960h@x",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 36
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئة—سزضيفغعطركشآهبدجخ.،صُأّؤ؛ء:ثًذ/ظ·()؟«»",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 80
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images index-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only index-768",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-800.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link index-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination index-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination index-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations index-768",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure index-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu index-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root index-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow index-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces index-375",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Every ail,pcsomd.Htnf",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™Propety dinBskgam.HlSuC12+960h@x",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 36
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئة—سزضيفغعطركشآهبدجخ.،صُأّؤ؛ء:ثًذ/ظ·()؟«»",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 80
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images index-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only index-375",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-480.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link index-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination index-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination index-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations index-375",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure index-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu index-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces index-320",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Every ail,pcsomd.Htnf",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™Propety dinBskgam.HlSuC12+960h@x",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 36
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئة—سزضيفغعطركشآهبدجخ.،صُأّؤ؛ء:ثًذ/ظ·()؟«»",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 80
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only index-320",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-480.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations index-320",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "200 percent RTL text reflow index-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root reference-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow reference-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces reference-1440",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™ V3.0ABCveryail,pcsomdu12x#7DFJt4InNSb586–:9KUH+h@g",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 55
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishهجسزضيفةغعئدشركءصّخط.()،ظذأب:ً؛ُِ#0218·ؤث/«»—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 84
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images reference-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only reference-1440",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-1200.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-1200.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-1200.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-1200.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-1200.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-1200.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-1200.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-1200.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-1200.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "complete isolated version reference-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English counterpart link reference-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination reference-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination reference-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations reference-1440",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "200 percent RTL text reflow reference-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root reference-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow reference-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces reference-1024",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™ V3.0ABCveryail,pcsomdu12x#7DFJt4InNSb586–:9KUH+h@g",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 55
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishهجسزضيفةغعئدشركءصّخط.()،ظذأب:ً؛ُِ#0218·ؤث/«»—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 84
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images reference-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only reference-1024",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-800.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "complete isolated version reference-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English counterpart link reference-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination reference-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination reference-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations reference-1024",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic root reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces reference-768",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™ V3.0ABCveryail,pcsomdu12x#7DFJt4InNSb586–:9KUH+h@g",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 55
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئةصيرّدجعخهطشكء.(ز)،ظفذسأبغ:ضً؛ُِ#0218·ؤث/«»—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 84
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only reference-768",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-800.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-800.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "complete isolated version reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English counterpart link reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations reference-768",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu reference-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces reference-375",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™ V3.0ABCveryail,pcsomdu12x#7DFJt4InNSb586–:9KUH+h@g",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 55
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئةصيرّدجعخهطشكء.(ز)،ظفذسأبغ:ضً؛ُِ#0218·ؤث/«»—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 84
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only reference-375",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-480.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "complete isolated version reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English counterpart link reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations reference-375",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu reference-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces reference-320",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™ V3.0ABCveryail,pcsomdu12x#7DFJt4InNSb586–:9KUH+h@g",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 55
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئةصيرّدجعخهطشكء.(ز)،ظفذسأبغ:ضً؛ُِ#0218·ؤث/«»—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 84
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only reference-320",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/reference.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-ink.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/materials-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/threshold-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/label-study-480.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "complete isolated version reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English counterpart link reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations reference-320",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "200 percent RTL text reflow reference-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root privacy-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow privacy-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces privacy-1440",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM. HospitalySueC12+960h@gmx™",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 30
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishهجسزضيفةغعئدشركءؤخصذ.بأُ،ظطّ«»ًآ—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 72
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images privacy-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only privacy-1440",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link privacy-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination privacy-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination privacy-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations privacy-1440",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "200 percent RTL text reflow privacy-1440",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root privacy-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow privacy-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces privacy-1024",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM. HospitalySueC12+960h@gmx™",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 30
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishهجسزضيفةغعئدشركءؤخصذ.بأُ،ظطّ«»ًآ—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 72
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images privacy-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only privacy-1024",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link privacy-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination privacy-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination privacy-1024",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations privacy-1024",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic root privacy-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow privacy-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces privacy-768",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM. HospitalySueC12+960h@gmx™",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 30
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئةشعرؤخصيهذ.سبدكفأُج،ظضطّغ«»زًآء—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 71
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images privacy-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only privacy-768",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link privacy-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination privacy-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination privacy-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations privacy-768",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure privacy-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu privacy-768",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root privacy-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow privacy-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces privacy-375",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM. HospitalySueC12+960h@gmx™",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 30
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئةشعرؤخصيهذ.سبدكفأُج،ظضطّغ«»زًآء—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 71
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images privacy-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only privacy-375",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link privacy-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination privacy-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination privacy-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations privacy-375",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure privacy-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu privacy-375",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic root privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "RTL reflow privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "actual required glyph faces privacy-320",
+    "status": "PASS",
+    "detail": {
+      "status": "PASS",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Hospitaly, nerfc",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM. HospitalySueC12+960h@gmx™",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 30
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishئةشعرؤخصيهذ.سبدكفأُج،ظضطّغ«»زًآء—",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": true,
+              "glyphCount": 71
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  },
+  {
+    "id": "loaded responsive images privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "runtime and local GET only privacy-320",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/ar/privacy.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "English counterpart link privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "English language destination privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic return destination privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "axe violations privacy-320",
+    "status": "PASS",
+    "detail": []
+  },
+  {
+    "id": "Arabic menu and disclosure privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Escape closes and focuses menu privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "200 percent RTL text reflow privacy-320",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic errors focus first package",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "reject invalid or nonpolicy digits 0",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "reject invalid or nonpolicy digits -1",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "reject invalid or nonpolicy digits 1.2",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "reject invalid or nonpolicy digits 1e3",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "reject invalid or nonpolicy digits ١٢",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic draft retains exact positive estimate 1",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic subject and exact body 1",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic draft retains exact positive estimate 100001",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic subject and exact body 100001",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic draft retains exact positive estimate 9007199254740993",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic subject and exact body 9007199254740993",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic draft retains exact positive estimate 99999999999999999999",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic subject and exact body 99999999999999999999",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic sampling stationery and pending status",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic request clipboard",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic stale request withdrawn",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic enquiry draft and isolated email",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic enquiry clipboard exact",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "Arabic stale enquiry withdrawn",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "LTR email and estimate, auto-direction free text",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "no draft submission",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:49385/ar/index.html",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/jost-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/inter-latin-400-normal.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/gem-tokens.v3.0.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/site.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/messages-ar.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/js/site.js",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/css/arabic.css",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/fonts/noto-sans-arabic-400.woff2",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-horizontal-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/brand/gem-symbol-beige.svg",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/material-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/amenity-family-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/room-set-3x2-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/wall-mounted-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/packaging-study-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/arrival-480.webp",
+          "method": "GET",
+          "post": null
+        },
+        {
+          "url": "http://127.0.0.1:49385/assets/img/guest-arrangement-480.webp",
+          "method": "GET",
+          "post": null
+        }
+      ],
+      "failed": []
+    }
+  },
+  {
+    "id": "no implicit submission no-js",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [],
+      "failed": []
+    }
+  },
+  {
+    "id": "fail closed no-js",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "language link works without scripts no-js",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "no implicit submission blocked-messages",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [],
+      "failed": []
+    }
+  },
+  {
+    "id": "fail closed blocked-messages",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "language link works without scripts blocked-messages",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "no implicit submission blocked-script",
+    "status": "PASS",
+    "detail": {
+      "console_errors": [],
+      "page_errors": [],
+      "requests": [],
+      "failed": []
+    }
+  },
+  {
+    "id": "fail closed blocked-script",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "language link works without scripts blocked-script",
+    "status": "PASS",
+    "detail": null
+  },
+  {
+    "id": "missing Arabic font FAILS acceptance",
+    "status": "PASS",
+    "detail": {
+      "status": "FAIL",
+      "faces": [
+        {
+          "family": "Jost",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Inter",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "weight": "400",
+          "style": "normal",
+          "status": "error"
+        }
+      ],
+      "families": [
+        {
+          "family": "Jost",
+          "requested_weight": 400,
+          "sample": "Every ail,pcsomd.Htnf",
+          "platform_fonts": [
+            {
+              "familyName": "Jost",
+              "postScriptName": "Jost-Regular",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Inter",
+          "requested_weight": 400,
+          "sample": "GEM™Propety dinBskgam.HlSuC12+960h@x",
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular",
+              "isCustomFont": true,
+              "glyphCount": 36
+            }
+          ],
+          "required_face_loaded": true,
+          "status": "PASS"
+        },
+        {
+          "family": "Noto Sans Arabic",
+          "requested_weight": 400,
+          "sample": "انتقل إىمحو\nEnglishهجسزضيفةغعئدشركء—طآبخ.،صُأّؤ؛:ثًذ/ظ·()؟«»",
+          "platform_fonts": [
+            {
+              "familyName": "Noto Sans Arabic",
+              "postScriptName": "NotoSansArabic-Regular",
+              "isCustomFont": false,
+              "glyphCount": 81
+            }
+          ],
+          "required_face_loaded": false,
+          "status": "FAIL"
+        }
+      ]
+    }
+  }
+]

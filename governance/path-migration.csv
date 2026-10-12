@@ -3116,8 +3116,8 @@ zip,fc5e4213c9139a916caaff2dacd9cac524f8f8570597db9c262287cb6f294555,favicon-32.
 zip,fc5e4213c9139a916caaff2dacd9cac524f8f8570597db9c262287cb6f294555,favicon.ico,website/site/favicon.ico,0dd8ed0e787de2ee9dd2001c68b2622dcfe9b349d6b878dedb6f3c02b5c2dc1e,current-byte-identical
 zip,fc5e4213c9139a916caaff2dacd9cac524f8f8570597db9c262287cb6f294555,favicon.svg,website/site/favicon.svg,2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5,current-byte-identical
 zip,fc5e4213c9139a916caaff2dacd9cac524f8f8570597db9c262287cb6f294555,index.html,archive/website-v0.5.1-before-owner-decisions/site/index.html,4ec83cce1f1c090092be99c876b86477a5c556680babc85386964e897650d725,archived-before-owner-decision
-zip,fc5e4213c9139a916caaff2dacd9cac524f8f8570597db9c262287cb6f294555,privacy.html,website/site/privacy.html,96ac7d5aeb8b9d9fc3b9d952832af537930f9aa57aadaedd6ac1b60fcd362c41,current-byte-identical
-zip,fc5e4213c9139a916caaff2dacd9cac524f8f8570597db9c262287cb6f294555,reference.html,website/site/reference.html,e1d6bf3aebdce5fad7e56657c34039b237985a7556161a3edce6f89cb0decc7a,current-byte-identical
+zip,fc5e4213c9139a916caaff2dacd9cac524f8f8570597db9c262287cb6f294555,privacy.html,archive/website-v0.5.3-before-localization/site/privacy.html,96ac7d5aeb8b9d9fc3b9d952832af537930f9aa57aadaedd6ac1b60fcd362c41,archived-before-localization
+zip,fc5e4213c9139a916caaff2dacd9cac524f8f8570597db9c262287cb6f294555,reference.html,archive/website-v0.5.3-before-localization/site/reference.html,e1d6bf3aebdce5fad7e56657c34039b237985a7556161a3edce6f89cb0decc7a,archived-before-localization
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,records/.DS_Store,,d57c53e841dbd8d8b10d478d808a09830183f39297494f28e0df4109b98f1748,excluded-cache-original-retained
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,records/01_Source_Register.md,website/records/01_Source_Register.md,030772b912c964cef4c899955272ea99659171e2216f2378cdd4236c6bd6a6c2,imported-byte-identical
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,records/02_Reference_Log.md,website/records/02_Reference_Log.md,595f234c9e0c5c4089f1bd9bb516ee5703c0bcdfb0a02ba8ec37adaf203864fc,imported-byte-identical
@@ -4302,7 +4302,7 @@ local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/.DS_Store,,c90
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/README.md,archive/website-original/qa/README.md,9648941f1cfb88e8b189e8c822183e9d320415e7b8893144d7af3a9760af84a3,archived-byte-identical
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/__pycache__/font_validation.cpython-314.pyc,,3fc305671d99aa76adef942b3db9a3744fa311cf2b15a08bfad26b610dea16d6,excluded-cache-original-retained
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/__pycache__/run_qa.cpython-314.pyc,,9e3d4e791b8e07086c0650bf8bbf1642e84ce6b69ea268c02af920f4bc2b1411,excluded-cache-original-retained
-local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/font_validation.py,website/qa/font_validation.py,ce15038a12ba1f8bffa912df169ce6dba53ac95a9a8be22562acf3b5605e3b6a,imported-byte-identical
+local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/font_validation.py,archive/website-v0.5.3-before-localization/qa/font_validation.py,ce15038a12ba1f8bffa912df169ce6dba53ac95a9a8be22562acf3b5605e3b6a,archived-before-localization
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/run_corrections_qa.py,archive/website-v0.5.1-before-owner-decisions/qa/run_corrections_qa.py,8cf8c703c61c0bade9771d21dc3af4403a441c5c6dc78600355197110252341a,archived-before-owner-decision
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/run_qa.py,archive/website-v0.5.1-before-owner-decisions/qa/run_qa.py,3f46171d5fa277a9fe200a4b949c57a2722f13323034bd87d0fed2ef8aadc043,archived-before-owner-decision
 local,/Users/mediacenter1/Downloads/GEM-3.0 2/GEM_Website_v0.1,qa/vendor/axe-core-LICENSE.txt,website/qa/vendor/axe-core-LICENSE.txt,af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e,imported-byte-identical
@@ -6420,7 +6420,20 @@ owner-decision,WD-18; WD-19; website/records/24_Owner_Concept_Discussion_and_Con
 owner-decision,WD-18; WD-19; website/records/24_Owner_Concept_Discussion_and_Contact.md,website/qa/run_qa.py,archive/website-v0.5.2-before-colourway-and-estimate-decisions/qa/run_qa.py,b190bf752382c997f0ce43e55d2f8d25d414d78159184aa267c905fcdf637546,archived-before-owner-decision
 owner-decision,WD-18; WD-19; website/records/24_Owner_Concept_Discussion_and_Contact.md,website/qa/run_corrections_qa.py,archive/website-v0.5.2-before-colourway-and-estimate-decisions/qa/run_corrections_qa.py,aa37c7623aabc0b955e1fb8333731543b883f3542b85dd6461dfae0c0bc860d0,archived-before-owner-decision
 owner-decision,WD-19; website/records/24_Owner_Concept_Discussion_and_Contact.md,website/site/assets/css/site.css,website/site/assets/css/site.css,b30674d4aeba0dcdabe8eb363e305df2d50da959265537791d96c4b1c8a584f3,owner-authorized-revision
-owner-decision,WD-20 / WD-21,website/site/index.html,website/site/index.html,c28bca7a91ce052ff70d172d38b94182fc0a52e76c5b91e14838f2af5906fea2,owner-authorized-revision
-owner-decision,WD-20 / WD-21,website/site/assets/js/site.js,website/site/assets/js/site.js,03f789078e80a94b6f4a218eb18f1247ad7beddf079ba31d6ca133a685ec53a9,owner-authorized-revision
-owner-decision,WD-20 / WD-21,website/qa/run_qa.py,website/qa/run_qa.py,fb332fda1a83d352654af21f2e5f509c560e7781c75ef28d7fb1f5c4def1cbcc,owner-authorized-revision
+owner-decision,WD-20 / WD-21,website/site/index.html,archive/website-v0.5.3-before-localization/site/index.html,c28bca7a91ce052ff70d172d38b94182fc0a52e76c5b91e14838f2af5906fea2,archived-before-localization
+owner-decision,WD-20 / WD-21,website/site/assets/js/site.js,archive/website-v0.5.3-before-localization/site/assets/js/site.js,03f789078e80a94b6f4a218eb18f1247ad7beddf079ba31d6ca133a685ec53a9,archived-before-localization
+owner-decision,WD-20 / WD-21,website/qa/run_qa.py,archive/website-v0.5.3-before-localization/qa/run_qa.py,fb332fda1a83d352654af21f2e5f509c560e7781c75ef28d7fb1f5c4def1cbcc,archived-before-localization
 owner-decision,WD-20 / WD-21,website/qa/run_corrections_qa.py,website/qa/run_corrections_qa.py,a06f054322b1fc99a4d840b2e2e452e5c13ed2bef1233ed026226976a363deeb,owner-authorized-revision
+owner-localization,WD-22,website/site/index.html,website/site/index.html,43610b34394303cc625deda2154637af62e853fd523cd3046b89a8493d126453,owner-authorized-localization
+owner-localization,WD-22,website/site/reference.html,website/site/reference.html,c297c381ebd9224c2267cf2aacc02a5b2fcdd4efc65bebb499548a52802e957c,owner-authorized-localization
+owner-localization,WD-22,website/site/privacy.html,website/site/privacy.html,9fd35895d98b6b707f0990cafcec343f3537c09470a738720976da97d2f5137b,owner-authorized-localization
+owner-localization,WD-22,website/site/ar/index.html,website/site/ar/index.html,964a21df427eda959c43390ac29162f8eb43b8616b311e2b86adc9a4a367ef7c,owner-authorized-localization
+owner-localization,WD-22,website/site/ar/reference.html,website/site/ar/reference.html,3b8151037c0495d6b3d75bc90060364557c4ddb39affe565b546b7df046c5706,owner-authorized-localization
+owner-localization,WD-22,website/site/ar/privacy.html,website/site/ar/privacy.html,f0c96c01e5464cee4c2bf01e5a93f74dba83c46eddae44dcf059fdede3e323d8,owner-authorized-localization
+owner-localization,WD-22,website/site/assets/css/arabic.css,website/site/assets/css/arabic.css,b72ed261b3f10ae53169fb38811fe2a91d2b55d7bc1a3f7c867f1ad9db83d5de,owner-authorized-localization
+owner-localization,WD-22,website/site/assets/js/messages-ar.js,website/site/assets/js/messages-ar.js,cb28122a90d61fb33afc69fdbbd865fd0ef15e2efd12565c09cc0a1dc4338a0e,owner-authorized-localization
+owner-localization,WD-22,website/site/assets/js/site.js,website/site/assets/js/site.js,bebea6875fcf71fbdfaf09ea1b9cd91b3675deb9a90ef366b0220d0aaa865693,owner-authorized-localization
+owner-localization,WD-22,website/site/assets/fonts/noto-sans-arabic-400.woff2,website/site/assets/fonts/noto-sans-arabic-400.woff2,53ef016d12b9ecc45c12566da8a800ad51f12084f207160e5871107ac5a72995,owner-authorized-localization
+owner-localization,WD-22,website/site/assets/fonts/OFL-NotoSansArabic.txt,website/site/assets/fonts/OFL-NotoSansArabic.txt,07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96,owner-authorized-localization
+owner-localization,WD-22,website/qa/run_qa.py,website/qa/run_qa.py,9d2e92b7971c91456c746fe02366088139c2622a2100da4b891fb0a2327e6cb8,owner-authorized-localization
+owner-localization,WD-22,website/qa/font_validation.py,website/qa/font_validation.py,065ccfdc67a684d1acf675e81906357679ab593166529b2b0ec1d475b06f05a3,owner-authorized-localization

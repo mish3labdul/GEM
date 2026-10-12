@@ -76,7 +76,7 @@ def main():
         if len(matches)==1:check('sha256:'+hashed(matches[0])==a['digest'] and matches[0].stat().st_size==a['size'],'Release digest mismatch: '+a['name'])
     counts['release_attachments']=len(freeze['release']['assets'])
     site=ROOT/'website/site';html={}
-    for p in site.glob('*.html'):
+    for p in site.rglob('*.html'):
         h=HTML();h.feed(p.read_text());html[p]=h
     def resolve(p,url,anchor=True):
         u=urlsplit(url)
@@ -110,10 +110,13 @@ def main():
             check(revision['from']==current_version and revision['to'] not in versions, 'Broken website version lineage')
             changed_paths=set()
             for change in revision['changes']:
-                path=change['path']; archive=ROOT/change['before_archive']
+                path=change['path']; archive=ROOT/change['before_archive'] if change.get('before_archive') else None
                 check(path not in changed_paths, 'Duplicate revision path: '+path); changed_paths.add(path)
                 check(expected_site.get(path)==change['before_sha256'], 'Revision baseline mismatch: '+path)
-                check(archive.is_file() and hashed(archive)==change['before_sha256'], 'Missing exact pre-revision source: '+path)
+                if change.get('action')=='add':
+                    check(path not in expected_site and change['before_sha256'] is None and archive is None, 'Invalid added-file lineage: '+path)
+                else:
+                    check(archive is not None and archive.is_file() and hashed(archive)==change['before_sha256'], 'Missing exact pre-revision source: '+path)
                 check((ROOT/change['decision_record']).is_file() and bool(change['decision_ids']), 'Missing website decision provenance: '+path)
                 expected_site[path]=change['after_sha256']
             current_version=revision['to']; versions[current_version]=dict(expected_site)

@@ -39,3 +39,21 @@ Website working v0.5.2 keeps the recipient only in draft handoff and presents al
 ## Follow-up — owner decisions WD-20/WD-21, 12 October 2026
 
 Working website v0.5.3 retains amber and ivory hand-wash concept variations with explicit scene captions and an unchanged-image hash register. Supporting records distinguish this concept choice from final product colour and naming approval. Room estimates accept positive whole decimal numbers without the previous 100,000 ceiling or numeric rounding. Regression passes 484/484; correction/font checks pass 81/81. Exact previous sources are archived and mapped; the source inventory now has 6,425 records. See website records 26/27 for scope and evidence.
+
+## Arabic working localization — 12 October 2026
+
+PR #14 owner approval was recorded at unchanged head as a comment because the authenticated account is also the author; merging remains separate. Website v0.6.0 adds three Arabic counterparts, reciprocal language links, proposed translation register, interim licensed Noto Sans Arabic 400, isolated LTR draft values and maintained bilingual QA. Fresh suites pass 487/487, 81/81 and 196/196. The site-only preview contains 87 files. Exact v0.5.3 originals and failed QA iterations are preserved; the source inventory has 6,438 rows. See website records 28/29.
+
+Private Part D R4 was recovered exactly; new private A/B/C editable proposals cover 193 slides and six correspondence variants are available for internal review. Only permitted control/QA records are published. Structural and encoded glyph checks do not establish native acceptance; remaining layout, mixed-direction, reading-order and linguistic gates are explicit. No new document PDF was exported. Released documents/tag/attachments and B01/B02/D8 remain unchanged.
+
+## Native Office continuation — 12 October 2026
+
+Current private proposals are A R14, B R16 and C R12. Native PowerPoint exports cover all 193 current slides; bounded retests repair mixed-script spacing, Western-number units, trademark order, A31 placeholder direction, B10 technical reference and C62 disposition-line fit. Source letters/digits and original media bytes are preserved. Failed isolate/embedding and mislabeled export tests are excluded and retained privately.
+
+All six R3 correspondence variants passed Word edit/save/reopen/restoration, full-page visual inspection and native Accessibility Assistant checks (zero issues each). A task-scoped font configuration removed an auxiliary renderer fallback; actual temporary font resources use only Inter/Jost/Noto Sans Arabic Regular. Native Word is layout authority; the auxiliary bilingual-continuation margin difference is retained as a limitation. Canonical document bytes are unchanged by native QA. Presentation all-slide visual/font/body-editing/reading-order and assistive-technology acceptance, linguistic approval and D8 external issue remain open. Part D retains its 23 reading-order review items. New matching document PDFs remain withheld. See the permitted native Office QA report in the document continuation folder.
+
+## Targeted native repair retests — 12 October 2026
+
+Private candidates advance to A R15, B R16, C R13 and D R5. A15 removes two duplicate shape IDs on slide 27 without changing appearance; its native retest passed. C13 separates the slide 4 note from its native-expanded table and moves all 18 slide 19 checkboxes to the RTL leading edge; both native visual retests passed. D5 corrects reading sequence on ten slides while preserving individual shapes, text, geometry and all non-slide parts. All 24 native Reading Order pane sequences match D5, but PowerPoint's 23 manual review prompts and assistive-technology acceptance remain open.
+
+One Arabic text object in each deck passed native edit/save/close/reopen/restoration on private QA copies (A14/B16/C12/D5; unchanged text bodies in A15/C13). All four current candidates pass encoded script-font glyph coverage. Earlier 193 native PNGs remain evidence for A14/B16/C12; current corrected slides use direct captures because PowerPoint disabled batch Export. Full presentation acceptance is not claimed. A private revisioned package includes ten editable candidates and a focused terminology sheet; full restricted content stays local. No new matching document PDFs, merge, deployment or release.

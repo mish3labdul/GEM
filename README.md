@@ -15,4 +15,4 @@ Published baseline: [V3.0](https://github.com/mish3labdul/GEM/releases/tag/v3.0)
 
 Validate the collection: `python3 tools/validate_collection.py`.
 
-No deployment, new release, document content correction, font substitution, or production approval is included.
+Current [bilingual website v0.6.0 verification](website/records/29_Bilingual_Website_Verification_v0.6.0.md) and [private Arabic working-document continuation](documents/working/arabic-localization-l10n01/05_continuation-20261012/README.md) are separate from the released baseline. New translations remain proposed; native document acceptance is incomplete. No deployment, merge, new release or production approval is included.

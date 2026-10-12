@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-12",
+  "status": "WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT COMPLETE",
+  "publication_scope": "Permitted control and QA metadata only; full documents, native screenshots, translation ledgers and fonts stay private",
+  "presentations": [
+    {
+      "file": "GEM_BRAND_BrandGuidelines_PartA_AR_L10N02_R14_20261012.pptx",
+      "sha256": "3f77c2bddbeca3d66c63723f14ed9bf1d5a3bb0fac1f84adb2ed40d2ac2c544b",
+      "letters_and_digits_preserved": true,
+      "media_bytes_preserved": true,
+      "media_count": 101,
+      "native_png_count": 80
+    },
+    {
+      "file": "GEM_BRAND_DigitalDesignSystem_PartB_AR_L10N02_R16_20261012.pptx",
+      "sha256": "f07b4460e4325739ad7a38be36744c6148a6480a63d5b6acf56e635254b08d18",
+      "letters_and_digits_preserved": true,
+      "media_bytes_preserved": true,
+      "media_count": 0,
+      "native_png_count": 35
+    },
+    {
+      "file": "GEM_BRAND_ProductionStandards_PartC_AR_L10N02_R12_20261012.pptx",
+      "sha256": "8172951bcb1ab0834d3113a02a6cc8eb82f7da7a9b6091b0f7db712ec10866d3",
+      "letters_and_digits_preserved": true,
+      "media_bytes_preserved": true,
+      "media_count": 18,
+      "native_png_count": 78
+    }
+  ],
+  "word": [
+    {
+      "variant": "ArabicContinuationInternal",
+      "file_sha256": "b5584f62219eaa5d5a16c317341fb10fd7a70792088a7ae56dad21e040eea2df",
+      "native_full_page_png_sha256": "96b1e188f8f6652f62896ac312d8c67411aca13d2173556533379bacae6a1ce1",
+      "native_accessibility_evidence_sha256": "537eda1a42c940bf9ef2409ad2af5ffaeb2824f377340c96732e544daafb4ccd",
+      "native_checker_issues": 0,
+      "native_edit_save_reopen": "PASS",
+      "status": "WORKING / linguistic and external-issue D8 gates remain"
+    },
+    {
+      "variant": "ArabicFirstPageInternal",
+      "file_sha256": "17b82dd13f2e0c6c18f3be7859ab7636e33f9a3095a28065d4290c3a398ed2b5",
+      "native_full_page_png_sha256": "10b2a14d7f26c1f00c78cc2251549c606e3fdf23e8eb35e1bb8306f7c0d71b5c",
+      "native_accessibility_evidence_sha256": "f56cd95b027ad340eebbc61fca23c814410b1638ba2f18e1b3a39735bca53373",
+      "native_checker_issues": 0,
+      "native_edit_save_reopen": "PASS",
+      "status": "WORKING / linguistic and external-issue D8 gates remain"
+    },
+    {
+      "variant": "BilingualContinuationInternal",
+      "file_sha256": "8844eab0348ff7aa646f187ed393bb155f24e4cfeb2cb8ec93c5eb96528c3a2a",
+      "native_full_page_png_sha256": "5f3f3ad213ac7d11012f83754805d189e91d6a153384c123975ba4f6cc439c5d",
+      "native_accessibility_evidence_sha256": "9de275117542f7f18a54f42bee34b029a1963d0b8e35481e7ef8d2946785cb52",
+      "native_checker_issues": 0,
+      "native_edit_save_reopen": "PASS",
+      "status": "WORKING / linguistic and external-issue D8 gates remain"
+    },
+    {
+      "variant": "BilingualFirstPageInternal",
+      "file_sha256": "1f807acc999a4358fb3ec0380178c279fc2d3b9c2b25fac1eb50dba1ee22e59a",
+      "native_full_page_png_sha256": "2cb5e8f83c206e15d6cfe7fbeed4d742c17fccb53764285501d73ec8b9ef539c",
+      "native_accessibility_evidence_sha256": "5300d9fb4b154a7150036464a92f1296f910b17eeba4310a95f5cc24779a9b67",
+      "native_checker_issues": 0,
+      "native_edit_save_reopen": "PASS",
+      "status": "WORKING / linguistic and external-issue D8 gates remain"
+    },
+    {
+      "variant": "Executive",
+      "file_sha256": "68af06703620da204a25fb238e3748ab45b98e82da87f0f2d7394731b54ecda0",
+      "native_full_page_png_sha256": "b85a1fb92370894ebb5512f3fec36ebfb460dafd1caf852d0f282d310be41af3",
+      "native_accessibility_evidence_sha256": "e3a539c21607f07241219a275ec9915d7efc357ea4d1df68f6edeb1a5b1f128d",
+      "native_checker_issues": 0,
+      "native_edit_save_reopen": "PASS",
+      "status": "WORKING / linguistic and external-issue D8 gates remain"
+    },
+    {
+      "variant": "Minimal",
+      "file_sha256": "4077ebdf9172c4d606f199447f20655d161610044d2ce633be488763cc6a0261",
+      "native_full_page_png_sha256": "0877bb4e7f5bdb2f6d077e053d9d18c8416bc11caeffc1fbb0b700292e8a1bb1",
+      "native_accessibility_evidence_sha256": "5789c3ac2ebd8eba77f7946beb5793e3978c79222cb5bd8b5f8db631510da5bc",
+      "native_checker_issues": 0,
+      "native_edit_save_reopen": "PASS",
+      "status": "WORKING / linguistic and external-issue D8 gates remain"
+    }
+  ],
+  "font_audit": {
+    "status": "PASS six files",
+    "actual_resource_families": [
+      "Inter-Regular",
+      "Jost-Regular",
+      "NotoSansArabic-Regular"
+    ],
+    "limits": "Auxiliary renderer evidence. Earlier isolated-HOME fallback renders rejected. Native Word is layout authority; bilingual continuation has an auxiliary-renderer margin difference."
+  },
+  "rejected_experiments": [
+    "PowerPoint U+2066/U+2069 isolate experiment: visible NO GLYPH boxes; excluded",
+    "LRE/PDF and token-run experiments caused table wrapping; excluded",
+    "Mislabeled exports excluded from acceptance evidence"
+  ],
+  "pdfs": "No new matching document PDFs persisted or delivered; temporary renderer intermediates removed",
+  "open_gates": [
+    "Linguistic review of all new proposals; focused review sheet is triage only",
+    "Complete full-size slide review and mixed-direction/technical-identifier punctuation acceptance across A/B/C",
+    "Verify all presentation fonts in native Office without unintended substitution; encoded glyph coverage alone is insufficient",
+    "Complete presentation reading-order and assistive-technology acceptance, including Part D 23 manual review prompts",
+    "New matching PDFs only after editable acceptance, followed by independent copy/search/text-fidelity checks",
+    "Part D programme terminology alignment in a separately validated working revision; no approved Arabic programme names invented"
+  ],
+  "release": "V3.0, B01/B02 and D8 unchanged; no production or linguistic approval",
+  "native_continuation": "Current private candidates: A R15, B R16, C R13 and D R5. A15 repairs duplicate shape IDs on slide 27 without content or geometry changes; native slide 27 retest passed. C13 repairs slide 4 table/note overlap and slide 19 RTL checkbox positioning; both native visual retests passed. Earlier A14/B16/C12 have 193 native PNGs; unchanged slide parts remain byte-identical in A15/C13. New full-deck PNG export was unavailable because PowerPoint disabled its Export button; current changed slides were captured directly. D5 repairs shape reading sequence on ten slides, preserving individual shapes, text, media and geometry. All 24 D5 native Reading Order pane sequences match the candidate; PowerPoint still reports 23 manual review prompts. One Arabic text object per presentation passed native edit/save/close/reopen/restoration on QA copies (A14/B16/C12/D5). Six Word R3 variants passed native editing and complete one-page visual review. This is bounded evidence; complete presentation visual/font/assistive-technology acceptance remains open.",
+  "current_candidates": [
+    {
+      "part": "A",
+      "file": "GEM_BRAND_BrandGuidelines_PartA_AR_L10N02_R15_20261012.pptx",
+      "sha256": "4cb444d62474ae1e8a29dd91842a59980a005edba5569c8518e32d3c5937509e"
+    },
+    {
+      "part": "B",
+      "file": "GEM_BRAND_DigitalDesignSystem_PartB_AR_L10N02_R16_20261012.pptx",
+      "sha256": "f07b4460e4325739ad7a38be36744c6148a6480a63d5b6acf56e635254b08d18"
+    },
+    {
+      "part": "C",
+      "file": "GEM_BRAND_ProductionStandards_PartC_AR_L10N02_R13_20261012.pptx",
+      "sha256": "fb212b063ca533ec558b131aad4f6ac36aeec6d3127b258ab4b5f7cf28067d97"
+    },
+    {
+      "part": "D",
+      "file": "GEM_BRAND_AmenitiesPackagingConcept_PartD_AR_L10N02_R5_20261012.pptx",
+      "sha256": "cc0bf8ba0515f78814dacbd130bebdb47472c088e7061c21e820054a5dbbd29a"
+    }
+  ],
+  "presentation_body_roundtrip": [
+    {
+      "part": "A",
+      "all_slide_shape_text_restored": true,
+      "source_duplicate_shape_ids": [
+        {
+          "part": "ppt/slides/slide27.xml",
+          "duplicate_ids": {
+            "9": 3
+          }
+        }
+      ],
+      "native_one_arabic_text_edit_save_close_reopen": "PASS",
+      "scope": "One text object per deck; comparison uses text multisets because native PowerPoint renumbers duplicate source IDs. Canonical files unchanged; no whole-deck acceptance."
+    },
+    {
+      "part": "B",
+      "all_slide_shape_text_restored": true,
+      "source_duplicate_shape_ids": [],
+      "native_one_arabic_text_edit_save_close_reopen": "PASS",
+      "scope": "One text object per deck; comparison uses text multisets because native PowerPoint renumbers duplicate source IDs. Canonical files unchanged; no whole-deck acceptance."
+    },
+    {
+      "part": "C",
+      "all_slide_shape_text_restored": true,
+      "source_duplicate_shape_ids": [],
+      "native_one_arabic_text_edit_save_close_reopen": "PASS",
+      "scope": "One text object per deck; comparison uses text multisets because native PowerPoint renumbers duplicate source IDs. Canonical files unchanged; no whole-deck acceptance."
+    },
+    {
+      "part": "D",
+      "all_slide_shape_text_restored": true,
+      "native_one_arabic_text_edit_save_close_reopen": "PASS",
+      "scope": "One visible Arabic heading on slide 1 edited, saved, closed and reopened in PowerPoint; original text restored and all slide shape text compared. Canonical candidate untouched. Not whole-deck acceptance."
+    }
+  ],
+  "part_d_reading_order": {
+    "native_sequence_match_slides": 24,
+    "reordered_slides": [
+      2,
+      3,
+      4,
+      7,
+      8,
+      10,
+      12,
+      15,
+      16,
+      20
+    ],
+    "manual_review_prompts": 23,
+    "assistive_technology_acceptance": "PENDING"
+  },
+  "presentations_render_basis": "The earlier presentations array records A14/B16/C12, not the latest A15/C13. See current_candidates and native_continuation for the current evidence scope."
+}

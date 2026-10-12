@@ -1,0 +1,3785 @@
+[
+ {
+  "id": "http-200 index.html@desktop-1440",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   1440,
+   1440
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 index.html@desktop-1440",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks index.html@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "material-study-800.webp",
+    "box": 1.5,
+    "nat": 1.501
+   },
+   {
+    "src": "amenity-family-800.webp",
+    "box": 1.5,
+    "nat": 1.501
+   },
+   {
+    "src": "room-set-3x2-480.webp",
+    "box": 1.5,
+    "nat": 1.504
+   },
+   {
+    "src": "packaging-study-480.webp",
+    "box": 1.5,
+    "nat": 1.504
+   },
+   {
+    "src": "arrival-800.webp",
+    "box": 1.5,
+    "nat": 1.501
+   },
+   {
+    "src": "guest-arrangement-800.webp",
+    "box": 1.5,
+    "nat": 1.501
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status index.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   {
+    "id": "f-name",
+    "w": 420
+   },
+   {
+    "id": "f-email",
+    "w": 420
+   },
+   {
+    "id": "f-org",
+    "w": 420
+   },
+   {
+    "id": "f-message",
+    "w": 420
+   }
+  ]
+ },
+ {
+  "id": "ds-radio-24 index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ]
+  ]
+ },
+ {
+  "id": "ds-square-labels-and-images index.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "head-integrity index.html: title, standard viewport, no inline styles",
+  "status": "PASS",
+  "detail": {
+   "title": "GEM\u2122 \u2014 Hospitality supplier and partner",
+   "vp": "width=device-width, initial-scale=1",
+   "styles": 0
+  }
+ },
+ {
+  "id": "link-resolves index.html -> ar/index.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves index.html -> index.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves index.html -> privacy.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves index.html -> reference.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves index.html -> reference.html#labels",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves index.html -> reference.html#production",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "footer-edge-taps index.html",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "http-200 index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   1024,
+   1024
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "material-study-800.webp",
+    "box": 1.5,
+    "nat": 1.501
+   },
+   {
+    "src": "amenity-family-800.webp",
+    "box": 1.5,
+    "nat": 1.501
+   },
+   {
+    "src": "room-set-3x2-480.webp",
+    "box": 1.5,
+    "nat": 1.505
+   },
+   {
+    "src": "packaging-study-480.webp",
+    "box": 1.5,
+    "nat": 1.505
+   },
+   {
+    "src": "arrival-480.webp",
+    "box": 1.5,
+    "nat": 1.498
+   },
+   {
+    "src": "guest-arrangement-800.webp",
+    "box": 1.5,
+    "nat": 1.501
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   {
+    "id": "f-name",
+    "w": 420
+   },
+   {
+    "id": "f-email",
+    "w": 420
+   },
+   {
+    "id": "f-org",
+    "w": 420
+   },
+   {
+    "id": "f-message",
+    "w": 420
+   }
+  ]
+ },
+ {
+  "id": "ds-radio-24 index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ]
+  ]
+ },
+ {
+  "id": "ds-square-labels-and-images index.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 index.html@tablet-768",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   768,
+   768
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 index.html@tablet-768",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks index.html@tablet-768",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "material-study-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   },
+   {
+    "src": "amenity-family-800.webp",
+    "box": 1.5,
+    "nat": 1.503
+   },
+   {
+    "src": "room-set-3x2-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   },
+   {
+    "src": "packaging-study-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   },
+   {
+    "src": "arrival-800.webp",
+    "box": 1.5,
+    "nat": 1.503
+   },
+   {
+    "src": "guest-arrangement-800.webp",
+    "box": 1.5,
+    "nat": 1.503
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status index.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   {
+    "id": "f-name",
+    "w": 420
+   },
+   {
+    "id": "f-email",
+    "w": 420
+   },
+   {
+    "id": "f-org",
+    "w": 420
+   },
+   {
+    "id": "f-message",
+    "w": 420
+   }
+  ]
+ },
+ {
+  "id": "ds-radio-24 index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ]
+  ]
+ },
+ {
+  "id": "ds-square-labels-and-images index.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 index.html@mobile-375",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   375,
+   375
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 index.html@mobile-375",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks index.html@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   40
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "material-study-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   },
+   {
+    "src": "amenity-family-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   },
+   {
+    "src": "room-set-3x2-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   },
+   {
+    "src": "packaging-study-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   },
+   {
+    "src": "arrival-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   },
+   {
+    "src": "guest-arrangement-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status index.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   {
+    "id": "f-name",
+    "w": 343
+   },
+   {
+    "id": "f-email",
+    "w": 343
+   },
+   {
+    "id": "f-org",
+    "w": 343
+   },
+   {
+    "id": "f-message",
+    "w": 343
+   }
+  ]
+ },
+ {
+  "id": "ds-radio-24 index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ]
+  ]
+ },
+ {
+  "id": "ds-square-labels-and-images index.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 index.html@narrow-320",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   320,
+   320
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 index.html@narrow-320",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks index.html@narrow-320",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   40
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "material-study-480.webp",
+    "box": 1.5,
+    "nat": 1.502
+   },
+   {
+    "src": "amenity-family-480.webp",
+    "box": 1.5,
+    "nat": 1.502
+   },
+   {
+    "src": "room-set-3x2-480.webp",
+    "box": 1.5,
+    "nat": 1.502
+   },
+   {
+    "src": "packaging-study-480.webp",
+    "box": 1.5,
+    "nat": 1.502
+   },
+   {
+    "src": "arrival-480.webp",
+    "box": 1.5,
+    "nat": 1.502
+   },
+   {
+    "src": "guest-arrangement-480.webp",
+    "box": 1.5,
+    "nat": 1.502
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status index.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   {
+    "id": "f-name",
+    "w": 288
+   },
+   {
+    "id": "f-email",
+    "w": 288
+   },
+   {
+    "id": "f-org",
+    "w": 288
+   },
+   {
+    "id": "f-message",
+    "w": 288
+   }
+  ]
+ },
+ {
+  "id": "ds-radio-24 index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ],
+   [
+    24,
+    24
+   ]
+  ]
+ },
+ {
+  "id": "ds-square-labels-and-images index.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   1440,
+   1440
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 3
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "label-study-1200.webp",
+    "box": 1.5,
+    "nat": 1.502
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images reference.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "head-integrity reference.html: title, standard viewport, no inline styles",
+  "status": "PASS",
+  "detail": {
+   "title": "GEM\u2122 brand and design reference",
+   "vp": "width=device-width, initial-scale=1",
+   "styles": 0
+  }
+ },
+ {
+  "id": "link-resolves reference.html -> ar/reference.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> index.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> index.html#amenities",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> index.html#approach",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> index.html#clients",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> index.html#enquire",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> index.html#packages",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> index.html#partners",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> privacy.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves reference.html -> reference.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "footer-edge-taps reference.html",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "http-200 reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   1024,
+   1024
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 3
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "label-study-800.webp",
+    "box": 1.5,
+    "nat": 1.501
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images reference.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 reference.html@tablet-768",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll reference.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   768,
+   768
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 reference.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only reference.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only reference.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 reference.html@tablet-768",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks reference.html@tablet-768",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 3
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale reference.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 reference.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "label-study-800.webp",
+    "box": 1.5,
+    "nat": 1.503
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 reference.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images reference.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 reference.html@mobile-375",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll reference.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   375,
+   375
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 reference.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only reference.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only reference.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 reference.html@mobile-375",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks reference.html@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 3
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale reference.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   40,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 reference.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "label-study-480.webp",
+    "box": 1.5,
+    "nat": 1.5
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 reference.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images reference.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 reference.html@narrow-320",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll reference.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   320,
+   320
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 reference.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only reference.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only reference.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 reference.html@narrow-320",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks reference.html@narrow-320",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 3
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale reference.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   24,
+   32,
+   40,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 reference.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   {
+    "src": "label-study-480.webp",
+    "box": 1.5,
+    "nat": 1.502
+   }
+  ]
+ },
+ {
+  "id": "ds-images-captioned-with-status reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 reference.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images reference.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   1440,
+   1440
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-images-captioned-with-status privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images privacy.html@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "head-integrity privacy.html: title, standard viewport, no inline styles",
+  "status": "PASS",
+  "detail": {
+   "title": "GEM\u2122 privacy and legal notice",
+   "vp": "width=device-width, initial-scale=1",
+   "styles": 0
+  }
+ },
+ {
+  "id": "link-resolves privacy.html -> ar/privacy.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> index.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> index.html#amenities",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> index.html#approach",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> index.html#clients",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> index.html#enquire",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> index.html#packages",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> index.html#partners",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> privacy.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "link-resolves privacy.html -> reference.html",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "footer-edge-taps privacy.html",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "http-200 privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   1024,
+   1024
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-images-captioned-with-status privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images privacy.html@breakpoint-1024",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   768,
+   768
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   32,
+   48
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-images-captioned-with-status privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images privacy.html@tablet-768",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   375,
+   375
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   32,
+   40
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-images-captioned-with-status privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images privacy.html@mobile-375",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "http-200 privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": 200
+ },
+ {
+  "id": "no-console-or-page-errors privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-failed-requests privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-third-party-requests privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "no-horizontal-scroll privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   320,
+   320
+  ]
+ },
+ {
+  "id": "no-text-outside-viewport privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "fonts-jost-inter-400 privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "Jost 400",
+   "Inter 400",
+   "Noto Sans Arabic 400"
+  ]
+ },
+ {
+  "id": "weights-400-only privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "400"
+  ]
+ },
+ {
+  "id": "families-prescribed-latin-and-arabic-only privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   "Inter",
+   "Noto Sans Arabic",
+   "Jost"
+  ]
+ },
+ {
+  "id": "visible-images-load privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "images-have-alt-attr privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "one-h1 privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": 1
+ },
+ {
+  "id": "landmarks privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": {
+   "header": 1,
+   "main": 1,
+   "footer": 1,
+   "nav": 2
+  }
+ },
+ {
+  "id": "in-page-anchors-resolve privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-44px privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "footer-targets-no-overlap privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "axe-zero-violations privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-type-scale privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   12,
+   13,
+   14,
+   16,
+   32,
+   40
+  ]
+ },
+ {
+  "id": "ds-concept-full-3x2 privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-images-captioned-with-status privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-field-max-420 privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-radio-24 privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "ds-square-labels-and-images privacy.html@narrow-320",
+  "status": "PASS",
+  "detail": [
+   [],
+   []
+  ]
+ },
+ {
+  "id": "primary-nav-visible-or-disclosable no-js@mobile-375",
+  "status": "PASS",
+  "detail": [
+   {
+    "t": "Approach",
+    "v": true
+   },
+   {
+    "t": "Amenities & Packaging",
+    "v": true
+   },
+   {
+    "t": "Packages",
+    "v": true
+   },
+   {
+    "t": "Who it serves",
+    "v": true
+   },
+   {
+    "t": "Partners",
+    "v": true
+   },
+   {
+    "t": "Draft an enquiry",
+    "v": true
+   }
+  ]
+ },
+ {
+  "id": "static-mark-complete no-js@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "ok": true,
+   "mask": "none",
+   "clip": "none",
+   "opacity": "1",
+   "w": 48
+  }
+ },
+ {
+  "id": "primary-nav-keyboard-reachable no-js@mobile-375",
+  "status": "PASS",
+  "detail": [
+   "",
+   "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+   "Approach",
+   "Amenities & Packaging",
+   "Packages",
+   "Who it serves",
+   "Partners",
+   "Draft an enquiry",
+   "Draft an enquiry"
+  ]
+ },
+ {
+  "id": "prepare-disabled-and-notice-shown no-js@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "a11y: disabled submit explains why no-js@mobile-375",
+  "status": "PASS",
+  "detail": "Drafting an enquiry is unavailable This form needs JavaScript. It is off, blocked or could not start. No enquiry can be sent from this page. The contact details shown in this preview are placeholders. Creates a draft to copy or send from your email app. This page sends nothing."
+ },
+ {
+  "id": "quote-disabled-and-notice-shown no-js@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "fail-closed-no-data-request no-js@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "url": "http://127.0.0.1:64687/index.html",
+   "leaked": []
+  }
+ },
+ {
+  "id": "primary-nav-visible-or-disclosable no-js@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   {
+    "t": "Approach",
+    "v": true
+   },
+   {
+    "t": "Amenities & Packaging",
+    "v": true
+   },
+   {
+    "t": "Packages",
+    "v": true
+   },
+   {
+    "t": "Who it serves",
+    "v": true
+   },
+   {
+    "t": "Partners",
+    "v": true
+   },
+   {
+    "t": "Draft an enquiry",
+    "v": true
+   }
+  ]
+ },
+ {
+  "id": "static-mark-complete no-js@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "ok": true,
+   "mask": "none",
+   "clip": "none",
+   "opacity": "1",
+   "w": 300
+  }
+ },
+ {
+  "id": "primary-nav-keyboard-reachable no-js@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   "",
+   "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+   "Approach",
+   "Amenities & Packaging",
+   "Packages",
+   "Who it serves",
+   "Partners",
+   "Draft an enquiry",
+   "Draft an enquiry"
+  ]
+ },
+ {
+  "id": "prepare-disabled-and-notice-shown no-js@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "a11y: disabled submit explains why no-js@desktop-1440",
+  "status": "PASS",
+  "detail": "Drafting an enquiry is unavailable This form needs JavaScript. It is off, blocked or could not start. No enquiry can be sent from this page. The contact details shown in this preview are placeholders. Creates a draft to copy or send from your email app. This page sends nothing."
+ },
+ {
+  "id": "quote-disabled-and-notice-shown no-js@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "fail-closed-no-data-request no-js@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "url": "http://127.0.0.1:64687/index.html",
+   "leaked": []
+  }
+ },
+ {
+  "id": "primary-nav-visible-or-disclosable blocked-script@mobile-375",
+  "status": "PASS",
+  "detail": [
+   {
+    "t": "Approach",
+    "v": true
+   },
+   {
+    "t": "Amenities & Packaging",
+    "v": true
+   },
+   {
+    "t": "Packages",
+    "v": true
+   },
+   {
+    "t": "Who it serves",
+    "v": true
+   },
+   {
+    "t": "Partners",
+    "v": true
+   },
+   {
+    "t": "Draft an enquiry",
+    "v": true
+   }
+  ]
+ },
+ {
+  "id": "static-mark-complete blocked-script@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "ok": true,
+   "mask": "none",
+   "clip": "none",
+   "opacity": "1",
+   "w": 48
+  }
+ },
+ {
+  "id": "prepare-disabled-and-notice-shown blocked-script@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "quote-disabled-and-notice-shown blocked-script@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "fail-closed-no-data-request blocked-script@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "url": "http://127.0.0.1:64687/index.html",
+   "leaked": []
+  }
+ },
+ {
+  "id": "primary-nav-visible-or-disclosable blocked-script@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   {
+    "t": "Approach",
+    "v": true
+   },
+   {
+    "t": "Amenities & Packaging",
+    "v": true
+   },
+   {
+    "t": "Packages",
+    "v": true
+   },
+   {
+    "t": "Who it serves",
+    "v": true
+   },
+   {
+    "t": "Partners",
+    "v": true
+   },
+   {
+    "t": "Draft an enquiry",
+    "v": true
+   }
+  ]
+ },
+ {
+  "id": "static-mark-complete blocked-script@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "ok": true,
+   "mask": "none",
+   "clip": "none",
+   "opacity": "1",
+   "w": 300
+  }
+ },
+ {
+  "id": "prepare-disabled-and-notice-shown blocked-script@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "quote-disabled-and-notice-shown blocked-script@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "fail-closed-no-data-request blocked-script@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "url": "http://127.0.0.1:64687/index.html",
+   "leaked": []
+  }
+ },
+ {
+  "id": "primary-nav-visible-or-disclosable init-exception@mobile-375",
+  "status": "PASS",
+  "detail": [
+   {
+    "t": "Approach",
+    "v": true
+   },
+   {
+    "t": "Amenities & Packaging",
+    "v": true
+   },
+   {
+    "t": "Packages",
+    "v": true
+   },
+   {
+    "t": "Who it serves",
+    "v": true
+   },
+   {
+    "t": "Partners",
+    "v": true
+   },
+   {
+    "t": "Draft an enquiry",
+    "v": true
+   }
+  ]
+ },
+ {
+  "id": "static-mark-complete init-exception@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "ok": true,
+   "mask": "none",
+   "clip": "none",
+   "opacity": "1",
+   "w": 48
+  }
+ },
+ {
+  "id": "prepare-disabled-and-notice-shown init-exception@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "fail-closed-no-data-request init-exception@mobile-375",
+  "status": "PASS",
+  "detail": {
+   "url": "http://127.0.0.1:64687/index.html",
+   "leaked": []
+  }
+ },
+ {
+  "id": "primary-nav-visible-or-disclosable init-exception@desktop-1440",
+  "status": "PASS",
+  "detail": [
+   {
+    "t": "Approach",
+    "v": true
+   },
+   {
+    "t": "Amenities & Packaging",
+    "v": true
+   },
+   {
+    "t": "Packages",
+    "v": true
+   },
+   {
+    "t": "Who it serves",
+    "v": true
+   },
+   {
+    "t": "Partners",
+    "v": true
+   },
+   {
+    "t": "Draft an enquiry",
+    "v": true
+   }
+  ]
+ },
+ {
+  "id": "static-mark-complete init-exception@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "ok": true,
+   "mask": "none",
+   "clip": "none",
+   "opacity": "1",
+   "w": 300
+  }
+ },
+ {
+  "id": "prepare-disabled-and-notice-shown init-exception@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "disabled": true,
+   "notice": true
+  }
+ },
+ {
+  "id": "fail-closed-no-data-request init-exception@desktop-1440",
+  "status": "PASS",
+  "detail": {
+   "url": "http://127.0.0.1:64687/index.html",
+   "leaked": []
+  }
+ },
+ {
+  "id": "form-initial-enabled-notice-hidden",
+  "status": "PASS",
+  "detail": {
+   "disabled": false,
+   "notice": true
+  }
+ },
+ {
+  "id": "form-empty-four-linked-errors",
+  "status": "PASS",
+  "detail": [
+   "Enter your name.",
+   "Enter an email address in the format name@example.com.",
+   "Choose what your enquiry is about.",
+   "Tell us a little about your property or project."
+  ]
+ },
+ {
+  "id": "form-error-link-focuses-radio",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "form-invalid-email-only",
+  "status": "PASS",
+  "detail": [
+   "Enter an email address in the format name@example.com."
+  ]
+ },
+ {
+  "id": "form-valid-prepared-not-sent",
+  "status": "PASS",
+  "detail": {
+   "requests": [],
+   "output": "Enquiry for GEM\nName: Synthetic Tester\nEmail: qa@example.invalid\nOrganisation or property: Example Org\nAbout: Amenities & Packaging\n\nSynthetic QA enquiry. Do not send."
+  }
+ },
+ {
+  "id": "clipboard-granted-copies-draft",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "clipboard-denied-selects-text",
+  "status": "PASS",
+  "detail": [
+   0,
+   167,
+   167
+  ]
+ },
+ {
+  "id": "stale-draft-invalidated-every-field",
+  "status": "PASS",
+  "detail": {
+   "name": {
+    "was_ready": true,
+    "result_visible_after_edit": false,
+    "output_after_edit": "",
+    "status": "Your details changed. Draft the enquiry again to update it."
+   },
+   "organisation": {
+    "was_ready": true,
+    "result_visible_after_edit": false,
+    "output_after_edit": "",
+    "status": "Your details changed. Draft the enquiry again to update it."
+   },
+   "email": {
+    "was_ready": true,
+    "result_visible_after_edit": false,
+    "output_after_edit": "",
+    "status": "Your details changed. Draft the enquiry again to update it."
+   },
+   "interest": {
+    "was_ready": true,
+    "result_visible_after_edit": false,
+    "output_after_edit": "",
+    "status": "Your details changed. Draft the enquiry again to update it."
+   },
+   "message": {
+    "was_ready": true,
+    "result_visible_after_edit": false,
+    "output_after_edit": "",
+    "status": "Your details changed. Draft the enquiry again to update it."
+   }
+  }
+ },
+ {
+  "id": "re-prepare-uses-current-values",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "clear-resets-all-state",
+  "status": "PASS",
+  "detail": {
+   "name": "",
+   "result": true,
+   "invalid": 0,
+   "focus": "f-name",
+   "status": "",
+   "out": ""
+  }
+ },
+ {
+  "id": "normal-journey-no-requests-after-load",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "focus-visible-ring-2px (on the control, or on the whole package card for its radio)",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "skip-link-moves-focus-to-main",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "mobile-disclosure-enter-tab-escape",
+  "status": "PASS",
+  "detail": {
+   "hidden_before": true,
+   "opened": "true",
+   "next": "Approach"
+  }
+ },
+ {
+  "id": "compact-first-screen-shows-primary-action-375x812",
+  "status": "PASS",
+  "detail": 552.953125
+ },
+ {
+  "id": "compact-first-screen-shows-primary-action-320x640",
+  "status": "PASS",
+  "detail": 578.953125
+ },
+ {
+  "id": "audit-C2 enquiry reachable from hero, offer and partner sections",
+  "status": "PASS",
+  "detail": 3
+ },
+ {
+  "id": "audit-C2 header sticky, tucks reading down, returns on scroll up",
+  "status": "PASS",
+  "detail": {
+   "position": "sticky",
+   "tucked": true,
+   "back": true
+  }
+ },
+ {
+  "id": "audit-C2 focus not obscured by sticky header (45 tab stops)",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "audit-C2 partner CTA selects topic and withdraws stale draft",
+  "status": "PASS",
+  "detail": {
+   "checked": true,
+   "result": false,
+   "status": "Your details changed. Draft the enquiry again to update it.",
+   "hash": "#enquire"
+  }
+ },
+ {
+  "id": "audit-C1 email hand-off: hidden until drafted, addressed to the owner address, body equals the draft, withdrawn on edit (link not followed)",
+  "status": "PASS",
+  "detail": {
+   "before": {
+    "hidden": true,
+    "href": null
+   },
+   "href_prefix": "mailto:mish3labdul@gmail.com?subject=Enquiry%20for%20GEM&bod",
+   "body_ok": true,
+   "after_edit": {
+    "hidden": true,
+    "href": null
+   }
+  }
+ },
+ {
+  "id": "a11y: working submit buttons are not described by the hidden needs-JavaScript notices",
+  "status": "PASS",
+  "detail": {
+   "prepare": "Creates a draft to copy or send from your email app. This page sends nothing.",
+   "quote": "Drafts a concept discussion request to open in your email app. This page sends nothing."
+  }
+ },
+ {
+  "id": "audit-C1 no requests from the drafting journey",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "audit-I5 nav marks the current section",
+  "status": "PASS",
+  "detail": [
+   "Partners"
+  ]
+ },
+ {
+  "id": "audit-C5 four text inputs, reset separated from primary action",
+  "status": "PASS",
+  "detail": {
+   "inputs": 4,
+   "gap": 114
+  }
+ },
+ {
+  "id": "audit-I2 menu has scrim, closes on outside tap and on tabbing out",
+  "status": "PASS",
+  "detail": {
+   "scrim": "rgba(18, 23, 29, 0.64)",
+   "outside": "false",
+   "tabout": "false"
+  }
+ },
+ {
+  "id": "quote-initial-enabled-notice-hidden @1440",
+  "status": "PASS",
+  "detail": {
+   "disabled": false,
+   "notice": true
+  }
+ },
+ {
+  "id": "quote-empty-two-linked-errors-focus-first @1440",
+  "status": "PASS",
+  "detail": [
+   "Choose a package.",
+   "Enter a positive whole number of rooms."
+  ]
+ },
+ {
+  "id": "quote-whole-card-selects @1440",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "quote-arrow-keys-move-selection @1440",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "quote-selected-card-shows-focus-ring @1440",
+  "status": "PASS",
+  "detail": "solid"
+ },
+ {
+  "id": "quote-invalid-rooms-only @1440",
+  "status": "PASS",
+  "detail": [
+   [
+    "Enter a positive whole number of rooms."
+   ],
+   "true",
+   "q-rooms-hint q-rooms-error"
+  ]
+ },
+ {
+  "id": "quote-sampling-toggle-label-state-status @1440",
+  "status": "PASS",
+  "detail": {
+   "p": "true",
+   "t": "Remove sampling from brief",
+   "s": "Sampling selected."
+  }
+ },
+ {
+  "id": "quote-drafted-not-sent-email-handoff @1440",
+  "status": "PASS",
+  "detail": {
+   "out": "Concept discussion for GEM\nConcept package: Travel set\nEstimated rooms: 120\nArrival stationery interest: Yes\nSampling interest: Yes\nAvailability and specifications are pending.",
+   "href": "mailto:mish3labdul@gmail.com?subject=Concept%20discussion%20for%20GEM%3A%20Trave",
+   "requests": []
+  }
+ },
+ {
+  "id": "quote-copy @1440",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "quote-stale-request-withdrawn-every-control @1440",
+  "status": "PASS",
+  "detail": {
+   "package": {
+    "ready": true,
+    "after": false,
+    "href": null,
+    "status": "Your choices changed. Draft the discussion request again to update it."
+   },
+   "rooms": {
+    "ready": true,
+    "after": false,
+    "href": null,
+    "status": "Your choices changed. Draft the discussion request again to update it."
+   },
+   "stationery": {
+    "ready": true,
+    "after": false,
+    "href": null,
+    "status": "Your choices changed. Draft the discussion request again to update it."
+   },
+   "sampling": {
+    "ready": true,
+    "after": false,
+    "href": null,
+    "status": "Your choices changed. Draft the discussion request again to update it."
+   }
+  }
+ },
+ {
+  "id": "quote-no-data-requests @1440",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "quote-initial-enabled-notice-hidden @375",
+  "status": "PASS",
+  "detail": {
+   "disabled": false,
+   "notice": true
+  }
+ },
+ {
+  "id": "quote-empty-two-linked-errors-focus-first @375",
+  "status": "PASS",
+  "detail": [
+   "Choose a package.",
+   "Enter a positive whole number of rooms."
+  ]
+ },
+ {
+  "id": "quote-whole-card-selects @375",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "quote-arrow-keys-move-selection @375",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "quote-selected-card-shows-focus-ring @375",
+  "status": "PASS",
+  "detail": "solid"
+ },
+ {
+  "id": "quote-invalid-rooms-only @375",
+  "status": "PASS",
+  "detail": [
+   [
+    "Enter a positive whole number of rooms."
+   ],
+   "true",
+   "q-rooms-hint q-rooms-error"
+  ]
+ },
+ {
+  "id": "quote-sampling-toggle-label-state-status @375",
+  "status": "PASS",
+  "detail": {
+   "p": "true",
+   "t": "Remove sampling from brief",
+   "s": "Sampling selected."
+  }
+ },
+ {
+  "id": "quote-drafted-not-sent-email-handoff @375",
+  "status": "PASS",
+  "detail": {
+   "out": "Concept discussion for GEM\nConcept package: Travel set\nEstimated rooms: 120\nArrival stationery interest: Yes\nSampling interest: Yes\nAvailability and specifications are pending.",
+   "href": "mailto:mish3labdul@gmail.com?subject=Concept%20discussion%20for%20GEM%3A%20Trave",
+   "requests": []
+  }
+ },
+ {
+  "id": "quote-copy @375",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "quote-stale-request-withdrawn-every-control @375",
+  "status": "PASS",
+  "detail": {
+   "package": {
+    "ready": true,
+    "after": false,
+    "href": null,
+    "status": "Your choices changed. Draft the discussion request again to update it."
+   },
+   "rooms": {
+    "ready": true,
+    "after": false,
+    "href": null,
+    "status": "Your choices changed. Draft the discussion request again to update it."
+   },
+   "stationery": {
+    "ready": true,
+    "after": false,
+    "href": null,
+    "status": "Your choices changed. Draft the discussion request again to update it."
+   },
+   "sampling": {
+    "ready": true,
+    "after": false,
+    "href": null,
+    "status": "Your choices changed. Draft the discussion request again to update it."
+   }
+  }
+ },
+ {
+  "id": "quote-no-data-requests @375",
+  "status": "PASS",
+  "detail": null
+ },
+ {
+  "id": "mark-identical-in-every-frame standard-motion",
+  "status": "PASS",
+  "detail": [
+   [
+    50,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    400,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    900,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    1600,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ]
+  ]
+ },
+ {
+  "id": "no-autoplay-animations standard-motion",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "mark-identical-in-every-frame reduced-motion",
+  "status": "PASS",
+  "detail": [
+   [
+    50,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    400,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    900,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    1600,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ]
+  ]
+ },
+ {
+  "id": "no-autoplay-animations reduced-motion",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "mark-identical-in-every-frame forced-colors-light",
+  "status": "PASS",
+  "detail": [
+   [
+    50,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    400,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    900,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    1600,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ]
+  ]
+ },
+ {
+  "id": "no-autoplay-animations forced-colors-light",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "beige-artwork-keeps-ink-field forced-colors-light",
+  "status": "PASS",
+  "detail": "rgb(18, 23, 29)"
+ },
+ {
+  "id": "mark-identical-in-every-frame forced-colors-dark",
+  "status": "PASS",
+  "detail": [
+   [
+    50,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    400,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    900,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ],
+   [
+    1600,
+    "63f734427dfd13155c01d0acd6133f7501be441aa41e3f780fa6780d00ef1f2b"
+   ]
+  ]
+ },
+ {
+  "id": "no-autoplay-animations forced-colors-dark",
+  "status": "PASS",
+  "detail": []
+ },
+ {
+  "id": "beige-artwork-keeps-ink-field forced-colors-dark",
+  "status": "PASS",
+  "detail": "rgb(18, 23, 29)"
+ },
+ {
+  "id": "text200-stress-no-loss 1440",
+  "status": "PASS",
+  "detail": {
+   "scroll": [
+    1440,
+    1440
+   ],
+   "outside": [],
+   "clipped": []
+  }
+ },
+ {
+  "id": "text200-stress-no-loss 768",
+  "status": "PASS",
+  "detail": {
+   "scroll": [
+    768,
+    768
+   ],
+   "outside": [],
+   "clipped": []
+  }
+ },
+ {
+  "id": "text200-stress-no-loss 375",
+  "status": "PASS",
+  "detail": {
+   "scroll": [
+    375,
+    375
+   ],
+   "outside": [],
+   "clipped": []
+  }
+ },
+ {
+  "id": "text200-stress-no-loss 320",
+  "status": "PASS",
+  "detail": {
+   "scroll": [
+    320,
+    320
+   ],
+   "outside": [],
+   "clipped": []
+  }
+ },
+ {
+  "id": "zoom200-of-1280 reflow index.html",
+  "status": "PASS",
+  "detail": [
+   640,
+   []
+  ]
+ },
+ {
+  "id": "zoom200-of-1280 reflow reference.html",
+  "status": "PASS",
+  "detail": [
+   640,
+   []
+  ]
+ },
+ {
+  "id": "zoom200-of-1280 reflow privacy.html",
+  "status": "PASS",
+  "detail": [
+   640,
+   []
+  ]
+ },
+ {
+  "id": "zoom400-of-1280 reflow index.html",
+  "status": "PASS",
+  "detail": [
+   320,
+   []
+  ]
+ },
+ {
+  "id": "zoom400-of-1280 reflow reference.html",
+  "status": "PASS",
+  "detail": [
+   320,
+   []
+  ]
+ },
+ {
+  "id": "zoom400-of-1280 reflow privacy.html",
+  "status": "PASS",
+  "detail": [
+   320,
+   []
+  ]
+ },
+ {
+  "id": "public-root-excludes .DS_Store",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes assets/.DS_Store",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes records/",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes source-images/",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes qa/run_qa.py",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes verify_func.py",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes verify_shots.py",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes .git/config",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes audit-2026-10-10-independent-01/",
+  "status": "PASS",
+  "detail": 404
+ },
+ {
+  "id": "public-root-excludes README.md",
+  "status": "PASS",
+  "detail": 404
+ }
+]

@@ -1,0 +1,27 @@
+{
+  "source_sha256": "3f77c2bddbeca3d66c63723f14ed9bf1d5a3bb0fac1f84adb2ed40d2ac2c544b",
+  "candidate_sha256": "4cb444d62474ae1e8a29dd91842a59980a005edba5569c8518e32d3c5937509e",
+  "changed_part": "ppt/slides/slide27.xml",
+  "changes": [
+    {
+      "old": "9",
+      "new": "23",
+      "name": "Text 5"
+    },
+    {
+      "old": "9",
+      "new": "24",
+      "name": "Text 5"
+    }
+  ],
+  "native_visual_retest": "PASS targeted slide 27 native visual inspection; presentation-wide acceptance pending",
+  "scope": "Only two duplicate cNvPr IDs changed; text, styling, geometry and artwork unchanged.",
+  "native_retest": "PASS bounded corrected-slide visual inspection in Microsoft PowerPoint; not presentation-wide acceptance",
+  "native_evidence": [
+    {
+      "file": "part-a-r15-slide27.png",
+      "sha256": "dae1e4b7f07624a9a02f4ac9542179a191bc8ce30f697cae3341e7736261b6f5"
+    }
+  ],
+  "status": "PASS_TARGETED_NATIVE_RETEST"
+}

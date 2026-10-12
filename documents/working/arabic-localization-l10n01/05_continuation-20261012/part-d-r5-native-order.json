@@ -1,0 +1,7 @@
+{
+  "status": "PASS_NATIVE_SEQUENCE_MATCH_24_SLIDES",
+  "slides_verified": 24,
+  "candidate_sha256": "cc0bf8ba0515f78814dacbd130bebdb47472c088e7061c21e820054a5dbbd29a",
+  "manual_review_prompts": 23,
+  "limits": "Native object sequence verification only; no assistive-technology approval."
+}
