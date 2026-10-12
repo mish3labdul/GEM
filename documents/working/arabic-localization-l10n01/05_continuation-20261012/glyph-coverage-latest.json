@@ -1,0 +1,64 @@
+{
+  "fonts": {
+    "Inter": {
+      "sha256": "8bac02d5d1dc9b05c818621d473abb9fb3017766fa127c1bf31563708ed7f387",
+      "available": true
+    },
+    "Jost": {
+      "sha256": "db44231dc34cf8a2a2fa2f7b96aa856a374232d7f395053cbf86e10ae73ac3e5",
+      "available": true
+    },
+    "Noto Sans Arabic": {
+      "sha256": "35965bc142de2f51e041ff09f493c5099501761aa07ae75a3a85447c404d7613",
+      "available": true
+    }
+  },
+  "files": [
+    {
+      "file": "GEM_BRAND_AmenitiesPackagingConcept_PartD_AR_L10N02_R5_20261012.pptx",
+      "sha256": "cc0bf8ba0515f78814dacbd130bebdb47472c088e7061c21e820054a5dbbd29a",
+      "uses": {
+        "Noto Sans Arabic": 8452,
+        "Inter": 637,
+        "Jost": 137
+      },
+      "missing": [],
+      "status": "PASS ENCODED COVERAGE ONLY"
+    },
+    {
+      "file": "GEM_BRAND_BrandGuidelines_PartA_AR_L10N02_R15_20261012.pptx",
+      "sha256": "4cb444d62474ae1e8a29dd91842a59980a005edba5569c8518e32d3c5937509e",
+      "uses": {
+        "Noto Sans Arabic": 22657,
+        "Inter": 9322,
+        "Jost": 708
+      },
+      "missing": [],
+      "status": "PASS ENCODED COVERAGE ONLY"
+    },
+    {
+      "file": "GEM_BRAND_DigitalDesignSystem_PartB_AR_L10N02_R16_20261012.pptx",
+      "sha256": "f07b4460e4325739ad7a38be36744c6148a6480a63d5b6acf56e635254b08d18",
+      "uses": {
+        "Inter": 14463,
+        "Noto Sans Arabic": 22822,
+        "Jost": 114
+      },
+      "missing": [],
+      "status": "PASS ENCODED COVERAGE ONLY"
+    },
+    {
+      "file": "GEM_BRAND_ProductionStandards_PartC_AR_L10N02_R13_20261012.pptx",
+      "sha256": "fb212b063ca533ec558b131aad4f6ac36aeec6d3127b258ab4b5f7cf28067d97",
+      "uses": {
+        "Noto Sans Arabic": 27996,
+        "Inter": 11585,
+        "Jost": 124
+      },
+      "missing": [],
+      "status": "PASS ENCODED COVERAGE ONLY"
+    }
+  ],
+  "status": "PASS ENCODED COVERAGE ONLY",
+  "native_platform_fallback_verified": false
+}

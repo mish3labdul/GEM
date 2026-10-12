@@ -1,0 +1,134 @@
+{
+  "source_sha256": "8172951bcb1ab0834d3113a02a6cc8eb82f7da7a9b6091b0f7db712ec10866d3",
+  "candidate_sha256": "fb212b063ca533ec558b131aad4f6ac36aeec6d3127b258ab4b5f7cf28067d97",
+  "status": "PASS_TARGETED_NATIVE_RETEST",
+  "text_fonts_and_media_unchanged": true,
+  "changes": [
+    {
+      "slide": 4,
+      "shape": 5,
+      "old_y": "4983480",
+      "new_y": "5486400",
+      "reason": "Native table expands for wrapped Arabic; move explanatory note below its actual bottom."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 4,
+      "text_shape": 5,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 6,
+      "text_shape": 7,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 8,
+      "text_shape": 9,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 10,
+      "text_shape": 11,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 12,
+      "text_shape": 13,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 14,
+      "text_shape": 15,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 16,
+      "text_shape": 17,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 18,
+      "text_shape": 19,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 20,
+      "text_shape": 21,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 22,
+      "text_shape": 23,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 24,
+      "text_shape": 25,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 26,
+      "text_shape": 27,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 28,
+      "text_shape": 29,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 30,
+      "text_shape": 31,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 32,
+      "text_shape": 33,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 34,
+      "text_shape": 35,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 36,
+      "text_shape": 37,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    },
+    {
+      "slide": 19,
+      "checkbox_shape": 38,
+      "text_shape": 39,
+      "reason": "Place the checkbox at the RTL leading edge and keep the text within its column."
+    }
+  ],
+  "native_retest": "PASS bounded corrected-slide visual inspection in Microsoft PowerPoint; not presentation-wide acceptance",
+  "native_evidence": [
+    {
+      "file": "part-c-r13-slide04.png",
+      "sha256": "46e3ae591309f34608acf147da52268d96e0452bc7e968beb34c048df56cdf3d"
+    },
+    {
+      "file": "part-c-r13-slide19.png",
+      "sha256": "7a69772c9845b4b31f7239899ad2471c42dcd04e2afb90a33c614768a4badff2"
+    }
+  ]
+}

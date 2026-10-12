@@ -3,15 +3,14 @@
   "restriction": "CONTROL/QA ONLY. No restricted editable documents, PDFs, full document translation ledger, font binaries or native slide renders are published.",
   "files": [
     {
-      "file": "GEM_BRAND_BrandGuidelines_PartA_AR_L10N02_R14_20261012.pptx",
-      "sha256": "3f77c2bddbeca3d66c63723f14ed9bf1d5a3bb0fac1f84adb2ed40d2ac2c544b",
+      "file": "GEM_BRAND_BrandGuidelines_PartA_AR_L10N02_R15_20261012.pptx",
+      "sha256": "4cb444d62474ae1e8a29dd91842a59980a005edba5569c8518e32d3c5937509e",
       "slides": 80,
       "paragraphs": 929,
       "translated_or_deliberately_retained": 929,
       "status": "PRIVATE WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT PASSED",
       "structural_check": "PASS import/package/layout/font policy",
       "encoded_glyph_coverage": "PASS encoded script-font cmap; native all-font substitution acceptance remains pending",
-      "native_pngs": 80,
       "native_layout_warnings_basis": "Retained conservative geometry warnings from earlier iteration; not native failure or acceptance. Targeted native retests recorded separately.",
       "structural_layout_warnings_prior": [
         {
@@ -176,7 +175,11 @@
           "object_kind": "sp",
           "slide": 80
         }
-      ]
+      ],
+      "native_edit_save_reopen": "PASS one Arabic text object per deck on private QA copies; A14/B16/C12 basis, same text bodies in A15/C13",
+      "prior_native_pngs": 80,
+      "current_full_deck_native_pngs": 0,
+      "native_evidence_basis": "Earlier full native PNG set plus exact unchanged-slide comparison and current corrected-slide native captures"
     },
     {
       "file": "GEM_BRAND_DigitalDesignSystem_PartB_AR_L10N02_R16_20261012.pptx",
@@ -216,18 +219,18 @@
           "slide": 10,
           "table_id": "5"
         }
-      ]
+      ],
+      "native_edit_save_reopen": "PASS one Arabic text object per deck on private QA copies; A14/B16/C12 basis, same text bodies in A15/C13"
     },
     {
-      "file": "GEM_BRAND_ProductionStandards_PartC_AR_L10N02_R12_20261012.pptx",
-      "sha256": "8172951bcb1ab0834d3113a02a6cc8eb82f7da7a9b6091b0f7db712ec10866d3",
+      "file": "GEM_BRAND_ProductionStandards_PartC_AR_L10N02_R13_20261012.pptx",
+      "sha256": "fb212b063ca533ec558b131aad4f6ac36aeec6d3127b258ab4b5f7cf28067d97",
       "slides": 78,
       "paragraphs": 1484,
       "translated_or_deliberately_retained": 1484,
       "status": "PRIVATE WORKING LOCALIZATION / NATIVE ACCEPTANCE NOT PASSED",
       "structural_check": "PASS import/package/layout/font policy",
       "encoded_glyph_coverage": "PASS encoded script-font cmap; native all-font substitution acceptance remains pending",
-      "native_pngs": 78,
       "native_layout_warnings_basis": "Retained conservative geometry warnings from earlier iteration; not native failure or acceptance. Targeted native retests recorded separately.",
       "structural_layout_warnings_prior": [
         {
@@ -264,7 +267,11 @@
           "object_kind": "sp",
           "slide": 14
         }
-      ]
+      ],
+      "native_edit_save_reopen": "PASS one Arabic text object per deck on private QA copies; A14/B16/C12 basis, same text bodies in A15/C13",
+      "prior_native_pngs": 78,
+      "current_full_deck_native_pngs": 0,
+      "native_evidence_basis": "Earlier full native PNG set plus exact unchanged-slide comparison and current corrected-slide native captures"
     },
     {
       "file": "GEM_BRAND_Letterhead_ArabicContinuationInternal_AR_L10N02_R3_20261012.docx",
@@ -333,16 +340,26 @@
       "auxiliary_font_resources": "PASS actual temporary rasterization PDF uses only Jost/Inter/Noto Sans Arabic Regular; no PDF persisted"
     }
   ],
-  "part_d": "Exact recovered R4, SHA256 2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e; no replacement creation. Native reading-order pane evidence captured all 24 slides. Existing 23 reading-order review items remain open.",
-  "native_scope": "Current A R14, B R16 and C R12 rendered in native PowerPoint (193 private PNGs). Uniform-style Arabic runs were coalesced; script boundaries, Western-number units and GEM trademark order were repaired. A24, A31, B5, B10, C7 and C62 have bounded full-size native retests; all-slide final visual/font/reading-order acceptance remains open. Six Word variants passed native edit/save/reopen, complete one-page visual review and native checker (zero issues each). Word saves rename header parts and regenerate PNG fallback previews; source SVG bytes and body/header/footer semantic text are preserved in QA copies. Canonical sources remain unchanged.",
+  "part_d": {
+    "recovered_r4_sha256": "2950f426b793e91206a8e31d8c09162974ce7c88fa21c7a58eca8f0bd37ea46e",
+    "file": "GEM_BRAND_AmenitiesPackagingConcept_PartD_AR_L10N02_R5_20261012.pptx",
+    "sha256": "cc0bf8ba0515f78814dacbd130bebdb47472c088e7061c21e820054a5dbbd29a",
+    "status": "PRIVATE WORKING LOCALIZATION / NATIVE AND LINGUISTIC ACCEPTANCE PENDING",
+    "structural_check": "PASS",
+    "native_sequence_match_slides": 24,
+    "native_manual_reading_order_prompts": 23,
+    "native_edit_save_reopen": "PASS one visible Arabic heading, QA copy only",
+    "all_non_slide_parts_and_individual_shapes_preserved": true,
+    "linguistic_programme_alignment": "PENDING"
+  },
+  "native_scope": "Current private candidates: A R15, B R16, C R13 and D R5. A15 repairs duplicate shape IDs on slide 27 without content or geometry changes; native slide 27 retest passed. C13 repairs slide 4 table/note overlap and slide 19 RTL checkbox positioning; both native visual retests passed. Earlier A14/B16/C12 have 193 native PNGs; unchanged slide parts remain byte-identical in A15/C13. New full-deck PNG export was unavailable because PowerPoint disabled its Export button; current changed slides were captured directly. D5 repairs shape reading sequence on ten slides, preserving individual shapes, text, media and geometry. All 24 D5 native Reading Order pane sequences match the candidate; PowerPoint still reports 23 manual review prompts. One Arabic text object per presentation passed native edit/save/close/reopen/restoration on QA copies (A14/B16/C12/D5). Six Word R3 variants passed native editing and complete one-page visual review. This is bounded evidence; complete presentation visual/font/assistive-technology acceptance remains open.",
   "open_gates": [
-    "Linguistic review of every new proposal",
-    "Complete full-size final-slide review and mixed-direction/technical-identifier punctuation acceptance across A/B/C",
-    "Verify all assigned presentation fonts in native Office without unintended substitution",
-    "Native presentation body editing/save/reopen; Part B notes-only persistence test is bounded evidence",
-    "Reading-order and assistive-technology acceptance including Part D 23 existing review items",
-    "New matching PDFs only after editable acceptance; then independent copy/search/text fidelity checks",
-    "Part D programme terminology alignment in a separately validated revision; recovered R4 remains unchanged"
+    "Linguistic review of all new proposals; focused review sheet is triage only",
+    "Complete full-size slide review and mixed-direction/technical-identifier punctuation acceptance across A/B/C",
+    "Verify all presentation fonts in native Office without unintended substitution; encoded glyph coverage alone is insufficient",
+    "Complete presentation reading-order and assistive-technology acceptance, including Part D 23 manual review prompts",
+    "New matching PDFs only after editable acceptance, followed by independent copy/search/text-fidelity checks",
+    "Part D programme terminology alignment in a separately validated working revision; no approved Arabic programme names invented"
   ],
   "new_matching_pdfs": "WITHHELD: native acceptance not passed",
   "release": "V3.0 and B01/B02/D8 remain unchanged; no production, Arabic linguistic, font-master or external-issue approval."
