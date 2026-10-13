@@ -25,3 +25,11 @@ screen-reader acceptance, native browser zoom, actual email-client compatibility
 clearance, supplier/production proof or WCAG certification.
 
 Latest authorized correction evidence: `../records/remediation-2026-10-11-01/START_HERE.md`.
+
+## v0.5.4 asset-refinement layout checks
+
+`python3 website/qa/run_refinement_qa.py --root website/site --out-base <new-evidence-directory>` checks hero/package geometry, concept qualifications, compact CTA reach, colour contrast and local-only clean traffic. Run alongside the unchanged regression and correction suites; a pass is Chromium/loopback evidence only.
+
+## v0.5.4 asset-refinement layout checks
+
+`python3 website/qa/run_refinement_qa.py --root website/site --out-base <new-evidence-directory>` checks hero/package geometry, concept qualifications, compact CTA reach, colour contrast and local-only clean traffic. Run alongside the unchanged regression and correction suites; a pass is Chromium/loopback evidence only.

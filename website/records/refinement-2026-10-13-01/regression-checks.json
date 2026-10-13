@@ -1,0 +1,1938 @@
+[
+  {
+    "id": "http-200 index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images index.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "head-integrity index.html: title, standard viewport, no inline styles",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves index.html -> index.html",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves index.html -> privacy.html",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves index.html -> reference.html",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves index.html -> reference.html#labels",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves index.html -> reference.html#production",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-edge-taps index.html",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images index.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images index.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images index.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images index.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images reference.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "head-integrity reference.html: title, standard viewport, no inline styles",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> index.html",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> index.html#amenities",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> index.html#approach",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> index.html#clients",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> index.html#enquire",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> index.html#packages",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> index.html#partners",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> privacy.html",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves reference.html -> reference.html",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-edge-taps reference.html",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images reference.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images reference.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images reference.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images reference.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images privacy.html@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "head-integrity privacy.html: title, standard viewport, no inline styles",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> index.html",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> index.html#amenities",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> index.html#approach",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> index.html#clients",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> index.html#enquire",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> index.html#packages",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> index.html#partners",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> privacy.html",
+    "status": "PASS"
+  },
+  {
+    "id": "link-resolves privacy.html -> reference.html",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-edge-taps privacy.html",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images privacy.html@breakpoint-1024",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images privacy.html@tablet-768",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images privacy.html@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "http-200 privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-console-or-page-errors privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-failed-requests privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-third-party-requests privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-horizontal-scroll privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "no-text-outside-viewport privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "fonts-jost-inter-400 privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "weights-400-only privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "families-jost-inter-only privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "visible-images-load privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "images-have-alt-attr privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "one-h1 privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "landmarks privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "in-page-anchors-resolve privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-44px privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "footer-targets-no-overlap privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "axe-zero-violations privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-type-scale privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-concept-full-3x2 privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-images-captioned-with-status privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-field-max-420 privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-radio-24 privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "ds-square-labels-and-images privacy.html@narrow-320",
+    "status": "PASS"
+  },
+  {
+    "id": "primary-nav-visible-or-disclosable no-js@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "static-mark-complete no-js@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "primary-nav-keyboard-reachable no-js@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "prepare-disabled-and-notice-shown no-js@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "a11y: disabled submit explains why no-js@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-disabled-and-notice-shown no-js@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "fail-closed-no-data-request no-js@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "primary-nav-visible-or-disclosable no-js@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "static-mark-complete no-js@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "primary-nav-keyboard-reachable no-js@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "prepare-disabled-and-notice-shown no-js@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "a11y: disabled submit explains why no-js@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-disabled-and-notice-shown no-js@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "fail-closed-no-data-request no-js@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "primary-nav-visible-or-disclosable blocked-script@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "static-mark-complete blocked-script@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "prepare-disabled-and-notice-shown blocked-script@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-disabled-and-notice-shown blocked-script@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "fail-closed-no-data-request blocked-script@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "primary-nav-visible-or-disclosable blocked-script@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "static-mark-complete blocked-script@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "prepare-disabled-and-notice-shown blocked-script@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-disabled-and-notice-shown blocked-script@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "fail-closed-no-data-request blocked-script@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "primary-nav-visible-or-disclosable init-exception@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "static-mark-complete init-exception@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "prepare-disabled-and-notice-shown init-exception@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "fail-closed-no-data-request init-exception@mobile-375",
+    "status": "PASS"
+  },
+  {
+    "id": "primary-nav-visible-or-disclosable init-exception@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "static-mark-complete init-exception@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "prepare-disabled-and-notice-shown init-exception@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "fail-closed-no-data-request init-exception@desktop-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "form-initial-enabled-notice-hidden",
+    "status": "PASS"
+  },
+  {
+    "id": "form-empty-four-linked-errors",
+    "status": "PASS"
+  },
+  {
+    "id": "form-error-link-focuses-radio",
+    "status": "PASS"
+  },
+  {
+    "id": "form-invalid-email-only",
+    "status": "PASS"
+  },
+  {
+    "id": "form-valid-prepared-not-sent",
+    "status": "PASS"
+  },
+  {
+    "id": "clipboard-granted-copies-draft",
+    "status": "PASS"
+  },
+  {
+    "id": "clipboard-denied-selects-text",
+    "status": "PASS"
+  },
+  {
+    "id": "stale-draft-invalidated-every-field",
+    "status": "PASS"
+  },
+  {
+    "id": "re-prepare-uses-current-values",
+    "status": "PASS"
+  },
+  {
+    "id": "clear-resets-all-state",
+    "status": "PASS"
+  },
+  {
+    "id": "normal-journey-no-requests-after-load",
+    "status": "PASS"
+  },
+  {
+    "id": "focus-visible-ring-2px (on the control, or on the whole package card for its radio)",
+    "status": "PASS"
+  },
+  {
+    "id": "skip-link-moves-focus-to-main",
+    "status": "PASS"
+  },
+  {
+    "id": "mobile-disclosure-enter-tab-escape",
+    "status": "PASS"
+  },
+  {
+    "id": "compact-first-screen-shows-primary-action-375x812",
+    "status": "PASS"
+  },
+  {
+    "id": "compact-first-screen-shows-primary-action-320x640",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-C2 enquiry reachable from hero, offer and partner sections",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-C2 header sticky, tucks reading down, returns on scroll up",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-C2 focus not obscured by sticky header (45 tab stops)",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-C2 partner CTA selects topic and withdraws stale draft",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-C1 email hand-off: hidden until drafted, addressed to the owner address, body equals the draft, withdrawn on edit (link not followed)",
+    "status": "PASS"
+  },
+  {
+    "id": "a11y: working submit buttons are not described by the hidden needs-JavaScript notices",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-C1 no requests from the drafting journey",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-I5 nav marks the current section",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-C5 four text inputs, reset separated from primary action",
+    "status": "PASS"
+  },
+  {
+    "id": "audit-I2 menu has scrim, closes on outside tap and on tabbing out",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-initial-enabled-notice-hidden @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-empty-two-linked-errors-focus-first @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-whole-card-selects @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-arrow-keys-move-selection @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-selected-card-shows-focus-ring @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-invalid-rooms-only @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-sampling-toggle-label-state-status @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-drafted-not-sent-email-handoff @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-copy @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-stale-request-withdrawn-every-control @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-no-data-requests @1440",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-initial-enabled-notice-hidden @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-empty-two-linked-errors-focus-first @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-whole-card-selects @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-arrow-keys-move-selection @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-selected-card-shows-focus-ring @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-invalid-rooms-only @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-sampling-toggle-label-state-status @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-drafted-not-sent-email-handoff @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-copy @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-stale-request-withdrawn-every-control @375",
+    "status": "PASS"
+  },
+  {
+    "id": "quote-no-data-requests @375",
+    "status": "PASS"
+  },
+  {
+    "id": "mark-identical-in-every-frame standard-motion",
+    "status": "PASS"
+  },
+  {
+    "id": "no-autoplay-animations standard-motion",
+    "status": "PASS"
+  },
+  {
+    "id": "mark-identical-in-every-frame reduced-motion",
+    "status": "PASS"
+  },
+  {
+    "id": "no-autoplay-animations reduced-motion",
+    "status": "PASS"
+  },
+  {
+    "id": "mark-identical-in-every-frame forced-colors-light",
+    "status": "PASS"
+  },
+  {
+    "id": "no-autoplay-animations forced-colors-light",
+    "status": "PASS"
+  },
+  {
+    "id": "beige-artwork-keeps-ink-field forced-colors-light",
+    "status": "PASS"
+  },
+  {
+    "id": "mark-identical-in-every-frame forced-colors-dark",
+    "status": "PASS"
+  },
+  {
+    "id": "no-autoplay-animations forced-colors-dark",
+    "status": "PASS"
+  },
+  {
+    "id": "beige-artwork-keeps-ink-field forced-colors-dark",
+    "status": "PASS"
+  },
+  {
+    "id": "text200-stress-no-loss 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "text200-stress-no-loss 768",
+    "status": "PASS"
+  },
+  {
+    "id": "text200-stress-no-loss 375",
+    "status": "PASS"
+  },
+  {
+    "id": "text200-stress-no-loss 320",
+    "status": "PASS"
+  },
+  {
+    "id": "zoom200-of-1280 reflow index.html",
+    "status": "PASS"
+  },
+  {
+    "id": "zoom200-of-1280 reflow reference.html",
+    "status": "PASS"
+  },
+  {
+    "id": "zoom200-of-1280 reflow privacy.html",
+    "status": "PASS"
+  },
+  {
+    "id": "zoom400-of-1280 reflow index.html",
+    "status": "PASS"
+  },
+  {
+    "id": "zoom400-of-1280 reflow reference.html",
+    "status": "PASS"
+  },
+  {
+    "id": "zoom400-of-1280 reflow privacy.html",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes .DS_Store",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes assets/.DS_Store",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes records/",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes source-images/",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes qa/run_qa.py",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes verify_func.py",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes verify_shots.py",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes .git/config",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes audit-2026-10-10-independent-01/",
+    "status": "PASS"
+  },
+  {
+    "id": "public-root-excludes README.md",
+    "status": "PASS"
+  }
+]

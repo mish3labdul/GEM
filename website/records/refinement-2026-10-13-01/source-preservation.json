@@ -1,0 +1,11 @@
+{
+  "input_files_rehashed": 360,
+  "supplied_files_changed": [],
+  "standalone_files_rehashed": 86,
+  "standalone_files_changed": [],
+  "base_commit": "9fad24f76c7eeb2d39d20142a46a0f3119719c51",
+  "source_file_comparison": {
+    "IDENTICAL": 80,
+    "DIFFERENT": 6
+  }
+}

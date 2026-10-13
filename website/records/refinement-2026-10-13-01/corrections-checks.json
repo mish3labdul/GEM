@@ -1,0 +1,326 @@
+[
+  {
+    "id": "brand faces and current glyphs index-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow index-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime index-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs index-768",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow index-768",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime index-768",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs index-375",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow index-375",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime index-375",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs index-320",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow index-320",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime index-320",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs reference-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow reference-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime reference-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "semantic emphasis uses real regular face reference-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs reference-768",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow reference-768",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime reference-768",
+    "status": "PASS"
+  },
+  {
+    "id": "semantic emphasis uses real regular face reference-768",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs reference-375",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow reference-375",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime reference-375",
+    "status": "PASS"
+  },
+  {
+    "id": "semantic emphasis uses real regular face reference-375",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs reference-320",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow reference-320",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime reference-320",
+    "status": "PASS"
+  },
+  {
+    "id": "semantic emphasis uses real regular face reference-320",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs privacy-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow privacy-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime privacy-1440",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs privacy-768",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow privacy-768",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime privacy-768",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs privacy-375",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow privacy-375",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime privacy-375",
+    "status": "PASS"
+  },
+  {
+    "id": "brand faces and current glyphs privacy-320",
+    "status": "PASS"
+  },
+  {
+    "id": "responsive reflow privacy-320",
+    "status": "PASS"
+  },
+  {
+    "id": "normal network and runtime privacy-320",
+    "status": "PASS"
+  },
+  {
+    "id": "blocked required fonts FAIL brand acceptance",
+    "status": "PASS"
+  },
+  {
+    "id": "font failure preserves readable content",
+    "status": "PASS"
+  },
+  {
+    "id": "unsupported Arabic fallback FAILS brand acceptance",
+    "status": "PASS"
+  },
+  {
+    "id": "room error explains positive integer ''",
+    "status": "PASS"
+  },
+  {
+    "id": "room summary focuses input ''",
+    "status": "PASS"
+  },
+  {
+    "id": "room error explains positive integer '0'",
+    "status": "PASS"
+  },
+  {
+    "id": "room summary focuses input '0'",
+    "status": "PASS"
+  },
+  {
+    "id": "room error explains positive integer '000'",
+    "status": "PASS"
+  },
+  {
+    "id": "room summary focuses input '000'",
+    "status": "PASS"
+  },
+  {
+    "id": "room error explains positive integer '-1'",
+    "status": "PASS"
+  },
+  {
+    "id": "room summary focuses input '-1'",
+    "status": "PASS"
+  },
+  {
+    "id": "room error explains positive integer '1.5'",
+    "status": "PASS"
+  },
+  {
+    "id": "room summary focuses input '1.5'",
+    "status": "PASS"
+  },
+  {
+    "id": "room error explains positive integer 'abc'",
+    "status": "PASS"
+  },
+  {
+    "id": "room summary focuses input 'abc'",
+    "status": "PASS"
+  },
+  {
+    "id": "room error explains positive integer '1e3'",
+    "status": "PASS"
+  },
+  {
+    "id": "room summary focuses input '1e3'",
+    "status": "PASS"
+  },
+  {
+    "id": "room boundary valid '1'",
+    "status": "PASS"
+  },
+  {
+    "id": "room boundary valid '100000'",
+    "status": "PASS"
+  },
+  {
+    "id": "room boundary valid '100001'",
+    "status": "PASS"
+  },
+  {
+    "id": "room boundary valid '9007199254740993'",
+    "status": "PASS"
+  },
+  {
+    "id": "room boundary valid '9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999'",
+    "status": "PASS"
+  },
+  {
+    "id": "room boundary valid ' 120 '",
+    "status": "PASS"
+  },
+  {
+    "id": "full copy preserved at 1 repeats",
+    "status": "PASS"
+  },
+  {
+    "id": "email copy guidance at 1 repeats",
+    "status": "PASS"
+  },
+  {
+    "id": "full copy preserved at 1000 repeats",
+    "status": "PASS"
+  },
+  {
+    "id": "email copy guidance at 1000 repeats",
+    "status": "PASS"
+  },
+  {
+    "id": "full copy preserved at 3000 repeats",
+    "status": "PASS"
+  },
+  {
+    "id": "email copy guidance at 3000 repeats",
+    "status": "PASS"
+  },
+  {
+    "id": "editing long draft withdraws handoff",
+    "status": "PASS"
+  },
+  {
+    "id": "clear removes long draft",
+    "status": "PASS"
+  },
+  {
+    "id": "drafting and copying make no submission",
+    "status": "PASS"
+  },
+  {
+    "id": "privacy covers both drafts and external app",
+    "status": "PASS"
+  },
+  {
+    "id": "Finder metadata not served .DS_Store",
+    "status": "PASS"
+  },
+  {
+    "id": "Finder metadata not served assets/.DS_Store",
+    "status": "PASS"
+  },
+  {
+    "id": "safe truthful unavailable notice disabled quote",
+    "status": "PASS"
+  },
+  {
+    "id": "safe truthful unavailable notice disabled enquiry",
+    "status": "PASS"
+  },
+  {
+    "id": "safe truthful unavailable notice blocked quote",
+    "status": "PASS"
+  },
+  {
+    "id": "safe truthful unavailable notice blocked enquiry",
+    "status": "PASS"
+  },
+  {
+    "id": "safe truthful unavailable notice enquiry-init-failure enquiry",
+    "status": "PASS"
+  },
+  {
+    "id": "safe truthful unavailable notice quote-init-failure quote",
+    "status": "PASS"
+  }
+]

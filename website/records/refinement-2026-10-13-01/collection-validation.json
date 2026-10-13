@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "counts": {
+    "source_records": 6427,
+    "deliverable_files": 3147,
+    "catalogued_assets": 170,
+    "release_attachments": 14,
+    "public_pages": 3,
+    "checksummed_files": 3146
+  },
+  "remote_checked": true,
+  "checksums_checked": true,
+  "failures": [],
+  "scope": "Collection identity and migration; Chromium QA is reported separately. No new approval or deferred gate closure."
+}

@@ -11,6 +11,7 @@
 | `released/v3.0/letterheads/` | Eight templates; Arabic/bilingual external issue remains restricted pending D8 |
 | `released/v3.0/tokens/` | Exact released CSS/JSON token documentation |
 | `working/arabic-localization-l10n01/` | Newer branch evidence; WORKING LOCALIZATION / NOT PROMOTED |
+| [`working/product-line-style-brief/`](working/product-line-style-brief/README.md) | Owner-supplied product-line visual style reference; concept/mockup direction |
 
 `restricted-internal/` is a classification folder, not an access-control mechanism. The repository is public. Existing owner-authorized public distribution does not establish D8 acceptance.
 
