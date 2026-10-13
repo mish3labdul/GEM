@@ -1,0 +1,155 @@
+{
+  "scope": "Desktop visible enabled text controls; skip-link excluded; sticky positioning disabled only to stabilize hover collection; colours unchanged.",
+  "controls": [
+    {
+      "text": "Approach",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Amenities & Packaging",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Packages",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Who it serves",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Partners",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Draft an enquiry",
+      "foreground": "rgb(18, 23, 29)",
+      "background": "rgb(188, 172, 167)",
+      "ratio": 8.230809543541978
+    },
+    {
+      "text": "Draft an enquiry",
+      "foreground": "rgb(18, 23, 29)",
+      "background": "rgb(188, 172, 167)",
+      "ratio": 8.230809543541978
+    },
+    {
+      "text": "See the pilot range",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "See the label order in the brand reference",
+      "foreground": "rgb(18, 23, 29)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Add sampling to brief",
+      "foreground": "rgb(18, 23, 29)",
+      "background": "rgb(188, 172, 167)",
+      "ratio": 8.230809543541978
+    },
+    {
+      "text": "Discuss this concept",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(2, 2, 2)",
+      "ratio": 20.74809572362502
+    },
+    {
+      "text": "Tell us about your project",
+      "foreground": "rgb(18, 23, 29)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "See all fourteen production steps",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Start a partner conversation",
+      "foreground": "rgb(18, 23, 29)",
+      "background": "rgb(188, 172, 167)",
+      "ratio": 8.230809543541978
+    },
+    {
+      "text": "Read the privacy notice",
+      "foreground": "rgb(18, 23, 29)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Draft enquiry",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(2, 2, 2)",
+      "ratio": 20.74809572362502
+    },
+    {
+      "text": "Start again",
+      "foreground": "rgb(18, 23, 29)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Approach",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Amenities & Packaging",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Packages",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Who it serves",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Partners",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Draft an enquiry",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Brand and design reference",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    },
+    {
+      "text": "Privacy and legal notice",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(18, 23, 29)",
+      "ratio": 18.009985826393038
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "id": "local fonts at 1440",
+      "pass": true
+    },
+    {
+      "id": "local reflow at 1440",
+      "pass": true
+    },
+    {
+      "id": "all 11 mockup reviews at 1440",
+      "pass": true
+    },
+    {
+      "id": "inventory filter at 1440",
+      "pass": true
+    },
+    {
+      "id": "local image references at 1440",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "id": "local clean runtime at 1440",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "local fonts at 375",
+      "pass": true
+    },
+    {
+      "id": "local reflow at 375",
+      "pass": true
+    },
+    {
+      "id": "all 11 mockup reviews at 375",
+      "pass": true
+    },
+    {
+      "id": "inventory filter at 375",
+      "pass": true
+    },
+    {
+      "id": "local image references at 375",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "id": "local clean runtime at 375",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "public fonts at 1440",
+      "pass": true
+    },
+    {
+      "id": "public reflow at 1440",
+      "pass": true
+    },
+    {
+      "id": "public image references at 1440",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "id": "public clean runtime at 1440",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "id": "public fonts at 375",
+      "pass": true
+    },
+    {
+      "id": "public reflow at 375",
+      "pass": true
+    },
+    {
+      "id": "public image references at 375",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "id": "public clean runtime at 375",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "total": 20,
+  "passed": 20,
+  "failed": 0
+}

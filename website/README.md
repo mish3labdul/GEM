@@ -1,6 +1,6 @@
-# GEM website — proposed working preview v0.5.3
+# GEM website — proposed working preview v0.5.4
 
-The preserved v0.5.1 baseline matches all 80 entries of `GEM_Website_Preview_2026-10-11.zip`. The ZIP SHA-256 is recorded in [source-freeze.json](../governance/source-freeze.json). The v0.5.2 revision applies [WD-18/WD-19](records/24_Owner_Concept_Discussion_and_Contact.md); current v0.5.3 applies [WD-20/WD-21](records/26_Colourway_and_Estimate_Decisions_v0.5.3.md). [site-revisions.json](records/site-revisions.json) records exact changed-file lineage. Local Finder metadata is excluded. The existing post-v0.5.1 correction evidence is preserved in [records/remediation-2026-10-11-01](records/remediation-2026-10-11-01/START_HERE.md). This remains a proposed website, not a release or deployment.
+The preserved v0.5.1 baseline matches all 80 entries of `GEM_Website_Preview_2026-10-11.zip`. The ZIP SHA-256 is recorded in [source-freeze.json](../governance/source-freeze.json). The v0.5.2 revision applies [WD-18/WD-19](records/24_Owner_Concept_Discussion_and_Contact.md); v0.5.3 applies [WD-20/WD-21](records/26_Colourway_and_Estimate_Decisions_v0.5.3.md). [site-revisions.json](records/site-revisions.json) records exact changed-file lineage. Local Finder metadata is excluded. The existing post-v0.5.1 correction evidence is preserved in [records/remediation-2026-10-11-01](records/remediation-2026-10-11-01/START_HERE.md). This remains a proposed website, not a release or deployment.
 
 | Folder | Purpose |
 |---|---|
@@ -26,3 +26,5 @@ QA requires Python, Playwright with Chromium, and Pillow for the visual comparis
 Experimental concept packages, independent audit folders, unrelated previews and prior exports are retained at their original local source locations and catalogued as outside this import; the active website does not depend on them. Its selected concept masters and provenance are included under `source-images/`.
 
 Current decision and QA handoff: [colourways and estimates](records/26_Colourway_and_Estimate_Decisions_v0.5.3.md), [v0.5.3 verification](records/27_Colourway_and_Estimate_Verification_v0.5.3.md). Historical pending-status statements are superseded only where these records explicitly say so.
+
+Current v0.5.4 refines the photographic hero and package presentation using existing tracked concept derivatives. See [asset refinement](records/refinement-2026-10-13-01/CHANGE_REGISTER.md). New supplied mockups remain local pending public-use and artwork review. No product, localization, production or publication approval is inferred.

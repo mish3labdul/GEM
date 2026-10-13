@@ -1,0 +1,202 @@
+[
+  {
+    "id": "no horizontal overflow at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "full 3:2 hero frame at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "hero image within viewport at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "hero is eager high-priority at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "concept and colour qualifications at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "hero columns do not overlap",
+    "status": "PASS"
+  },
+  {
+    "id": "hero qualification contrast at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "hero action hover contrast at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "selection does not move package cards at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "consistent 3:2 package frames at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "portrait artwork not cropped at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "local GET traffic and clean runtime at 1440",
+    "status": "PASS"
+  },
+  {
+    "id": "no horizontal overflow at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "full 3:2 hero frame at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "hero image within viewport at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "hero is eager high-priority at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "concept and colour qualifications at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "hero action precedes image on compact/tablet at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "hero qualification contrast at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "hero action hover contrast at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "selection does not move package cards at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "consistent 3:2 package frames at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "portrait artwork not cropped at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "local GET traffic and clean runtime at 768",
+    "status": "PASS"
+  },
+  {
+    "id": "no horizontal overflow at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "full 3:2 hero frame at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "hero image within viewport at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "hero is eager high-priority at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "concept and colour qualifications at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "hero action precedes image on compact/tablet at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "primary action in first viewport at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "hero qualification contrast at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "hero action hover contrast at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "selection does not move package cards at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "consistent 3:2 package frames at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "portrait artwork not cropped at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "local GET traffic and clean runtime at 375",
+    "status": "PASS"
+  },
+  {
+    "id": "no horizontal overflow at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "full 3:2 hero frame at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "hero image within viewport at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "hero is eager high-priority at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "concept and colour qualifications at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "hero action precedes image on compact/tablet at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "primary action in first viewport at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "hero qualification contrast at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "hero action hover contrast at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "selection does not move package cards at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "consistent 3:2 package frames at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "portrait artwork not cropped at 320",
+    "status": "PASS"
+  },
+  {
+    "id": "local GET traffic and clean runtime at 320",
+    "status": "PASS"
+  }
+]
