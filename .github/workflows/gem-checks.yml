@@ -1,0 +1,66 @@
+name: GEM checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gem-checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  collection:
+    name: Collection integrity
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out complete collection history
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Validate unmerged collection and index
+        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
+        run: python3 tools/validate_collection.py --skip-remote --check-index
+      - name: Validate main collection, index and live preservation
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/validate_collection.py --check-index
+
+  chromium:
+    name: Chromium QA
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out proposed website
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Provision existing QA runtime
+        id: runtime
+        run: |
+          python3 -m pip install --disable-pip-version-check playwright==1.57.0
+          python3 -m playwright install --with-deps chromium
+      - name: Run regression checks on loopback
+        run: python3 website/qa/run_qa.py --root website/site --out-base "$RUNNER_TEMP/gem-local-qa/regression"
+      - name: Run correction and font checks on loopback
+        if: ${{ !cancelled() && steps.runtime.outcome == 'success' }}
+        run: python3 website/qa/run_corrections_qa.py --root website/site --out-base "$RUNNER_TEMP/gem-local-qa/corrections"

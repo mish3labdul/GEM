@@ -14,10 +14,12 @@ From the repository root:
 
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1 --directory website/site
-python3 website/qa/run_qa.py --root website/site --out-base website/records/cleanup-qa/regression
-python3 website/qa/run_corrections_qa.py --root website/site --out-base website/records/cleanup-qa/corrections
+python3 website/qa/run_qa.py --root website/site --out-base ../gem-local-qa/regression
+python3 website/qa/run_corrections_qa.py --root website/site --out-base ../gem-local-qa/corrections
 python3 tools/package_website.py
 ```
+
+Keep new QA output outside the repository. The suites create timestamped runs and preserve earlier evidence; writing new runs under `website/records/` adds files outside the collection checksum manifest. Existing tracked historical records remain unchanged. GitHub Actions uses its temporary directory for new evidence; see [CI scope](../tools/README.md#continuous-integration).
 
 QA requires Python, Playwright with Chromium, and Pillow for the visual comparison helper. Font checks fail for missing required faces or unsupported glyphs. Existing Latin fonts do not establish Arabic support. Do not substitute fonts or claim native RTL validation from these checks.
 
