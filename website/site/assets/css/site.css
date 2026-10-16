@@ -287,6 +287,8 @@ a:hover { text-decoration-thickness: 2px; } /* Part B Link: thicker underline on
 .hero .lead { max-inline-size: var(--site-measure); }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--gem-space-4) var(--gem-space-8); margin-block-start: var(--gem-space-2); }
 .hero-mark { order: -1; }
+.hero-figure { order: 1; min-inline-size: 0; }
+.hero-figure figcaption { color: var(--gem-semantic-text-signature-accent); }
 .mark { inline-size: var(--site-mark-sm); block-size: auto; } /* ≥32px (H11); the header already carries the brand, so the first screen goes to the message (audit I4) */
 @media (max-width: 479px) {
   .hero { padding-block: var(--gem-space-4) var(--gem-space-12); }
@@ -295,14 +297,16 @@ a:hover { text-decoration-thickness: 2px; } /* Part B Link: thicker underline on
 }
 @media (min-width: 720px) {
   .hero { padding-block: var(--gem-space-12) var(--gem-space-24); }
-  .mark { inline-size: var(--site-mark-md); }
+  .mark { inline-size: var(--site-mark-sm); }
 }
 @media (min-width: 1024px) {
   .hero { padding-block: var(--gem-space-16) var(--gem-space-24); }
   .hero-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gutter); }
-  .hero-copy { grid-column: 1 / span 7; }
-  .hero-mark { order: 0; grid-column: 9 / span 4; display: flex; justify-content: flex-end; }
-  .mark { inline-size: min(100%, var(--site-mark-lg)); } /* audit H1: the message, not the mark, is the focal point */
+  .hero-grid { row-gap: var(--gem-space-6); }
+  .hero-copy { grid-column: 1 / span 5; grid-row: 2; }
+  .hero-mark { order: 0; grid-column: 1 / span 5; grid-row: 1; align-self: end; }
+  .hero .mark { inline-size: var(--site-mark-sm); }
+  .hero-figure { grid-column: 7 / span 6; grid-row: 1 / span 2; align-self: center; }
 }
 
 /* ---------- Sections ---------- */
@@ -638,7 +642,7 @@ button[disabled] { cursor: not-allowed; background: var(--gem-semantic-action-di
 }
 .package-card:has(input:focus-visible) { outline: var(--gem-semantic-focus-ring-width) solid var(--gem-semantic-focus-ring-light); outline-offset: var(--gem-semantic-focus-ring-offset); }
 .package-card:has(input:focus-visible) input:focus-visible { outline: none; }
-.package-body { display: grid; gap: var(--gem-space-3); }
+.package-body { display: grid; gap: var(--gem-space-4); min-inline-size: 0; }
 .package-choice { display: flex; align-items: center; gap: var(--gem-space-3); min-block-size: var(--gem-size-target-min); }
 .package-choice h3 { margin: 0; }
 .package-choice label { cursor: pointer; }
@@ -656,13 +660,16 @@ button[disabled] { cursor: not-allowed; background: var(--gem-semantic-action-di
 .choice input[type="checkbox"]::after { inline-size: 6px; block-size: 12px; border-radius: 0; background: transparent; border: solid transparent; border-width: 0 var(--gem-size-emphasis-border) var(--gem-size-emphasis-border) 0; transform: translateY(-2px) rotate(45deg); }
 .choice input[type="checkbox"]:checked { background: var(--gem-semantic-action-background); }
 .choice input[type="checkbox"]:checked::after { background: transparent; border-color: var(--gem-semantic-action-foreground); }
-/* Wall-mounted study is 4:5: shown whole inside the shared 3:2 frame, on the Ink field, never cropped */
-.figure--contain img { aspect-ratio: 3 / 2; object-fit: contain; background: var(--gem-semantic-surface-signature); }
+/* Keep the portrait wall-mounted study whole, on the accepted Beige field, never cropped. */
+.figure--contain img { aspect-ratio: 3 / 2; object-fit: contain; background: var(--gem-semantic-surface-selected); }
 /* Part B SpecificationTable: real table, row headers; stacks at Compact */
 .spec-table { inline-size: 100%; border-collapse: collapse; font-size: var(--gem-type-size-caption); line-height: var(--gem-type-line-height-caption); }
 .spec-table th, .spec-table td { text-align: start; vertical-align: top; padding: var(--gem-space-2) var(--gem-space-3) var(--gem-space-2) 0; border-block-start: var(--gem-size-hairline) solid var(--gem-semantic-border-decorative); }
 .package-card:has(input:checked) .spec-table th, .package-card:has(input:checked) .spec-table td { border-block-start-color: var(--gem-semantic-border-essential); }
-.spec-table th { font-weight: var(--gem-type-weight-regular); font-size: var(--gem-type-size-label-small); line-height: var(--gem-type-line-height-label-small); letter-spacing: var(--gem-type-tracking-label-small); text-transform: uppercase; white-space: nowrap; padding-block-start: calc(var(--gem-space-2) + 2px); }
+.spec-table th { font-weight: var(--gem-type-weight-regular); font-size: var(--gem-type-size-label-small); line-height: var(--gem-type-line-height-label-small); letter-spacing: var(--gem-type-tracking-label-small); text-transform: uppercase; white-space: normal; overflow-wrap: anywhere; padding-block-start: calc(var(--gem-space-2) + 2px); }
+@media (min-width: 480px) {
+  .package-card .spec-table th { inline-size: 36%; }
+}
 @media (max-width: 479px) {
   .spec-table, .spec-table tbody, .spec-table tr, .spec-table th, .spec-table td { display: block; }
   .spec-table td { border-block-start: 0; padding-block-start: 0; }

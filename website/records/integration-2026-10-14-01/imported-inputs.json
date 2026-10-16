@@ -1,0 +1,67 @@
+[
+  {
+    "revision": "ff36af59454e591d4bb356e89be8cbc64f6f1c5a",
+    "path": "website/site/index.html",
+    "sha256": "dd2e5522be3b5fb84f88742ba651cf347916caff43df1b21e8c2efb8181690b3"
+  },
+  {
+    "revision": "ff36af59454e591d4bb356e89be8cbc64f6f1c5a",
+    "path": "website/site/assets/css/site.css",
+    "sha256": "1388cff9d6d49568cc0723a43de31009d509fbefb58c62906300e5fd2356d3d0"
+  },
+  {
+    "revision": "ff36af59454e591d4bb356e89be8cbc64f6f1c5a",
+    "path": "website/qa/run_refinement_qa.py",
+    "sha256": "ea04408468cce63e9a58051fa2707999255dc9fb3e8ac24ca903592b89e722f0"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "tools/localization/build_website_ar.py",
+    "sha256": "b851a5335a702424d7370124e902ba9121daf69e9cb0999e58a03a983aab9d2d"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "tools/localization/website-ar.json",
+    "sha256": "b102b81a2fece38870595c916ae7f41c8cbc45b2053ab1e39a212bb7caf4f6a7"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "website/site/assets/js/site.js",
+    "sha256": "bebea6875fcf71fbdfaf09ea1b9cd91b3675deb9a90ef366b0220d0aaa865693"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "website/site/assets/css/arabic.css",
+    "sha256": "b72ed261b3f10ae53169fb38811fe2a91d2b55d7bc1a3f7c867f1ad9db83d5de"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "website/site/assets/fonts/OFL-NotoSansArabic.txt",
+    "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "website/site/assets/fonts/noto-sans-arabic-400.woff2",
+    "sha256": "53ef016d12b9ecc45c12566da8a800ad51f12084f207160e5871107ac5a72995"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "website/qa/font_validation.py",
+    "sha256": "065ccfdc67a684d1acf675e81906357679ab593166529b2b0ec1d475b06f05a3"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "website/qa/run_qa.py",
+    "sha256": "9d2e92b7971c91456c746fe02366088139c2622a2100da4b891fb0a2327e6cb8"
+  },
+  {
+    "revision": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
+    "path": "website/qa/run_arabic_qa.py",
+    "sha256": "81417504faa06ad9ae5707c463f3c6566c9177916e78d742f2805f03678a9937"
+  },
+  {
+    "revision": "9fad24f76c7eeb2d39d20142a46a0f3119719c51",
+    "path": "website/qa/run_corrections_qa.py",
+    "sha256": "a06f054322b1fc99a4d840b2e2e452e5c13ed2bef1233ed026226976a363deeb"
+  }
+]

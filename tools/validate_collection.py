@@ -3,14 +3,141 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
-import argparse, csv, hashlib, json, re, subprocess, unicodedata, zipfile
+import argparse, csv, hashlib, json, re, stat, subprocess, unicodedata, zipfile
 ROOT = Path(__file__).resolve().parents[1]
+FROZEN_PREVIEW_PATH = 'website/previews/GEM_Website_Preview_v0.5.1_2026-10-11.zip'
+FROZEN_PREVIEW_SHA256 = 'eb073e84933149128f66c34a3479b6a9ba7c91bbfc92e07934852a626cf95fcf'
 
 def digest(p):
     h=hashlib.sha256()
     with p.open('rb') as f:
         for c in iter(lambda:f.read(1024*1024),b''):h.update(c)
     return h.hexdigest()
+
+
+def validate_inventory_sources(root, inventory, check, hashed):
+    permitted={'excluded-cache-original-retained','out-of-active-scope-original-retained'}
+    for r in inventory:
+        if not r['destination']:
+            check(r['disposition'] in permitted,'Unexplained empty destination: '+r['source_path']);continue
+        p=root/r['destination']
+        check(p.is_file(),'Missing migration destination: '+r['destination'])
+        if p.is_file():check(hashed(p)==r['sha256'],'Changed source bytes: '+r['destination'])
+
+def validate_previews(root, public_files, original, check,
+                      frozen_path=FROZEN_PREVIEW_PATH,
+                      frozen_sha256=FROZEN_PREVIEW_SHA256):
+    """Bind historical packages to their own immutable contents and current package to site."""
+    def safe_path(name, prefix=None):
+        if not isinstance(name, str) or not name or '\\' in name:
+            return False
+        path = Path(name)
+        return (not path.is_absolute() and '..' not in path.parts and
+                path.as_posix() == name and
+                (prefix is None or name.startswith(prefix)))
+    def members_valid(members):
+        return (isinstance(members, dict) and bool(members) and
+                all(safe_path(n) and isinstance(h, str) and
+                    re.fullmatch(r'[0-9a-f]{64}', h) for n, h in members.items()))
+    packages = {p.relative_to(root).as_posix(): p for p in (root/'website/previews').glob('*.zip')}
+    check(bool(packages), 'Missing preview ZIP')
+    frozen_package = packages.get(frozen_path)
+    check(frozen_package is not None and digest(frozen_package) == frozen_sha256,
+          'Frozen preview container identity mismatch: '+frozen_path)
+    register_path = root/'website/previews/preview-register.json'
+    if not register_path.exists():
+        # Compatibility for the unchanged frozen import, never for a derivative.
+        check(public_files == original, 'Website differs from frozen ZIP')
+        entries = [{'path': n, 'role': 'historical-frozen-import', 'files': original,
+                    'sha256': digest(p)} for n, p in packages.items()]
+        current = None
+    else:
+        try:
+            register = json.loads(register_path.read_text())
+        except (json.JSONDecodeError, UnicodeError):
+            check(False, 'Invalid preview register JSON')
+            register = {}
+        if not isinstance(register, dict):
+            check(False, 'Invalid preview register')
+            register = {}
+        check(register.get('schema_version') == 1, 'Unsupported preview register schema')
+        raw_entries = register.get('previews', [])
+        if not isinstance(raw_entries, list):
+            check(False, 'Invalid preview register previews')
+            raw_entries = []
+        entries = []
+        for index, entry in enumerate(raw_entries):
+            if isinstance(entry, dict):
+                entries.append(entry)
+            else:
+                check(False, 'Invalid preview entry: '+str(index))
+        names = [e.get('path') for e in entries]
+        names_are_strings = all(isinstance(name, str) for name in names)
+        check(names_are_strings and len(names) == len(set(names)), 'Duplicate registered preview paths')
+        check(names_are_strings and set(names) == set(packages), 'Preview register membership mismatch')
+        frozen_entries = [e for e in entries if e.get('role') == 'historical-frozen-import']
+        check(bool(frozen_entries), 'Missing frozen-import preview')
+        check(len(frozen_entries) == 1 and frozen_entries[0].get('path') == frozen_path,
+              'Frozen preview path/role identity mismatch')
+        record_name = register.get('active_site_record')
+        record_path_valid = safe_path(record_name, 'website/records/')
+        check(record_path_valid, 'Invalid active site record path')
+        current = None
+        if record_path_valid:
+            current_path = root/record_name
+            check(current_path.is_file(), 'Missing active site record')
+            if current_path.is_file():
+                try:
+                    current = json.loads(current_path.read_text())
+                except (json.JSONDecodeError, UnicodeError):
+                    check(False, 'Invalid active site record JSON')
+                    current = None
+                if current is not None and not isinstance(current, dict):
+                    check(False, 'Invalid active site record')
+                    current = None
+                if current is not None:
+                    check(current.get('schema_version') == 1, 'Unsupported active site schema')
+                    check(members_valid(current.get('files')), 'Invalid active site member paths/hashes')
+                    check(current.get('files') == public_files, 'Active site record differs from public tree')
+        current_entries = [e for e in entries if e.get('role') == 'current']
+        check(len(current_entries) == 1, 'Expected exactly one current preview')
+        if current is not None:
+            check(len(current_entries) == 1 and current.get('current_preview') == current_entries[0].get('path'), 'Current preview pointer mismatch')
+    if not register_path.exists():
+        frozen_entries = [e for e in entries if e.get('role') == 'historical-frozen-import']
+        check(len(frozen_entries) == 1 and frozen_entries[0].get('path') == frozen_path,
+              'Frozen preview path/role identity mismatch')
+    for entry in entries:
+        name = entry.get('path')
+        check(safe_path(name, 'website/previews/') and name in packages, 'Invalid registered preview path: '+str(name))
+        if not safe_path(name, 'website/previews/') or name not in packages:
+            continue
+        p = packages[name]
+        role = entry.get('role')
+        check(isinstance(role, str) and role in {'current','historical-frozen-import','historical-candidate'}, 'Invalid preview role: '+name)
+        check(entry.get('sha256') == digest(p), 'Preview digest mismatch: '+name)
+        members = entry.get('files')
+        check(members_valid(members), 'Invalid preview member paths/hashes: '+name)
+        try:
+            with zipfile.ZipFile(p) as z:
+                infos = z.infolist()
+                names = [info.filename for info in infos]
+                check(len(names) == len(set(names)), 'Duplicate ZIP entries: '+name)
+                check(all(safe_path(n) for n in names), 'Unsafe ZIP member: '+name)
+                regular = all(not info.is_dir() and
+                              not bool(info.external_attr & 0x10) and
+                              stat.S_IFMT(info.external_attr >> 16) in (0, stat.S_IFREG)
+                              for info in infos)
+                check(regular, 'Non-regular ZIP member: '+name)
+                zipped = {n: hashlib.sha256(z.read(n)).hexdigest() for n in names}
+                check(zipped == members, 'Preview registered contents mismatch: '+name)
+                if role == 'current':
+                    check(zipped == public_files, 'Current preview differs from public tree: '+name)
+                elif role == 'historical-frozen-import':
+                    check(zipped == original, 'Frozen preview differs from original ZIP inventory: '+name)
+                check(z.testzip() is None, 'ZIP CRC failure: '+name)
+        except (zipfile.BadZipFile, OSError):
+            check(False, 'Invalid preview ZIP: '+name)
 
 class HTML(HTMLParser):
     def __init__(self):super().__init__();self.refs=[];self.ids=set()
@@ -32,13 +159,7 @@ def main():
         return cache[p]
     inventory=list(csv.DictReader((ROOT/'governance/file-inventory.csv').open()))
     counts['source_records']=len(inventory)
-    permitted={'excluded-cache-original-retained','out-of-active-scope-original-retained'}
-    for r in inventory:
-        if not r['destination']:
-            check(r['disposition'] in permitted,'Unexplained empty destination: '+r['source_path']);continue
-        p=ROOT/r['destination']
-        check(p.is_file(),'Missing migration destination: '+r['destination'])
-        if p.is_file():check(hashed(p)==r['sha256'],'Changed source bytes: '+r['destination'])
+    validate_inventory_sources(ROOT, inventory, check, hashed)
     migrated=list(csv.DictReader((ROOT/'governance/path-migration.csv').open()))
     check(migrated==[{k:r[k] for k in migrated[0]} for r in inventory],'Migration register differs from inventory')
     freeze=json.loads((ROOT/'governance/source-freeze.json').read_text())
@@ -76,7 +197,7 @@ def main():
         if len(matches)==1:check('sha256:'+hashed(matches[0])==a['digest'] and matches[0].stat().st_size==a['size'],'Release digest mismatch: '+a['name'])
     counts['release_attachments']=len(freeze['release']['assets'])
     site=ROOT/'website/site';html={}
-    for p in site.glob('*.html'):
+    for p in site.rglob('*.html'):
         h=HTML();h.feed(p.read_text());html[p]=h
     def resolve(p,url,anchor=True):
         u=urlsplit(url)
@@ -101,15 +222,7 @@ def main():
             if not u.scheme and not u.netloc:check((p.parent/unquote(u.path)).exists(),'Broken navigation link: '+str(p.relative_to(ROOT))+' -> '+target)
     public_files={p.relative_to(site).as_posix():hashed(p) for p in site.rglob('*') if p.is_file()}
     original={r['source_path']:r['sha256'] for r in inventory if r['source_scope']=='zip'}
-    check(public_files==original,'Website differs from frozen ZIP')
-    packages=list((ROOT/'website/previews').glob('*.zip'))
-    check(bool(packages),'Missing preview ZIP')
-    for p in packages:
-        with zipfile.ZipFile(p) as z:
-            check(len(z.namelist())==len(set(z.namelist())),'Duplicate ZIP entries')
-            zipped={n:hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist()}
-            check(zipped==public_files,'Preview contains missing/extra/changed files: '+p.name)
-            check(z.testzip() is None,'ZIP CRC failure: '+p.name)
+    validate_previews(ROOT, public_files, original, check)
     if not args.skip_checksums:
         sums={}
         for line in (ROOT/'governance/SHA256SUMS.txt').read_text().splitlines():

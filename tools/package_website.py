@@ -3,10 +3,12 @@
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
-import zipfile, hashlib, re
+import zipfile, hashlib, re, argparse
 ROOT = Path(__file__).resolve().parents[1]
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.parse_args()  # --help is read-only and exits before any output file is created.
     readme = (ROOT / 'website/README.md').read_text()
     version = re.search(r'working preview v(\d+\.\d+\.\d+)', readme).group(1)
     date = datetime.now(ZoneInfo('Asia/Riyadh')).strftime('%Y-%m-%d')

@@ -10,6 +10,7 @@ async def validate_brand_fonts(page, samples=None):
     if samples is None:
         samples = await page.evaluate("""() => {
           const samples = {Jost: '', Inter: ''};
+          if (document.documentElement.lang === 'ar' || document.querySelector('[lang=ar]')) samples['Noto Sans Arabic'] = '';
           for (const e of document.querySelectorAll('body *')) {
             if (!e.getClientRects().length) continue;
             const family = getComputedStyle(e).fontFamily.split(',')[0].replaceAll('"', '').trim();
@@ -28,7 +29,7 @@ async def validate_brand_fonts(page, samples=None):
     try:
         await cdp.send("DOM.enable")
         await cdp.send("CSS.enable")
-        for family in ("Jost", "Inter"):
+        for family in samples:
             sample = samples.get(family, "")
             # Render an off-screen probe, never display it or include it in screenshots.
             await page.evaluate("""({family,sample}) => {

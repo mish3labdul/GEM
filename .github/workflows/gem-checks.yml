@@ -32,6 +32,9 @@ jobs:
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
+      - name: Run validator adversarial regression tests
+        working-directory: tools
+        run: python3 -m unittest test_validate_previews.py -v
       - name: Validate unmerged collection and index
         if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
         run: python3 tools/validate_collection.py --skip-remote --check-index
@@ -64,3 +67,9 @@ jobs:
       - name: Run correction and font checks on loopback
         if: ${{ !cancelled() && steps.runtime.outcome == 'success' }}
         run: python3 website/qa/run_corrections_qa.py --root website/site --out-base "$RUNNER_TEMP/gem-local-qa/corrections"
+      - name: Run refinement checks on loopback
+        if: ${{ !cancelled() && steps.runtime.outcome == 'success' }}
+        run: python3 website/qa/run_refinement_qa.py --root website/site --out-base "$RUNNER_TEMP/gem-local-qa/refinement"
+      - name: Run Arabic and bilingual journey checks on loopback
+        if: ${{ !cancelled() && steps.runtime.outcome == 'success' }}
+        run: python3 website/qa/run_arabic_qa.py --root website/site --out-base "$RUNNER_TEMP/gem-local-qa/arabic"

@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="assets/css/gem-tokens.v3.0.css">
   <link rel="stylesheet" href="assets/css/site.css">
   <script src="assets/js/site.js" defer></script>
+  <link rel="stylesheet" href="assets/css/arabic.css">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="ar" href="ar/index.html">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -26,6 +29,7 @@
       <a class="brand" href="index.html" aria-label="GEM home">
         <img src="assets/brand/gem-horizontal-beige.svg" alt="GEM" width="150" height="49">
       </a>
+      <a class="language-switch" href="ar/index.html" lang="ar" dir="rtl" hreflang="ar">العربية</a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" hidden>Menu</button>
       <nav id="primary-nav" class="primary-nav" aria-label="Primary">
         <ul>
@@ -57,6 +61,13 @@
         <div class="hero-mark" aria-hidden="true">
           <img class="mark" src="assets/brand/gem-symbol-beige.svg" alt="" width="468" height="468">
         </div>
+        <figure class="figure figure--frame-3x2 hero-figure" data-asset="GEM-WEB-B01">
+          <picture>
+            <source type="image/webp" srcset="assets/img/amenity-family-480.webp 480w, assets/img/amenity-family-800.webp 800w, assets/img/amenity-family-1200.webp 1200w" sizes="(min-width: 1440px) 628px, (min-width: 1024px) 46vw, (min-width: 720px) 90vw, 100vw">
+            <img src="assets/img/amenity-family-800.jpg" srcset="assets/img/amenity-family-480.jpg 480w, assets/img/amenity-family-800.jpg 800w, assets/img/amenity-family-1200.jpg 1200w" sizes="(min-width: 1440px) 628px, (min-width: 1024px) 46vw, (min-width: 720px) 90vw, 100vw" width="1200" height="800" fetchpriority="high" decoding="async" alt="Five GEM-branded amber and ivory pump bottles on a warm stone surface.">
+          </picture>
+          <figcaption><span class="status-label">Generated GEM concept</span> Amber hand-wash concept variation; final product colour is not confirmed. Not production photography or an available product specification.</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -93,7 +104,7 @@
               <source type="image/webp" srcset="assets/img/amenity-family-480.webp 480w, assets/img/amenity-family-800.webp 800w, assets/img/amenity-family-1200.webp 1200w" sizes="(min-width: 1440px) 740px, (min-width: 1024px) 58vw, 100vw">
               <img src="assets/img/amenity-family-800.jpg" srcset="assets/img/amenity-family-480.jpg 480w, assets/img/amenity-family-800.jpg 800w, assets/img/amenity-family-1200.jpg 1200w" sizes="(min-width: 1440px) 740px, (min-width: 1024px) 58vw, 100vw" width="1200" height="800" loading="lazy" decoding="async" alt="Five GEM-branded amber and ivory pump bottles on a warm stone surface.">
             </picture>
-            <figcaption><span class="status-label">Generated GEM concept</span> <span class="figcaption-title">One family, held together.</span> Not production photography or an available product specification.</figcaption>
+            <figcaption><span class="status-label">Generated GEM concept</span> <span class="figcaption-title">One family, held together.</span> Amber hand-wash concept variation; final product colour is not confirmed. Not production photography or an available product specification.</figcaption>
           </figure>
           <div class="amenities-detail">
             <div class="detail-block">
@@ -117,13 +128,13 @@
       </div>
     </section>
 
-    <!-- ============ READY PACKAGES (replaces Formats, 2026-10-11; owner approved the package set and names as proposed) ============ -->
+    <!-- ============ CONCEPT PACKAGES (owner decision WD-19, 2026-10-11; working names retained) ============ -->
     <section id="packages" class="section surface-canvas section--ruled" aria-labelledby="packages-title">
       <div class="container">
         <div class="split-main">
-          <p class="eyebrow">Ready packages</p>
-          <h2 id="packages-title" class="h2">Three ways to stock a room.</h2>
-          <p class="body-large">Each package holds the five-product pilot family. All three are concepts; we have not yet set prices, sizes or lead times.</p>
+          <p class="eyebrow">Concept packages</p>
+          <h2 id="packages-title" class="h2">Three package concepts to explore.</h2>
+          <p class="body-large">These concepts explore the five-product pilot family. Availability, formats, specifications, prices and lead times are not yet confirmed.</p>
         </div>
 
         <!-- Fail-closed like the enquiry form (GEM-01): no action, and the only submit button is
@@ -156,9 +167,9 @@
                   <table class="spec-table">
                     <caption class="visually-hidden">Room set</caption>
                     <tbody>
-                      <tr><th scope="row">Format</th><td id="pkg-room-format">Pump bottles for the guest bathroom</td></tr>
-                      <tr><th scope="row">Contains</th><td>Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash</td></tr>
-                      <tr><th scope="row">Price</th><td>On quotation</td></tr>
+                      <tr><th scope="row">Concept format</th><td id="pkg-room-format">Pump bottles for the guest bathroom</td></tr>
+                      <tr><th scope="row">Proposed contents</th><td>Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash</td></tr>
+                      <tr><th scope="row">Availability</th><td>Pending confirmation</td></tr>
                       <tr><th scope="row">Status</th><td>Concept</td></tr>
                     </tbody>
                   </table>
@@ -177,9 +188,9 @@
                   <table class="spec-table">
                     <caption class="visually-hidden">Wall-mounted set</caption>
                     <tbody>
-                      <tr><th scope="row">Format</th><td id="pkg-wall-format">Dispensers in wall brackets</td></tr>
-                      <tr><th scope="row">Contains</th><td>Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash</td></tr>
-                      <tr><th scope="row">Price</th><td>On quotation</td></tr>
+                      <tr><th scope="row">Concept format</th><td id="pkg-wall-format">Dispensers in wall brackets</td></tr>
+                      <tr><th scope="row">Proposed contents</th><td>Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash</td></tr>
+                      <tr><th scope="row">Availability</th><td>Pending confirmation</td></tr>
                       <tr><th scope="row">Status</th><td>Concept · supplier proof required</td></tr>
                     </tbody>
                   </table>
@@ -198,9 +209,9 @@
                   <table class="spec-table">
                     <caption class="visually-hidden">Travel set</caption>
                     <tbody>
-                      <tr><th scope="row">Format</th><td id="pkg-travel-format">Five travel bottles in a box</td></tr>
-                      <tr><th scope="row">Contains</th><td>Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash</td></tr>
-                      <tr><th scope="row">Price</th><td>On quotation</td></tr>
+                      <tr><th scope="row">Concept format</th><td id="pkg-travel-format">Five travel bottles in a box</td></tr>
+                      <tr><th scope="row">Proposed contents</th><td>Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash</td></tr>
+                      <tr><th scope="row">Availability</th><td>Pending confirmation</td></tr>
                       <tr><th scope="row">Status</th><td>Concept · supplier proof required</td></tr>
                     </tbody>
                   </table>
@@ -209,19 +220,19 @@
             </div>
             <p class="field-error" id="q-package-error" hidden></p>
           </fieldset>
-          <p class="package-note caption">For every package, sizes, units per pack and lead times are not yet set. Prices are given on quotation.</p>
+          <p class="package-note caption">Availability and specifications are pending. Sizes, units per pack, formulas, prices and lead times are not yet confirmed. Use the form to discuss a concept.</p>
 
           <div class="quote-panel">
             <div class="quote-controls">
               <div class="field">
-                <label for="q-rooms">Rooms to supply <span class="req">(required)</span></label>
+                <label for="q-rooms">Estimated rooms <span class="req">(required)</span></label>
                 <input id="q-rooms" name="rooms" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off" aria-describedby="q-rooms-hint">
-                <p class="hint" id="q-rooms-hint">An estimate is fine. Enter a whole number from 1 to 100,000.</p>
+                <p class="hint" id="q-rooms-hint">An estimate is fine. Enter a positive whole number.</p>
                 <p class="field-error" id="q-rooms-error" hidden></p>
               </div>
 
               <div class="field">
-                <label class="choice choice--check"><input type="checkbox" id="q-stationery" name="stationery" value="yes" aria-describedby="q-stationery-hint"> Add arrival stationery</label>
+                <label class="choice choice--check"><input type="checkbox" id="q-stationery" name="stationery" value="yes" aria-describedby="q-stationery-hint"> Include arrival stationery in the discussion</label>
                 <p class="hint" id="q-stationery-hint">Welcome card, key sleeve and key card.</p>
               </div>
 
@@ -231,16 +242,16 @@
               </div>
 
               <div class="form-actions">
-                <button class="button" type="submit" id="quote-button" aria-describedby="quote-unavailable quote-intro" disabled>Request a quotation</button>
-                <p id="quote-intro" class="caption">Creates a request to send from your email app. This page sends nothing.</p>
+                <button class="button" type="submit" id="quote-button" aria-describedby="quote-unavailable quote-intro" disabled>Discuss this concept</button>
+                <p id="quote-intro" class="caption">Drafts a concept discussion request to open in your email app. This page sends nothing.</p>
               </div>
               <p class="draft-status" id="quote-status" role="status" aria-live="polite"></p>
 
               <div class="form-result" id="quote-result" role="status" tabindex="-1" hidden>
                 <p class="status-label status-label--info">Information</p>
-                <p class="form-result-title">Quotation request drafted. It has not been sent.</p>
+                <p class="form-result-title">Discussion request drafted. It has not been sent.</p>
                 <p>Open it in your email app and send it from there, or copy it.</p>
-                <label for="q-output" class="visually-hidden">Drafted quotation request</label>
+                <label for="q-output" class="visually-hidden">Drafted concept discussion request</label>
                 <textarea id="q-output" rows="7" readonly></textarea>
                 <div class="form-actions">
                   <a class="button" id="quote-email" hidden>Open in your email app</a>
@@ -296,7 +307,7 @@
               <source type="image/webp" srcset="assets/img/guest-arrangement-480.webp 480w, assets/img/guest-arrangement-800.webp 800w, assets/img/guest-arrangement-1200.webp 1200w" sizes="(min-width: 1440px) 740px, (min-width: 1024px) 58vw, 100vw">
               <img src="assets/img/guest-arrangement-800.jpg" srcset="assets/img/guest-arrangement-480.jpg 480w, assets/img/guest-arrangement-800.jpg 800w, assets/img/guest-arrangement-1200.jpg 1200w" sizes="(min-width: 1440px) 740px, (min-width: 1024px) 58vw, 100vw" width="1200" height="800" loading="lazy" decoding="async" alt="GEM-branded bottles and guest stationery arranged on warm stone beside a white towel.">
             </picture>
-          <figcaption><span class="status-label">Generated staging concept</span> <span class="figcaption-title">Objects in quiet company.</span> No real property, client project or completed installation is depicted.</figcaption>
+          <figcaption><span class="status-label">Generated staging concept</span> <span class="figcaption-title">Objects in quiet company.</span> Ivory hand-wash concept variation; final product colour is not confirmed. No real property, client project or completed installation is depicted.</figcaption>
         </figure>
         <ul class="audiences" role="list">
           <li>
@@ -486,7 +497,7 @@
         <div>
           <h2 class="footer-heading">Language</h2>
           <ul>
-            <li>English. An Arabic edition is in preparation.</li>
+            <li><a href="ar/index.html" lang="ar" dir="rtl" hreflang="ar">العربية</a></li>
           </ul>
         </div>
       </div>
