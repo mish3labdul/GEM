@@ -173,7 +173,7 @@ async def main():
                 R.add(f"no-text-outside-viewport {tag}", not L["textOutside"], L["textOutside"])
                 R.add(f"fonts-jost-inter-400 {tag}", any(f.startswith("Jost 400") for f in L["fonts"]) and any(f.startswith("Inter 400") for f in L["fonts"]), L["fonts"])
                 R.add(f"weights-400-only {tag}", L["weights"] == ["400"], L["weights"])
-                R.add(f"families-jost-inter-only {tag}", set(L["families"]) <= {"Jost", "Inter"}, L["families"])
+                R.add(f"families-prescribed-latin-and-arabic-only {tag}", set(L["families"]) <= {"Jost", "Inter", "Noto Sans Arabic"}, L["families"])
                 bad_img = [i for i in L["imgs"] if i["visible"] and not i["ok"]]
                 R.add(f"visible-images-load {tag}", not bad_img, bad_img)
                 R.add(f"images-have-alt-attr {tag}", all(i["alt"] is not None for i in L["imgs"]), [i["src"] for i in L["imgs"] if i["alt"] is None])
@@ -425,7 +425,7 @@ async def main():
         R.add("audit-I2 menu has scrim, closes on outside tap and on tabbing out", "0.64" in scrim and out1 == "false" and out2 == "false", {"scrim": scrim, "outside": out1, "tabout": out2})
         await ctx.close()
 
-        # ---------- 3c. Ready packages: quotation request (2026-10-11) ----------
+        # ---------- 3c. Concept packages: discussion request (2026-10-11) ----------
         for vw, vh in [(1440, 900), (375, 812)]:
             ctx = await browser.new_context(viewport={"width": vw, "height": vh}); await ctx.grant_permissions(["clipboard-read", "clipboard-write"])
             pg = await ctx.new_page(); log = await watch(pg); qt = f"@{vw}"
@@ -434,7 +434,7 @@ async def main():
             R.add(f"quote-initial-enabled-notice-hidden {qt}", not init["disabled"] and init["notice"], init)
             await pg.click("#quote-button"); await pg.wait_for_timeout(100)
             errs = await pg.locator("#quote-error-list li").all_inner_texts()
-            R.add(f"quote-empty-two-linked-errors-focus-first {qt}", errs == ["Choose a package.", "Enter a whole number of rooms from 1 to 100,000."] and await pg.evaluate("document.activeElement.id") == "pkg-room", errs)
+            R.add(f"quote-empty-two-linked-errors-focus-first {qt}", errs == ["Choose a package.", "Enter a positive whole number of rooms."] and await pg.evaluate("document.activeElement.id") == "pkg-room", errs)
             # whole card is the target: click the middle of the Wall-mounted card's table
             await pg.evaluate("document.querySelectorAll('.package-card')[1].querySelector('.spec-table').scrollIntoView({block:'center'})"); await pg.wait_for_timeout(100)
             box = await pg.locator(".package-card").nth(1).locator(".spec-table").bounding_box()
@@ -448,7 +448,7 @@ async def main():
             await pg.fill("#q-rooms", "abc"); await pg.click("#quote-button"); await pg.wait_for_timeout(100)
             errs = await pg.locator("#quote-error-list li").all_inner_texts()
             inv = await pg.get_attribute("#q-rooms", "aria-invalid"); desc = await pg.get_attribute("#q-rooms", "aria-describedby")
-            R.add(f"quote-invalid-rooms-only {qt}", errs == ["Enter a whole number of rooms from 1 to 100,000."] and inv == "true" and "q-rooms-hint" in desc and "q-rooms-error" in desc, [errs, inv, desc])
+            R.add(f"quote-invalid-rooms-only {qt}", errs == ["Enter a positive whole number of rooms."] and inv == "true" and "q-rooms-hint" in desc and "q-rooms-error" in desc, [errs, inv, desc])
             await pg.fill("#q-rooms", "120"); await pg.check("#q-stationery")
             await pg.click("#q-sampling")
             tg = await pg.evaluate("({p:document.getElementById('q-sampling').getAttribute('aria-pressed'),t:document.getElementById('q-sampling').textContent,s:document.getElementById('q-sampling-status').textContent})")
@@ -458,8 +458,8 @@ async def main():
             out_ = await pg.input_value("#q-output"); href = await pg.get_attribute("#quote-email", "href") or ""
             from urllib.parse import urlparse, parse_qs, unquote
             u = urlparse(href); qq = parse_qs(u.query)
-            expect = "Quotation request for GEM\nPackage: Travel set\nRooms to supply: 120\nArrival stationery: Yes\nSampling: Yes"
-            R.add(f"quote-drafted-not-sent-email-handoff {qt}", out_ == expect and await pg.evaluate("document.activeElement.id") == "quote-result" and unquote(u.path) == "mish3labdul@gmail.com" and qq.get("subject") == ["Quotation request for GEM: Travel set"] and qq.get("body") == [expect] and len(log["requests"]) == n0,
+            expect = "Concept discussion for GEM\nConcept package: Travel set\nEstimated rooms: 120\nArrival stationery interest: Yes\nSampling interest: Yes\nAvailability and specifications are pending."
+            R.add(f"quote-drafted-not-sent-email-handoff {qt}", out_ == expect and await pg.evaluate("document.activeElement.id") == "quote-result" and unquote(u.path) == "mish3labdul@gmail.com" and qq.get("subject") == ["Concept discussion for GEM: Travel set"] and qq.get("body") == [expect] and len(log["requests"]) == n0,
                   {"out": out_, "href": href[:80], "requests": log["requests"][n0:]})
             await pg.click("#quote-copy"); await pg.wait_for_timeout(150)
             R.add(f"quote-copy {qt}", await pg.evaluate("navigator.clipboard.readText()") == expect)

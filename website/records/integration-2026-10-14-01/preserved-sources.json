@@ -1,0 +1,66 @@
+{
+  "base_commit": "774efd458bcfc27e9d81ab463482fd6bb83616f9",
+  "status": "Historical original bytes; not active runtime",
+  "files": [
+    {
+      "original_destination": "website/site/assets/css/site.css",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/site/assets/css/site.css",
+      "original_sha256": "e9948c1233da57985690be0be34344d3c6fbc42467cb5eb1c613c1596e974022",
+      "candidate_sha256": "1388cff9d6d49568cc0723a43de31009d509fbefb58c62906300e5fd2356d3d0"
+    },
+    {
+      "original_destination": "website/site/assets/js/site.js",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/site/assets/js/site.js",
+      "original_sha256": "aaa83e7f971e2247b9eaaf4cf272fb49fa4e3fbbd4ccf8e95dae12485dd09eb4",
+      "candidate_sha256": "bebea6875fcf71fbdfaf09ea1b9cd91b3675deb9a90ef366b0220d0aaa865693"
+    },
+    {
+      "original_destination": "website/site/favicon-32.png",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/site/favicon-32.png",
+      "original_sha256": "f7a9c4a1af4e3007d3fd45c4b9c476c9a5e22cbbadbb246075ac90eba5289a5b",
+      "candidate_sha256": "39c08c729a09d955e5f6f84bad3b2a0b1366831a1c61ed5ad301efccbc2cad4f"
+    },
+    {
+      "original_destination": "website/site/favicon.svg",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/site/favicon.svg",
+      "original_sha256": "2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5",
+      "candidate_sha256": "9ad0f64ed64c4561f6a0fb974f3e1f1f9784fd19172393ae63adf1988a2175f1"
+    },
+    {
+      "original_destination": "website/site/index.html",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/site/index.html",
+      "original_sha256": "4ec83cce1f1c090092be99c876b86477a5c556680babc85386964e897650d725",
+      "candidate_sha256": "467d152a92582ca358d9ee3de48af621e90b39241c293e72e16a2c7cf85f6c79"
+    },
+    {
+      "original_destination": "website/site/privacy.html",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/site/privacy.html",
+      "original_sha256": "96ac7d5aeb8b9d9fc3b9d952832af537930f9aa57aadaedd6ac1b60fcd362c41",
+      "candidate_sha256": "054e4ca41373806e2cad9ad32c79a5f9dbca34907909e366b946a896d4f16b45"
+    },
+    {
+      "original_destination": "website/site/reference.html",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/site/reference.html",
+      "original_sha256": "e1d6bf3aebdce5fad7e56657c34039b237985a7556161a3edce6f89cb0decc7a",
+      "candidate_sha256": "c17fe23bc7a9da5821a7350be9a775004e63d2296fd968b295c7164e3fd76199"
+    },
+    {
+      "original_destination": "website/qa/font_validation.py",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/qa/font_validation.py",
+      "original_sha256": "ce15038a12ba1f8bffa912df169ce6dba53ac95a9a8be22562acf3b5605e3b6a",
+      "candidate_sha256": "065ccfdc67a684d1acf675e81906357679ab593166529b2b0ec1d475b06f05a3"
+    },
+    {
+      "original_destination": "website/qa/run_corrections_qa.py",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/qa/run_corrections_qa.py",
+      "original_sha256": "8cf8c703c61c0bade9771d21dc3af4403a441c5c6dc78600355197110252341a",
+      "candidate_sha256": "a06f054322b1fc99a4d840b2e2e452e5c13ed2bef1233ed026226976a363deeb"
+    },
+    {
+      "original_destination": "website/qa/run_qa.py",
+      "preserved_destination": "archive/website-pre-integration-20261014/website/qa/run_qa.py",
+      "original_sha256": "3f46171d5fa277a9fe200a4b949c57a2722f13323034bd87d0fed2ef8aadc043",
+      "candidate_sha256": "9d2e92b7971c91456c746fe02366088139c2622a2100da4b891fb0a2327e6cb8"
+    }
+  ]
+}

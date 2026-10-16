@@ -50,17 +50,17 @@ async def run(args):
             raw['unsupported_arabic_probe'] = await validate_brand_fonts(page,{'Jost':'العربية','Inter':'العربية'})
             R.add('unsupported Arabic fallback FAILS brand acceptance',raw['unsupported_arabic_probe']['status']=='FAIL' and all(r['status']=='FAIL' for r in raw['unsupported_arabic_probe']['families']),raw['unsupported_arabic_probe'])
             await page.check('#pkg-room')
-            for val in ('','0','-1','1.5','abc','100001'):
+            for val in ('','0','000','-1','1.5','abc','1e3'):
                 await page.fill('#q-rooms',val); await page.click('#quote-button')
                 error = await page.locator('#q-rooms-error').inner_text()
-                R.add('room error explains range '+repr(val),error=='Enter a whole number of rooms from 1 to 100,000.' and await page.input_value('#q-rooms')==val and await page.evaluate('document.activeElement.id')=='q-rooms',error)
+                R.add('room error explains positive integer '+repr(val),error=='Enter a positive whole number of rooms.' and await page.input_value('#q-rooms')==val and await page.evaluate('document.activeElement.id')=='q-rooms',error)
                 await page.locator('#quote-error-list a').click()
                 R.add('room summary focuses input '+repr(val),await page.evaluate('document.activeElement.id')=='q-rooms')
-            for val in ('1','100000',' 120 '):
+            for val in ('1','100000','100001','9007199254740993','9'*400,' 120 '):
                 await page.fill('#q-rooms',val); await page.click('#quote-button')
-                R.add('room boundary valid '+repr(val),await page.locator('#quote-result').is_visible() and ('Rooms to supply: '+val.strip()) in await page.input_value('#q-output'))
-            await page.fill('#q-rooms','100001');await page.click('#quote-button');await page.wait_for_timeout(400)
-            await page.locator('#quote-form').screenshot(path=str(out/'screenshots'/'room-range-error.png'))
+                R.add('room boundary valid '+repr(val),await page.locator('#quote-result').is_visible() and ('Estimated rooms: '+val.strip()) in await page.input_value('#q-output'))
+            await page.fill('#q-rooms','0');await page.click('#quote-button');await page.wait_for_timeout(400)
+            await page.locator('#quote-form').screenshot(path=str(out/'screenshots'/'room-value-error.png'))
             for sel,val in (('#f-name','Synthetic Tester'),('#f-email','qa@example.invalid'),('#f-org','Example Org')): await page.fill(sel,val)
             await page.check('#f-interest-partner')
             for repeats in (1,1000,3000):

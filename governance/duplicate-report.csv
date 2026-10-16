@@ -35,6 +35,8 @@ sha256,copies,path,disposition
 062cc98c60e7e27385c4f66bd30aae1f383859eefe72ddc8e44225de42ea0f9f,3,website/records/qa-runs/20261010T124444Z/screenshots/index-narrow-320-fold.png,RETAINED: provenance/history/current-use copy
 062cc98c60e7e27385c4f66bd30aae1f383859eefe72ddc8e44225de42ea0f9f,3,website/records/qa-runs/20261010T124605Z/screenshots/index-narrow-320-fold.png,RETAINED: provenance/history/current-use copy
 062cc98c60e7e27385c4f66bd30aae1f383859eefe72ddc8e44225de42ea0f9f,3,website/records/qa-runs/20261010T124726Z/screenshots/index-narrow-320-fold.png,RETAINED: provenance/history/current-use copy
+07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96,2,archive/baseline-v3.0/GEM_Letterhead_Set_v1.1_Application_Revision_03/00_source/fonts/notosansarabic/OFL.txt,RETAINED: provenance/history/current-use copy
+07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96,2,website/site/assets/fonts/OFL-NotoSansArabic.txt,RETAINED: provenance/history/current-use copy
 09e8e8399df4dedd8d9e1105f99085380148aae283d34d3e96bb971c43e6f0e6,5,website/records/qa-runs/20261011T103602Z/screenshots/reference-tablet-768-full.png,RETAINED: provenance/history/current-use copy
 09e8e8399df4dedd8d9e1105f99085380148aae283d34d3e96bb971c43e6f0e6,5,website/records/qa-runs/20261011T103746Z/screenshots/reference-tablet-768-full.png,RETAINED: provenance/history/current-use copy
 09e8e8399df4dedd8d9e1105f99085380148aae283d34d3e96bb971c43e6f0e6,5,website/records/qa-runs/20261011T103930Z/screenshots/reference-tablet-768-full.png,RETAINED: provenance/history/current-use copy
@@ -261,10 +263,10 @@ sha256,copies,path,disposition
 2ea7ed543e1e8820f071197932e5ffe8b94d8dec924e1de37eb14d7b84c68b27,2,archive/baseline-v3.0/PartB_RC2/05_release/tokens/gem-tokens.v3.0-rc2.css,RETAINED: provenance/history/current-use copy
 2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5,6,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/icons/favicon.svg,RETAINED: provenance/history/current-use copy
 2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5,6,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol/svg/gem-symbol-beige.svg,RETAINED: provenance/history/current-use copy
+2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5,6,archive/website-pre-integration-20261014/website/site/favicon.svg,RETAINED: provenance/history/current-use copy
 2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5,6,brand/working-kit/icons/favicon.svg,RETAINED: provenance/history/current-use copy
 2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5,6,brand/working-kit/logo/symbol/svg/gem-symbol-beige.svg,RETAINED: provenance/history/current-use copy
 2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5,6,website/site/assets/brand/gem-symbol-beige.svg,RETAINED: provenance/history/current-use copy
-2ee7385d24863b1629f7e470e252a05d11304dc2a6e5ca4b2b61695283b03fb5,6,website/site/favicon.svg,RETAINED: provenance/history/current-use copy
 2f74473574f4e5f4409e07c0e8883790daab4b0e36481998505845580f9b7480,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol/png/gem-symbol-black-256.png,RETAINED: provenance/history/current-use copy
 2f74473574f4e5f4409e07c0e8883790daab4b0e36481998505845580f9b7480,2,brand/working-kit/logo/symbol/png/gem-symbol-black-256.png,RETAINED: provenance/history/current-use copy
 30d6c6c3a324ff9e6a4723331595c9370b77577ce0e0ee0c20d14a1e7c653231,5,website/records/qa-runs/20261011T103602Z/screenshots/privacy-desktop-1440-full.png,RETAINED: provenance/history/current-use copy
@@ -1612,8 +1614,8 @@ f6e6b109ac1e9307e92a55270f113aff416d1ea53ab6782489d3097044bc2e2d,2,brand/working
 f710b7cdaf53c2fb990218b3617c897baf9e09dc4562924517657c0a9512cf29,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol/png/gem-symbol-ink-256.png,RETAINED: provenance/history/current-use copy
 f710b7cdaf53c2fb990218b3617c897baf9e09dc4562924517657c0a9512cf29,2,brand/working-kit/logo/symbol/png/gem-symbol-ink-256.png,RETAINED: provenance/history/current-use copy
 f7a9c4a1af4e3007d3fd45c4b9c476c9a5e22cbbadbb246075ac90eba5289a5b,3,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/icons/favicon-32.png,RETAINED: provenance/history/current-use copy
+f7a9c4a1af4e3007d3fd45c4b9c476c9a5e22cbbadbb246075ac90eba5289a5b,3,archive/website-pre-integration-20261014/website/site/favicon-32.png,RETAINED: provenance/history/current-use copy
 f7a9c4a1af4e3007d3fd45c4b9c476c9a5e22cbbadbb246075ac90eba5289a5b,3,brand/working-kit/icons/favicon-32.png,RETAINED: provenance/history/current-use copy
-f7a9c4a1af4e3007d3fd45c4b9c476c9a5e22cbbadbb246075ac90eba5289a5b,3,website/site/favicon-32.png,RETAINED: provenance/history/current-use copy
 f9ad5f37b99f853f3abee884ff8e3b408eec8849d5fefb338ef9766ee663254c,3,website/records/cleanup-qa/baseline-regression/20261011T185054Z/screenshots/forced-colors-light-fold.png,RETAINED: provenance/history/current-use copy
 f9ad5f37b99f853f3abee884ff8e3b408eec8849d5fefb338ef9766ee663254c,3,website/records/cleanup-qa/regression/20261011T185626Z/screenshots/forced-colors-light-fold.png,RETAINED: provenance/history/current-use copy
 f9ad5f37b99f853f3abee884ff8e3b408eec8849d5fefb338ef9766ee663254c,3,website/records/remediation-2026-10-11-01/raw-results/regression/20261011T170638Z/screenshots/forced-colors-light-fold.png,RETAINED: provenance/history/current-use copy
