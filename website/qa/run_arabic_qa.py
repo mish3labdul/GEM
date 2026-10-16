@@ -40,9 +40,15 @@ async def run(args):
    for sel,val in (('#f-name','اختبار تجريبي'),('#f-email','qa@example.invalid'),('#f-org','منشأة اختبار'),('#f-message','رسالة اختبار عربية. لا تُرسل.')):await page.fill(sel,val)
    await page.check('#f-interest-partner');await page.click('#prepare-button');draft=await page.input_value('#f-output');r.add('Arabic enquiry draft and isolated email',all(x in draft for x in ('استفسار إلى GEM','اختبار تجريبي','الشراكة','\u2068qa@example.invalid\u2069')));await page.click('#copy-output');await page.wait_for_function('document.querySelector("#copy-status").textContent.length>0');r.add('Arabic enquiry clipboard exact',await page.evaluate('navigator.clipboard.readText()')==draft);await page.locator('#form-result').screenshot(path=str(out/'screenshots'/'arabic-enquiry-draft.png'))
    await page.fill('#f-message','تعديل');r.add('Arabic stale enquiry withdrawn',not await page.locator('#form-result').is_visible());r.add('LTR email and estimate, auto-direction free text',await page.locator('#f-email').get_attribute('dir')=='ltr' and await page.locator('#q-rooms').get_attribute('dir')=='ltr' and await page.locator('#f-message').get_attribute('dir')=='auto');r.add('no draft submission',all(x['url'].startswith(base) and x['method']=='GET' and x['post'] is None for x in log['requests']),log);await context.close()
-   for mode in ('no-js','blocked-messages','blocked-script','blocked-font'):
+   for mode in ('no-js','blocked-messages','incomplete-messages','invalid-message','blocked-script','blocked-font'):
     context=await browser.new_context(java_script_enabled=mode!='no-js');page=await context.new_page()
     if mode=='blocked-messages':await page.route('**/messages-ar.js',lambda x:x.abort())
+    if mode in ('incomplete-messages','invalid-message'):
+     async def damaged_messages(route):
+      response=await route.fetch();body=await response.text()
+      damage='delete window.GEM_AR_MESSAGES["Enter your name."];' if mode=='incomplete-messages' else 'window.GEM_AR_MESSAGES["Enter your name."] = "   ";'
+      await route.fulfill(response=response,body=body+'\n'+damage)
+     await page.route('**/messages-ar.js',damaged_messages)
     if mode=='blocked-script':await page.route('**/site.js',lambda x:x.abort())
     if mode=='blocked-font':await page.route('**/noto-sans-arabic-400.woff2',lambda x:x.abort())
     await page.goto(base+'ar/index.html',wait_until='networkidle')
@@ -51,6 +57,8 @@ async def run(args):
     else:
      before=page.url;log=await watch(page);await page.fill('#q-rooms','120');await page.focus('#q-rooms');await page.keyboard.press('Enter');await page.fill('#f-name','اختبار');await page.focus('#f-name');await page.keyboard.press('Enter');await page.wait_for_timeout(150);r.add('no implicit submission '+mode,page.url==before and all(x['method']=='GET' for x in log['requests']),log)
      r.add('fail closed '+mode,await page.locator('#quote-button').is_disabled() and await page.locator('#prepare-button').is_disabled() and await page.locator('#quote-unavailable').is_visible() and await page.locator('#form-unavailable').is_visible());r.add('language link works without scripts '+mode,await page.locator('.language-switch').get_attribute('href')=='../index.html')
+     if mode in ('incomplete-messages','invalid-message'):
+      r.add('static navigation retained '+mode,await page.locator('.nav-toggle').is_hidden() and not await page.locator('.site-header').evaluate('(el) => el.classList.contains("nav-ready")') and await page.locator('#primary-nav').is_visible())
     await context.close()
    await browser.close()
  finally:

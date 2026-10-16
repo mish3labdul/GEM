@@ -33,7 +33,12 @@ screen-reader acceptance, native browser zoom, actual email-client compatibility
 clearance, supplier/production proof or WCAG certification.
 
 The Arabic suite checks the current static-site bilingual journeys, DOM direction,
-font usage and local draft behavior. Its automated results do not establish native
+font usage and local draft behavior, including unavailable forms and static navigation
+when a required runtime message is missing or invalid. The Arabic builder cross-checks
+the shared script's explicit required-key contract against its supported literal
+translation calls and rejects missing, blank or non-string messages before writing
+outputs. Run its isolated regression tests from `tools/localization/` with
+`python3 test_build_website_ar.py -v`. Its automated results do not establish native
 Arabic linguistic approval, assistive-technology acceptance or D8 closure.
 
 Latest authorized correction evidence: `../records/remediation-2026-10-11-01/START_HERE.md`.

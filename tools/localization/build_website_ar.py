@@ -7,8 +7,28 @@ import json,re
 from bs4 import BeautifulSoup,Comment,Doctype
 ROOT=Path(__file__).resolve().parents[2]
 SITE=ROOT/'website/site'
+def validate_runtime_messages(messages):
+ script=(SITE/'assets/js/site.js').read_text()
+ contract=re.search(r'var REQUIRED_AR_MESSAGE_KEYS = (\[[\s\S]*?\]);',script)
+ if not contract:raise ValueError('Missing runtime message contract')
+ keys=json.loads(contract[1])
+ if not isinstance(keys,list) or not keys or any(not isinstance(k,str) or not k for k in keys) or len(set(keys))!=len(keys):
+  raise ValueError('Invalid runtime message contract')
+ # This maintained runtime supports only literal JSON-string arguments to t().
+ # Reject other call forms rather than silently missing new localization requirements.
+ calls=[]
+ for call in re.finditer(r'\bt\s*\(',script):
+  literal=re.match(r'\s*("(?:[^"\\]|\\.)*")\s*\)',script[call.end():])
+  if not literal:raise ValueError('Unsupported dynamic runtime message call')
+  calls.append(json.loads(literal[1]))
+ if set(calls)!=set(keys):raise ValueError('Drift in runtime message contract')
+ if not isinstance(messages,dict):raise ValueError('Invalid runtime message catalog')
+ for key in keys:
+  value=messages.get(key)
+  if not isinstance(value,str) or not value.strip():raise ValueError('Missing or invalid runtime message: '+key)
 def build():
  data=json.loads((ROOT/'tools/localization/website-ar.json').read_text());tr=data['translations'];retained=data['retained']
+ validate_runtime_messages(data.get('messages'))
  outputs={}
  for name in ('index','reference','privacy'):
   source=SITE/f'{name}.html'

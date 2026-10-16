@@ -1,6 +1,7 @@
 """Integration guards for the current English-to-Arabic build; no network/browser."""
 import hashlib
 import importlib.util
+import json
 from pathlib import Path
 import shutil
 import tempfile
@@ -18,6 +19,7 @@ class ArabicBuildTests(unittest.TestCase):
   (self.site/'assets/js').mkdir(parents=True)
   (self.root/'tools/localization').mkdir(parents=True)
   shutil.copyfile(HERE/'website-ar.json',self.root/'tools/localization/website-ar.json')
+  shutil.copyfile(ROOT/'website/site/assets/js/site.js',self.site/'assets/js/site.js')
   for name in ('index','reference','privacy'):
    shutil.copyfile(ROOT/f'website/site/{name}.html',self.site/f'{name}.html')
   spec=importlib.util.spec_from_file_location('build_ar',HERE/'build_website_ar.py')
@@ -39,6 +41,30 @@ class ArabicBuildTests(unittest.TestCase):
   p=self.site/'privacy.html';p.write_text(p.read_text().replace('</main>','<img alt="UNREGISTERED OWNER LABEL" src="assets/test.svg"></main>'))
   before=self.snapshot()
   with self.assertRaisesRegex(ValueError,'Unregistered attribute'):self.builder.build()
+  self.assertEqual(before,self.snapshot())
+ def assert_catalog_rejected(self,mutate):
+  self.builder.build() # Existing generated outputs must also survive validation failure.
+  p=self.root/'tools/localization/website-ar.json';data=json.loads(p.read_text())
+  mutate(data);p.write_text(json.dumps(data,ensure_ascii=False))
+  before=self.snapshot()
+  with self.assertRaisesRegex(ValueError,'runtime message'):self.builder.build()
+  self.assertEqual(before,self.snapshot())
+  shutil.copyfile(HERE/'website-ar.json',p)
+ def test_missing_runtime_message_fails_without_partial_outputs(self):
+  self.assert_catalog_rejected(lambda data:data['messages'].pop('Enter your name.'))
+ def test_invalid_runtime_message_fails_without_partial_outputs(self):
+  for value in ('', ' \n\t', None, 42, [], {}):
+   with self.subTest(value=value):
+    self.assert_catalog_rejected(lambda data:data['messages'].__setitem__('Enter your name.',value))
+ def test_runtime_call_contract_drift_fails_without_partial_outputs(self):
+  p=self.site/'assets/js/site.js';p.write_text(p.read_text()+'\nt("New runtime message");\n')
+  before=self.snapshot()
+  with self.assertRaisesRegex(ValueError,'runtime message'):self.builder.build()
+  self.assertEqual(before,self.snapshot())
+ def test_dynamic_runtime_call_fails_without_partial_outputs(self):
+  p=self.site/'assets/js/site.js';p.write_text(p.read_text()+'\nt(variable);\n')
+  before=self.snapshot()
+  with self.assertRaisesRegex(ValueError,'runtime message'):self.builder.build()
   self.assertEqual(before,self.snapshot())
 
 if __name__=='__main__':unittest.main()

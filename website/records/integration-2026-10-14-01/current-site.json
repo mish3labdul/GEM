@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "0.6.1",
+  "version": "0.6.2",
   "status": "LOCAL WORKING CANDIDATE / PENDING OWNER NATIVE LINGUISTIC PRODUCTION ACCEPTANCE",
   "base_commit": "774efd458bcfc27e9d81ab463482fd6bb83616f9",
   "input_revisions": {
@@ -8,7 +8,7 @@
     "arabic_localization_pr15": "c45743c5279e1f49540ca97d1a595ac87e2a18f3",
     "concept_discussion_pr14": "9fad24f76c7eeb2d39d20142a46a0f3119719c51"
   },
-  "current_preview": "website/previews/GEM_Website_Preview_v0.6.1_2026-10-14.zip",
+  "current_preview": "website/previews/GEM_Website_Preview_v0.6.2_2026-10-16.zip",
   "files": {
     "apple-touch-icon-180.png": "701d38e5a71c863bad7c8e3ef295ed2a690c0b5b22ab3253605b7a249c2d7a6a",
     "ar/index.html": "bd13c0ce0c0c59a67a10b35881d4013f38f723ec972cf8af20d3344178399827",
@@ -90,7 +90,7 @@
     "assets/img/wall-mounted-800.jpg": "aaa90c6bda1c530dacb34347c138a7ba1c49e61ef3289775bb290d94b298c980",
     "assets/img/wall-mounted-800.webp": "b8b058ec695205c9b5ccfe9b0da0a43b69892ae8c9e0dc2a7ce9de6130064c1e",
     "assets/js/messages-ar.js": "cb28122a90d61fb33afc69fdbbd865fd0ef15e2efd12565c09cc0a1dc4338a0e",
-    "assets/js/site.js": "bebea6875fcf71fbdfaf09ea1b9cd91b3675deb9a90ef366b0220d0aaa865693",
+    "assets/js/site.js": "7c36bfa115aef2df97ab28428aefd40e60ad8eca5a4f57016427cef36a92710e",
     "favicon-32.png": "39c08c729a09d955e5f6f84bad3b2a0b1366831a1c61ed5ad301efccbc2cad4f",
     "favicon.ico": "0dd8ed0e787de2ee9dd2001c68b2622dcfe9b349d6b878dedb6f3c02b5c2dc1e",
     "favicon.svg": "9ad0f64ed64c4561f6a0fb974f3e1f1f9784fd19172393ae63adf1988a2175f1",
@@ -98,6 +98,6 @@
     "privacy.html": "054e4ca41373806e2cad9ad32c79a5f9dbca34907909e366b946a896d4f16b45",
     "reference.html": "c17fe23bc7a9da5821a7350be9a775004e63d2296fd968b295c7164e3fd76199"
   },
-  "source_relationship": "Existing files are current derivatives of the preserved imported baseline. Arabic runtime/fonts/generator originate in PR15; refined English layout and refinement QA originate in PR16. Integration, generator and favicon corrections are locally authorized derivatives, not byte-identical branch copies. Exact path selections and source/candidate manifests are retained in local review evidence outside Git.",
+  "source_relationship": "Existing files are current derivatives of the preserved imported baseline. Arabic runtime/fonts/generator originate in PR15; refined English layout and refinement QA originate in PR16. Integration, generator and favicon corrections are locally authorized derivatives, not byte-identical branch copies. Exact path selections and source/candidate manifests are retained in local review evidence outside Git. The v0.6.2 shared runtime is a local follow-up derivative of f1217cbb51ca7d517eb314af6d1f6cf647577581 adding required-message completeness guards; current wording, generated Arabic pages and fonts are unchanged.",
   "preserved_sources": "website/records/integration-2026-10-14-01/preserved-sources.json"
 }

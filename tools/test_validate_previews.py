@@ -193,6 +193,16 @@ class PreviewIdentityTests(unittest.TestCase):
         errors = self.failures(record_text='[]')
         self.assertTrue(any('Invalid active site record' in error for error in errors), errors)
         self.assertTrue(any('Preview digest mismatch' in error for error in errors), errors)
+    def test_null_active_record_is_rejected_without_skipping_package_integrity(self):
+        for tampered_digest in (False, True):
+            with self.subTest(tampered_digest=tampered_digest):
+                if tampered_digest:
+                    self.entries[1]['sha256'] = '0' * 64
+                errors = self.failures(record_text='null')
+                self.assertIn('Invalid active site record', errors)
+                if tampered_digest:
+                    self.assertTrue(any('Preview digest mismatch' in error
+                                        for error in errors), errors)
     def test_invalid_role_type_is_reported(self):
         self.entries[1]['role'] = []
         errors = self.failures()

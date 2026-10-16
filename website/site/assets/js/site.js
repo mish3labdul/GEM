@@ -12,7 +12,24 @@
 (function () {
   "use strict";
   var isArabic = document.documentElement.lang === "ar";
-  if (isArabic && !window.GEM_AR_MESSAGES) return; /* fail closed when localized messages cannot load */
+  /* JSON array shared with the Arabic builder; translation calls must match this contract. */
+  var REQUIRED_AR_MESSAGE_KEYS = [
+    "Close", "Menu", "Choose a package.", "Enter a positive whole number of rooms.",
+    "Your choices changed. Draft the discussion request again to update it.",
+    "Remove sampling from brief", "Add sampling to brief", "Sampling selected.", "Sampling not selected.",
+    "Concept discussion for GEM", "Concept package: ", "Estimated rooms: ", "Arrival stationery interest: ",
+    "Yes", "No", "Sampling interest: ", "Availability and specifications are pending.",
+    "Concept discussion for GEM: ", "Copied to your clipboard.",
+    "Copy is not available here. The text is selected; copy it with your keyboard.",
+    "Enter your name.", "Enter an email address in the format name@example.com.",
+    "Choose what your enquiry is about.", "Tell us a little about your property or project.",
+    "Enquiry for GEM", "Name: ", "Email: ", "Organisation or property: ", "Not given", "About: ",
+    "Your details changed. Draft the enquiry again to update it."
+  ];
+  if (isArabic && (!window.GEM_AR_MESSAGES || !REQUIRED_AR_MESSAGE_KEYS.every(function (key) {
+    return Object.prototype.hasOwnProperty.call(window.GEM_AR_MESSAGES, key) &&
+      typeof window.GEM_AR_MESSAGES[key] === "string" && window.GEM_AR_MESSAGES[key].trim().length > 0;
+  }))) return; /* retain static navigation and unavailable forms for incomplete catalogs */
   var t = function (s) { return isArabic ? window.GEM_AR_MESSAGES[s] : s; };
 
   /* Owner-supplied enquiry address (WD-12). Both the enquiry form and the concept discussion request

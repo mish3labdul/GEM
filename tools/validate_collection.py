@@ -92,9 +92,10 @@ def validate_previews(root, public_files, original, check,
                 except (json.JSONDecodeError, UnicodeError):
                     check(False, 'Invalid active site record JSON')
                     current = None
-                if current is not None and not isinstance(current, dict):
-                    check(False, 'Invalid active site record')
-                    current = None
+                else:
+                    if not isinstance(current, dict):
+                        check(False, 'Invalid active site record')
+                        current = None
                 if current is not None:
                     check(current.get('schema_version') == 1, 'Unsupported active site schema')
                     check(members_valid(current.get('files')), 'Invalid active site member paths/hashes')
