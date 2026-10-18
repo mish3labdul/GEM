@@ -1,9 +1,13 @@
 # Governance and migration controls
 
+- [Repository source-of-truth review, 18 October 2026](source-of-truth-review-2026-10-18.md): canonical locations, live branch/PR snapshot and cleanup proposals; not merge authorization.
+- [Part E internal-distribution approval](parte-internal-distribution-approval-2026-10-18.md): revision 04 artifact hashes and limited permission; internally approved binaries are not published here.
+
 - [source-freeze.json](source-freeze.json): four source branches, tag/ref objects, full release metadata and attachment digests/URLs, ZIP hash and capture time.
 - [file-inventory.csv](file-inventory.csv): every inventoried source file, source scope/ref/path, destination, SHA-256, format, classification, language, restrictions, disposition and relationship.
 - [path-migration.csv](path-migration.csv): source-scoped path resolution. A repeated path across commits is not an ambiguous rename; select its source ref first.
 - [naming-rules.md](naming-rules.md): controlled names, web names and exceptions.
+- [Product naming approval, 18 October 2026](product-naming-approval-2026-10-18.md): owner-approved English collection treatment, set and programme names; commercial and production scope remains pending.
 - [limitations.md](limitations.md): current restrictions and outstanding acceptance.
 - [duplicate-report.csv](duplicate-report.csv): exact SHA-256 duplicates retained deliberately.
 - [SHA256SUMS.txt](SHA256SUMS.txt): all deliverable files except the checksum file itself and ignored machine caches.
