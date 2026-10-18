@@ -1,5 +1,7 @@
 # Governance and migration controls
 
+- [Part E revision 04 public-distribution authorization](parte-public-distribution-authorization-2026-10-18.md): narrow successor to the internal-only distribution restriction; working-edition and production gates retained.
+
 - [Repository source-of-truth review, 18 October 2026](source-of-truth-review-2026-10-18.md): canonical locations, live branch/PR snapshot and cleanup proposals; not merge authorization.
 - [Part E internal-distribution approval](parte-internal-distribution-approval-2026-10-18.md): revision 04 artifact hashes and limited permission; internally approved binaries are not published here.
 
