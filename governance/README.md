@@ -1,5 +1,8 @@
 # Governance and migration controls
 
+- [Repository source-of-truth review, 18 October 2026](source-of-truth-review-2026-10-18.md): canonical locations, live branch/PR snapshot and cleanup proposals; not merge authorization.
+- [Part E internal-distribution approval](parte-internal-distribution-approval-2026-10-18.md): revision 04 artifact hashes and limited permission; internally approved binaries are not published here.
+
 - [source-freeze.json](source-freeze.json): four source branches, tag/ref objects, full release metadata and attachment digests/URLs, ZIP hash and capture time.
 - [file-inventory.csv](file-inventory.csv): every inventoried source file, source scope/ref/path, destination, SHA-256, format, classification, language, restrictions, disposition and relationship.
 - [path-migration.csv](path-migration.csv): source-scoped path resolution. A repeated path across commits is not an ambiguous rename; select its source ref first.
