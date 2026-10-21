@@ -4,12 +4,14 @@ Ten complete static pages implement the approved fresh sitemap: Home, About GEM,
 
 ## Preview
 
+Hosted noindex preview: https://gem.mish3l.com/ar/ and https://gem.mish3l.com/en/. The owner authorized replacement of the old hosting deployment on 21 October 2026. See [deployment evidence](../records/deployment-2026-10-21/REPORT.md) and [Pages policy/manual deployment](hosting/cloudflare/README.md). CI validates this source on loopback and does not publish changes.
+
 While the preview server is running:
 
 - Arabic: http://127.0.0.1:4195/ar/
 - English: http://127.0.0.1:4195/en/
 
-This is a local interactive preview, not a publicly hosted or deployed Site. Sites native creation/deployment tools were not exposed in the building session. No Site ID, saved version, hosting manifest or deployment is claimed.
+These loopback addresses serve the local review copy. The separate hosted preview above is a Cloudflare Pages deployment; no Sites-plugin ID or publication is claimed.
 
 To restart from this directory:
 
@@ -29,6 +31,7 @@ The server binds only to loopback. `/` redirects to `/ar/` using HTTP 302. The p
 - `assets/static/`: canonical identity, fonts, licences and synchronized social assets.
 - `assets/exports/` and `assets/manifest.json`: responsive/lossless outputs and provenance/hashes.
 - `export-assets.mjs`: optional export regeneration using an existing Sharp module (`SHARP_MODULE`). No build dependency or installation required.
+- `hosting/cloudflare/`: versioned noindex/security headers and redirects, copied into every clean build.
 - `app.js`: menu, language switching, product selection and local project brief.
 - `dist/`: generated pages and self-contained assets. Serve this as the document root.
 
@@ -38,13 +41,13 @@ node build.mjs
 
 No dependencies are needed to build or serve. Original GEM artwork, font files and their licences are already included. `prepare_assets.py` is only needed to re-fetch the pinned assets and requires an authenticated/accessible GitHub CLI. Logo paths come from the brand library; font assets are reused as brand resources. No prior website markup, copy, design or sitemap was imported.
 
-For a future public build, set the verified HTTPS production origin:
+For a future metadata candidate, use an isolated copy and the confirmed HTTPS origin:
 
 ```sh
-SITE_ORIGIN=https://YOUR-CONFIRMED-DOMAIN node build.mjs
+SITE_ORIGIN=https://gem.mish3l.com node build.mjs
 ```
 
-This emits self-canonicals, reciprocal Arabic/English alternates, Arabic-default alternates, absolute social URLs, page schema, a ten-URL XML sitemap and production robots metadata. Replace the example before running; no production origin has been chosen. The preview build intentionally has noindex metadata and omits invented canonical/domain values. Do not use the local preview server for public deployment because it always sends noindex headers.
+This emits self-canonicals, reciprocal Arabic/English alternates, Arabic-default alternates, absolute social URLs, page schema, a ten-URL XML sitemap and production robots metadata. The deployed candidate remains in preview mode. Pages headers deliberately retain noindex independently of this metadata option; it is not indexing authorization. Do not replace the preserved preview or remove that policy without the separate release decision. The loopback preview server always sends noindex headers and is not the hosting process.
 
 The social PNG is included as a binary asset and preserved on rebuild. The matching SVG derives from the original GEM logo, without editing the mark.
 
@@ -58,7 +61,7 @@ No analytics or remote font calls are installed. Privacy copy describes this pre
 
 ## Publication status
 
-Code and copy are ready for review. Native Arabic linguistic acceptance, full assistive-technology and cross-browser acceptance, public privacy/contact information, commercial/SKU verification, rights acceptance and hosted deployment remain unverified. Approved product names and realistic-looking concept illustrations do not establish availability or production approval.
+The visual candidate is accepted and deployed as a noindex preview. Native Arabic linguistic acceptance, full assistive-technology/device acceptance, public privacy/contact information, commercial/SKU verification, micro favicon and rights acceptance remain open. Approved product names and realistic-looking concept illustrations do not establish availability or production approval.
 
 See `VERIFICATION.md` for the checks performed and their limits.
 
@@ -76,7 +79,7 @@ python3 qa/production-check.test.py
 The build tests use disposable directories and leave this preview unchanged. After an actual production build, validate its expected origin explicitly:
 
 ```sh
-python3 check.py --origin https://YOUR-CONFIRMED-DOMAIN
+python3 check.py --origin https://gem.mish3l.com
 ```
 
 The checker validates canonical URLs, language alternates, social URLs, robots metadata and sitemap output for the selected mode. `--http` is for the noindex preview server only; `--base-url` selects its local address.

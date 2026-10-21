@@ -50,6 +50,22 @@ class BuildChecks(unittest.TestCase):
         result = self.check(ORIGIN)
         self.assertEqual(result.returncode, 0, result.stderr)
 
+    def test_clean_build_retains_pages_preview_policy_and_redirects(self):
+        shutil.rmtree(self.root / 'dist')
+        self.build()
+        headers = self.root / 'dist/_headers'
+        redirects = self.root / 'dist/_redirects'
+        self.assertTrue(headers.is_file(), 'Clean build lost Pages noindex/form protection')
+        self.assertTrue(redirects.is_file(), 'Clean build lost Arabic default/legacy redirects')
+        text = headers.read_text()
+        self.assertIn('X-Robots-Tag: noindex, nofollow', text)
+        self.assertIn("Content-Security-Policy: form-action 'none'", text)
+        self.assertIn('X-Content-Type-Options: nosniff', text)
+        self.assertIn('Cache-Control: no-cache', text)
+        self.assertIn('/ /ar/ 302', redirects.read_text())
+        self.assertIn('/privacy.html /en/privacy/ 301', redirects.read_text())
+        self.assertIn('/ar/privacy.html /ar/privacy/ 301', redirects.read_text())
+
     def test_production_metadata_corruption_is_rejected(self):
         changes = [
             ('canonical', 'rel="canonical" href="https://example.test/en/"',

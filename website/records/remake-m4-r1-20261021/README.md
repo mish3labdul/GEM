@@ -1,5 +1,7 @@
 # Accepted bilingual remake — M4-R1
 
+**Subsequent state:** this import record captured the candidate before hosting replacement. The later [owner-authorized deployment record](../deployment-2026-10-21/REPORT.md) identifies the hosted noindex preview and retained rollback. The source/provenance and initial acceptance evidence below keep their original scope.
+
 The owner selected M2-R1, authorized M3–M5, then accepted the delivered visual candidate and asset family with **“accepted, reflect on github GEM repo”** on 21 October 2026. See [acceptance](M5/OWNER-ACCEPTANCE.md), [QA report](M5/REPORT.md), [review checklist](M5/ACCEPTANCE.md) and [asset sheet](M3/asset-family.png).
 
 | Item | Repository state |

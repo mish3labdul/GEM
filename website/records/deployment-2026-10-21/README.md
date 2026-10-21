@@ -1,0 +1,9 @@
+# Owner-authorized Pages replacement and subsequent delivery controls
+
+The owner instructed **“use gem.mish3l.com, replace old one”**. The accepted M4-R1 artifact was tested on an immutable preview, then deployed to the existing Pages production slot without changing DNS. [REPORT.md](REPORT.md), [deployment.json](deployment.json), [candidate.json](candidate.json), [live-http.json](live-http.json) and [rollback.json](rollback.json) record that completed action.
+
+The initial live browser pass had one navigation timeout; [the original result](live-browser.json) and [targeted retry](live-browser-retry.json) are retained. The retry passed, yielding 23 verified live scenarios. All 23 had passed on the [preview](preview-browser.json) before replacing the custom-domain version. Local full-size captures and the previous public homepage reference remain preserved in the source workspace; they are not duplicated here.
+
+The subsequent **“proceed”** authorized remake-specific CI and versioning of the already-live Pages configuration/deployment record, with deployments kept manual. [Hosting sources](../../remake/hosting/cloudflare/README.md) reproduce the exact 45-file hosted artifact. The new clean-build policy regression first failed because `_headers` and `_redirects` were omitted, then passed after adding them to canonical sources and copying them on every build. The new CI matrix tests Chromium and Firefox independently of the preserved older-site job.
+
+These repository changes do not redeploy, change DNS, merge PR #21, remove noindex or close native Arabic, actual AT/device, micro favicon, rights or production/supplier gates. The deployed source commit remains `cbd46be2289a6668463fbeac83af8f96e78f4883`; later repository commits add reproducibility and delivery controls, not a claim that they were already deployed.

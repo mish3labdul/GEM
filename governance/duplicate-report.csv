@@ -299,6 +299,8 @@ sha256,copies,path,disposition
 318e92a57488ba6315444a3242e2abbe27f67e0c7871ff16ef250cbd442c5425,4,website/records/qa-runs/20261011T101116Z/screenshots/index-desktop-1440-fold.png,RETAINED: provenance/history/current-use copy
 318e92a57488ba6315444a3242e2abbe27f67e0c7871ff16ef250cbd442c5425,4,website/records/qa-runs/20261011T101116Z/screenshots/init-exception-desktop-1440-fold.png,RETAINED: provenance/history/current-use copy
 318e92a57488ba6315444a3242e2abbe27f67e0c7871ff16ef250cbd442c5425,4,website/records/qa-runs/20261011T101116Z/screenshots/no-js-desktop-1440-fold.png,RETAINED: provenance/history/current-use copy
+322626a2b8b0823edd0cde9f3cf6f92591376e368d60b84c9dfc18691e222279,2,website/remake/dist/_headers,RETAINED: provenance/history/current-use copy
+322626a2b8b0823edd0cde9f3cf6f92591376e368d60b84c9dfc18691e222279,2,website/remake/hosting/cloudflare/_headers,RETAINED: provenance/history/current-use copy
 32f194b4aee9793fb7533a25972ee43f30882b59405c9a4d39e3ceb7f74242e5,8,website/records/cleanup-qa/baseline-regression/20261011T185054Z/screenshots/index-desktop-1440-full.png,RETAINED: provenance/history/current-use copy
 32f194b4aee9793fb7533a25972ee43f30882b59405c9a4d39e3ceb7f74242e5,8,website/records/cleanup-qa/corrections/20261011T185637Z/screenshots/index-1440-full.png,RETAINED: provenance/history/current-use copy
 32f194b4aee9793fb7533a25972ee43f30882b59405c9a4d39e3ceb7f74242e5,8,website/records/cleanup-qa/regression/20261011T185626Z/screenshots/index-desktop-1440-full.png,RETAINED: provenance/history/current-use copy
@@ -372,8 +374,9 @@ sha256,copies,path,disposition
 3a09598933ba8b273c6afa581a15778b96abf4bfd8c502faf528c5bc42a8849f,3,website/records/cleanup-qa/baseline-regression/20261011T185054Z/screenshots/index-breakpoint-1024-fold.png,RETAINED: provenance/history/current-use copy
 3a09598933ba8b273c6afa581a15778b96abf4bfd8c502faf528c5bc42a8849f,3,website/records/cleanup-qa/regression/20261011T185626Z/screenshots/index-breakpoint-1024-fold.png,RETAINED: provenance/history/current-use copy
 3a09598933ba8b273c6afa581a15778b96abf4bfd8c502faf528c5bc42a8849f,3,website/records/remediation-2026-10-11-01/raw-results/regression/20261011T170638Z/screenshots/index-breakpoint-1024-fold.png,RETAINED: provenance/history/current-use copy
-3a39b07629e1fa42a57e8aa14722406c86f4258ca34ec83ee4a63b47b6d3bc68,2,website/records/remake-m4-r1-20261021/M5/chromium.json,RETAINED: provenance/history/current-use copy
-3a39b07629e1fa42a57e8aa14722406c86f4258ca34ec83ee4a63b47b6d3bc68,2,website/records/remake-m4-r1-20261021/M5/firefox.json,RETAINED: provenance/history/current-use copy
+3a39b07629e1fa42a57e8aa14722406c86f4258ca34ec83ee4a63b47b6d3bc68,3,website/records/deployment-2026-10-21/preview-browser.json,RETAINED: provenance/history/current-use copy
+3a39b07629e1fa42a57e8aa14722406c86f4258ca34ec83ee4a63b47b6d3bc68,3,website/records/remake-m4-r1-20261021/M5/chromium.json,RETAINED: provenance/history/current-use copy
+3a39b07629e1fa42a57e8aa14722406c86f4258ca34ec83ee4a63b47b6d3bc68,3,website/records/remake-m4-r1-20261021/M5/firefox.json,RETAINED: provenance/history/current-use copy
 3a774abca97fb5ef563d0a0b35a7b7c8389b2a59cda6e8a8774f90500e007497,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/05_layout_matched/horizontal-beige_654x207.png,RETAINED: provenance/history/current-use copy
 3a774abca97fb5ef563d0a0b35a7b7c8389b2a59cda6e8a8774f90500e007497,2,brand/layout-derivatives/horizontal-beige_654x207.png,RETAINED: provenance/history/current-use copy
 3ab43d77d278ce15117d57b1c124523b44f5ef85419e9ce9b7d83aabdb7b1877,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol-nospark/clearspace/gem-symbol-nospark-white-clearspace-2u-1024.png,RETAINED: provenance/history/current-use copy
@@ -559,6 +562,8 @@ sha256,copies,path,disposition
 4d71cdfc604c1cee57321ea4b73fb6d1a17e8ea1cf363a926bdf179b2ec7f5d7,2,brand/working-kit/logo/horizontal/clearspace/gem-horizontal-white-clearspace-2u-1024.png,RETAINED: provenance/history/current-use copy
 4d923c472c2eaf10e8f3f1b261a39377d2bc8f8b12b02cf7951e84f2f216edc4,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/icons/avatar-400-beige-on-ink.png,RETAINED: provenance/history/current-use copy
 4d923c472c2eaf10e8f3f1b261a39377d2bc8f8b12b02cf7951e84f2f216edc4,2,brand/working-kit/icons/avatar-400-beige-on-ink.png,RETAINED: provenance/history/current-use copy
+4e65435fa0fcde6f5a0b96d3a7b0ab970ccd0386b335a9f660c5a26a3e96658a,2,website/remake/dist/_redirects,RETAINED: provenance/history/current-use copy
+4e65435fa0fcde6f5a0b96d3a7b0ab970ccd0386b335a9f660c5a26a3e96658a,2,website/remake/hosting/cloudflare/_redirects,RETAINED: provenance/history/current-use copy
 4f40afbbc9192ee37da51cf44f90af74af1f5a0ad4e9ad89b84f88f6fa938d2d,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/05_layout_matched/horizontal-black_654x207.png,RETAINED: provenance/history/current-use copy
 4f40afbbc9192ee37da51cf44f90af74af1f5a0ad4e9ad89b84f88f6fa938d2d,2,brand/layout-derivatives/horizontal-black_654x207.png,RETAINED: provenance/history/current-use copy
 4fa7c0d88cc255a044394b55b80dd2547242d14fae1bfa4ee5dfbe9b73bf69de,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol-nospark/png/gem-symbol-nospark-beige-512.png,RETAINED: provenance/history/current-use copy

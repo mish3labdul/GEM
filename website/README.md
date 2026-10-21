@@ -1,10 +1,12 @@
-# GEM website — proposed working preview v0.6.2
+# GEM website — accepted remake and preserved earlier preview
 
 ## Accepted fresh-sitemap candidate — M4-R1, 21 October 2026
 
 The owner accepted the separate [bilingual remake](remake/README.md) and requested GitHub reflection. Its editable source, asset masters, manifest and generated preview live in `remake/`; [acceptance and bounded QA](records/remake-m4-r1-20261021/README.md) record scope and remaining holds. Arabic is the default; five routes per language follow the fresh sitemap.
 
-Run `python3 website/remake/serve.py --port 4195` from the repository root. The remake server exposes **only `remake/dist`** on loopback. Never serve `website/`, source assets or records as a public root. This candidate remains noindex and has no receiving backend. It does not alter the existing `site/` or the open website/Arabic PRs; the older implementation notes below describe that preserved candidate. No release or deployment is included.
+The owner subsequently authorized replacement of the old host at [gem.mish3l.com](https://gem.mish3l.com). The accepted remake is deployed there as a noindex concept preview; see the [dated deployment/rollback record](records/deployment-2026-10-21/REPORT.md). [Versioned Pages policy and manual deployment instructions](remake/hosting/cloudflare/README.md) preserve that behaviour. CI now targets the remake separately from the older-site suites; it does not deploy.
+
+Run `python3 website/remake/serve.py --port 4195` from the repository root. The remake server exposes **only `remake/dist`** on loopback. Never serve `website/`, source assets or records as a public root. This candidate remains noindex and has no receiving backend. The existing `site/` and other website/Arabic PR branches remain preserved; the older implementation notes below describe that earlier candidate. No Git merge or new release is implied.
 
 The original imported site matched all 80 entries of `GEM_Website_Preview_2026-10-11.zip`. Changed original files are preserved byte-identically under `archive/website-pre-integration-20261014/`; unchanged original files retain their existing destinations. The ZIP SHA-256 is recorded in [source-freeze.json](../governance/source-freeze.json). Local Finder metadata is excluded. The existing post-v0.5.1 correction evidence is preserved in [records/remediation-2026-10-11-01](records/remediation-2026-10-11-01/START_HERE.md). This remains a proposed website, not a release or deployment.
 
