@@ -1,0 +1,71 @@
+[
+  {
+    "file": "hero-desktop-640.webp",
+    "bytes": 14846
+  },
+  {
+    "file": "hero-desktop-960.webp",
+    "bytes": 30066
+  },
+  {
+    "file": "hero-desktop-1280.webp",
+    "bytes": 52662
+  },
+  {
+    "file": "hero-mobile-640.webp",
+    "bytes": 28262
+  },
+  {
+    "file": "hero-mobile-960.webp",
+    "bytes": 58936
+  },
+  {
+    "file": "shampoo-source.webp",
+    "bytes": 423952,
+    "changedVisiblePixels": 0
+  },
+  {
+    "file": "conditioner-source.webp",
+    "bytes": 705972,
+    "changedVisiblePixels": 0
+  },
+  {
+    "file": "body-wash-source.webp",
+    "bytes": 651412,
+    "changedVisiblePixels": 0
+  },
+  {
+    "file": "body-lotion-source.webp",
+    "bytes": 536354,
+    "changedVisiblePixels": 0
+  },
+  {
+    "file": "hand-wash-source.webp",
+    "bytes": 487858,
+    "changedVisiblePixels": 0
+  },
+  {
+    "file": "format-room-480.webp",
+    "bytes": 7840
+  },
+  {
+    "file": "format-room-960.webp",
+    "bytes": 29320
+  },
+  {
+    "file": "format-wall-480.webp",
+    "bytes": 8914
+  },
+  {
+    "file": "format-wall-960.webp",
+    "bytes": 30718
+  },
+  {
+    "file": "format-travel-480.webp",
+    "bytes": 15694
+  },
+  {
+    "file": "format-travel-960.webp",
+    "bytes": 61676
+  }
+]

@@ -7,6 +7,7 @@ This collection distinguishes the owner-authorized V3.0 release, working brand a
 | [Released documents](documents/README.md) | Exact V3.0 release copies and token documentation; artifact-specific limitations apply |
 | [Brand library](brand/README.md) | Working artwork and catalogue; production-master acceptance pending |
 | [Website development](website/README.md) | Proposed static site, imagery, records and Chromium QA |
+| [Accepted bilingual remake](website/remake/README.md) | M4-R1 local visual candidate, source assets and Chromium/Firefox evidence; no deployment |
 | [Governance](governance/README.md) | Frozen sources, naming, migration, checksums and retained limitations |
 | [Historical archive](archive/README.md) | Original package trees; historical files are not current-use recommendations |
 | [Tools](tools/README.md) | Collection validation and website packaging |

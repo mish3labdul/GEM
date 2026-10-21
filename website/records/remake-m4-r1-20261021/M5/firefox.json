@@ -1,0 +1,94 @@
+[
+  {
+    "name": "ar: mobile menu keyboard and escape focus",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: forced colours and reduced motion controls",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: blocked script cannot submit brief",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: missing arabic font fails visibly",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: missing jost font fails visibly",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: missing inter font fails visibly",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: local brief, validation, edit, reset and download",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: clipboard denial leaves a selectable local brief",
+    "status": "PASS"
+  },
+  {
+    "name": "en: mobile menu keyboard and escape focus",
+    "status": "PASS"
+  },
+  {
+    "name": "en: forced colours and reduced motion controls",
+    "status": "PASS"
+  },
+  {
+    "name": "en: blocked script cannot submit brief",
+    "status": "PASS"
+  },
+  {
+    "name": "en: missing arabic font fails visibly",
+    "status": "PASS"
+  },
+  {
+    "name": "en: missing jost font fails visibly",
+    "status": "PASS"
+  },
+  {
+    "name": "en: missing inter font fails visibly",
+    "status": "PASS"
+  },
+  {
+    "name": "en: local brief, validation, edit, reset and download",
+    "status": "PASS"
+  },
+  {
+    "name": "en: clipboard denial leaves a selectable local brief",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: pilot foundation corrections",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: pilot product image and mobile state agree",
+    "status": "PASS"
+  },
+  {
+    "name": "ar: responsive hero artwork loads",
+    "status": "PASS"
+  },
+  {
+    "name": "en: pilot foundation corrections",
+    "status": "PASS"
+  },
+  {
+    "name": "en: pilot product image and mobile state agree",
+    "status": "PASS"
+  },
+  {
+    "name": "en: responsive hero artwork loads",
+    "status": "PASS"
+  },
+  {
+    "name": "all routes and three widths",
+    "status": "PASS"
+  }
+]

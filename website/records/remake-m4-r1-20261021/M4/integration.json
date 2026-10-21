@@ -1,0 +1,50 @@
+{
+  "revision": "M4-R1",
+  "authorization": "Approved M2-R1, including the recommended M3\u2013M5 expansion",
+  "repository": "mish3labdul/GEM",
+  "sourceRevision": "5a9ab1e887300063f23c2d5bd884f4ac486ce80d",
+  "branch": null,
+  "pullRequest": null,
+  "remoteMutation": false,
+  "snapshot": "review/milestones/M4/before-integration/gem-site",
+  "baselineFilesVerified": 41,
+  "sources": [
+    {
+      "path": "gem-site/build.mjs",
+      "sha256": "583bac0c69c93c254a56c038fa0c228995ce4b0f584293f7e488349ab109f726"
+    },
+    {
+      "path": "gem-site/app.js",
+      "sha256": "57f9de77c75356e4a3f55a45fa727ec05c170e22043c6c70dba71f14ed3a63cb"
+    },
+    {
+      "path": "gem-site/style.css",
+      "sha256": "41d4e1cbed628c0199b60e0b7620caec9e66ff60104f9d0f308062ab6f9e6ceb"
+    },
+    {
+      "path": "gem-site/pilot.css",
+      "sha256": "810ac6fd345ac7667dba7caf6a5b785736bbe11f5390e09a6477429d692aa5d3"
+    },
+    {
+      "path": "gem-site/pilot-art.mjs",
+      "sha256": "afc29126d91a700156a55b88abc79f5b11343097b7598039321eeb1e335d9085"
+    },
+    {
+      "path": "gem-site/content.mjs",
+      "sha256": "7cc6342ddbae2fbed2e7ed17edac68b71381c6368e765edfcc71d15e0621039d"
+    },
+    {
+      "path": "gem-site/check.py",
+      "sha256": "27c95fd971f0c2cf02c48fb8335cf187a859dca79d93c30630f3e456003175f1"
+    },
+    {
+      "path": "gem-site/prepare_assets.py",
+      "sha256": "db4ad57ea0ece7e31b3b5362bdf54382299ec6d997388ef239557fe1c61be3d7"
+    },
+    {
+      "path": "gem-site/export-assets.mjs",
+      "sha256": "101678ac95e71703e0fdca4d0e9f1d80a68513baa6c0715b27d2c71be131b78a"
+    }
+  ],
+  "rollback": "Preserve the candidate first; replace gem-site with before-integration/gem-site. Do not modify historical copies."
+}

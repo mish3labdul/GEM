@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ar-home-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-home-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-about-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-about-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-amenities-packaging-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-amenities-packaging-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-contact-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-contact-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-privacy-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "ar-privacy-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-home-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-home-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-about-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-about-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-amenities-packaging-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-amenities-packaging-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-contact-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-contact-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-privacy-375",
+    "width": 375,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "en-privacy-1440",
+    "width": 1440,
+    "errors": [],
+    "overflow": false
+  }
+]
