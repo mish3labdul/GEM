@@ -73,3 +73,47 @@ jobs:
       - name: Run Arabic and bilingual journey checks on loopback
         if: ${{ !cancelled() && steps.runtime.outcome == 'success' }}
         run: python3 website/qa/run_arabic_qa.py --root website/site --out-base "$RUNNER_TEMP/gem-local-qa/arabic"
+
+  remake:
+    name: Remake QA (${{ matrix.browser }})
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, firefox]
+    env:
+      BROWSER_TYPE: ${{ matrix.browser }}
+      SITE_ORIGIN: ''
+    steps:
+      - name: Check out accepted remake source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Build and check reproducible noindex preview
+        working-directory: website/remake
+        run: |
+          node build.mjs
+          python3 check.py
+          git diff --exit-code -- dist
+          test -z "$(git ls-files --others --exclude-standard -- dist)"
+      - name: Exercise disposable build and Pages policy regressions
+        run: python3 website/remake/qa/production-check.test.py
+      - name: Provision pinned browser QA outside the checkout
+        run: |
+          export PLAYWRIGHT_MODULE="$RUNNER_TEMP/gem-remake-qa/node_modules/playwright"
+          export PLAYWRIGHT_BROWSERS_PATH="$RUNNER_TEMP/gem-remake-browsers"
+          echo "PLAYWRIGHT_MODULE=$PLAYWRIGHT_MODULE" >> "$GITHUB_ENV"
+          echo "PLAYWRIGHT_BROWSERS_PATH=$PLAYWRIGHT_BROWSERS_PATH" >> "$GITHUB_ENV"
+          npm install --prefix "$RUNNER_TEMP/gem-remake-qa" --no-package-lock --ignore-scripts --no-audit --no-fund playwright@1.57.0
+          node "$PLAYWRIGHT_MODULE/cli.js" install --with-deps "$BROWSER_TYPE"
+      - name: Run remake browser regressions on loopback
+        run: node website/remake/qa/browser-regression.mjs | tee "$RUNNER_TEMP/gem-remake-$BROWSER_TYPE.json"

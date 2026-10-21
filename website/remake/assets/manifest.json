@@ -1,0 +1,239 @@
+{
+  "revision": "M3-R1",
+  "sourceRevision": "5a9ab1e887300063f23c2d5bd884f4ac486ce80d",
+  "budget": {
+    "heroExportMaxBytes": 200000,
+    "productLosslessMaxBytes": 1600000,
+    "formatExportMaxBytes": 200000,
+    "scope": "M2 measured budgets retained; original labelled artwork uses lossless encoding to preserve visible pixels."
+  },
+  "staticFiles": [
+    {
+      "file": "OFL-Inter.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "bytes": 4477,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "OFL-Jost.txt",
+      "sha256": "536533cad95838e13777663c4109b802aa662ef1ef285337f0c7f51d35682fdc",
+      "bytes": 4497,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "OFL-NotoSansArabic.txt",
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+      "bytes": 4382,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "arabic.woff2",
+      "sha256": "53ef016d12b9ecc45c12566da8a800ad51f12084f207160e5871107ac5a72995",
+      "bytes": 66280,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "inter.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "bytes": 23664,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "jost.woff2",
+      "sha256": "f94cffda16515fbb1667a2662d6b46f5610a942fd02fe88d67ff98f776288962",
+      "bytes": 9404,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "logo-ink.svg",
+      "sha256": "6abbd491846178d0fd81561686845fb3c4c07de8f5333450cd27aea7a441bebd",
+      "bytes": 5956,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "logo-white.svg",
+      "sha256": "3d2a9718291d566b23ad02c498e015e848b90a6e92dccbacfb2c2a1708fcce18",
+      "bytes": 5956,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "social.png",
+      "sha256": "00031fb826b7c104b2c895a36518dc591fa673bcd51c31d99849fcdb765dab22",
+      "bytes": 32530,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "social.svg",
+      "sha256": "7802f9578d6b792d2ce182c67450841734ba4a5ac5b0dbc5649c9ebedbadd4cb",
+      "bytes": 8170,
+      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    }
+  ],
+  "files": [
+    {
+      "file": "hero-desktop-640.webp",
+      "classification": "AI-generated concept render; not production photography",
+      "source": "source/hero-desktop-source.png",
+      "sourceSha256": "d207603dfdba5c613fd7c87418962dc872cd22e5a16917eddaa3699c3999b15d",
+      "sha256": "df9f7d587f43d3b87cf304f903102ee9ba17935c339c5df25732b1077a083af3",
+      "bytes": 14846,
+      "width": 640,
+      "height": 427
+    },
+    {
+      "file": "hero-desktop-960.webp",
+      "classification": "AI-generated concept render; not production photography",
+      "source": "source/hero-desktop-source.png",
+      "sourceSha256": "d207603dfdba5c613fd7c87418962dc872cd22e5a16917eddaa3699c3999b15d",
+      "sha256": "f4cdff2dd3ffafc92aec623b2831477674ac19a1814f4e7e1573694edc5c75d0",
+      "bytes": 30066,
+      "width": 960,
+      "height": 640
+    },
+    {
+      "file": "hero-desktop-1280.webp",
+      "classification": "AI-generated concept render; not production photography",
+      "source": "source/hero-desktop-source.png",
+      "sourceSha256": "d207603dfdba5c613fd7c87418962dc872cd22e5a16917eddaa3699c3999b15d",
+      "sha256": "84d07505dd5a4cbab00db4007edfe6b5eb1628615f053a2c9695b13d16b085d1",
+      "bytes": 52662,
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "file": "hero-mobile-640.webp",
+      "classification": "AI-generated concept render; not production photography",
+      "source": "source/hero-mobile-source.png",
+      "sourceSha256": "bb917bad109ba6ea68c3bb8e879680c495a10c38128cba4f154ee95bfb911373",
+      "sha256": "fac33244947747a537a36b258fc545e9f3037780a8743b88ce327891408f8ebb",
+      "bytes": 28262,
+      "width": 640,
+      "height": 800
+    },
+    {
+      "file": "hero-mobile-960.webp",
+      "classification": "AI-generated concept render; not production photography",
+      "source": "source/hero-mobile-source.png",
+      "sourceSha256": "bb917bad109ba6ea68c3bb8e879680c495a10c38128cba4f154ee95bfb911373",
+      "sha256": "d42aca7ae78d3659d958635474a6ad2880488e98d3ad963195c6d37439097b01",
+      "bytes": 58936,
+      "width": 960,
+      "height": 1200
+    },
+    {
+      "file": "shampoo-source.webp",
+      "width": 1263,
+      "height": 1246,
+      "classification": "Original Part D slide 4 concept study in lossless web encoding; not production artwork",
+      "source": "source/shampoo-source.png",
+      "sourceSha256": "145f91ee77c1a58a1d867c28b55dc70e07718ad94675d89382815a60c4e68c77",
+      "sha256": "28da3087d924129a646c61b469219a571a632a1537ec1b7248cd7280712f1e19",
+      "bytes": 423952,
+      "changedVisiblePixels": 0
+    },
+    {
+      "file": "conditioner-source.webp",
+      "width": 1024,
+      "height": 1536,
+      "classification": "Original Part D slide 4 concept study in lossless web encoding; not production artwork",
+      "source": "source/conditioner-source.png",
+      "sourceSha256": "13cacef258fd122c59eeda0fb150ffa5566348300be6617354926928219bd7cf",
+      "sha256": "8f63c5bff469bde6c2d66dae5d334790a8f910053a612f44fce8ede5b1ea5f3a",
+      "bytes": 705972,
+      "changedVisiblePixels": 0
+    },
+    {
+      "file": "body-wash-source.webp",
+      "width": 1024,
+      "height": 1536,
+      "classification": "Original Part D slide 4 concept study in lossless web encoding; not production artwork",
+      "source": "source/body-wash-source.png",
+      "sourceSha256": "03a7ba44522bbecccd2ddc2bbf3c07f16e514e0d4de098df02b2996a872cacf6",
+      "sha256": "2545ee029b6d659d596f419159f3769ddcaeeb03fa2634bb1c84950fa93c7215",
+      "bytes": 651412,
+      "changedVisiblePixels": 0
+    },
+    {
+      "file": "body-lotion-source.webp",
+      "width": 1024,
+      "height": 1536,
+      "classification": "Original Part D slide 4 concept study in lossless web encoding; not production artwork",
+      "source": "source/body-lotion-source.png",
+      "sourceSha256": "b973c2119891c25e12ed29c6217a9affdc9879800ca91755e61db1cfbd0c5462",
+      "sha256": "c2bcb95fbea01bc8ad980714cdbaa76e78a4d75a43180034fd0438cf581e015d",
+      "bytes": 536354,
+      "changedVisiblePixels": 0
+    },
+    {
+      "file": "hand-wash-source.webp",
+      "width": 1024,
+      "height": 1536,
+      "classification": "Original Part D slide 4 concept study in lossless web encoding; not production artwork",
+      "source": "source/hand-wash-source.png",
+      "sourceSha256": "c4008b27d503f02ef878ca0bbbd70349642abb0172f05e482a65414fa869298e",
+      "sha256": "b173eb5edb9d9ac814ab8a8a2a277aabc1953b9526e963d6d67669a00e176d9c",
+      "bytes": 487858,
+      "changedVisiblePixels": 0
+    },
+    {
+      "file": "format-room-480.webp",
+      "width": 480,
+      "height": 320,
+      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "source": "source/format-room-source.png",
+      "sourceSha256": "e6598c0d8038cd1a8c4187e1f111b70b4224f665229a36d68de5f8fa93fb435c",
+      "sha256": "fcaf782cb7f99ed3ae88347fb75b2cc25335df25da03535dc8aba8820a9b304b",
+      "bytes": 7840
+    },
+    {
+      "file": "format-room-960.webp",
+      "width": 960,
+      "height": 640,
+      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "source": "source/format-room-source.png",
+      "sourceSha256": "e6598c0d8038cd1a8c4187e1f111b70b4224f665229a36d68de5f8fa93fb435c",
+      "sha256": "8e8d67c7b0d96817724310c29069104871e43b309eed77062b78327a30f5acdf",
+      "bytes": 29320
+    },
+    {
+      "file": "format-wall-480.webp",
+      "width": 480,
+      "height": 320,
+      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "source": "source/format-wall-source.png",
+      "sourceSha256": "d6102b67c8509ea96e314c883d8725c1744166b7a2c7c38895337bf99a7b71d7",
+      "sha256": "58910de50eb86d825a90b4f80579ae409b3f742942284c07b1cb94fc905f76a4",
+      "bytes": 8914
+    },
+    {
+      "file": "format-wall-960.webp",
+      "width": 960,
+      "height": 640,
+      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "source": "source/format-wall-source.png",
+      "sourceSha256": "d6102b67c8509ea96e314c883d8725c1744166b7a2c7c38895337bf99a7b71d7",
+      "sha256": "e51247abd31c34eee937b03beb2a4d730f9d06bdec6df3fc13c0b9d7c7be6073",
+      "bytes": 30718
+    },
+    {
+      "file": "format-travel-480.webp",
+      "width": 480,
+      "height": 320,
+      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "source": "source/format-travel-source.png",
+      "sourceSha256": "274e622e7ee667bfbf4cff5bacaa3fd413f472aa718b7db8a864636b968b1b6c",
+      "sha256": "9eb85c70afcfba30ba915062f0f256a670d34a602fc2b721d908cfe18d3a8a52",
+      "bytes": 15694
+    },
+    {
+      "file": "format-travel-960.webp",
+      "width": 960,
+      "height": 640,
+      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "source": "source/format-travel-source.png",
+      "sourceSha256": "274e622e7ee667bfbf4cff5bacaa3fd413f472aa718b7db8a864636b968b1b6c",
+      "sha256": "16313c51b42b38cd913ccfd1e98358161fe07eaf8f7d0baa17bafdcfc3ec6d45",
+      "bytes": 61676
+    }
+  ]
+}

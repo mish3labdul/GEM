@@ -1,0 +1,390 @@
+{
+  "candidate": "M4-R1",
+  "sourceRevision": "5a9ab1e887300063f23c2d5bd884f4ac486ce80d",
+  "ownerDecision": "accepted, reflect on github GEM repo",
+  "branch": "codex/gem-remake-m4-r1-20261021",
+  "targetBranch": "main",
+  "mode": "Separate source candidate; existing website/site and released artifacts preserved",
+  "files": [
+    {
+      "path": "IMPLEMENTATION.md",
+      "sha256": "f15c28cc1ce222674cfdc195f069225f3a777a4fdf90c228050ec5fe9239d195"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3a32b3ce6735318b6599a65986b09870b590dbefcf7cacf4c77b3fee4468d9a1"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "405bc877552ac0853c319616dd319a7458f10a12df56677c2e3fb0ec0b00237e"
+    },
+    {
+      "path": "app.js",
+      "sha256": "57f9de77c75356e4a3f55a45fa727ec05c170e22043c6c70dba71f14ed3a63cb"
+    },
+    {
+      "path": "assets/exports/body-lotion-source.webp",
+      "sha256": "c2bcb95fbea01bc8ad980714cdbaa76e78a4d75a43180034fd0438cf581e015d"
+    },
+    {
+      "path": "assets/exports/body-wash-source.webp",
+      "sha256": "2545ee029b6d659d596f419159f3769ddcaeeb03fa2634bb1c84950fa93c7215"
+    },
+    {
+      "path": "assets/exports/conditioner-source.webp",
+      "sha256": "8f63c5bff469bde6c2d66dae5d334790a8f910053a612f44fce8ede5b1ea5f3a"
+    },
+    {
+      "path": "assets/exports/format-room-480.webp",
+      "sha256": "fcaf782cb7f99ed3ae88347fb75b2cc25335df25da03535dc8aba8820a9b304b"
+    },
+    {
+      "path": "assets/exports/format-room-960.webp",
+      "sha256": "8e8d67c7b0d96817724310c29069104871e43b309eed77062b78327a30f5acdf"
+    },
+    {
+      "path": "assets/exports/format-travel-480.webp",
+      "sha256": "9eb85c70afcfba30ba915062f0f256a670d34a602fc2b721d908cfe18d3a8a52"
+    },
+    {
+      "path": "assets/exports/format-travel-960.webp",
+      "sha256": "16313c51b42b38cd913ccfd1e98358161fe07eaf8f7d0baa17bafdcfc3ec6d45"
+    },
+    {
+      "path": "assets/exports/format-wall-480.webp",
+      "sha256": "58910de50eb86d825a90b4f80579ae409b3f742942284c07b1cb94fc905f76a4"
+    },
+    {
+      "path": "assets/exports/format-wall-960.webp",
+      "sha256": "e51247abd31c34eee937b03beb2a4d730f9d06bdec6df3fc13c0b9d7c7be6073"
+    },
+    {
+      "path": "assets/exports/hand-wash-source.webp",
+      "sha256": "b173eb5edb9d9ac814ab8a8a2a277aabc1953b9526e963d6d67669a00e176d9c"
+    },
+    {
+      "path": "assets/exports/hero-desktop-1280.webp",
+      "sha256": "84d07505dd5a4cbab00db4007edfe6b5eb1628615f053a2c9695b13d16b085d1"
+    },
+    {
+      "path": "assets/exports/hero-desktop-640.webp",
+      "sha256": "df9f7d587f43d3b87cf304f903102ee9ba17935c339c5df25732b1077a083af3"
+    },
+    {
+      "path": "assets/exports/hero-desktop-960.webp",
+      "sha256": "f4cdff2dd3ffafc92aec623b2831477674ac19a1814f4e7e1573694edc5c75d0"
+    },
+    {
+      "path": "assets/exports/hero-mobile-640.webp",
+      "sha256": "fac33244947747a537a36b258fc545e9f3037780a8743b88ce327891408f8ebb"
+    },
+    {
+      "path": "assets/exports/hero-mobile-960.webp",
+      "sha256": "d42aca7ae78d3659d958635474a6ad2880488e98d3ad963195c6d37439097b01"
+    },
+    {
+      "path": "assets/exports/shampoo-source.webp",
+      "sha256": "28da3087d924129a646c61b469219a571a632a1537ec1b7248cd7280712f1e19"
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "b3e58a29f36539d4cf72631d727323973e82d27ce1d40a5a230cec8835a7b3f9"
+    },
+    {
+      "path": "assets/source/body-lotion-source.png",
+      "sha256": "b973c2119891c25e12ed29c6217a9affdc9879800ca91755e61db1cfbd0c5462"
+    },
+    {
+      "path": "assets/source/body-wash-source.png",
+      "sha256": "03a7ba44522bbecccd2ddc2bbf3c07f16e514e0d4de098df02b2996a872cacf6"
+    },
+    {
+      "path": "assets/source/conditioner-source.png",
+      "sha256": "13cacef258fd122c59eeda0fb150ffa5566348300be6617354926928219bd7cf"
+    },
+    {
+      "path": "assets/source/format-room-source.png",
+      "sha256": "e6598c0d8038cd1a8c4187e1f111b70b4224f665229a36d68de5f8fa93fb435c"
+    },
+    {
+      "path": "assets/source/format-travel-source.png",
+      "sha256": "274e622e7ee667bfbf4cff5bacaa3fd413f472aa718b7db8a864636b968b1b6c"
+    },
+    {
+      "path": "assets/source/format-wall-source.png",
+      "sha256": "d6102b67c8509ea96e314c883d8725c1744166b7a2c7c38895337bf99a7b71d7"
+    },
+    {
+      "path": "assets/source/hand-wash-source.png",
+      "sha256": "c4008b27d503f02ef878ca0bbbd70349642abb0172f05e482a65414fa869298e"
+    },
+    {
+      "path": "assets/source/hero-desktop-source.png",
+      "sha256": "d207603dfdba5c613fd7c87418962dc872cd22e5a16917eddaa3699c3999b15d"
+    },
+    {
+      "path": "assets/source/hero-mobile-source.png",
+      "sha256": "bb917bad109ba6ea68c3bb8e879680c495a10c38128cba4f154ee95bfb911373"
+    },
+    {
+      "path": "assets/source/shampoo-source.png",
+      "sha256": "145f91ee77c1a58a1d867c28b55dc70e07718ad94675d89382815a60c4e68c77"
+    },
+    {
+      "path": "assets/static/OFL-Inter.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "assets/static/OFL-Jost.txt",
+      "sha256": "536533cad95838e13777663c4109b802aa662ef1ef285337f0c7f51d35682fdc"
+    },
+    {
+      "path": "assets/static/OFL-NotoSansArabic.txt",
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+    },
+    {
+      "path": "assets/static/arabic.woff2",
+      "sha256": "53ef016d12b9ecc45c12566da8a800ad51f12084f207160e5871107ac5a72995"
+    },
+    {
+      "path": "assets/static/inter.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "assets/static/jost.woff2",
+      "sha256": "f94cffda16515fbb1667a2662d6b46f5610a942fd02fe88d67ff98f776288962"
+    },
+    {
+      "path": "assets/static/logo-ink.svg",
+      "sha256": "6abbd491846178d0fd81561686845fb3c4c07de8f5333450cd27aea7a441bebd"
+    },
+    {
+      "path": "assets/static/logo-white.svg",
+      "sha256": "3d2a9718291d566b23ad02c498e015e848b90a6e92dccbacfb2c2a1708fcce18"
+    },
+    {
+      "path": "assets/static/social.png",
+      "sha256": "00031fb826b7c104b2c895a36518dc591fa673bcd51c31d99849fcdb765dab22"
+    },
+    {
+      "path": "assets/static/social.svg",
+      "sha256": "7802f9578d6b792d2ce182c67450841734ba4a5ac5b0dbc5649c9ebedbadd4cb"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "583bac0c69c93c254a56c038fa0c228995ce4b0f584293f7e488349ab109f726"
+    },
+    {
+      "path": "check.py",
+      "sha256": "27c95fd971f0c2cf02c48fb8335cf187a859dca79d93c30630f3e456003175f1"
+    },
+    {
+      "path": "content.mjs",
+      "sha256": "7cc6342ddbae2fbed2e7ed17edac68b71381c6368e765edfcc71d15e0621039d"
+    },
+    {
+      "path": "dist/404.html",
+      "sha256": "1c29bccca4b472cd38e73b323e03d32ba912ebcf3a1eb568f9c2da2d4ff7813b"
+    },
+    {
+      "path": "dist/app.js",
+      "sha256": "57f9de77c75356e4a3f55a45fa727ec05c170e22043c6c70dba71f14ed3a63cb"
+    },
+    {
+      "path": "dist/ar/about/index.html",
+      "sha256": "78e63254da72e1a12bd83c29f85107e4f3367c8a26a2f40bc424cac5bffc339b"
+    },
+    {
+      "path": "dist/ar/amenities-packaging/index.html",
+      "sha256": "a2e997f39aed24cc21f88f7c3605c549c97bcf2b29ff6741a0df84a4ffabfea6"
+    },
+    {
+      "path": "dist/ar/contact/index.html",
+      "sha256": "eb0539023f795ab58252ce85247c18a97b4a712a2711092271aff58a9cfc2fd9"
+    },
+    {
+      "path": "dist/ar/index.html",
+      "sha256": "191df8dbb4987ced19d57a12642a1c08cc080dd0fb89a742ea1cc080ac6e8708"
+    },
+    {
+      "path": "dist/ar/privacy/index.html",
+      "sha256": "761c69a27f00671ba0188675a4a072ed8906bacc2f08387a1a82a79631948f73"
+    },
+    {
+      "path": "dist/assets/OFL-Inter.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "dist/assets/OFL-Jost.txt",
+      "sha256": "536533cad95838e13777663c4109b802aa662ef1ef285337f0c7f51d35682fdc"
+    },
+    {
+      "path": "dist/assets/OFL-NotoSansArabic.txt",
+      "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+    },
+    {
+      "path": "dist/assets/arabic.woff2",
+      "sha256": "53ef016d12b9ecc45c12566da8a800ad51f12084f207160e5871107ac5a72995"
+    },
+    {
+      "path": "dist/assets/body-lotion-source.webp",
+      "sha256": "c2bcb95fbea01bc8ad980714cdbaa76e78a4d75a43180034fd0438cf581e015d"
+    },
+    {
+      "path": "dist/assets/body-wash-source.webp",
+      "sha256": "2545ee029b6d659d596f419159f3769ddcaeeb03fa2634bb1c84950fa93c7215"
+    },
+    {
+      "path": "dist/assets/conditioner-source.webp",
+      "sha256": "8f63c5bff469bde6c2d66dae5d334790a8f910053a612f44fce8ede5b1ea5f3a"
+    },
+    {
+      "path": "dist/assets/format-room-480.webp",
+      "sha256": "fcaf782cb7f99ed3ae88347fb75b2cc25335df25da03535dc8aba8820a9b304b"
+    },
+    {
+      "path": "dist/assets/format-room-960.webp",
+      "sha256": "8e8d67c7b0d96817724310c29069104871e43b309eed77062b78327a30f5acdf"
+    },
+    {
+      "path": "dist/assets/format-travel-480.webp",
+      "sha256": "9eb85c70afcfba30ba915062f0f256a670d34a602fc2b721d908cfe18d3a8a52"
+    },
+    {
+      "path": "dist/assets/format-travel-960.webp",
+      "sha256": "16313c51b42b38cd913ccfd1e98358161fe07eaf8f7d0baa17bafdcfc3ec6d45"
+    },
+    {
+      "path": "dist/assets/format-wall-480.webp",
+      "sha256": "58910de50eb86d825a90b4f80579ae409b3f742942284c07b1cb94fc905f76a4"
+    },
+    {
+      "path": "dist/assets/format-wall-960.webp",
+      "sha256": "e51247abd31c34eee937b03beb2a4d730f9d06bdec6df3fc13c0b9d7c7be6073"
+    },
+    {
+      "path": "dist/assets/hand-wash-source.webp",
+      "sha256": "b173eb5edb9d9ac814ab8a8a2a277aabc1953b9526e963d6d67669a00e176d9c"
+    },
+    {
+      "path": "dist/assets/hero-desktop-1280.webp",
+      "sha256": "84d07505dd5a4cbab00db4007edfe6b5eb1628615f053a2c9695b13d16b085d1"
+    },
+    {
+      "path": "dist/assets/hero-desktop-640.webp",
+      "sha256": "df9f7d587f43d3b87cf304f903102ee9ba17935c339c5df25732b1077a083af3"
+    },
+    {
+      "path": "dist/assets/hero-desktop-960.webp",
+      "sha256": "f4cdff2dd3ffafc92aec623b2831477674ac19a1814f4e7e1573694edc5c75d0"
+    },
+    {
+      "path": "dist/assets/hero-mobile-640.webp",
+      "sha256": "fac33244947747a537a36b258fc545e9f3037780a8743b88ce327891408f8ebb"
+    },
+    {
+      "path": "dist/assets/hero-mobile-960.webp",
+      "sha256": "d42aca7ae78d3659d958635474a6ad2880488e98d3ad963195c6d37439097b01"
+    },
+    {
+      "path": "dist/assets/inter.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "dist/assets/jost.woff2",
+      "sha256": "f94cffda16515fbb1667a2662d6b46f5610a942fd02fe88d67ff98f776288962"
+    },
+    {
+      "path": "dist/assets/logo-ink.svg",
+      "sha256": "6abbd491846178d0fd81561686845fb3c4c07de8f5333450cd27aea7a441bebd"
+    },
+    {
+      "path": "dist/assets/logo-white.svg",
+      "sha256": "3d2a9718291d566b23ad02c498e015e848b90a6e92dccbacfb2c2a1708fcce18"
+    },
+    {
+      "path": "dist/assets/shampoo-source.webp",
+      "sha256": "28da3087d924129a646c61b469219a571a632a1537ec1b7248cd7280712f1e19"
+    },
+    {
+      "path": "dist/assets/social.png",
+      "sha256": "00031fb826b7c104b2c895a36518dc591fa673bcd51c31d99849fcdb765dab22"
+    },
+    {
+      "path": "dist/assets/social.svg",
+      "sha256": "7802f9578d6b792d2ce182c67450841734ba4a5ac5b0dbc5649c9ebedbadd4cb"
+    },
+    {
+      "path": "dist/en/about/index.html",
+      "sha256": "3aeedd0ae7401fc6698aecc8200cef76a3d78fea487d41811c1cef14a1aa08d2"
+    },
+    {
+      "path": "dist/en/amenities-packaging/index.html",
+      "sha256": "b40a9c7a816776edc5c293025e61edc16134d13e33320fca7f0a25ffb4f50df2"
+    },
+    {
+      "path": "dist/en/contact/index.html",
+      "sha256": "e3282c21e8f1354bfa34ddeb484eb9e74e538533ad4e3f8b8e584a355a4f499a"
+    },
+    {
+      "path": "dist/en/index.html",
+      "sha256": "496b031712287390350170bae98900d4e65b51d31182ba87802fb7f8afd539ca"
+    },
+    {
+      "path": "dist/en/privacy/index.html",
+      "sha256": "2bebd60397d291e6cd790dfd40bfa977ea9dd736c3f562fbdbee4cb59d267005"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "sha256": "6abbd491846178d0fd81561686845fb3c4c07de8f5333450cd27aea7a441bebd"
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "22218dbc977a8f96f181b15fdd73964aa1408bc3e07a1a04cac7a66ca1a1ad6a"
+    },
+    {
+      "path": "dist/pilot.css",
+      "sha256": "810ac6fd345ac7667dba7caf6a5b785736bbe11f5390e09a6477429d692aa5d3"
+    },
+    {
+      "path": "dist/robots.txt",
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "dist/style.css",
+      "sha256": "41d4e1cbed628c0199b60e0b7620caec9e66ff60104f9d0f308062ab6f9e6ceb"
+    },
+    {
+      "path": "export-assets.mjs",
+      "sha256": "e970ec55f69dc69b2ea3afee49869a008b281c9db6a4006a517c53094b314152"
+    },
+    {
+      "path": "pilot-art.mjs",
+      "sha256": "afc29126d91a700156a55b88abc79f5b11343097b7598039321eeb1e335d9085"
+    },
+    {
+      "path": "pilot.css",
+      "sha256": "810ac6fd345ac7667dba7caf6a5b785736bbe11f5390e09a6477429d692aa5d3"
+    },
+    {
+      "path": "prepare_assets.py",
+      "sha256": "db4ad57ea0ece7e31b3b5362bdf54382299ec6d997388ef239557fe1c61be3d7"
+    },
+    {
+      "path": "qa/browser-regression.mjs",
+      "sha256": "5bc464ab9f3e645acf26c2396be0d691ce1781c6efdf0828b49365ee37094b58"
+    },
+    {
+      "path": "qa/production-check.test.py",
+      "sha256": "5a57728a7a31a9af720e505c079b1e470c93eaba62b557c17481d20adc02c90c"
+    },
+    {
+      "path": "serve.py",
+      "sha256": "2f05fa6d5b7b18751068bf73fc81578ded1a32af3f54945ec12812b659e7de7f"
+    },
+    {
+      "path": "style.css",
+      "sha256": "41d4e1cbed628c0199b60e0b7620caec9e66ff60104f9d0f308062ab6f9e6ceb"
+    }
+  ]
+}

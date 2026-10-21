@@ -1,0 +1,51 @@
+/* Approved M1 foundations and M2 visual pilot. No changes to master logo artwork. */
+:root { --essential-border: #12171d; }
+h1, h2, h3 { letter-spacing: 0; }
+.logo, .footer-logo { display: inline-flex; align-items: center; min-height: 44px; }
+.footer-logo { width: fit-content; }
+.site-footer .language { font-size: 14px; min-height: 44px; display: inline-flex; align-items: flex-start; }
+.form-privacy a { display: inline-flex; align-items: center; min-height: 44px; }
+.field input, .field select, .field textarea, #brief-text { border-color: var(--essential-border); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible,
+textarea:focus-visible, summary:focus-visible { outline-offset: 2px; }
+bdi[lang=en] { display: inline-block; white-space: nowrap; }
+
+.hero { min-height: 650px; }
+.hero > .hero-art { padding-top: 0; }
+.hero-art picture { display: block; flex: 1; min-height: 0; position: relative; }
+.hero-art picture img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 35% center; position: absolute; inset: 0; }
+.art figcaption { font-size: 13px; line-height: 1.7; padding: 14px 24px; }
+.hero-art figcaption { background: var(--beige); }
+
+.pilot-selection { margin-top: 36px; font-size: 14px; }
+.pilot-selection strong { font-weight: 400; }
+.product-explorer { margin-top: 16px; }
+.product-stage { min-width: 0; }
+.product-art { background: white; border-block: 1px solid var(--line); }
+.product-visual { height: 480px; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+#product-image { display: block; width: 100%; height: 100%; object-fit: contain; }
+.format-art img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+.product-art figcaption { background: white; }
+.product-caption h3 { font-family: Inter, sans-serif; font-size: 24px; }
+html[dir=rtl] .product-caption h3 { font-family: Arabic, sans-serif; }
+.product-caption .disclosure, .format-text .disclosure { font-size: 13px !important; }
+.formats figcaption { font-size: 12px; }
+
+@media (max-width: 760px) {
+  .logo, .logo img { width: 120px; min-width: 120px; }
+  .hero-art picture { flex: none; aspect-ratio: 4 / 5; }
+  .hero-art picture img { object-position: center; }
+  .hero-copy { padding-block: 40px; }
+  .hero .signature { margin-top: 32px; }
+  .art figcaption { padding: 12px 24px; }
+  .footer-links { gap: 20px; }
+  .pilot-selection { margin-top: 24px; }
+  .product-explorer { gap: 24px; }
+  .product-list { display: flex; overflow-x: auto; align-self: stretch; max-width: 100%; border-top: 0; border-bottom: 1px solid var(--line); scroll-padding-inline: 8px; }
+  .product-list button { width: auto; min-width: 126px; flex: 0 0 auto; padding: 14px 16px; gap: 8px; border-bottom: 0; border-inline-end: 1px solid var(--line); min-height: 60px; }
+  .product-list button span:nth-child(2) { font-size: 17px; }
+  html[dir=rtl] .product-list button span:nth-child(2) { font-size: 17px; }
+  .product-list .index, .product-list button span:last-child { display: none; }
+  .product-visual { height: 400px; }
+  .product-caption { padding-top: 20px; }
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "name": "ar-home-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 37
+      }
+    ]
+  },
+  {
+    "name": "ar-home-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 221
+      }
+    ]
+  },
+  {
+    "name": "ar-home-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "ar-home-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 7
+      }
+    ]
+  },
+  {
+    "name": "ar-about-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 31
+      }
+    ]
+  },
+  {
+    "name": "ar-about-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 150
+      }
+    ]
+  },
+  {
+    "name": "ar-about-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "ar-about-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 7
+      }
+    ]
+  },
+  {
+    "name": "ar-amenities-packaging-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "ar-amenities-packaging-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 243
+      }
+    ]
+  },
+  {
+    "name": "ar-amenities-packaging-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "ar-amenities-packaging-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 7
+      }
+    ]
+  },
+  {
+    "name": "ar-contact-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 24
+      }
+    ]
+  },
+  {
+    "name": "ar-contact-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 109
+      }
+    ]
+  },
+  {
+    "name": "ar-contact-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "ar-contact-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 7
+      }
+    ]
+  },
+  {
+    "name": "ar-privacy-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 19
+      }
+    ]
+  },
+  {
+    "name": "ar-privacy-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 121
+      }
+    ]
+  },
+  {
+    "name": "ar-privacy-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "ar-privacy-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 7
+      }
+    ]
+  },
+  {
+    "name": "en-home-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 36
+      }
+    ]
+  },
+  {
+    "name": "en-home-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 217
+      }
+    ]
+  },
+  {
+    "name": "en-home-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "en-home-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 10
+      }
+    ]
+  },
+  {
+    "name": "en-about-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "en-about-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 162
+      }
+    ]
+  },
+  {
+    "name": "en-about-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "en-about-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 10
+      }
+    ]
+  },
+  {
+    "name": "en-amenities-packaging-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 38
+      }
+    ]
+  },
+  {
+    "name": "en-amenities-packaging-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 214
+      }
+    ]
+  },
+  {
+    "name": "en-amenities-packaging-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "en-amenities-packaging-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 10
+      }
+    ]
+  },
+  {
+    "name": "en-contact-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 24
+      }
+    ]
+  },
+  {
+    "name": "en-contact-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 141
+      }
+    ]
+  },
+  {
+    "name": "en-contact-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "en-contact-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 10
+      }
+    ]
+  },
+  {
+    "name": "en-privacy-1440",
+    "selector": "h1",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 37
+      }
+    ]
+  },
+  {
+    "name": "en-privacy-1440",
+    "selector": ".lead",
+    "fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular",
+        "isCustomFont": true,
+        "glyphCount": 96
+      }
+    ]
+  },
+  {
+    "name": "en-privacy-1440",
+    "selector": ".signature",
+    "fonts": [
+      {
+        "familyName": "Jost",
+        "postScriptName": "Jost-Regular",
+        "isCustomFont": true,
+        "glyphCount": 34
+      }
+    ]
+  },
+  {
+    "name": "en-privacy-1440",
+    "selector": ".language",
+    "fonts": [
+      {
+        "familyName": "Noto Sans Arabic",
+        "postScriptName": "NotoSansArabic-Regular",
+        "isCustomFont": true,
+        "glyphCount": 10
+      }
+    ]
+  }
+]

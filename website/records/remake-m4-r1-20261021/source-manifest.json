@@ -1,0 +1,147 @@
+{
+  "repository": "mish3labdul/GEM",
+  "revision": "5a9ab1e887300063f23c2d5bd884f4ac486ce80d",
+  "selection": "Brand documents and master logo assets only. Historical website versions excluded.",
+  "files": [
+    {
+      "repository_path": "archive/baseline-v3.0/GEM_V3.0_FA01_Final_Release_Authorization/04_FA01_Final_Owner_Decisions.csv",
+      "git_blob": "ff27415fb52aad083f1284b4b67843271eb45766",
+      "sha256": "45f20c50825cc38e8786ccc48c25d335406133adb8b6a0447b6c8a603c9e7743",
+      "bytes": 5224,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/archive/baseline-v3.0/GEM_V3.0_FA01_Final_Release_Authorization/04_FA01_Final_Owner_Decisions.csv"
+    },
+    {
+      "repository_path": "archive/baseline-v3.0/GEM_V3.0_FA01_Final_Release_Authorization/05b_FA01_Gate_Disposition_Register.csv",
+      "git_blob": "b10f288718fe73e72eb4ad54c80640a104c6f5e9",
+      "sha256": "d6796382156812070073fd397883c6b60f85500901ae2b49a22698d7695c9e7e",
+      "bytes": 4691,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/archive/baseline-v3.0/GEM_V3.0_FA01_Final_Release_Authorization/05b_FA01_Gate_Disposition_Register.csv"
+    },
+    {
+      "repository_path": "brand/working-kit/logo/horizontal/svg/gem-horizontal-ink.svg",
+      "git_blob": "fab772e56da84aed48412d2bb5e902b05277380d",
+      "sha256": "6abbd491846178d0fd81561686845fb3c4c07de8f5333450cd27aea7a441bebd",
+      "bytes": 5956,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/brand/working-kit/logo/horizontal/svg/gem-horizontal-ink.svg"
+    },
+    {
+      "repository_path": "brand/working-kit/logo/horizontal/svg/gem-horizontal-white.svg",
+      "git_blob": "df244e15502d10adb87491ec3af42f0b5667c01b",
+      "sha256": "3d2a9718291d566b23ad02c498e015e848b90a6e92dccbacfb2c2a1708fcce18",
+      "bytes": 5956,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/brand/working-kit/logo/horizontal/svg/gem-horizontal-white.svg"
+    },
+    {
+      "repository_path": "brand/working-kit/logo/metrics.json",
+      "git_blob": "0246befd022303b42955fda5868ecccd1cc045b1",
+      "sha256": "42ffa013d2155f4b2decbd2049055318646b27c4e7a3ab4a7cf47876c6b7e145",
+      "bytes": 502,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/brand/working-kit/logo/metrics.json"
+    },
+    {
+      "repository_path": "brand/working-kit/logo/symbol/svg/gem-symbol-ink.svg",
+      "git_blob": "93583003a5ceb667ea78fa80108494f1566b83ee",
+      "sha256": "455fc76a158f4d15abf1fef33ce826dfaed529de80869bbef78f9ad05d23ebf5",
+      "bytes": 3703,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/brand/working-kit/logo/symbol/svg/gem-symbol-ink.svg"
+    },
+    {
+      "repository_path": "documents/README.md",
+      "git_blob": "e995856660df8c9922eb8a314c663cd45691cd79",
+      "sha256": "01728a9516d4096db3450a8fd4bd7f3dd4c2f0182a31e30b6832df044edbc605",
+      "bytes": 1876,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/README.md"
+    },
+    {
+      "repository_path": "documents/released/v3.0/amenities-concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "git_blob": "f8f86d581755542f2ac60b0c7d09c3cdba427b43",
+      "sha256": "15f6685e3339330ff65e4b97d413fbef93353a387bfcdd1ad3d359d889f12d9b",
+      "bytes": 29078473,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/released/v3.0/amenities-concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx"
+    },
+    {
+      "repository_path": "documents/released/v3.0/brand-assets-reference/README.md",
+      "git_blob": "bd6edbe59a169f1c5954d4ca1730dd4cb447b184",
+      "sha256": "d49d0e4991d5f9f3d2da76a935f5178b1cdac4fa6a4babafbf4a2c776bc6eef7",
+      "bytes": 883,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/released/v3.0/brand-assets-reference/README.md"
+    },
+    {
+      "repository_path": "documents/released/v3.0/brand-guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx",
+      "git_blob": "8aa11fb6571cbde3708e6dd7c9021b292f727959",
+      "sha256": "ec7152f6e9075091114b97ea6c23edb4b00c0fa3f948b9e80d909fb63b1b0fb3",
+      "bytes": 8411328,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/released/v3.0/brand-guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx"
+    },
+    {
+      "repository_path": "documents/released/v3.0/digital-design-system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx",
+      "git_blob": "d1b6075cbf5a4635aeea7fa22077f212f5a18cd3",
+      "sha256": "b537ead6a9831d2bc9ab10f0a15499e7727b852f37275795923c61f27660c4e4",
+      "bytes": 161424,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/released/v3.0/digital-design-system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx"
+    },
+    {
+      "repository_path": "documents/released/v3.0/production-standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx",
+      "git_blob": "fd77911634527566dfcf39e29ebd4edb1d7be2ea",
+      "sha256": "ca0afb799381d43ad7dced73e97bac2121e1f84e6a430aac216e87a232297d5e",
+      "bytes": 950957,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/released/v3.0/production-standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx"
+    },
+    {
+      "repository_path": "documents/released/v3.0/release-index/RELEASE_INDEX.md",
+      "git_blob": "a641cde56bad43464567402c8c6c067307171ee2",
+      "sha256": "e970de6de5c2506bc0c0ef798344ac8a7fb4631aedd1e8c0e4b007cf0e95f573",
+      "bytes": 1877,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/released/v3.0/release-index/RELEASE_INDEX.md"
+    },
+    {
+      "repository_path": "documents/released/v3.0/tokens/gem-tokens.v3.0.json",
+      "git_blob": "82a173e2b0b73e541b52bbe15f76c6f0892ae5d2",
+      "sha256": "c629ac4508e426f7dcc1140743333d217c721a2dfcc1549b0c215b0a31dfe8c0",
+      "bytes": 25068,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/released/v3.0/tokens/gem-tokens.v3.0.json"
+    },
+    {
+      "repository_path": "documents/working/product-line-guidelines-parte/GEM_AP_PLG_working_r04.pdf",
+      "git_blob": "d3ba5f9b76812a6f1d39551db9b53c31d81623b9",
+      "sha256": "29b79ebd4693af7c3e584a5cfce2f06180d0cb4514931f8fbe433708a676b12d",
+      "bytes": 394731,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/working/product-line-guidelines-parte/GEM_AP_PLG_working_r04.pdf"
+    },
+    {
+      "repository_path": "documents/working/product-line-guidelines-parte/GEM_AP_PLG_working_r04.pptx",
+      "git_blob": "8f8c711f9927d2a570b3d32669b739a7eab0eaa1",
+      "sha256": "cb98f7fbc34bc64ab48c41cc5650759759db73f5652a551bde782dc263a20308",
+      "bytes": 801567,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/working/product-line-guidelines-parte/GEM_AP_PLG_working_r04.pptx"
+    },
+    {
+      "repository_path": "documents/working/product-line-guidelines-parte/README.md",
+      "git_blob": "770f339f44124c35192d806f6584a9ed56b5fbab",
+      "sha256": "4c70699f058eaaa8f752d805d3512bb64e336fcf92c13bf7a6c79d49347bbaa7",
+      "bytes": 1362,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/documents/working/product-line-guidelines-parte/README.md"
+    },
+    {
+      "repository_path": "governance/limitations.md",
+      "git_blob": "875bb1409fb91b4ee806b071687848b0286c8852",
+      "sha256": "4c62f41844add88d82e0d56017dba6d35498531802f2780ae2b7ab77043ee8c8",
+      "bytes": 1706,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/governance/limitations.md"
+    },
+    {
+      "repository_path": "governance/parte-public-distribution-authorization-2026-10-18.md",
+      "git_blob": "0ea406f4be3f5c85646d70fcc993883d5ff18800",
+      "sha256": "afd556f7c8bd47f87973c0a7325a598d4f1d5553169606675a02086e442fa241",
+      "bytes": 1686,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/governance/parte-public-distribution-authorization-2026-10-18.md"
+    },
+    {
+      "repository_path": "governance/published-v3.0-release-notes.md",
+      "git_blob": "bddb7d2923a96de7336fc7913626ecc8954d45aa",
+      "sha256": "23cc1025585a50393c3b53d032f6323c0b408fdac88c7a9682b94df403f374f9",
+      "bytes": 4616,
+      "url": "https://github.com/mish3labdul/GEM/blob/5a9ab1e887300063f23c2d5bd884f4ac486ce80d/governance/published-v3.0-release-notes.md"
+    }
+  ]
+}

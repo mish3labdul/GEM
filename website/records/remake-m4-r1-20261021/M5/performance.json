@@ -1,0 +1,101 @@
+{
+  "method": "Three cold Chromium contexts per version and route, alternating order, mobile viewport375; loopback, no throttling. Encoded resource bytes at 500ms after fonts ready; lazy below-fold assets excluded.",
+  "samples": [
+    {
+      "run": 0,
+      "version": "M2-R1",
+      "route": "home",
+      "lcp": 48,
+      "cls": 0.00021302025,
+      "encodedBytes": 166785
+    },
+    {
+      "run": 0,
+      "version": "M2-R1",
+      "route": "amenities-packaging/",
+      "lcp": 68,
+      "cls": 0,
+      "encodedBytes": 562475
+    },
+    {
+      "run": 0,
+      "version": "M4-R1",
+      "route": "home",
+      "lcp": 48,
+      "cls": 0.00021302025,
+      "encodedBytes": 166706
+    },
+    {
+      "run": 0,
+      "version": "M4-R1",
+      "route": "amenities-packaging/",
+      "lcp": 72,
+      "cls": 0,
+      "encodedBytes": 570236
+    },
+    {
+      "run": 1,
+      "version": "M2-R1",
+      "route": "home",
+      "lcp": 48,
+      "cls": 0.00021302025,
+      "encodedBytes": 166785
+    },
+    {
+      "run": 1,
+      "version": "M2-R1",
+      "route": "amenities-packaging/",
+      "lcp": 60,
+      "cls": 0,
+      "encodedBytes": 562475
+    },
+    {
+      "run": 1,
+      "version": "M4-R1",
+      "route": "home",
+      "lcp": 44,
+      "cls": 0.00021302025,
+      "encodedBytes": 166706
+    },
+    {
+      "run": 1,
+      "version": "M4-R1",
+      "route": "amenities-packaging/",
+      "lcp": 68,
+      "cls": 0,
+      "encodedBytes": 570236
+    },
+    {
+      "run": 2,
+      "version": "M2-R1",
+      "route": "home",
+      "lcp": 44,
+      "cls": 0.00021302025,
+      "encodedBytes": 166785
+    },
+    {
+      "run": 2,
+      "version": "M2-R1",
+      "route": "amenities-packaging/",
+      "lcp": 64,
+      "cls": 0,
+      "encodedBytes": 562475
+    },
+    {
+      "run": 2,
+      "version": "M4-R1",
+      "route": "home",
+      "lcp": 48,
+      "cls": 0.00021302025,
+      "encodedBytes": 166706
+    },
+    {
+      "run": 2,
+      "version": "M4-R1",
+      "route": "amenities-packaging/",
+      "lcp": 68,
+      "cls": 0,
+      "encodedBytes": 570236
+    }
+  ]
+}

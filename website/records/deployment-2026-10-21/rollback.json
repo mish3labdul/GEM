@@ -1,0 +1,35 @@
+{
+  "project": "gem-website-v01",
+  "productionBranch": "main",
+  "domains": [
+    "gem-website-v01.pages.dev",
+    "gem.mish3l.com"
+  ],
+  "sourceType": null,
+  "previousDeployment": {
+    "id": "1707ac00-6cc2-420a-ac29-7e8ea1fedc39",
+    "url": "https://1707ac00.gem-website-v01.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-12T13:54:53.477729Z",
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "",
+        "commit_message": "",
+        "commit_dirty": false
+      }
+    },
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-12T13:54:55.282134Z",
+      "status": "success"
+    }
+  },
+  "oldHomeSha256": "4ec83cce1f1c090092be99c876b86477a5c556680babc85386964e897650d725",
+  "preservation": "Previous immutable Pages deployment retained; no deletion. old-home.html is a local reference copy.",
+  "rollbackEndpoint": "https://api.cloudflare.com/client/v4/accounts/4a9100b16a188b4ac23765431fe8ac8e/pages/projects/gem-website-v01/deployments/1707ac00-6cc2-420a-ac29-7e8ea1fedc39/rollback",
+  "rollbackMethod": "POST",
+  "dnsChangesRequired": false
+}

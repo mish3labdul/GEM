@@ -1,0 +1,96 @@
+{
+  "revision": "M4-R1",
+  "checkedAt": "2026-10-21T12:04:24.451Z",
+  "checks": [
+    {
+      "command": "node --check build.mjs",
+      "status": "PASS",
+      "output": ""
+    },
+    {
+      "command": "node --check app.js",
+      "status": "PASS",
+      "output": ""
+    },
+    {
+      "command": "node build.mjs",
+      "status": "PASS",
+      "output": "Built 10 localized pages. Preview: noindex; canonical/hreflang URLs await confirmed domain."
+    },
+    {
+      "command": "python3 check.py",
+      "status": "PASS",
+      "output": "{\"mode\": \"preview\", \"localized_pages\": 10, \"headings_metadata_links\": \"PASS\", \"social_png\": \"PASS\", \"robots_sitemap\": \"PASS\", \"http_preview\": \"not requested\"}"
+    },
+    {
+      "command": "python3 qa/production-check.test.py",
+      "status": "PASS",
+      "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 1.077s\n\nOK"
+    },
+    {
+      "command": "chromium: browser-regression",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "command": "firefox: browser-regression",
+      "status": "PASS",
+      "error": ""
+    }
+  ],
+  "assetErrors": [],
+  "sourceIdentityErrors": [],
+  "rollbackErrors": [],
+  "baselineFiles": 41,
+  "logoUnchanged": true,
+  "captures": 20,
+  "overflow": [],
+  "pageErrors": [],
+  "fontSamples": 40,
+  "nonCustomFontSamples": [],
+  "sourceFiles": [
+    {
+      "file": "gem-site/build.mjs",
+      "sha256": "583bac0c69c93c254a56c038fa0c228995ce4b0f584293f7e488349ab109f726"
+    },
+    {
+      "file": "gem-site/style.css",
+      "sha256": "41d4e1cbed628c0199b60e0b7620caec9e66ff60104f9d0f308062ab6f9e6ceb"
+    },
+    {
+      "file": "gem-site/pilot.css",
+      "sha256": "810ac6fd345ac7667dba7caf6a5b785736bbe11f5390e09a6477429d692aa5d3"
+    },
+    {
+      "file": "gem-site/pilot-art.mjs",
+      "sha256": "afc29126d91a700156a55b88abc79f5b11343097b7598039321eeb1e335d9085"
+    },
+    {
+      "file": "gem-site/app.js",
+      "sha256": "57f9de77c75356e4a3f55a45fa727ec05c170e22043c6c70dba71f14ed3a63cb"
+    },
+    {
+      "file": "gem-site/content.mjs",
+      "sha256": "7cc6342ddbae2fbed2e7ed17edac68b71381c6368e765edfcc71d15e0621039d"
+    },
+    {
+      "file": "gem-site/check.py",
+      "sha256": "27c95fd971f0c2cf02c48fb8335cf187a859dca79d93c30630f3e456003175f1"
+    },
+    {
+      "file": "gem-site/export-assets.mjs",
+      "sha256": "e970ec55f69dc69b2ea3afee49869a008b281c9db6a4006a517c53094b314152"
+    },
+    {
+      "file": "gem-site/qa/browser-regression.mjs",
+      "sha256": "5bc464ab9f3e645acf26c2396be0d691ce1781c6efdf0828b49365ee37094b58"
+    }
+  ],
+  "limits": [
+    "Safari/WebKit unavailable",
+    "Physical devices untested",
+    "Actual 400 percent browser zoom not exercised; 320px reflow tested",
+    "Actual screen-reader and native Arabic acceptance pending",
+    "Full encoded glyph coverage and production artwork acceptance pending"
+  ]
+}

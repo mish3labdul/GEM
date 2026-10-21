@@ -1,0 +1,14 @@
+ID,Area,Status,Responsible role,Acceptance needed,Evidence or next action
+L01,Public domain and hosting,Confirmed,Owner and engineering,Exact host and target recorded,https://gem.mish3l.com ; gem-website-v01 ; see ../deployment-2026-10-21/README.md
+L02,Remake CI,Pass,Engineering,Independent remake Chromium and Firefox jobs pass,GitHub Actions run 39645066307 at b095fc2daffac078009c8dad713d0f5704b0f71a
+L03,Native Arabic,Owner accepted,Owner,Owner-led human review accepted,OWNER-ACCEPTANCE.md dated 2026-10-21; detailed linguistic results not separately supplied
+L04,Actual assistive technology,Owner accepted,Owner,Owner takes responsibility for accessibility review and accepts candidate,OWNER-ACCEPTANCE.md dated 2026-10-21; no screen-reader environment or measured test pass asserted
+L05,Safari and physical devices,Owner accepted,Owner,Owner takes responsibility for device review and accepts candidate,OWNER-ACCEPTANCE.md dated 2026-10-21; individual device environments not supplied
+L06,Chromium 400 percent zoom,Pass bounded,Engineering,Ten routes and two interactive journeys pass genuine Chromium zoom,M6-R2 handoff zoom400-results.json; does not establish human AT or other-browser acceptance
+L07,Micro favicon,Held,Owner and artwork decision-maker,Explicit below-32px artwork and use disposition,No-spark review option staged in M6-R2; not applied
+L08,Public image and artwork rights,Pending,Rights decision-maker,Public-use rights disposition for current assets,Provenance is available but is not independent rights clearance
+L09,Public operator and privacy practices,Pending,Owner and privacy decision-maker,Confirm operator contact hosting logs processing and retention; approve accurate public notice,Current notice is bounded to local-preview behaviour
+L10,Local-only enquiry flow,Owner accepted,Owner,Current local draft copy download and clear retained,OWNER-ACCEPTANCE.md dated 2026-10-21; receiving backend needs separate scope
+L11,PR integration,Pending,Repository owner,Review exact PR head and explicitly decide merge,PR 21 remains open and draft
+L12,Indexable launch,Held,Owner,Approve exact reviewed candidate indexing changes target and rollback after blocking gates resolved,Noindex retained in HTML robots policy and Pages headers
+L13,Production artwork supplier and source-document restrictions,Held,Relevant source-document decision-makers,Resolve only through the governing document process; do not infer from website acceptance,B01 B02 D8 and concept or working qualifications retained

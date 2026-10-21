@@ -1,0 +1,283 @@
+{
+  "base": "https://gem.mish3l.com",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "404.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "ar/about/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "ar/amenities-packaging/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "ar/contact/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "ar/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "ar/privacy/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/OFL-Inter.txt",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/OFL-Jost.txt",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/OFL-NotoSansArabic.txt",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/arabic.woff2",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/body-lotion-source.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/body-wash-source.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/conditioner-source.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/format-room-480.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/format-room-960.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/format-travel-480.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/format-travel-960.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/format-wall-480.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/format-wall-960.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/hand-wash-source.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/hero-desktop-1280.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/hero-desktop-640.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/hero-desktop-960.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/hero-mobile-640.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/hero-mobile-960.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/inter.woff2",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/jost.woff2",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/logo-ink.svg",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/logo-white.svg",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/shampoo-source.webp",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/social.png",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "assets/social.svg",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "en/about/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "en/amenities-packaging/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "en/contact/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "en/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "en/privacy/index.html",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "pilot.css",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bodyMatches": true,
+      "noindex": true
+    }
+  ],
+  "rootFinalUrl": "https://gem.mish3l.com/ar/",
+  "notFoundStatus": 404,
+  "legacyPrivacyFinalUrl": "https://gem.mish3l.com/en/privacy/",
+  "sourceExposureProbes": [
+    {
+      "path": "/_headers",
+      "status": 404
+    },
+    {
+      "path": "/_redirects",
+      "status": 404
+    },
+    {
+      "path": "/build.mjs",
+      "status": 404
+    },
+    {
+      "path": "/assets/source/hero-desktop-source.png",
+      "status": 404
+    }
+  ],
+  "contentSecurityPolicy": "form-action 'none'; base-uri 'self'; object-src 'none'",
+  "nosniff": "nosniff",
+  "noindex": "noindex, nofollow",
+  "scope": "All served artifact bytes including ten localized HTML pages; robots may include Cloudflare-managed additions. No source/record publication."
+}

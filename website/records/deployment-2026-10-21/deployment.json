@@ -1,0 +1,74 @@
+{
+  "status": "DEPLOYED_AND_VERIFIED",
+  "authorization": "use gem.mish3l.com, replace old one",
+  "origin": "https://gem.mish3l.com",
+  "project": "gem-website-v01",
+  "productionBranch": "main",
+  "deployment": {
+    "id": "3e354187-a9f0-4727-81f6-a1e4b721ea6d",
+    "url": "https://3e354187.gem-website-v01.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-21T17:10:40.761679Z",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-21T17:10:42.294717Z",
+      "status": "success"
+    },
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "cbd46be2289a6668463fbeac83af8f96e78f4883",
+        "commit_message": "Replace gem.mish3l.com with accepted bilingual M4-R1 preview",
+        "commit_dirty": false
+      }
+    }
+  },
+  "sourceCommit": "cbd46be2289a6668463fbeac83af8f96e78f4883",
+  "sourcePullRequest": 21,
+  "previousDeployment": {
+    "id": "1707ac00-6cc2-420a-ac29-7e8ea1fedc39",
+    "url": "https://1707ac00.gem-website-v01.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-12T13:54:53.477729Z",
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "",
+        "commit_message": "",
+        "commit_dirty": false
+      }
+    },
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-12T13:54:55.282134Z",
+      "status": "success"
+    }
+  },
+  "previewDeployment": "https://6ff97d6a.gem-website-v01.pages.dev",
+  "mode": "Owner-authorized replacement in existing production hosting slot; noindex concept preview retained",
+  "dnsChanged": false,
+  "gitMerged": false,
+  "releaseCreated": false,
+  "hostedPreviewScenarios": 23,
+  "liveScenariosVerified": 23,
+  "initialLiveFailures": [
+    {
+      "name": "en: pilot product image and mobile state agree",
+      "status": "FAIL",
+      "error": "page.goto: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://gem.mish3l.com/en/amenities-packaging/\", waiting until \"load\"\u001b[22m\n"
+    }
+  ],
+  "retryResults": [
+    {
+      "name": "en: pilot product image and mobile state agree",
+      "status": "PASS"
+    }
+  ],
+  "servedArtifactFilesVerified": 42,
+  "visualCaptureCount": 4,
+  "holds": "Native Arabic, actual assistive technology/devices, micro favicon, rights and production/supplier acceptance remain separately open."
+}
