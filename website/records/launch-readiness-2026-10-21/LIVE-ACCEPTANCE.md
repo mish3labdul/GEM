@@ -1,11 +1,11 @@
 # Live bilingual acceptance worksheet
 
-For native Arabic, accessibility and device reviewers. Start at https://gem.mish3l.com. This is the accepted concept preview, deliberately noindex. Review the current remake only. Each result starts **Pending**; checkmarks, HTTP success and automated CI do not establish human acceptance.
+For native Arabic, accessibility and device reviewers. Start at https://gem.mish3l.com. This is the accepted concept preview, deliberately noindex. Review the current remake only. **Owner-led review is accepted** as recorded in [OWNER-ACCEPTANCE.md](OWNER-ACCEPTANCE.md). The owner is handling human review personally. The individual test cells below remain an uncompleted worksheet because detailed results/environments were not supplied; they do not reverse the owner's acceptance. Checkmarks, HTTP success and automated CI do not establish human acceptance.
 
 ## Review identity
 
-- Reviewer / role: Pending
-- Date and time / timezone: Pending
+- Reviewer / role: Owner; personal responsibility confirmed
+- Acceptance date: 21 October 2026; exact review time/environment not supplied
 - Source commit / deployment ID: Pending verification by reviewer; expected deployment `3e354187-a9f0-4727-81f6-a1e4b721ea6d` from source `cbd46be2289a6668463fbeac83af8f96e78f4883`
 - OS / browser / version / physical device: Pending
 - Screen reader / version / language voices, where applicable: Pending
@@ -47,10 +47,10 @@ For every finding, record: ID; route/journey; language; environment; steps; expe
 
 | Area | Reviewer / environment | Result | Findings / evidence / date |
 |---|---|---|---|
-| Native Arabic, all pages and output | Unassigned | Pending | — |
-| Actual Arabic/English screen reader | Unassigned | Pending | — |
-| Safari | Unassigned | Pending | — |
-| Physical mobile device(s) | Unassigned | Pending | — |
-| Additional zoom / motion / forced-colour review | Unassigned | Pending | — |
+| Native Arabic, all pages and output | Owner; environment not supplied | Owner accepted | OWNER-ACCEPTANCE.md; 21 October 2026; individual results not supplied |
+| Actual Arabic/English screen reader | Owner; environment not supplied | Owner accepted | Owner-led review responsibility; no measured screen-reader pass asserted |
+| Safari | Owner; environment not supplied | Owner accepted | Owner-led review responsibility; individual browser results not supplied |
+| Physical mobile device(s) | Owner; environment not supplied | Owner accepted | Owner-led review responsibility; individual device results not supplied |
+| Additional zoom / motion / forced-colour review | Owner; environment not supplied | Owner accepted | No additional environment-specific engineering result asserted |
 
 Return results to the [readiness register](README.md) and [gate register](GATES.csv). Engineering can correct reported defects; qualified reviewers must supply their own acceptance evidence. This worksheet does not approve rights, favicon artwork, privacy practices, production/supplier claims, merge or removal of noindex.

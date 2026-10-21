@@ -1,6 +1,6 @@
 # M6 current launch readiness — 21 October 2026
 
-For the owner and acceptance reviewers: use this register to assign the remaining reviews, record evidence and decide whether an indexable launch can be proposed. **Current status: hosted noindex concept preview; human acceptance remains pending.** This record supersedes earlier unconfirmed-domain, undeployed and missing-remake-CI statements. Historical handoff archives and dated reports remain unchanged.
+For the owner and acceptance reviewers: use this register to record evidence and decide whether an indexable launch can be proposed. **Current status: hosted noindex concept preview; owner-led review accepted.** The owner confirmed “I will be handling it myself. reviewd and accepted”; see the [acceptance record](OWNER-ACCEPTANCE.md). This record supersedes earlier unconfirmed-domain, undeployed and missing-remake-CI statements. Historical handoff archives and dated reports remain unchanged.
 
 ## Confirmed delivery
 
@@ -21,13 +21,13 @@ Later repository revisions add hosting reproducibility and CI; they are not clai
 
 ## Remaining work, in order
 
-1. Assign a native Arabic reviewer and an accessibility/device reviewer. Complete the [live acceptance checklist](LIVE-ACCEPTANCE.md) across all ten localized pages and the interactive journeys. Record the actual environment and evidence; do not infer human acceptance from automation.
-2. Resolve the [gate register](GATES.csv): micro favicon, image/artwork rights, public operator/privacy practices and explicit retention of the current local-only enquiry flow. A receiving service would require separate implementation scope.
+1. Owner-led human review is accepted. The [live acceptance checklist](LIVE-ACCEPTANCE.md) remains available for detailed environment and test records; reviewer assignment is no longer outstanding. Owner acceptance does not invent individual test results.
+2. Resolve the remaining [gate register](GATES.csv) decisions: micro favicon, image/artwork rights and public operator/privacy practices. The current local-only enquiry flow is retained under owner acceptance. A receiving service would require separate implementation scope.
 3. Correct evidenced findings, then repeat the affected checks on the revised candidate. Record source commit, deployment ID and review date so results cannot silently transfer to a different artifact.
 4. Once blocking acceptance and public-use decisions are resolved, request PR review/merge and a separate, concrete launch decision. Specify the exact candidate, privacy text, indexing changes, target and rollback. Keep noindex until that decision and its implementation are approved.
 
-Native Arabic, actual screen-reader, Safari/physical-device and rights acceptance are **pending**, not failed. Genuine Chromium 400% zoom already has bounded engineering evidence in the M6-R2 handoff; other environments remain unverified. The supplied micro favicon remains a review option, not an applied or approved change. B01/B02/D8 and the source documents' concept/working/production distinctions remain in force; this website process cannot close unrelated supplier or production-artwork gates.
+Native Arabic and accessibility/device review are **Owner accepted**, with detailed environments and test evidence not separately reported. Rights clearance remains pending. Genuine Chromium 400% zoom already has bounded engineering evidence in the M6-R2 handoff; no additional environment-specific engineering pass is claimed. The supplied micro favicon remains a review option, not an applied or approved change. B01/B02/D8 and the source documents' concept/working/production distinctions remain in force; this website process cannot close unrelated supplier or production-artwork gates.
 
 ## Recording a decision
 
-Update a gate only with reviewer/decision-maker, date, candidate identity, result and linked evidence. Use `Pending`, `Pass`, `Fail` or `Held`; explain any `Not applicable` decision. An owner's visual selection, a hosted deployment and green CI each retain their distinct scope. No merge, deployment, indexing, artwork substitution or contact-flow change is authorized by completing this register.
+Update a gate with reviewer/decision-maker, date, candidate identity, result and linked evidence. Use `Pending`, `Pass`, `Fail`, `Held` or `Owner accepted`; explain any `Not applicable` decision. Owner acceptance is distinguished from a measured engineering pass. A hosted deployment and green CI retain their distinct scope. No merge, deployment, indexing, artwork substitution or contact-flow change is performed by completing this register.
