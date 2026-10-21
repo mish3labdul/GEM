@@ -1,5 +1,7 @@
 # Owner-authorized Pages replacement and subsequent delivery controls
 
+For current launch decisions and reviewer assignments, use the [M6 readiness register](../launch-readiness-2026-10-21/README.md) and [live acceptance worksheet](../launch-readiness-2026-10-21/LIVE-ACCEPTANCE.md). The evidence below retains its dated deployment scope.
+
 The owner instructed **“use gem.mish3l.com, replace old one”**. The accepted M4-R1 artifact was tested on an immutable preview, then deployed to the existing Pages production slot without changing DNS. [REPORT.md](REPORT.md), [deployment.json](deployment.json), [candidate.json](candidate.json), [live-http.json](live-http.json) and [rollback.json](rollback.json) record that completed action.
 
 The initial live browser pass had one navigation timeout; [the original result](live-browser.json) and [targeted retry](live-browser-retry.json) are retained. The retry passed, yielding 23 verified live scenarios. All 23 had passed on the [preview](preview-browser.json) before replacing the custom-domain version. Local full-size captures and the previous public homepage reference remain preserved in the source workspace; they are not duplicated here.
