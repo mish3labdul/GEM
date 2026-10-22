@@ -193,7 +193,7 @@ try {
         const picture = page.locator('.hero picture img');
         await picture.evaluate(img => img.decode());
         assert.match(await picture.evaluate(img => img.currentSrc),
-          width < 761 ? /hero-mobile/ : /hero-desktop/);
+          width < 761 ? /hero-mobile/ : new RegExp(`hero-${lang === 'ar' ? 'rtl' : 'ltr'}\\.webp`));
         assert.equal(await picture.evaluate(img => img.naturalWidth > 0), true);
       }
     });
