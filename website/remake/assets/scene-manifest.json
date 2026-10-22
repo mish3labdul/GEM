@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "status": "Owner-approved local visual integration; concept imagery; public-use rights remain open",
-  "source": "review/creative/colab-batch-20261022/flow-outputs",
-  "preparation": "Existing reviewed layout exports promoted without re-encoding; tx-arches.webp is the selected T8 trial export",
+  "source": "review/creative/branded-scenes-20261023",
+  "preparation": "Branded GEM scene masters replicated from approved Flow compositions with bilingual GEM labels and horizon arc",
   "approvedArc": {
     "source": "T8-concentric-arches-2K.jpg",
     "sha256": "70cf89a45841c808bf125c472c9a11103442e787021da4d4a0484b3b40eee464"
@@ -10,58 +10,58 @@
   "assets": [
     {
       "file": "assets/scenes/carton.webp",
-      "bytes": 18188,
-      "sha256": "a4a1270f5465fc1d5be5f2625c0e166c674468a74ebc7d60ce9856308fb14efa"
+      "bytes": 30154,
+      "sha256": "c2e974c45e87d241319dda9d5fb46d2bad516ffa14db4c94ca867c6b17b60838"
     },
     {
       "file": "assets/scenes/family.webp",
-      "bytes": 29746,
-      "sha256": "f2bbd16da655b7eb191b1f4ad73ee562a6e5f754c7e894b269cd31ede0f05fb7"
+      "bytes": 45618,
+      "sha256": "36b757626009e5e375e50b31f6bca77d67b6c90d197a375c465c84e7deee948b"
     },
     {
       "file": "assets/scenes/flatlay.webp",
-      "bytes": 91032,
-      "sha256": "39136e3b1f9c1b922fa868b3425219e50ff416178d02ae403c89229a3e0dab3a"
+      "bytes": 132220,
+      "sha256": "489e2e9ee616f71442878809d44b918293970c0075dcef98817c94e5882c48e4"
     },
     {
       "file": "assets/scenes/hero-ltr.webp",
-      "bytes": 30448,
-      "sha256": "5b6943ffea80ccca610f43af58015e9a59862405144000eab406234603bb2568"
+      "bytes": 41628,
+      "sha256": "8557731b86c39d2820061ddc72306895ffefdecbff29da68217058f2abf99a02"
     },
     {
       "file": "assets/scenes/hero-mobile.webp",
-      "bytes": 43240,
-      "sha256": "1c4abeeb70ac228fc1df5bc355d4997cf5f849dfca6d5c27a6d58ac2f4754945"
+      "bytes": 52036,
+      "sha256": "77b4b03b176acdcaeecb6b842e34bf1dab9f1d527995596230a23407abe74440"
     },
     {
       "file": "assets/scenes/hero-rtl.webp",
-      "bytes": 46186,
-      "sha256": "8f47cde09a2e0182377c3ddce4a59e97f183053dc2c283cbc416ad11e5587e69"
+      "bytes": 59728,
+      "sha256": "e3b95f289f2056630d3389ea3ed69f2f5d60c57f78fa72ce5485482f04997d38"
     },
     {
       "file": "assets/scenes/lobby.webp",
-      "bytes": 60772,
-      "sha256": "dba15d23dad181bed5e0493c06f0864c7e5ccf324739aa6b9af19a1fd7cec48e"
+      "bytes": 78568,
+      "sha256": "3dbbfa3f152ad3a8ae19a733bc935d6fca752f1c99fafc58f361ea8b2e4ee2bf"
     },
     {
       "file": "assets/scenes/loop-ltr.mp4",
-      "bytes": 360504,
-      "sha256": "ed565b6a0de63ef2386320bdf82c7875a044f0a0347e0fccc4efb4ef3dc2e419"
+      "bytes": 315651,
+      "sha256": "2eb324f66eca5b4c87fa9586f4dfe12b49dc67955f9a281cad2614b594115071"
     },
     {
       "file": "assets/scenes/loop-rtl.mp4",
-      "bytes": 392691,
-      "sha256": "26f411ef299746eedc1ed932604fdfa97c3cc5848c48e72e21ae91d19a5cd22b"
+      "bytes": 344472,
+      "sha256": "5ad8c8819e76f5c8ebc1069858777b95bd9db15fc06d5f8ad7b07db49fe2b8d1"
     },
     {
       "file": "assets/scenes/packaging.webp",
-      "bytes": 51576,
-      "sha256": "09431a3a4c920ebd39e5b12089cb238ba5de7859d664f27327cd0c36256d5f49"
+      "bytes": 75662,
+      "sha256": "8fd973b8cf0a3346d3acf30ee3ae3e36dc08e925b46f5be822146f698066ed77"
     },
     {
       "file": "assets/scenes/turndown.webp",
-      "bytes": 29576,
-      "sha256": "c4c3569409d4cbf63002199bee74afdc0406895775b56e7524dda628d85e2f20"
+      "bytes": 41674,
+      "sha256": "2cbddac5eba3ed02d2bfed7a09e9c98886a37b6c5ebb62b932297002c4bdbadb"
     },
     {
       "file": "assets/scenes/tx-arches.webp",
@@ -80,8 +80,8 @@
     },
     {
       "file": "assets/scenes/vanity.webp",
-      "bytes": 25354,
-      "sha256": "b6cd5e73497d25be6d3942fabf7a0dd51a7bd7c03230dc77cecafebfbc5942b9"
+      "bytes": 37978,
+      "sha256": "534bb3354f76bcc284ce0b840093e7fd42b0b92e9384ad39373ced2aae696be9"
     }
   ]
 }
