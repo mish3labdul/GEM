@@ -58,8 +58,8 @@
     },
     {
       "file": "social.png",
-      "sha256": "00031fb826b7c104b2c895a36518dc591fa673bcd51c31d99849fcdb765dab22",
-      "bytes": 32530,
+      "sha256": "507cc0d385aecc67d98cc84202fd73e34d8ba736a623069aba24cdf23397c469",
+      "bytes": 269073,
       "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
     },
     {
@@ -179,61 +179,61 @@
       "file": "format-room-480.webp",
       "width": 480,
       "height": 320,
-      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-room-source.png",
-      "sourceSha256": "e6598c0d8038cd1a8c4187e1f111b70b4224f665229a36d68de5f8fa93fb435c",
-      "sha256": "fcaf782cb7f99ed3ae88347fb75b2cc25335df25da03535dc8aba8820a9b304b",
-      "bytes": 7840
+      "sourceSha256": "cefdd5405638d5fb7903221858b43445061ebcf9fc1fa89b243b16e4e9ee85c1",
+      "sha256": "93c175f43924705879c757d03debae4a6f445faf046eabe3f57828b542fbc7a0",
+      "bytes": 27212
     },
     {
       "file": "format-room-960.webp",
       "width": 960,
       "height": 640,
-      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-room-source.png",
-      "sourceSha256": "e6598c0d8038cd1a8c4187e1f111b70b4224f665229a36d68de5f8fa93fb435c",
-      "sha256": "8e8d67c7b0d96817724310c29069104871e43b309eed77062b78327a30f5acdf",
-      "bytes": 29320
+      "sourceSha256": "cefdd5405638d5fb7903221858b43445061ebcf9fc1fa89b243b16e4e9ee85c1",
+      "sha256": "22373df1ce2b37928dcada5a4a724b304a144704fd7663d0b28c7d044ab06a98",
+      "bytes": 99496
     },
     {
       "file": "format-wall-480.webp",
       "width": 480,
       "height": 320,
-      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "d6102b67c8509ea96e314c883d8725c1744166b7a2c7c38895337bf99a7b71d7",
-      "sha256": "58910de50eb86d825a90b4f80579ae409b3f742942284c07b1cb94fc905f76a4",
-      "bytes": 8914
+      "sourceSha256": "3bf1de225280060d842d238f9f50dec992d1d6f2a3f0b3ccce1fa924e89594a0",
+      "sha256": "a86da940ecfea2b4c964d85cae7d88bec1135b43f013f197df415729c0086426",
+      "bytes": 16908
     },
     {
       "file": "format-wall-960.webp",
       "width": 960,
       "height": 640,
-      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "d6102b67c8509ea96e314c883d8725c1744166b7a2c7c38895337bf99a7b71d7",
-      "sha256": "e51247abd31c34eee937b03beb2a4d730f9d06bdec6df3fc13c0b9d7c7be6073",
-      "bytes": 30718
+      "sourceSha256": "3bf1de225280060d842d238f9f50dec992d1d6f2a3f0b3ccce1fa924e89594a0",
+      "sha256": "d3727cba387560396317598fd9e5c28aa3dd28d3a1b5356638fd326783efeaf0",
+      "bytes": 54672
     },
     {
       "file": "format-travel-480.webp",
       "width": 480,
       "height": 320,
-      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-travel-source.png",
-      "sourceSha256": "274e622e7ee667bfbf4cff5bacaa3fd413f472aa718b7db8a864636b968b1b6c",
-      "sha256": "9eb85c70afcfba30ba915062f0f256a670d34a602fc2b721d908cfe18d3a8a52",
-      "bytes": 15694
+      "sourceSha256": "bd5b9f64d76cc17ca15622019ef9a4bf4b6b91d9849cb85700fbb4d6fb630ea9",
+      "sha256": "f825af7e8d5d8989b5b903666dcc6e9fa7775dd4d5236382f9a0dfe80d59718c",
+      "bytes": 16544
     },
     {
       "file": "format-travel-960.webp",
       "width": 960,
       "height": 640,
-      "classification": "AI-generated unlabelled concept render; counts, hardware, materials and compatibility unapproved",
+      "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-travel-source.png",
-      "sourceSha256": "274e622e7ee667bfbf4cff5bacaa3fd413f472aa718b7db8a864636b968b1b6c",
-      "sha256": "16313c51b42b38cd913ccfd1e98358161fe07eaf8f7d0baa17bafdcfc3ec6d45",
-      "bytes": 61676
+      "sourceSha256": "bd5b9f64d76cc17ca15622019ef9a4bf4b6b91d9849cb85700fbb4d6fb630ea9",
+      "sha256": "b2a7ae1dbc0c70d89a6cd427d6e1ad2391f5add6024c04e355abaaf1af8f116f",
+      "bytes": 53218
     }
   ]
 }

@@ -1,0 +1,7 @@
+/* The PDF text layer retains each document's embedded fonts. These rules only
+   supply the reader chrome with Arabic glyphs on platforms lacking that font. */
+@font-face{font-family:HubArabic;src:url('/assets/arabic.woff2') format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:HubInter;src:url('/assets/inter.woff2') format('woff2');font-weight:400;font-display:block}
+#toolbarContainer,#toolbarContainer *,#viewsManager,#viewsManager *,#findbar,#findbar *,dialog,dialog *{font-family:HubInter,HubArabic,sans-serif!important}
+#mainContainer{min-width:0}
+@media(max-width:349px){#numPages{display:none}#toolbarViewerLeft{gap:0}.toolbarButton{margin-inline:0}}

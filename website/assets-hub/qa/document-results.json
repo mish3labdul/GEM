@@ -1,0 +1,88 @@
+[
+  {
+    "id": "part-a",
+    "pages": 80,
+    "bytes": 7291399,
+    "pdfSha256": "d8121d8acf8b4c0265050e1b8f76b07dcf36dbf3bab6040120faed60c3b52350",
+    "allPagesRendered": true,
+    "replacementCharacters": 0,
+    "fonts": [
+      "DejaVuSans",
+      "Inter-Regular",
+      "Jost-Regular",
+      "NotoSansArabic-Regular",
+      "SegoeUISymbol"
+    ],
+    "arabicSlides": [
+      37,
+      38,
+      39,
+      65,
+      66,
+      68
+    ],
+    "sourceHashMatches": true
+  },
+  {
+    "id": "part-d",
+    "pages": 24,
+    "bytes": 4459808,
+    "pdfSha256": "744016d0fc96a14da1ebc0b92e22e69c825bc7b6f301e8824b7df6b7c2a0d764",
+    "allPagesRendered": true,
+    "replacementCharacters": 0,
+    "fonts": [
+      "Inter-Regular",
+      "Jost-Regular"
+    ],
+    "arabicSlides": [],
+    "sourceHashMatches": true
+  },
+  {
+    "id": "part-e",
+    "pages": 24,
+    "bytes": 394731,
+    "pdfSha256": "29b79ebd4693af7c3e584a5cfce2f06180d0cb4514931f8fbe433708a676b12d",
+    "allPagesRendered": true,
+    "replacementCharacters": 0,
+    "fonts": [
+      "Inter-Regular",
+      "Jost-Regular",
+      "OpenSymbol"
+    ],
+    "arabicSlides": [],
+    "sourceHashMatches": true
+  },
+  {
+    "id": "part-b",
+    "pages": 35,
+    "bytes": 1631512,
+    "pdfSha256": "999730a7f02f10a92048b4a094082f5b70ede189c28e0073bac9c2ca8ed74b8c",
+    "allPagesRendered": true,
+    "replacementCharacters": 0,
+    "fonts": [
+      "CourierNewPSMT",
+      "Inter-Regular",
+      "Jost-Regular",
+      "NotoSansArabic-Regular",
+      "OpenSymbol"
+    ],
+    "arabicSlides": [
+      9
+    ],
+    "sourceHashMatches": true
+  },
+  {
+    "id": "part-c",
+    "pages": 78,
+    "bytes": 711684,
+    "pdfSha256": "16c1395f576eae1fafe3a768766e05c2fc298b928b9b53d3851361de2d067184",
+    "allPagesRendered": true,
+    "replacementCharacters": 0,
+    "fonts": [
+      "Inter-Regular",
+      "Jost-Regular"
+    ],
+    "arabicSlides": [],
+    "sourceHashMatches": true
+  }
+]

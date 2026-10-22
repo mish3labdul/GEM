@@ -1,0 +1,8 @@
+dist/
+lo-trial/
+lo-fonts-trial/
+reading-copies/*online.pdf
+qa/screenshots/
+node_modules/
+.wrangler/
+native-exports/
