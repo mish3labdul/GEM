@@ -1,0 +1,22 @@
+{
+  "updated": "2026-10-22",
+  "instruction": "Owner requested placeholders for all three outstanding input groups.",
+  "status": "PLACEHOLDERS — facts not confirmed",
+  "operatorAndPrivacyContact": {
+    "operator": "[PUBLIC OPERATOR NAME — PENDING]",
+    "privacyEmail": "[PRIVACY CONTACT EMAIL — PENDING]"
+  },
+  "hostingLogs": {
+    "services": "[PENDING]",
+    "authorizedAccess": "[PENDING]",
+    "retention": "[PENDING]"
+  },
+  "imageryPublicUse": {
+    "scope": "Selected Flow scenes, approved arches and existing product artwork",
+    "ownerDeclaration": "[PUBLIC-USE DISPOSITION — PENDING]",
+    "exclusions": "[PENDING]",
+    "status": "PLACEHOLDER — no rights clearance or owner declaration inferred",
+    "confidentialEvidence": "Supporting documents may remain offline. No upload requested."
+  },
+  "publicationMode": "Local noindex preview retained; placeholders do not establish public-launch facts."
+}
