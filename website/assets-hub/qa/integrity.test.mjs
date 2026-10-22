@@ -30,6 +30,8 @@ test('noindex, Arabic default, on-demand readers and restricted-asset exclusion'
     assert.ok(!html.includes('<iframe'));
     assert.ok(!/rel="(?:preload|prefetch)"/.test(html));
     assert.match(html,new RegExp(`lang="${lang}" dir="${lang==='ar'?'rtl':'ltr'}"`));
+    assert.match(html,/property="og:image" content="https:\/\/gemassets\.mish3l\.com\/assets\/social\.png"/);
+    assert.match(html,/name="twitter:card" content="summary_large_image"/);
     assert.ok(!/restricted-internal|ArabicFirstPage|BilingualFirstPage/.test(html));
   }
   assert.ok(existsSync(path.join(dist,'pdfjs/build/pdf.worker.mjs')));
