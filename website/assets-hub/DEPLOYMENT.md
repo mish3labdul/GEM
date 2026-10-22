@@ -6,8 +6,8 @@
 | Source repository & branch | `mish3labdul/GEM` · `codex/gem-assets-hub-20261022` (target `main`, Draft PR #23) |
 | Source baseline commit | `4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a` |
 | Preview deployment | `cf3b10ed-b593-4b8a-b215-f2bafc4b3e4e` · https://cf3b10ed.gem-assets-hub.pages.dev (branch alias: https://codex-gem-assets-hub-2026102-oaqg.gem-assets-hub.pages.dev) |
-| Production deployment | `37bbae5c-2af2-4a39-a442-f2aaf66ca02a` (`main`) · https://37bbae5c.gem-assets-hub.pages.dev · https://gem-assets-hub.pages.dev |
-| Artifact manifest SHA-256 (`dist/artifact-hashes.json`) | `3861b0e39c5a0888ed8647e93ce3b4a25e9b66f4aee870f4b5f99d93195f5f85` |
+| Production deployment | `83dbe8aa-34fb-4b77-86a0-7cc8ebcf9122` (`main`) · https://83dbe8aa.gem-assets-hub.pages.dev · https://gem-assets-hub.pages.dev |
+| Artifact manifest SHA-256 (`dist/artifact-hashes.json`) | `7e1bd0a836ed87bed8ceb929e3bac7841cd2b973637460dcb0028c97b724bc41` |
 | Custom domain association | `gemassets.mish3l.com` (`id: ac50808e-e662-471d-91f9-5cb03af6b4b3`, zone `c322f99479471d98681f7fd1257d4778`, status: `active`, HTTPS/TLS active, proxied DNS CNAME `gemassets` → `gem-assets-hub.pages.dev`) |
 | Isolated from existing website | `gem-website-v01` (`gem.mish3l.com`), release `v3.0` and PR #22 were not modified. |
 
