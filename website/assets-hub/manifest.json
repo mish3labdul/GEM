@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "mish3labdul/GEM",
+  "sourceCommit": "4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a",
+  "updated": "2026-10-22",
+  "pdfjs": {
+    "version": "6.4.299",
+    "source": "https://github.com/mozilla/pdf.js/releases/tag/v6.4.299",
+    "archiveSha256": "f2245eb7ef3f674c872fe568a177bfec15874f5c034613e55d8e307f93ebd86d"
+  },
+  "documents": [
+    {
+      "id": "part-a",
+      "letter": "A",
+      "pages": 80,
+      "title": {
+        "en": "Brand Guidelines",
+        "ar": "دليل الهوية"
+      },
+      "purpose": {
+        "en": "The identity, positioning and rules that hold GEM together.",
+        "ar": "الهوية والتموضع والقواعد التي تجمع علامة GEM."
+      },
+      "status": {
+        "en": "Released V3.0 baseline; formal deferrals retained.",
+        "ar": "خط أساس منشور V3.0؛ مع الإبقاء على التأجيلات الرسمية."
+      },
+      "version": "V3.0",
+      "sourceLanguage": "English + Arabic slides",
+      "arabicSlides": [
+        37,
+        38,
+        39,
+        65,
+        66,
+        68
+      ],
+      "original": "documents/released/v3.0/brand-guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx",
+      "originalSha256": "ec7152f6e9075091114b97ea6c23edb4b00c0fa3f948b9e80d909fb63b1b0fb3",
+      "originalUrl": "https://raw.githubusercontent.com/mish3labdul/GEM/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/released/v3.0/brand-guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx",
+      "sourceUrl": "https://github.com/mish3labdul/GEM/blob/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/released/v3.0/brand-guidelines/GEM_BRAND_BrandGuidelines_PartA_v3.0_20261009.pptx",
+      "pdf": "pdf/part-a-v3.0-stakeholder-20261022.pdf",
+      "pdfSha256": "d8121d8acf8b4c0265050e1b8f76b07dcf36dbf3bab6040120faed60c3b52350",
+      "pdfBytes": 7291399,
+      "pdfSource": "website/assets-hub/reading-copies/part-a.pdf",
+      "derivative": true,
+      "exportDate": "2026-10-22",
+      "exportMethod": "Native PowerPoint; Arabic-bearing pages only from verified LibreOffice explicit-font fallback",
+      "cover": "covers/part-a.png"
+    },
+    {
+      "id": "part-d",
+      "letter": "D",
+      "pages": 24,
+      "title": {
+        "en": "Amenities & Packaging",
+        "ar": "مستلزمات الضيافة والتغليف"
+      },
+      "purpose": {
+        "en": "The proposed product and packaging experience.",
+        "ar": "التصور المقترح لتجربة المنتجات والتغليف."
+      },
+      "status": {
+        "en": "Concept portfolio; not production artwork.",
+        "ar": "ملف تصوري؛ ليس ملفات فنية للإنتاج."
+      },
+      "version": "V3.0",
+      "sourceLanguage": "English",
+      "arabicSlides": [],
+      "original": "documents/released/v3.0/amenities-concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "originalSha256": "15f6685e3339330ff65e4b97d413fbef93353a387bfcdd1ad3d359d889f12d9b",
+      "originalUrl": "https://raw.githubusercontent.com/mish3labdul/GEM/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/released/v3.0/amenities-concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "sourceUrl": "https://github.com/mish3labdul/GEM/blob/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/released/v3.0/amenities-concept/GEM_BRAND_AmenitiesPackagingConcept_PartD_v3.0_20261009.pptx",
+      "pdf": "pdf/part-d-v3.0-stakeholder-20261022.pdf",
+      "pdfSha256": "744016d0fc96a14da1ebc0b92e22e69c825bc7b6f301e8824b7df6b7c2a0d764",
+      "pdfBytes": 4459808,
+      "pdfSource": "website/assets-hub/reading-copies/part-d.pdf",
+      "derivative": true,
+      "exportDate": "2026-10-22",
+      "exportMethod": "Native PowerPoint",
+      "cover": "covers/part-d.png"
+    },
+    {
+      "id": "part-e",
+      "letter": "E",
+      "pages": 24,
+      "title": {
+        "en": "Product-Line Guidelines",
+        "ar": "دليل خطوط المنتجات"
+      },
+      "purpose": {
+        "en": "How the proposed product lines are organized and applied.",
+        "ar": "كيفية تنظيم خطوط المنتجات المقترحة وتطبيقها."
+      },
+      "status": {
+        "en": "Working revision 04; distribution authorized.",
+        "ar": "نسخة عمل 04؛ التوزيع مصرح به."
+      },
+      "version": "Working r04",
+      "sourceLanguage": "English",
+      "arabicSlides": [],
+      "original": "documents/working/product-line-guidelines-parte/GEM_AP_PLG_working_r04.pptx",
+      "originalSha256": "cb98f7fbc34bc64ab48c41cc5650759759db73f5652a551bde782dc263a20308",
+      "originalUrl": "https://raw.githubusercontent.com/mish3labdul/GEM/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/working/product-line-guidelines-parte/GEM_AP_PLG_working_r04.pptx",
+      "sourceUrl": "https://github.com/mish3labdul/GEM/blob/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/working/product-line-guidelines-parte/GEM_AP_PLG_working_r04.pptx",
+      "pdf": "pdf/part-e-working-r04.pdf",
+      "pdfSha256": "29b79ebd4693af7c3e584a5cfce2f06180d0cb4514931f8fbe433708a676b12d",
+      "pdfBytes": 394731,
+      "pdfSource": "documents/working/product-line-guidelines-parte/GEM_AP_PLG_working_r04.pdf",
+      "derivative": false,
+      "exportDate": null,
+      "exportMethod": "Matching supplied PDF, unchanged",
+      "cover": "covers/part-e.png"
+    },
+    {
+      "id": "part-b",
+      "letter": "B",
+      "pages": 35,
+      "title": {
+        "en": "Digital Design System",
+        "ar": "نظام التصميم الرقمي"
+      },
+      "purpose": {
+        "en": "The interface, typography and digital behavior specification.",
+        "ar": "مواصفات الواجهات والخطوط والسلوك الرقمي."
+      },
+      "status": {
+        "en": "Released specification; retained source limitations.",
+        "ar": "مواصفات منشورة؛ مع الإبقاء على قيود المصدر."
+      },
+      "version": "V3.0",
+      "sourceLanguage": "English + Arabic slides",
+      "arabicSlides": [
+        9
+      ],
+      "original": "documents/released/v3.0/digital-design-system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx",
+      "originalSha256": "b537ead6a9831d2bc9ab10f0a15499e7727b852f37275795923c61f27660c4e4",
+      "originalUrl": "https://raw.githubusercontent.com/mish3labdul/GEM/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/released/v3.0/digital-design-system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx",
+      "sourceUrl": "https://github.com/mish3labdul/GEM/blob/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/released/v3.0/digital-design-system/GEM_BRAND_DigitalDesignSystem_PartB_v3.0_20261009.pptx",
+      "pdf": "pdf/part-b-v3.0-stakeholder-20261022.pdf",
+      "pdfSha256": "999730a7f02f10a92048b4a094082f5b70ede189c28e0073bac9c2ca8ed74b8c",
+      "pdfBytes": 1631512,
+      "pdfSource": "website/assets-hub/reading-copies/part-b.pdf",
+      "derivative": true,
+      "exportDate": "2026-10-22",
+      "exportMethod": "Native PowerPoint; Arabic-bearing pages only from verified LibreOffice explicit-font fallback",
+      "cover": "covers/part-b.png"
+    },
+    {
+      "id": "part-c",
+      "letter": "C",
+      "pages": 78,
+      "title": {
+        "en": "Production Standards",
+        "ar": "معايير الإنتاج"
+      },
+      "purpose": {
+        "en": "Materials, production controls and validation requirements.",
+        "ar": "المواد وضوابط الإنتاج ومتطلبات التحقق."
+      },
+      "status": {
+        "en": "Working edition; production validation pending.",
+        "ar": "نسخة عمل؛ التحقق من الإنتاج معلق."
+      },
+      "version": "V3.0",
+      "sourceLanguage": "English",
+      "arabicSlides": [],
+      "original": "documents/released/v3.0/production-standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx",
+      "originalSha256": "ca0afb799381d43ad7dced73e97bac2121e1f84e6a430aac216e87a232297d5e",
+      "originalUrl": "https://raw.githubusercontent.com/mish3labdul/GEM/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/released/v3.0/production-standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx",
+      "sourceUrl": "https://github.com/mish3labdul/GEM/blob/4bcaaf48b55d27084186e3e1c0ef7f2e69362b8a/documents/released/v3.0/production-standards/GEM_BRAND_ProductionStandards_PartC_v3.0_20261009.pptx",
+      "pdf": "pdf/part-c-v3.0-stakeholder-20261022.pdf",
+      "pdfSha256": "16c1395f576eae1fafe3a768766e05c2fc298b928b9b53d3851361de2d067184",
+      "pdfBytes": 711684,
+      "pdfSource": "website/assets-hub/reading-copies/part-c.pdf",
+      "derivative": true,
+      "exportDate": "2026-10-22",
+      "exportMethod": "Native PowerPoint",
+      "cover": "covers/part-c.png"
+    }
+  ],
+  "assets": [
+    {
+      "source": "brand/working-kit/logo/horizontal/svg/gem-horizontal-ink.svg",
+      "path": "downloads/logo-ink.svg",
+      "sha256": "6abbd491846178d0fd81561686845fb3c4c07de8f5333450cd27aea7a441bebd",
+      "bytes": 5956,
+      "group": "logos",
+      "label": {
+        "en": "ink · SVG",
+        "ar": "حبري · SVG"
+      },
+      "status": "WORKING ASSETS — PRODUCTION-MASTER ACCEPTANCE PENDING"
+    },
+    {
+      "source": "brand/working-kit/logo/horizontal/png/gem-horizontal-ink-2048.png",
+      "path": "downloads/logo-ink.png",
+      "sha256": "ce953ebf3df882323fb513228f68853f49ad0f8fe2641866b156665d02551850",
+      "bytes": 63146,
+      "group": "logos",
+      "label": {
+        "en": "ink · PNG",
+        "ar": "حبري · PNG"
+      },
+      "status": "WORKING ASSETS — PRODUCTION-MASTER ACCEPTANCE PENDING"
+    },
+    {
+      "source": "brand/working-kit/logo/horizontal/svg/gem-horizontal-beige.svg",
+      "path": "downloads/logo-beige.svg",
+      "sha256": "d607e00493da22fe35b25078a2671d5e02045161b4587fe156483f4e40ccb385",
+      "bytes": 5956,
+      "group": "logos",
+      "label": {
+        "en": "beige · SVG",
+        "ar": "بيج · SVG"
+      },
+      "status": "WORKING ASSETS — PRODUCTION-MASTER ACCEPTANCE PENDING"
+    },
+    {
+      "source": "brand/working-kit/logo/horizontal/png/gem-horizontal-beige-2048.png",
+      "path": "downloads/logo-beige.png",
+      "sha256": "444eddf7c7088add47c838412ec4c80d9c6a81276448470bb1c4cf2616209f1d",
+      "bytes": 64190,
+      "group": "logos",
+      "label": {
+        "en": "beige · PNG",
+        "ar": "بيج · PNG"
+      },
+      "status": "WORKING ASSETS — PRODUCTION-MASTER ACCEPTANCE PENDING"
+    },
+    {
+      "source": "brand/working-kit/logo/horizontal/svg/gem-horizontal-black.svg",
+      "path": "downloads/logo-black.svg",
+      "sha256": "38d89d97ab642b43f273f3dbf9df9e2084933c288ae75aca4e2abb4f11001805",
+      "bytes": 5956,
+      "group": "logos",
+      "label": {
+        "en": "black · SVG",
+        "ar": "أسود · SVG"
+      },
+      "status": "WORKING ASSETS — PRODUCTION-MASTER ACCEPTANCE PENDING"
+    },
+    {
+      "source": "brand/working-kit/logo/horizontal/png/gem-horizontal-black-2048.png",
+      "path": "downloads/logo-black.png",
+      "sha256": "2c49e1c6bb4b9c6165881bc4d3154fb2ab9207dc0eef4e284caed119ee9928d8",
+      "bytes": 56665,
+      "group": "logos",
+      "label": {
+        "en": "black · PNG",
+        "ar": "أسود · PNG"
+      },
+      "status": "WORKING ASSETS — PRODUCTION-MASTER ACCEPTANCE PENDING"
+    },
+    {
+      "source": "brand/working-kit/logo/horizontal/svg/gem-horizontal-white.svg",
+      "path": "downloads/logo-white.svg",
+      "sha256": "3d2a9718291d566b23ad02c498e015e848b90a6e92dccbacfb2c2a1708fcce18",
+      "bytes": 5956,
+      "group": "logos",
+      "label": {
+        "en": "white · SVG",
+        "ar": "أبيض · SVG"
+      },
+      "status": "WORKING ASSETS — PRODUCTION-MASTER ACCEPTANCE PENDING"
+    },
+    {
+      "source": "brand/working-kit/logo/horizontal/png/gem-horizontal-white-2048.png",
+      "path": "downloads/logo-white.png",
+      "sha256": "9bd6dddf554377e48103e35fe8fc509db7bd3fceb76abbb342652a0e2b4c7534",
+      "bytes": 45269,
+      "group": "logos",
+      "label": {
+        "en": "white · PNG",
+        "ar": "أبيض · PNG"
+      },
+      "status": "WORKING ASSETS — PRODUCTION-MASTER ACCEPTANCE PENDING"
+    },
+    {
+      "source": "brand/specification-assets/GEM_BRAND_PALETTE-SHEET_LIGHT_v0.1_20261006.svg",
+      "path": "downloads/palette.svg",
+      "sha256": "4c4928fae8b20f4de6eec267774bf73a62170e27bf1fd903f5c4870a89b93082",
+      "bytes": 189573,
+      "group": "palette",
+      "label": {
+        "en": "Supplied palette sheet",
+        "ar": "لوحة الألوان الموردة"
+      },
+      "status": "Source qualifications retained"
+    },
+    {
+      "source": "documents/released/v3.0/tokens/gem-tokens.v3.0.css",
+      "path": "downloads/gem-tokens.v3.0.css",
+      "sha256": "0c9dfce3597b42e4579a73737135f80a0fe8ad47d5f2902cb83f78e9b7e95851",
+      "bytes": 10346,
+      "group": "palette",
+      "label": {
+        "en": "V3.0 tokens · CSS",
+        "ar": "رموز V3.0 · CSS"
+      },
+      "status": "Source qualifications retained"
+    },
+    {
+      "source": "documents/released/v3.0/tokens/gem-tokens.v3.0.json",
+      "path": "downloads/gem-tokens.v3.0.json",
+      "sha256": "c629ac4508e426f7dcc1140743333d217c721a2dfcc1549b0c215b0a31dfe8c0",
+      "bytes": 25068,
+      "group": "palette",
+      "label": {
+        "en": "V3.0 tokens · JSON",
+        "ar": "رموز V3.0 · JSON"
+      },
+      "status": "Source qualifications retained"
+    },
+    {
+      "source": "documents/released/v3.0/letterheads/GEM_BRAND_Letterhead_EnglishFirstPage_v3.0_20261009.docx",
+      "path": "downloads/EnglishFirstPage.docx",
+      "sha256": "01be19dafc0ee3c11403ae3113bdeb2b6e6ea348d23fd5f44398dfbac79d16fd",
+      "bytes": 380388,
+      "group": "letterheads",
+      "label": {
+        "en": "English first page",
+        "ar": "الصفحة الأولى بالإنجليزية"
+      },
+      "status": "Released template; retained validation limitations"
+    },
+    {
+      "source": "documents/released/v3.0/letterheads/GEM_BRAND_Letterhead_EnglishContinuation_v3.0_20261009.docx",
+      "path": "downloads/EnglishContinuation.docx",
+      "sha256": "b623acfc498236140ee036dadfe7e27ceb4e407d755ec56fffdb3febbfc7b70c",
+      "bytes": 316408,
+      "group": "letterheads",
+      "label": {
+        "en": "English continuation",
+        "ar": "صفحة المتابعة بالإنجليزية"
+      },
+      "status": "Released template; retained validation limitations"
+    },
+    {
+      "source": "documents/released/v3.0/letterheads/GEM_BRAND_Letterhead_Executive_v3.0_20261009.docx",
+      "path": "downloads/Executive.docx",
+      "sha256": "5338df2fe8c2d81ae4de823eb7607085f9cd0fb60064cc21f8965d19d2f2519a",
+      "bytes": 380407,
+      "group": "letterheads",
+      "label": {
+        "en": "Executive",
+        "ar": "تنفيذي"
+      },
+      "status": "Released template; retained validation limitations"
+    },
+    {
+      "source": "documents/released/v3.0/letterheads/GEM_BRAND_Letterhead_Minimal_v3.0_20261009.docx",
+      "path": "downloads/Minimal.docx",
+      "sha256": "a99ea2fca2563332cefbf7356414f9be233d8defa09b9cb27aa6c15ba6f1f7ee",
+      "bytes": 372535,
+      "group": "letterheads",
+      "label": {
+        "en": "Minimal",
+        "ar": "مبسط"
+      },
+      "status": "Released template; retained validation limitations"
+    }
+  ]
+}

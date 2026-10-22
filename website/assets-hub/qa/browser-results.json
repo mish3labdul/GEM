@@ -1,0 +1,167 @@
+{
+  "origin": "http://localhost:4318",
+  "results": [
+    {
+      "browser": "chromium",
+      "lang": "ar",
+      "document": "part-a",
+      "pages": 80,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "ar",
+      "document": "part-d",
+      "pages": 24,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "ar",
+      "document": "part-e",
+      "pages": 24,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "ar",
+      "document": "part-b",
+      "pages": 35,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "ar",
+      "document": "part-c",
+      "pages": 78,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "en",
+      "document": "part-a",
+      "pages": 80,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "en",
+      "document": "part-d",
+      "pages": 24,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "en",
+      "document": "part-e",
+      "pages": 24,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "en",
+      "document": "part-b",
+      "pages": 35,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "lang": "en",
+      "document": "part-c",
+      "pages": 78,
+      "status": "passed"
+    },
+    {
+      "browser": "chromium",
+      "status": "passed",
+      "checks": [
+        "mobile overflow",
+        "keyboard skip",
+        "no PDF preloads",
+        "PDF failure fallback",
+        "font failure alert"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "lang": "ar",
+      "document": "part-a",
+      "pages": 80,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "ar",
+      "document": "part-d",
+      "pages": 24,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "ar",
+      "document": "part-e",
+      "pages": 24,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "ar",
+      "document": "part-b",
+      "pages": 35,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "ar",
+      "document": "part-c",
+      "pages": 78,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "en",
+      "document": "part-a",
+      "pages": 80,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "en",
+      "document": "part-d",
+      "pages": 24,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "en",
+      "document": "part-e",
+      "pages": 24,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "en",
+      "document": "part-b",
+      "pages": 35,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "lang": "en",
+      "document": "part-c",
+      "pages": 78,
+      "status": "passed"
+    },
+    {
+      "browser": "firefox",
+      "status": "passed",
+      "checks": [
+        "mobile overflow",
+        "keyboard skip",
+        "no PDF preloads",
+        "PDF failure fallback",
+        "font failure alert"
+      ]
+    }
+  ]
+}

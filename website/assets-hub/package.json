@@ -1,0 +1,13 @@
+{
+  "name": "gem-assets-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test qa/*.test.mjs",
+    "serve": "python3 -m http.server 4318 --directory dist"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
