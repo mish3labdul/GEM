@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-22",
+  "status": "Owner-approved local visual integration; concept imagery; public-use rights remain open",
+  "source": "review/creative/colab-batch-20261022/flow-outputs",
+  "preparation": "Existing reviewed layout exports promoted without re-encoding; tx-arches.webp is the selected T8 trial export",
+  "approvedArc": {
+    "source": "T8-concentric-arches-2K.jpg",
+    "sha256": "70cf89a45841c808bf125c472c9a11103442e787021da4d4a0484b3b40eee464"
+  },
+  "assets": [
+    {
+      "file": "assets/scenes/carton.webp",
+      "bytes": 18188,
+      "sha256": "a4a1270f5465fc1d5be5f2625c0e166c674468a74ebc7d60ce9856308fb14efa"
+    },
+    {
+      "file": "assets/scenes/family.webp",
+      "bytes": 29746,
+      "sha256": "f2bbd16da655b7eb191b1f4ad73ee562a6e5f754c7e894b269cd31ede0f05fb7"
+    },
+    {
+      "file": "assets/scenes/flatlay.webp",
+      "bytes": 91032,
+      "sha256": "39136e3b1f9c1b922fa868b3425219e50ff416178d02ae403c89229a3e0dab3a"
+    },
+    {
+      "file": "assets/scenes/hero-ltr.webp",
+      "bytes": 30448,
+      "sha256": "5b6943ffea80ccca610f43af58015e9a59862405144000eab406234603bb2568"
+    },
+    {
+      "file": "assets/scenes/hero-mobile.webp",
+      "bytes": 43240,
+      "sha256": "1c4abeeb70ac228fc1df5bc355d4997cf5f849dfca6d5c27a6d58ac2f4754945"
+    },
+    {
+      "file": "assets/scenes/hero-rtl.webp",
+      "bytes": 46186,
+      "sha256": "8f47cde09a2e0182377c3ddce4a59e97f183053dc2c283cbc416ad11e5587e69"
+    },
+    {
+      "file": "assets/scenes/lobby.webp",
+      "bytes": 60772,
+      "sha256": "dba15d23dad181bed5e0493c06f0864c7e5ccf324739aa6b9af19a1fd7cec48e"
+    },
+    {
+      "file": "assets/scenes/loop-ltr.mp4",
+      "bytes": 360504,
+      "sha256": "ed565b6a0de63ef2386320bdf82c7875a044f0a0347e0fccc4efb4ef3dc2e419"
+    },
+    {
+      "file": "assets/scenes/loop-rtl.mp4",
+      "bytes": 392691,
+      "sha256": "26f411ef299746eedc1ed932604fdfa97c3cc5848c48e72e21ae91d19a5cd22b"
+    },
+    {
+      "file": "assets/scenes/packaging.webp",
+      "bytes": 51576,
+      "sha256": "09431a3a4c920ebd39e5b12089cb238ba5de7859d664f27327cd0c36256d5f49"
+    },
+    {
+      "file": "assets/scenes/turndown.webp",
+      "bytes": 29576,
+      "sha256": "c4c3569409d4cbf63002199bee74afdc0406895775b56e7524dda628d85e2f20"
+    },
+    {
+      "file": "assets/scenes/tx-arches.webp",
+      "bytes": 261890,
+      "sha256": "a39ae72e52621a0001d142d18783d9e72452292584d4d0eee9022b91d22c55ce"
+    },
+    {
+      "file": "assets/scenes/tx-limewash.webp",
+      "bytes": 21190,
+      "sha256": "f0dcabe9f13000d334ccabde25202c6ae25a1dc4f93fbb02e0f8cfa29208c031"
+    },
+    {
+      "file": "assets/scenes/tx-travertine.webp",
+      "bytes": 64100,
+      "sha256": "88bee1e49a658469bd1fdc20b0bf06f4869b8b6ccdaa61b523cfaca15a72f630"
+    },
+    {
+      "file": "assets/scenes/vanity.webp",
+      "bytes": 25354,
+      "sha256": "b6cd5e73497d25be6d3942fabf7a0dd51a7bd7c03230dc77cecafebfbc5942b9"
+    }
+  ]
+}

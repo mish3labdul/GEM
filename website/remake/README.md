@@ -1,5 +1,9 @@
 # GEM — bilingual website preview
 
+**22 October 2026 refinement:** The reviewed Flow compositions and selected concentric-arches banners now build through `node build.mjs`. Working product selection, local brief controls, Privacy, required-font failure handling and the Pages noindex/security/redirect packaging remain in place. Operator/contact, logging/retention and image public-use disposition use explicit pending placeholders. See [refinement release record](../records/refined-preview-20261022/README.md).
+
+Editable additions: `refined-layouts.mjs`, `layouts/layout.css`, `integration.css`, and `assets/scenes/` with `assets/scene-manifest.json`. Scene exports are canonical inputs; trial folders, Downloads and local backup directories are not required to build.
+
 Ten complete static pages implement the approved fresh sitemap: Home, About GEM, Amenities & Packaging, Discuss your project, and Privacy, in Arabic and English. Arabic is the default.
 
 ## Preview

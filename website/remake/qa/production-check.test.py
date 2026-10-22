@@ -37,12 +37,15 @@ class BuildChecks(unittest.TestCase):
         shutil.rmtree(self.root / 'dist')
         self.build()
         for name in ['logo-ink.svg', 'arabic.woff2', 'social.png',
-                     'conditioner-source.webp', 'format-room-960.webp']:
+                     'conditioner-source.webp', 'format-room-960.webp',
+                     'tx-arches.webp', 'hero-ltr.webp', 'hero-rtl.webp']:
             self.assertTrue((self.root / 'dist/assets' / name).is_file(), name)
         stale = self.root / 'dist/stale.html'
         stale.write_text('obsolete generated page')
         self.build()
         self.assertFalse(stale.exists())
+        for name in ['layout.css', 'integration.css']:
+            self.assertTrue((self.root / 'dist' / name).is_file(), name)
         self.assertEqual(self.check().returncode, 0)
 
     def test_production(self):
