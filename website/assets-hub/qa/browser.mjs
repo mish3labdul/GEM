@@ -35,7 +35,21 @@ for(const type of [chromium,firefox]){
     await frame.waitForFunction(()=>window.PDFViewerApplication?.pdfDocument,{timeout:45000});
     assert.equal(await frame.evaluate(()=>window.PDFViewerApplication.pdfDocument.numPages),count);
     await frame.waitForFunction(()=>window.PDFViewerApplication.pdfViewer.pagesCount>0);
+    await frame.waitForFunction(()=>window.PDFViewerApplication.isInitialViewSet&&window.PDFViewerApplication.pdfViewer.pageViewsReady);
+    await frame.evaluate(()=>new Promise(r=>setTimeout(r,50)));
     assert.equal(await frame.evaluate(()=>document.documentElement.dir),lang==='ar'?'rtl':'ltr');
+    if(id==='part-a')for(const width of [320,375]){
+      await page.setViewportSize({width,height:852});
+      await frame.waitForFunction(()=>{const p=document.querySelector('.page')?.getBoundingClientRect();return p&&p.left>=-1&&p.right<=innerWidth+1;});
+      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+      assert.match(await frame.locator('#toolbarContainer').evaluate(e=>getComputedStyle(e).fontFamily),/HubInter/);
+    }
+    await page.setViewportSize({width:1440,height:1000});
+    if(id==='part-a')await frame.waitForFunction(()=>{
+      const p=document.querySelector('.page').getBoundingClientRect();
+      const c=document.querySelector('#viewerContainer');
+      return Math.abs(p.width-(c.clientWidth-22))<4;
+    });
     await frame.locator('#pageNumber').fill(String(count));await frame.locator('#pageNumber').press('Enter');
     await frame.waitForFunction(n=>window.PDFViewerApplication.page===n,count);
     await frame.locator('#pageNumber').fill('0');await frame.locator('#pageNumber').press('Enter');
@@ -68,8 +82,9 @@ for(const type of [chromium,firefox]){
       const file=await download;assert.match(file.suggestedFilename(),/\.pdf$/);
       await frame.locator('#secondaryToolbarToggleButton').click();
       await frame.locator('#presentationMode').click();
-      await frame.waitForFunction(()=>document.fullscreenElement!==null);
+      await frame.waitForFunction(()=>document.fullscreenElement!==null&&window.PDFViewerApplication.pdfViewer.scrollMode===3);
       await frame.evaluate(()=>document.exitFullscreen());
+      await frame.waitForFunction(()=>!window.PDFViewerApplication.isInPresentationMode);
     }
     await page.locator('.language').click();assert.match(page.url(),new RegExp(`/${lang==='ar'?'en':'ar'}/documents/${id}/$`));
     await page.waitForLoadState('networkidle');
@@ -90,5 +105,5 @@ for(const type of [chromium,firefox]){
  await browser.close();
 }
 fs.writeFileSync(path.join(root,'qa/browser-results.json'),JSON.stringify({origin,results},null,2)+'\n');
-console.log(JSON.stringify(results,null,2));
+console.log(JSON.stringify({origin,readerChecks:results.filter(x=>x.document&&x.status==='passed').length,browserChecks:results.filter(x=>x.checks),failures:results.filter(x=>x.error)},null,2));
 if(results.some(x=>x.error))process.exitCode=1;
