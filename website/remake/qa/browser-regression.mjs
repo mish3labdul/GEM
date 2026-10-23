@@ -105,6 +105,13 @@ try {
       assert.equal(await page.locator('html').evaluate(el => el.classList.contains('font-error')), false);
       assert.equal(await page.locator('.font-failure').isVisible(), false);
     });
+    await test(`${lang}: format captions are in the page language`, async context => {
+      const page = await context.newPage();
+      await page.goto(`${base}/${lang}/amenities-packaging/`);
+      const captions = await page.locator('.format-art figcaption').allTextContents();
+      assert.equal(captions.length, 3);
+      for (const text of captions) assert.equal(/[\u0600-\u06FF]/.test(text), lang === 'ar', `Caption in wrong language: ${text}`);
+    });
     await test(`${lang}: local brief, validation, edit, reset and download`, async context => {
       const page = await context.newPage();
       await page.goto(`${base}/${lang}/contact/`);
