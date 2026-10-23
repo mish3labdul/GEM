@@ -68,3 +68,74 @@ html[dir=rtl] .hero h1{line-height:1.55}
  .privacy-content{padding-inline:var(--edge)}
 }
 @media(prefers-reduced-motion:reduce){.hero video{display:none}}
+
+/* ==========================================================================
+   Luxury Hospitality UI/UX & Motion Enhancements (LTR + RTL, Reduced-Motion Safe)
+   ========================================================================== */
+
+/* 4. Cross-Document View Transitions */
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.38s;animation-timing-function:cubic-bezier(.22,1,.36,1)}
+
+/* 2. Smart Glassmorphic Sticky Header & Horizon Progress Bar */
+.site-header{position:fixed;inset:0 0 auto 0;z-index:40;transition:transform .42s cubic-bezier(.22,1,.36,1),background-color .35s ease,backdrop-filter .35s ease,box-shadow .35s ease,padding .35s ease}
+.site-header.is-scrolled{background:rgba(248,243,234,.86);-webkit-backdrop-filter:blur(14px) saturate(1.15);backdrop-filter:blur(14px) saturate(1.15);box-shadow:0 1px 0 rgba(18,23,29,.12);padding-block:14px}
+.site-header.is-hidden{transform:translate3d(0,-105%,0)}
+.scroll-horizon{position:absolute;inset:auto 0 0 0;height:2px;background:var(--ink);transform-origin:0 50%;transform:scaleX(var(--scroll-progress,0));opacity:0;transition:opacity .3s ease;pointer-events:none}
+html[dir=rtl] .scroll-horizon{transform-origin:100% 50%}
+.site-header.is-scrolled .scroll-horizon{opacity:.85}
+
+/* 1. Scroll-Linked Parallax & Editorial Curtain Reveals */
+@media(prefers-reduced-motion:no-preference){
+ .hero>picture img,.hero>video{will-change:transform;transform:translate3d(0,var(--hero-parallax,0px),0) scale(var(--hero-scale,1.03));transition:transform .08s linear}
+ .hero-copy{will-change:transform,opacity;transform:translate3d(0,var(--hero-copy-y,0px),0)}
+ .arc-banner{position:relative}
+ .arc-banner img,.on-texture>.bg img{will-change:transform;height:122%;top:-11%;position:relative;transform:translate3d(0,var(--bg-parallax,0px),0)}
+ html[dir=rtl] .arc-banner img{transform:scaleX(-1) translate3d(0,var(--bg-parallax,0px),0)}
+ html[dir=rtl] .flip-bg>.bg img{transform:scaleX(-1) translate3d(0,var(--bg-parallax,0px),0)}
+
+ .js-motion [data-reveal]{opacity:0;transform:translate3d(0,32px,0);transition:opacity .85s cubic-bezier(.22,1,.36,1),transform .85s cubic-bezier(.22,1,.36,1);transition-delay:var(--reveal-delay,0ms)}
+ .js-motion [data-reveal="image"]{clip-path:inset(8% 0 8% 0);transform:translate3d(0,24px,0) scale(1.03);transition:opacity .95s cubic-bezier(.22,1,.36,1),transform 1.05s cubic-bezier(.22,1,.36,1),clip-path .95s cubic-bezier(.22,1,.36,1)}
+ .js-motion [data-reveal].is-visible{opacity:1;transform:translate3d(0,0,0) scale(1);clip-path:inset(0 0 0 0)}
+}
+
+/* 3. Choreographed Product Stage & Interactive Zoom Lightbox */
+.product-visual{position:relative;cursor:zoom-in;perspective:900px}
+.product-visual::after{content:attr(data-zoom-hint);position:absolute;bottom:14px;inset-inline-end:16px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:rgba(248,243,234,.88);color:var(--ink);border:1px solid var(--line);padding:5px 11px;opacity:.78;transition:opacity .25s ease,transform .25s ease;pointer-events:none}
+html[dir=rtl] .product-visual::after{letter-spacing:0;font-size:12px;text-transform:none}
+.product-visual:hover::after{opacity:1;transform:translateY(-2px)}
+#product-image{transition:opacity .32s cubic-bezier(.22,1,.36,1),transform .45s cubic-bezier(.22,1,.36,1)}
+#product-image.is-switching{opacity:0;transform:scale(.95) translateY(8px)}
+.product-caption{transition:opacity .28s ease,transform .28s ease}
+.product-caption.is-switching{opacity:.25;transform:translateY(6px)}
+.product-list button{position:relative;overflow:hidden;transition:background-color .28s ease,color .28s ease,padding-inline-start .28s cubic-bezier(.22,1,.36,1)}
+.product-list button:hover:not([aria-pressed=true]){background:var(--ivory);padding-inline-start:26px}
+.format-art,.split figure,.card{overflow:hidden}
+.format-art img,.split figure img{cursor:zoom-in;transition:transform .85s cubic-bezier(.22,1,.36,1)}
+.format-art:hover img,.split figure:hover img{transform:scale(1.035)}
+
+/* Lightbox Modal */
+.gem-lightbox{position:fixed;inset:0;z-index:120;background:rgba(18,23,29,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;padding:clamp(20px,4vw,56px);opacity:0;pointer-events:none;transition:opacity .32s cubic-bezier(.22,1,.36,1)}
+.gem-lightbox.is-open{opacity:1;pointer-events:auto}
+.gem-lightbox-inner{max-width:min(1120px,92vw);max-height:88vh;display:flex;flex-direction:column;align-items:center;gap:16px;transform:scale(.96) translateY(10px);transition:transform .38s cubic-bezier(.22,1,.36,1)}
+.gem-lightbox.is-open .gem-lightbox-inner{transform:scale(1) translateY(0)}
+.gem-lightbox img{max-width:100%;max-height:76vh;width:auto;height:auto;object-fit:contain;background:var(--ivory);border:1px solid rgba(255,255,255,.18);box-shadow:0 24px 64px rgba(0,0,0,.45)}
+.gem-lightbox-caption{color:var(--ivory);font-size:14px;text-align:center;max-width:68ch}
+.gem-lightbox-close{position:absolute;top:24px;inset-inline-end:28px;min-height:44px;min-width:44px;padding:8px 16px;background:rgba(248,243,234,.14);color:#fff;border:1px solid rgba(255,255,255,.35);font-size:13px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:background-color .25s ease}
+html[dir=rtl] .gem-lightbox-close{letter-spacing:0;font-size:14px;text-transform:none}
+.gem-lightbox-close:hover{background:rgba(248,243,234,.28)}
+
+/* 4. Tactile Micro-Interactions on Cards & Buttons */
+.card{transition:transform .45s cubic-bezier(.22,1,.36,1),box-shadow .45s cubic-bezier(.22,1,.36,1),border-color .35s ease}
+.card>img,.card picture img{transition:transform .85s cubic-bezier(.22,1,.36,1)}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 38px rgba(18,23,29,.08);border-color:var(--ink)}
+.card:hover>img,.card:hover picture img{transform:scale(1.045)}
+.button,.card a.more,.text-link{transition:transform .28s cubic-bezier(.22,1,.36,1),background-color .28s ease,color .28s ease,opacity .28s ease}
+.button span[aria-hidden],.card a.more span[aria-hidden],.text-link span[aria-hidden]{transition:transform .28s cubic-bezier(.22,1,.36,1)}
+.button:hover span[aria-hidden],.card a.more:hover span[aria-hidden],.text-link:hover span[aria-hidden]{transform:translateX(5px)}
+html[dir=rtl] .button:hover span[aria-hidden],html[dir=rtl] .card a.more:hover span[aria-hidden],html[dir=rtl] .text-link:hover span[aria-hidden]{transform:scaleX(-1) translateX(5px)}
+.audiences>div,.programmes>div,.principles>div{transition:transform .4s cubic-bezier(.22,1,.36,1),box-shadow .4s ease}
+.audiences>div:hover,.programmes>div:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(18,23,29,.06)}
+/* Preview fixes: contain oversized parallax textures; keep hover lift after reveal */
+.on-texture>.bg{overflow:hidden}
+@media(prefers-reduced-motion:no-preference){.js-motion .card[data-reveal].is-visible:hover{transform:translateY(-6px)}}
