@@ -48,6 +48,18 @@ class BuildChecks(unittest.TestCase):
             self.assertTrue((self.root / 'dist' / name).is_file(), name)
         self.assertEqual(self.check().returncode, 0)
 
+    def test_script_and_style_urls_carry_the_content_hash(self):
+        import hashlib
+        import re
+        self.build()
+        pages = list((self.root / 'dist').glob('*/index.html')) + [self.root / 'dist/404.html']
+        for page in pages:
+            refs = re.findall(r'(?:href|src)="(/[\w.-]+\.(?:css|js))(\?v=[0-9a-f]{10})?"', page.read_text())
+            self.assertTrue(refs, page)
+            for name, version in refs:
+                digest = hashlib.sha256((self.root / 'dist' / name.lstrip('/')).read_bytes()).hexdigest()[:10]
+                self.assertEqual(version, '?v=' + digest, f'{page.name}: {name}')
+
     def test_production(self):
         self.build(ORIGIN)
         result = self.check(ORIGIN)
