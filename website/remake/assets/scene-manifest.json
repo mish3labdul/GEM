@@ -45,13 +45,13 @@
     },
     {
       "file": "assets/scenes/loop-ltr.mp4",
-      "bytes": 315651,
-      "sha256": "2eb324f66eca5b4c87fa9586f4dfe12b49dc67955f9a281cad2614b594115071"
+      "bytes": 291321,
+      "sha256": "1180518172112286c0ef747332e4fe948072279192461bfd285ec5e8b01ca665"
     },
     {
       "file": "assets/scenes/loop-rtl.mp4",
-      "bytes": 344472,
-      "sha256": "5ad8c8819e76f5c8ebc1069858777b95bd9db15fc06d5f8ad7b07db49fe2b8d1"
+      "bytes": 387830,
+      "sha256": "c937a7c4165e49c209201071f74509e9afece533a32643641866ac0534cc26ef"
     },
     {
       "file": "assets/scenes/packaging.webp",
