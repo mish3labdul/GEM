@@ -67,7 +67,7 @@ try {
     });
     await test(`${lang}: blocked script cannot submit brief`, async context => {
       const page = await context.newPage();
-      await page.route('**/app.js', route => route.abort());
+      await page.route('**/app.js*', route => route.abort());
       const navigation = [];
       page.on('request', request => { if (request.isNavigationRequest()) navigation.push(request.url()); });
       await page.goto(`${base}/${lang}/contact/`);

@@ -4,6 +4,10 @@ The current accepted preview is https://gem.mish3l.com, served by the existing d
 
 The build copies `_headers` and `_redirects` from this directory into `dist`, including on a clean rebuild. They preserve noindex, native form-submission protection, nosniff, referrer policy, cache revalidation, the Arabic root redirect and legacy Privacy URLs. Application layout, copy, artwork and local-only brief behaviour are unchanged.
 
+## Deploy with the script
+
+`hosting/cloudflare/deploy.sh` runs the steps below with guards and live verification: it needs a clean committed tree, rebuilds, runs the checks, deploys to the `remake-review` preview branch by default (`--branch NAME` for another alias), and verifies the routes, the noindex header and the fingerprinted CSS/JS against `dist`. `--production` deploys to `main` after you type `deploy`, then verifies `gem.mish3l.com` as well. Assets are served with a four-hour browser cache set at the Cloudflare zone, so CSS and JS URLs carry a content hash from the build. See the [M9 record](../../../records/m9-release-confidence-20261023/README.md) for the cache finding, the rollback rehearsal and recovery steps.
+
 ## Review and deploy manually
 
 From a clean reviewed commit in `website/remake`, with the existing Wrangler CLI authenticated:
