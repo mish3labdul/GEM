@@ -85,10 +85,11 @@ ${cta({ c, lang, up })}`
 // Amenities & packaging ------------------------------------------------------
 function portfolio({ c, lang, up, a, legacyBody }) {
   const rtl = lang === 'ar'
+  const familyImg = rtl ? 'family-rtl' : 'family'
   const prods = ['shampoo', 'conditioner', 'body-wash', 'body-lotion', 'hand-wash']
   const fmts = ['room', 'wall', 'travel']
-  return `<section class="hero flip-rtl narrow-copy" aria-labelledby="h1">
- <picture><img src="${up}assets/family.webp" alt="${esc(a.family)}" fetchpriority="high" decoding="async"></picture>
+  return `<section class="hero narrow-copy" aria-labelledby="h1">
+ <picture><img src="${up}assets/${familyImg}.webp" alt="${esc(a.family)}" fetchpriority="high" decoding="async"></picture>
  <div class="hero-copy">
   <h1 id="h1">${br(c.portfolioH1)}</h1>
   <p class="intro">${wrapEn(c.portfolioIntro)}</p>

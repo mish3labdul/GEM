@@ -14,6 +14,11 @@
       "sha256": "c2e974c45e87d241319dda9d5fb46d2bad516ffa14db4c94ca867c6b17b60838"
     },
     {
+      "file": "assets/scenes/family-rtl.webp",
+      "bytes": 50646,
+      "sha256": "3d740ab8d8cee26e78d999ab02165e4a7f203c1ce7d184a7e1f6cbc4b19b976a"
+    },
+    {
       "file": "assets/scenes/family.webp",
       "bytes": 45618,
       "sha256": "36b757626009e5e375e50b31f6bca77d67b6c90d197a375c465c84e7deee948b"
