@@ -35,7 +35,7 @@ function scene(type='family'){
 }
 function figure(c,type='room',cls=''){
  const i=['room','wall','travel'].indexOf(type);
- const qualification=c===content.ar?'دراسة تصوّرية؛ الأعداد والمواد والتجهيزات والتوافق قيد المراجعة.':'Concept study; counts, materials, hardware and compatibility remain under review.';
+ const qualification=c.formatConcept;
  return `<figure class="art format-art ${cls}"><img src="/assets/format-${type}-960.webp" srcset="/assets/format-${type}-480.webp 480w, /assets/format-${type}-960.webp 960w" sizes="(max-width:760px) 100vw, 33vw" width="1536" height="1024" loading="lazy" decoding="async" alt="${escape(c.formats[i][0]+'. '+qualification)}"><figcaption>${escape(qualification)}</figcaption></figure>`;
 }
 function header(lang,slug,c){return `<a class="skip" href="#main">${c.skip}</a><header class="site-header"><a class="logo" href="/${lang}/" aria-label="GEM — ${c.home}"><img src="/assets/logo-ink.svg" width="142" height="46" alt="GEM"></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation">${c.menu}<span aria-hidden="true">＋</span></button><nav id="navigation" aria-label="${lang==='ar'?'التنقل الرئيسي':'Main navigation'}">${['amenities-packaging','about','contact'].map((s,i)=>`<a ${s===slug?'aria-current="page"':''} class="${s==='contact'?'nav-cta':''}" href="${link(lang,s)}">${escape(c.nav[i])}</a>`).join('')}<a class="language" href="${link(lang==='ar'?'en':'ar',slug)}" lang="${lang==='ar'?'en':'ar'}" dir="${lang==='ar'?'ltr':'rtl'}">${c.language}</a></nav></header>`;}
