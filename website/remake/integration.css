@@ -139,3 +139,15 @@ html[dir=rtl] .button:hover span[aria-hidden],html[dir=rtl] .card a.more:hover s
 /* Preview fixes: contain oversized parallax textures; keep hover lift after reveal */
 .on-texture>.bg{overflow:hidden}
 @media(prefers-reduced-motion:no-preference){.js-motion .card[data-reveal].is-visible:hover{transform:translateY(-6px)}}
+
+/* M8 brand presentation: warm caption tone for format studies; Arabic optical size on wider screens */
+.format-art{background:var(--sand)}
+@media(min-width:761px){
+html[dir=rtl] .hero .intro{font-size:clamp(17px,1.45vw,20px)}
+html[dir=rtl] .hero.narrow-copy .intro{font-size:clamp(15px,1.25vw,18px)}
+html[dir=rtl] .copy p,html[dir=rtl] .card .body p,html[dir=rtl] .product-caption p{font-size:17px}
+html[dir=rtl] .principles p,html[dir=rtl] .pathways p,html[dir=rtl] .format-text p{font-size:16px}
+html[dir=rtl] .art figcaption,html[dir=rtl] .split figcaption{font-size:13px}
+html[dir=rtl] .hint{font-size:14px}
+html[dir=rtl] .disclosure{font-size:13px!important}
+}
