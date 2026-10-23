@@ -112,6 +112,18 @@ try {
       assert.equal(captions.length, 3);
       for (const text of captions) assert.equal(/[\u0600-\u06FF]/.test(text), lang === 'ar', `Caption in wrong language: ${text}`);
     });
+    await test(`${lang}: browser icons and share image are linked and served`, async context => {
+      const page = await context.newPage();
+      await page.goto(`${base}/${lang}/`);
+      const hrefs = await page.locator('link[rel~="icon"], link[rel="apple-touch-icon"]').evaluateAll(links => links.map(link => link.getAttribute('href')));
+      assert.deepEqual(hrefs, ['/favicon.svg', '/favicon-32.png', '/apple-touch-icon.png']);
+      for (const href of hrefs) assert.equal((await page.request.get(base + href)).status(), 200, href);
+      const svg = await (await page.request.get(`${base}/favicon.svg`)).text();
+      assert.match(svg, /prefers-color-scheme: dark/, 'Favicon lacks its dark-tab variant');
+      const social = await page.request.get(`${base}/assets/social.png`);
+      assert.equal(social.status(), 200);
+      assert.equal(social.headers()['content-type'], 'image/png');
+    });
     await test(`${lang}: local brief, validation, edit, reset and download`, async context => {
       const page = await context.newPage();
       await page.goto(`${base}/${lang}/contact/`);

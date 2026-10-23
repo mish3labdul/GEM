@@ -27,10 +27,28 @@
       "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
     },
     {
+      "file": "apple-touch-icon.png",
+      "sha256": "a46d894b0cc7db1d6f1423f386bcafb47524624c7f078a178ecb9728d20c630c",
+      "bytes": 4681,
+      "classification": "180 px touch icon: favicon.svg symbol on the ivory brand tone"
+    },
+    {
       "file": "arabic.woff2",
       "sha256": "53ef016d12b9ecc45c12566da8a800ad51f12084f207160e5871107ac5a72995",
       "bytes": 66280,
       "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+    },
+    {
+      "file": "favicon-32.png",
+      "sha256": "fa5369ba42acf26ee9a0ca010a1ee87cb6fc1ca226029b2f72192344f006cdb8",
+      "bytes": 1104,
+      "classification": "32 px raster fallback of favicon.svg"
+    },
+    {
+      "file": "favicon.svg",
+      "sha256": "311a7f6cfccdb17d82908ec771b39b0b3d3f116c182c221a8527b0e28bb07eef",
+      "bytes": 2597,
+      "classification": "Supplied no-spark symbol (brand/working-kit/logo/symbol-nospark), unaltered geometry; white fill under prefers-color-scheme dark; M8-04 owner-approved 23 Oct 2026"
     },
     {
       "file": "inter.woff2",
@@ -58,9 +76,9 @@
     },
     {
       "file": "social.png",
-      "sha256": "507cc0d385aecc67d98cc84202fd73e34d8ba736a623069aba24cdf23397c469",
-      "bytes": 269073,
-      "classification": "Pinned original identity/font/license/social resource; artwork and rights gates unchanged"
+      "sha256": "7b4f6af5a9949391016eafb8ccc82eef348d21fed67757d6d0092419041235e9",
+      "bytes": 261847,
+      "classification": "Share image: original photograph (assets/source/social-photo-original.png, unaltered) with an ivory band and the supplied ink logo lockup added along the bottom edge; M8-05 owner-approved 23 Oct 2026"
     },
     {
       "file": "social.svg",

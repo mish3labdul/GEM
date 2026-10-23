@@ -16,15 +16,14 @@ Full chronology, deployment IDs, test counts and limits: [motion and font-retry 
 
 ## What is still blocking an indexable launch (M7)
 
-Only three decisions, none of which engineering can infer:
+Only two inputs remain, neither of which engineering can infer (L07, the favicon, was closed on 23 Oct 2026):
 
 | Gate | Input needed | From whom |
 |---|---|---|
 | L09 | Public operator name; privacy contact email; hosting services that log requests, who may access the logs, retention period; applicable-law and rights wording; response time | Owner and privacy decision-maker |
 | L08 | Public-use rights disposition for the Flow scenes, approved arches and product artwork, and any exclusions | Rights decision-maker |
-| L07 | Keep the current favicon, or choose the micro-favicon artwork | Owner and artwork decision-maker |
 
-L12 (the indexing decision) then needs the exact candidate, notice text, target and rollback named. Keeping the current favicon is a valid L07 disposition.
+L12 (the indexing decision) then needs the exact candidate, notice text, target and rollback named.
 
 ## Draft public notice
 
