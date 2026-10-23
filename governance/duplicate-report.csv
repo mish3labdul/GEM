@@ -653,8 +653,6 @@ sha256,copies,path,disposition
 5750d59c7f65d6d2a2d4cb75eea1cc13b8f663a15ab336c03a12b31c65970e37,3,website/records/remediation-2026-10-11-01/raw-results/regression/20261011T170638Z/screenshots/zoom400-of-1280-index-fold.png,RETAINED: provenance/history/current-use copy
 57c8b38fc965ddb578fdd0fb5eadb7dad6a98f9355bf9f805ad2c83f7e4f4f2a,2,website/records/qa-runs/20261010T132217Z/screenshots/blocked-script-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 57c8b38fc965ddb578fdd0fb5eadb7dad6a98f9355bf9f805ad2c83f7e4f4f2a,2,website/records/qa-runs/20261010T132217Z/screenshots/no-js-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
-57f9de77c75356e4a3f55a45fa727ec05c170e22043c6c70dba71f14ed3a63cb,2,website/remake/app.js,RETAINED: provenance/history/current-use copy
-57f9de77c75356e4a3f55a45fa727ec05c170e22043c6c70dba71f14ed3a63cb,2,website/remake/dist/app.js,RETAINED: provenance/history/current-use copy
 584848519da4defdc2e71a67bd4f837eeaee8082d29197755e4c175823b3366a,2,archive/baseline-v3.0/GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Executive.docx,RETAINED: provenance/history/current-use copy
 584848519da4defdc2e71a67bd4f837eeaee8082d29197755e4c175823b3366a,2,archive/baseline-v3.0/GEM_Letterhead_Set_v1.1_Application_Revision_03/05_release/GEM_Letterhead_Executive.docx,RETAINED: provenance/history/current-use copy
 586064f7d22def5a4779cc9a75454688aeada16df5223005179ce0b07c13af9f,3,website/records/qa-runs/20261010T124444Z/screenshots/privacy-desktop-1440-full.png,RETAINED: provenance/history/current-use copy
@@ -1016,6 +1014,8 @@ sha256,copies,path,disposition
 7ec0ee6a16d7f8a8eca05904e0a6e97245519189fb8c973c520974ba816b1f6d,2,brand/working-kit/logo/symbol-nospark/clearspace/gem-symbol-nospark-beige-clearspace-2u.svg,RETAINED: provenance/history/current-use copy
 7efe80ff1255466ed799910d445339ea0ea8e4dd4c4f6572fbce31c5c421dfbe,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol-nospark/png/gem-symbol-nospark-beige-1024.png,RETAINED: provenance/history/current-use copy
 7efe80ff1255466ed799910d445339ea0ea8e4dd4c4f6572fbce31c5c421dfbe,2,brand/working-kit/logo/symbol-nospark/png/gem-symbol-nospark-beige-1024.png,RETAINED: provenance/history/current-use copy
+7f29982509bd13dd64296ba0c1f28b53a8deb706d05c2d50ff7ac63169aac941,2,website/remake/app.js,RETAINED: provenance/history/current-use copy
+7f29982509bd13dd64296ba0c1f28b53a8deb706d05c2d50ff7ac63169aac941,2,website/remake/dist/app.js,RETAINED: provenance/history/current-use copy
 801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7,8,archive/baseline-v3.0/GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation/17_qa/consistency_AFTER_AR01.md,RETAINED: provenance/history/current-use copy
 801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7,8,archive/baseline-v3.0/GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation/17_qa/consistency_AFTER_AR01_final.md,RETAINED: provenance/history/current-use copy
 801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7,8,archive/baseline-v3.0/GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation/17_qa/consistency_BASELINE_current_lineage.md,RETAINED: provenance/history/current-use copy
@@ -1275,8 +1275,6 @@ a676b5ed325c105457230ecf5b32d53a72a1512efb20468efc2dbf75dc0cb319,2,archive/basel
 a6bdb6ba50af8f066f25c0d29ce978fc62bf68e4df271edc39ccce4f750d162e,3,website/records/cleanup-qa/baseline-regression/20261011T185054Z/screenshots/init-exception-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 a6bdb6ba50af8f066f25c0d29ce978fc62bf68e4df271edc39ccce4f750d162e,3,website/records/cleanup-qa/regression/20261011T185626Z/screenshots/init-exception-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 a6bdb6ba50af8f066f25c0d29ce978fc62bf68e4df271edc39ccce4f750d162e,3,website/records/remediation-2026-10-11-01/raw-results/regression/20261011T170638Z/screenshots/init-exception-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
-a6f31ad64c9748d670b57bebeb347a567cc2b05b06be81e85df4c1022997a4f9,2,website/remake/dist/integration.css,RETAINED: provenance/history/current-use copy
-a6f31ad64c9748d670b57bebeb347a567cc2b05b06be81e85df4c1022997a4f9,2,website/remake/integration.css,RETAINED: provenance/history/current-use copy
 a777753c9d923c6fe895781d52cddda084e58f85157808a7008286039a31322b,3,website/records/qa-runs/20261011T093708Z/screenshots/text200-stress-1440.png,RETAINED: provenance/history/current-use copy
 a777753c9d923c6fe895781d52cddda084e58f85157808a7008286039a31322b,3,website/records/qa-runs/20261011T093843Z/screenshots/text200-stress-1440.png,RETAINED: provenance/history/current-use copy
 a777753c9d923c6fe895781d52cddda084e58f85157808a7008286039a31322b,3,website/records/qa-runs/20261011T094027Z/screenshots/text200-stress-1440.png,RETAINED: provenance/history/current-use copy
@@ -1635,6 +1633,8 @@ e1d974cc5e0723c16da8aa1c2eb3d7e2629de273b9be307017ed9a8bbbb3668b,2,archive/basel
 e1d974cc5e0723c16da8aa1c2eb3d7e2629de273b9be307017ed9a8bbbb3668b,2,brand/working-kit/logo/symbol-nospark/svg/gem-symbol-nospark-black.svg,RETAINED: provenance/history/current-use copy
 e24828ba0531949b015cf769728e7c61c3f1c99ba036829a0ec31ec772bdc3cb,2,website/site/assets/img/guest-arrangement-1200.webp,RETAINED: provenance/history/current-use copy
 e24828ba0531949b015cf769728e7c61c3f1c99ba036829a0ec31ec772bdc3cb,2,website/source-images/concept-r02/web/guest-arrangement-1200.webp,RETAINED: provenance/history/current-use copy
+e36c0eb584c81a59d498e63169ae5896d1dab9b6bb426d76b494d84965320eaf,2,website/remake/dist/integration.css,RETAINED: provenance/history/current-use copy
+e36c0eb584c81a59d498e63169ae5896d1dab9b6bb426d76b494d84965320eaf,2,website/remake/integration.css,RETAINED: provenance/history/current-use copy
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,2,archive/baseline-v3.0/GEM_V3.0_RC2_Owner_Decision_Implementation_Candidate_ODI01_R1/18_qa_evidence/git_evidence/git_status_porcelain_v2.txt,RETAINED: provenance/history/current-use copy
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,2,website/records/_update.tar.gz,RETAINED: provenance/history/current-use copy
 e3bbc703acb7e029d76edcd2716fd7c3d00ba7ce07bcabef84907191ce96fd7d,4,website/records/cleanup-qa/corrections/20261011T185637Z/screenshots/long-draft-copy.png,RETAINED: provenance/history/current-use copy

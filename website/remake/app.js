@@ -16,6 +16,7 @@
   const image=document.getElementById('product-image');
   if(image){
    const file=['shampoo','conditioner','body-wash','body-lotion','hand-wash'][i]+'-source.webp';
+   if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){const cap=document.querySelector('.product-caption');image.classList.add('is-switching');if(cap)cap.classList.add('is-switching');setTimeout(()=>{image.classList.remove('is-switching');if(cap)cap.classList.remove('is-switching');},120);}
    image.src='/assets/'+file;
    image.alt=data.products[i]+'. '+data.concept;
    document.getElementById('pilot-selected-name').textContent=data.products[i];
@@ -50,4 +51,63 @@
  }
  // Both languages use all three fonts, including the language switch and signature.
  Promise.all([document.fonts.load('16px Arabic','العربية'),document.fonts.load('16px Jost','GEM'),document.fonts.load('16px Inter','GEM')]).then(loaded=>{if(loaded.some(a=>!a.length))throw Error('Required font missing');}).catch(()=>{document.documentElement.classList.add('font-error');document.querySelector('.font-failure').hidden=false;});
+ // Motion preview: smart header, scroll parallax, curtain reveals, zoom lightbox.
+ // Every effect is skipped when the visitor prefers reduced motion.
+ const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+ const header=document.querySelector('.site-header');
+ if(header){const bar=document.createElement('div');bar.className='scroll-horizon';bar.setAttribute('aria-hidden','true');header.appendChild(bar);}
+ const visual=document.querySelector('.product-visual');
+ if(visual)visual.setAttribute('data-zoom-hint',lang==='ar'?'اضغط للتكبير':'Click to inspect');
+ if(!reducedMotion&&'IntersectionObserver' in window){
+  document.documentElement.classList.add('js-motion');
+  const targets=[...document.querySelectorAll('main section:not(.hero) .copy, .card, .principles > div, .audiences > div, .programmes > div, .formats > article, main section:not(.hero) figure')];
+  targets.forEach((el,i)=>{el.setAttribute('data-reveal',el.tagName==='FIGURE'?'image':'text');el.style.setProperty('--reveal-delay',`${(i%3)*70}ms`);});
+  const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}}),{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  targets.forEach(el=>{if(el.getBoundingClientRect().top<innerHeight*.92)el.classList.add('is-visible');else io.observe(el);});
+ }
+ let lastY=scrollY,ticking=false;
+ const hero=document.querySelector('.hero');
+ const textures=[...document.querySelectorAll('.arc-banner img, .on-texture > .bg img')];
+ const onScroll=()=>{
+  const y=scrollY,max=Math.max(1,document.documentElement.scrollHeight-innerHeight);
+  if(header){
+   header.style.setProperty('--scroll-progress',(y/max).toFixed(4));
+   header.classList.toggle('is-scrolled',y>36);
+   const open=menu&&menu.getAttribute('aria-expanded')==='true';
+   if(!open&&y>220&&y>lastY+6)header.classList.add('is-hidden');
+   if(open||y<lastY-4||y<=220)header.classList.remove('is-hidden');
+  }
+  if(!reducedMotion){
+   if(hero&&y<innerHeight*1.2){
+    const p=Math.min(1,y/innerHeight);
+    hero.style.setProperty('--hero-parallax',`${(y*.22).toFixed(1)}px`);
+    hero.style.setProperty('--hero-scale',(1.03+p*.05).toFixed(4));
+    hero.style.setProperty('--hero-copy-y',`${(y*-.08).toFixed(1)}px`);
+   }
+   textures.forEach(img=>{const r=img.parentElement.getBoundingClientRect();if(r.bottom>-100&&r.top<innerHeight+100)img.style.setProperty('--bg-parallax',`${(((r.top+r.height/2-innerHeight/2)/innerHeight)*-42).toFixed(1)}px`);});
+  }
+  lastY=y;ticking=false;
+ };
+ addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(onScroll);ticking=true;}},{passive:true});
+ onScroll();
+ const zoomables=[...document.querySelectorAll('#product-image, .format-art img, .split figure img')];
+ if(zoomables.length){
+  const lb=document.createElement('div');
+  lb.className='gem-lightbox';lb.setAttribute('role','dialog');lb.setAttribute('aria-modal','true');lb.setAttribute('aria-hidden','true');
+  lb.innerHTML=`<button type="button" class="gem-lightbox-close">${lang==='ar'?'إغلاق ✕':'Close ✕'}</button><div class="gem-lightbox-inner"><img alt=""><p class="gem-lightbox-caption"></p></div>`;
+  document.body.appendChild(lb);
+  const lbImg=lb.querySelector('img'),lbCap=lb.querySelector('.gem-lightbox-caption'),lbClose=lb.querySelector('.gem-lightbox-close');
+  let trigger=null;
+  const close=()=>{lb.classList.remove('is-open');lb.setAttribute('aria-hidden','true');if(trigger)trigger.focus();};
+  lbClose.addEventListener('click',close);
+  lb.addEventListener('click',e=>{if(e.target===lb)close();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&lb.classList.contains('is-open'))close();});
+  zoomables.forEach(img=>{
+   const target=img.closest('.product-visual')||img;
+   if(!target.hasAttribute('tabindex'))target.setAttribute('tabindex','0');
+   const open=()=>{trigger=target;lbImg.src=img.currentSrc||img.src;lbImg.alt=img.alt||'';lbCap.textContent=img.closest('figure')?.querySelector('figcaption')?.textContent||document.getElementById('product-name')?.textContent||img.alt||'';lb.classList.add('is-open');lb.setAttribute('aria-hidden','false');lbClose.focus();};
+   target.addEventListener('click',open);
+   target.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();open();}});
+  });
+ }
 })();
