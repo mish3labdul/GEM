@@ -1014,8 +1014,6 @@ sha256,copies,path,disposition
 7ec0ee6a16d7f8a8eca05904e0a6e97245519189fb8c973c520974ba816b1f6d,2,brand/working-kit/logo/symbol-nospark/clearspace/gem-symbol-nospark-beige-clearspace-2u.svg,RETAINED: provenance/history/current-use copy
 7efe80ff1255466ed799910d445339ea0ea8e4dd4c4f6572fbce31c5c421dfbe,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol-nospark/png/gem-symbol-nospark-beige-1024.png,RETAINED: provenance/history/current-use copy
 7efe80ff1255466ed799910d445339ea0ea8e4dd4c4f6572fbce31c5c421dfbe,2,brand/working-kit/logo/symbol-nospark/png/gem-symbol-nospark-beige-1024.png,RETAINED: provenance/history/current-use copy
-7f29982509bd13dd64296ba0c1f28b53a8deb706d05c2d50ff7ac63169aac941,2,website/remake/app.js,RETAINED: provenance/history/current-use copy
-7f29982509bd13dd64296ba0c1f28b53a8deb706d05c2d50ff7ac63169aac941,2,website/remake/dist/app.js,RETAINED: provenance/history/current-use copy
 801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7,8,archive/baseline-v3.0/GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation/17_qa/consistency_AFTER_AR01.md,RETAINED: provenance/history/current-use copy
 801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7,8,archive/baseline-v3.0/GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation/17_qa/consistency_AFTER_AR01_final.md,RETAINED: provenance/history/current-use copy
 801f63aaf32294864e82ea035f157831fa433b1e2823a94510c04fb41ccbc5f7,8,archive/baseline-v3.0/GEM_V3.0_RC2_AR01_Arabic_RTL_Native_Validation/17_qa/consistency_BASELINE_current_lineage.md,RETAINED: provenance/history/current-use copy
@@ -1743,6 +1741,8 @@ f9d439505f6d5c02314dc6af32014f6d5d0157376015972e73f2edc5b05ddbb0,11,website/reco
 f9d439505f6d5c02314dc6af32014f6d5d0157376015972e73f2edc5b05ddbb0,11,website/records/qa-runs/20261011T154529Z/screenshots/privacy-narrow-320-fold.png,RETAINED: provenance/history/current-use copy
 f9f968d2e51d715658796c69e63c83dfe324bf783f6dc530b49bfc0c6fd3462b,2,archive/baseline-v3.0/GEM_V3_RC2/01_working/C-RC2.pptx,RETAINED: provenance/history/current-use copy
 f9f968d2e51d715658796c69e63c83dfe324bf783f6dc530b49bfc0c6fd3462b,2,archive/baseline-v3.0/GEM_V3_RC2/04_release/GEM Production Standards V3.0 — Part C — RC2.pptx,RETAINED: provenance/history/current-use copy
+fa08b93bcdf2a07a39e3d6b65af4ec72426e9ff14c526d352d0771059bf7cca2,2,website/remake/app.js,RETAINED: provenance/history/current-use copy
+fa08b93bcdf2a07a39e3d6b65af4ec72426e9ff14c526d352d0771059bf7cca2,2,website/remake/dist/app.js,RETAINED: provenance/history/current-use copy
 fac33244947747a537a36b258fc545e9f3037780a8743b88ce327891408f8ebb,2,website/remake/assets/exports/hero-mobile-640.webp,RETAINED: provenance/history/current-use copy
 fac33244947747a537a36b258fc545e9f3037780a8743b88ce327891408f8ebb,2,website/remake/dist/assets/hero-mobile-640.webp,RETAINED: provenance/history/current-use copy
 fc63a8d9ec4bceb499045b612514fb34dff762cf8eaead0f17eaba1419aa76f1,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol/svg/gem-symbol-white.svg,RETAINED: provenance/history/current-use copy

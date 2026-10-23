@@ -50,7 +50,18 @@
   form.removeAttribute('aria-describedby');
  }
  // Both languages use all three fonts, including the language switch and signature.
- Promise.all([document.fonts.load('16px Arabic','العربية'),document.fonts.load('16px Jost','GEM'),document.fonts.load('16px Inter','GEM')]).then(loaded=>{if(loaded.some(a=>!a.length))throw Error('Required font missing');}).catch(()=>{document.documentElement.classList.add('font-error');document.querySelector('.font-failure').hidden=false;});
+ // A font that fails once is not refetched by the browser, so retry by loading a fresh FontFace; only a persistent failure shows the error.
+ const requireFont=async(family,file,sample)=>{
+  for(let attempt=0;attempt<3;attempt++){
+   try{
+    if(attempt===0){if((await document.fonts.load('16px '+family,sample)).length)return;}
+    else{document.fonts.add(await new FontFace(family,"url('/assets/"+file+"') format('woff2')",{weight:'400',display:'block'}).load());return;}
+   }catch{}
+   if(attempt<2)await new Promise(resolve=>setTimeout(resolve,300*(attempt+1)));
+  }
+  throw Error('Required font missing: '+family);
+ };
+ Promise.all([requireFont('Arabic','arabic.woff2','العربية'),requireFont('Jost','jost.woff2','GEM'),requireFont('Inter','inter.woff2','GEM')]).catch(()=>{document.documentElement.classList.add('font-error');document.querySelector('.font-failure').hidden=false;});
  // Motion preview: smart header, scroll parallax, curtain reveals, zoom lightbox.
  // Every effect is skipped when the visitor prefers reduced motion.
  const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;

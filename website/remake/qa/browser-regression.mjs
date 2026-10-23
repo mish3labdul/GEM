@@ -89,12 +89,22 @@ try {
         const page = await context.newPage();
         await page.route(`**/${font}.woff2`, route => route.abort());
         await page.goto(`${base}/${lang}/`);
-        await page.evaluate(() => document.fonts.ready);
-        assert.equal(await page.locator('html').evaluate(el => el.classList.contains('font-error')),
-          true, 'Missing font was silently replaced');
+        // The page retries a failed font before declaring it missing.
+        await page.waitForFunction(() => document.documentElement.classList.contains('font-error'), null, {timeout: 5000})
+          .catch(() => assert.fail('Missing font was silently replaced'));
         assert.equal(await page.locator('.font-failure').isVisible(), true);
       });
     }
+    await test(`${lang}: a single failed font request recovers without the error screen`, async context => {
+      const page = await context.newPage();
+      let blocked = 0;
+      await page.route('**/inter.woff2', route => blocked++ === 0 ? route.abort() : route.continue());
+      await page.goto(`${base}/${lang}/`);
+      await page.waitForTimeout(2500);
+      assert.equal(blocked >= 2, true, 'Font was not requested again after the failure');
+      assert.equal(await page.locator('html').evaluate(el => el.classList.contains('font-error')), false);
+      assert.equal(await page.locator('.font-failure').isVisible(), false);
+    });
     await test(`${lang}: local brief, validation, edit, reset and download`, async context => {
       const page = await context.newPage();
       await page.goto(`${base}/${lang}/contact/`);
