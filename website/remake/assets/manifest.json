@@ -140,13 +140,13 @@
     },
     {
       "file": "shampoo-source.webp",
-      "width": 1263,
-      "height": 1246,
+      "width": 1024,
+      "height": 1536,
       "classification": "Original Part D slide 4 concept study in lossless web encoding; not production artwork",
       "source": "source/shampoo-source.png",
-      "sourceSha256": "145f91ee77c1a58a1d867c28b55dc70e07718ad94675d89382815a60c4e68c77",
-      "sha256": "28da3087d924129a646c61b469219a571a632a1537ec1b7248cd7280712f1e19",
-      "bytes": 423952,
+      "sourceSha256": "a51f2e34a41bcc46ea1bba2ca3ffbaad1b9107066a43fdfc38cb3c1ffa220abc",
+      "sha256": "c7b520d4150a95216ad96fff15195c6c12c483fb21fa0e2142ddd81b62921020",
+      "bytes": 620196,
       "changedVisiblePixels": 0
     },
     {
