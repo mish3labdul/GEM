@@ -1,0 +1,34 @@
+# GEM Business Stationery Working Suite
+
+**Status: WORKING TEMPLATE SET / INTERNAL REVIEW ONLY. Not approved for external issue.**
+
+Five editable A4 Word templates and matching PDF review previews are provided. The Word files are the working masters; replace each bracketed field before use. Item tables can be extended in Word by adding rows.
+
+| Template | Editable Word file | PDF review preview |
+|---|---|---|
+| Business letterhead | GEM_Business_Letterhead_Template_working.docx | GEM_Business_Letterhead_Template_working.pdf |
+| Request for Quotation | GEM_Request_for_Quotation_Template_working.docx | GEM_Request_for_Quotation_Template_working.pdf |
+| Quotation and Proposal | GEM_Quotation_Proposal_Template_working.docx | GEM_Quotation_Proposal_Template_working.pdf |
+| Invoice | GEM_Invoice_Template_working.docx | GEM_Invoice_Template_working.pdf |
+| Purchase Order | GEM_Purchase_Order_Template_working.docx | GEM_Purchase_Order_Template_working.pdf |
+
+## Design and source
+
+The templates use the supplied V3.0 horizontal ink logo, embedded directly in each Word file, and the approved Ink #12171D, Beige #BCACA7, and White #FFFFFF palette. Jost is used for display headings, Inter for Latin text, and Noto Sans Arabic for Arabic labels. Page size is A4.
+
+English and Arabic labels are included to support bilingual completion. Arabic wording is a working translation and needs review by the owner and a qualified Arabic-language reviewer. Preview PDFs were exported with the exact Jost, Inter, and Noto Sans Arabic fonts; the PDFs embed the fonts used. The editable Word files refer to font names and do not embed the typefaces, so the editing computer must have those fonts available to preserve the layout.
+
+## Fields still requiring confirmation
+
+- The legal or registered entity name, postal and billing addresses, telephone number, and transaction contacts remain editable placeholders.
+- contact@mish3l.com is included from the owner record as a tested contact address on 26 October 2026. Its use on commercial stationery still needs confirmation alongside the open L09 business-contact facts.
+- Currency, tax registration identifiers, applicable tax name and rate, bank and beneficiary details, payment terms, delivery terms, and quote validity values are placeholders. No rate, account detail, address, or jurisdiction-specific legal wording has been supplied or inferred.
+- The Arabic and bilingual external-issue gate D8 remains open in the V3.0 document records. Keep this set internal until owner and native-language review is complete; confirm the legal, tax, payment, and commercial fields before issuing any document.
+
+The purchase-order authorization fields are workflow placeholders only. This suite supplies no contract terms, warranty promise, tax calculation, or claim about a registered legal entity.
+
+## Rebuild and verification
+
+Run node build.mjs from this directory to rebuild the five Word files from the source in the repository's archived V3.0 brand asset kit. The PDFs are static review exports and should be regenerated from the Word files after any template change.
+
+The five DOCX files opened and exported successfully in LibreOffice. Their A4 PDF previews were checked page by page for layout, logo placement, placeholder visibility, embedded Jost/Inter/Noto Sans Arabic fonts, and Arabic glyph rendering. Text extraction found Arabic characters and no replacement glyphs. The previews are not native Microsoft Word, physical printer, accessibility, legal, tax, or owner acceptance.
