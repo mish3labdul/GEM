@@ -59,6 +59,11 @@ try {
       assert.equal(await page.locator('[data-product="3"]').getAttribute('aria-pressed'), 'true');
       const outline = await page.locator('[data-product="3"]').evaluate(el => getComputedStyle(el).outlineStyle);
       assert.notEqual(outline, 'none');
+      const viewTransition = await page.evaluate(() => getComputedStyle(document.documentElement, '::view-transition-old(root)').animationDuration);
+      assert.equal(viewTransition, '0s');
+      await page.evaluate(() => scrollTo(0, 500));
+      await page.waitForTimeout(100);
+      assert.equal(await page.locator('.site-header').evaluate(el => el.classList.contains('is-hidden')), false);
       for (const img of await page.locator('.format-art img').all()) {
         await img.scrollIntoViewIfNeeded();
         await img.evaluate(el => el.decode());
@@ -111,6 +116,35 @@ try {
       const captions = await page.locator('.format-art figcaption').allTextContents();
       assert.equal(captions.length, 3);
       for (const text of captions) assert.equal(/[\u0600-\u06FF]/.test(text), lang === 'ar', `Caption in wrong language: ${text}`);
+    });
+    await test(`${lang}: image zoom controls and modal keyboard focus`, async context => {
+      const page = await context.newPage();
+      await page.goto(`${base}/${lang}/amenities-packaging/`);
+      const product = page.locator('button.product-visual');
+      await product.focus();
+      await page.keyboard.press('Space');
+      const dialog = page.locator('.gem-lightbox');
+      assert.equal(await dialog.isVisible(), true);
+      assert.equal(await page.locator('.gem-lightbox-close').evaluate(el => el === document.activeElement), true);
+      await page.keyboard.press('Tab');
+      assert.equal(await page.locator('.gem-lightbox-close').evaluate(el => el === document.activeElement), true);
+      await page.keyboard.press('Escape');
+      assert.equal(await dialog.isHidden(), true);
+      assert.equal(await product.evaluate(el => el === document.activeElement), true);
+      const format = page.locator('button.zoom-trigger').first();
+      await format.focus();
+      await page.keyboard.press('Enter');
+      assert.equal(await dialog.isVisible(), true);
+      await page.keyboard.press('Escape');
+      assert.equal(await format.evaluate(el => el === document.activeElement), true);
+    });
+    await test(`${lang}: blocked script leaves image zoom unavailable`, async context => {
+      const page = await context.newPage();
+      await page.route('**/app.js*', route => route.abort());
+      await page.goto(`${base}/${lang}/amenities-packaging/`);
+      assert.equal(await page.locator('.product-visual').isDisabled(), true);
+      assert.equal(await page.locator('.product-visual').evaluate(el => getComputedStyle(el, '::after').display), 'none');
+      assert.equal(await page.locator('.zoom-trigger').count(), 0);
     });
     await test(`${lang}: browser icons and share image are linked and served`, async context => {
       const page = await context.newPage();

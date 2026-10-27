@@ -98,6 +98,7 @@ figcaption{font-size:12px;margin-top:10px;color:#5a534f}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap)}
 .card{display:flex;flex-direction:column;background:var(--ivory);border:1px solid var(--line)}
 .card img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.card img[src$="packaging.webp"]{object-position:64% 50%}
 .card .body{padding:22px 22px 26px;display:flex;flex-direction:column;gap:12px;flex:1}
 .card a.more{margin-top:auto;font-size:14px}
 .tag{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#5a534f}
