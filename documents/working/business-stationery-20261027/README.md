@@ -14,7 +14,7 @@ Five editable A4 Word templates and matching PDF review previews are provided. T
 
 ## Design and source
 
-The templates use the supplied V3.0 horizontal ink logo, embedded directly in each Word file, and the approved Ink #12171D, Beige #BCACA7, and White #FFFFFF palette. Jost is used for display headings, Inter for Latin text, and Noto Sans Arabic for Arabic labels. Page size is A4.
+The templates use the supplied V3.0 horizontal ink logo, embedded directly in each Word file, and the approved Ink #12171D, Beige #BCACA7, and White #FFFFFF palette. Jost is used for display headings, Inter for Latin text, and Noto Sans Arabic for Arabic labels. Page size is A4. Page numbers appear in the footer.
 
 English and Arabic labels are included to support bilingual completion. Arabic wording is a working translation and needs review by the owner and a qualified Arabic-language reviewer. Preview PDFs were exported with the exact Jost, Inter, and Noto Sans Arabic fonts; the PDFs embed the fonts used. The editable Word files refer to font names and do not embed the typefaces, so the editing computer must have those fonts available to preserve the layout.
 
@@ -27,8 +27,12 @@ English and Arabic labels are included to support bilingual completion. Arabic w
 
 The purchase-order authorization fields are workflow placeholders only. This suite supplies no contract terms, warranty promise, tax calculation, or claim about a registered legal entity.
 
+## Remove before issue
+
+Each file carries internal-review markings that must be removed or replaced by the owner once the gates below are cleared, and not before: the header label "INTERNAL REVIEW DRAFT" and its Arabic line, the "TEMPLATE 0x" kicker above each title, and every bracketed placeholder. The footer contact line and its Arabic line are placeholders too.
+
 ## Rebuild and verification
 
-Run node build.mjs from this directory to rebuild the five Word files from the source in the repository's archived V3.0 brand asset kit. The PDFs are static review exports and should be regenerated from the Word files after any template change.
+Run `node build.mjs` from this directory to rebuild the five Word files from the source in the repository's archived V3.0 brand asset kit. Run `bash export-pdf.sh` to regenerate the five PDF previews from the Word files with LibreOffice. The script copies Jost, Inter and Noto Sans Arabic (Regular and Bold) from `FONT_DIR` (default `~/Library/Fonts`) into a throwaway LibreOffice profile, so the PDFs embed those exact fonts. After either step, regenerate `SHA256SUMS.txt`. PDF checksums are not reproducible across exports because LibreOffice stamps creation times.
 
-The five DOCX files opened and exported successfully in LibreOffice. Their A4 PDF previews were checked page by page for layout, logo placement, placeholder visibility, embedded Jost/Inter/Noto Sans Arabic fonts, and Arabic glyph rendering. Text extraction found Arabic characters and no replacement glyphs. The previews are not native Microsoft Word, physical printer, accessibility, legal, tax, or owner acceptance.
+Checked in LibreOffice only: the five DOCX files open and export, and every PDF page was rendered and inspected for layout, logo placement, placeholder visibility, repeated table headers, page breaks, right-aligned Arabic text and the bilingual footer. `pdffonts` shows only Jost, Inter and Noto Sans Arabic, all embedded. Text extraction found Arabic characters and no replacement glyphs. Not checked: native Microsoft Word (including how it handles the separator paragraphs, keep-with-next chains and fonts missing from the editing computer), physical printing, accessibility, legal, tax, or owner acceptance.
