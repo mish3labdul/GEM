@@ -15,13 +15,13 @@
     },
     {
       "file": "assets/scenes/family-rtl.webp",
-      "bytes": 50646,
-      "sha256": "3d740ab8d8cee26e78d999ab02165e4a7f203c1ce7d184a7e1f6cbc4b19b976a"
+      "bytes": 76606,
+      "sha256": "d5280bd78699eaacb4b5f7b2152221760a2dd1ad27d6b8a96028151667fdc4dd"
     },
     {
       "file": "assets/scenes/family.webp",
-      "bytes": 45618,
-      "sha256": "36b757626009e5e375e50b31f6bca77d67b6c90d197a375c465c84e7deee948b"
+      "bytes": 75538,
+      "sha256": "628a3908ec84b740d587d24a1dc6d614ecd273fe419acd500571cf62f3e25874"
     },
     {
       "file": "assets/scenes/flatlay.webp",
@@ -70,8 +70,8 @@
     },
     {
       "file": "assets/scenes/tx-arches.webp",
-      "bytes": 261890,
-      "sha256": "a39ae72e52621a0001d142d18783d9e72452292584d4d0eee9022b91d22c55ce"
+      "bytes": 31832,
+      "sha256": "71dbe7e9ac45ad6ae4edddf274435226ac92c71e52fa8bfd5bd6d36226d68be4"
     },
     {
       "file": "assets/scenes/tx-limewash.webp",

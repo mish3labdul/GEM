@@ -219,9 +219,9 @@
       "height": 320,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "3bf1de225280060d842d238f9f50dec992d1d6f2a3f0b3ccce1fa924e89594a0",
-      "sha256": "a86da940ecfea2b4c964d85cae7d88bec1135b43f013f197df415729c0086426",
-      "bytes": 16908
+      "sourceSha256": "949de337a0c29b9f1501646e48fc8621ff063d146cbe8ffddc765e3c6aa43905",
+      "sha256": "04b2b422de430586d02a0e74c459af3b89460675d7c306624d9b6c3a7f32fb7f",
+      "bytes": 22706
     },
     {
       "file": "format-wall-960.webp",
@@ -229,9 +229,9 @@
       "height": 640,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "3bf1de225280060d842d238f9f50dec992d1d6f2a3f0b3ccce1fa924e89594a0",
-      "sha256": "d3727cba387560396317598fd9e5c28aa3dd28d3a1b5356638fd326783efeaf0",
-      "bytes": 54672
+      "sourceSha256": "949de337a0c29b9f1501646e48fc8621ff063d146cbe8ffddc765e3c6aa43905",
+      "sha256": "b5293f3044ec07a8715c61c6900f755dd5d3ca19f6323adb5308cb497b3133ae",
+      "bytes": 83120
     },
     {
       "file": "format-travel-480.webp",
