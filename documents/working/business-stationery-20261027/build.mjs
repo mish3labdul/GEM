@@ -216,7 +216,7 @@ const NS = "xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/ma
 
 // First-page header: logo, then the fixed tagline (Jost Regular 10.5 pt, 38 twip expanded spacing), as in the letterhead set.
 function headerFirstXml() {
-  const tagline = "<w:p><w:pPr><w:spacing w:before=\"400\" w:after=\"170\" w:line=\"300\" w:lineRule=\"exact\"/><w:jc w:val=\"left\"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Jost\" w:hAnsi=\"Jost\" w:eastAsia=\"Jost\" w:cs=\"Jost\"/><w:color w:val=\"" + INK + "\"/><w:spacing w:val=\"38\"/><w:sz w:val=\"21\"/><w:szCs w:val=\"21\"/><w:lang w:val=\"en-GB\"/></w:rPr><w:t>HOSPITALITY, IN PERFECT PROPORTION</w:t></w:r></w:p>";
+  const tagline = "<w:p><w:pPr><w:spacing w:before=\"680\" w:after=\"227\" w:line=\"300\" w:lineRule=\"exact\"/><w:jc w:val=\"left\"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii=\"Jost\" w:hAnsi=\"Jost\" w:eastAsia=\"Jost\" w:cs=\"Jost\"/><w:color w:val=\"" + INK + "\"/><w:spacing w:val=\"38\"/><w:sz w:val=\"21\"/><w:szCs w:val=\"21\"/><w:lang w:val=\"en-GB\"/></w:rPr><w:t>HOSPITALITY, IN PERFECT PROPORTION</w:t></w:r></w:p>";
   return "<w:hdr " + NS + ">" + imageParagraph() + tagline + "</w:hdr>";
 }
 
