@@ -54,6 +54,22 @@ class StationeryLayoutTests(unittest.TestCase):
                 self.assertIsNone(re.search(r'w:fill="[0-9A-Fa-f]{6}"', xml))
                 self.assertIsNone(re.search('[\u0660-\u0669\u06f0-\u06f9]', xml))
 
+    def test_item_table_never_starts_with_a_lone_row(self):
+        for name, path in PDFS.items():
+            for page in pdf_pages(path):
+                if re.search(r'ITEMS OR SERVICES|PRICING', page.upper()):
+                    with self.subTest(form=name):
+                        self.assertGreaterEqual(len(re.findall(r'^\s*\d\s+Description', page, re.M)), 2)
+                    break
+
+    def test_placeholders_start_with_a_capital_letter(self):
+        for docx in FORMS.glob('GEM_*_Template_working.docx'):
+            xml = zipfile.ZipFile(docx).read('word/document.xml').decode('utf-8')
+            for sdt in re.findall(r'<w:sdt>.*?</w:sdt>', xml, re.S):
+                text = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', sdt))
+                with self.subTest(form=docx.name, placeholder=text):
+                    self.assertFalse(text[:1].islower())
+
     @unittest.skipUnless(shutil.which('soffice') and shutil.which('node'), 'needs node and soffice')
     def test_invoice_with_many_item_rows_splits_the_table_instead_of_moving_it(self):
         with tempfile.TemporaryDirectory() as tmp:

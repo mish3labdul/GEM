@@ -65,7 +65,8 @@ function p(text, opts = {}) {
 let sdtId = 1000;
 // Placeholders read as the field's name, not as an instruction: drop "Enter ", trailing clauses and parenthetical notes.
 function shortPlaceholder(ph) {
-  return ph.replace(/^Enter /, "").replace(/\s*\((?!DD)[^)]*\)\s*$/, "").replace(/,\s*(if applicable|if any)$/, "");
+  const name = ph.replace(/^Enter /, "").replace(/\s*\((?!DD)[^)]*\)\s*$/, "").replace(/,\s*(if applicable|if any)$/, "");
+  return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
 function sdt(alias, placeholder, opts = {}) {
@@ -236,9 +237,10 @@ function summaryStrip(cells) {
 // The section heading is the first row of its table so it can never be stranded from the rows below it.
 // Jost Regular uppercase (tracked) over a Beige rule; English left, Arabic right on one line.
 function sectionRow(sec, spans, widths, header = false) {
+  const width = widths[0] + widths[1];
+  const inner = run(sec[0].toUpperCase(), { font: "Jost", size: 21, track: 34 }) + "<w:r><w:tab/></w:r>" + run(sec[1], { font: "Noto Sans Arabic", size: 22, rtl: true });
   return { header, cells: [
-    tc(p(sec[0].toUpperCase(), { font: "Jost", size: 21, track: 34, before: 160, after: 40, keep: true, indStart: -85, style: "Heading1" }), widths[0], { border: "band", span: spans[0], valign: "bottom" }),
-    tc(p(sec[1], { font: "Noto Sans Arabic", size: 22, rtl: true, align: "right", before: 160, after: 40, keep: true, indStart: -85 }), widths[1], { border: "band", span: spans[1], valign: "bottom" })
+    tc(p("", { before: 160, after: 40, keep: true, tabRight: width - CELL_PAD, inner, style: "Heading1" }), width, { border: "band", span: spans[0] + spans[1], valign: "bottom" })
   ] };
 }
 
@@ -278,7 +280,7 @@ function itemsTable(sec, totals) {
   });
   for (let i = 0; i < ITEM_ROWS; i++) {
     const r = i + 3;
-    const keepRow = i === ITEM_ROWS - 1; // only the last item stays with the totals, so extra rows can flow onto page 2
+    const keepRow = i < 2 || i === ITEM_ROWS - 1; // the first rows stay with the heading and the last item with the totals; rows in between may flow onto page 2
     const cell = (inner, j, align) => tc(p("", { after: 0, keep: keepRow, align, inner }), widths[j], { border: "hair", valign: "center" });
     rows.push({ cells: [
       cell(run(String(i + 1), valueRun), 0, "center"),
