@@ -12,7 +12,7 @@
 | Candidate | Result |
 |---|---|
 | `family-candidate` (V02 LTR, 2172×724) | **Second, pulled-back generation** (`generated/v02-family-ltr-v2-pulledback-gemini-raw.jpeg`, downloaded by the owner from the Gemini chat). Order, colours, pumps, labels and Arabic names correct; bottles about 38% to 79% of the height with clear wall above and a visible shelf; left 40% empty. The first generation (`v02-family-ltr-gemini-raw.jpeg`) is kept but its bottles filled about 85% of the crop. |
-| `family-rtl-candidate` (V02 RTL, 2172×724) | Reversed order, labels not mirrored, light from the right, correct colours. Same framing issue. |
+| `family-rtl-candidate` (V02 RTL, 2172×724) | **Second, pulled-back generation** (`generated/v02-family-rtl-v2-pulledback-gemini-raw.jpeg`). Reversed order, labels not mirrored, correct colours and pumps, bottles about 39% to 80% of the height, right 40% empty, light from the right. The first RTL generation is kept in `generated/` but its framing was too tight. |
 | `social-candidate` (V03, 1200×630) | Five bottles correct, one fully visible card, no clipped wordmark, GEM logo lockup band restored in the bottom 92 px (ivory `#F8F3EA`, `static/logo-ink.svg`). |
 | `format-wall-candidate` (V09, 1536×1024) | Body Wash correct, bracket and full pump visible, wall now a pale desaturated ivory travertine. 480/960 WebP exports not yet made. |
 | `tx-arches` | Unchanged; no brand conflict. |
@@ -24,8 +24,8 @@ Limits: colour was judged visually, not measured. Wall and shelf tones sit withi
 |---|---|
 | `family-candidate.png` | `ada65a4db32a7e9d622408c9ee51120bd291740409658a9a745a385f3a99355a` |
 | `family-candidate.webp` | `fd7f49e17b313fb65168901189f82fca96a560d6f2687a856d63c8a1e6b5dd6d` |
-| `family-rtl-candidate.png` | `d714f8f63425729b00b1a6ed74551411141a8a28a7f6efa1caa0c016d370e1f0` |
-| `family-rtl-candidate.webp` | `bb1b39d1442f1674fa366d2210e6ae44da5e7e1434236e17d48a2e0021a960ea` |
+| `family-rtl-candidate.png` | `d34f28727908a1ba1e4d4afe98257c099efff8739333b425d82991310eb7ba3d` |
+| `family-rtl-candidate.webp` | `7c55185486b1bdc96ce13f4dda299dce06d5165505b52dc79e81ce53df072d18` |
 | `format-wall-candidate.png` | `817d49c72564047b1bfa0c8fb8083a49dcae825a4c70648f67ed952ad769316e` |
 | `social-candidate.png` | `57a5affe07758ef6560bdfb7d0dd08e3d9a753e1700a54e8dd306c81acd3c759` |
 
