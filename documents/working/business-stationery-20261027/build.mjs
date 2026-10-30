@@ -21,7 +21,7 @@ const MARGIN_X = 1417; // 25 mm sides
 const CONTENT_W = A4_W - 2 * MARGIN_X; // 160 mm writing width
 const LOGO_CX = 1152000; // 32 mm, as in the letterhead set
 const LOGO_CY = 374062;
-const REF_PLACEHOLDER = "Enter reference number";
+const REF_PLACEHOLDER = "Reference no.";
 // Contact facts confirmed by the owner for stationery on 30 Oct 2026.
 const CONTACT_EMAIL = "contact@mish3l.com";
 const CONTACT_PHONE = "+966114502929";
@@ -150,14 +150,17 @@ function labelLine(en, ar, width, keep) {
 }
 
 // A value is a content-control placeholder (ph), a fixed confirmed value (fixed), a dropdown, or raw run XML (inner).
+// Placeholders read as the field's name, not as an instruction: drop "Enter ", trailing clauses and parenthetical notes.
+const shortPlaceholder = (ph) => ph.replace(/^Enter /, "").replace(/\s*\((?!DD)[^)]*\)\s*$/, "").replace(/,\s*(if applicable|if any)$/, "");
 function valueContent(f, keep) {
   const alias = f.alias || (f.ph || f.en).replace(/^Enter /, "");
+  const ph = f.ph && shortPlaceholder(f.ph);
   const ropts = { ...valueRun, ...(f.run || {}) };
   let inner;
   if (f.inner) inner = f.inner;
-  else if (f.options) inner = dropdown(alias, f.ph, f.options, ropts);
+  else if (f.options) inner = dropdown(alias, ph, f.options, ropts);
   else if (f.fixed !== undefined) inner = run(f.fixed, ropts);
-  else inner = sdt(alias, f.ph, ropts);
+  else inner = sdt(alias, ph, ropts);
   return p("", { after: 0, keep, inner });
 }
 
@@ -471,9 +474,9 @@ function createDocx(doc) {
 }
 
 // Shared field definitions. ph is a content-control placeholder; fixed is a value the owner confirmed for stationery.
-const DATE_HINT = " - DD/MM/YYYY (Gregorian)";
+const DATE_HINT = " (DD/MM/YYYY)";
 const dateField = (en, ar, what) => ({ en, ar, ph: "Enter " + what + DATE_HINT, alias: what + " | DD/MM/YYYY (Gregorian)" });
-const stripDate = (en, ar, what) => ({ en, ar, ph: "DD/MM/YYYY (Gregorian)", alias: what + " | DD/MM/YYYY (Gregorian)" });
+const stripDate = (en, ar, what) => ({ en, ar, ph: "DD/MM/YYYY", alias: what + " | DD/MM/YYYY (Gregorian)" });
 const refField = (en, ar) => ({ en, ar, inner: complexField("DOCPROPERTY RefNo \\* MERGEFORMAT", REF_PLACEHOLDER, valueRun) });
 const totalRef = (en, ar) => ({ en, ar, inner: complexField("REF DocTotal", "0.00", { font: "Jost", size: 30 }), big: true });
 const CURRENCY = { en: "Currency", ar: "العملة", fixed: "SAR" };
