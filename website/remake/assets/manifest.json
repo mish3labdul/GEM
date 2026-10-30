@@ -76,9 +76,9 @@
     },
     {
       "file": "social.png",
-      "sha256": "7b4f6af5a9949391016eafb8ccc82eef348d21fed67757d6d0092419041235e9",
-      "bytes": 261847,
-      "classification": "Share image: original photograph (assets/source/social-photo-original.png, unaltered) with an ivory band and the supplied ink logo lockup added along the bottom edge; M8-05 owner-approved 23 Oct 2026"
+      "sha256": "57a5affe07758ef6560bdfb7d0dd08e3d9a753e1700a54e8dd306c81acd3c759",
+      "bytes": 894777,
+      "classification": "V03 social-share image: 1200x630 brand-aligned regeneration (canonical Part D bottles) with the GEM logo lockup band restored; owner-approved 30 Oct 2026; replaces the 28 Oct crop"
     },
     {
       "file": "social.svg",
@@ -140,13 +140,13 @@
     },
     {
       "file": "shampoo-source.webp",
-      "width": 1263,
-      "height": 1246,
+      "width": 1024,
+      "height": 1536,
       "classification": "Original Part D slide 4 concept study in lossless web encoding; not production artwork",
       "source": "source/shampoo-source.png",
-      "sourceSha256": "145f91ee77c1a58a1d867c28b55dc70e07718ad94675d89382815a60c4e68c77",
-      "sha256": "28da3087d924129a646c61b469219a571a632a1537ec1b7248cd7280712f1e19",
-      "bytes": 423952,
+      "sourceSha256": "a51f2e34a41bcc46ea1bba2ca3ffbaad1b9107066a43fdfc38cb3c1ffa220abc",
+      "sha256": "c7b520d4150a95216ad96fff15195c6c12c483fb21fa0e2142ddd81b62921020",
+      "bytes": 620196,
       "changedVisiblePixels": 0
     },
     {
@@ -219,9 +219,9 @@
       "height": 320,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "3bf1de225280060d842d238f9f50dec992d1d6f2a3f0b3ccce1fa924e89594a0",
-      "sha256": "a86da940ecfea2b4c964d85cae7d88bec1135b43f013f197df415729c0086426",
-      "bytes": 16908
+      "sourceSha256": "817d49c72564047b1bfa0c8fb8083a49dcae825a4c70648f67ed952ad769316e",
+      "sha256": "e088d14b7f74c7ef9202fb2a02f7bddc59dc0362e22d03929a5177d111e39779",
+      "bytes": 22904
     },
     {
       "file": "format-wall-960.webp",
@@ -229,9 +229,9 @@
       "height": 640,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "3bf1de225280060d842d238f9f50dec992d1d6f2a3f0b3ccce1fa924e89594a0",
-      "sha256": "d3727cba387560396317598fd9e5c28aa3dd28d3a1b5356638fd326783efeaf0",
-      "bytes": 54672
+      "sourceSha256": "817d49c72564047b1bfa0c8fb8083a49dcae825a4c70648f67ed952ad769316e",
+      "sha256": "aab5720a878b948f654d7394234b3d9b90b13b67293722971a3ca6a230a3a3da",
+      "bytes": 69760
     },
     {
       "file": "format-travel-480.webp",

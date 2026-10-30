@@ -9,5 +9,5 @@ export function pilotHero(lang, c) {
 }
 
 export function pilotProduct(lang, c, familyMarkup) {
-  return `<figure class="art product-art"><div class="product-visual"><img id="product-image" src="/assets/shampoo-source.webp" width="1263" height="1246" alt="${escape(c.productNames[0] + '. ' + c.concept)}" decoding="async"></div><figcaption>${escape(c.concept)}</figcaption></figure>`;
+  return `<figure class="art product-art"><button type="button" class="product-visual" disabled><img id="product-image" src="/assets/shampoo-source.webp" width="1263" height="1246" alt="${escape(c.productNames[0] + '. ' + c.concept)}" decoding="async"></button><figcaption>${escape(c.concept)}</figcaption></figure>`;
 }
