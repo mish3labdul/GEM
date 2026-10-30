@@ -2,7 +2,7 @@
 
 **Status: WORKING TEMPLATE SET / INTERNAL REVIEW ONLY. Not approved for external issue.**
 
-Four editable A4 Word templates and matching PDF review previews are provided. The Word files are the working masters; complete each content-control field (placeholder text begins "Enter") before use. Item tables can be extended in Word by adding rows, after which the Subtotal range must be updated (see `FILL-IN-GUIDE.md`).
+Four editable A4 Word templates and matching PDF review previews are provided. The Word files are the working masters; complete each content-control field (placeholder text is the field's name, such as "Legal name", shown in grey) before use. Item tables can be extended in Word by adding rows, after which the Subtotal range must be updated (see `FILL-IN-GUIDE.md`).
 
 | Template | Editable Word file | PDF review preview |
 |---|---|---|
@@ -42,7 +42,7 @@ Keep these templates internal until the following sequence is complete:
 1. **Owner supplies approved business values:** registered issuing entity and addresses; transaction contact details; jurisdiction and currency; tax registration/name/rate; beneficiary and bank details; payment and delivery terms; quotation validity; and purchase-order approval roles. Use only values the owner has confirmed for stationery.
 2. **Accountant reviews the invoice:** confirm the required tax-invoice fields, numbering, tax treatment, and any jurisdiction-specific wording. Do not infer these from the website or from a generic template.
 3. **Owner and qualified Arabic reviewer approve the Arabic:** review each RFQ, quotation, invoice, and purchase-order label in context, including RTL order, numerals, punctuation, and mixed-direction identifiers.
-4. **Owner accepts the form application:** decide the deviations listed above (vertical frame/footer, table-header fill, English-first label order, and shortened status line) and approve the exact final forms.
+4. **Owner accepts the form application:** decide the deviations listed above (vertical frame/footer, English-first label order, and shortened status line) and approve the exact final forms.
 5. **Run final artifact checks:** populate only approved values; verify calculations and editable fields; render every final DOCX to PDF; inspect every page; then check the exact final files in Microsoft Word and with a print proof. Record accessibility and any required supplier proof separately.
 6. **Release only after the applicable gates close:** resolve the letterhead dependencies (LH03, LH08, R03-03, D8) for the intended language and output route. Remove internal markings only from a separately approved final copy after all checks pass.
 
@@ -50,7 +50,7 @@ Current check: the tracked `SHA256SUMS.txt` matches all 13 listed files. The sui
 
 ## Remove before issue
 
-Each file carries internal-review markings that must be removed or replaced by the owner once the gates above are cleared, and not before: the footer issue-restriction line, the "CONTINUED" reference header (set through the `RefNo` document property), and every "Enter ..." placeholder.
+Each file carries internal-review markings that must be removed or replaced by the owner once the gates above are cleared, and not before: the footer issue-restriction line, the "CONTINUED" reference header (set through the `RefNo` document property), and every unfilled placeholder.
 
 ## Merge of the 29 Oct v3 drafts
 
@@ -73,3 +73,4 @@ Calculation results could not be checked here: LibreOffice previews show cached 
 Run `node build.mjs` from this directory to rebuild the four Word files from the source in the repository's archived V3.0 brand asset kit. Run `bash export-pdf.sh` to regenerate the four PDF previews from the Word files with LibreOffice. The script copies the three Regular font files from `FONT_DIR` (default `~/Library/Fonts`) into a throwaway LibreOffice profile, so the PDFs embed those exact fonts. After either step, regenerate `SHA256SUMS.txt`. PDF checksums are not reproducible across exports because LibreOffice stamps creation times.
 
 Checked in LibreOffice only: the four DOCX files open and export, and every PDF page was rendered and inspected for layout, logo size and placement, tagline, placeholder visibility, repeated table headers, page breaks, right-aligned Arabic text and the footer. Each form runs to two pages, and the last body rule on every page sits at least 8 mm above the footer rule, measured at 150 dpi. `pdffonts` shows only Jost Regular, Inter Regular and Noto Sans Arabic Regular, all embedded. Text extraction found Arabic characters and no replacement glyphs. Arabic paragraphs use logical (`start`/`end`) alignment as the letterhead set does; that set was tested in Word for Mac, this suite was not. Not checked: native Microsoft Word (including separator paragraphs, keep-with-next chains and fonts missing from the editing computer), physical printing, accessibility, legal, tax, or owner acceptance.
+- **Layout revision (30 Oct 2026, second pass):** the Invoice now carries the title `Tax Invoice / فاتورة ضريبية` (wording pending the accountant; one constant in `build.mjs`), keeps its items and totals on page 1, and moves payment instructions, a reserved e-invoice QR slot (for the code the invoicing system adds), references and notes to page 2. The supplier block shows name, address, tax identifier and commercial registration; the contact person sits under Payment Instructions, and email and phone are printed in the footer. Placeholders now read as field names, not instructions. The Quotation prices before it lists assumptions and terms. The RFQ keeps its priced item table because the supplier fills in the prices.
