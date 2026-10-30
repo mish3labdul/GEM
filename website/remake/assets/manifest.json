@@ -76,9 +76,9 @@
     },
     {
       "file": "social.png",
-      "sha256": "7b4f6af5a9949391016eafb8ccc82eef348d21fed67757d6d0092419041235e9",
-      "bytes": 261847,
-      "classification": "Share image: original photograph (assets/source/social-photo-original.png, unaltered) with an ivory band and the supplied ink logo lockup added along the bottom edge; M8-05 owner-approved 23 Oct 2026"
+      "sha256": "3f2fd71aa9780ecc8f1e20be1a283142deba9a09b5765de0f48bf3b6ba007a18",
+      "bytes": 1134134,
+      "classification": "V03 social-share image: 1200x630 crop from the M8-05 owner-approved social asset, enlarged to feature the five-product scene; owner-approved 28 Oct 2026"
     },
     {
       "file": "social.svg",
@@ -219,9 +219,9 @@
       "height": 320,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "3bf1de225280060d842d238f9f50dec992d1d6f2a3f0b3ccce1fa924e89594a0",
-      "sha256": "a86da940ecfea2b4c964d85cae7d88bec1135b43f013f197df415729c0086426",
-      "bytes": 16908
+      "sourceSha256": "0af7c148912ab8c1d42532abae41082f763be79b00a5f553e584ab2c09f9534b",
+      "sha256": "048563df3aeed45a9d3879ba21f8bf0d7f1e7ea598a5f1a739618c85cde0fb17",
+      "bytes": 21510
     },
     {
       "file": "format-wall-960.webp",
@@ -229,9 +229,9 @@
       "height": 640,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "3bf1de225280060d842d238f9f50dec992d1d6f2a3f0b3ccce1fa924e89594a0",
-      "sha256": "d3727cba387560396317598fd9e5c28aa3dd28d3a1b5356638fd326783efeaf0",
-      "bytes": 54672
+      "sourceSha256": "0af7c148912ab8c1d42532abae41082f763be79b00a5f553e584ab2c09f9534b",
+      "sha256": "d176b3f7b64120bacf3f8cbcbca257dc938207679bc16768855bd6799e22b557",
+      "bytes": 82116
     },
     {
       "file": "format-travel-480.webp",
