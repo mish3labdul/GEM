@@ -28,3 +28,6 @@ Checked against the pre-replacement files preserved in `originals/`:
 - **New finding, V03:** the previous social image carried the GEM logo lockup band along the bottom. The approved V03 crop (`3f2fd71a…`) removes the footer and has **no GEM logo**; only the on-bottle wordmarks remain. A share card with no logo lockup is a brand regression against M8-05. The Nano Banana prompt for V03 reserves a 92 px band "for a branded lockup added later"; that overlay was not applied.
 
 Owner decision of 30 Oct 2026 (given in session, no signed record): regenerate the affected images. See `REGENERATION-BRIEF-20261030.md`.
+
+## Correction (30 Oct 2026, later)
+I had not opened `hand-wash-source.png` when this note was first written. The canonical **Hand Wash is a cream bottle with a pump** (like Body Lotion); Shampoo, Conditioner and Body Wash are the dark smoked-amber bottles. Consequences for the findings above: in the family scenes and in the old and approved V03 images the Hand Wash is dark, which is also a mismatch; in V03 the Conditioner is cream (wrong) and the Hand Wash dark (wrong). The Body Lotion is correct in V03.

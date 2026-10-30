@@ -12,7 +12,7 @@ Palette: Ink `#12171D`, Beige `#BCACA7`, White; package tokens add Ivory `#F8F3E
 
 ## Acceptance checklist (apply to every output)
 1. Five products in the order Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash (mirrored order for RTL; Arabic text is **not** mirrored).
-2. Conditioner has a pump. Body Lotion is the only cream bottle. The other four are dark smoked amber, not orange-amber.
+2. All five have a pump. Body Lotion and Hand Wash are cream; Shampoo, Conditioner and Body Wash are dark smoked amber, not orange-amber.
 3. Labels read GEM™, a short rule, product name, Arabic name, arc, exactly as in the references; no changed text.
 4. No wordmark is cropped or hidden by another object.
 5. Background tones sit within Sand/Ivory/Beige, not saturated tan or orange.
@@ -20,7 +20,7 @@ Palette: Ink `#12171D`, Beige `#BCACA7`, White; package tokens add Ivory `#F8F3E
 
 ## Prompts (replace the reference-pixels-unchanged wording; build a new scene)
 
-**V02 LTR and RTL family plate, 2816×1280.** "Create a photographic wide plate, 2816 × 1280 px (2.2:1), of five GEM bottles on a honed travertine shelf against a warm limewash wall (#EFE6D8, #BCACA7) with soft diffused leaf-shadow light. Use the five attached product images as exact references for shape, colour, label and pump. Order left to right: Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash. The Conditioner has a pump like the others. Body Lotion is a cream bottle; the other four are dark smoked-amber glass. Labels unchanged. Bottles occupy about 42% to 92% of the width, left 38% calm empty wall and shelf. No text beyond the labels, no logos, no people, no watermark." For RTL: reverse the bottle order (Hand Wash first), place bottles at about 8% to 58%, keep the right 38% empty, do not mirror the label text.
+**V02 LTR and RTL family plate, 2816×1280.** "Create a photographic wide plate, 2816 × 1280 px (2.2:1), of five GEM bottles on a honed travertine shelf against a warm limewash wall (#EFE6D8, #BCACA7) with soft diffused leaf-shadow light. Use the five attached product images as exact references for shape, colour, label and pump. Order left to right: Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash. All five have a pump. Body Lotion and Hand Wash are cream bottles; Shampoo, Conditioner and Body Wash are dark smoked-amber glass. Labels unchanged. Bottles occupy about 42% to 92% of the width, left 38% calm empty wall and shelf. No text beyond the labels, no logos, no people, no watermark." For RTL: reverse the bottle order (Hand Wash first), place bottles at about 8% to 58%, keep the right 38% empty, do not mirror the label text.
 
 **V03 social share, 1200×630.** "Create a 1200 × 630 px (1.91:1) photograph of a stone tray with the five GEM bottles (references attached; Conditioner dark amber with pump, Body Lotion cream, others dark amber), one folded white towel and one standing GEM card, fully visible, on a travertine counter against a travertine wall with soft diagonal sunlight (#EFE6D8, #F8F3EA). Keep the central 630 × 538 px safe area. Keep the bottom 92 px plain counter." Then apply the GEM horizontal logo lockup band in the bottom 92 px as in the previous share image (`originals/social-before-v03-crop.png`), using `static/logo-ink.svg`.
 
