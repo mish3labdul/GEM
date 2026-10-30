@@ -1,13 +1,5 @@
 a372455e5dd9088d58643fbd4fd87dc31c1da481b7cca8029c7fd00a0fad6dd2  .github/workflows/gem-checks.yml
 3a8e1c202882e18d812f7ee9850939d98a30905fc3631efd560662733db92d93  .gitignore
-cdbcae15105d6b781e620813c79c7e868740d4e9cc53ce6f5fcbbc12387adf4b  .superpowers/sdd/.gitignore
-354afcf3cbeaaf7bc0627c8f6b67ddcb72f15c907fd5243cebeffcedda294898  .superpowers/sdd/2026-10-30-business-stationery-redesign/plan-path
-c784d100de1c28c074b5de434d30b57e36ba26fef4e001faae49b30fdb7fe56f  .superpowers/sdd/2026-10-30-business-stationery-redesign/progress.md
-c6b02c6a7d088598c30462254b47ca460436e94fe01dad03f14dce7716295425  .superpowers/sdd/2026-10-30-business-stationery-redesign/task-1-brief.md
-de546a2c0df932284ca0ebcd402a97159dfadd390d7d43c73e31c0bb13fd2e4e  .superpowers/sdd/2026-10-30-business-stationery-redesign/task-1-tests.log
-46fb435a2cda2032b6633edfa6e35aacaaba93e6ed7f5a4df8126f7339c7964d  .superpowers/sdd/2026-10-30-business-stationery-redesign/task-2-tests.log
-a4b5a6c32e539770f4478b90045d5b9d44d71721cc291246b38d571eb072b806  .superpowers/sdd/2026-10-30-business-stationery-redesign/task-3-tests.log
-fe42b3acea242d706821458057e0afcc51e188c97c8eb92a18b04a8a184e3821  .superpowers/sdd/2026-10-30-business-stationery-redesign/task-4-tests.log
 4529b7d044eef16ed99d3612ae8ac4a8f9143531cc70f10079794564d6317364  README.md
 8848ee252c5c5b62332ad9babc8216aad15fbc942b7cb3334527b724027b7aa6  archive/README.md
 d9458dcce3dc6f7ffc645dd1b200b1c5600f4a3b51235d58987abcf238d36cef  archive/baseline-v3.0/.gitignore
