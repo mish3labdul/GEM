@@ -300,7 +300,7 @@ function itemsTable(sec, totals) {
       tc(p("", { after: 0, keep, align: "right", inner }), widths[5], { border })
     ] });
   });
-  return tbl(widths, rows, { padTop: 50, padBottom: 60 });
+  return tbl(widths, rows, { padTop: 25, padBottom: 35 });
 }
 
 const VAT_ROWS = [
@@ -485,6 +485,10 @@ const LEGAL_NAME = { en: "Legal Name", ar: "الاسم القانوني المس
 const BUSINESS_ADDRESS = { en: "Address", ar: "عنوان المنشأة / العنوان الوطني", ph: "Enter Business / National Address", alias: "Business / National Address" };
 const CR_NUMBER = { en: "Commercial Reg. No.", ar: "رقم السجل التجاري", ph: "Enter Commercial Registration No." };
 const TAX_ID = (en, ar) => ({ en, ar, ph: "Enter Tax Identifier" });
+// Wording pending the accountant (Tax Invoice or Invoice); one line to change.
+const INVOICE_TITLE = ["Tax Invoice", "فاتورة ضريبية"];
+// Reserved for the QR code the invoicing system adds to the issued invoice.
+const qrSlot = () => noteBlock("E-Invoice QR", "رمز الفاتورة الإلكترونية", [staticPara("Reserved for the QR code added by the invoicing system.")], 1300);
 const NOTICE = "Verify payment details through a previously known channel before making payment.";
 const NOTICE_AR = "تحقّق من بيانات الدفع عبر وسيلة اتصال معروفة مسبقاً قبل السداد.";
 const staticPara = (text, opts = {}) => entryPara(run(text, { font: "Inter", size: 18, ...opts }));
@@ -588,7 +592,7 @@ const docs = [
     title: "Invoice",
     continued: ["Invoice continued", "تكملة الفاتورة"],
     body:
-      titleBlock("Invoice", "فاتورة") +
+      titleBlock(INVOICE_TITLE[0], INVOICE_TITLE[1]) +
       summaryStrip([
         refField("Invoice Number", "رقم الفاتورة"),
         stripDate("Issue Date", "تاريخ الإصدار", "Issue Date"),
@@ -599,21 +603,12 @@ const docs = [
         LEGAL_NAME,
         BUSINESS_ADDRESS,
         TAX_ID("Tax Identifier", "الرقم الضريبي للمورد"),
-        CR_NUMBER,
-        { en: "Contact", ar: "جهة التواصل لدى المورد", fixed: OWNER_CONTACT },
-        { en: "Email", ar: "بريد المورد", fixed: CONTACT_EMAIL },
-        { en: "Phone", ar: "هاتف المورد", fixed: CONTACT_PHONE }
+        CR_NUMBER
       ], [
         text("Customer", "العميل", "Enter Customer Legal Name"),
         text("Billing Address", "عنوان الفوترة", "Enter Customer Billing Address"),
         text("Tax Identifier", "الرقم الضريبي للعميل", "Enter Customer Tax Identifier, if applicable"),
         text("Email", "بريد العميل", "Enter Customer Email")
-      ]) +
-      fieldRows(["References", "المراجع"], [
-        text("Purchase Order", "أمر الشراء", "Enter Customer PO Number"),
-        text("Related Quotation", "عرض السعر المرتبط", "Enter Quotation Reference"),
-        dateField("Supply Date", "تاريخ التوريد", "Supply Date"),
-        CURRENCY
       ]) +
       itemsTable(["Items or Services", "البنود أو الخدمات"], [
         ...VAT_ROWS.slice(0, 3),
@@ -627,7 +622,14 @@ const docs = [
         text("Account Number", "رقم الحساب", "Enter Account Number"),
         text("IBAN", "رقم الآيبان (IBAN)", "Enter IBAN"),
         text("Payment Reference", "مرجع الدفع", "Enter Payment Reference"),
-        { en: "Contact Email", ar: "بريد التواصل", fixed: CONTACT_EMAIL }
+        { en: "Contact", ar: "جهة التواصل", fixed: OWNER_CONTACT }
+      ]) +
+      qrSlot() +
+      fieldRows(["References", "المراجع"], [
+        text("Purchase Order", "أمر الشراء", "Enter Customer PO Number"),
+        text("Related Quotation", "عرض السعر المرتبط", "Enter Quotation Reference"),
+        dateField("Supply Date", "تاريخ التوريد", "Supply Date"),
+        CURRENCY
       ]) +
       noteBlock("Notes and Terms", "الملاحظات والشروط", [
         entryPara(sdt("Payment Terms and Notes", "Enter payment terms and notes", valueRun)),
