@@ -62,6 +62,13 @@ class StationeryLayoutTests(unittest.TestCase):
                         self.assertGreaterEqual(len(re.findall(r'^\s*\d\s+Description', page, re.M)), 2)
                     break
 
+    def test_cross_reference_total_keeps_its_own_formatting(self):
+        for docx in FORMS.glob('GEM_*_Template_working.docx'):
+            xml = zipfile.ZipFile(docx).read('word/document.xml').decode('utf-8')
+            for instr in re.findall(r'REF DocTotal[^<]*', xml):
+                with self.subTest(form=docx.name):
+                    self.assertIn('MERGEFORMAT', instr)
+
     def test_placeholders_start_with_a_capital_letter(self):
         for docx in FORMS.glob('GEM_*_Template_working.docx'):
             xml = zipfile.ZipFile(docx).read('word/document.xml').decode('utf-8')

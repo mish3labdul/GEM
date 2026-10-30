@@ -486,7 +486,7 @@ const DATE_HINT = " (DD/MM/YYYY)";
 const dateField = (en, ar, what) => ({ en, ar, ph: "Enter " + what + DATE_HINT, alias: what + " | DD/MM/YYYY (Gregorian)" });
 const stripDate = (en, ar, what) => ({ en, ar, ph: "DD/MM/YYYY", alias: what + " | DD/MM/YYYY (Gregorian)" });
 const refField = (en, ar) => ({ en, ar, inner: complexField("DOCPROPERTY RefNo \\* MERGEFORMAT", REF_PLACEHOLDER, valueRun) });
-const totalRef = (en, ar) => ({ en, ar, inner: complexField("REF DocTotal", "0.00", { font: "Jost", size: 30 }), big: true });
+const totalRef = (en, ar) => ({ en, ar, inner: complexField("REF DocTotal \\* MERGEFORMAT", "0.00", { font: "Jost", size: 30 }), big: true });
 const CURRENCY = { en: "Currency", ar: "العملة", fixed: "SAR" };
 const OWNER_CONTACT = "Mashal Abdulrahman, GM / Owner";
 const LEGAL_NAME = { en: "Legal Name", ar: "الاسم القانوني المسجل", ph: "Enter Registered Legal Name (Trading Name: GEM)", alias: "Registered Legal Name" };

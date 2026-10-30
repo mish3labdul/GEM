@@ -1,6 +1,6 @@
 # GEM Business Stationery Fill-in Guide
 
-Complete only with confirmed details. Leave unresolved fields as their grey placeholders.
+Complete only with confirmed details. Leave unresolved fields as their placeholders.
 
 ## Fields and calculations
 
