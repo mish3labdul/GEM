@@ -11,7 +11,7 @@
 ## Checked by eye against the brief's checklist
 | Candidate | Result |
 |---|---|
-| `family-candidate` (V02 LTR, 2172×724) | Order, colours, pumps, labels and Arabic names correct. **Framing issue:** after the 3:1 crop the bottles fill about 85% of the height with no headroom. A "pull the camera back" regeneration was started and had not returned when this was written. |
+| `family-candidate` (V02 LTR, 2172×724) | **Second, pulled-back generation** (`generated/v02-family-ltr-v2-pulledback-gemini-raw.jpeg`, downloaded by the owner from the Gemini chat). Order, colours, pumps, labels and Arabic names correct; bottles about 38% to 79% of the height with clear wall above and a visible shelf; left 40% empty. The first generation (`v02-family-ltr-gemini-raw.jpeg`) is kept but its bottles filled about 85% of the crop. |
 | `family-rtl-candidate` (V02 RTL, 2172×724) | Reversed order, labels not mirrored, light from the right, correct colours. Same framing issue. |
 | `social-candidate` (V03, 1200×630) | Five bottles correct, one fully visible card, no clipped wordmark, GEM logo lockup band restored in the bottom 92 px (ivory `#F8F3EA`, `static/logo-ink.svg`). |
 | `format-wall-candidate` (V09, 1536×1024) | Body Wash correct, bracket and full pump visible, wall now a pale desaturated ivory travertine. 480/960 WebP exports not yet made. |
@@ -22,8 +22,8 @@ Limits: colour was judged visually, not measured. Wall and shelf tones sit withi
 ## SHA-256 of candidates
 | File | SHA-256 |
 |---|---|
-| `family-candidate.png` | `97db63a0f530ada2548ab91b72ad2b88cd15f2b83a53779b4b4ed67cafee78c4` |
-| `family-candidate.webp` | `36be739dfb039a8f255e7a26a2faf26d7b2b5dcf051664fc4d78d4a05c8e356e` |
+| `family-candidate.png` | `ada65a4db32a7e9d622408c9ee51120bd291740409658a9a745a385f3a99355a` |
+| `family-candidate.webp` | `fd7f49e17b313fb65168901189f82fca96a560d6f2687a856d63c8a1e6b5dd6d` |
 | `family-rtl-candidate.png` | `d714f8f63425729b00b1a6ed74551411141a8a28a7f6efa1caa0c016d370e1f0` |
 | `family-rtl-candidate.webp` | `bb1b39d1442f1674fa366d2210e6ae44da5e7e1434236e17d48a2e0021a960ea` |
 | `format-wall-candidate.png` | `817d49c72564047b1bfa0c8fb8083a49dcae825a4c70648f67ed952ad769316e` |
