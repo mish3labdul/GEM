@@ -575,8 +575,8 @@ const docs = [
         text("Customer PO", "أمر شراء العميل", "Enter Customer PO Number")
       ]) +
       noteBlock("Scope Summary", "ملخص النطاق", [entryPara(sdt("Scope Summary", "Enter scope summary", valueRun))]) +
-      noteBlock("Assumptions, Exclusions & Terms", "الافتراضات والاستثناءات والشروط", [entryPara(sdt("Assumptions, Exclusions and Terms", "Enter assumptions, exclusions and terms", valueRun))]) +
       itemsTable(["Pricing", "الأسعار"], VAT_ROWS) +
+      noteBlock("Assumptions, Exclusions & Terms", "الافتراضات والاستثناءات والشروط", [entryPara(sdt("Assumptions, Exclusions and Terms", "Enter assumptions, exclusions and terms", valueRun))]) +
       fieldRows(["Delivery and Payment", "التسليم والدفع"], [
         text("Delivery Location", "موقع التسليم", "Enter Delivery Address"),
         dateField("Estimated Delivery", "موعد التسليم التقديري", "Estimated Delivery Date"),
