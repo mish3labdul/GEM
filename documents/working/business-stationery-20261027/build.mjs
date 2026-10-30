@@ -33,10 +33,11 @@ function runProps(opts = {}) {
   const font = opts.font || "Inter";
   const size = opts.size || 18;
   const color = opts.color || INK;
+  const track = opts.track ? "<w:spacing w:val=\"" + opts.track + "\"/>" : "";
   const italic = opts.italic ? "<w:i/><w:iCs/>" : "";
   const rtl = opts.rtl ? "<w:rtl w:val=\"1\"/>" : "";
   const lang = opts.rtl ? "<w:lang w:val=\"ar-SA\" w:bidi=\"ar-SA\"/>" : "<w:lang w:val=\"en-GB\"/>";
-  return "<w:rPr><w:rFonts w:ascii=\"" + font + "\" w:hAnsi=\"" + font + "\" w:eastAsia=\"" + font + "\" w:cs=\"" + font + "\"/>" + italic + "<w:color w:val=\"" + color + "\"/><w:sz w:val=\"" + size + "\"/><w:szCs w:val=\"" + size + "\"/>" + rtl + lang + "</w:rPr>";
+  return "<w:rPr><w:rFonts w:ascii=\"" + font + "\" w:hAnsi=\"" + font + "\" w:eastAsia=\"" + font + "\" w:cs=\"" + font + "\"/>" + italic + "<w:color w:val=\"" + color + "\"/>" + track + "<w:sz w:val=\"" + size + "\"/><w:szCs w:val=\"" + size + "\"/>" + rtl + lang + "</w:rPr>";
 }
 
 function run(text, opts = {}) {
@@ -94,7 +95,10 @@ const noEdge = (side) => "<w:" + side + " w:val=\"nil\"/>";
 const CELL_BORDERS = {
   hair: edge("bottom", BEIGE, 4),
   band: noEdge("top") + noEdge("left") + edge("bottom", BEIGE, 8) + noEdge("right"),
-  strong: edge("top", INK, 8) + edge("bottom", BEIGE, 4)
+  strong: edge("top", INK, 8) + edge("bottom", BEIGE, 4),
+  head: edge("bottom", INK, 8),
+  rule: edge("top", INK, 8) + edge("bottom", BEIGE, 4),
+  box: edge("top", BEIGE, 4) + edge("left", BEIGE, 4) + edge("bottom", BEIGE, 4) + edge("right", BEIGE, 4)
 };
 
 function tc(content, width, opts = {}) {
@@ -113,12 +117,14 @@ function tableGap(keepWithNext) {
 }
 
 function tbl(widths, rows, opts = {}) {
-  const borders = opts.borders === false
+  const borders = opts.borders !== true
     ? "<w:tblBorders><w:top w:val=\"nil\"/><w:left w:val=\"nil\"/><w:bottom w:val=\"nil\"/><w:right w:val=\"nil\"/><w:insideH w:val=\"nil\"/><w:insideV w:val=\"nil\"/></w:tblBorders>"
     : "<w:tblBorders>" + ["top", "left", "bottom", "right", "insideH", "insideV"].map((s) => edge(s, BEIGE, 4)).join("") + "</w:tblBorders>";
   const indent = opts.indent ? "<w:tblInd w:w=\"" + opts.indent + "\" w:type=\"dxa\"/>" : "";
   const grid = widths.map((w) => "<w:gridCol w:w=\"" + w + "\"/>").join("");
-  const mar = "<w:tblCellMar><w:top w:w=\"40\" w:type=\"dxa\"/><w:left w:w=\"85\" w:type=\"dxa\"/><w:bottom w:w=\"40\" w:type=\"dxa\"/><w:right w:w=\"85\" w:type=\"dxa\"/></w:tblCellMar>";
+  const padTop = opts.padTop === undefined ? 40 : opts.padTop;
+  const padBottom = opts.padBottom === undefined ? 40 : opts.padBottom;
+  const mar = "<w:tblCellMar><w:top w:w=\"" + padTop + "\" w:type=\"dxa\"/><w:left w:w=\"85\" w:type=\"dxa\"/><w:bottom w:w=\"" + padBottom + "\" w:type=\"dxa\"/><w:right w:w=\"85\" w:type=\"dxa\"/></w:tblCellMar>";
   const tableRows = rows.map((row) => {
     const header = row.header ? "<w:tblHeader w:val=\"true\"/>" : "";
     const height = row.height ? "<w:trHeight w:val=\"" + row.height + "\" w:hRule=\"atLeast\"/>" : "";
@@ -127,40 +133,47 @@ function tbl(widths, rows, opts = {}) {
   return "<w:tbl><w:tblPr><w:tblW w:w=\"" + widths.reduce((a, b) => a + b, 0) + "\" w:type=\"dxa\"/>" + indent + borders + "<w:tblLayout w:type=\"fixed\"/>" + mar + "<w:tblLook w:firstRow=\"1\" w:lastRow=\"0\" w:firstColumn=\"0\" w:lastColumn=\"0\" w:noHBand=\"0\" w:noVBand=\"1\"/></w:tblPr><w:tblGrid>" + grid + "</w:tblGrid>" + tableRows + "</w:tbl>" + tableGap(opts.keepWithNext);
 }
 
-// Metadata 9 pt Inter, Arabic labels 10 pt (letterhead set spec).
-function labelCell(en, ar, width, keep) {
-  return tc([
-    p(en.toUpperCase(), { font: "Inter", size: 18, after: 10, keep }),
-    p(ar, { font: "Noto Sans Arabic", size: 20, rtl: true, align: "right", after: 0, keep })
-  ], width, { border: "hair" });
-}
-
+// Type scale, from the Part B tokens: labelSmall 12 px / arabicLabel 16 px is a 1.33 ratio, so an 8 pt Latin label pairs with a 10.5 pt Arabic label.
+// Uppercase Latin labels carry 0.08 em tracking (13 twips at 8 pt); section headings 0.16 em (eyebrow); Arabic is never tracked.
+const LABEL = { font: "Inter", size: 16, track: 13 };
+const LABEL_AR = { font: "Noto Sans Arabic", size: 21, rtl: true };
 const valueRun = { font: "Inter", size: 18 };
+const COL_W = 4336;
+const GUTTER = 400;
+const FIELD_W = [COL_W, GUTTER, COL_W];
+const ITEM_W = [520, 2400, 800, 850, 2250, 2252];
+const CELL_PAD = 170; // left plus right cell margin
+
+// English label at the start and Arabic label at the end of one line, via a right tab.
+function labelLine(en, ar, width, keep) {
+  return p("", { after: 30, keep, tabRight: width - CELL_PAD, inner: run(en.toUpperCase(), LABEL) + "<w:r><w:tab/></w:r>" + run(ar, LABEL_AR) });
+}
 
 // A value is a content-control placeholder (ph), a fixed confirmed value (fixed), a dropdown, or raw run XML (inner).
 function valueContent(f, keep) {
   const alias = f.alias || (f.ph || f.en).replace(/^Enter /, "");
+  const ropts = { ...valueRun, ...(f.run || {}) };
   let inner;
   if (f.inner) inner = f.inner;
-  else if (f.options) inner = dropdown(alias, f.ph, f.options, valueRun);
-  else if (f.fixed !== undefined) inner = run(f.fixed, valueRun);
-  else inner = sdt(alias, f.ph, valueRun);
+  else if (f.options) inner = dropdown(alias, f.ph, f.options, ropts);
+  else if (f.fixed !== undefined) inner = run(f.fixed, ropts);
+  else inner = sdt(alias, f.ph, ropts);
   return p("", { after: 0, keep, inner });
 }
 
-function valueCell(f, width, keep, span) {
-  return tc(valueContent(f, keep), width, { border: "hair", span });
+// One field: bilingual label line over its value, closed by a Beige hairline. No cell boxes.
+function fieldCell(f, width, keep, span) {
+  return tc([labelLine(f.en, f.ar, width, keep), valueContent(f, keep)], width, { border: "hair", span, valign: "top" });
 }
 
-const FIELD_W = [2250, 2286, 2250, 2286];
-const ITEM_W = [520, 2400, 800, 850, 2250, 2252];
+const gutterCell = () => tc(p("", { after: 0 }), GUTTER);
+const emptyCell = (width) => tc(p("", { after: 0 }), width);
+const FIELD_PAD = { padTop: 50, padBottom: 70 };
 
-// Fields pair left and right; a field marked full (or the odd last field) takes its own row with the value spanning three columns.
+// Fields pair left and right across a gutter; a field marked full (or the odd last field) takes its own row across both columns.
 // A short group (up to three rows) stays together; a longer one may break between rows, but its heading always stays with its first two rows.
 function fieldRows(sec, fields, keepWithNext = false) {
-  const widths = FIELD_W;
-  const half = widths[0] + widths[1];
-  const rows = sec ? [sectionRow(sec, [2, 2], [half, CONTENT_W - half])] : [];
+  const rows = sec ? [sectionRow(sec, [1, 2], [COL_W, GUTTER + COL_W])] : [];
   const pairs = [];
   for (let i = 0; i < fields.length; i++) {
     const f = fields[i];
@@ -170,19 +183,53 @@ function fieldRows(sec, fields, keepWithNext = false) {
   const total = pairs.length;
   pairs.forEach(([left, right], i) => {
     const keep = total <= 3 ? i < total - 1 || keepWithNext : i === 0 || (keepWithNext && i === total - 1);
-    const cells = [labelCell(left.en, left.ar, widths[0], keep)];
-    if (right) cells.push(valueCell(left, widths[1], keep), labelCell(right.en, right.ar, widths[2], keep), valueCell(right, widths[3], keep));
-    else cells.push(valueCell(left, widths[1] + widths[2] + widths[3], keep, 3));
-    rows.push({ cells });
+    if (right) rows.push({ cells: [fieldCell(left, COL_W, keep), gutterCell(), fieldCell(right, COL_W, keep)] });
+    else rows.push({ cells: [fieldCell(left, CONTENT_W, keep, 3)] });
   });
-  return tbl(widths, rows, { keepWithNext });
+  return tbl(FIELD_W, rows, { keepWithNext, ...FIELD_PAD });
+}
+
+// A heading cell: Jost uppercase (tracked) at the start, Arabic at the end, over a Beige rule.
+function bandCell(en, ar, width, span) {
+  const inner = run(en.toUpperCase(), { font: "Jost", size: 21, track: 34 }) + "<w:r><w:tab/></w:r>" + run(ar, { font: "Noto Sans Arabic", size: 22, rtl: true });
+  return tc(p("", { before: 160, after: 40, keep: true, tabRight: width - CELL_PAD, inner, style: "Heading1" }), width, { border: "band", span, valign: "bottom" });
+}
+
+// Two parties side by side (for example Supplier and Customer), each a stack of fields under its own heading.
+function parties(headL, headR, left, right, keepWithNext = false) {
+  const rows = [{ cells: [bandCell(headL[0], headL[1], COL_W), tc(p("", { after: 0 }), GUTTER), bandCell(headR[0], headR[1], COL_W)] }];
+  const n = Math.max(left.length, right.length);
+  for (let i = 0; i < n; i++) {
+    const keep = i === 0 || (keepWithNext && i === n - 1);
+    rows.push({ cells: [
+      left[i] ? fieldCell(left[i], COL_W, keep) : emptyCell(COL_W),
+      gutterCell(),
+      right[i] ? fieldCell(right[i], COL_W, keep) : emptyCell(COL_W)
+    ] });
+  }
+  return tbl(FIELD_W, rows, { keepWithNext, ...FIELD_PAD });
+}
+
+// Summary strip under the title: four key facts, the last one emphasised. Ink rule above, Beige rule below.
+function summaryStrip(cells) {
+  const w = CONTENT_W / 4;
+  const row = cells.map((f, i) => {
+    const big = i === cells.length - 1 && f.big;
+    const valueField = { ...f, run: big ? { font: "Jost", size: 30 } : {} };
+    return tc([
+      p("", { after: 0, keep: true, inner: run(f.en.toUpperCase(), LABEL) }),
+      p(f.ar, { ...LABEL_AR, align: "right", after: 40, keep: true }),
+      valueContent(valueField, true)
+    ], w, { border: "rule", valign: "top" });
+  });
+  return tbl([w, w, w, w], [{ cells: row }], { keepWithNext: true, padTop: 90, padBottom: 100 });
 }
 
 // The section heading is the first row of its table so it can never be stranded from the rows below it.
-// Jost Regular uppercase over a Beige rule; English left, Arabic right on one line.
+// Jost Regular uppercase (tracked) over a Beige rule; English left, Arabic right on one line.
 function sectionRow(sec, spans, widths, header = false) {
   return { header, cells: [
-    tc(p(sec[0].toUpperCase(), { font: "Jost", size: 21, before: 160, after: 40, keep: true, indStart: -85, style: "Heading1" }), widths[0], { border: "band", span: spans[0], valign: "bottom" }),
+    tc(p(sec[0].toUpperCase(), { font: "Jost", size: 21, track: 34, before: 160, after: 40, keep: true, indStart: -85, style: "Heading1" }), widths[0], { border: "band", span: spans[0], valign: "bottom" }),
     tc(p(sec[1], { font: "Noto Sans Arabic", size: 22, rtl: true, align: "right", before: 160, after: 40, keep: true, indStart: -85 }), widths[1], { border: "band", span: spans[1], valign: "bottom" })
   ] };
 }
@@ -217,9 +264,9 @@ function itemsTable(sec, totals) {
   rows.push({
     header: true,
     cells: headers.map((h, i) => tc([
-      p(h[0], { font: "Inter", size: 18, color: WHITE, align: enAlign(i), after: 8, keep: true }),
-      p(h[1], { font: "Noto Sans Arabic", size: 20, color: WHITE, rtl: true, align: arAlign(i), after: 0, keep: true })
-    ], widths[i], { fill: INK, valign: "center" }))
+      p(h[0].toUpperCase(), { ...LABEL, align: enAlign(i), after: 20, keep: true }),
+      p(h[1], { ...LABEL_AR, align: arAlign(i), after: 0, keep: true })
+    ], widths[i], { border: "head", valign: "bottom" }))
   });
   for (let i = 0; i < ITEM_ROWS; i++) {
     const r = i + 3;
@@ -227,8 +274,8 @@ function itemsTable(sec, totals) {
     rows.push({ cells: [
       cell(run(String(i + 1), valueRun), 0, "center"),
       cell(sdt("Description", "Enter Description", valueRun), 1, "left"),
-      cell(sdt("Qty", "Enter Qty", valueRun), 2, "center"),
-      cell(sdt("Unit", "Enter Unit", valueRun), 3, "center"),
+      cell(sdt("Qty", "Qty", valueRun), 2, "center"),
+      cell(sdt("Unit", "Unit", valueRun), 3, "center"),
       cell(sdt("Unit Price", "Enter Unit Price", valueRun), 4, "right"),
       cell(field("=C" + r + "*E" + r + " \\# \"#,##0.00\"", "0.00", valueRun), 5, "right")
     ] });
@@ -236,37 +283,37 @@ function itemsTable(sec, totals) {
   const labelW = widths.slice(0, 5).reduce((x, y) => x + y, 0);
   totals.forEach((t, idx) => {
     const keep = idx < totals.length - 1;
-    const border = t.strong ? "strong" : "hair";
-    const ropts = { font: t.strong ? "Jost" : "Inter", size: t.strong ? 21 : 18 };
+    const border = t.strong ? "rule" : "hair";
+    const ropts = t.strong ? { font: "Jost", size: 24 } : { font: "Inter", size: 18 };
     let inner;
     if (t.ph) inner = sdt(t.alias || t.en, t.ph, ropts);
     else inner = field(t.instr + " \\# \"#,##0.00\"", "0.00", ropts);
     if (t.bookmark) inner = "<w:bookmarkStart w:id=\"9021\" w:name=\"" + t.bookmark + "\"/>" + inner + "<w:bookmarkEnd w:id=\"9021\"/>";
     // One line per total: English at the start, Arabic at the right edge of the label cell via a right tab.
-    const arOpts = { font: "Noto Sans Arabic", size: t.strong ? 22 : 20, rtl: true };
-    const labelInner = run(t.en.toUpperCase(), ropts) + "<w:r><w:tab/></w:r>" + run(t.ar, arOpts);
+    const arOpts = { font: "Noto Sans Arabic", size: t.strong ? 24 : 21, rtl: true };
+    const labelInner = run(t.en.toUpperCase(), t.strong ? { ...ropts, track: 20 } : LABEL) + "<w:r><w:tab/></w:r>" + run(t.ar, arOpts);
     rows.push({ cells: [
       tc(p("", { after: 0, keep, inner: labelInner, tabRight: labelW - 170 }), labelW, { border, span: 5 }),
       tc(p("", { after: 0, keep, align: "right", inner }), widths[5], { border })
     ] });
   });
-  return tbl(widths, rows);
+  return tbl(widths, rows, { padTop: 50, padBottom: 60 });
 }
 
 const VAT_ROWS = [
   { en: "Subtotal", ar: "المجموع الفرعي", instr: "=SUM(F3:F6)" },
   { en: "VAT rate (%)", ar: "نسبة ضريبة القيمة المضافة", ph: "15", alias: "VAT Rate" },
   { en: "VAT amount (SAR)", ar: "مبلغ ضريبة القيمة المضافة", instr: "=(B7*B8)/100" },
-  { en: "Total", ar: "الإجمالي", instr: "=B7+B9", strong: true }
+  { en: "Total", ar: "الإجمالي", instr: "=B7+B9", strong: true, bookmark: "DocTotal" }
 ];
 
 // An entry box at least four lines tall, under a bilingual heading row. paragraphs are ready-made w:p strings.
 const ENTRY_MIN_HEIGHT = 1300;
 function noteBlock(en, ar, paragraphs, height = ENTRY_MIN_HEIGHT) {
-  const half = Math.floor(CONTENT_W / 2);
-  return tbl([half, CONTENT_W - half], [
-    sectionRow([en, ar], [1, 1], [half, CONTENT_W - half]),
-    { height, cells: [tc(paragraphs, CONTENT_W, { border: "hair", span: 2, valign: "top" })] }
+  const left = 5800;
+  return tbl([left, CONTENT_W - left], [
+    sectionRow([en, ar], [1, 1], [left, CONTENT_W - left]),
+    { height, cells: [tc(paragraphs, CONTENT_W, { border: "box", span: 2, valign: "top" })] }
   ]);
 }
 
@@ -426,17 +473,20 @@ function createDocx(doc) {
 // Shared field definitions. ph is a content-control placeholder; fixed is a value the owner confirmed for stationery.
 const DATE_HINT = " - DD/MM/YYYY (Gregorian)";
 const dateField = (en, ar, what) => ({ en, ar, ph: "Enter " + what + DATE_HINT, alias: what + " | DD/MM/YYYY (Gregorian)" });
+const stripDate = (en, ar, what) => ({ en, ar, ph: "DD/MM/YYYY (Gregorian)", alias: what + " | DD/MM/YYYY (Gregorian)" });
 const refField = (en, ar) => ({ en, ar, inner: complexField("DOCPROPERTY RefNo \\* MERGEFORMAT", REF_PLACEHOLDER, valueRun) });
+const totalRef = (en, ar) => ({ en, ar, inner: complexField("REF DocTotal", "0.00", { font: "Jost", size: 30 }), big: true });
 const CURRENCY = { en: "Currency", ar: "العملة", fixed: "SAR" };
 const OWNER_CONTACT = "Mashal Abdulrahman, GM / Owner";
-const LEGAL_NAME = { en: "Registered Legal Name (Trading Name: GEM)", ar: "الاسم القانوني المسجل", ph: "Enter Registered Legal Name" };
-const BUSINESS_ADDRESS = { en: "Business / National Address", ar: "عنوان المنشأة / العنوان الوطني", ph: "Enter Business / National Address" };
-const CR_NUMBER = { en: "Commercial Registration No.", ar: "رقم السجل التجاري", ph: "Enter Commercial Registration No." };
+const LEGAL_NAME = { en: "Legal Name", ar: "الاسم القانوني المسجل", ph: "Enter Registered Legal Name (Trading Name: GEM)", alias: "Registered Legal Name" };
+const BUSINESS_ADDRESS = { en: "Address", ar: "عنوان المنشأة / العنوان الوطني", ph: "Enter Business / National Address", alias: "Business / National Address" };
+const CR_NUMBER = { en: "Commercial Reg. No.", ar: "رقم السجل التجاري", ph: "Enter Commercial Registration No." };
 const TAX_ID = (en, ar) => ({ en, ar, ph: "Enter Tax Identifier" });
 const NOTICE = "Verify payment details through a previously known channel before making payment.";
 const NOTICE_AR = "تحقّق من بيانات الدفع عبر وسيلة اتصال معروفة مسبقاً قبل السداد.";
 const staticPara = (text, opts = {}) => entryPara(run(text, { font: "Inter", size: 18, ...opts }));
-const arabicPara = (text) => p(text, { font: "Noto Sans Arabic", size: 20, rtl: true, align: "right", after: 40, line: 288 });
+const arabicPara = (text) => p(text, { font: "Noto Sans Arabic", size: 21, rtl: true, align: "right", after: 40, line: 288 });
+const text = (en, ar, ph, extra = {}) => ({ en, ar, ph, ...extra });
 
 const docs = [
   {
@@ -445,40 +495,43 @@ const docs = [
     continued: ["RFQ continued", "تكملة طلب عرض السعر"],
     body:
       titleBlock("Request for Quotation", "طلب تقديم عرض سعر") +
-      fieldRows(["Request Details", "بيانات الطلب"], [
+      summaryStrip([
         refField("RFQ Number", "رقم طلب عرض السعر"),
-        dateField("Issue Date", "تاريخ الإصدار", "Issue Date"),
+        stripDate("Issue Date", "تاريخ الإصدار", "Issue Date"),
+        stripDate("Response Due", "موعد الرد", "Response Due Date"),
+        { ...CURRENCY, run: { font: "Jost", size: 30 }, big: true }
+      ]) +
+      parties(["Requester", "مقدم الطلب"], ["Supplier", "المورد"], [
         LEGAL_NAME,
         BUSINESS_ADDRESS,
-        dateField("Response Due", "موعد الرد", "Response Due Date"),
-        { en: "Requester", ar: "مقدم الطلب", fixed: OWNER_CONTACT },
-        { en: "Requester Email", ar: "بريد مقدم الطلب", fixed: CONTACT_EMAIL },
-        { en: "Project / Reference", ar: "المشروع / المرجع", ph: "Enter Project or Reference" },
-        { en: "Requester Phone", ar: "هاتف مقدم الطلب", fixed: CONTACT_PHONE },
+        { en: "Contact", ar: "مقدم الطلب", fixed: OWNER_CONTACT },
+        { en: "Email", ar: "البريد الإلكتروني", fixed: CONTACT_EMAIL },
+        { en: "Phone", ar: "الهاتف", fixed: CONTACT_PHONE },
         CR_NUMBER
+      ], [
+        text("Legal Name", "الاسم القانوني المسجل للمورد", "Enter Supplier Registered Legal Name"),
+        text("Address", "العنوان", "Enter Supplier Address"),
+        text("Contact Name", "اسم جهة التواصل", "Enter Supplier Contact"),
+        text("Email", "البريد الإلكتروني", "Enter Supplier Email"),
+        text("Phone", "الهاتف", "Enter Supplier Phone"),
+        text("Tax Identifier", "الرقم الضريبي للمورد", "Enter Supplier Tax Identifier")
       ]) +
-      fieldRows(["Supplier Details", "بيانات المورد"], [
-        { en: "Supplier Registered Legal Name", ar: "الاسم القانوني المسجل للمورد", ph: "Enter Supplier Registered Legal Name" },
-        { en: "Contact Name", ar: "اسم جهة التواصل", ph: "Enter Supplier Contact" },
-        { en: "Email", ar: "البريد الإلكتروني", ph: "Enter Supplier Email" },
-        { en: "Address", ar: "العنوان", ph: "Enter Supplier Address" },
-        { en: "Supplier Quote Reference", ar: "مرجع عرض المورد", ph: "Enter Supplier Quote Reference" },
-        { en: "Supplier Phone", ar: "هاتف المورد", ph: "Enter Supplier Phone" },
-        { en: "Supplier Confirmation", ar: "تأكيد المورد", ph: "Enter Supplier Confirmation" },
-        { en: "Supplier Tax Identifier", ar: "الرقم الضريبي للمورد", ph: "Enter Supplier Tax Identifier" }
+      fieldRows(["Request Reference", "مرجع الطلب"], [
+        text("Project / Reference", "المشروع / المرجع", "Enter Project or Reference"),
+        text("Supplier Quote Ref.", "مرجع عرض المورد", "Enter Supplier Quote Reference"),
+        text("Supplier Confirmation", "تأكيد المورد", "Enter Supplier Confirmation")
       ]) +
       itemsTable(["Items or Services", "البنود أو الخدمات"], [
         { en: "Subtotal", ar: "المجموع الفرعي", instr: "=SUM(F3:F6)" },
         { en: "Total", ar: "الإجمالي", instr: "=B7", strong: true }
       ]) +
-      fieldRows(["Delivery and Commercial Response", "التسليم والرد التجاري"], [
-        { en: "Delivery Location", ar: "موقع التسليم", ph: "Enter Delivery Address" },
+      fieldRows(["Delivery and Response", "التسليم والرد التجاري"], [
+        text("Delivery Location", "موقع التسليم", "Enter Delivery Address"),
         dateField("Requested Delivery", "موعد التسليم المطلوب", "Requested Delivery Date"),
-        { en: "Payment Terms", ar: "شروط الدفع", ph: "Enter Requested Payment Terms" },
+        text("Payment Terms", "شروط الدفع", "Enter Requested Payment Terms"),
         dateField("Quote Valid Until", "صلاحية العرض حتى", "Quote Validity Date"),
-        CURRENCY,
-        { en: "Lead Time", ar: "مدة التوريد", ph: "Enter Supplier Lead Time" },
-        { en: "Prices Are", ar: "الأسعار", ph: "Select VAT treatment", options: ["VAT-inclusive", "VAT-exclusive"], full: true }
+        text("Lead Time", "مدة التوريد", "Enter Supplier Lead Time"),
+        { en: "Prices Are", ar: "الأسعار", ph: "Select VAT treatment", options: ["VAT-inclusive", "VAT-exclusive"] }
       ], true) +
       noteBlock("Response Instructions", "تعليمات الرد", [
         staticPara("Complete the supplier details, each requested item, prices, VAT selection, delivery and commercial fields, and supplier confirmation. Return this RFQ by the response due date."),
@@ -491,36 +544,39 @@ const docs = [
     continued: ["Quotation continued", "تكملة عرض السعر"],
     body:
       titleBlock("Quotation and Proposal", "عرض سعر ومقترح") +
-      fieldRows(["Quotation Details", "بيانات عرض السعر"], [
+      summaryStrip([
         refField("Quotation Number", "رقم عرض السعر"),
-        dateField("Issue Date", "تاريخ الإصدار", "Issue Date"),
-        dateField("Valid Until", "صالح حتى", "Quote Validity Date"),
-        CURRENCY,
-        { en: "Customer", ar: "العميل", ph: "Enter Customer Name" },
-        { en: "Customer Contact", ar: "جهة التواصل", ph: "Enter Customer Contact" },
-        { en: "Customer Address", ar: "عنوان العميل", ph: "Enter Customer Address" },
-        { en: "Customer Email", ar: "بريد العميل", ph: "Enter Customer Email" },
-        { en: "Project / Property", ar: "المشروع / المنشأة", ph: "Enter Project or Property" },
-        { en: "Customer PO / Purchase Order", ar: "أمر شراء العميل", ph: "Enter Customer PO Number" }
+        stripDate("Issue Date", "تاريخ الإصدار", "Issue Date"),
+        stripDate("Valid Until", "صالح حتى", "Quote Validity Date"),
+        totalRef("Total (SAR)", "الإجمالي")
       ]) +
-      fieldRows(["Issuer and Customer Contact", "بيانات الجهة المصدرة والعميل"], [
+      parties(["Issuer", "الجهة المصدرة"], ["Customer", "العميل"], [
         LEGAL_NAME,
-        { en: "Business Email", ar: "البريد الإلكتروني", fixed: CONTACT_EMAIL },
         BUSINESS_ADDRESS,
-        { en: "Sales Contact", ar: "جهة التواصل للمبيعات", ph: "Enter Sales Contact Name / Role" },
-        { en: "Business Phone", ar: "هاتف المنشأة", fixed: CONTACT_PHONE },
-        TAX_ID("Tax Identifier", "الرقم الضريبي للمنشأة")
+        TAX_ID("Tax Identifier", "الرقم الضريبي للمنشأة"),
+        text("Sales Contact", "جهة التواصل للمبيعات", "Enter Sales Contact Name / Role"),
+        { en: "Email", ar: "البريد الإلكتروني", fixed: CONTACT_EMAIL },
+        { en: "Phone", ar: "هاتف المنشأة", fixed: CONTACT_PHONE }
+      ], [
+        text("Customer", "العميل", "Enter Customer Name"),
+        text("Address", "عنوان العميل", "Enter Customer Address"),
+        text("Contact", "جهة التواصل", "Enter Customer Contact"),
+        text("Email", "بريد العميل", "Enter Customer Email")
+      ]) +
+      fieldRows(["Quotation Details", "بيانات عرض السعر"], [
+        text("Project / Property", "المشروع / المنشأة", "Enter Project or Property"),
+        text("Customer PO", "أمر شراء العميل", "Enter Customer PO Number")
       ]) +
       noteBlock("Scope Summary", "ملخص النطاق", [entryPara(sdt("Scope Summary", "Enter scope summary", valueRun))]) +
       noteBlock("Assumptions, Exclusions & Terms", "الافتراضات والاستثناءات والشروط", [entryPara(sdt("Assumptions, Exclusions and Terms", "Enter assumptions, exclusions and terms", valueRun))]) +
       itemsTable(["Pricing", "الأسعار"], VAT_ROWS) +
       fieldRows(["Delivery and Payment", "التسليم والدفع"], [
-        { en: "Delivery Location", ar: "موقع التسليم", ph: "Enter Delivery Address" },
+        text("Delivery Location", "موقع التسليم", "Enter Delivery Address"),
         dateField("Estimated Delivery", "موعد التسليم التقديري", "Estimated Delivery Date"),
-        { en: "Payment Terms", ar: "شروط الدفع", ph: "Enter Payment Terms" }
+        text("Payment Terms", "شروط الدفع", "Enter Payment Terms")
       ]) +
       fieldRows(["Customer Acceptance", "قبول العميل"], [
-        { en: "Name / Role", ar: "الاسم / الصفة", ph: "Enter Customer Name / Role" },
+        text("Name / Role", "الاسم / الصفة", "Enter Customer Name / Role"),
         dateField("Signature / Date", "التوقيع / التاريخ", "Signature / Date")
       ])
   },
@@ -530,41 +586,44 @@ const docs = [
     continued: ["Invoice continued", "تكملة الفاتورة"],
     body:
       titleBlock("Invoice", "فاتورة") +
-      fieldRows(["Invoice Details", "بيانات الفاتورة"], [
+      summaryStrip([
         refField("Invoice Number", "رقم الفاتورة"),
-        dateField("Issue Date", "تاريخ الإصدار", "Issue Date"),
-        dateField("Payment Due", "تاريخ الاستحقاق", "Payment Due Date"),
-        CURRENCY,
-        { en: "Purchase Order", ar: "أمر الشراء", ph: "Enter Customer PO Number" },
-        { en: "Related Quotation", ar: "عرض السعر المرتبط", ph: "Enter Quotation Reference" },
-        { ...dateField("Supply Date", "تاريخ التوريد", "Supply Date"), full: true },
-        { en: "Total Amount Due", ar: "إجمالي المبلغ المستحق", inner: complexField("REF InvoiceTotal", "0.00", valueRun), full: true }
+        stripDate("Issue Date", "تاريخ الإصدار", "Issue Date"),
+        stripDate("Payment Due", "تاريخ الاستحقاق", "Payment Due Date"),
+        totalRef("Total Due (SAR)", "إجمالي المبلغ المستحق")
       ]) +
-      fieldRows(["Supplier and Customer", "المورد والعميل"], [
+      parties(["Supplier", "المورد"], ["Customer", "العميل"], [
         LEGAL_NAME,
         BUSINESS_ADDRESS,
-        TAX_ID("Supplier Tax Identifier", "الرقم الضريبي للمورد"),
-        { en: "Supplier Contact", ar: "جهة التواصل لدى المورد", fixed: OWNER_CONTACT },
-        { en: "Supplier Email", ar: "بريد المورد", fixed: CONTACT_EMAIL },
-        { en: "Supplier Phone", ar: "هاتف المورد", fixed: CONTACT_PHONE },
-        { en: "Customer", ar: "العميل", ph: "Enter Customer Legal Name" },
-        { en: "Billing Address", ar: "عنوان الفوترة", ph: "Enter Customer Billing Address" },
-        { en: "Customer Email", ar: "بريد العميل", ph: "Enter Customer Email" },
-        { en: "Customer Tax Identifier", ar: "الرقم الضريبي للعميل", ph: "Enter Customer Tax Identifier, if applicable" },
-        CR_NUMBER
+        TAX_ID("Tax Identifier", "الرقم الضريبي للمورد"),
+        CR_NUMBER,
+        { en: "Contact", ar: "جهة التواصل لدى المورد", fixed: OWNER_CONTACT },
+        { en: "Email", ar: "بريد المورد", fixed: CONTACT_EMAIL },
+        { en: "Phone", ar: "هاتف المورد", fixed: CONTACT_PHONE }
+      ], [
+        text("Customer", "العميل", "Enter Customer Legal Name"),
+        text("Billing Address", "عنوان الفوترة", "Enter Customer Billing Address"),
+        text("Tax Identifier", "الرقم الضريبي للعميل", "Enter Customer Tax Identifier, if applicable"),
+        text("Email", "بريد العميل", "Enter Customer Email")
+      ]) +
+      fieldRows(["References", "المراجع"], [
+        text("Purchase Order", "أمر الشراء", "Enter Customer PO Number"),
+        text("Related Quotation", "عرض السعر المرتبط", "Enter Quotation Reference"),
+        dateField("Supply Date", "تاريخ التوريد", "Supply Date"),
+        CURRENCY
       ]) +
       itemsTable(["Items or Services", "البنود أو الخدمات"], [
         ...VAT_ROWS.slice(0, 3),
-        { ...VAT_ROWS[3], bookmark: "InvoiceTotal" },
+        { en: "Total", ar: "الإجمالي", instr: "=B7+B9", bookmark: "DocTotal" },
         { en: "Amount Paid", ar: "المبلغ المدفوع", ph: "Enter Amount Paid" },
         { en: "Balance Due", ar: "الرصيد المستحق", instr: "=B10-B11", strong: true }
       ]) +
       fieldRows(["Payment Instructions", "تعليمات الدفع"], [
-        { en: "Payee / Account Name", ar: "المستفيد / اسم الحساب", ph: "Enter Payee Name" },
-        { en: "Bank", ar: "البنك", ph: "Enter Bank Name" },
-        { en: "Account Number", ar: "رقم الحساب", ph: "Enter Account Number" },
-        { en: "IBAN", ar: "رقم الآيبان (IBAN)", ph: "Enter IBAN" },
-        { en: "Payment Reference", ar: "مرجع الدفع", ph: "Enter Payment Reference" },
+        text("Payee", "المستفيد / اسم الحساب", "Enter Payee Name"),
+        text("Bank", "البنك", "Enter Bank Name"),
+        text("Account Number", "رقم الحساب", "Enter Account Number"),
+        text("IBAN", "رقم الآيبان (IBAN)", "Enter IBAN"),
+        text("Payment Reference", "مرجع الدفع", "Enter Payment Reference"),
         { en: "Contact Email", ar: "بريد التواصل", fixed: CONTACT_EMAIL }
       ]) +
       noteBlock("Notes and Terms", "الملاحظات والشروط", [
@@ -579,39 +638,41 @@ const docs = [
     continued: ["Purchase Order continued", "تكملة أمر الشراء"],
     body:
       titleBlock("Purchase Order", "أمر شراء") +
-      fieldRows(["Order Details", "بيانات أمر الشراء"], [
-        refField("Purchase Order Number", "رقم أمر الشراء"),
-        dateField("Order Date", "تاريخ الطلب", "Order Date"),
-        { en: "Requester / Buyer Contact", ar: "مقدم الطلب / جهة تواصل المشتري", fixed: OWNER_CONTACT },
-        { en: "Requester Email", ar: "بريد مقدم الطلب", fixed: CONTACT_EMAIL },
-        { en: "Related Quotation", ar: "عرض السعر المرتبط", ph: "Enter Quotation Reference" },
-        { en: "RFQ Reference", ar: "مرجع طلب عرض السعر", ph: "Enter RFQ Reference" },
-        CURRENCY,
-        { en: "Requester Phone", ar: "هاتف مقدم الطلب", fixed: CONTACT_PHONE }
+      summaryStrip([
+        refField("PO Number", "رقم أمر الشراء"),
+        stripDate("Order Date", "تاريخ الطلب", "Order Date"),
+        stripDate("Requested Delivery", "تاريخ التسليم المطلوب", "Requested Delivery Date"),
+        totalRef("Total (SAR)", "الإجمالي")
       ]) +
-      fieldRows(["Buyer Details", "بيانات المشتري"], [
+      parties(["Buyer", "المشتري"], ["Supplier", "المورد"], [
         LEGAL_NAME,
-        TAX_ID("Buyer Tax Identifier", "الرقم الضريبي للمشتري"),
         BUSINESS_ADDRESS,
-        CR_NUMBER
+        TAX_ID("Tax Identifier", "الرقم الضريبي للمشتري"),
+        CR_NUMBER,
+        { en: "Requester", ar: "مقدم الطلب / جهة تواصل المشتري", fixed: OWNER_CONTACT },
+        { en: "Email", ar: "بريد مقدم الطلب", fixed: CONTACT_EMAIL },
+        { en: "Phone", ar: "هاتف مقدم الطلب", fixed: CONTACT_PHONE }
+      ], [
+        text("Supplier Name", "اسم المورد", "Enter Supplier Registered Name"),
+        text("Address", "عنوان المورد", "Enter Supplier Address"),
+        text("Tax Identifier", "الرقم الضريبي للمورد", "Enter Supplier Tax Identifier, if applicable"),
+        text("Contact", "جهة التواصل لدى المورد", "Enter Supplier Contact"),
+        text("Email", "بريد المورد", "Enter Supplier Email"),
+        text("Phone", "هاتف المورد", "Enter Supplier Phone")
       ]) +
-      fieldRows(["Supplier Details", "بيانات المورد"], [
-        { en: "Supplier Name", ar: "اسم المورد", ph: "Enter Supplier Registered Name" },
-        { en: "Supplier Contact", ar: "جهة التواصل لدى المورد", ph: "Enter Supplier Contact" },
-        { en: "Supplier Email", ar: "بريد المورد", ph: "Enter Supplier Email" },
-        { en: "Supplier Address", ar: "عنوان المورد", ph: "Enter Supplier Address" },
-        { en: "Supplier Phone", ar: "هاتف المورد", ph: "Enter Supplier Phone" },
-        { en: "Supplier Tax Identifier", ar: "الرقم الضريبي للمورد", ph: "Enter Supplier Tax Identifier, if applicable" }
+      fieldRows(["References", "المراجع"], [
+        text("Related Quotation", "عرض السعر المرتبط", "Enter Quotation Reference"),
+        text("RFQ Reference", "مرجع طلب عرض السعر", "Enter RFQ Reference"),
+        CURRENCY
       ]) +
       itemsTable(["Items or Services", "البنود أو الخدمات"], VAT_ROWS) +
       fieldRows(["Delivery and Billing", "التسليم والفوترة"], [
-        { en: "Deliver To", ar: "جهة التسليم", ph: "Enter Recipient / Department" },
-        { en: "Delivery Address", ar: "عنوان التسليم", ph: "Enter Delivery Address" },
-        dateField("Requested Delivery Date", "تاريخ التسليم المطلوب", "Requested Delivery Date"),
-        { en: "Billing Address", ar: "عنوان الفوترة", ph: "Enter Billing Address" },
-        { en: "Shipping / Delivery Terms", ar: "شروط الشحن والتسليم", ph: "Enter Agreed Shipping / Delivery Terms" },
-        { en: "Special Instructions", ar: "تعليمات خاصة", ph: "Enter Special Instructions, if any" },
-        { en: "Payment Terms", ar: "شروط الدفع", ph: "Enter Agreed Payment Terms" }
+        text("Deliver To", "جهة التسليم", "Enter Recipient / Department"),
+        text("Delivery Address", "عنوان التسليم", "Enter Delivery Address"),
+        text("Billing Address", "عنوان الفوترة", "Enter Billing Address"),
+        text("Shipping Terms", "شروط الشحن والتسليم", "Enter Agreed Shipping / Delivery Terms"),
+        text("Special Instructions", "تعليمات خاصة", "Enter Special Instructions, if any"),
+        text("Payment Terms", "شروط الدفع", "Enter Agreed Payment Terms")
       ])
   }
 ];
