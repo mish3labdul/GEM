@@ -70,7 +70,7 @@ function sdt(alias, placeholder, opts = {}) {
 function dropdown(alias, placeholder, items, opts = {}) {
   sdtId += 1;
   const list = items.map((i) => "<w:listItem w:displayText=\"" + enc(i) + "\" w:value=\"" + enc(i) + "\"/>").join("");
-  return "<w:sdt><w:sdtPr><w:alias w:val=\"" + enc(alias) + "\"/><w:tag w:val=\"field_" + sdtId + "\"/><w:id w:val=\"" + sdtId + "\"/><w:dropDownList>" + list + "</w:dropDownList><w:showingPlcHdr/></w:sdtPr><w:sdtContent>" + run(placeholder, opts) + "</w:sdtContent></w:sdt>";
+  return "<w:sdt><w:sdtPr><w:alias w:val=\"" + enc(alias) + "\"/><w:tag w:val=\"field_" + sdtId + "\"/><w:id w:val=\"" + sdtId + "\"/><w:showingPlcHdr/><w:dropDownList>" + list + "</w:dropDownList></w:sdtPr><w:sdtContent>" + run(placeholder, opts) + "</w:sdtContent></w:sdt>";
 }
 
 // Simple field. Unlocked on purpose: a locked field would ignore Ctrl+A, F9 and never recalculate.
@@ -274,9 +274,9 @@ function itemsTable(sec, totals) {
     rows.push({ cells: [
       cell(run(String(i + 1), valueRun), 0, "center"),
       cell(sdt("Description", "Enter Description", valueRun), 1, "left"),
-      cell(sdt("Qty", "Qty", valueRun), 2, "center"),
+      cell(sdt("Qty", "0", valueRun), 2, "center"),
       cell(sdt("Unit", "Unit", valueRun), 3, "center"),
-      cell(sdt("Unit Price", "Enter Unit Price", valueRun), 4, "right"),
+      cell(sdt("Unit Price", "0.00", valueRun), 4, "right"),
       cell(field("=C" + r + "*E" + r + " \\# \"#,##0.00\"", "0.00", valueRun), 5, "right")
     ] });
   }
@@ -615,7 +615,7 @@ const docs = [
       itemsTable(["Items or Services", "البنود أو الخدمات"], [
         ...VAT_ROWS.slice(0, 3),
         { en: "Total", ar: "الإجمالي", instr: "=B7+B9", bookmark: "DocTotal" },
-        { en: "Amount Paid", ar: "المبلغ المدفوع", ph: "Enter Amount Paid" },
+        { en: "Amount Paid", ar: "المبلغ المدفوع", ph: "0.00", alias: "Amount Paid" },
         { en: "Balance Due", ar: "الرصيد المستحق", instr: "=B10-B11", strong: true }
       ]) +
       fieldRows(["Payment Instructions", "تعليمات الدفع"], [

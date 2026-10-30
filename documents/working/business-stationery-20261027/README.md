@@ -62,6 +62,10 @@ The v3 drafts (`GEM Business Stationery Revised v3 2026-10-29`) were merged into
 - v3's "Internal Draft" file names are replaced by this suite's `_Template_working` names, and the "TEMPLATE 0x" kickers and intro notes were dropped to keep two pages.
 - **Redesign (30 Oct 2026):** the first merge reproduced v3's boxed grid, which read as a form and not as GEM stationery. The layout now follows the letterhead's quiet language: a summary strip under the title (number, date, due or valid date, total), Supplier/Customer (or Buyer/Supplier, Issuer/Customer, Requester/Supplier) as two side-by-side stacks, bilingual labels on one line with the Arabic at the line end, hairline rules in place of cell boxes, and the final total or balance emphasised in Jost. The Ink header fill was removed, which also closes that listed exception.
 
+- Cells that feed a formula (quantity, unit price, amount paid) start as numeric placeholders (`0`, `0.00`) so a blank form cannot print a Word formula error; descriptive cells keep "Enter ..." text.
+- The dropdown's `showingPlcHdr` element now precedes the control type, as the OOXML schema orders it.
+- For the Arabic reviewer: the same concept carries two wordings in places, for example "Requested Delivery" is "موعد التسليم المطلوب" on the RFQ and "تاريخ التسليم المطلوب" on the PO. Both came from the v3 drafts and neither has been reviewed.
+
 Calculation results could not be checked here: LibreOffice previews show cached values and do not recalculate on export. Run `WORD-CHECK.bas` in Word (see `FILL-IN-GUIDE.md`).
 
 ## Rebuild and verification
