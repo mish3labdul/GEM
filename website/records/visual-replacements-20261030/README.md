@@ -1,6 +1,6 @@
 # Regenerated brand-aligned candidates — 30 October 2026
 
-**Status: CANDIDATES, awaiting owner approval. No shipped asset has been replaced.** Visual approval only; rights (L08) stay open for these new outputs.
+**Status: OWNER-APPROVED 30 Oct 2026 and integrated** (see `APPROVAL-20261030.md`). Supersedes the 28 Oct replacements for V02, V03 and V09. Visual approval only; rights (L08) stay open for these new outputs.
 
 ## How they were made
 - Tool: Gemini web app (gemini.google.com), signed in as the owner's Google account, **Create image** mode, model picker set to **3.1 Pro**, aspect ratio 16:9, 30 Oct 2026. The picker shows no model named "Nano Banana Pro", so which image model ran is **not established**; record this before any rights claim.

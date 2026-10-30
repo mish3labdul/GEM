@@ -30,8 +30,6 @@ sha256,copies,path,disposition
 03a7ba44522bbecccd2ddc2bbf3c07f16e514e0d4de098df02b2996a872cacf6,2,website/remake/assets/source/body-wash-source.png,RETAINED: provenance/history/current-use copy
 03a7bbcc7e4afeaf3dfa55058daa2690890dbd4cc6e9a33e9d35a0b621ca5941,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol/png/gem-symbol-white-1024.png,RETAINED: provenance/history/current-use copy
 03a7bbcc7e4afeaf3dfa55058daa2690890dbd4cc6e9a33e9d35a0b621ca5941,2,brand/working-kit/logo/symbol/png/gem-symbol-white-1024.png,RETAINED: provenance/history/current-use copy
-048563df3aeed45a9d3879ba21f8bf0d7f1e7ea598a5f1a739618c85cde0fb17,2,website/remake/assets/exports/format-wall-480.webp,RETAINED: provenance/history/current-use copy
-048563df3aeed45a9d3879ba21f8bf0d7f1e7ea598a5f1a739618c85cde0fb17,2,website/remake/dist/assets/format-wall-480.webp,RETAINED: provenance/history/current-use copy
 04ae07b570b30c908ab63f3f895d7320d63acec8548b03af0a50f87438bb21da,4,website/records/qa-runs/20261011T103746Z/screenshots/text200-stress-320.png,RETAINED: provenance/history/current-use copy
 04ae07b570b30c908ab63f3f895d7320d63acec8548b03af0a50f87438bb21da,4,website/records/qa-runs/20261011T103930Z/screenshots/text200-stress-320.png,RETAINED: provenance/history/current-use copy
 04ae07b570b30c908ab63f3f895d7320d63acec8548b03af0a50f87438bb21da,4,website/records/qa-runs/20261011T154336Z/screenshots/text200-stress-320.png,RETAINED: provenance/history/current-use copy
@@ -58,8 +56,6 @@ sha256,copies,path,disposition
 0a2c5f7644f9da8e46573088d95744e38f3d4b9553837558c7dedb7a9c114238,10,website/records/qa-runs/20261011T103930Z/screenshots/zoom200-of-1280-index-fold.png,RETAINED: provenance/history/current-use copy
 0a2c5f7644f9da8e46573088d95744e38f3d4b9553837558c7dedb7a9c114238,10,website/records/qa-runs/20261011T154336Z/screenshots/zoom200-of-1280-index-fold.png,RETAINED: provenance/history/current-use copy
 0a2c5f7644f9da8e46573088d95744e38f3d4b9553837558c7dedb7a9c114238,10,website/records/qa-runs/20261011T154529Z/screenshots/zoom200-of-1280-index-fold.png,RETAINED: provenance/history/current-use copy
-0af7c148912ab8c1d42532abae41082f763be79b00a5f553e584ab2c09f9534b,2,website/records/visual-replacements-20261028/candidates/v09-wall-alternative.png,RETAINED: provenance/history/current-use copy
-0af7c148912ab8c1d42532abae41082f763be79b00a5f553e584ab2c09f9534b,2,website/remake/assets/source/format-wall-source.png,RETAINED: provenance/history/current-use copy
 0b95291febaa16ce611e3423f0db1010679d167b29440ca945b17a8ed73761e5,2,website/site/assets/img/amenity-family-480.webp,RETAINED: provenance/history/current-use copy
 0b95291febaa16ce611e3423f0db1010679d167b29440ca945b17a8ed73761e5,2,website/source-images/concept-r02/web/amenity-family-480.webp,RETAINED: provenance/history/current-use copy
 0bf789d35329754e4df77209921206f01d0459c24dc1081ee8569b92b77e0807,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/kit-overview.png,RETAINED: provenance/history/current-use copy
@@ -205,8 +201,6 @@ sha256,copies,path,disposition
 2268bd62b665a4ce001f0e4ce4fc2ca003307c7766f6796b324b2dc96b1d3660,2,brand/specification-assets/GEM_BRAND_STATUS-LABEL_CONDITIONAL_v0.1_20261006.svg,RETAINED: provenance/history/current-use copy
 229c0633738320cb296669c98ab775650731fb839b5da10d3e55a2ede6496a76,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/icons/avatar-1080-ink-on-beige.png,RETAINED: provenance/history/current-use copy
 229c0633738320cb296669c98ab775650731fb839b5da10d3e55a2ede6496a76,2,brand/working-kit/icons/avatar-1080-ink-on-beige.png,RETAINED: provenance/history/current-use copy
-22f7c46365560545f33ebc87146cdf7ea644b0783116fc67a82a3ee0b8099932,2,website/remake/assets/scenes/family-rtl.webp,RETAINED: provenance/history/current-use copy
-22f7c46365560545f33ebc87146cdf7ea644b0783116fc67a82a3ee0b8099932,2,website/remake/dist/assets/family-rtl.webp,RETAINED: provenance/history/current-use copy
 23038e2748e333b4a81b3ec33d47e4c04caa37a6cfc365f833c10328092fa9cc,5,website/records/qa-runs/20261011T093708Z/screenshots/reference-breakpoint-1024-fold.png,RETAINED: provenance/history/current-use copy
 23038e2748e333b4a81b3ec33d47e4c04caa37a6cfc365f833c10328092fa9cc,5,website/records/qa-runs/20261011T093843Z/screenshots/reference-breakpoint-1024-fold.png,RETAINED: provenance/history/current-use copy
 23038e2748e333b4a81b3ec33d47e4c04caa37a6cfc365f833c10328092fa9cc,5,website/records/qa-runs/20261011T094027Z/screenshots/reference-breakpoint-1024-fold.png,RETAINED: provenance/history/current-use copy
@@ -431,9 +425,6 @@ sha256,copies,path,disposition
 3ebd596ad7807242cb5a4516d9ce8666883bc380b6c59be20d2459b5bb5c943c,2,brand/working-kit/logo/horizontal/clearspace/gem-horizontal-white-clearspace-2u.svg,RETAINED: provenance/history/current-use copy
 3f08610ca4e9f8fa4f81d8819fdc056dd5b17c4a0500eeca6f5de4912355ee58,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/symbol-nospark/pdf/gem-symbol-nospark-ink.pdf,RETAINED: provenance/history/current-use copy
 3f08610ca4e9f8fa4f81d8819fdc056dd5b17c4a0500eeca6f5de4912355ee58,2,brand/working-kit/logo/symbol-nospark/pdf/gem-symbol-nospark-ink.pdf,RETAINED: provenance/history/current-use copy
-3f2fd71aa9780ecc8f1e20be1a283142deba9a09b5765de0f48bf3b6ba007a18,3,website/records/visual-replacements-20261028/candidates/social-preview-approved-v03-crop.png,RETAINED: provenance/history/current-use copy
-3f2fd71aa9780ecc8f1e20be1a283142deba9a09b5765de0f48bf3b6ba007a18,3,website/remake/assets/static/social.png,RETAINED: provenance/history/current-use copy
-3f2fd71aa9780ecc8f1e20be1a283142deba9a09b5765de0f48bf3b6ba007a18,3,website/remake/dist/assets/social.png,RETAINED: provenance/history/current-use copy
 403f2650d8a5c01e9f93f0c08e54f6cf2674274ec9de615aea4995d51e5758bf,3,website/records/qa-runs/20261010T124444Z/screenshots/privacy-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 403f2650d8a5c01e9f93f0c08e54f6cf2674274ec9de615aea4995d51e5758bf,3,website/records/qa-runs/20261010T124605Z/screenshots/privacy-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 403f2650d8a5c01e9f93f0c08e54f6cf2674274ec9de615aea4995d51e5758bf,3,website/records/qa-runs/20261010T124726Z/screenshots/privacy-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
@@ -659,6 +650,9 @@ sha256,copies,path,disposition
 5750d59c7f65d6d2a2d4cb75eea1cc13b8f663a15ab336c03a12b31c65970e37,3,website/records/cleanup-qa/baseline-regression/20261011T185054Z/screenshots/zoom400-of-1280-index-fold.png,RETAINED: provenance/history/current-use copy
 5750d59c7f65d6d2a2d4cb75eea1cc13b8f663a15ab336c03a12b31c65970e37,3,website/records/cleanup-qa/regression/20261011T185626Z/screenshots/zoom400-of-1280-index-fold.png,RETAINED: provenance/history/current-use copy
 5750d59c7f65d6d2a2d4cb75eea1cc13b8f663a15ab336c03a12b31c65970e37,3,website/records/remediation-2026-10-11-01/raw-results/regression/20261011T170638Z/screenshots/zoom400-of-1280-index-fold.png,RETAINED: provenance/history/current-use copy
+57a5affe07758ef6560bdfb7d0dd08e3d9a753e1700a54e8dd306c81acd3c759,3,website/records/visual-replacements-20261030/candidates/social-candidate.png,RETAINED: provenance/history/current-use copy
+57a5affe07758ef6560bdfb7d0dd08e3d9a753e1700a54e8dd306c81acd3c759,3,website/remake/assets/static/social.png,RETAINED: provenance/history/current-use copy
+57a5affe07758ef6560bdfb7d0dd08e3d9a753e1700a54e8dd306c81acd3c759,3,website/remake/dist/assets/social.png,RETAINED: provenance/history/current-use copy
 57c8b38fc965ddb578fdd0fb5eadb7dad6a98f9355bf9f805ad2c83f7e4f4f2a,2,website/records/qa-runs/20261010T132217Z/screenshots/blocked-script-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 57c8b38fc965ddb578fdd0fb5eadb7dad6a98f9355bf9f805ad2c83f7e4f4f2a,2,website/records/qa-runs/20261010T132217Z/screenshots/no-js-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 584848519da4defdc2e71a67bd4f837eeaee8082d29197755e4c175823b3366a,2,archive/baseline-v3.0/GEM_Letterhead_Set_v1.1_Application_Revision_03/01_templates/GEM_Letterhead_Executive.docx,RETAINED: provenance/history/current-use copy
@@ -675,8 +669,6 @@ sha256,copies,path,disposition
 5adeed2c68a1551f4307e746ad6d5d8e6af481711221d009ba3fde54e25d44ba,3,website/records/cleanup-qa/baseline-regression/20261011T185054Z/screenshots/reference-tablet-768-fold.png,RETAINED: provenance/history/current-use copy
 5adeed2c68a1551f4307e746ad6d5d8e6af481711221d009ba3fde54e25d44ba,3,website/records/cleanup-qa/regression/20261011T185626Z/screenshots/reference-tablet-768-fold.png,RETAINED: provenance/history/current-use copy
 5adeed2c68a1551f4307e746ad6d5d8e6af481711221d009ba3fde54e25d44ba,3,website/records/remediation-2026-10-11-01/raw-results/regression/20261011T170638Z/screenshots/reference-tablet-768-fold.png,RETAINED: provenance/history/current-use copy
-5b02c24d18299a5b35300a18582ffbefab7f6ed06d8c720b962d3e1310363654,2,website/remake/assets/scenes/family.webp,RETAINED: provenance/history/current-use copy
-5b02c24d18299a5b35300a18582ffbefab7f6ed06d8c720b962d3e1310363654,2,website/remake/dist/assets/family.webp,RETAINED: provenance/history/current-use copy
 5c2f994c278b18882716b35d9b0826ee756f5c2a1249b5e94c53962d170555c1,5,website/records/qa-runs/20261011T093708Z/screenshots/reference-breakpoint-1024-full.png,RETAINED: provenance/history/current-use copy
 5c2f994c278b18882716b35d9b0826ee756f5c2a1249b5e94c53962d170555c1,5,website/records/qa-runs/20261011T093843Z/screenshots/reference-breakpoint-1024-full.png,RETAINED: provenance/history/current-use copy
 5c2f994c278b18882716b35d9b0826ee756f5c2a1249b5e94c53962d170555c1,5,website/records/qa-runs/20261011T094027Z/screenshots/reference-breakpoint-1024-full.png,RETAINED: provenance/history/current-use copy
@@ -1010,6 +1002,9 @@ sha256,copies,path,disposition
 7802f9578d6b792d2ce182c67450841734ba4a5ac5b0dbc5649c9ebedbadd4cb,2,website/remake/dist/assets/social.svg,RETAINED: provenance/history/current-use copy
 7bc540e5736b588bd9404a217e47f8d314919a5c275437f8605fe1109a42f78c,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/clearspace/gem-horizontal-black-clearspace-2u.svg,RETAINED: provenance/history/current-use copy
 7bc540e5736b588bd9404a217e47f8d314919a5c275437f8605fe1109a42f78c,2,brand/working-kit/logo/horizontal/clearspace/gem-horizontal-black-clearspace-2u.svg,RETAINED: provenance/history/current-use copy
+7c55185486b1bdc96ce13f4dda299dce06d5165505b52dc79e81ce53df072d18,3,website/records/visual-replacements-20261030/candidates/family-rtl-candidate.webp,RETAINED: provenance/history/current-use copy
+7c55185486b1bdc96ce13f4dda299dce06d5165505b52dc79e81ce53df072d18,3,website/remake/assets/scenes/family-rtl.webp,RETAINED: provenance/history/current-use copy
+7c55185486b1bdc96ce13f4dda299dce06d5165505b52dc79e81ce53df072d18,3,website/remake/dist/assets/family-rtl.webp,RETAINED: provenance/history/current-use copy
 7d035f5ed696561fad116b102e4417df01754e29503e82f30b0dd98a2ac02ad0,3,website/records/qa-runs/20261010T124444Z/screenshots/reference-tablet-768-full.png,RETAINED: provenance/history/current-use copy
 7d035f5ed696561fad116b102e4417df01754e29503e82f30b0dd98a2ac02ad0,3,website/records/qa-runs/20261010T124605Z/screenshots/reference-tablet-768-full.png,RETAINED: provenance/history/current-use copy
 7d035f5ed696561fad116b102e4417df01754e29503e82f30b0dd98a2ac02ad0,3,website/records/qa-runs/20261010T124726Z/screenshots/reference-tablet-768-full.png,RETAINED: provenance/history/current-use copy
@@ -1044,6 +1039,8 @@ sha256,copies,path,disposition
 80e1ae941d03c5e5b9a6475d705a59d2344df5256336e4fb42630c2d3226992e,8,website/records/remediation-2026-10-11-01/raw-results/regression/20261011T170638Z/screenshots/index-mobile-375-full.png,RETAINED: provenance/history/current-use copy
 810ac6fd345ac7667dba7caf6a5b785736bbe11f5390e09a6477429d692aa5d3,2,website/remake/dist/pilot.css,RETAINED: provenance/history/current-use copy
 810ac6fd345ac7667dba7caf6a5b785736bbe11f5390e09a6477429d692aa5d3,2,website/remake/pilot.css,RETAINED: provenance/history/current-use copy
+817d49c72564047b1bfa0c8fb8083a49dcae825a4c70648f67ed952ad769316e,2,website/records/visual-replacements-20261030/candidates/format-wall-candidate.png,RETAINED: provenance/history/current-use copy
+817d49c72564047b1bfa0c8fb8083a49dcae825a4c70648f67ed952ad769316e,2,website/remake/assets/source/format-wall-source.png,RETAINED: provenance/history/current-use copy
 82f1fa27c198e954cfe587955e49dd544f1d61d791599af1f5af36197e8dea58,2,website/records/qa-runs/20261011T103930Z/screenshots/packages-375.png,RETAINED: provenance/history/current-use copy
 82f1fa27c198e954cfe587955e49dd544f1d61d791599af1f5af36197e8dea58,2,website/records/qa-runs/20261011T154529Z/screenshots/packages-375.png,RETAINED: provenance/history/current-use copy
 831ec6bab4ab3dc6d8fa2c74f6f4765f44e4abd210379efd56ad05872a20d3c1,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/stacked/png/gem-stacked-ink-2048.png,RETAINED: provenance/history/current-use copy
@@ -1300,6 +1297,8 @@ a9e7a7859944a814f31d3246ac6653f4e933ea929bb772ac1c51f246e4ecd7b3,3,website/recor
 aa1056a71a63a023415f9599b0de0814bfba05d9ae9e524b0d7eee4f50aa93a0,3,website/records/cleanup-qa/baseline-regression/20261011T185054Z/screenshots/text200-stress-1440.png,RETAINED: provenance/history/current-use copy
 aa1056a71a63a023415f9599b0de0814bfba05d9ae9e524b0d7eee4f50aa93a0,3,website/records/cleanup-qa/regression/20261011T185626Z/screenshots/text200-stress-1440.png,RETAINED: provenance/history/current-use copy
 aa1056a71a63a023415f9599b0de0814bfba05d9ae9e524b0d7eee4f50aa93a0,3,website/records/remediation-2026-10-11-01/raw-results/regression/20261011T170638Z/screenshots/text200-stress-1440.png,RETAINED: provenance/history/current-use copy
+aab5720a878b948f654d7394234b3d9b90b13b67293722971a3ca6a230a3a3da,2,website/remake/assets/exports/format-wall-960.webp,RETAINED: provenance/history/current-use copy
+aab5720a878b948f654d7394234b3d9b90b13b67293722971a3ca6a230a3a3da,2,website/remake/dist/assets/format-wall-960.webp,RETAINED: provenance/history/current-use copy
 aac60d669a1201bd689f3e6d19d8d3cebb8fc489f5ffbf99efd75b0e332bfbed,4,website/records/qa-runs/20261011T103746Z/screenshots/packages-1440.png,RETAINED: provenance/history/current-use copy
 aac60d669a1201bd689f3e6d19d8d3cebb8fc489f5ffbf99efd75b0e332bfbed,4,website/records/qa-runs/20261011T103930Z/screenshots/packages-1440.png,RETAINED: provenance/history/current-use copy
 aac60d669a1201bd689f3e6d19d8d3cebb8fc489f5ffbf99efd75b0e332bfbed,4,website/records/qa-runs/20261011T154336Z/screenshots/packages-1440.png,RETAINED: provenance/history/current-use copy
@@ -1540,8 +1539,6 @@ d0d15025df6f49e4b346f77e52c963becc2246e31453a0f2c9c27f02df83cbd0,2,archive/basel
 d0d15025df6f49e4b346f77e52c963becc2246e31453a0f2c9c27f02df83cbd0,2,brand/working-kit/logo/horizontal/eps/gem-horizontal-white.eps,RETAINED: provenance/history/current-use copy
 d12e3db22c9a7579d24e5950b52185c3884dc86d228cd82247526d8830af8682,2,website/records/qa-runs/20261011T094908Z/screenshots/index-desktop-1440-full.png,RETAINED: provenance/history/current-use copy
 d12e3db22c9a7579d24e5950b52185c3884dc86d228cd82247526d8830af8682,2,website/records/qa-runs/20261011T095042Z/screenshots/index-desktop-1440-full.png,RETAINED: provenance/history/current-use copy
-d176b3f7b64120bacf3f8cbcbca257dc938207679bc16768855bd6799e22b557,2,website/remake/assets/exports/format-wall-960.webp,RETAINED: provenance/history/current-use copy
-d176b3f7b64120bacf3f8cbcbca257dc938207679bc16768855bd6799e22b557,2,website/remake/dist/assets/format-wall-960.webp,RETAINED: provenance/history/current-use copy
 d17f416671c8613b9342028b6b3fa63110f849ceb7823956db070b5574226ec0,5,website/records/qa-runs/20261011T093708Z/screenshots/forced-colors-dark-fold.png,RETAINED: provenance/history/current-use copy
 d17f416671c8613b9342028b6b3fa63110f849ceb7823956db070b5574226ec0,5,website/records/qa-runs/20261011T093843Z/screenshots/forced-colors-dark-fold.png,RETAINED: provenance/history/current-use copy
 d17f416671c8613b9342028b6b3fa63110f849ceb7823956db070b5574226ec0,5,website/records/qa-runs/20261011T094027Z/screenshots/forced-colors-dark-fold.png,RETAINED: provenance/history/current-use copy
@@ -1624,6 +1621,8 @@ df417e35245ffcbd2c07858ba4ea09ed1567a45f635065cec6395fd74acecf29,2,archive/basel
 df417e35245ffcbd2c07858ba4ea09ed1567a45f635065cec6395fd74acecf29,2,brand/working-kit/logo/stacked/svg/gem-stacked-ink.svg,RETAINED: provenance/history/current-use copy
 df9f7d587f43d3b87cf304f903102ee9ba17935c339c5df25732b1077a083af3,2,website/remake/assets/exports/hero-desktop-640.webp,RETAINED: provenance/history/current-use copy
 df9f7d587f43d3b87cf304f903102ee9ba17935c339c5df25732b1077a083af3,2,website/remake/dist/assets/hero-desktop-640.webp,RETAINED: provenance/history/current-use copy
+e088d14b7f74c7ef9202fb2a02f7bddc59dc0362e22d03929a5177d111e39779,2,website/remake/assets/exports/format-wall-480.webp,RETAINED: provenance/history/current-use copy
+e088d14b7f74c7ef9202fb2a02f7bddc59dc0362e22d03929a5177d111e39779,2,website/remake/dist/assets/format-wall-480.webp,RETAINED: provenance/history/current-use copy
 e116c618ec4e95caabf575e571bee097f7edc411b1a9dde592b5a3cac2e66e8e,15,website/records/qa-runs/20261010T124444Z/screenshots/blocked-script-desktop-1440-fold.png,RETAINED: provenance/history/current-use copy
 e116c618ec4e95caabf575e571bee097f7edc411b1a9dde592b5a3cac2e66e8e,15,website/records/qa-runs/20261010T124444Z/screenshots/forced-colors-light-fold.png,RETAINED: provenance/history/current-use copy
 e116c618ec4e95caabf575e571bee097f7edc411b1a9dde592b5a3cac2e66e8e,15,website/records/qa-runs/20261010T124444Z/screenshots/index-desktop-1440-fold.png,RETAINED: provenance/history/current-use copy
@@ -1766,6 +1765,9 @@ fc7e0c3e96f6da398ece0174457c4ff26328c96c26022c4fd0353baa39035b67,6,website/recor
 fc7e0c3e96f6da398ece0174457c4ff26328c96c26022c4fd0353baa39035b67,6,website/records/qa-runs/20261011T103930Z/screenshots/privacy-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 fc7e0c3e96f6da398ece0174457c4ff26328c96c26022c4fd0353baa39035b67,6,website/records/qa-runs/20261011T154336Z/screenshots/privacy-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
 fc7e0c3e96f6da398ece0174457c4ff26328c96c26022c4fd0353baa39035b67,6,website/records/qa-runs/20261011T154529Z/screenshots/privacy-mobile-375-fold.png,RETAINED: provenance/history/current-use copy
+fd7f49e17b313fb65168901189f82fca96a560d6f2687a856d63c8a1e6b5dd6d,3,website/records/visual-replacements-20261030/candidates/family-candidate.webp,RETAINED: provenance/history/current-use copy
+fd7f49e17b313fb65168901189f82fca96a560d6f2687a856d63c8a1e6b5dd6d,3,website/remake/assets/scenes/family.webp,RETAINED: provenance/history/current-use copy
+fd7f49e17b313fb65168901189f82fca96a560d6f2687a856d63c8a1e6b5dd6d,3,website/remake/dist/assets/family.webp,RETAINED: provenance/history/current-use copy
 feca3800843994381db89ac49eccb414b9c19bd0c8ac7adff07ec15de955d37c,2,website/records/cleanup-qa/corrections/20261011T185637Z/observations.json,RETAINED: provenance/history/current-use copy
 feca3800843994381db89ac49eccb414b9c19bd0c8ac7adff07ec15de955d37c,2,website/records/remediation-2026-10-11-01/raw-results/corrections/20261011T171103Z/observations.json,RETAINED: provenance/history/current-use copy
 ff6cf95a6cb075221f4e777c9e41b1a4d6f97758d9f9362243b56ba9de515a28,2,archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/stacked/png/gem-stacked-black-512.png,RETAINED: provenance/history/current-use copy

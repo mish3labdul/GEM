@@ -2,7 +2,7 @@
   "date": "2026-10-28",
   "status": "Owner-approved local visual integration; concept imagery; public-use rights remain open",
   "source": "review/creative/branded-scenes-20261023",
-  "preparation": "Branded GEM scene masters replicated from approved Flow compositions with bilingual GEM labels and horizon arc; owner-approved generated replacements recorded in website/records/visual-replacements-20261028/README.md",
+  "preparation": "Branded GEM scene masters replicated from approved Flow compositions with bilingual GEM labels and horizon arc; owner-approved generated replacements recorded in website/records/visual-replacements-20261028/README.md; family and family-rtl replaced 30 Oct 2026 by owner-approved brand-aligned regenerations recorded in website/records/visual-replacements-20261030/README.md",
   "approvedArc": {
     "source": "T8-concentric-arches-2K.jpg",
     "sha256": "70cf89a45841c808bf125c472c9a11103442e787021da4d4a0484b3b40eee464"
@@ -15,13 +15,13 @@
     },
     {
       "file": "assets/scenes/family-rtl.webp",
-      "bytes": 97394,
-      "sha256": "22f7c46365560545f33ebc87146cdf7ea644b0783116fc67a82a3ee0b8099932"
+      "bytes": 117534,
+      "sha256": "7c55185486b1bdc96ce13f4dda299dce06d5165505b52dc79e81ce53df072d18"
     },
     {
       "file": "assets/scenes/family.webp",
-      "bytes": 90504,
-      "sha256": "5b02c24d18299a5b35300a18582ffbefab7f6ed06d8c720b962d3e1310363654"
+      "bytes": 159692,
+      "sha256": "fd7f49e17b313fb65168901189f82fca96a560d6f2687a856d63c8a1e6b5dd6d"
     },
     {
       "file": "assets/scenes/flatlay.webp",

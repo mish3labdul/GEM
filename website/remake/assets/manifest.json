@@ -76,9 +76,9 @@
     },
     {
       "file": "social.png",
-      "sha256": "3f2fd71aa9780ecc8f1e20be1a283142deba9a09b5765de0f48bf3b6ba007a18",
-      "bytes": 1134134,
-      "classification": "V03 social-share image: 1200x630 crop from the M8-05 owner-approved social asset, enlarged to feature the five-product scene; owner-approved 28 Oct 2026"
+      "sha256": "57a5affe07758ef6560bdfb7d0dd08e3d9a753e1700a54e8dd306c81acd3c759",
+      "bytes": 894777,
+      "classification": "V03 social-share image: 1200x630 brand-aligned regeneration (canonical Part D bottles) with the GEM logo lockup band restored; owner-approved 30 Oct 2026; replaces the 28 Oct crop"
     },
     {
       "file": "social.svg",
@@ -219,9 +219,9 @@
       "height": 320,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "0af7c148912ab8c1d42532abae41082f763be79b00a5f553e584ab2c09f9534b",
-      "sha256": "048563df3aeed45a9d3879ba21f8bf0d7f1e7ea598a5f1a739618c85cde0fb17",
-      "bytes": 21510
+      "sourceSha256": "817d49c72564047b1bfa0c8fb8083a49dcae825a4c70648f67ed952ad769316e",
+      "sha256": "e088d14b7f74c7ef9202fb2a02f7bddc59dc0362e22d03929a5177d111e39779",
+      "bytes": 22904
     },
     {
       "file": "format-wall-960.webp",
@@ -229,9 +229,9 @@
       "height": 640,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-wall-source.png",
-      "sourceSha256": "0af7c148912ab8c1d42532abae41082f763be79b00a5f553e584ab2c09f9534b",
-      "sha256": "d176b3f7b64120bacf3f8cbcbca257dc938207679bc16768855bd6799e22b557",
-      "bytes": 82116
+      "sourceSha256": "817d49c72564047b1bfa0c8fb8083a49dcae825a4c70648f67ed952ad769316e",
+      "sha256": "aab5720a878b948f654d7394234b3d9b90b13b67293722971a3ca6a230a3a3da",
+      "bytes": 69760
     },
     {
       "file": "format-travel-480.webp",
