@@ -6,6 +6,7 @@
 set -euo pipefail
 
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+out_dir="${OUT_DIR:-$here}"
 font_dir="${FONT_DIR:-$HOME/Library/Fonts}"
 profile="$(mktemp -d)"
 trap 'rm -rf "$profile"' EXIT
@@ -23,5 +24,5 @@ for pattern in "*Jost-Regular*.ttf" "*Inter-Regular*.ttf" "*NotoSansArabic-Regul
 done
 echo "Using $count font files from $font_dir"
 
-soffice -env:UserInstallation="file://$profile" --headless --convert-to pdf --outdir "$here" "$here"/GEM_*_Template_working.docx
-echo "Exported PDFs to $here"
+soffice -env:UserInstallation="file://$profile" --headless --convert-to pdf --outdir "$out_dir" "$out_dir"/GEM_*_Template_working.docx
+echo "Exported PDFs to $out_dir"

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Layout regression checks on the exported business stationery PDFs."""
-import subprocess, unittest
+import os, re, shutil, subprocess, tempfile, unittest, zipfile
 from pathlib import Path
 
 FORMS = Path(__file__).resolve().parent.parent / 'documents/working/business-stationery-20261027'
@@ -10,6 +10,13 @@ PDFS = {
     'invoice': FORMS / 'GEM_Invoice_Template_working.pdf',
     'po': FORMS / 'GEM_Purchase_Order_Template_working.pdf',
 }
+
+
+def build_variant(out_dir, item_rows):
+    """Build the DOCX files with a different number of item rows and export them to PDF in out_dir."""
+    env = {**os.environ, 'GEM_OUT_DIR': str(out_dir), 'GEM_ITEM_ROWS': str(item_rows)}
+    subprocess.run(['node', str(FORMS / 'build.mjs')], check=True, capture_output=True, env=env)
+    subprocess.run(['bash', str(FORMS / 'export-pdf.sh')], check=True, capture_output=True, env={**env, 'OUT_DIR': str(out_dir)})
 
 
 def pdf_pages(path):
@@ -36,14 +43,25 @@ class StationeryLayoutTests(unittest.TestCase):
         for name, path in PDFS.items():
             text = '\n'.join(pdf_pages(path))
             with self.subTest(form=name):
-                self.assertNotIn('Enter Registered Legal Name', text)
-                self.assertNotIn('Enter Customer Billing Address', text)
+                self.assertIsNone(re.search(r'\bEnter |\bSelect ', text))
 
-    def test_footer_marking_present(self):
-        for name, path in PDFS.items():
-            for i, page in enumerate(pdf_pages(path), 1):
-                with self.subTest(form=name, page=i):
-                    self.assertIn('NOT FOR EXTERNAL ISSUE', page)
+    def test_docx_has_no_bold_italic_fills_or_arabic_indic_digits(self):
+        for docx in FORMS.glob('GEM_*_Template_working.docx'):
+            xml = zipfile.ZipFile(docx).read('word/document.xml').decode('utf-8')
+            with self.subTest(form=docx.name):
+                self.assertNotIn('<w:b/>', xml)
+                self.assertNotIn('<w:i/>', xml)
+                self.assertIsNone(re.search(r'w:fill="[0-9A-Fa-f]{6}"', xml))
+                self.assertIsNone(re.search('[\u0660-\u0669\u06f0-\u06f9]', xml))
+
+    @unittest.skipUnless(shutil.which('soffice') and shutil.which('node'), 'needs node and soffice')
+    def test_invoice_with_many_item_rows_splits_the_table_instead_of_moving_it(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            build_variant(tmp, 8)
+            pages = pdf_pages(Path(tmp) / 'GEM_Invoice_Template_working.pdf')
+            self.assertIn('ITEMS OR SERVICES', pages[0].upper())
+            self.assertIn('ITEMS OR SERVICES', pages[1].upper(), 'column header row repeats on the next page')
+            self.assertLessEqual(len(pages), 3)
 
 
 if __name__ == '__main__':

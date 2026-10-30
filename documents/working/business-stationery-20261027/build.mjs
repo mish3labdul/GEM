@@ -9,8 +9,9 @@ import path from "node:path";
 import zlib from "node:zlib";
 import { fileURLToPath } from "node:url";
 
-const OUT = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(OUT, "../../..");
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const OUT = process.env.GEM_OUT_DIR || HERE; // tests build variants into a scratch folder
+const ROOT = path.resolve(HERE, "../../..");
 const LOGO = path.join(ROOT, "archive/baseline-v3.0/GEM_Brand_Assets_v1.0/04_official_kit/logo/horizontal/png/gem-horizontal-ink-2048.png");
 const INK = "12171D";
 const BEIGE = "BCACA7";
@@ -62,7 +63,13 @@ function p(text, opts = {}) {
 
 // Word content control (plain text): the placeholder is real text, selectable and replaced when typed over.
 let sdtId = 1000;
+// Placeholders read as the field's name, not as an instruction: drop "Enter ", trailing clauses and parenthetical notes.
+function shortPlaceholder(ph) {
+  return ph.replace(/^Enter /, "").replace(/\s*\((?!DD)[^)]*\)\s*$/, "").replace(/,\s*(if applicable|if any)$/, "");
+}
+
 function sdt(alias, placeholder, opts = {}) {
+  placeholder = shortPlaceholder(placeholder);
   sdtId += 1;
   return "<w:sdt><w:sdtPr><w:alias w:val=\"" + enc(alias) + "\"/><w:tag w:val=\"field_" + sdtId + "\"/><w:id w:val=\"" + sdtId + "\"/><w:text/></w:sdtPr><w:sdtContent>" + run(placeholder, opts) + "</w:sdtContent></w:sdt>";
 }
@@ -150,8 +157,6 @@ function labelLine(en, ar, width, keep) {
 }
 
 // A value is a content-control placeholder (ph), a fixed confirmed value (fixed), a dropdown, or raw run XML (inner).
-// Placeholders read as the field's name, not as an instruction: drop "Enter ", trailing clauses and parenthetical notes.
-const shortPlaceholder = (ph) => ph.replace(/^Enter /, "").replace(/\s*\((?!DD)[^)]*\)\s*$/, "").replace(/,\s*(if applicable|if any)$/, "");
 function valueContent(f, keep) {
   const alias = f.alias || (f.ph || f.en).replace(/^Enter /, "");
   const ph = f.ph && shortPlaceholder(f.ph);
@@ -249,7 +254,7 @@ function titleBlock(en, ar) {
 
 // Items and totals share one table so Word table formulas (=C3*E3, =SUM(F3:F6), =B7+B9) address them by row and column.
 // Rows: 1 section heading, 2 column headings, 3 to 6 items, 7 onward totals (a merged A to E label cell and one amount cell).
-const ITEM_ROWS = 4;
+const ITEM_ROWS = Number(process.env.GEM_ITEM_ROWS) || 4;
 function itemsTable(sec, totals) {
   const widths = ITEM_W;
   const headers = [
@@ -273,7 +278,8 @@ function itemsTable(sec, totals) {
   });
   for (let i = 0; i < ITEM_ROWS; i++) {
     const r = i + 3;
-    const cell = (inner, j, align) => tc(p("", { after: 0, keep: true, align, inner }), widths[j], { border: "hair", valign: "center" });
+    const keepRow = i === ITEM_ROWS - 1; // only the last item stays with the totals, so extra rows can flow onto page 2
+    const cell = (inner, j, align) => tc(p("", { after: 0, keep: keepRow, align, inner }), widths[j], { border: "hair", valign: "center" });
     rows.push({ cells: [
       cell(run(String(i + 1), valueRun), 0, "center"),
       cell(sdt("Description", "Enter Description", valueRun), 1, "left"),
@@ -488,7 +494,7 @@ const TAX_ID = (en, ar) => ({ en, ar, ph: "Enter Tax Identifier" });
 // Wording pending the accountant (Tax Invoice or Invoice); one line to change.
 const INVOICE_TITLE = ["Tax Invoice", "فاتورة ضريبية"];
 // Reserved for the QR code the invoicing system adds to the issued invoice.
-const qrSlot = () => noteBlock("E-Invoice QR", "رمز الفاتورة الإلكترونية", [staticPara("Reserved for the QR code added by the invoicing system.")], 1300);
+const qrSlot = () => noteBlock("E-Invoice QR", "رمز الفاتورة الإلكترونية", [staticPara("Reserved for the QR code added by the invoicing system.")], 1000);
 const NOTICE = "Verify payment details through a previously known channel before making payment.";
 const NOTICE_AR = "تحقّق من بيانات الدفع عبر وسيلة اتصال معروفة مسبقاً قبل السداد.";
 const staticPara = (text, opts = {}) => entryPara(run(text, { font: "Inter", size: 18, ...opts }));
@@ -538,7 +544,7 @@ const docs = [
         text("Payment Terms", "شروط الدفع", "Enter Requested Payment Terms"),
         dateField("Quote Valid Until", "صلاحية العرض حتى", "Quote Validity Date"),
         text("Lead Time", "مدة التوريد", "Enter Supplier Lead Time"),
-        { en: "Prices Are", ar: "الأسعار", ph: "Select VAT treatment", options: ["VAT-inclusive", "VAT-exclusive"] }
+        { en: "Prices Are", ar: "الأسعار", ph: "VAT treatment", options: ["VAT-inclusive", "VAT-exclusive"] }
       ], true) +
       noteBlock("Response Instructions", "تعليمات الرد", [
         staticPara("Complete the supplier details, each requested item, prices, VAT selection, delivery and commercial fields, and supplier confirmation. Return this RFQ by the response due date."),
@@ -632,10 +638,10 @@ const docs = [
         CURRENCY
       ]) +
       noteBlock("Notes and Terms", "الملاحظات والشروط", [
-        entryPara(sdt("Payment Terms and Notes", "Enter payment terms and notes", valueRun)),
+        entryPara(sdt("Payment Terms and Notes", "Payment terms and notes", valueRun)),
         staticPara(NOTICE),
         arabicPara(NOTICE_AR)
-      ])
+      ], 700)
   },
   {
     filename: "GEM_Purchase_Order_Template_working.docx",
