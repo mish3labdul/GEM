@@ -2,7 +2,7 @@
 
 **Status: WORKING TEMPLATE SET / INTERNAL REVIEW ONLY. Not approved for external issue.**
 
-Four editable A4 Word templates and matching PDF review previews are provided. The Word files are the working masters; replace each bracketed field before use. Item tables can be extended in Word by adding rows.
+Four editable A4 Word templates and matching PDF review previews are provided. The Word files are the working masters; complete each content-control field (placeholder text begins "Enter") before use. Item tables can be extended in Word by adding rows, after which the Subtotal range must be updated (see `FILL-IN-GUIDE.md`).
 
 | Template | Editable Word file | PDF review preview |
 |---|---|---|
@@ -19,28 +19,54 @@ The forms inherit the letterhead set's masthead and settings: the supplied V3.0 
 
 **Forms exceptions, for owner acceptance** (not approved by this suite):
 
-- The vertical frame is more compact than the letterhead set: bottom margin 25 mm instead of 37 mm, and a two-line footer (address, contact placeholders and page number; working and issue status) instead of up to four lines. The letterhead set specifies a bottom margin of 37 mm for its four-line zone.
+- The vertical frame is more compact than the letterhead set: bottom margin 25 mm instead of 37 mm, and a two-line footer (confirmed contact line and page number; issue restriction in English and Arabic) instead of up to four lines. The letterhead set specifies a bottom margin of 37 mm for its four-line zone.
 - The Ink fill on the item-table header row is a small departure from the letterhead set's "no background flood" rule.
 - Labels are English first with Arabic beneath. The letterhead set places Arabic first in bilingual documents; applying either hierarchy to forms is a proposed application that requires owner approval.
-- The footer status line is shortened to fit one line: "WORKING APPLICATION / PENDING VALIDATION · EXTERNAL ISSUE RESTRICTED (D8 PENDING)". The letterhead set's separate "PENDING LOCALIZATION APPROVAL" line is not repeated.
+- The footer status line is shortened to fit one line: "NOT FOR EXTERNAL ISSUE · غير مخصص للإصدار الخارجي · PENDING VALIDATION (D8)". The letterhead set's separate "PENDING LOCALIZATION APPROVAL" line is not repeated.
+- The forms print confirmed contact facts (see below) in the footer, where the letterhead set keeps `[ADDRESS] [T] [E] [W]` placeholders. The owner confirmed these values for stationery on 30 Oct 2026.
 
 English and Arabic labels are included to support bilingual completion. Arabic wording is a working translation and needs review by the owner and a qualified Arabic-language reviewer, including the labels added to the forms in this revision. Preview PDFs were exported with Jost Regular, Inter Regular and Noto Sans Arabic Regular, which are byte-identical to the font files in the letterhead set's `00_source/fonts/`; the PDFs embed the fonts used. The editable Word files refer to font names and do not embed the typefaces, so the editing computer must have those fonts available to preserve the layout.
 
 ## Fields still requiring confirmation
 
-- The legal or registered entity name, postal and billing addresses, telephone number, email and transaction contacts remain editable placeholders. The footer uses the letterhead set's `[ADDRESS]`, `[T]`, `[E]`, `[W]` placeholders; no real contact value is printed.
-- The owner record of 26 October 2026 describes contact@mish3l.com as a tested contact address. Its use on commercial stationery still needs confirmation alongside the open L09 business-contact facts, so it is not printed in these templates.
-- Currency, tax registration identifiers, applicable tax name and rate, bank and beneficiary details, payment terms, delivery terms, and quote validity values are placeholders. No rate, account detail, address, or jurisdiction-specific legal wording has been supplied or inferred. Confirm with GEM's accountant whether an Invoice in this form satisfies the tax-invoice rules of the issuing jurisdiction.
+- **Confirmed by the owner for stationery (30 Oct 2026) and printed:** trading name GEM; city and country (Riyadh, Saudi Arabia); contact@mish3l.com; +966114502929; contact "Mashal Abdulrahman, GM / Owner"; currency SAR. No vault note records these values; the owner's confirmation in the session is the only source.
+- **Still placeholders (content controls):** registered legal name, Commercial Registration No., National Address, tax identifiers, bank and beneficiary details, payment and delivery terms, quote validity, and all customer or supplier fields. No value has been supplied or inferred for them.
+- **VAT:** the rate field defaults to 15 as a working value only. Confirm VAT registration, treatment and rate with GEM's accountant, and whether FATOORA e-invoicing applies, before any invoice is issued.
 - The Arabic and bilingual external-issue gate D8 remains open in the V3.0 document records. Keep this set internal until owner and native-language review is complete; confirm the legal, tax, payment, and commercial fields before issuing any document.
 
-The purchase-order authorization fields are workflow placeholders only. This suite supplies no contract terms, warranty promise, tax calculation, or claim about a registered legal entity.
+The purchase order carries no approval or authorization block: the owner's worksheet answered "No" to approval fields. This suite supplies no contract terms, warranty promise, or claim about a registered legal entity. Totals use Word table formulas that follow the VAT rate field; they are working calculations, not tax advice.
+
+## Completion sequence
+
+Keep these templates internal until the following sequence is complete:
+
+1. **Owner supplies approved business values:** registered issuing entity and addresses; transaction contact details; jurisdiction and currency; tax registration/name/rate; beneficiary and bank details; payment and delivery terms; quotation validity; and purchase-order approval roles. Use only values the owner has confirmed for stationery.
+2. **Accountant reviews the invoice:** confirm the required tax-invoice fields, numbering, tax treatment, and any jurisdiction-specific wording. Do not infer these from the website or from a generic template.
+3. **Owner and qualified Arabic reviewer approve the Arabic:** review each RFQ, quotation, invoice, and purchase-order label in context, including RTL order, numerals, punctuation, and mixed-direction identifiers.
+4. **Owner accepts the form application:** decide the deviations listed above (vertical frame/footer, table-header fill, English-first label order, and shortened status line) and approve the exact final forms.
+5. **Run final artifact checks:** populate only approved values; verify calculations and editable fields; render every final DOCX to PDF; inspect every page; then check the exact final files in Microsoft Word and with a print proof. Record accessibility and any required supplier proof separately.
+6. **Release only after the applicable gates close:** resolve the letterhead dependencies (LH03, LH08, R03-03, D8) for the intended language and output route. Remove internal markings only from a separately approved final copy after all checks pass.
+
+Current check: the tracked `SHA256SUMS.txt` matches all 13 listed files. The suite remains **internal review only**; checksum validity establishes file integrity, not owner, legal, tax, localization, accessibility, native-Word, or print approval.
 
 ## Remove before issue
 
-Each file carries internal-review markings that must be removed or replaced by the owner once the gates above are cleared, and not before: the footer status line, the "TEMPLATE 0x" kicker above each title, the `[REFERENCE NUMBER]` continuation header, and every bracketed placeholder.
+Each file carries internal-review markings that must be removed or replaced by the owner once the gates above are cleared, and not before: the footer issue-restriction line, the "CONTINUED" reference header (set through the `RefNo` document property), and every "Enter ..." placeholder.
+
+## Merge of the 29 Oct v3 drafts
+
+The v3 drafts (`GEM Business Stationery Revised v3 2026-10-29`) were merged into this build rather than kept as a second set. Taken from v3: content-control fields with date hints, the Commercial Registration, Supply Date and RFQ-reference fields, SAR and VAT rows with calculated totals, the invoice Notes and Terms box, scope and assumptions boxes of at least four lines, the VAT-treatment dropdown on the RFQ, the `RefNo` document property, `FILL-IN-GUIDE.md` and `WORD-CHECK.bas`. Kept from this suite: Beige hairline rules, the tagline, 25 mm margins, the build script and the manifest. Changes made while merging:
+
+- The VAT amount formula is `=(B7*B8)/100`. LibreOffice rejected the unparenthesised `=B7*B8/100` as "Expression is faulty"; the parenthesised form exports cleanly.
+- Formula fields are no longer locked. A locked field ignores `Ctrl+A, F9`, so the totals would never recalculate. A `\# "#,##0.00"` switch gives two decimals in Word; LibreOffice previews ignore it and show `0`.
+- The RFQ total is `=B7` (the subtotal cell), matching the other forms; v3 used `=F7`, which could not be mapped to a cell in the two-cell totals row.
+- v3's "Internal Draft" file names are replaced by this suite's `_Template_working` names, and the "TEMPLATE 0x" kickers and intro notes were dropped to keep two pages.
+- Purchase-order Buyer Phone moved to Order Details as Requester Phone so the supplier table stays on page 1 with more than 6 mm above the footer rule.
+
+Calculation results could not be checked here: LibreOffice previews show cached values and do not recalculate on export. Run `WORD-CHECK.bas` in Word (see `FILL-IN-GUIDE.md`).
 
 ## Rebuild and verification
 
 Run `node build.mjs` from this directory to rebuild the four Word files from the source in the repository's archived V3.0 brand asset kit. Run `bash export-pdf.sh` to regenerate the four PDF previews from the Word files with LibreOffice. The script copies the three Regular font files from `FONT_DIR` (default `~/Library/Fonts`) into a throwaway LibreOffice profile, so the PDFs embed those exact fonts. After either step, regenerate `SHA256SUMS.txt`. PDF checksums are not reproducible across exports because LibreOffice stamps creation times.
 
-Checked in LibreOffice only: the four DOCX files open and export, and every PDF page was rendered and inspected for layout, logo size and placement, tagline, placeholder visibility, repeated table headers, page breaks, right-aligned Arabic text and the footer. Each form runs to two pages. `pdffonts` shows only Jost Regular, Inter Regular and Noto Sans Arabic Regular, all embedded. Text extraction found Arabic characters and no replacement glyphs. Arabic paragraphs use logical (`start`/`end`) alignment as the letterhead set does; that set was tested in Word for Mac, this suite was not. Not checked: native Microsoft Word (including separator paragraphs, keep-with-next chains and fonts missing from the editing computer), physical printing, accessibility, legal, tax, or owner acceptance.
+Checked in LibreOffice only: the four DOCX files open and export, and every PDF page was rendered and inspected for layout, logo size and placement, tagline, placeholder visibility, repeated table headers, page breaks, right-aligned Arabic text and the footer. Each form runs to two pages, and the Purchase Order supplier table sits on page 1 with about 7.5 mm above the footer rule, measured at 150 dpi. `pdffonts` shows only Jost Regular, Inter Regular and Noto Sans Arabic Regular, all embedded. Text extraction found Arabic characters and no replacement glyphs. Arabic paragraphs use logical (`start`/`end`) alignment as the letterhead set does; that set was tested in Word for Mac, this suite was not. Not checked: native Microsoft Word (including separator paragraphs, keep-with-next chains and fonts missing from the editing computer), physical printing, accessibility, legal, tax, or owner acceptance.
