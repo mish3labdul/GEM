@@ -29,7 +29,7 @@ const alt = {
 
 
 const arrow = '<span aria-hidden="true">→</span>'
-const beigeOpen = (up, id = '') => `<section${id} class="tone-beige arc-section"><div class="arc-banner"><img src="${up}assets/tx-arches.webp" alt="" width="2752" height="1536" loading="lazy"></div>`
+const beigeOpen = (up, id = '') => `<section${id} class="tone-beige arc-section"><div class="arc-banner"><img src="${up}assets/tx-arches.webp" alt="" width="2172" height="724" loading="lazy"></div>`
 const picture = (src, a, { lazy = true, cls = '' } = {}) =>
   `<img src="${src}" alt="${esc(a)}"${lazy ? ' loading="lazy"' : ''} decoding="async">`
 
