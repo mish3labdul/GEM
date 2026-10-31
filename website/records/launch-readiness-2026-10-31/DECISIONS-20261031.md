@@ -55,3 +55,14 @@ Not yet.
 3. **C1, C3:** the owner to clarify.
 4. **B8, B11, B13:** adviser wording and details still needed.
 5. **Word check without the macro:** `WORD-CHECK.bas` is a VBA text file. In Word: open the editor (Tools, Macro, Visual Basic Editor; Windows: Alt+F11), File, Import File, choose the `.bas`, then run it. Without the macro, open each `.docx`, press Select All then F9 to update fields, and check that subtotal, VAT and total change when you edit quantity, unit price and VAT rate.
+
+## Follow-up answers (31 Oct 2026, later; owner-reported)
+| Item | Answer | Action |
+|---|---|---|
+| B12 cookie approach | **Option (b)**: a banner and notice wording that describe `cf_clearance` without gating it | Implemented: an informational strip at the top of every page (the 26 Oct accepted cookie paragraph, English and Arabic, verbatim, with a link to the privacy page and a Close button remembered for the browser session only), and the same paragraph and a session-storage disclosure in the privacy notice. The banner cannot stop the provider's cookie. Whether option (b) satisfies the consent requirement is for the adviser to confirm. |
+| C1 image model | **Gemini 3.1** | Recorded in `../visual-replacements-20261030/README.md`. This supersedes the earlier "openai imaggen" statement for the 30 Oct images. |
+| C3 labels | **Drop the labels** | Interpreted as the "Concept study; counts, materials, hardware and compatibility remain under review." caption and alt text on the room, wall-mounted and travel format images. Removed from the page and from the content files (English and Arabic). **Still on the site, not removed:** "Concept illustration. Not production artwork." on product images, the "Concept · supplier proof required" tags, "Concept portfolio · commercial availability not established", and page titles and descriptions using "concepts". Internal manifests and governance limitations are unchanged. Tell Claude if these should go too; note that governance still classifies Part D as concept/not production artwork. |
+| PR #35 | Merge | Merged as `0fcbc31`. |
+
+## Privacy notice wiring (this change)
+Filled from owner answers B1 to B10: operator "GEM, Riyadh, Saudi Arabia"; privacy contact `contact@mish3l.com`; hosting provider wording; logging list; purpose; access wording; response times; change notice. The publication date is no longer a stated date ("The publication date will be set at launch."). **Still pending:** the retention period (marked `[RETENTION PERIOD — PENDING]` in English and Arabic) and the final wording of rights under applicable law (a "Still being finalised" section says so). The new Arabic copy was written by Claude and needs the D1 native review. Before L12, search the built pages for `PENDING` and `قيد التحديد`; none may remain.

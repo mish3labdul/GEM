@@ -110,12 +110,32 @@ try {
       assert.equal(await page.locator('html').evaluate(el => el.classList.contains('font-error')), false);
       assert.equal(await page.locator('.font-failure').isVisible(), false);
     });
-    await test(`${lang}: format captions are in the page language`, async context => {
+    await test(`${lang}: format images have page-language alt text and no qualification caption`, async context => {
+      // Owner decision 31 Oct 2026: the "concept study" caption on the three format images is dropped.
       const page = await context.newPage();
       await page.goto(`${base}/${lang}/amenities-packaging/`);
-      const captions = await page.locator('.format-art figcaption').allTextContents();
-      assert.equal(captions.length, 3);
-      for (const text of captions) assert.equal(/[\u0600-\u06FF]/.test(text), lang === 'ar', `Caption in wrong language: ${text}`);
+      assert.equal(await page.locator('.format-art figcaption').count(), 0);
+      const alts = await page.locator('.format-art img').evaluateAll(images => images.map(image => image.alt));
+      assert.equal(alts.length, 3);
+      for (const text of alts) {
+        assert.equal(text.trim().length > 0, true, 'Format image has no alt text');
+        assert.equal(/[\u0600-\u06FF]/.test(text), lang === 'ar', `Alt text in wrong language: ${text}`);
+        assert.equal(/concept study|دراسة تصوّرية/i.test(text), false, `Qualification still in alt text: ${text}`);
+      }
+    });
+    await test(`${lang}: cookie notice describes cf_clearance, links to privacy and stays closed for the session`, async context => {
+      const page = await context.newPage();
+      await page.goto(`${base}/${lang}/`);
+      const notice = page.locator('.cookie-notice');
+      assert.equal(await notice.isVisible(), true);
+      const text = await notice.innerText();
+      assert.equal(text.includes('cf_clearance'), true);
+      assert.equal(/[\u0600-\u06FF]/.test(text), lang === 'ar', 'Notice in wrong language');
+      assert.equal((await notice.locator('a').getAttribute('href')).includes(`/${lang}/privacy/`), true);
+      await notice.locator('.cookie-close').click();
+      assert.equal(await notice.isVisible(), false);
+      await page.goto(`${base}/${lang}/about/`);
+      assert.equal(await page.locator('.cookie-notice').isVisible(), false, 'Notice came back after being closed in the same session');
     });
     await test(`${lang}: image zoom controls and modal keyboard focus`, async context => {
       const page = await context.newPage();
