@@ -14,7 +14,7 @@ const sceneAssets=path.join(root,'assets/scenes');
 for(const dir of [staticAssets,exportsDir,sceneAssets])if(!fs.existsSync(dir))throw Error('Missing asset source directory: '+dir);
 fs.rmSync(dist,{recursive:true,force:true});
 fs.mkdirSync(path.join(dist,'assets'),{recursive:true});
-for(const file of fs.readdirSync(staticAssets))fs.copyFileSync(path.join(staticAssets,file),path.join(dist,'assets',file));
+for(const file of fs.readdirSync(staticAssets))if(file!=='social.svg')fs.copyFileSync(path.join(staticAssets,file),path.join(dist,'assets',file));
 const origin=process.env.SITE_ORIGIN?.replace(/\/$/,'')||'';
 if(origin&&!/^https:\/\/[^/]+$/.test(origin))throw Error('SITE_ORIGIN must be an HTTPS origin without a path');
 // The edge serves static files with a fixed 4-hour browser cache, so CSS/JS URLs carry a content hash to make a deploy take effect at once.
@@ -73,12 +73,12 @@ for(const file of ['style.css','app.js','pilot.css','integration.css'])fs.copyFi
 for(const file of ['_headers','_redirects'])fs.copyFileSync(path.join(root,'hosting/cloudflare',file),path.join(dist,file));
 fs.copyFileSync(path.join(root,'layouts/layout.css'),path.join(dist,'layout.css'));
 for(const file of fs.readdirSync(sceneAssets))fs.copyFileSync(path.join(sceneAssets,file),path.join(dist,'assets',file));
-for(const file of fs.readdirSync(path.join(root,'assets/exports')))fs.copyFileSync(path.join(root,'assets/exports',file),path.join(dist,'assets',file));
+// Owner decision 2026-10-26, executed 2026-10-31: these hero exports are not referenced by any page, so they stay in source and history but out of the deployed bundle.
+const UNUSED_EXPORTS=/^hero-(desktop|mobile)-\d+\.webp$/;
+for(const file of fs.readdirSync(path.join(root,'assets/exports')))if(!UNUSED_EXPORTS.test(file))fs.copyFileSync(path.join(root,'assets/exports',file),path.join(dist,'assets',file));
 fs.writeFileSync(path.join(dist,'index.html'),'<!doctype html><html lang="ar" dir="rtl"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/ar/"><meta name="robots" content="noindex"><title>GEM</title><a href="/ar/">الموقع بالعربية</a><script>location.replace("/ar/")</script></html>');
 fs.writeFileSync(path.join(dist,'404.html'),'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="robots" content="noindex"><title>Page not found | GEM</title><link rel="stylesheet" href="/style.css'+v.style+'"><main class="section"><h1>Page not found.</h1><p><a href="/ar/" lang="ar">العودة للرئيسية</a> · <a href="/en/">Go to the home page</a></p></main></html>');
 for(const file of ['favicon.svg','favicon-32.png','apple-touch-icon.png'])fs.copyFileSync(path.join(staticAssets,file),path.join(dist,file));
-const logo=fs.readFileSync(path.join(dist,'assets/logo-ink.svg')).toString('base64');
-fs.writeFileSync(path.join(dist,'assets/social.svg'),`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#BCACA7"/><image href="data:image/svg+xml;base64,${logo}" x="250" y="204" width="700" height="222"/></svg>`);
 fs.writeFileSync(path.join(dist,'robots.txt'),origin?`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`:'User-agent: *\nDisallow: /\n');
 if(origin){fs.writeFileSync(path.join(dist,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${['ar','en'].flatMap(l=>slugs.map(s=>`<url><loc>${origin+link(l,s)}</loc>${['ar','en'].map(a=>`<xhtml:link rel="alternate" hreflang="${a}" href="${origin+link(a,s)}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${origin+link('ar',s)}"/></url>`)).join('')}</urlset>`);}else{fs.rmSync(path.join(dist,'sitemap.xml'),{force:true});}
 console.log(`Built 10 localized pages. ${origin?'Production origin: '+origin:'Preview: noindex; canonical/hreflang URLs await confirmed domain.'}`);
