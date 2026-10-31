@@ -2,7 +2,7 @@
   "date": "2026-10-28",
   "status": "Owner-approved local visual integration; concept imagery; public-use rights remain open",
   "source": "review/creative/branded-scenes-20261023",
-  "preparation": "Branded GEM scene masters replicated from approved Flow compositions with bilingual GEM labels and horizon arc; owner-approved generated replacements recorded in website/records/visual-replacements-20261028/README.md; family and family-rtl replaced 30 Oct 2026 by owner-approved brand-aligned regenerations recorded in website/records/visual-replacements-20261030/README.md",
+  "preparation": "Branded GEM scene masters replicated from approved Flow compositions with bilingual GEM labels and horizon arc; owner-approved generated replacements recorded in website/records/visual-replacements-20261028/README.md; family and family-rtl replaced 30 Oct 2026 by owner-approved brand-aligned regenerations recorded in website/records/visual-replacements-20261030/README.md; room and travel format sources and the lobby and turndown scenes replaced 31 Oct 2026 by owner-approved regenerations (Part D slide 4 rule) recorded in website/records/visual-replacements-20261031/README.md",
   "approvedArc": {
     "source": "T8-concentric-arches-2K.jpg",
     "sha256": "70cf89a45841c808bf125c472c9a11103442e787021da4d4a0484b3b40eee464"
@@ -45,8 +45,8 @@
     },
     {
       "file": "assets/scenes/lobby.webp",
-      "bytes": 78568,
-      "sha256": "3dbbfa3f152ad3a8ae19a733bc935d6fca752f1c99fafc58f361ea8b2e4ee2bf"
+      "bytes": 169218,
+      "sha256": "6bbfcf5760b01393819f163a8426ed09b79f9c7a7bf612e99c9104e30107fe1d"
     },
     {
       "file": "assets/scenes/loop-ltr.mp4",
@@ -65,8 +65,8 @@
     },
     {
       "file": "assets/scenes/turndown.webp",
-      "bytes": 41674,
-      "sha256": "2cbddac5eba3ed02d2bfed7a09e9c98886a37b6c5ebb62b932297002c4bdbadb"
+      "bytes": 56082,
+      "sha256": "1d8d33b5a079a90ba6ca48fe2b41d1f3cb4f28cdd57521f9b70a03801d7bb4c1"
     },
     {
       "file": "assets/scenes/tx-arches.webp",
