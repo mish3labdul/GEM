@@ -1,6 +1,6 @@
 # Regenerated room, travel, lobby and turndown images — 31 October 2026
 
-**Status: CANDIDATES, awaiting owner approval. No shipped asset has been replaced.** Visual approval only; rights (L08) stay open for these outputs.
+**Status: OWNER-APPROVED 31 Oct 2026 and integrated (see APPROVAL-20261031.md).** Visual approval only; rights (L08) stay open for these outputs.
 
 Owner decision (31 Oct 2026, in session): regenerate all four images that differ from the Part D slide 4 rule ("Regenerate all to the slide 4 rule - yes"). The rule: Shampoo, Conditioner and Body Wash dark smoked-amber, Body Lotion and Hand Wash cream, all five with matte black pumps (released Part D V3.0, slide 4).
 
