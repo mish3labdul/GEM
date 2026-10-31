@@ -139,3 +139,6 @@
   });
  }
 })();
+
+// Cookie notice strip: informational only, it does not gate the provider's security cookie. Closing is remembered for the browser session only.
+(()=>{const n=document.querySelector('.cookie-notice');if(!n)return;try{if(sessionStorage.getItem('gem-cookie-notice')==='1'){n.hidden=true;return;}}catch(e){}const b=n.querySelector('.cookie-close');if(b)b.addEventListener('click',()=>{n.hidden=true;try{sessionStorage.setItem('gem-cookie-notice','1');}catch(e){}});})();
