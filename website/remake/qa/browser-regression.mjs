@@ -137,6 +137,14 @@ try {
       await page.goto(`${base}/${lang}/about/`);
       assert.equal(await page.locator('.cookie-notice').isVisible(), false, 'Notice came back after being closed in the same session');
     });
+    await test(`${lang}: cookie notice close button is visible without scrolling at 400% zoom size`, async context => {
+      // 400% zoom on a 1280 px window is a 320 CSS px wide viewport; the notice must not hide its Close button below its own scroll.
+      const page = await context.newPage();
+      await page.setViewportSize({width: 320, height: 256});
+      await page.goto(`${base}/${lang}/`);
+      const box = await page.locator('.cookie-close').boundingBox();
+      assert.equal(box !== null && box.y >= 0 && box.y + box.height <= 256 + 1 && box.x >= 0 && box.x + box.width <= 321, true, `Close button outside the viewport: ${JSON.stringify(box)}`);
+    });
     await test(`${lang}: no concept wording is visible on any page`, async context => {
       // Owner decision 31 Oct 2026: all "concept" labels and wording are removed, English and Arabic.
       const page = await context.newPage();
