@@ -199,9 +199,9 @@
       "height": 320,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-room-source.png",
-      "sourceSha256": "cefdd5405638d5fb7903221858b43445061ebcf9fc1fa89b243b16e4e9ee85c1",
-      "sha256": "93c175f43924705879c757d03debae4a6f445faf046eabe3f57828b542fbc7a0",
-      "bytes": 27212
+      "sourceSha256": "43c6bb04661a25bb83e5679bc88f1275af3a913f61d354b86a0f58bdd5d748ec",
+      "sha256": "6e2b757c1f48f9c7495d3c0aee70f3050a60c35a510d5d1dd8cf9832596a90ee",
+      "bytes": 23204
     },
     {
       "file": "format-room-960.webp",
@@ -209,9 +209,9 @@
       "height": 640,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-room-source.png",
-      "sourceSha256": "cefdd5405638d5fb7903221858b43445061ebcf9fc1fa89b243b16e4e9ee85c1",
-      "sha256": "22373df1ce2b37928dcada5a4a724b304a144704fd7663d0b28c7d044ab06a98",
-      "bytes": 99496
+      "sourceSha256": "43c6bb04661a25bb83e5679bc88f1275af3a913f61d354b86a0f58bdd5d748ec",
+      "sha256": "b0f8bee6ac1799e1f7242fd7abe108c510b725a2e5696ea17d9be04306c4d3ef",
+      "bytes": 74964
     },
     {
       "file": "format-wall-480.webp",
@@ -239,9 +239,9 @@
       "height": 320,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-travel-source.png",
-      "sourceSha256": "bd5b9f64d76cc17ca15622019ef9a4bf4b6b91d9849cb85700fbb4d6fb630ea9",
-      "sha256": "f825af7e8d5d8989b5b903666dcc6e9fa7775dd4d5236382f9a0dfe80d59718c",
-      "bytes": 16544
+      "sourceSha256": "f292928cb6bcd9a6dc3544b6b5e398191924fb43fe2d0744c50770788307c43e",
+      "sha256": "a708122a04ca8938fd306c1c3329d4913b4233562bba602bb1c1ff50a90b8f37",
+      "bytes": 18626
     },
     {
       "file": "format-travel-960.webp",
@@ -249,9 +249,9 @@
       "height": 640,
       "classification": "Part D concept study render; counts, hardware, materials and compatibility under review",
       "source": "source/format-travel-source.png",
-      "sourceSha256": "bd5b9f64d76cc17ca15622019ef9a4bf4b6b91d9849cb85700fbb4d6fb630ea9",
-      "sha256": "b2a7ae1dbc0c70d89a6cd427d6e1ad2391f5add6024c04e355abaaf1af8f116f",
-      "bytes": 53218
+      "sourceSha256": "f292928cb6bcd9a6dc3544b6b5e398191924fb43fe2d0744c50770788307c43e",
+      "sha256": "0248d52ab301d4b591cd047fa86e3569928fc28029e22190c08327afc772f8f8",
+      "bytes": 56808
     }
   ]
 }
