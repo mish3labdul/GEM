@@ -39,14 +39,14 @@ const cta = ({ c, lang, up }) => `<section class="cta on-texture veil">
  <div class="actions"><a class="button" href="${up}${lang}/contact/">${esc(c.discuss)} ${arrow}</a></div></div>
 </section>`
 
-const concept = (c) => `<figcaption>${esc(c.concept)}</figcaption>`
+const concept = (c) => c.concept ? `<figcaption>${esc(c.concept)}</figcaption>` : ''
 
 // Home ----------------------------------------------------------------------
 function home({ c, lang, up, a }) {
   const rtl = lang === 'ar'
   const heroImg = rtl ? 'hero-rtl' : 'hero-ltr'
   const cardImgs = ['carton', 'packaging', 'lobby']
-  const cardHrefs = ['amenities-packaging/#pilot-products', 'amenities-packaging/#concept-formats', 'amenities-packaging/#programmes']
+  const cardHrefs = ['amenities-packaging/#pilot-products', 'amenities-packaging/#formats', 'amenities-packaging/#programmes']
   const cardAlts = [a.carton, a.packaging, a.lobby]
   return `<section class="hero portrait" aria-labelledby="h1">
  <picture>

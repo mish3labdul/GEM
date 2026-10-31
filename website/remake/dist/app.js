@@ -18,7 +18,7 @@
    const file=['shampoo','conditioner','body-wash','body-lotion','hand-wash'][i]+'-source.webp';
    if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){const cap=document.querySelector('.product-caption');image.classList.add('is-switching');if(cap)cap.classList.add('is-switching');setTimeout(()=>{image.classList.remove('is-switching');if(cap)cap.classList.remove('is-switching');},120);}
    image.src='/assets/'+file;
-   image.alt=data.products[i]+'. '+data.concept;
+   image.alt=data.concept?data.products[i]+'. '+data.concept:data.products[i];
    document.querySelector('.product-visual')?.setAttribute('aria-label',(lang==='ar'?'تكبير صورة ':'Enlarge image of ')+data.products[i]);
    document.getElementById('pilot-selected-name').textContent=data.products[i];
   }
