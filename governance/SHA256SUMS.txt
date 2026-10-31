@@ -1612,6 +1612,7 @@ f524a26563a5a379696dad86b648354064fa80b4609de5f1c4707f154848e571  website/record
 e5bfbdd9d9c7da671aac60b4e33fad72e3034b92b7473084c94894e83cb4ae0e  website/records/launch-readiness-2026-10-23/README.md
 5be64f2c907cbdfdcc8b1cb7ac0c2b8be9a2a8bae410090ac9d16d87a6a7de3a  website/records/launch-readiness-2026-10-30/DECISIONS-20261030.md
 0c1bae115afda5585fe6de72eb6da56e5191c5330c2d902ed2d8b784e05959ab  website/records/launch-readiness-2026-10-31/DECISIONS-20261031.md
+a49a31dc14a6e3b1abd51b199cec9c08b5231e7e3b6f0265e736d462298cb541  website/records/launch-readiness-2026-10-31/PRIVACY-RIGHTS-RETENTION-DRAFT.md
 c162a901b22a651ef94dd3f2b2d9f49e6f89025318d72240176ced41cd8680ff  website/records/m8-brand-presentation-20261023/README.md
 2ee24573d77deb3221094057eae14314dde7e23968b10146eff2f61d867a76a1  website/records/m8-brand-presentation-20261023/evidence/after-amenities-desktop-ar-en.jpg
 95ce2dab1d78a41d5cfd145ed1c431763ba1627e2f8868a9ccd064ad92f51546  website/records/m8-brand-presentation-20261023/evidence/after-favicon-light-dark.jpg
