@@ -66,3 +66,12 @@ Not yet.
 
 ## Privacy notice wiring (this change)
 Filled from owner answers B1 to B10: operator "GEM, Riyadh, Saudi Arabia"; privacy contact `contact@mish3l.com`; hosting provider wording; logging list; purpose; access wording; response times; change notice. The publication date is no longer a stated date ("The publication date will be set at launch."). **Still pending:** the retention period (marked `[RETENTION PERIOD — PENDING]` in English and Arabic) and the final wording of rights under applicable law (a "Still being finalised" section says so). The new Arabic copy was written by Claude and needs the D1 native review. Before L12, search the built pages for `PENDING` and `قيد التحديد`; none may remain.
+
+## Concept wording removed (31 Oct 2026, owner: "remove all, even on Arabic")
+All visible "concept" labels and wording are removed from the site, English and Arabic: the status line "Concept portfolio · commercial availability not established", the figure caption and alt text "Concept illustration. Not production artwork.", "Concept · supplier proof required" and "Pilot concept" tags, page titles and meta descriptions that said "concepts", the "View concept formats" link, the product and format descriptions ("A shampoo concept…", "A concept for…"), the portfolio introduction ("This is a concept portfolio…"), the FAQ line ("The illustrations are concepts…") and their Arabic equivalents (تصوّر, تصوّري, محفظة تصوّرية). The `#concept-formats` anchor is now `#formats`. A regression test fails if concept wording reappears on any page.
+
+**Kept, because they are limits rather than concept labels:** "Commercial availability not established", "Pilot product · product data pending", "Supplier proof required", "requires confirmation", "This is not a catalogue of goods available to order", "do not establish approved contents, capacities or supply arrangements". Remove or soften these too only on the owner's instruction.
+
+**Not changed:** internal manifests (`assets/manifest.json` classifications), the governance limitations ("Part D remains CONCEPT / NOT PRODUCTION ARTWORK") and the launch gate records. These are internal and stay truthful; the public site no longer says "concept", so the two now differ.
+
+**Observation, not acted on:** the room and travel format images (and some scene images) still show bottle colours that differ from the canonical Part D art (for example, the room image shows a cream Conditioner and a dark Hand Wash; the travel image shows all bottles cream). They were not part of the four regenerated images.

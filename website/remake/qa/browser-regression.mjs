@@ -137,6 +137,20 @@ try {
       await page.goto(`${base}/${lang}/about/`);
       assert.equal(await page.locator('.cookie-notice').isVisible(), false, 'Notice came back after being closed in the same session');
     });
+    await test(`${lang}: no concept wording is visible on any page`, async context => {
+      // Owner decision 31 Oct 2026: all "concept" labels and wording are removed, English and Arabic.
+      const page = await context.newPage();
+      for (const slug of ['', 'about/', 'amenities-packaging/', 'contact/', 'privacy/']) {
+        await page.goto(`${base}/${lang}/${slug}`);
+        const found = await page.evaluate(() => {
+          const parts = [document.title, document.body.innerText];
+          for (const el of document.querySelectorAll('meta[name=description],meta[property="og:title"],meta[property="og:description"],meta[name="twitter:title"],meta[name="twitter:description"]')) parts.push(el.content);
+          for (const el of document.querySelectorAll('[alt],[aria-label],[title]')) parts.push(el.getAttribute('alt') || '', el.getAttribute('aria-label') || '', el.getAttribute('title') || '');
+          return parts.join('\n');
+        });
+        assert.equal(/concept|تصوّر|تصور/i.test(found), false, `Concept wording found on ${lang}/${slug}: ${(found.match(/.{0,40}(concept|تصوّر|تصور).{0,40}/i) || [''])[0]}`);
+      }
+    });
     await test(`${lang}: image zoom controls and modal keyboard focus`, async context => {
       const page = await context.newPage();
       await page.goto(`${base}/${lang}/amenities-packaging/`);
@@ -228,12 +242,12 @@ try {
     await test(`${lang}: pilot foundation corrections`, async context => {
       const page = await context.newPage();
       await page.setViewportSize({width: 375, height: 1000});
-      await page.goto(`${base}/${lang}/amenities-packaging/#concept-formats`);
+      await page.goto(`${base}/${lang}/amenities-packaging/#formats`);
       assert.ok(await page.locator('.logo img').evaluate(el => el.getBoundingClientRect().width) >= 120,
         'Mobile lockup is below the documented minimum');
       const target = lang === 'ar' ? 'en' : 'ar';
       assert.equal(await page.locator('.site-footer .language').evaluate(el => new URL(el.href).pathname + new URL(el.href).hash),
-        `/${target}/amenities-packaging/#concept-formats`);
+        `/${target}/amenities-packaging/#formats`);
       for (const selector of ['.logo', '.site-footer .footer-logo']) {
         assert.ok(await page.locator(selector).evaluate(el => el.getBoundingClientRect().height) >= 44,
           `${selector} target is too short`);
