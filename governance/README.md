@@ -1,5 +1,7 @@
 # Governance and migration controls
 
+- [Packaging owner English concept approval, 7 November 2026](GEM_PACKAGING_OWNER_APPROVAL_2026-11-07.md): revised Ink selected for the five-product English front-label concept family; manufacturing and release gates remain open.
+
 - [Part E revision 04 public-distribution authorization](parte-public-distribution-authorization-2026-10-18.md): narrow successor to the internal-only distribution restriction; working-edition and production gates retained.
 
 - [Repository source-of-truth review, 18 October 2026](source-of-truth-review-2026-10-18.md): canonical locations, live branch/PR snapshot and cleanup proposals; not merge authorization.

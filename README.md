@@ -8,7 +8,7 @@ This collection distinguishes the owner-authorized V3.0 release, working brand a
 | [Brand library](brand/README.md) | Working artwork and catalogue; production-master acceptance pending |
 | [Website development](website/README.md) | Proposed static site, imagery, records and Chromium QA |
 | [Accepted bilingual remake](website/remake/README.md) | M4-R1 noindex preview at gem.mish3l.com, editable source, Pages configuration and remake CI |
-| [Governance](governance/README.md) | Frozen sources, naming, migration, checksums and retained limitations |
+| [Governance](governance/README.md) | Frozen sources, naming, migration, checksums, retained limitations and the later packaging English-concept owner decision |
 | [Historical archive](archive/README.md) | Original package trees; historical files are not current-use recommendations |
 | [Tools](tools/README.md) | Collection validation and website packaging |
 
