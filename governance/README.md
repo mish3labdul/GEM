@@ -21,3 +21,4 @@
 CSV language values reflect path/name classification, not a content-language audit; `undetermined` means not established. `ar-en` and `ar` are organizational hints, not native-language acceptance. Generic historical-use restrictions defer to source governance; they are not an unrestricted-use grant.
 
 An empty destination is intentional: excluded machine caches or out-of-scope local references remain untouched at their original locations. They are not required deployment dependencies. Branch inventories retain source-commit provenance even where multiple sources resolve to the same preserved file.
+- [Packaging Arabic product terminology approval, 7 November 2026](GEM_PACKAGING_ARABIC_TERMINOLOGY_APPROVAL_2026-11-07.md): `GEM-PKG-OWNER-20261107-002` locks the five Arabic product names; typography, regulatory and manufacturing gates remain open.
