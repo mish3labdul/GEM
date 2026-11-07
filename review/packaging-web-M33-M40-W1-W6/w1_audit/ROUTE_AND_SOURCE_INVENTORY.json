@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "project": "GEM™ Digital Transformation Track B",
+    "milestone": "W1 / M37 Live Website & Repository Audit",
+    "audit_date": "2026-11-07",
+    "repository_root": "/Users/mediacenter1/Documents/GEM-Web-remake/.repo-sync/gem-web-transformation-w1-w6/website/remake",
+    "live_origin": "https://gem.mish3l.com",
+    "local_preview_origin": "http://127.0.0.1:4173"
+  },
+  "routes": [
+    {
+      "path": "/ar/",
+      "lang": "ar",
+      "slug": "",
+      "title": "GEM | مستلزمات الضيافة والتغليف",
+      "description": "استكشف مستلزمات الضيوف والتغليف من GEM، الموجّهة لمُلّاك منشآت الضيافة وفرق التشغيل والمشتريات في السعودية والخليج. لنتحدث عن مشروعك.",
+      "h1": "تفاصيل مدروسة.\nترحيب متناسق.",
+      "total_dom_elements": 142,
+      "images_count": 10,
+      "links_count": 18,
+      "buttons_count": 5,
+      "purpose": "Arabic Canonical Brand Homepage (Architectural narrative, hero presentation, brand pillars, entry to amenities)"
+    },
+    {
+      "path": "/ar/amenities-packaging/",
+      "lang": "ar",
+      "slug": "amenities-packaging",
+      "title": "مستلزمات الضيوف والتغليف | GEM",
+      "description": "استكشف منتجات GEM الأولية الخمسة لمستلزمات الضيوف، وصيغ الغرف والجدار والسفر، وبرامج المنشآت قيد التحديد. النطاق والتوافر غير مؤكدين.",
+      "h1": "عائلة من العناصر.\nلغة واحدة.",
+      "total_dom_elements": 185,
+      "images_count": 9,
+      "links_count": 12,
+      "buttons_count": 12,
+      "sections": [
+        "#pilot-products",
+        "#formats",
+        "#programmes"
+      ],
+      "purpose": "Arabic Hospitality Collection Explorer (5 products: Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash; 3 Formats: In-room, Wall-mount, Travel; Bespoke Programmes & FAQs)"
+    },
+    {
+      "path": "/ar/about/",
+      "lang": "ar",
+      "slug": "about",
+      "title": "عن GEM | مورّد وشريك في قطاع الضيافة",
+      "description": "تعرّف على GEM وتوجّهها نحو هوية متناسقة لمستلزمات الضيوف والتغليف، للمُلّاك والمطوّرين وفرق التشغيل والمشتريات في السعودية والخليج.",
+      "h1": "هوية واحدة.\nورؤية واضحة.",
+      "total_dom_elements": 129,
+      "images_count": 6,
+      "links_count": 12,
+      "buttons_count": 4,
+      "purpose": "Arabic Brand Philosophy & Heritage (Architectural principles, audience profiles: Owners, Operators, Procurement)"
+    },
+    {
+      "path": "/ar/contact/",
+      "lang": "ar",
+      "slug": "contact",
+      "title": "لنتحدث عن مشروعك في الضيافة | GEM",
+      "description": "أعدّ موجزًا لمشروعك لاستكشاف مستلزمات الضيافة والتغليف مع GEM. صف منشأتك وأولوياتك. هذه المعاينة لا ترسل الاستفسارات.",
+      "h1": "لنبدأ\nمن منشأتك.",
+      "total_dom_elements": 133,
+      "images_count": 3,
+      "links_count": 12,
+      "buttons_count": 8,
+      "purpose": "Arabic B2B Specification & Procurement Brief Generator (Zero-transmission local text preparation, clipboard & file export)"
+    },
+    {
+      "path": "/ar/privacy/",
+      "lang": "ar",
+      "slug": "privacy",
+      "title": "الخصوصية | معاينة موقع GEM",
+      "description": "تعرّف على كيفية تعامل معاينة GEM مع موجز مشروعك والملفات المنزّلة. لا تُرسل الاستفسارات ولا توجد أدوات تحليل للزيارات.",
+      "h1": "معلوماتك.\nبوضوح.",
+      "total_dom_elements": 100,
+      "images_count": 2,
+      "links_count": 13,
+      "buttons_count": 2,
+      "purpose": "Arabic Data Governance & Privacy Statement (Zero tracking disclosure, Cloudflare clearance cookie explanation)"
+    },
+    {
+      "path": "/en/",
+      "lang": "en",
+      "slug": "",
+      "title": "GEM | Guest Amenities & Hospitality Packaging",
+      "description": "Explore GEM’s guest amenities and hospitality packaging for owners, operators and procurement teams in Saudi Arabia and the GCC. Discuss your project.",
+      "h1": "Considered details.\nA coherent welcome.",
+      "total_dom_elements": 142,
+      "images_count": 10,
+      "links_count": 18,
+      "buttons_count": 5,
+      "purpose": "English Brand Homepage (Symmetric LTR presentation of architectural hospitality narrative)"
+    },
+    {
+      "path": "/en/amenities-packaging/",
+      "lang": "en",
+      "slug": "amenities-packaging",
+      "title": "Guest Amenities & Packaging | GEM",
+      "description": "Discover GEM’s five guest amenity pilot products, room, wall-mounted and travel formats, and property programme directions. Scope and availability remain pending.",
+      "h1": "A family of objects.\nA shared language.",
+      "total_dom_elements": 185,
+      "images_count": 9,
+      "links_count": 12,
+      "buttons_count": 12,
+      "sections": [
+        "#pilot-products",
+        "#formats",
+        "#programmes"
+      ],
+      "purpose": "English Hospitality Collection Explorer (5 products, 3 formats, bespoke programmes, specs & FAQs)"
+    },
+    {
+      "path": "/en/about/",
+      "lang": "en",
+      "slug": "about",
+      "title": "About GEM | A Hospitality Supplier & Partner",
+      "description": "Meet GEM, a hospitality supplier and partner focused on a consistent identity across guest amenities and packaging for Saudi and GCC hospitality audiences.",
+      "h1": "One identity.\nA clear point of view.",
+      "total_dom_elements": 129,
+      "images_count": 6,
+      "links_count": 12,
+      "buttons_count": 4,
+      "purpose": "English Brand Philosophy & Heritage (Architectural principles, audience profiles)"
+    },
+    {
+      "path": "/en/contact/",
+      "lang": "en",
+      "slug": "contact",
+      "title": "Discuss Your Hospitality Project | GEM",
+      "description": "Prepare a project brief for GEM’s amenities and packaging direction. Describe your property, priorities and areas of interest. This preview does not send enquiries.",
+      "h1": "Start with\nyour property.",
+      "total_dom_elements": 133,
+      "images_count": 3,
+      "links_count": 12,
+      "buttons_count": 8,
+      "purpose": "English B2B Specification & Procurement Brief Generator"
+    },
+    {
+      "path": "/en/privacy/",
+      "lang": "en",
+      "slug": "privacy",
+      "title": "Privacy | GEM Website Preview",
+      "description": "Understand how the GEM preview handles your project brief, browser interactions and downloaded files. No enquiry is sent and no analytics are installed.",
+      "h1": "Your information.\nHandled with clarity.",
+      "total_dom_elements": 100,
+      "images_count": 2,
+      "links_count": 13,
+      "buttons_count": 2,
+      "purpose": "English Data Governance & Privacy Statement"
+    }
+  ],
+  "source_files": {
+    "build.mjs": {
+      "bytes": 19481,
+      "sha256": "ae7c9493e38deb758cc4a0d07b459fc99dbfb498e14d8899c8cf1e8b1d9f6123",
+      "lines": 85
+    },
+    "content.mjs": {
+      "bytes": 32360,
+      "sha256": "1045e7af9058fc8de57165a67d6cd03989d6119c52cb0605d0665b72b52ed4a8",
+      "lines": 21
+    },
+    "refined-layouts.mjs": {
+      "bytes": 9617,
+      "sha256": "7235b74df62bce7caf4de099628d0336754d5af9d9b4854855816e20c8d35c62",
+      "lines": 170
+    },
+    "app.js": {
+      "bytes": 10708,
+      "sha256": "bc7d7f356b9b6ade77f83ad2ae6e8243287146629f15989ae10e14e83324a90f",
+      "lines": 145
+    },
+    "style.css": {
+      "bytes": 13914,
+      "sha256": "41d4e1cbed628c0199b60e0b7620caec9e66ff60104f9d0f308062ab6f9e6ceb",
+      "lines": 12
+    },
+    "integration.css": {
+      "bytes": 12641,
+      "sha256": "7b3f17aca85462dae7b8de841f163c08b2e8369ae0ff5d03ab913619bb0a175a",
+      "lines": 169
+    },
+    "pilot.css": {
+      "bytes": 3154,
+      "sha256": "810ac6fd345ac7667dba7caf6a5b785736bbe11f5390e09a6477429d692aa5d3",
+      "lines": 52
+    },
+    "layouts/layout.css": {
+      "bytes": 10700,
+      "sha256": "5aac60fba371fc6a51e8559c2b8c0ee09403562287f076ce56603568aae2928b",
+      "lines": 146
+    },
+    "check.py": {
+      "bytes": 5225,
+      "sha256": "27c95fd971f0c2cf02c48fb8335cf187a859dca79d93c30630f3e456003175f1",
+      "lines": 109
+    },
+    "serve.py": {
+      "bytes": 1280,
+      "sha256": "2f05fa6d5b7b18751068bf73fc81578ded1a32af3f54945ec12812b659e7de7f",
+      "lines": 39
+    },
+    "export-assets.mjs": {
+      "bytes": 4347,
+      "sha256": "e970ec55f69dc69b2ea3afee49869a008b281c9db6a4006a517c53094b314152",
+      "lines": 70
+    },
+    "make-brand-icons.mjs": {
+      "bytes": 2305,
+      "sha256": "48156283dc276a0b10c4a004224873b5054c2cd7e9bf7cded005d2eecfa7600c",
+      "lines": 28
+    },
+    "pilot-art.mjs": {
+      "bytes": 1426,
+      "sha256": "2afcf1e98b549e022e4df8fa68ab870f990c596494f108fafb081f4c987db43a",
+      "lines": 14
+    },
+    "prepare_assets.py": {
+      "bytes": 1246,
+      "sha256": "db4ad57ea0ece7e31b3b5362bdf54382299ec6d997388ef239557fe1c61be3d7",
+      "lines": 26
+    },
+    "hosting/cloudflare/_headers": {
+      "bytes": 230,
+      "sha256": "322626a2b8b0823edd0cde9f3cf6f92591376e368d60b84c9dfc18691e222279",
+      "lines": 7
+    },
+    "hosting/cloudflare/_redirects": {
+      "bytes": 76,
+      "sha256": "4e65435fa0fcde6f5a0b96d3a7b0ab970ccd0386b335a9f660c5a26a3e96658a",
+      "lines": 4
+    },
+    "hosting/cloudflare/deploy.sh": {
+      "bytes": 3216,
+      "sha256": "424f14ef9b8a7fe87f985e49eb42c0464e441b2d7dd26114ecef4f75e06ae599",
+      "lines": 75
+    },
+    "hosting/cloudflare/README.md": {
+      "bytes": 3752,
+      "sha256": "dc13fc5369611759b689b4c31396392c2c09d4c1afdc84321e2d1aac4993149c",
+      "lines": 40
+    }
+  },
+  "assets": {
+    "404.html": {
+      "bytes": 398,
+      "kb": "0.39"
+    },
+    "_headers": {
+      "bytes": 230,
+      "kb": "0.22"
+    },
+    "_redirects": {
+      "bytes": 76,
+      "kb": "0.07"
+    },
+    "app.js": {
+      "bytes": 10708,
+      "kb": "10.46"
+    },
+    "apple-touch-icon.png": {
+      "bytes": 4681,
+      "kb": "4.57"
+    },
+    "ar/about/index.html": {
+      "bytes": 11428,
+      "kb": "11.16"
+    },
+    "ar/amenities-packaging/index.html": {
+      "bytes": 15130,
+      "kb": "14.78"
+    },
+    "ar/contact/index.html": {
+      "bytes": 11584,
+      "kb": "11.31"
+    },
+    "ar/index.html": {
+      "bytes": 12650,
+      "kb": "12.35"
+    },
+    "ar/privacy/index.html": {
+      "bytes": 12957,
+      "kb": "12.65"
+    },
+    "assets/OFL-Inter.txt": {
+      "bytes": 4477,
+      "kb": "4.37"
+    },
+    "assets/OFL-Jost.txt": {
+      "bytes": 4497,
+      "kb": "4.39"
+    },
+    "assets/OFL-NotoSansArabic.txt": {
+      "bytes": 4382,
+      "kb": "4.28"
+    },
+    "assets/apple-touch-icon.png": {
+      "bytes": 4681,
+      "kb": "4.57"
+    },
+    "assets/arabic.woff2": {
+      "bytes": 66280,
+      "kb": "64.73"
+    },
+    "assets/body-lotion-source.webp": {
+      "bytes": 536354,
+      "kb": "523.78"
+    },
+    "assets/body-wash-source.webp": {
+      "bytes": 651412,
+      "kb": "636.14"
+    },
+    "assets/carton.webp": {
+      "bytes": 30154,
+      "kb": "29.45"
+    },
+    "assets/conditioner-source.webp": {
+      "bytes": 705972,
+      "kb": "689.43"
+    },
+    "assets/family-rtl.webp": {
+      "bytes": 117534,
+      "kb": "114.78"
+    },
+    "assets/family.webp": {
+      "bytes": 159692,
+      "kb": "155.95"
+    },
+    "assets/favicon-32.png": {
+      "bytes": 1104,
+      "kb": "1.08"
+    },
+    "assets/favicon.svg": {
+      "bytes": 2597,
+      "kb": "2.54"
+    },
+    "assets/flatlay.webp": {
+      "bytes": 132220,
+      "kb": "129.12"
+    },
+    "assets/format-room-480.webp": {
+      "bytes": 23204,
+      "kb": "22.66"
+    },
+    "assets/format-room-960.webp": {
+      "bytes": 74964,
+      "kb": "73.21"
+    },
+    "assets/format-travel-480.webp": {
+      "bytes": 18626,
+      "kb": "18.19"
+    },
+    "assets/format-travel-960.webp": {
+      "bytes": 56808,
+      "kb": "55.48"
+    },
+    "assets/format-wall-480.webp": {
+      "bytes": 22904,
+      "kb": "22.37"
+    },
+    "assets/format-wall-960.webp": {
+      "bytes": 69760,
+      "kb": "68.13"
+    },
+    "assets/hand-wash-source.webp": {
+      "bytes": 487858,
+      "kb": "476.42"
+    },
+    "assets/hero-ltr.webp": {
+      "bytes": 41628,
+      "kb": "40.65"
+    },
+    "assets/hero-mobile.webp": {
+      "bytes": 52036,
+      "kb": "50.82"
+    },
+    "assets/hero-rtl.webp": {
+      "bytes": 59728,
+      "kb": "58.33"
+    },
+    "assets/inter.woff2": {
+      "bytes": 23664,
+      "kb": "23.11"
+    },
+    "assets/jost.woff2": {
+      "bytes": 9404,
+      "kb": "9.18"
+    },
+    "assets/lobby.webp": {
+      "bytes": 169218,
+      "kb": "165.25"
+    },
+    "assets/logo-ink.svg": {
+      "bytes": 5956,
+      "kb": "5.82"
+    },
+    "assets/logo-white.svg": {
+      "bytes": 5956,
+      "kb": "5.82"
+    },
+    "assets/loop-ltr.mp4": {
+      "bytes": 371478,
+      "kb": "362.77"
+    },
+    "assets/loop-rtl.mp4": {
+      "bytes": 376229,
+      "kb": "367.41"
+    },
+    "assets/packaging.webp": {
+      "bytes": 75662,
+      "kb": "73.89"
+    },
+    "assets/shampoo-source.webp": {
+      "bytes": 620196,
+      "kb": "605.66"
+    },
+    "assets/social.png": {
+      "bytes": 894777,
+      "kb": "873.81"
+    },
+    "assets/turndown.webp": {
+      "bytes": 56082,
+      "kb": "54.77"
+    },
+    "assets/tx-arches.webp": {
+      "bytes": 34684,
+      "kb": "33.87"
+    },
+    "assets/tx-limewash.webp": {
+      "bytes": 21190,
+      "kb": "20.69"
+    },
+    "assets/tx-travertine.webp": {
+      "bytes": 64100,
+      "kb": "62.60"
+    },
+    "assets/vanity.webp": {
+      "bytes": 37978,
+      "kb": "37.09"
+    },
+    "en/about/index.html": {
+      "bytes": 9347,
+      "kb": "9.13"
+    },
+    "en/amenities-packaging/index.html": {
+      "bytes": 12758,
+      "kb": "12.46"
+    },
+    "en/contact/index.html": {
+      "bytes": 9877,
+      "kb": "9.65"
+    },
+    "en/index.html": {
+      "bytes": 10473,
+      "kb": "10.23"
+    },
+    "en/privacy/index.html": {
+      "bytes": 9902,
+      "kb": "9.67"
+    },
+    "favicon-32.png": {
+      "bytes": 1104,
+      "kb": "1.08"
+    },
+    "favicon.svg": {
+      "bytes": 2597,
+      "kb": "2.54"
+    },
+    "index.html": {
+      "bytes": 263,
+      "kb": "0.26"
+    },
+    "integration.css": {
+      "bytes": 12641,
+      "kb": "12.34"
+    },
+    "layout.css": {
+      "bytes": 10700,
+      "kb": "10.45"
+    },
+    "pilot.css": {
+      "bytes": 3154,
+      "kb": "3.08"
+    },
+    "robots.txt": {
+      "bytes": 26,
+      "kb": "0.03"
+    },
+    "style.css": {
+      "bytes": 13914,
+      "kb": "13.59"
+    }
+  },
+  "test_suites": [
+    {
+      "path": "check.py",
+      "framework": "Python 3 / HTMLParser / urllib",
+      "purpose": "Static validation of 10 localized pages, single H1 rule, description uniqueness, internal links and anchor fragments, robots.txt, sitemap.xml, and optional HTTP headers",
+      "status": "PASS"
+    },
+    {
+      "path": "qa/browser-regression.mjs",
+      "framework": "Playwright (Chromium)",
+      "purpose": "End-to-end browser regression testing (39 test cases covering mobile menu focus/escape, forced colours, reduced motion, script blocking CSP, font recovery and failure alert, cookie notice, lightbox modal, local brief generation, and concept wording prohibition)",
+      "status": "PASS (39/39)"
+    },
+    {
+      "path": "qa/production-check.test.py",
+      "framework": "Python unittest",
+      "purpose": "Real preview and production builds in disposable temporary directories, testing clean build stale asset eviction, content hashing ?v=sha256[:10], Cloudflare headers and redirects, and rejection of corrupted metadata",
+      "status": "PASS (6/6)"
+    },
+    {
+      "path": "qa/zoom-400.mjs",
+      "framework": "Playwright (Chromium @ 320px deviceScaleFactor 4)",
+      "purpose": "WCAG 2.2 reflow and zoom compliance at 400% zoom (58 assertions verifying no horizontal scroll, no clipped text, heading presence, menu reachability, cookie notice visibility, and form interactive integrity)",
+      "status": "PASS (58/58)"
+    }
+  ]
+}

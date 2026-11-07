@@ -1,0 +1,62 @@
+{
+  "shampoo": {
+    "glb": {
+      "path": "exports/shampoo/gem_shampoo_provisional.glb",
+      "bytes": 5429984,
+      "sha256": "7262c436a00822ee8a5f085dbb8f9d93ae233efb461a64fdaa187798cbb5580c"
+    },
+    "obj": {
+      "path": "exports/shampoo/gem_shampoo_provisional.obj",
+      "bytes": 14945444,
+      "sha256": "6fd85fd0a9443483c0e267be48dd277c0cd17bdfd9d4b014bd9780465146f4f6"
+    }
+  },
+  "conditioner": {
+    "glb": {
+      "path": "exports/conditioner/gem_conditioner_provisional.glb",
+      "bytes": 5429140,
+      "sha256": "c612172f5c1a3b7be573bbed5b5d704d3f046e0a12a349ee4cff001a711f7a1b"
+    },
+    "obj": {
+      "path": "exports/conditioner/gem_conditioner_provisional.obj",
+      "bytes": 14945484,
+      "sha256": "f62f80618155ec4d93fecbee39dcf2e33b9a6a7e2653655c68fed86a62b07cf0"
+    }
+  },
+  "body_wash": {
+    "glb": {
+      "path": "exports/body_wash/gem_body_wash_provisional.glb",
+      "bytes": 5439724,
+      "sha256": "bb7805cf624ca449edcf2864c4d391ea0552c56ad04c3bdb5ba5d606c606295c"
+    },
+    "obj": {
+      "path": "exports/body_wash/gem_body_wash_provisional.obj",
+      "bytes": 14878314,
+      "sha256": "7fadabd09015b8b8fe5515b655d24d7c2f54e293553ecc1d66a20f8d21fb7f35"
+    }
+  },
+  "body_lotion": {
+    "glb": {
+      "path": "exports/body_lotion/gem_body_lotion_provisional.glb",
+      "bytes": 5436816,
+      "sha256": "3cabbb656934d7a50d7c1c4ff88efd7c9079ca90d2ac7dfa9dbcd71a03ba5a08"
+    },
+    "obj": {
+      "path": "exports/body_lotion/gem_body_lotion_provisional.obj",
+      "bytes": 14878334,
+      "sha256": "40520b2fc34e8b0020c0a31e09c1ceba969856095912b9631f319c8a1c4389af"
+    }
+  },
+  "hand_wash": {
+    "glb": {
+      "path": "exports/hand_wash/gem_hand_wash_provisional.glb",
+      "bytes": 5436564,
+      "sha256": "32fbd513ebb8522955977a780fc94946a594f9bbf21c718f1d13084bd6c1a47e"
+    },
+    "obj": {
+      "path": "exports/hand_wash/gem_hand_wash_provisional.obj",
+      "bytes": 14878314,
+      "sha256": "4a7814e45eb5ea7d78ae61b5c6361e01383bbccf2ab2f2f327d2c6a1baf8cc65"
+    }
+  }
+}

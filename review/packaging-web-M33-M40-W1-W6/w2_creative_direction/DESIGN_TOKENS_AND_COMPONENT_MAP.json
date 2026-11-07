@@ -1,0 +1,244 @@
+{
+  "system": {
+    "name": "GEM™ Digital Design System & Experience Architecture",
+    "version": "2.0.0",
+    "target_release": "W2-W5 Transformation",
+    "author": "Digital Creative Director & UX Architect (Pro Tier)",
+    "date": "2026-11-07"
+  },
+  "tokens": {
+    "color": {
+      "ink": {
+        "hex": "#12171D",
+        "rgb": "rgb(18, 23, 29)",
+        "role": "Primary brand color, high-contrast headings, active text, solid button fills, deep borders"
+      },
+      "beige": {
+        "hex": "#BCACA7",
+        "rgb": "rgb(188, 172, 167)",
+        "role": "Warm packaging tone, secondary architectural background, neutral fill"
+      },
+      "obsidian": {
+        "hex": "#020202",
+        "rgb": "rgb(2, 2, 2)",
+        "role": "Pump satin black, deep shadow anchor, high-intensity UI hover states"
+      },
+      "white": {
+        "hex": "#FFFFFF",
+        "rgb": "rgb(255, 255, 255)",
+        "role": "Crisp paper label background, inverted typography, pristine highlight"
+      },
+      "amber": {
+        "hex": "#C87D32",
+        "rgb": "rgb(200, 125, 50)",
+        "role": "Warm optical glass accent, hotspot highlight, material protection indicator"
+      },
+      "sand": {
+        "hex": "#EFE6D8",
+        "rgb": "rgb(239, 230, 216)",
+        "role": "Warm travertine surface tone, card background, tactile neutral"
+      },
+      "ivory": {
+        "hex": "#F8F3EA",
+        "rgb": "rgb(248, 243, 234)",
+        "role": "Primary website canvas background, frosted glass backdrop tint"
+      },
+      "line": {
+        "rgba": "rgba(18, 23, 29, 0.16)",
+        "role": "Subtle architectural dividing hairline, card borders, table separators"
+      },
+      "line_strong": {
+        "rgba": "rgba(18, 23, 29, 0.32)",
+        "role": "Prominent architectural grid boundary, active borders"
+      },
+      "glass_surface": {
+        "rgba": "rgba(248, 243, 234, 0.85)",
+        "role": "Header backdrop, floating 3D inspector HUD, modal overlays"
+      }
+    },
+    "typography": {
+      "families": {
+        "latin_display": "Jost, sans-serif",
+        "latin_body": "Inter, sans-serif",
+        "arabic_display": "Arabic, 'Noto Sans Arabic', sans-serif",
+        "arabic_body": "Arabic, 'Noto Sans Arabic', sans-serif",
+        "monospace": "ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
+      },
+      "scale": {
+        "display_hero": {
+          "latin": { "size": "clamp(46px, 5.8vw, 88px)", "line_height": "1.08", "letter_spacing": "-0.025em" },
+          "arabic": { "size": "clamp(40px, 4.8vw, 70px)", "line_height": "1.52", "letter_spacing": "0" }
+        },
+        "h1": {
+          "latin": { "size": "clamp(38px, 4.6vw, 68px)", "line_height": "1.12", "letter_spacing": "-0.02em" },
+          "arabic": { "size": "clamp(34px, 4.0vw, 56px)", "line_height": "1.55", "letter_spacing": "0" }
+        },
+        "h2": {
+          "latin": { "size": "clamp(28px, 3.2vw, 46px)", "line_height": "1.20", "letter_spacing": "-0.015em" },
+          "arabic": { "size": "clamp(26px, 2.8vw, 40px)", "line_height": "1.62", "letter_spacing": "0" }
+        },
+        "h3": {
+          "latin": { "size": "clamp(20px, 2.0vw, 26px)", "line_height": "1.30", "letter_spacing": "0" },
+          "arabic": { "size": "clamp(20px, 2.0vw, 25px)", "line_height": "1.68", "letter_spacing": "0" }
+        },
+        "body_lead": {
+          "latin": { "size": "clamp(17px, 1.35vw, 19px)", "line_height": "1.80", "letter_spacing": "0" },
+          "arabic": { "size": "clamp(17px, 1.45vw, 20px)", "line_height": "2.00", "letter_spacing": "0" }
+        },
+        "body_regular": {
+          "latin": { "size": "16px", "line_height": "1.75", "letter_spacing": "0" },
+          "arabic": { "size": "16px", "line_height": "1.95", "letter_spacing": "0" }
+        },
+        "caption": {
+          "latin": { "size": "13px", "line_height": "1.60", "letter_spacing": "0.02em" },
+          "arabic": { "size": "13px", "line_height": "1.80", "letter_spacing": "0" }
+        },
+        "tag_signature": {
+          "latin": { "size": "11px", "line_height": "1.80", "letter_spacing": "0.18em", "text_transform": "uppercase" },
+          "arabic": { "size": "12px", "line_height": "1.80", "letter_spacing": "0", "text_transform": "none" }
+        }
+      }
+    },
+    "geometry_svg": {
+      "gem_ring": {
+        "viewBox": "0 0 48 48",
+        "elements": "<circle cx='24' cy='24' r='20' fill='none' stroke='currentColor' stroke-width='1.2'/><circle cx='24' cy='24' r='14' fill='none' stroke='currentColor' stroke-width='0.6' stroke-dasharray='2 2'/>",
+        "semantic": "Purity of form and architectural circular closure"
+      },
+      "quarter_arc": {
+        "viewBox": "0 0 64 64",
+        "elements": "<path d='M0 64 A64 64 0 0 1 64 0' fill='none' stroke='currentColor' stroke-width='1.2'/>",
+        "semantic": "Travertine archway relief motif framing key imagery and card transitions"
+      },
+      "four_point_spark": {
+        "viewBox": "0 0 24 24",
+        "elements": "<path d='M12 2 Q12 12 22 12 Q12 12 12 22 Q12 12 2 12 Q12 12 12 2 Z' fill='currentColor'/>",
+        "semantic": "Precision indicator, hotspot locator, brand focus accent"
+      }
+    },
+    "spacing_and_layout": {
+      "edge_padding": "clamp(20px, 5vw, 88px)",
+      "container_max_width": "1280px",
+      "wide_container_max": "1440px",
+      "grid_gap": "clamp(20px, 3vw, 44px)",
+      "section_vertical_padding": "clamp(64px, 9vw, 128px)"
+    },
+    "motion": {
+      "ease_luxury": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "ease_material": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+      "duration_instant": "0.15s",
+      "duration_swift": "0.32s",
+      "duration_deliberate": "0.65s",
+      "duration_majestic": "1.10s"
+    }
+  },
+  "component_map": [
+    {
+      "id": "site_header",
+      "name": "SiteHeader (Glassmorphic Architectural Navigation)",
+      "role": "Global brand header and viewport orienter",
+      "dom_landmarks": "<header class='site-header'>",
+      "features": [
+        "Dynamic glassmorphic blur background on scroll (`rgba(248, 243, 234, 0.86)` with `backdrop-filter: blur(14px)`)",
+        "Scroll horizon progress hairline (`--scroll-progress`)",
+        "Auto-hide on downwards scroll past 220px, restore on upwards scroll",
+        "Mobile collapsible drawer with focus trap, aria-expanded, aria-controls, Escape dismissal",
+        "Exact language switcher preserving route, anchor hash, and accessibility semantics"
+      ],
+      "reduced_motion": "Disables hide/reveal translation, keeps fixed position, retains standard solid background transition"
+    },
+    {
+      "id": "cinematic_hero",
+      "name": "CinematicHero (Architectural Product Framing)",
+      "role": "Flagship visual arrival and brand declaration",
+      "dom_landmarks": "<section class='hero portrait' aria-labelledby='hero-h1'>",
+      "features": [
+        "M29/M34 high-resolution master photography with travertine relief texture",
+        "Restrained GSAP entrance choreography: subtitle -> h1 split -> CTA button fade-up",
+        "Bilingual editorial typography (Jost for Latin, Noto Sans Arabic with 0 letter-spacing and 1.55 line-height for Arabic)",
+        "Quarter-arc decorative vector framing subtly anchoring product silhouette",
+        "Status badge: 'Commercial availability not established / التوافر التجاري غير مؤكد'"
+      ],
+      "reduced_motion": "Instant opacity fade (no transform parallax, video background replaced with static WebP)"
+    },
+    {
+      "id": "collection_studio_3d",
+      "name": "CollectionStudio3D (Three.js WebGL Interactive Inspection)",
+      "role": "Interactive 360° product examination studio for hotel operators and specifiers",
+      "dom_landmarks": "<div class='collection-studio' id='inspection-studio'>",
+      "features": [
+        "Lazy-loaded Three.js WebGL canvas (initiated via IntersectionObserver when studio is within 200px of viewport)",
+        "Five-product instant model switching (Shampoo, Conditioner, Body Wash, Body Lotion, Hand Wash)",
+        "360° horizontal drag-to-inspect with inertial damping (`OrbitControls` with polar angle limits 30° to 105° to maintain architectural ground plinth)",
+        "Lighting Environment Presets: (1) Studio Lookdev (crisp key light), (2) Warm Suite (2700K hospitality ambient), (3) Architectural Daylight (high-key travertine sun)",
+        "Interactive 3D Inspection Hotspots: (1) Amber Glass Optical UV Protection, (2) Satin Pump Ergonomics & Actuation, (3) Bilingual Screen-Printed Label",
+        "Honest status badges: M29 verified geometry (`VERIFIED SPECIFICATION`) vs M34 exploratory geometry (`PROVISIONAL GEOMETRY` - strictly zero forbidden concept wording)",
+        "Full static fallback: High-resolution M29/M34 photographic plates rendered automatically if WebGL is unsupported or `prefers-reduced-motion` is active"
+      ],
+      "reduced_motion": "WebGL interactive canvas is disabled; renders high-res static plate with accessible keyboard tab buttons for products and text-based hotspot callouts"
+    },
+    {
+      "id": "scroll_collection_reveal",
+      "name": "ScrollCollectionReveal (GSAP ScrollTrigger Sequence)",
+      "role": "Narrative scroll sequence presenting the five-product family",
+      "dom_landmarks": "<section class='section collection-sequence' id='pilot-products'>",
+      "features": [
+        "Horizontal/pinned scroll progression through the five hospitality products",
+        "Product index counter (01 to 05) with synced metadata card",
+        "Subtle focal depth shifts and scale choreography",
+        "Direct CTA linking to B2B specification brief with product pre-selected"
+      ],
+      "reduced_motion": "Standard vertical stack of cards without scroll hijacking or pinned viewport"
+    },
+    {
+      "id": "amenity_spec_table",
+      "name": "AmenitySpecificationTable (Technical Operator Grid)",
+      "role": "Granular technical specifications for hospitality operators, housekeepers, and procurement",
+      "dom_landmarks": "<div class='spec-table-container'>",
+      "features": [
+        "Structured comparison matrix across all 5 products",
+        "Columns: Product Name, Bottle Volume (ml / fl oz), Material Composition, Optical UV Rating, Dispenser Compatibility, Verification Status",
+        "Status Badges: 'Verified Standard' (Shampoo, Conditioner) vs 'Provisional Specification' (Body Wash, Body Lotion, Hand Wash)",
+        "Responsive horizontal table scroll with gradient shadow cues"
+      ]
+    },
+    {
+      "id": "format_cards",
+      "name": "FormatCards (In-Room, Wall-Mount, Travel Formats)",
+      "role": "Architectural showcase of delivery contexts",
+      "dom_landmarks": "<div class='formats'>",
+      "features": [
+        "Three distinct formats: (1) In-Room Vanity Plinth, (2) Tamper-Proof Wall-Mounted Bracket, (3) Travel Presentation Kit",
+        "Hover micro-interactions: card elevation (`translateY(-6px)`), image scale (`1.035`)",
+        "Accessible lightbox trigger on image click/keypress"
+      ]
+    },
+    {
+      "id": "procurement_brief_tool",
+      "name": "ProcurementBriefTool (Zero-Transmission B2B Specifier)",
+      "role": "Confidential local project brief generator for hotel developers and purchasing teams",
+      "dom_landmarks": "<form id='brief-form'>",
+      "features": [
+        "Form fields: Contact Name, Property/Hotel Group, Official Email, Geographic Market, Project Program, Key Count/Room Estimate, Specific Message",
+        "Strict client-side generation: `preventDefault()`, no data leaves the browser",
+        "CSP enforced: `form-action 'none'`, `connect-src 'none'`",
+        "Outputs formatted plaintext specification into readonly `<textarea id='brief-text'>`",
+        "Copy to clipboard with status announcement (`navigator.clipboard.writeText`)",
+        "Offline brief download (`GEM-project-brief-[lang].txt` via Blob URL)",
+        "Graceful fallback: Selects and highlights text if clipboard permission is denied"
+      ]
+    },
+    {
+      "id": "site_footer",
+      "name": "SiteFooter (Monochrome Architectural Foundation)",
+      "role": "Legal, navigational, and brand closure",
+      "dom_landmarks": "<footer class='site-footer'>",
+      "features": [
+        "Monochrome Ink `#12171D` background with white typography",
+        "GEM vector wordmark and brand statement",
+        "Navigation shortcuts (B2B Project Inquiry, Privacy Policy, Language Switch)",
+        "Bilingual copyright and brand signature (`HOSPITALITY, IN PERFECT PROPORTION`)"
+      ]
+    }
+  ]
+}

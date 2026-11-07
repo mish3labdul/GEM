@@ -166,3 +166,53 @@ html[dir=rtl] .disclosure{font-size:13px!important}
 }
 
 .cookie-notice{position:fixed;inset:auto 0 0 0;z-index:35;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;max-height:45vh;overflow:auto;padding:14px max(var(--edge),env(safe-area-inset-left,0px)) calc(14px + env(safe-area-inset-bottom,0px));background:#efe6d8;border-top:1px solid var(--line);font-size:13px;line-height:1.7}.cookie-notice p{margin:0;max-width:1000px}.cookie-close{flex:none;min-height:44px;min-width:44px;padding:8px 18px;border:1px solid var(--ink);background:transparent;font-size:14px}.cookie-close:hover{background:var(--ink);color:#fff}@media(max-width:760px){.cookie-notice{flex-direction:column;gap:10px}.cookie-close{order:-1;align-self:flex-end}}
+
+/* ==========================================================================
+   W3 GSAP Quarter-Arc Choreography & W4 Interactive 3D GLB Studio
+   ========================================================================== */
+.gem-quarter-arc{display:block;width:48px;height:48px;margin-bottom:18px;color:var(--ivory);overflow:visible}
+html[dir=rtl] .gem-quarter-arc{transform:scaleX(-1)}
+.gem-quarter-arc .arc-draw{stroke-dasharray:126;stroke-dashoffset:var(--arc-offset,0)}
+
+.studio-3d-section{background:var(--ivory);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:clamp(56px,7vw,108px) var(--edge);overflow-x:clip}
+.studio-3d-section .wrap{max-width:var(--max);margin-inline:auto;width:100%}
+.studio-3d-header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:clamp(28px,4vw,48px)}
+.studio-3d-eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);opacity:.72;margin:0 0 10px}
+html[dir=rtl] .studio-3d-eyebrow{letter-spacing:0;font-size:13px}
+.studio-3d-meta{display:flex;flex-direction:column;align-items:flex-start;gap:12px;max-width:100%}
+.studio-3d-badge{margin:0;padding:6px 12px;font-size:12px;line-height:1.4;border:1px solid var(--ink);background:#efe6d8;color:var(--ink);max-width:100%;overflow-wrap:anywhere}
+.studio-3d-badge[data-status="provisional"]{background:#f5e6c8;border-color:#6b4c1b;color:#12171D}
+.studio-3d-modes{display:flex;flex-wrap:wrap;gap:8px;max-width:100%}
+.studio-btn,.studio-pill,.studio-chip,.studio-turn-btn{min-height:44px;min-width:44px;padding:8px 14px;border:1px solid var(--ink);background:transparent;color:var(--ink);font:inherit;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;max-width:100%;box-sizing:border-box;transition:background-color .22s ease,color .22s ease,transform .22s ease}
+.studio-btn[aria-pressed="true"],.studio-pill[aria-pressed="true"],.studio-chip[aria-pressed="true"]{background:var(--ink);color:#fff}
+.studio-btn:focus-visible,.studio-pill:focus-visible,.studio-chip:focus-visible,.studio-turn-btn:focus-visible,#gem-3d-canvas:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.studio-3d-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:clamp(24px,3.5vw,48px);align-items:start;max-width:100%}
+.studio-3d-controls{display:flex;flex-direction:column;gap:20px;min-width:0;max-width:100%}
+.studio-control-group{display:flex;flex-direction:column;gap:8px;min-width:0;max-width:100%}
+.studio-control-label{margin:0;font-size:13px;font-weight:600;color:var(--ink);opacity:.85}
+.studio-product-pills{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:8px;max-width:100%}
+.studio-pill{justify-content:flex-start;text-align:start}
+.studio-pill .index{font-size:11px;opacity:.68}
+.studio-pill-row{display:flex;flex-wrap:wrap;gap:8px;max-width:100%}
+.studio-readout-box{padding:16px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;gap:8px;max-width:100%;overflow-wrap:anywhere}
+.studio-readout-title{margin:0;font-size:14px;font-weight:600;color:var(--ink)}
+.studio-readout-note{margin:0;font-size:13px;line-height:1.6;color:var(--ink);opacity:.86}
+.studio-3d-viewport{position:relative;width:100%;max-width:100%;min-height:420px;background:radial-gradient(circle at 50% 35%,#3b3632 0%,#181c22 72%,#12171D 100%);border:1px solid var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;box-sizing:border-box}
+.studio-3d-viewport[data-lighting-active="suite"]{background:radial-gradient(circle at 48% 32%,#523928 0%,#221a17 70%,#12171D 100%)}
+.studio-3d-viewport[data-lighting-active="daylight"]{background:radial-gradient(circle at 52% 28%,#d8cfc4 0%,#8f857d 68%,#2b3036 100%)}
+#gem-3d-canvas{display:block;width:100%;max-width:100%;height:clamp(320px,48vw,540px);cursor:grab;touch-action:pan-y}
+#gem-3d-canvas:active{cursor:grabbing}
+#gem-3d-canvas[hidden],#gem-3d-fallback-plate[hidden]{display:none!important}
+#gem-3d-fallback-plate{display:block;width:100%;max-width:100%;max-height:520px;height:auto;object-fit:contain;margin-inline:auto}
+.studio-turntable-bar{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:12px;width:100%;background:rgba(18,23,29,.82);border-top:1px solid rgba(255,255,255,.16);box-sizing:border-box}
+.studio-turn-btn{color:#fff;border-color:rgba(255,255,255,.45);background:rgba(255,255,255,.08)}
+.studio-turn-btn[data-turntable="left"],.studio-turn-btn[data-turntable="right"]{font-family:Inter,system-ui,sans-serif;direction:ltr}
+.studio-turn-btn:hover{background:rgba(255,255,255,.22)}
+@media(max-width:920px){
+ .studio-3d-grid{grid-template-columns:1fr}
+ .studio-3d-viewport{min-height:320px}
+}
+@media(max-width:420px){
+ .studio-product-pills{grid-template-columns:1fr}
+ .studio-btn,.studio-pill,.studio-chip,.studio-turn-btn{width:100%;justify-content:center}
+}

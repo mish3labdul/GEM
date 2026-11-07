@@ -41,6 +41,93 @@ const cta = ({ c, lang, up }) => `<section class="cta on-texture veil">
 
 const concept = (c) => c.concept ? `<figcaption>${esc(c.concept)}</figcaption>` : ''
 
+const quarterArc = '<svg class="gem-quarter-arc" viewBox="0 0 96 96" width="64" height="64" aria-hidden="true" focusable="false"><path class="arc-track" d="M8 88 A80 80 0 0 1 88 8" fill="none" stroke="currentColor" stroke-width="1" stroke-opacity="0.22"/><path class="arc-draw" d="M8 88 A80 80 0 0 1 88 8" fill="none" stroke="currentColor" stroke-width="1.75"/></svg>'
+
+function studio3D(lang, c) {
+  const ar = lang === 'ar'
+  const title = ar ? 'استوديو المعاينة ثلاثية الأبعاد والتناسب البصري' : 'Interactive 3D Optics & Proportion Studio'
+  const lead = ar
+    ? 'افحص نماذج العبوات الخمس بزاوية 360 درجة، وبدّل بين إعدادات الإضاءة المعمارية، واستعرض تفاصيل الزجاج الكهرماني ومضخة الساتان والملصق ثنائي اللغة.'
+    : 'Inspect all five hospitality bottles in 360°, switch architectural lighting rigs, and examine the optical amber glass, satin pump profile, and bilingual ink label.'
+  const mode3d = ar ? 'معاينة ثلاثية الأبعاد (GLB)' : 'Interactive 3D (GLB)'
+  const modePlate = ar ? 'صورة استوديو مرجعية' : 'Studio Still Plate'
+  const lightLabel = ar ? 'إعداد الإضاءة' : 'Lighting environment'
+  const lights = ar
+    ? [['studio', 'استوديو 85 مم'], ['suite', 'إضاءة جناح دافئة'], ['daylight', 'ضوء نهاري معماري']]
+    : [['studio', '85mm Studio'], ['suite', 'Warm Suite'], ['daylight', 'Daylight']]
+  const hotspotLabel = ar ? 'زاوية الفحص البصري' : 'Inspection focus'
+  const hotspots = ar
+    ? [['front', 'الملصق ثنائي اللغة'], ['glass', 'بصريات الزجاج الكهرماني'], ['pump', 'مضخة الساتان الهندسية']]
+    : [['front', 'Bilingual Ink Label'], ['glass', 'Amber Glass Optics'], ['pump', 'Satin Pump Profile']]
+  const badgeBaseline = ar ? 'خط الأساس المعتمد · معايرة بصرية M27a/M28' : 'Verified CGI Baseline · M27a/M28 Optical Calibration'
+  const rotLeft = ar ? 'تدوير لليسار' : 'Rotate left'
+  const rotReset = ar ? 'إعادة الضبط' : 'Reset angle'
+  const rotRight = ar ? 'تدوير لليمين' : 'Rotate right'
+  const canvasLabel = ar
+    ? 'عارض ثلاثي الأبعاد تفاعلي لعبوات GEM — اسحب للتدوير أو استخدم أزرار التحكم'
+    : 'Interactive 3D viewer for GEM bottles — drag to rotate or use the turntable buttons'
+  const fallbackAlt = ar
+    ? 'معاينة استوديو لعبوة شامبو GEM الزجاجية الكهرمانية بملصق ثنائي اللغة'
+    : 'Studio render of the GEM amber glass Shampoo bottle with bilingual ink label'
+  const specDefault = ar
+    ? 'شامبو · زجاج كهرماني بمعامل انكسار 1.520 · 20,460 مضلعًا · إضاءة استوديو 85 مم'
+    : 'Shampoo · Optical Amber Glass (IOR 1.520) · 20,460 polygons · 85mm Studio Lookdev'
+
+  return `<section class="section studio-3d-section" id="interactive-3d-studio" aria-labelledby="studio-3d-heading">
+ <div class="wrap">
+  <div class="studio-3d-header">
+   <div class="copy">
+    <p class="studio-3d-eyebrow">${ar ? 'معاينة رقمية تفاعلية · W4 WebGL2 / glTF 2.0' : 'INTERACTIVE DIGITAL TWIN · W4 WebGL2 / glTF 2.0'}</p>
+    <h2 id="studio-3d-heading">${esc(title)}</h2>
+    <p class="lead">${esc(lead)}</p>
+   </div>
+   <div class="studio-3d-meta">
+    <p id="studio-3d-badge" class="studio-3d-badge" data-status="baseline" aria-live="polite">${esc(badgeBaseline)}</p>
+    <div class="studio-3d-modes" role="group" aria-label="${ar ? 'وضع العرض' : 'Display mode'}">
+     <button type="button" class="studio-btn" data-studio-mode="3d" aria-pressed="true">${esc(mode3d)}</button>
+     <button type="button" class="studio-btn" data-studio-mode="plate" aria-pressed="false">${esc(modePlate)}</button>
+    </div>
+   </div>
+  </div>
+  <div class="studio-3d-grid">
+   <div class="studio-3d-controls">
+    <div class="studio-control-group" role="group" aria-label="${ ar ? 'اختيار المنتج للمعاينة ثلاثية الأبعاد' : 'Select product for 3D inspection' }">
+     <p class="studio-control-label">${ar ? 'المنتج (5 عبوات)' : 'Product family (5 bottles)'}</p>
+     <div class="studio-product-pills">
+      ${c.productNames.map((p, i) => `<button type="button" class="studio-pill" data-studio-product="${i}" aria-pressed="${i === 0}"><span class="index">0${i + 1}</span><span>${esc(p)}</span></button>`).join('')}
+     </div>
+    </div>
+    <div class="studio-control-group" role="group" aria-label="${esc(lightLabel)}">
+     <p class="studio-control-label">${esc(lightLabel)}</p>
+     <div class="studio-pill-row">
+      ${lights.map(([k, lbl], i) => `<button type="button" class="studio-chip" data-lighting="${k}" aria-pressed="${i === 0}">${esc(lbl)}</button>`).join('')}
+     </div>
+    </div>
+    <div class="studio-control-group" role="group" aria-label="${esc(hotspotLabel)}">
+     <p class="studio-control-label">${esc(hotspotLabel)}</p>
+     <div class="studio-pill-row">
+      ${hotspots.map(([k, lbl], i) => `<button type="button" class="studio-chip" data-hotspot="${k}" aria-pressed="${i === 0}">${esc(lbl)}</button>`).join('')}
+     </div>
+    </div>
+    <div class="studio-readout-box" aria-live="polite">
+     <p id="gem-3d-readout" class="studio-readout-title">${esc(specDefault)}</p>
+     <p id="gem-3d-hotspot-note" class="studio-readout-note">${ar ? 'الملصق ثنائي اللغة: خلفية حبرية #12171D مع طباعة عربية وإنجليزية متوازنة وقوس ربع دائري.' : 'Bilingual Ink Label: #12171D matte ink field with balanced Arabic/English typography and architectural quarter-arc.'}</p>
+    </div>
+   </div>
+   <div class="studio-3d-viewport" id="gem-3d-viewport" data-lighting-active="studio">
+    <canvas id="gem-3d-canvas" width="960" height="720" tabindex="0" role="img" aria-label="${esc(canvasLabel)}"></canvas>
+    <img id="gem-3d-fallback-plate" src="/assets/gem_shampoo_hero.webp" width="960" height="1200" alt="${esc(fallbackAlt)}" loading="lazy" decoding="async" hidden>
+    <div class="studio-turntable-bar" role="group" aria-label="${ar ? 'التحكم بدوران العبوة' : 'Turntable rotation controls'}">
+     <button type="button" class="studio-turn-btn" data-turntable="left" aria-label="${esc(rotLeft)}">↺</button>
+     <button type="button" class="studio-turn-btn" data-turntable="reset">${esc(rotReset)}</button>
+     <button type="button" class="studio-turn-btn" data-turntable="right" aria-label="${esc(rotRight)}">↻</button>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>`
+}
+
 // Home ----------------------------------------------------------------------
 function home({ c, lang, up, a }) {
   const rtl = lang === 'ar'
@@ -55,6 +142,7 @@ function home({ c, lang, up, a }) {
  </picture>
  <video autoplay muted loop playsinline preload="metadata" poster="${up}assets/${heroImg}.webp" aria-hidden="true" tabindex="-1"><source src="${up}assets/loop-${rtl ? 'rtl' : 'ltr'}.mp4" type="video/mp4"></video>
  <div class="hero-copy">
+  ${quarterArc}
   <h1 id="h1">${br(c.homeH1)}</h1>
   <p class="intro">${wrapEn(c.homeIntro)}</p>
   <div class="actions"><a class="button" href="${up}${lang}/amenities-packaging/">${esc(c.explore)} ${arrow}</a><a class="button ghost" href="${up}${lang}/contact/">${esc(c.discuss)}</a></div>
@@ -91,12 +179,15 @@ function portfolio({ c, lang, up, a, legacyBody }) {
   return `<section class="hero narrow-copy" aria-labelledby="h1">
  <picture><img src="${up}assets/${familyImg}.webp" alt="${esc(a.family)}" fetchpriority="high" decoding="async"></picture>
  <div class="hero-copy">
+  ${quarterArc}
   <h1 id="h1">${br(c.portfolioH1)}</h1>
   <p class="intro">${wrapEn(c.portfolioIntro)}</p>
   <p class="status">${esc(c.status)}</p>
  </div>
 </section>
-${legacyBody.slice(legacyBody.indexOf('<section class="section" id="pilot-products">'), legacyBody.indexOf('<section class="section programmes"'))}
+${legacyBody.slice(legacyBody.indexOf('<section class="section" id="pilot-products">'), legacyBody.indexOf('<section class="section" id="formats">'))}
+${studio3D(lang, c)}
+${legacyBody.slice(legacyBody.indexOf('<section class="section" id="formats">'), legacyBody.indexOf('<section class="section programmes"'))}
 ${beigeOpen(up, ' id="programmes"')}
  <div class="wrap">
   <div class="copy"><h2>${br(c.programmesHeading)}</h2></div>
@@ -122,6 +213,7 @@ function about({ c, lang, up, a }) {
   return `<section class="hero" aria-labelledby="h1">
  <picture><img src="${up}assets/${heroSrc}.webp" alt="${esc(heroAlt)}" fetchpriority="high" decoding="async"></picture>
  <div class="hero-copy">
+  ${quarterArc}
   <h1 id="h1">${br(c.aboutH1)}</h1>
   <p class="intro">${esc(c.aboutIntro)}</p>
  </div>

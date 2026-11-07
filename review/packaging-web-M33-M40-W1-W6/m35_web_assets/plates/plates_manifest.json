@@ -1,0 +1,238 @@
+{
+  "milestone": "M35",
+  "authorization": "GEM-PKG-OWNER-20261107-005",
+  "purpose": "Web static fallback plates (no-WebGL, mobile battery-saver, prefers-reduced-motion)",
+  "plates": [
+    {
+      "key": "gem_shampoo_hero",
+      "role": "Single product interactive viewer fallback (Shampoo)",
+      "product": "shampoo",
+      "category": "hero_fallback",
+      "dimensions": [
+        1280,
+        1600
+      ],
+      "source_path": "../../packaging-identity-M27-M32/m29_photography/renders/final/hero_shampoo.png",
+      "webp": {
+        "file": "gem_shampoo_hero.webp",
+        "bytes": 21918,
+        "sha256": "18e07873de66ad348300afd219c80dcc526d88a653dd3d58793c701c22cae021"
+      },
+      "png": {
+        "file": "gem_shampoo_hero.png",
+        "bytes": 1391567,
+        "sha256": "0f6d383440ca1f047d05b76213b63b26162893fdc141076d237a9d131d3dfa64"
+      }
+    },
+    {
+      "key": "gem_conditioner_hero",
+      "role": "Single product interactive viewer fallback (Conditioner)",
+      "product": "conditioner",
+      "category": "hero_fallback",
+      "dimensions": [
+        1280,
+        1600
+      ],
+      "source_path": "../../packaging-identity-M27-M32/m29_photography/renders/final/hero_conditioner.png",
+      "webp": {
+        "file": "gem_conditioner_hero.webp",
+        "bytes": 21710,
+        "sha256": "50256d76d72755eed0965e6725a7961696535121bf8f8d642c728d6c054ab0a6"
+      },
+      "png": {
+        "file": "gem_conditioner_hero.png",
+        "bytes": 1392085,
+        "sha256": "fcd65895dd81f1418848b750848dc01e22c2880e7a1aa76c597979f037ba6b47"
+      }
+    },
+    {
+      "key": "gem_body_wash_hero",
+      "role": "Single product interactive viewer fallback (Body Wash)",
+      "product": "body_wash",
+      "category": "hero_fallback",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "source_path": "../m34_five_product_3d/renders/studio_body_wash.png",
+      "webp": {
+        "file": "gem_body_wash_hero.webp",
+        "bytes": 18052,
+        "sha256": "05285e4510de896fe8c2d89624766dc2af32ea368ac82c8aa9e023c19408a6db"
+      },
+      "png": {
+        "file": "gem_body_wash_hero.png",
+        "bytes": 777045,
+        "sha256": "4d5369ddee9d91ad0821d309cfd5423f79777f02da4c059e559246324ad6e89f"
+      }
+    },
+    {
+      "key": "gem_body_lotion_hero",
+      "role": "Single product interactive viewer fallback (Body Lotion)",
+      "product": "body_lotion",
+      "category": "hero_fallback",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "source_path": "../m34_five_product_3d/renders/studio_body_lotion.png",
+      "webp": {
+        "file": "gem_body_lotion_hero.webp",
+        "bytes": 18038,
+        "sha256": "56b87e359de001c38409ddc55ad933fb9655ba7fa374cc7604ac3ea31372abb6"
+      },
+      "png": {
+        "file": "gem_body_lotion_hero.png",
+        "bytes": 776159,
+        "sha256": "f0c29b3984ee7d9df102a25fe9f44aa920f6bec6684ff19bf92f62836066d609"
+      }
+    },
+    {
+      "key": "gem_hand_wash_hero",
+      "role": "Single product interactive viewer fallback (Hand Wash)",
+      "product": "hand_wash",
+      "category": "hero_fallback",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "source_path": "../m34_five_product_3d/renders/studio_hand_wash.png",
+      "webp": {
+        "file": "gem_hand_wash_hero.webp",
+        "bytes": 17934,
+        "sha256": "da96fa82bd1921d3390e64b91bed4da22baa9ad97be0a6d60f342d12110f5f61"
+      },
+      "png": {
+        "file": "gem_hand_wash_hero.png",
+        "bytes": 776206,
+        "sha256": "658e05b0a67cb81f66532d40c939a038ef5995aa3d3b0383be3514efd5e31d84"
+      }
+    },
+    {
+      "key": "gem_family_five_lineup",
+      "role": "Master five-product hospitality amenity collection hero",
+      "product": "all_five",
+      "category": "scene_hero",
+      "dimensions": [
+        2000,
+        1125
+      ],
+      "source_path": "../m34_five_product_3d/renders/family_five_lineup.png",
+      "webp": {
+        "file": "gem_family_five_lineup.webp",
+        "bytes": 54210,
+        "sha256": "0c398c0e114f063596d0eaecaf51eb3b970c467c5fcced376566b96bccf5f2ae"
+      },
+      "png": {
+        "file": "gem_family_five_lineup.png",
+        "bytes": 1575618,
+        "sha256": "cfedc81c6c85d7ff9e15653e4a67fdbe5abece3b77f6f8ac8e498de6b1b90c78"
+      }
+    },
+    {
+      "key": "gem_family_pair",
+      "role": "Shampoo and Conditioner paired hospitality suite plate",
+      "product": "shampoo_conditioner_pair",
+      "category": "scene_hero",
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "source_path": "../../packaging-identity-M27-M32/m29_photography/renders/final/family_pair.png",
+      "webp": {
+        "file": "gem_family_pair.webp",
+        "bytes": 38992,
+        "sha256": "5ee71f45d428cd4f9c2a28c2b1dfccb2f632cdfd698be331b2c76e825c27c7b8"
+      },
+      "png": {
+        "file": "gem_family_pair.png",
+        "bytes": 1763795,
+        "sha256": "ccaf56d6be06f71463106e8f4bdc7906219b6770b1331502c8d1df8ee673be27"
+      }
+    },
+    {
+      "key": "gem_bathroom_editorial",
+      "role": "Limestone niche bathroom editorial hero plate",
+      "product": "hospitality_bathroom",
+      "category": "architectural_editorial",
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "source_path": "../../packaging-identity-M27-M32/m29_photography/renders/final/bathroom_editorial.png",
+      "webp": {
+        "file": "gem_bathroom_editorial.webp",
+        "bytes": 61798,
+        "sha256": "305fb2e7284e256da59ff40293ca3f7f081adbdcdde6b775bc7d8249a4cf915a"
+      },
+      "png": {
+        "file": "gem_bathroom_editorial.png",
+        "bytes": 1960802,
+        "sha256": "d914ff453ccc11ea350e6441c0ecebc1727039e1507bed6d9ea3773983897b9b"
+      }
+    },
+    {
+      "key": "gem_editorial_window",
+      "role": "Morning aperture window editorial plate",
+      "product": "hospitality_window",
+      "category": "architectural_editorial",
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "source_path": "../../packaging-identity-M27-M32/m29_photography/renders/final/editorial_window.png",
+      "webp": {
+        "file": "gem_editorial_window.webp",
+        "bytes": 50074,
+        "sha256": "d86ac84a83f27c871f0507e69fd94ff214559b6bc42ed000c1ae202d418bd4c9"
+      },
+      "png": {
+        "file": "gem_editorial_window.png",
+        "bytes": 1964980,
+        "sha256": "9d199d745a293687cb4c1d3453b46db7317c487cfdf66015ee46cff95398d26f"
+      }
+    },
+    {
+      "key": "gem_catalog_light_shampoo",
+      "role": "Clean light ecommerce catalog presentation (Shampoo)",
+      "product": "shampoo",
+      "category": "catalog_light",
+      "dimensions": [
+        1280,
+        1600
+      ],
+      "source_path": "../../packaging-identity-M27-M32/m29_photography/renders/final/catalog_light_shampoo.png",
+      "webp": {
+        "file": "gem_catalog_light_shampoo.webp",
+        "bytes": 25306,
+        "sha256": "ed7449a131359cd4b22d52073af8d3b34deb0a7c8f69b74fb8345b05c82acce7"
+      },
+      "png": {
+        "file": "gem_catalog_light_shampoo.png",
+        "bytes": 1447405,
+        "sha256": "3c70473af7d56e6fb2fad8ebc7d9782bb94dbb1a5e113404384475269915cd5b"
+      }
+    },
+    {
+      "key": "gem_catalog_light_conditioner",
+      "role": "Clean light ecommerce catalog presentation (Conditioner)",
+      "product": "conditioner",
+      "category": "catalog_light",
+      "dimensions": [
+        1280,
+        1600
+      ],
+      "source_path": "../../packaging-identity-M27-M32/m29_photography/renders/final/catalog_light_conditioner.png",
+      "webp": {
+        "file": "gem_catalog_light_conditioner.webp",
+        "bytes": 24194,
+        "sha256": "fe73d03f33d2189901aede5c544b49faa99b08ea79ece1236bda5ece6b88ba31"
+      },
+      "png": {
+        "file": "gem_catalog_light_conditioner.png",
+        "bytes": 1447384,
+        "sha256": "5cae845531a647723168711a6f6a4eced85b1bb715932a6b9a4fc539f7fe5151"
+      }
+    }
+  ]
+}

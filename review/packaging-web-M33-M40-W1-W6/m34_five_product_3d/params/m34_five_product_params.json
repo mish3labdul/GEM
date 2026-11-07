@@ -1,0 +1,259 @@
+{
+  "_schema": "gem.packaging.five_product_params/1.0",
+  "_program_context": {
+    "program": "GEM™ Track A (Milestones M34, M35, M36)",
+    "date": "2026-11-07",
+    "lead_authorization": "GEM-PKG-OWNER-20261107-005",
+    "prior_authorizations": [
+      "GEM-PKG-OWNER-20261107-001",
+      "GEM-PKG-OWNER-20261107-002",
+      "GEM-PKG-OWNER-20261107-003",
+      "GEM-PKG-OWNER-20261107-004"
+    ],
+    "brand_palette": {
+      "ink": "#12171D",
+      "beige": "#BCACA7",
+      "black": "#020202",
+      "white": "#FFFFFF"
+    },
+    "shared_materials": {
+      "glass": {
+        "datablock": "GEM_M17 amber glass",
+        "description": "Calibrated M28 final amber glass (IOR 1.5, absorption 350/m, micro/macro roughness noise)",
+        "status": "APPROVED_FOR_INTERNAL_DEVELOPMENT"
+      },
+      "liquid": {
+        "datablock": "GEM_M17 amber liquid",
+        "description": "Calibrated M28 final amber liquid (IOR 1.36, interface IOR 1.1029, absorption 35/m)",
+        "status": "APPROVED_FOR_INTERNAL_DEVELOPMENT"
+      },
+      "pump_collar": {
+        "datablock": "GEM_M17 pump collar",
+        "description": "Satin black pump collar (base 0.006, specular 0.16)",
+        "status": "APPROVED_FOR_INTERNAL_DEVELOPMENT"
+      },
+      "pump_head": {
+        "datablock": "GEM_M17 pump head",
+        "description": "Satin black pump actuator head and spout",
+        "status": "APPROVED_FOR_INTERNAL_DEVELOPMENT"
+      },
+      "pump_stem": {
+        "datablock": "GEM_M17 pump stem",
+        "description": "Satin black pump stem",
+        "status": "APPROVED_FOR_INTERNAL_DEVELOPMENT"
+      },
+      "dip_tube": {
+        "datablock": "GEM_S3D gem_dip_tube_clear",
+        "description": "Clear semi-translucent internal dip tube",
+        "status": "APPROVED_FOR_INTERNAL_DEVELOPMENT"
+      }
+    }
+  },
+  "products": {
+    "shampoo": {
+      "confirmed_metadata": {
+        "product_key": "shampoo",
+        "name_en": "SHAMPOO",
+        "name_ar": "شامبو",
+        "name_ar_approval_ref": "GEM-PKG-OWNER-20261107-002",
+        "name_en_approval_ref": "GEM-PKG-OWNER-20261107-003",
+        "label_layout": "A",
+        "label_texture_file": "gem_shampoo_ink_bilingual_A_v1.0.png",
+        "label_texture_path": "review/packaging-identity-M15-M20/m15_artwork/textures/gem_shampoo_ink_bilingual_A_v1.0.png",
+        "label_texture_sha256": "4a094258adfb801b02fdbc6a823a09463fc33ff5a06eb6e4f9d3b67507bcec8e",
+        "label_texture_dimensions": [1356, 2000],
+        "label_texture_aspect": 0.67800,
+        "label_material_datablock": "GEM_S3D gem_label_artwork_shampoo"
+      },
+      "provisional_exploratory_geometry": {
+        "geometry_classification": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+        "authorization_ref": "GEM-PKG-OWNER-20261107-004",
+        "status_disclaimer": "INTERNAL CGI STUDY — NOT OWNER-APPROVED PHYSICAL PACKAGING — NOT SUPPLIER SPECS — CAPACITIES UNVERIFIED",
+        "architecture_style": "GEM cylindrical amber glass bottle + satin-black pump dispenser",
+        "nominal_capacity_est_ml": 204,
+        "body_dia": 0.0763,
+        "body_height": 0.1415,
+        "shoulder_height": 0.004,
+        "shoulder_radius": 0.006,
+        "neck_dia": 0.032,
+        "neck_height": 0.012,
+        "wall_thickness": 0.0025,
+        "base_thickness": 0.0045,
+        "inner_floor_radius": 0.006,
+        "collar_dia": 0.038,
+        "collar_height": 0.0351,
+        "stem_dia": 0.026,
+        "actuator_dia": 0.0301,
+        "spout_length": 0.0487,
+        "label_height": 0.1182,
+        "label_wrap_deg": 120.0,
+        "fill_fraction": 0.90,
+        "lineup_layout_x_m": -0.09
+      }
+    },
+    "conditioner": {
+      "confirmed_metadata": {
+        "product_key": "conditioner",
+        "name_en": "CONDITIONER",
+        "name_ar": "بلسم",
+        "name_ar_approval_ref": "GEM-PKG-OWNER-20261107-002",
+        "name_en_approval_ref": "GEM-PKG-OWNER-20261107-003",
+        "label_layout": "A",
+        "label_texture_file": "gem_conditioner_ink_bilingual_A_v1.0.png",
+        "label_texture_path": "review/packaging-identity-M15-M20/m15_artwork/textures/gem_conditioner_ink_bilingual_A_v1.0.png",
+        "label_texture_sha256": "3f80484fe38dd1771b5a2d8862bc5a008a077a9633e344951431fffeefbce627",
+        "label_texture_dimensions": [1356, 2000],
+        "label_texture_aspect": 0.67800,
+        "label_material_datablock": "GEM_S3D gem_label_artwork_conditioner"
+      },
+      "provisional_exploratory_geometry": {
+        "geometry_classification": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+        "authorization_ref": "GEM-PKG-OWNER-20261107-004",
+        "status_disclaimer": "INTERNAL CGI STUDY — NOT OWNER-APPROVED PHYSICAL PACKAGING — NOT SUPPLIER SPECS — CAPACITIES UNVERIFIED",
+        "architecture_style": "GEM cylindrical amber glass bottle + satin-black pump dispenser",
+        "nominal_capacity_est_ml": 204,
+        "body_dia": 0.0763,
+        "body_height": 0.1415,
+        "shoulder_height": 0.004,
+        "shoulder_radius": 0.006,
+        "neck_dia": 0.032,
+        "neck_height": 0.012,
+        "wall_thickness": 0.0025,
+        "base_thickness": 0.0045,
+        "inner_floor_radius": 0.006,
+        "collar_dia": 0.038,
+        "collar_height": 0.0351,
+        "stem_dia": 0.026,
+        "actuator_dia": 0.0301,
+        "spout_length": 0.0487,
+        "label_height": 0.1182,
+        "label_wrap_deg": 120.0,
+        "fill_fraction": 0.90,
+        "lineup_layout_x_m": 0.00
+      }
+    },
+    "body_wash": {
+      "confirmed_metadata": {
+        "product_key": "body_wash",
+        "name_en": "BODY WASH",
+        "name_ar": "غسول الجسم",
+        "name_ar_approval_ref": "GEM-PKG-OWNER-20261107-002",
+        "name_en_approval_ref": "GEM-PKG-OWNER-20261107-003",
+        "label_layout": "A",
+        "label_texture_file": "gem_body_wash_ink_bilingual_A_v1.0.png",
+        "label_texture_path": "review/packaging-identity-M15-M20/m15_artwork/textures/gem_body_wash_ink_bilingual_A_v1.0.png",
+        "label_texture_sha256": "06e4b3ab447b8b0de4e739617d87a568413ef0baac80eca7641f49fb4c37db94",
+        "label_texture_dimensions": [1356, 2000],
+        "label_texture_aspect": 0.67800,
+        "label_material_datablock": "GEM_S3D gem_label_artwork_body_wash"
+      },
+      "provisional_exploratory_geometry": {
+        "geometry_classification": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+        "authorization_ref": "GEM-PKG-OWNER-20261107-005",
+        "status_disclaimer": "INTERNAL CGI STUDY — NOT OWNER-APPROVED PHYSICAL PACKAGING — NOT SUPPLIER SPECS — CAPACITIES UNVERIFIED",
+        "architecture_style": "GEM cylindrical amber glass bottle + satin-black pump dispenser (matched hospitality silhouette)",
+        "nominal_capacity_est_ml": 204,
+        "body_dia": 0.0763,
+        "body_height": 0.1415,
+        "shoulder_height": 0.004,
+        "shoulder_radius": 0.006,
+        "neck_dia": 0.032,
+        "neck_height": 0.012,
+        "wall_thickness": 0.0025,
+        "base_thickness": 0.0045,
+        "inner_floor_radius": 0.006,
+        "collar_dia": 0.038,
+        "collar_height": 0.0351,
+        "stem_dia": 0.026,
+        "actuator_dia": 0.0301,
+        "spout_length": 0.0487,
+        "label_height": 0.1182,
+        "label_wrap_deg": 120.0,
+        "fill_fraction": 0.90,
+        "lineup_layout_x_m": 0.09
+      }
+    },
+    "body_lotion": {
+      "confirmed_metadata": {
+        "product_key": "body_lotion",
+        "name_en": "BODY LOTION",
+        "name_ar": "لوشن الجسم",
+        "name_ar_approval_ref": "GEM-PKG-OWNER-20261107-002",
+        "name_en_approval_ref": "GEM-PKG-OWNER-20261107-003",
+        "label_layout": "A",
+        "label_texture_file": "gem_body_lotion_ink_bilingual_A_v1.0.png",
+        "label_texture_path": "review/packaging-identity-M15-M20/m15_artwork/textures/gem_body_lotion_ink_bilingual_A_v1.0.png",
+        "label_texture_sha256": "11e8fc08fb172d85057419530e79e6eb5c1719d9b5ab206eb629f9cb01a85a98",
+        "label_texture_dimensions": [1356, 2000],
+        "label_texture_aspect": 0.67800,
+        "label_material_datablock": "GEM_S3D gem_label_artwork_body_lotion"
+      },
+      "provisional_exploratory_geometry": {
+        "geometry_classification": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+        "authorization_ref": "GEM-PKG-OWNER-20261107-005",
+        "status_disclaimer": "INTERNAL CGI STUDY — NOT OWNER-APPROVED PHYSICAL PACKAGING — NOT SUPPLIER SPECS — CAPACITIES UNVERIFIED",
+        "architecture_style": "GEM cylindrical amber glass bottle + satin-black pump dispenser (matched hospitality silhouette)",
+        "nominal_capacity_est_ml": 204,
+        "body_dia": 0.0763,
+        "body_height": 0.1415,
+        "shoulder_height": 0.004,
+        "shoulder_radius": 0.006,
+        "neck_dia": 0.032,
+        "neck_height": 0.012,
+        "wall_thickness": 0.0025,
+        "base_thickness": 0.0045,
+        "inner_floor_radius": 0.006,
+        "collar_dia": 0.038,
+        "collar_height": 0.0351,
+        "stem_dia": 0.026,
+        "actuator_dia": 0.0301,
+        "spout_length": 0.0487,
+        "label_height": 0.1182,
+        "label_wrap_deg": 120.0,
+        "fill_fraction": 0.90,
+        "lineup_layout_x_m": 0.18
+      }
+    },
+    "hand_wash": {
+      "confirmed_metadata": {
+        "product_key": "hand_wash",
+        "name_en": "HAND WASH",
+        "name_ar": "غسول اليدين",
+        "name_ar_approval_ref": "GEM-PKG-OWNER-20261107-002",
+        "name_en_approval_ref": "GEM-PKG-OWNER-20261107-003",
+        "label_layout": "A",
+        "label_texture_file": "gem_hand_wash_ink_bilingual_A_v1.0.png",
+        "label_texture_path": "review/packaging-identity-M15-M20/m15_artwork/textures/gem_hand_wash_ink_bilingual_A_v1.0.png",
+        "label_texture_sha256": "efd4b64d611a67efb287f8c83e6d1da3b24f6177f30fb6cc75ff4e070e64c6f1",
+        "label_texture_dimensions": [1356, 2000],
+        "label_texture_aspect": 0.67800,
+        "label_material_datablock": "GEM_S3D gem_label_artwork_hand_wash"
+      },
+      "provisional_exploratory_geometry": {
+        "geometry_classification": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+        "authorization_ref": "GEM-PKG-OWNER-20261107-005",
+        "status_disclaimer": "INTERNAL CGI STUDY — NOT OWNER-APPROVED PHYSICAL PACKAGING — NOT SUPPLIER SPECS — CAPACITIES UNVERIFIED",
+        "architecture_style": "GEM cylindrical amber glass bottle + satin-black pump dispenser (matched hospitality silhouette)",
+        "nominal_capacity_est_ml": 204,
+        "body_dia": 0.0763,
+        "body_height": 0.1415,
+        "shoulder_height": 0.004,
+        "shoulder_radius": 0.006,
+        "neck_dia": 0.032,
+        "neck_height": 0.012,
+        "wall_thickness": 0.0025,
+        "base_thickness": 0.0045,
+        "inner_floor_radius": 0.006,
+        "collar_dia": 0.038,
+        "collar_height": 0.0351,
+        "stem_dia": 0.026,
+        "actuator_dia": 0.0301,
+        "spout_length": 0.0487,
+        "label_height": 0.1182,
+        "label_wrap_deg": 120.0,
+        "fill_fraction": 0.90,
+        "lineup_layout_x_m": -0.18
+      }
+    }
+  }
+}

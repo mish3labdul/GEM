@@ -1,0 +1,1164 @@
+{
+  "status": "PASS",
+  "blend_file": "/Users/mediacenter1/Documents/GEM-Web-remake/review/packaging-web-M33-M40-W1-W6/m34_five_product_3d/scenes/GEM_M34_five_products_PROVISIONAL.blend",
+  "blender_version": "5.2.3 LTS",
+  "products": {
+    "shampoo": {
+      "parts": {
+        "glass": {
+          "name": "GEM_shampoo_glass",
+          "parent": "GEM_shampoo_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 133920,
+          "vert_count": 76584,
+          "materials": [
+            "GEM_M17 amber glass"
+          ],
+          "props": {
+            "gem_product": "shampoo",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+            "gem_arabic_name_status": "UNAPPROVED",
+            "gem_region": "glass",
+            "gem_material_key": "gem_glass_amber"
+          }
+        },
+        "liquid": {
+          "name": "GEM_shampoo_liquid",
+          "parent": "GEM_shampoo_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 34920,
+          "vert_count": 18522,
+          "materials": [
+            "GEM_M17 amber liquid"
+          ],
+          "props": {
+            "gem_product": "shampoo",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+            "gem_arabic_name_status": "UNAPPROVED",
+            "gem_region": "liquid",
+            "gem_material_key": "gem_liquid_amber"
+          }
+        },
+        "label": {
+          "name": "GEM_shampoo_label",
+          "parent": "GEM_shampoo_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 1160,
+          "vert_count": 988,
+          "materials": [
+            "GEM_S3D gem_label_artwork_shampoo"
+          ],
+          "props": {
+            "gem_product": "shampoo",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+            "gem_arabic_name_status": "UNAPPROVED",
+            "gem_region": "label",
+            "gem_material_key": "gem_label_artwork"
+          }
+        },
+        "collar": {
+          "name": "GEM_shampoo_collar",
+          "parent": "GEM_shampoo_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 22680,
+          "vert_count": 14474,
+          "materials": [
+            "GEM_M17 pump collar"
+          ],
+          "props": {
+            "gem_product": "shampoo",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+            "gem_arabic_name_status": "UNAPPROVED",
+            "gem_region": "collar",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "stem": {
+          "name": "GEM_shampoo_stem",
+          "parent": "GEM_shampoo_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 4954,
+          "vert_count": 2912,
+          "materials": [
+            "GEM_M17 pump stem"
+          ],
+          "props": {
+            "gem_product": "shampoo",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+            "gem_arabic_name_status": "UNAPPROVED",
+            "gem_region": "stem",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "actuator": {
+          "name": "GEM_shampoo_actuator",
+          "parent": "GEM_shampoo_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 12960,
+          "vert_count": 8088,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "shampoo",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+            "gem_arabic_name_status": "UNAPPROVED",
+            "gem_region": "actuator",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "spout": {
+          "name": "GEM_shampoo_spout",
+          "parent": "GEM_shampoo_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 17030,
+          "vert_count": 9331,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "shampoo",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+            "gem_arabic_name_status": "UNAPPROVED",
+            "gem_region": "spout",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "dip_tube": {
+          "name": "GEM_shampoo_dip_tube",
+          "parent": "GEM_shampoo_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 188,
+          "vert_count": 192,
+          "materials": [
+            "GEM_S3D gem_dip_tube_clear"
+          ],
+          "props": {
+            "gem_product": "shampoo",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+            "gem_arabic_name_status": "UNAPPROVED",
+            "gem_region": "dip_tube",
+            "gem_material_key": "gem_dip_tube_clear"
+          }
+        }
+      },
+      "root": {
+        "name": "GEM_shampoo_root",
+        "location": [
+          -0.07,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "props": {
+          "gem_product": "shampoo",
+          "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+          "gem_params_hash": "9a4f2f4073de45cc",
+          "gem_mesh_hash": "b4ee0f85f4165ceb",
+          "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+          "source_glb_sha": "9c343b68331c64a142f145a8fbdc5b1f0bcb130ea839193c226b17f0d8f1dd28",
+          "gem_arabic_name_status": "UNAPPROVED",
+          "gem_region": "root"
+        }
+      },
+      "collection_present": true,
+      "geom_hash": "d556fd7331333b64a41d2319e23ba501bc726e9191d13aed2ec7d72e2101d6f6"
+    },
+    "conditioner": {
+      "parts": {
+        "glass": {
+          "name": "GEM_conditioner_glass",
+          "parent": "GEM_conditioner_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 133920,
+          "vert_count": 76584,
+          "materials": [
+            "GEM_M17 amber glass"
+          ],
+          "props": {
+            "gem_product": "conditioner",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+            "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+            "gem_region": "glass",
+            "gem_material_key": "gem_glass_amber"
+          }
+        },
+        "liquid": {
+          "name": "GEM_conditioner_liquid",
+          "parent": "GEM_conditioner_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 34920,
+          "vert_count": 18522,
+          "materials": [
+            "GEM_M17 amber liquid"
+          ],
+          "props": {
+            "gem_product": "conditioner",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+            "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+            "gem_region": "liquid",
+            "gem_material_key": "gem_liquid_amber"
+          }
+        },
+        "label": {
+          "name": "GEM_conditioner_label",
+          "parent": "GEM_conditioner_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 1160,
+          "vert_count": 988,
+          "materials": [
+            "GEM_S3D gem_label_artwork_conditioner"
+          ],
+          "props": {
+            "gem_product": "conditioner",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+            "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+            "gem_region": "label",
+            "gem_material_key": "gem_label_artwork"
+          }
+        },
+        "collar": {
+          "name": "GEM_conditioner_collar",
+          "parent": "GEM_conditioner_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 22680,
+          "vert_count": 14474,
+          "materials": [
+            "GEM_M17 pump collar"
+          ],
+          "props": {
+            "gem_product": "conditioner",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+            "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+            "gem_region": "collar",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "stem": {
+          "name": "GEM_conditioner_stem",
+          "parent": "GEM_conditioner_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 4954,
+          "vert_count": 2912,
+          "materials": [
+            "GEM_M17 pump stem"
+          ],
+          "props": {
+            "gem_product": "conditioner",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+            "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+            "gem_region": "stem",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "actuator": {
+          "name": "GEM_conditioner_actuator",
+          "parent": "GEM_conditioner_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 12960,
+          "vert_count": 8088,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "conditioner",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+            "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+            "gem_region": "actuator",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "spout": {
+          "name": "GEM_conditioner_spout",
+          "parent": "GEM_conditioner_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 17030,
+          "vert_count": 9331,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "conditioner",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+            "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+            "gem_region": "spout",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "dip_tube": {
+          "name": "GEM_conditioner_dip_tube",
+          "parent": "GEM_conditioner_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 188,
+          "vert_count": 192,
+          "materials": [
+            "GEM_S3D gem_dip_tube_clear"
+          ],
+          "props": {
+            "gem_product": "conditioner",
+            "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+            "gem_params_hash": "9a4f2f4073de45cc",
+            "gem_mesh_hash": "b4ee0f85f4165ceb",
+            "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+            "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+            "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+            "gem_region": "dip_tube",
+            "gem_material_key": "gem_dip_tube_clear"
+          }
+        }
+      },
+      "root": {
+        "name": "GEM_conditioner_root",
+        "location": [
+          0.07,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "props": {
+          "gem_product": "conditioner",
+          "gem_label_status": "CONCEPT / NOT PRODUCTION ARTWORK / OWNER APPROVAL REQUIRED",
+          "gem_params_hash": "9a4f2f4073de45cc",
+          "gem_mesh_hash": "b4ee0f85f4165ceb",
+          "sand3d_commit": "84c980a523adcb0474420ed4e3990681d403dce3",
+          "source_glb_sha": "f94532115b29572566c2fc2b922a76a3487911424c23e15cbc3d954201d30340",
+          "gem_arabic_name_status": "NOT_PROVIDED/UNAPPROVED",
+          "gem_region": "root"
+        }
+      },
+      "collection_present": true,
+      "geom_hash": "5b508137790db20c7760318f30f7af60f6fe3a6263094a1b449f0412de321557"
+    },
+    "body_wash": {
+      "parts": {
+        "glass": {
+          "name": "GEM_body_wash_glass",
+          "parent": "GEM_body_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 133920,
+          "vert_count": 76584,
+          "materials": [
+            "GEM_M17 amber glass"
+          ],
+          "props": {
+            "gem_product": "body_wash",
+            "gem_region": "glass",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_glass_amber"
+          }
+        },
+        "liquid": {
+          "name": "GEM_body_wash_liquid",
+          "parent": "GEM_body_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 34920,
+          "vert_count": 18522,
+          "materials": [
+            "GEM_M17 amber liquid"
+          ],
+          "props": {
+            "gem_product": "body_wash",
+            "gem_region": "liquid",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_liquid_amber"
+          }
+        },
+        "label": {
+          "name": "GEM_body_wash_label",
+          "parent": "GEM_body_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 1160,
+          "vert_count": 988,
+          "materials": [
+            "GEM_S3D gem_label_artwork_body_wash"
+          ],
+          "props": {
+            "gem_product": "body_wash",
+            "gem_region": "label",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_label_artwork"
+          }
+        },
+        "collar": {
+          "name": "GEM_body_wash_collar",
+          "parent": "GEM_body_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 22680,
+          "vert_count": 14474,
+          "materials": [
+            "GEM_M17 pump collar"
+          ],
+          "props": {
+            "gem_product": "body_wash",
+            "gem_region": "collar",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "stem": {
+          "name": "GEM_body_wash_stem",
+          "parent": "GEM_body_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 4954,
+          "vert_count": 2912,
+          "materials": [
+            "GEM_M17 pump stem"
+          ],
+          "props": {
+            "gem_product": "body_wash",
+            "gem_region": "stem",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "actuator": {
+          "name": "GEM_body_wash_actuator",
+          "parent": "GEM_body_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 12960,
+          "vert_count": 8088,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "body_wash",
+            "gem_region": "actuator",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "spout": {
+          "name": "GEM_body_wash_spout",
+          "parent": "GEM_body_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 17030,
+          "vert_count": 9331,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "body_wash",
+            "gem_region": "spout",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "dip_tube": {
+          "name": "GEM_body_wash_dip_tube",
+          "parent": "GEM_body_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 188,
+          "vert_count": 192,
+          "materials": [
+            "GEM_S3D gem_dip_tube_clear"
+          ],
+          "props": {
+            "gem_product": "body_wash",
+            "gem_region": "dip_tube",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_dip_tube_clear"
+          }
+        }
+      },
+      "root": {
+        "name": "GEM_body_wash_root",
+        "location": [
+          0.09,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "props": {
+          "gem_product": "body_wash",
+          "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+          "auth_ref": "GEM-PKG-OWNER-20261107-005"
+        }
+      },
+      "collection_present": true,
+      "geom_hash": "44be7b2ca5360540c24e273d0f10a77b43fbb95dae84820505e984399ebe67a3"
+    },
+    "body_lotion": {
+      "parts": {
+        "glass": {
+          "name": "GEM_body_lotion_glass",
+          "parent": "GEM_body_lotion_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 133920,
+          "vert_count": 76584,
+          "materials": [
+            "GEM_M17 amber glass"
+          ],
+          "props": {
+            "gem_product": "body_lotion",
+            "gem_region": "glass",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u0644\u0648\u0634\u0646 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_glass_amber"
+          }
+        },
+        "liquid": {
+          "name": "GEM_body_lotion_liquid",
+          "parent": "GEM_body_lotion_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 34920,
+          "vert_count": 18522,
+          "materials": [
+            "GEM_M17 amber liquid"
+          ],
+          "props": {
+            "gem_product": "body_lotion",
+            "gem_region": "liquid",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u0644\u0648\u0634\u0646 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_liquid_amber"
+          }
+        },
+        "label": {
+          "name": "GEM_body_lotion_label",
+          "parent": "GEM_body_lotion_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 1160,
+          "vert_count": 988,
+          "materials": [
+            "GEM_S3D gem_label_artwork_body_lotion"
+          ],
+          "props": {
+            "gem_product": "body_lotion",
+            "gem_region": "label",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u0644\u0648\u0634\u0646 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_label_artwork"
+          }
+        },
+        "collar": {
+          "name": "GEM_body_lotion_collar",
+          "parent": "GEM_body_lotion_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 22680,
+          "vert_count": 14474,
+          "materials": [
+            "GEM_M17 pump collar"
+          ],
+          "props": {
+            "gem_product": "body_lotion",
+            "gem_region": "collar",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u0644\u0648\u0634\u0646 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "stem": {
+          "name": "GEM_body_lotion_stem",
+          "parent": "GEM_body_lotion_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 4954,
+          "vert_count": 2912,
+          "materials": [
+            "GEM_M17 pump stem"
+          ],
+          "props": {
+            "gem_product": "body_lotion",
+            "gem_region": "stem",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u0644\u0648\u0634\u0646 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "actuator": {
+          "name": "GEM_body_lotion_actuator",
+          "parent": "GEM_body_lotion_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 12960,
+          "vert_count": 8088,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "body_lotion",
+            "gem_region": "actuator",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u0644\u0648\u0634\u0646 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "spout": {
+          "name": "GEM_body_lotion_spout",
+          "parent": "GEM_body_lotion_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 17030,
+          "vert_count": 9331,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "body_lotion",
+            "gem_region": "spout",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u0644\u0648\u0634\u0646 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "dip_tube": {
+          "name": "GEM_body_lotion_dip_tube",
+          "parent": "GEM_body_lotion_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 188,
+          "vert_count": 192,
+          "materials": [
+            "GEM_S3D gem_dip_tube_clear"
+          ],
+          "props": {
+            "gem_product": "body_lotion",
+            "gem_region": "dip_tube",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u0644\u0648\u0634\u0646 \u0627\u0644\u062c\u0633\u0645",
+            "gem_material_key": "gem_dip_tube_clear"
+          }
+        }
+      },
+      "root": {
+        "name": "GEM_body_lotion_root",
+        "location": [
+          0.18,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "props": {
+          "gem_product": "body_lotion",
+          "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+          "auth_ref": "GEM-PKG-OWNER-20261107-005"
+        }
+      },
+      "collection_present": true,
+      "geom_hash": "8b2eee3d96e898ea49bfa977426df2f8f16c0d3120fbbf55b892a0ec5bd72fd5"
+    },
+    "hand_wash": {
+      "parts": {
+        "glass": {
+          "name": "GEM_hand_wash_glass",
+          "parent": "GEM_hand_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 133920,
+          "vert_count": 76584,
+          "materials": [
+            "GEM_M17 amber glass"
+          ],
+          "props": {
+            "gem_product": "hand_wash",
+            "gem_region": "glass",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u064a\u062f\u064a\u0646",
+            "gem_material_key": "gem_glass_amber"
+          }
+        },
+        "liquid": {
+          "name": "GEM_hand_wash_liquid",
+          "parent": "GEM_hand_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 34920,
+          "vert_count": 18522,
+          "materials": [
+            "GEM_M17 amber liquid"
+          ],
+          "props": {
+            "gem_product": "hand_wash",
+            "gem_region": "liquid",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u064a\u062f\u064a\u0646",
+            "gem_material_key": "gem_liquid_amber"
+          }
+        },
+        "label": {
+          "name": "GEM_hand_wash_label",
+          "parent": "GEM_hand_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 1160,
+          "vert_count": 988,
+          "materials": [
+            "GEM_S3D gem_label_artwork_hand_wash"
+          ],
+          "props": {
+            "gem_product": "hand_wash",
+            "gem_region": "label",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u064a\u062f\u064a\u0646",
+            "gem_material_key": "gem_label_artwork"
+          }
+        },
+        "collar": {
+          "name": "GEM_hand_wash_collar",
+          "parent": "GEM_hand_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 22680,
+          "vert_count": 14474,
+          "materials": [
+            "GEM_M17 pump collar"
+          ],
+          "props": {
+            "gem_product": "hand_wash",
+            "gem_region": "collar",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u064a\u062f\u064a\u0646",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "stem": {
+          "name": "GEM_hand_wash_stem",
+          "parent": "GEM_hand_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 4954,
+          "vert_count": 2912,
+          "materials": [
+            "GEM_M17 pump stem"
+          ],
+          "props": {
+            "gem_product": "hand_wash",
+            "gem_region": "stem",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u064a\u062f\u064a\u0646",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "actuator": {
+          "name": "GEM_hand_wash_actuator",
+          "parent": "GEM_hand_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 12960,
+          "vert_count": 8088,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "hand_wash",
+            "gem_region": "actuator",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u064a\u062f\u064a\u0646",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "spout": {
+          "name": "GEM_hand_wash_spout",
+          "parent": "GEM_hand_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 17030,
+          "vert_count": 9331,
+          "materials": [
+            "GEM_M17 pump head"
+          ],
+          "props": {
+            "gem_product": "hand_wash",
+            "gem_region": "spout",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u064a\u062f\u064a\u0646",
+            "gem_material_key": "gem_pump_black_satin"
+          }
+        },
+        "dip_tube": {
+          "name": "GEM_hand_wash_dip_tube",
+          "parent": "GEM_hand_wash_root",
+          "rotation_euler": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_matches_baseline": true,
+          "poly_count": 188,
+          "vert_count": 192,
+          "materials": [
+            "GEM_S3D gem_dip_tube_clear"
+          ],
+          "props": {
+            "gem_product": "hand_wash",
+            "gem_region": "dip_tube",
+            "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+            "auth_ref": "GEM-PKG-OWNER-20261107-005",
+            "gem_arabic_name": "\u063a\u0633\u0648\u0644 \u0627\u0644\u064a\u062f\u064a\u0646",
+            "gem_material_key": "gem_dip_tube_clear"
+          }
+        }
+      },
+      "root": {
+        "name": "GEM_hand_wash_root",
+        "location": [
+          -0.18,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "props": {
+          "gem_product": "hand_wash",
+          "dimensions_status": "PROVISIONAL_EXPLORATORY_GEOMETRY",
+          "auth_ref": "GEM-PKG-OWNER-20261107-005"
+        }
+      },
+      "collection_present": true,
+      "geom_hash": "82238fa05c41bb3fb5624d0cc39affabf8de84ceb181717da33ee534a4087de6"
+    }
+  },
+  "m29_baseline_preservation": {
+    "shampoo": {
+      "expected_sha256": "d556fd7331333b64a41d2319e23ba501bc726e9191d13aed2ec7d72e2101d6f6",
+      "actual_sha256": "d556fd7331333b64a41d2319e23ba501bc726e9191d13aed2ec7d72e2101d6f6",
+      "matches": true
+    },
+    "conditioner": {
+      "expected_sha256": "5b508137790db20c7760318f30f7af60f6fe3a6263094a1b449f0412de321557",
+      "actual_sha256": "5b508137790db20c7760318f30f7af60f6fe3a6263094a1b449f0412de321557",
+      "matches": true
+    }
+  },
+  "packed_labels_verification": {
+    "shampoo": {
+      "image_name": "GEM_S3D label shampoo",
+      "packed": true,
+      "bytes_len": 64052,
+      "packed_sha256": "4a094258adfb801b02fdbc6a823a09463fc33ff5a06eb6e4f9d3b67507bcec8e",
+      "file_sha256": "4a094258adfb801b02fdbc6a823a09463fc33ff5a06eb6e4f9d3b67507bcec8e",
+      "expected_sha256": "4a094258adfb801b02fdbc6a823a09463fc33ff5a06eb6e4f9d3b67507bcec8e",
+      "matches_m15": true
+    },
+    "conditioner": {
+      "image_name": "GEM_S3D label conditioner",
+      "packed": true,
+      "bytes_len": 63134,
+      "packed_sha256": "3f80484fe38dd1771b5a2d8862bc5a008a077a9633e344951431fffeefbce627",
+      "file_sha256": "3f80484fe38dd1771b5a2d8862bc5a008a077a9633e344951431fffeefbce627",
+      "expected_sha256": "3f80484fe38dd1771b5a2d8862bc5a008a077a9633e344951431fffeefbce627",
+      "matches_m15": true
+    },
+    "body_wash": {
+      "image_name": "GEM_S3D label body_wash",
+      "packed": true,
+      "bytes_len": 73783,
+      "packed_sha256": "06e4b3ab447b8b0de4e739617d87a568413ef0baac80eca7641f49fb4c37db94",
+      "file_sha256": "06e4b3ab447b8b0de4e739617d87a568413ef0baac80eca7641f49fb4c37db94",
+      "expected_sha256": "06e4b3ab447b8b0de4e739617d87a568413ef0baac80eca7641f49fb4c37db94",
+      "matches_m15": true
+    },
+    "body_lotion": {
+      "image_name": "GEM_S3D label body_lotion",
+      "packed": true,
+      "bytes_len": 70840,
+      "packed_sha256": "11e8fc08fb172d85057419530e79e6eb5c1719d9b5ab206eb629f9cb01a85a98",
+      "file_sha256": "11e8fc08fb172d85057419530e79e6eb5c1719d9b5ab206eb629f9cb01a85a98",
+      "expected_sha256": "11e8fc08fb172d85057419530e79e6eb5c1719d9b5ab206eb629f9cb01a85a98",
+      "matches_m15": true
+    },
+    "hand_wash": {
+      "image_name": "GEM_S3D label hand_wash",
+      "packed": true,
+      "bytes_len": 70623,
+      "packed_sha256": "efd4b64d611a67efb287f8c83e6d1da3b24f6177f30fb6cc75ff4e070e64c6f1",
+      "file_sha256": "efd4b64d611a67efb287f8c83e6d1da3b24f6177f30fb6cc75ff4e070e64c6f1",
+      "expected_sha256": "efd4b64d611a67efb287f8c83e6d1da3b24f6177f30fb6cc75ff4e070e64c6f1",
+      "matches_m15": true
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "milestone": "M34",
+  "authorization": "GEM-PKG-OWNER-20261107-005",
+  "renders": [
+    {
+      "job": "studio_shampoo",
+      "product": "shampoo",
+      "kind": "single_studio_hero",
+      "file": "studio_shampoo.png",
+      "resolution": [
+        960,
+        1200
+      ],
+      "samples": 64,
+      "render_seconds": 5.72,
+      "bytes": 1140478,
+      "sha256": "e32f06ea3d3996aba6a5a07f06d8c32ec1384914aa2a2d48ccb7a0e13166e4f4"
+    },
+    {
+      "job": "studio_conditioner",
+      "product": "conditioner",
+      "kind": "single_studio_hero",
+      "file": "studio_conditioner.png",
+      "resolution": [
+        960,
+        1200
+      ],
+      "samples": 64,
+      "render_seconds": 5.71,
+      "bytes": 1140371,
+      "sha256": "0fbdcefca6cb28545da764d866ebc87e39246a57649cf2119f7e16293a3d9ff6"
+    },
+    {
+      "job": "studio_body_wash",
+      "product": "body_wash",
+      "kind": "single_studio_hero",
+      "file": "studio_body_wash.png",
+      "resolution": [
+        960,
+        1200
+      ],
+      "samples": 64,
+      "render_seconds": 5.66,
+      "bytes": 1144989,
+      "sha256": "b127345f07286ce3a2135129965ac2fb705f2a6560b0f42bbb1d8ff3551faa1a"
+    },
+    {
+      "job": "studio_body_lotion",
+      "product": "body_lotion",
+      "kind": "single_studio_hero",
+      "file": "studio_body_lotion.png",
+      "resolution": [
+        960,
+        1200
+      ],
+      "samples": 64,
+      "render_seconds": 5.83,
+      "bytes": 1144289,
+      "sha256": "8d34a9f85b4463673293c2b0f4076a993d62e7088a32b765cd55b4fd336db008"
+    },
+    {
+      "job": "studio_hand_wash",
+      "product": "hand_wash",
+      "kind": "single_studio_hero",
+      "file": "studio_hand_wash.png",
+      "resolution": [
+        960,
+        1200
+      ],
+      "samples": 64,
+      "render_seconds": 5.74,
+      "bytes": 1143923,
+      "sha256": "8321854e59dd027e3e9e6274871fa1419af77dc0f8773f45317a8b1885d1ef65"
+    },
+    {
+      "job": "family_five_lineup",
+      "product": "all_five",
+      "kind": "hospitality_five_lineup",
+      "file": "family_five_lineup.png",
+      "resolution": [
+        2000,
+        1125
+      ],
+      "samples": 96,
+      "render_seconds": 15.21,
+      "bytes": 2299019,
+      "sha256": "6f925e0b67fbe8ba596b9e89b6e6b18b5a7cd206f61dbf4ee3f6160955dac43d"
+    }
+  ]
+}

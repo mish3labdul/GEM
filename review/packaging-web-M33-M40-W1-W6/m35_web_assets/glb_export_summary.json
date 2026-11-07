@@ -1,0 +1,127 @@
+{
+  "shampoo": {
+    "file": "gem_shampoo.glb",
+    "bytes": 717164,
+    "bytes_kb": 700.4,
+    "sha256": "e1182e42d04ce6137dacd744ceb224b9ad2fa40436e2277dfc8e8f7e5f0816b8",
+    "total_polygons": 20460,
+    "part_polygons": {
+      "glass": 10713,
+      "liquid": 2793,
+      "label": 1160,
+      "collar": 1814,
+      "stem": 742,
+      "actuator": 1347,
+      "spout": 1703,
+      "dip_tube": 188
+    },
+    "nodes_count": 8,
+    "materials_count": 5,
+    "extensions_used": [
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ],
+    "pass_budget_tris": true,
+    "pass_budget_size": true
+  },
+  "conditioner": {
+    "file": "gem_conditioner.glb",
+    "bytes": 716320,
+    "bytes_kb": 699.5,
+    "sha256": "44df10b3151de4904320e11bf632daefe1e7576cdf83197fffd33c182ba0c2e0",
+    "total_polygons": 20460,
+    "part_polygons": {
+      "glass": 10713,
+      "liquid": 2793,
+      "label": 1160,
+      "collar": 1814,
+      "stem": 742,
+      "actuator": 1347,
+      "spout": 1703,
+      "dip_tube": 188
+    },
+    "nodes_count": 8,
+    "materials_count": 5,
+    "extensions_used": [
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ],
+    "pass_budget_tris": true,
+    "pass_budget_size": true
+  },
+  "body_wash": {
+    "file": "gem_body_wash.glb",
+    "bytes": 726932,
+    "bytes_kb": 709.9,
+    "sha256": "9868e6d0cf9a4914452f3757e68d71decda42568d10c1d237016dac0f608c388",
+    "total_polygons": 20460,
+    "part_polygons": {
+      "glass": 10713,
+      "liquid": 2793,
+      "label": 1160,
+      "collar": 1814,
+      "stem": 742,
+      "actuator": 1347,
+      "spout": 1703,
+      "dip_tube": 188
+    },
+    "nodes_count": 8,
+    "materials_count": 5,
+    "extensions_used": [
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ],
+    "pass_budget_tris": true,
+    "pass_budget_size": true
+  },
+  "body_lotion": {
+    "file": "gem_body_lotion.glb",
+    "bytes": 724024,
+    "bytes_kb": 707.1,
+    "sha256": "30be8e17d9224bbe0fbe4b521fa342176c7eea178dc9b0cfab6a91cc846bfacb",
+    "total_polygons": 20460,
+    "part_polygons": {
+      "glass": 10713,
+      "liquid": 2793,
+      "label": 1160,
+      "collar": 1814,
+      "stem": 742,
+      "actuator": 1347,
+      "spout": 1703,
+      "dip_tube": 188
+    },
+    "nodes_count": 8,
+    "materials_count": 5,
+    "extensions_used": [
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ],
+    "pass_budget_tris": true,
+    "pass_budget_size": true
+  },
+  "hand_wash": {
+    "file": "gem_hand_wash.glb",
+    "bytes": 723772,
+    "bytes_kb": 706.8,
+    "sha256": "5efc6af9aec9db30226ef2cb66d316edb056479b7cfa4c6d7490d20bed7fb441",
+    "total_polygons": 20460,
+    "part_polygons": {
+      "glass": 10713,
+      "liquid": 2793,
+      "label": 1160,
+      "collar": 1814,
+      "stem": 742,
+      "actuator": 1347,
+      "spout": 1703,
+      "dip_tube": 188
+    },
+    "nodes_count": 8,
+    "materials_count": 5,
+    "extensions_used": [
+      "KHR_materials_transmission",
+      "KHR_materials_ior"
+    ],
+    "pass_budget_tris": true,
+    "pass_budget_size": true
+  }
+}

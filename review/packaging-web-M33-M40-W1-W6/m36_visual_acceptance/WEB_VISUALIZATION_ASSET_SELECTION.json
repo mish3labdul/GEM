@@ -1,0 +1,187 @@
+{
+  "_schema": "gem.packaging.web_visualization_selection/1.0",
+  "program": "GEM\u2122 Track A / Track B Handoff (Milestone M36)",
+  "date": "2026-11-07",
+  "approval_authorizations": [
+    "GEM-PKG-OWNER-20261107-001",
+    "GEM-PKG-OWNER-20261107-002",
+    "GEM-PKG-OWNER-20261107-003",
+    "GEM-PKG-OWNER-20261107-004",
+    "GEM-PKG-OWNER-20261107-005"
+  ],
+  "technical_verdict": "CERTIFIED_FOR_TRACK_B_WEBSITE_INTEGRATION",
+  "ui_badging_policy": {
+    "provisional_tag_en": "PROVISIONAL 3D CONCEPT",
+    "provisional_tag_ar": "\u062a\u0635\u0645\u064a\u0645 \u062b\u0644\u0627\u062b\u064a \u0627\u0644\u0623\u0628\u0639\u0627\u062f \u062a\u062c\u0631\u064a\u0628\u064a",
+    "provisional_tooltip_en": "Exploratory CGI study for visual demonstration. Physical bottle packaging, volume capacities, and supplier closures are pending final verification under Authorization B (GEM-PKG-OWNER-20261107-005).",
+    "provisional_tooltip_ar": "\u062f\u0631\u0627\u0633\u0629 \u0628\u0635\u0631\u064a\u0629 \u062d\u0627\u0633\u0648\u0628\u064a\u0629 \u0644\u0644\u0639\u0631\u0636 \u0627\u0644\u0631\u0642\u0645\u064a \u0641\u0642\u0637. \u0627\u0644\u0639\u0628\u0648\u0627\u062a \u0627\u0644\u0641\u0639\u0644\u064a\u0629 \u0648\u0633\u0639\u0627\u062a \u0627\u0644\u062d\u062c\u0645 \u0648\u0645\u0648\u0627\u0635\u0641\u0627\u062a \u0627\u0644\u0645\u0648\u0631\u062f\u064a\u0646 \u0642\u064a\u062f \u0627\u0644\u062a\u062d\u0642\u0642 \u0627\u0644\u0646\u0647\u0627\u0626\u064a \u0628\u0645\u0648\u062c\u0628 \u0627\u0644\u062a\u0641\u0648\u064a\u0636 B (GEM-PKG-OWNER-20261107-005).",
+    "products_requiring_provisional_badge": [
+      "body_wash",
+      "body_lotion",
+      "hand_wash"
+    ],
+    "products_baseline_status": {
+      "shampoo": "CANONICAL_M29_BASELINE",
+      "conditioner": "CANONICAL_M29_BASELINE"
+    }
+  },
+  "threejs_glb_assets": {
+    "shampoo": {
+      "path": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/glb/gem_shampoo.glb",
+      "file": "gem_shampoo.glb",
+      "bytes": 717164,
+      "triangles": 20460,
+      "pivot": "bottom_center_0_0_0",
+      "role": "primary_interactive_3d_viewer",
+      "status": "APPROVED_FOR_WEBSITE_STAGING"
+    },
+    "conditioner": {
+      "path": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/glb/gem_conditioner.glb",
+      "file": "gem_conditioner.glb",
+      "bytes": 716320,
+      "triangles": 20460,
+      "pivot": "bottom_center_0_0_0",
+      "role": "primary_interactive_3d_viewer",
+      "status": "APPROVED_FOR_WEBSITE_STAGING"
+    },
+    "body_wash": {
+      "path": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/glb/gem_body_wash.glb",
+      "file": "gem_body_wash.glb",
+      "bytes": 726876,
+      "triangles": 20460,
+      "pivot": "bottom_center_0_0_0",
+      "role": "exploratory_interactive_3d_viewer",
+      "status": "APPROVED_FOR_WEBSITE_STAGING_WITH_PROVISIONAL_BADGE"
+    },
+    "body_lotion": {
+      "path": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/glb/gem_body_lotion.glb",
+      "file": "gem_body_lotion.glb",
+      "bytes": 723968,
+      "triangles": 20460,
+      "pivot": "bottom_center_0_0_0",
+      "role": "exploratory_interactive_3d_viewer",
+      "status": "APPROVED_FOR_WEBSITE_STAGING_WITH_PROVISIONAL_BADGE"
+    },
+    "hand_wash": {
+      "path": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/glb/gem_hand_wash.glb",
+      "file": "gem_hand_wash.glb",
+      "bytes": 723716,
+      "triangles": 20460,
+      "pivot": "bottom_center_0_0_0",
+      "role": "exploratory_interactive_3d_viewer",
+      "status": "APPROVED_FOR_WEBSITE_STAGING_WITH_PROVISIONAL_BADGE"
+    }
+  },
+  "static_fallback_plates": {
+    "gem_family_five_lineup": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_family_five_lineup.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_family_five_lineup.png",
+      "dimensions": [
+        2000,
+        1125
+      ],
+      "role": "hospitality_five_product_hero_banner",
+      "status": "APPROVED"
+    },
+    "gem_family_pair": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_family_pair.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_family_pair.png",
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "role": "shampoo_conditioner_pair_feature",
+      "status": "APPROVED"
+    },
+    "gem_bathroom_editorial": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_bathroom_editorial.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_bathroom_editorial.png",
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "role": "limestone_niche_architectural_editorial_section",
+      "status": "APPROVED"
+    },
+    "gem_editorial_window": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_editorial_window.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_editorial_window.png",
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "role": "natural_light_editorial_storytelling",
+      "status": "APPROVED"
+    },
+    "gem_shampoo_hero": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_shampoo_hero.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_shampoo_hero.png",
+      "dimensions": [
+        1280,
+        1600
+      ],
+      "role": "shampoo_interactive_viewer_static_fallback",
+      "status": "APPROVED"
+    },
+    "gem_conditioner_hero": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_conditioner_hero.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_conditioner_hero.png",
+      "dimensions": [
+        1280,
+        1600
+      ],
+      "role": "conditioner_interactive_viewer_static_fallback",
+      "status": "APPROVED"
+    },
+    "gem_body_wash_hero": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_body_wash_hero.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_body_wash_hero.png",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "role": "body_wash_interactive_viewer_static_fallback",
+      "status": "APPROVED_WITH_PROVISIONAL_BADGE"
+    },
+    "gem_body_lotion_hero": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_body_lotion_hero.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_body_lotion_hero.png",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "role": "body_lotion_interactive_viewer_static_fallback",
+      "status": "APPROVED_WITH_PROVISIONAL_BADGE"
+    },
+    "gem_hand_wash_hero": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_hand_wash_hero.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_hand_wash_hero.png",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "role": "hand_wash_interactive_viewer_static_fallback",
+      "status": "APPROVED_WITH_PROVISIONAL_BADGE"
+    },
+    "gem_catalog_light_shampoo": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_catalog_light_shampoo.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_catalog_light_shampoo.png",
+      "dimensions": [
+        1280,
+        1600
+      ],
+      "role": "ecommerce_catalog_shampoo",
+      "status": "APPROVED"
+    },
+    "gem_catalog_light_conditioner": {
+      "webp": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_catalog_light_conditioner.webp",
+      "png": "review/packaging-web-M33-M40-W1-W6/m35_web_assets/plates/gem_catalog_light_conditioner.png",
+      "dimensions": [
+        1280,
+        1600
+      ],
+      "role": "ecommerce_catalog_conditioner",
+      "status": "APPROVED"
+    }
+  }
+}
