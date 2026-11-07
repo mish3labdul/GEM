@@ -26,3 +26,5 @@ An empty destination is intentional: excluded machine caches or out-of-scope loc
 - [Packaging M14.1 status, 7 November 2026](GEM_PACKAGING_M14_1_STATUS_2026-11-07.md): missing M13 renders closed; layout/typeface recommended, pending owner visual approval.
 - [Packaging bilingual front-label visual concept approval, 7 November 2026](GEM_PACKAGING_BILINGUAL_LAYOUT_APPROVAL_2026-11-07.md): `GEM-PKG-OWNER-20261107-003` approves Layout A, Jost + Noto Sans Arabic and the left-aligned Arabic composition; print, regulatory and manufacturing gates remain open.
 - [Packaging M15–M20 status, 7 November 2026](GEM_PACKAGING_M15_M20_STATUS_2026-11-07.md): bilingual artwork, provisional geometry, material studies and pipeline QA; owner and external gates remain open.
+- [Packaging M21–M26 status, 7 November 2026](GEM_PACKAGING_M21_M26_STATUS_2026-11-07.md): visual audit, material and photography studies, five-product validation, pipeline hardening; owner and external gates remain open.
+- [Obsidian truncation incident review, 7 November 2026](GEM_PACKAGING_OBSIDIAN_INCIDENT_REVIEW_2026-11-07.md): cause, restoration and what remains unverifiable.
