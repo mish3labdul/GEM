@@ -11,8 +11,24 @@
  document.querySelectorAll('[data-product]').forEach(button=>button.addEventListener('click',()=>{
   const i=Number(button.dataset.product);
   document.querySelectorAll('[data-product]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  const numStr='0'+(i+1);
   document.getElementById('product-name').textContent=data.products[i];
   document.getElementById('product-detail').textContent=data.details[i];
+  const activeIdx=document.getElementById('product-active-index');
+  if(activeIdx)activeIdx.textContent=numStr;
+  const subEl=document.getElementById('product-subtitle');
+  if(subEl&&data.subtitles&&data.subtitles[i])subEl.textContent=data.subtitles[i];
+  const counterEl=document.getElementById('collection-counter');
+  if(counterEl)counterEl.textContent=numStr+' / 05';
+  const stageCap=document.getElementById('stage-bottle-caption');
+  if(stageCap){
+   stageCap.textContent='';
+   stageCap.append(document.createTextNode(data.products[i]+' · '));
+   const numSpan=document.createElement('span');
+   numSpan.className='num';numSpan.lang='en';numSpan.dir='ltr';
+   numSpan.textContent=numStr+' / 05';
+   stageCap.append(numSpan);
+  }
   const image=document.getElementById('product-image');
   if(image){
    const file=['shampoo','conditioner','body-wash','body-lotion','hand-wash'][i]+'-source.webp';
@@ -22,7 +38,7 @@
    document.querySelector('.product-visual')?.setAttribute('aria-label',(lang==='ar'?'تكبير صورة ':'Enlarge image of ')+data.products[i]);
    document.getElementById('pilot-selected-name').textContent=data.products[i];
   }
-  if(window.GEM3DStudio&&window.GEM3DStudio.selectProduct)window.GEM3DStudio.selectProduct(i,true);
+  if(window.GEMCollectionStage&&window.GEMCollectionStage.selectProduct)window.GEMCollectionStage.selectProduct(i,true);
  }));
  const form=document.getElementById('brief-form');
  if(form){
@@ -134,7 +150,7 @@
     target.setAttribute('aria-label',(lang==='ar'?'تكبير الصورة: ':'Enlarge image: ')+(img.alt||''));
     media.replaceWith(target);target.appendChild(media);
    }
-   const open=()=>{trigger=target;if(!lbImg)lbImg=document.createElement('img');lbImg.src=img.currentSrc||img.src;lbImg.alt=img.alt||'';lbCap.before(lbImg);lbCap.textContent=img.closest('figure')?.querySelector('figcaption')?.textContent||document.getElementById('product-name')?.textContent||img.alt||'';lb.hidden=false;lb.classList.add('is-open');lb.setAttribute('aria-hidden','false');lbClose.focus();};
+   const open=e=>{if(target===visual&&window.GEMCollectionStage&&window.GEMCollectionStage.wasDragged&&window.GEMCollectionStage.wasDragged()){e.preventDefault();return;}trigger=target;if(!lbImg)lbImg=document.createElement('img');lbImg.src=img.currentSrc||img.src;lbImg.alt=img.alt||'';lbCap.before(lbImg);lbCap.textContent=img.closest('figure')?.querySelector('figcaption')?.textContent||document.getElementById('product-name')?.textContent||img.alt||'';lb.hidden=false;lb.classList.add('is-open');lb.setAttribute('aria-hidden','false');lbClose.focus();};
    target.addEventListener('click',open);
    if(target===visual)target.disabled=false;
   });
@@ -246,102 +262,49 @@
 })();
 
 // ============================================================================
-// W4: Interactive 3D Product System (WebGL2/WebGL1 glTF 2.0 + Turntable Fallback)
-// Supports all 5 GEM products, 3 lighting rigs, 3 optical hotspots, & full dispose().
+// R2.4: Unobtrusive Collection Stage Motion & Three.js/WebGL Vessel Controller
+// - Scroll-linked rotation (-16° to +14° across #pilot-products)
+// - Damped pointer drag (±30° yaw, ±6° pitch) on #gem-collection-stage
+// - Transparent alpha:true glTF 2.0 optical highlight/refraction layer
+// - Zero technical HUD, zero lighting/mode widgets, full reduced-motion safety
 // ============================================================================
 (()=>{
  'use strict';
- const section=document.getElementById('interactive-3d-studio');
- if(!section)return;
- const lang=document.body.dataset.lang||'en';
- const ar=lang==='ar';
- const data=JSON.parse(document.getElementById('page-data').textContent);
- const canvas=document.getElementById('gem-3d-canvas');
- const plateImg=document.getElementById('gem-3d-fallback-plate');
- const viewport=document.getElementById('gem-3d-viewport');
- const badge=document.getElementById('studio-3d-badge');
- const readout=document.getElementById('gem-3d-readout');
- const hotspotNote=document.getElementById('gem-3d-hotspot-note');
+ const section=document.getElementById('pilot-products');
+ const stage=document.getElementById('gem-collection-stage');
+ if(!section||!stage)return;
+ const canvas=document.getElementById('gem-stage-3d-canvas');
+ const productImg=document.getElementById('product-image');
+ const shadowEl=document.getElementById('stage-contact-shadow');
+ const arcDot=document.getElementById('stage-arc-dot');
+ const isReduced=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
  const PRODUCTS=[
-  {key:'shampoo',glb:'/assets/gem_shampoo.glb',plate:'/assets/gem_shampoo_hero.webp',baseline:true,polys:20460},
-  {key:'conditioner',glb:'/assets/gem_conditioner.glb',plate:'/assets/gem_conditioner_hero.webp',baseline:true,polys:20460},
-  {key:'body_wash',glb:'/assets/gem_body_wash.glb',plate:'/assets/gem_body_wash_hero.webp',baseline:false,polys:20460},
-  {key:'body_lotion',glb:'/assets/gem_body_lotion.glb',plate:'/assets/gem_body_lotion_hero.webp',baseline:false,polys:20460},
-  {key:'hand_wash',glb:'/assets/gem_hand_wash.glb',plate:'/assets/gem_hand_wash_hero.webp',baseline:false,polys:20460}
+  {key:'shampoo',glb:'/assets/gem_shampoo.glb'},
+  {key:'conditioner',glb:'/assets/gem_conditioner.glb'},
+  {key:'body_wash',glb:'/assets/gem_body_wash.glb'},
+  {key:'body_lotion',glb:'/assets/gem_body_lotion.glb'},
+  {key:'hand_wash',glb:'/assets/gem_hand_wash.glb'}
  ];
-
- const LIGHT_RIGS={
-  studio:{
-   label:ar?'إضاءة استوديو 85 مم':'85mm Studio Lookdev',
-   keyDir:[0.58,0.52,0.62],
-   keyColor:[1.08,0.98,0.90],
-   fillColor:[0.36,0.38,0.42],
-   rimColor:[0.95,0.72,0.42],
-   ambient:[0.16,0.15,0.14],
-   exposure:1.15
-  },
-  suite:{
-   label:ar?'إضاءة جناح دافئة':'Warm Suite Evening',
-   keyDir:[0.68,0.42,0.58],
-   keyColor:[1.22,0.86,0.58],
-   fillColor:[0.28,0.22,0.18],
-   rimColor:[1.05,0.64,0.28],
-   ambient:[0.14,0.11,0.09],
-   exposure:1.08
-  },
-  daylight:{
-   label:ar?'ضوء نهاري معماري':'Architectural Daylight',
-   keyDir:[0.45,0.68,0.57],
-   keyColor:[1.05,1.04,1.02],
-   fillColor:[0.52,0.54,0.58],
-   rimColor:[0.88,0.84,0.78],
-   ambient:[0.24,0.24,0.25],
-   exposure:1.25
-  }
- };
-
- const HOTSPOTS={
-  front:{
-   yaw:0,pitch:0.06,zoom:1.0,
-   note:ar
-    ?'الملصق ثنائي اللغة: خلفية حبرية #12171D مع طباعة عربية وإنجليزية متوازنة وقوس ربع دائري.'
-    :'Bilingual Ink Label: #12171D matte ink field with balanced Arabic/English typography and architectural quarter-arc.'
-  },
-  glass:{
-   yaw:0.68,pitch:0.10,zoom:1.08,
-   note:ar
-    ?'بصريات الزجاج الكهرماني: معامل انكسار 1.520 مع امتصاص ضوئي دافئ يحمي التركيبة ويبرز عمق السائل.'
-    :'Amber Glass Optics: IOR 1.520 optical glass with warm spectral transmission and subtle basal wall thickness.'
-  },
-  pump:{
-   yaw:-0.52,pitch:0.22,zoom:1.12,
-   note:ar
-    ?'مضخة الساتان الهندسية: طوق ومشغّل وفوهة بلمسة ساتان داكنة مصممة لسهولة الاستخدام في غرف الضيوف.'
-    :'Satin Pump Profile: Precision collar, actuator, and horizontal spout finished in low-sheen architectural black.'
-  }
- };
 
  const state={
   productIndex:0,
-  mode:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'plate':'3d',
-  lighting:'studio',
-  hotspot:'front',
-  yaw:0,
-  pitch:0.06,
-  zoom:1.0,
+  scrollYawDeg:0,
+  dragYawDeg:0,
+  dragPitchDeg:0,
+  totalYawDeg:0,
   webglActive:false,
+  contextLost:false,
   loadedProduct:null,
-  loadedPolygons:0,
   loadedNodes:0,
   disposedCount:0,
   glbBytes:0
  };
 
- let gl=null,prog=null,ctx2d=null,meshes=[],labelTex=null,labelImgEl=null,plateImgEl=null,rafId=0,dragging=false,lastX=0,lastY=0,loadToken=0;
+ let gl=null,prog=null,meshes=[],labelTex=null,labelImgEl=null;
+ let dragging=false,dragMoved=false,startX=0,startY=0,lastX=0,lastY=0;
 
  function disposeGPU(){
-  if(rafId){cancelAnimationFrame(rafId);rafId=0;}
   if(gl){
    meshes.forEach(m=>{
     if(m.posBuf)gl.deleteBuffer(m.posBuf);
@@ -357,16 +320,13 @@
  }
 
  function initGL(){
+  if(!canvas||state.contextLost||isReduced())return false;
   if(gl)return true;
-  if(ctx2d)return false;
   try{
-   gl=canvas.getContext('webgl2',{alpha:true,antialias:true,preserveDrawingBuffer:true})
-    ||canvas.getContext('webgl',{alpha:true,antialias:true,preserveDrawingBuffer:true});
+   gl=canvas.getContext('webgl2',{alpha:true,antialias:true,premultipliedAlpha:false})
+    ||canvas.getContext('webgl',{alpha:true,antialias:true,premultipliedAlpha:false});
   }catch{}
-  if(!gl){
-   try{ctx2d=canvas.getContext('2d');}catch{}
-   return false;
-  }
+  if(!gl)return false;
   const vsSrc=`
    precision highp float;
    attribute vec3 aPos;
@@ -377,10 +337,8 @@
    uniform vec3 uScale;
    uniform float uYaw;
    uniform float uPitch;
-   uniform float uZoom;
    uniform float uAspect;
    varying vec3 vNorm;
-   varying vec3 vPos;
    varying vec2 vUV;
    vec3 qrot(vec4 q, vec3 v){
     return v + 2.0 * cross(q.xyz, cross(q.xyz, v) + q.w * v);
@@ -395,67 +353,41 @@
     float cp = cos(uPitch), sp = sin(uPitch);
     vec3 pr = vec3(py.x, py.y*cp - py.z*sp, py.y*sp + py.z*cp);
     vec3 nr = vec3(ny.x, ny.y*cp - ny.z*sp, ny.y*sp + ny.z*cp);
-    vPos = pr;
     vNorm = normalize(nr);
     vUV = aUV;
-    float zDist = 0.34 - pr.z * uZoom;
-    float fov = 2.45 * uZoom;
+    float zDist = 0.34 - pr.z;
+    float fov = 2.42;
     gl_Position = vec4((pr.x * fov) / max(0.2, uAspect), pr.y * fov, (zDist - 0.34)*0.5, max(0.05, zDist));
    }
   `;
   const fsSrc=`
    precision mediump float;
    varying vec3 vNorm;
-   varying vec3 vPos;
    varying vec2 vUV;
    uniform int uMatType;
    uniform sampler2D uLabelTex;
    uniform int uHasTex;
-   uniform vec3 uKeyDir;
-   uniform vec3 uKeyCol;
-   uniform vec3 uFillCol;
-   uniform vec3 uRimCol;
-   uniform vec3 uAmbCol;
-   uniform float uExposure;
    void main(){
     vec3 N = normalize(vNorm);
-    vec3 V = normalize(vec3(0.0, 0.0, 1.0));
-    vec3 L = normalize(uKeyDir);
+    vec3 V = vec3(0.0, 0.0, 1.0);
+    vec3 L = normalize(vec3(0.55, 0.58, 0.60));
     vec3 H = normalize(L + V);
     float diff = max(dot(N, L), 0.0);
-    float fill = max(dot(N, normalize(vec3(-0.6, 0.25, 0.5))), 0.0);
     float fresnel = pow(1.0 - max(dot(N, V), 0.0), 3.0);
-    vec3 col = vec3(0.1);
-    float alpha = 1.0;
+    float spec = pow(max(dot(N, H), 0.0), 84.0);
+    vec3 col = vec3(0.18, 0.11, 0.05);
+    float alpha = 0.0;
     if(uMatType == 1){
-     // Optical Amber Glass (Beer-Lambert + Fresnel)
-     vec3 amberCore = vec3(0.54, 0.23, 0.04);
-     vec3 amberEdge = vec3(0.16, 0.06, 0.01);
-     float spec = pow(max(dot(N, H), 0.0), 96.0) * 1.35;
-     col = mix(amberCore, amberEdge, fresnel * 0.72) * (uAmbCol * 1.8 + diff * uKeyCol * 0.95 + fill * uFillCol * 0.6)
-           + fresnel * uRimCol * 0.85 + spec * uKeyCol;
-     alpha = 0.86;
-    } else if(uMatType == 2){
-     // Internal Amber Liquid
-     vec3 liq = vec3(0.66, 0.31, 0.06);
-     col = liq * (uAmbCol * 1.5 + diff * uKeyCol * 0.85 + fill * uFillCol * 0.5);
-     alpha = 0.92;
-    } else if(uMatType == 3){
-     // Bilingual Ink Label (#12171D + M15 Texture)
-     vec3 base = vec3(0.071, 0.090, 0.114);
-     if(uHasTex == 1){
-      vec4 tex = texture2D(uLabelTex, vUV);
-      base = tex.rgb;
-     }
-     float spec = pow(max(dot(N, H), 0.0), 28.0) * 0.18;
-     col = base * (uAmbCol * 2.2 + diff * uKeyCol * 0.92 + fill * uFillCol * 0.65) + spec * uKeyCol;
-    } else {
-     // Satin Black Pump (Collar, Actuator, Spout, Stem)
-     vec3 pumpBase = vec3(0.08, 0.085, 0.095);
-     float spec = pow(max(dot(N, H), 0.0), 42.0) * 0.55;
-     col = pumpBase * (uAmbCol * 2.0 + diff * uKeyCol * 0.9 + fill * uFillCol * 0.6) + fresnel * uRimCol * 0.32 + spec * uKeyCol;
+     col = mix(vec3(0.58, 0.26, 0.05), vec3(0.96, 0.84, 0.64), fresnel * 0.65 + spec * 0.85);
+     alpha = clamp(fresnel * 0.42 + spec * 0.65, 0.0, 0.72);
+    } else if(uMatType == 3 && uHasTex == 1){
+     vec4 tex = texture2D(uLabelTex, vUV);
+     col = tex.rgb * (0.35 + diff * 0.65);
+     alpha = 0.28;
+    } else if(uMatType == 0){
+     col = vec3(0.10, 0.11, 0.13) + vec3(spec * 0.45);
+     alpha = clamp(spec * 0.55, 0.0, 0.48);
     }
-    col = vec3(1.0) - exp(-col * uExposure);
     gl_FragColor = vec4(col, alpha);
    }
   `;
@@ -478,20 +410,20 @@
  }
 
  async function loadGLB(prodInfo){
+  if(isReduced()||state.contextLost)return;
   disposeGPU();
   const res=await fetch(prodInfo.glb);
-  if(!res.ok)throw new Error('GLB fetch failed: '+res.status);
+  if(!res.ok)throw new Error('GLB fetch failed');
   const buf=await res.arrayBuffer();
   state.glbBytes=buf.byteLength;
   const dv=new DataView(buf);
-  const magic=dv.getUint32(0,true);
-  if(magic!==0x46546C67)throw new Error('Invalid GLB magic');
+  if(dv.getUint32(0,true)!==0x46546C67)throw new Error('Invalid GLB');
   const jsonLen=dv.getUint32(12,true);
-  const jsonStr=new TextDecoder().decode(new Uint8Array(buf,20,jsonLen));
-  const gltf=JSON.parse(jsonStr);
+  const gltf=JSON.parse(new TextDecoder().decode(new Uint8Array(buf,20,jsonLen)));
   const binOffset=20+jsonLen+8;
+  state.loadedProduct=prodInfo.key;
+  state.loadedNodes=(gltf.nodes||[]).length;
 
-  // Decode embedded M15 label PNG texture if present
   if(gltf.images&&gltf.images.length>0){
    const im=gltf.images[0];
    const bv=gltf.bufferViews[im.bufferView];
@@ -499,25 +431,12 @@
    const blob=new Blob([pngBytes],{type:im.mimeType||'image/png'});
    const imgUrl=URL.createObjectURL(blob);
    const imgEl=new Image();
-   await new Promise(resolve=>{
-    imgEl.onload=resolve;
-    imgEl.onerror=resolve;
-    imgEl.src=imgUrl;
-   });
+   await new Promise(r=>{imgEl.onload=r;imgEl.onerror=r;imgEl.src=imgUrl;});
    URL.revokeObjectURL(imgUrl);
    if(imgEl.naturalWidth>0)labelImgEl=imgEl;
   }
 
-  if(!initGL()){
-   const pImg=new Image();
-   await new Promise(resolve=>{pImg.onload=resolve;pImg.onerror=resolve;pImg.src=prodInfo.plate;});
-   if(pImg.naturalWidth>0)plateImgEl=pImg;
-   state.loadedProduct=prodInfo.key;
-   state.loadedNodes=(gltf.nodes||[]).length;
-   state.loadedPolygons=prodInfo.polys;
-   drawFrame();
-   return;
-  }
+  if(!initGL())return;
 
   if(labelImgEl&&gl){
    labelTex=gl.createTexture();
@@ -529,28 +448,24 @@
    gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
   }
 
-  const getAccessorArray=(accIdx)=>{
+  const getAccessorArray=accIdx=>{
    const acc=gltf.accessors[accIdx];
    const bv=gltf.bufferViews[acc.bufferView];
    const offset=binOffset+(bv.byteOffset||0)+(acc.byteOffset||0);
    const comps={SCALAR:1,VEC2:2,VEC3:3,VEC4:4}[acc.type]||1;
    const len=acc.count*comps;
-   if(acc.componentType===5126)return new Float32Array(buf,offset,len);
    if(acc.componentType===5123)return new Uint16Array(buf,offset,len);
    if(acc.componentType===5125)return new Uint32Array(buf,offset,len);
    return new Float32Array(buf,offset,len);
   };
 
-  let totalPolys=0;
-  const rawMeshes=(gltf.nodes||[]).map(node=>{
+  meshes=(gltf.nodes||[]).map(node=>{
    if(node.mesh===undefined)return null;
-   const mesh=gltf.meshes[node.mesh];
-   const prim=mesh.primitives[0];
+   const prim=gltf.meshes[node.mesh].primitives[0];
    const pos=getAccessorArray(prim.attributes.POSITION);
    const norm=prim.attributes.NORMAL!==undefined?getAccessorArray(prim.attributes.NORMAL):new Float32Array(pos.length);
    const uv=prim.attributes.TEXCOORD_0!==undefined?getAccessorArray(prim.attributes.TEXCOORD_0):null;
    const idx=getAccessorArray(prim.indices);
-   totalPolys+=Math.floor(idx.length/3);
    const name=(node.name||'').toLowerCase();
    let matType=0,order=2;
    if(name.includes('liquid')){matType=2;order=1;}
@@ -573,114 +488,30 @@
    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,idxBuf);
    gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,idx,gl.STATIC_DRAW);
    return {
-    name:node.name,
     posBuf,normBuf,uvBuf,idxBuf,
     idxCount:idx.length,
     trans:node.translation||[0,0,0],
     quat:node.rotation||[0,0,0,1],
     scale:node.scale||[0.001,0.001,0.001],
-    matType,
-    order
+    matType,order
    };
-  }).filter(Boolean);
+  }).filter(Boolean).sort((a,b)=>a.order-b.order);
 
-  meshes=rawMeshes.sort((a,b)=>a.order-b.order);
   state.loadedProduct=prodInfo.key;
   state.loadedNodes=meshes.length;
-  state.loadedPolygons=totalPolys||prodInfo.polys;
   drawFrame();
  }
 
- function drawSoftwareTurntable(w,h){
-  if(!ctx2d){try{ctx2d=canvas.getContext('2d');}catch{}}
-  if(!ctx2d)return;
-  ctx2d.clearRect(0,0,w,h);
-  const cx=w*0.5,cy=h*0.53;
-  const scale=Math.min(w,h)*state.zoom;
-  const rig=LIGHT_RIGS[state.lighting]||LIGHT_RIGS.studio;
-
-  // Studio floor shadow
-  const shadowGrad=ctx2d.createRadialGradient(cx,cy+scale*0.36,scale*0.02,cx,cy+scale*0.36,scale*0.24);
-  shadowGrad.addColorStop(0,'rgba(0,0,0,0.65)');
-  shadowGrad.addColorStop(1,'rgba(0,0,0,0)');
-  ctx2d.fillStyle=shadowGrad;
-  ctx2d.fillRect(cx-scale*0.28,cy+scale*0.28,scale*0.56,scale*0.16);
-
-  const bw=scale*0.26,bh=scale*0.48;
-  const bx=cx-bw*0.5,by=cy-bh*0.32+state.pitch*scale*0.08;
-  const yawShift=Math.sin(state.yaw)*bw*0.28;
-  const spoutDir=Math.cos(state.yaw);
-  const spoutLen=bw*0.64*spoutDir;
-  const collarH=bh*0.15,collarY=by-collarH*0.92,stemH=bh*0.045,actH=bh*0.055,actY=collarY-stemH-actH;
-  const lblY=by+bh*0.14,lblH=bh*0.72;
-
-  if(plateImgEl&&plateImgEl.naturalWidth>0){
-   ctx2d.save();
-   const ph=h*0.86*state.zoom;
-   const pw=ph*(plateImgEl.naturalWidth/plateImgEl.naturalHeight);
-   const px=cx-pw*0.5+yawShift*0.45;
-   const py=cy-ph*0.48+state.pitch*scale*0.06;
-   ctx2d.beginPath();
-   if(ctx2d.roundRect)ctx2d.roundRect(px,py,pw,ph,16);
-   else ctx2d.rect(px,py,pw,ph);
-   ctx2d.clip();
-   ctx2d.drawImage(plateImgEl,px,py,pw,ph);
-   if(state.lighting==='suite'){
-    ctx2d.fillStyle='rgba(215,130,45,0.16)';
-    ctx2d.globalCompositeOperation='multiply';
-    ctx2d.fillRect(px,py,pw,ph);
-   }else if(state.lighting==='daylight'){
-    ctx2d.fillStyle='rgba(235,245,255,0.12)';
-    ctx2d.globalCompositeOperation='screen';
-    ctx2d.fillRect(px,py,pw,ph);
-   }
-   ctx2d.restore();
-  }else{
-   // Procedural fallback when plate image is still decoding
-   const collarW=bw*0.48,collarX=cx-collarW*0.5;
-   ctx2d.fillStyle='#14181e';
-   ctx2d.fillRect(collarX,collarY,collarW,collarH);
-   ctx2d.fillStyle='rgb(168,78,14)';
-   ctx2d.fillRect(bx,by,bw,bh);
-  }
-
-  // Active optical hotspot indicator ring
-  const hsPos={
-   front:[cx+yawShift*0.35,cy+scale*0.04],
-   glass:[cx+bw*0.42,cy+scale*0.22],
-   pump:[cx-bw*0.32,cy-scale*0.26]
-  }[state.hotspot]||[cx,cy];
-  ctx2d.strokeStyle='rgba(248,243,234,0.92)';
-  ctx2d.lineWidth=2;
-  ctx2d.beginPath();
-  ctx2d.arc(hsPos[0],hsPos[1],12,0,Math.PI*2);
-  ctx2d.stroke();
-  ctx2d.fillStyle='#ebaf4b';
-  ctx2d.beginPath();
-  ctx2d.arc(hsPos[0],hsPos[1],4,0,Math.PI*2);
-  ctx2d.fill();
-
-  // Technical HUD overlay in corner (strictly LTR)
-  ctx2d.save();
-  ctx2d.direction='ltr';
-  ctx2d.textAlign='left';
-  ctx2d.fillStyle='rgba(248,243,234,0.78)';
-  ctx2d.font='12px SFMono-Regular,Menlo,monospace';
-  const deg=Math.round((state.yaw*180/Math.PI)%360);
-  ctx2d.fillText(`glTF 2.0 · ${state.loadedNodes||8} nodes · ${(state.loadedPolygons||20460).toLocaleString('en-US')} tris · yaw ${deg}°`,18,h-16);
-  ctx2d.restore();
- }
-
- function drawFrame(){
-  const rect=canvas.getBoundingClientRect();
-  const dpr=Math.min(window.devicePixelRatio||1,2);
-  const w=Math.max(300,Math.round((rect.width||640)*dpr));
-  const h=Math.max(240,Math.round((rect.height||480)*dpr));
-  if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}
-  if(!gl||!prog||!meshes.length){
-   drawSoftwareTurntable(w,h);
+ function drawGL(){
+  if(!canvas||!gl||!prog||!meshes.length||state.contextLost||isReduced()){
+   if(canvas)canvas.style.setProperty('--stage-3d-opacity','0');
    return;
   }
+  const rect=canvas.getBoundingClientRect();
+  const dpr=Math.min(window.devicePixelRatio||1,2);
+  const w=Math.max(240,Math.round((rect.width||420)*dpr));
+  const h=Math.max(240,Math.round((rect.height||480)*dpr));
+  if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}
   gl.viewport(0,0,w,h);
   gl.clearColor(0,0,0,0);
   gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
@@ -689,17 +520,11 @@
   gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);
   gl.useProgram(prog);
 
-  const rig=LIGHT_RIGS[state.lighting]||LIGHT_RIGS.studio;
-  gl.uniform1f(gl.getUniformLocation(prog,'uYaw'),state.yaw);
-  gl.uniform1f(gl.getUniformLocation(prog,'uPitch'),state.pitch);
-  gl.uniform1f(gl.getUniformLocation(prog,'uZoom'),state.zoom);
+  const yawRad=(state.totalYawDeg*Math.PI)/180;
+  const pitchRad=(state.dragPitchDeg*Math.PI)/180;
+  gl.uniform1f(gl.getUniformLocation(prog,'uYaw'),yawRad);
+  gl.uniform1f(gl.getUniformLocation(prog,'uPitch'),pitchRad);
   gl.uniform1f(gl.getUniformLocation(prog,'uAspect'),w/h);
-  gl.uniform3fv(gl.getUniformLocation(prog,'uKeyDir'),rig.keyDir);
-  gl.uniform3fv(gl.getUniformLocation(prog,'uKeyCol'),rig.keyColor);
-  gl.uniform3fv(gl.getUniformLocation(prog,'uFillCol'),rig.fillColor);
-  gl.uniform3fv(gl.getUniformLocation(prog,'uRimCol'),rig.rimColor);
-  gl.uniform3fv(gl.getUniformLocation(prog,'uAmbCol'),rig.ambient);
-  gl.uniform1f(gl.getUniformLocation(prog,'uExposure'),rig.exposure);
 
   const aPos=gl.getAttribLocation(prog,'aPos');
   const aNorm=gl.getAttribLocation(prog,'aNorm');
@@ -737,131 +562,146 @@
    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,m.idxBuf);
    gl.drawElements(gl.TRIANGLES,m.idxCount,gl.UNSIGNED_SHORT,0);
   }
+  const activeOpacity=Math.min(0.28,0.08+Math.abs(state.totalYawDeg)*0.006);
+  canvas.style.setProperty('--stage-3d-opacity',activeOpacity.toFixed(3));
  }
 
- function updateUI(){
-  const p=PRODUCTS[state.productIndex];
-  const pName=data.products[state.productIndex]||p.key;
-  const rig=LIGHT_RIGS[state.lighting]||LIGHT_RIGS.studio;
-  if(badge){
-   badge.dataset.status=p.baseline?'baseline':'provisional';
-   badge.textContent=p.baseline
-    ?(ar?'خط الأساس المعتمد · معايرة بصرية M27a/M28':'Verified CGI Baseline · M27a/M28 Optical Calibration')
-    :(ar?'نموذج ثلاثي الأبعاد تجريبي · قيد تأكيد المورّد':'Provisional 3D Geometry · Pending Supplier Confirmation');
+ function drawFrame(){
+  if(isReduced()){
+   state.scrollYawDeg=0;
+   state.dragYawDeg=0;
+   state.dragPitchDeg=0;
+   state.totalYawDeg=0;
+  }else{
+   state.totalYawDeg=Math.max(-36,Math.min(36,state.scrollYawDeg+state.dragYawDeg));
   }
-  if(readout){
-   readout.textContent=ar
-    ?`${pName} · زجاج كهرماني بمعامل انكسار 1.520 · ${p.polys.toLocaleString('en-US')} مضلعًا · ${rig.label}`
-    :`${pName} · Optical Amber Glass (IOR 1.520) · ${p.polys.toLocaleString('en-US')} polygons · ${rig.label}`;
+  const yaw=state.totalYawDeg;
+  const pitch=state.dragPitchDeg;
+  if(productImg){
+   productImg.style.setProperty('--vessel-yaw-deg',`${(yaw*0.42).toFixed(2)}deg`);
+   productImg.style.setProperty('--vessel-pitch-deg',`${(pitch*0.35).toFixed(2)}deg`);
+   productImg.style.setProperty('--vessel-shift-x',`${(yaw*0.38).toFixed(2)}px`);
   }
-  if(hotspotNote&&HOTSPOTS[state.hotspot]){
-   hotspotNote.textContent=HOTSPOTS[state.hotspot].note;
+  if(shadowEl){
+   shadowEl.style.setProperty('--shadow-shift-x',`${(-yaw*0.52).toFixed(2)}px`);
+   shadowEl.style.setProperty('--shadow-scale-x',(1+Math.abs(yaw)*0.0025).toFixed(4));
   }
-  if(plateImg){
-   plateImg.src=p.plate;
-   plateImg.alt=ar
-    ?`معاينة استوديو لعبوة ${pName} الزجاجية الكهرمانية من GEM بملصق ثنائي اللغة`
-    :`Studio render of the GEM amber glass ${pName} bottle with bilingual ink label`;
+  if(arcDot){
+   const cx=Math.max(4,Math.min(40,22+(yaw/30)*16));
+   arcDot.setAttribute('cx',cx.toFixed(2));
   }
-  const show3d=state.mode==='3d';
-  if(canvas)canvas.hidden=!show3d;
-  if(plateImg)plateImg.hidden=show3d;
-  if(viewport)viewport.dataset.lightingActive=state.lighting;
-  section.querySelectorAll('[data-studio-product]').forEach((b,idx)=>b.setAttribute('aria-pressed',String(idx===state.productIndex)));
-  section.querySelectorAll('[data-studio-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.studioMode===state.mode)));
-  section.querySelectorAll('[data-lighting]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lighting===state.lighting)));
-  section.querySelectorAll('[data-hotspot]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.hotspot===state.hotspot)));
+  drawGL();
  }
 
- async function selectProduct(idx,fromPilot=false){
+ function updateScrollRotation(){
+  if(isReduced()){
+   state.scrollYawDeg=0;
+   drawFrame();
+   return;
+  }
+  const rect=section.getBoundingClientRect();
+  const vh=Math.max(1,window.innerHeight);
+  // Progress 0 when section top enters bottom of viewport, 0.5 when centered, 1 when bottom exits top
+  const totalSpan=vh+rect.height;
+  const raw=(vh-rect.top)/Math.max(1,totalSpan);
+  const clamped=Math.max(0,Math.min(1,raw));
+  // Maps [0, 0.5, 1] -> [-16°, 0°, +14°]
+  const deg=clamped<0.5?(-16+(clamped/0.5)*16):(((clamped-0.5)/0.5)*14);
+  state.scrollYawDeg=Number(deg.toFixed(2));
+  drawFrame();
+ }
+
+ async function selectProduct(idx,fromClick=false){
   const i=Math.max(0,Math.min(PRODUCTS.length-1,Number(idx)||0));
-  if(!fromPilot){
-   const pilotBtn=document.querySelector(`[data-product="${i}"]`);
-   if(pilotBtn&&pilotBtn.getAttribute('aria-pressed')!=='true'){
-    pilotBtn.click();
+  if(!fromClick){
+   const btn=document.querySelector(`[data-product="${i}"]`);
+   if(btn&&btn.getAttribute('aria-pressed')!=='true'){
+    btn.click();
     return;
    }
   }
   state.productIndex=i;
-  updateUI();
+  if(!isReduced()&&window.gsap){
+   window.gsap.to(state,{dragYawDeg:0,dragPitchDeg:0,duration:0.42,ease:'power3.out',onUpdate:()=>drawFrame()});
+  }else{
+   state.dragYawDeg=0;
+   state.dragPitchDeg=0;
+   drawFrame();
+  }
   try{
    await loadGLB(PRODUCTS[i]);
   }catch{
-   state.mode='plate';
-   updateUI();
+   if(canvas)canvas.style.setProperty('--stage-3d-opacity','0');
   }
  }
 
- function setMode(mode){
-  state.mode=mode==='plate'?'plate':'3d';
-  updateUI();
-  if(state.mode==='3d')drawFrame();
- }
-
- function setLighting(lightKey){
-  if(!LIGHT_RIGS[lightKey])return;
-  state.lighting=lightKey;
-  updateUI();
+ function setDragYaw(deg){
+  if(isReduced())return;
+  state.dragYawDeg=Math.max(-30,Math.min(30,Number(deg)||0));
   drawFrame();
  }
 
- function setHotspot(hsKey){
-  const h=HOTSPOTS[hsKey];
-  if(!h)return;
-  state.hotspot=hsKey;
-  updateUI();
-  window.gsap.to(state,{
-   yaw:h.yaw,
-   pitch:h.pitch,
-   zoom:h.zoom,
-   duration:0.65,
-   ease:'power3.out',
-   onUpdate:()=>drawFrame()
-  });
- }
+ stage.addEventListener('dragstart',e=>e.preventDefault());
+ stage.addEventListener('pointerdown',e=>{
+  if(isReduced())return;
+  dragging=true;
+  dragMoved=false;
+  startX=lastX=e.clientX;
+  startY=lastY=e.clientY;
+ });
+ addEventListener('pointermove',e=>{
+  if(!dragging||isReduced())return;
+  const dx=e.clientX-lastX;
+  const dy=e.clientY-lastY;
+  if(Math.hypot(e.clientX-startX,e.clientY-startY)>6)dragMoved=true;
+  lastX=e.clientX;
+  lastY=e.clientY;
+  state.dragYawDeg=Math.max(-30,Math.min(30,state.dragYawDeg+dx*0.22));
+  state.dragPitchDeg=Math.max(-6,Math.min(6,state.dragPitchDeg+dy*0.06));
+  drawFrame();
+ });
+ const endDrag=()=>{
+  if(!dragging)return;
+  dragging=false;
+  if(dragMoved){
+   setTimeout(()=>{dragMoved=false;},80);
+  }
+ };
+ addEventListener('pointerup',endDrag);
+ addEventListener('pointercancel',endDrag);
 
- section.querySelectorAll('[data-studio-product]').forEach(b=>b.addEventListener('click',()=>selectProduct(Number(b.dataset.studioProduct),false)));
- section.querySelectorAll('[data-studio-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.studioMode)));
- section.querySelectorAll('[data-lighting]').forEach(b=>b.addEventListener('click',()=>setLighting(b.dataset.lighting)));
- section.querySelectorAll('[data-hotspot]').forEach(b=>b.addEventListener('click',()=>setHotspot(b.dataset.hotspot)));
- section.querySelectorAll('[data-turntable]').forEach(b=>b.addEventListener('click',()=>{
-  const act=b.dataset.turntable;
-  const targetYaw=act==='reset'?0:state.yaw+(act==='left'?-0.55:0.55);
-  const targetPitch=act==='reset'?0.06:state.pitch;
-  window.gsap.to(state,{yaw:targetYaw,pitch:targetPitch,duration:0.45,ease:'power3.out',onUpdate:()=>drawFrame()});
- }));
+ stage.addEventListener('keydown',e=>{
+  if(isReduced())return;
+  if(e.key==='ArrowLeft'){e.preventDefault();setDragYaw(state.dragYawDeg-8);}
+  if(e.key==='ArrowRight'){e.preventDefault();setDragYaw(state.dragYawDeg+8);}
+  if(e.key==='Home'){e.preventDefault();setDragYaw(0);}
+ });
 
  if(canvas){
-  canvas.addEventListener('pointerdown',e=>{dragging=true;lastX=e.clientX;lastY=e.clientY;try{canvas.setPointerCapture(e.pointerId);}catch{}});
-  canvas.addEventListener('pointermove',e=>{
-   if(!dragging)return;
-   const dx=e.clientX-lastX,dy=e.clientY-lastY;
-   lastX=e.clientX;lastY=e.clientY;
-   state.yaw+=dx*0.012;
-   state.pitch=Math.max(-0.45,Math.min(0.55,state.pitch+dy*0.008));
-   drawFrame();
+  canvas.addEventListener('webglcontextlost',e=>{
+   e.preventDefault();
+   state.webglActive=false;
+   state.contextLost=true;
+   canvas.style.setProperty('--stage-3d-opacity','0');
+   canvas.hidden=true;
   });
-  const endDrag=()=>{dragging=false;};
-  canvas.addEventListener('pointerup',endDrag);
-  canvas.addEventListener('pointercancel',endDrag);
-  canvas.addEventListener('keydown',e=>{
-   if(e.key==='ArrowLeft'){e.preventDefault();state.yaw-=0.25;drawFrame();}
-   if(e.key==='ArrowRight'){e.preventDefault();state.yaw+=0.25;drawFrame();}
-   if(e.key==='Home'){e.preventDefault();state.yaw=0;state.pitch=0.06;drawFrame();}
-  });
-  canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();state.webglActive=false;setMode('plate');});
  }
- addEventListener('resize',()=>{if(state.mode==='3d')drawFrame();},{passive:true});
 
- window.GEM3DStudio={
+ addEventListener('scroll',()=>requestAnimationFrame(updateScrollRotation),{passive:true});
+ addEventListener('resize',()=>requestAnimationFrame(drawFrame),{passive:true});
+
+ const api={
   state,
   selectProduct,
-  setMode,
-  setLighting,
-  setHotspot,
+  setDragYaw,
+  getTotalYawDeg:()=>state.totalYawDeg,
+  wasDragged:()=>dragMoved,
   dispose:disposeGPU,
   redraw:drawFrame
  };
+ window.GEMCollectionStage=api;
+ window.GEM3DStudio=api;
 
+ updateScrollRotation();
  selectProduct(0,true);
 })();
