@@ -28,3 +28,5 @@ An empty destination is intentional: excluded machine caches or out-of-scope loc
 - [Packaging M15–M20 status, 7 November 2026](GEM_PACKAGING_M15_M20_STATUS_2026-11-07.md): bilingual artwork, provisional geometry, material studies and pipeline QA; owner and external gates remain open.
 - [Packaging M21–M26 status, 7 November 2026](GEM_PACKAGING_M21_M26_STATUS_2026-11-07.md): visual audit, material and photography studies, five-product validation, pipeline hardening; owner and external gates remain open.
 - [Obsidian truncation incident review, 7 November 2026](GEM_PACKAGING_OBSIDIAN_INCIDENT_REVIEW_2026-11-07.md): cause, restoration and what remains unverifiable.
+- [Packaging M27–M32 status, 7 November 2026](GEM_PACKAGING_M27_M32_STATUS_2026-11-07.md): geometry and material calibration, selective photography and consolidated master scene, typography audit, pipeline reliability and supplier specification matrix; owner and external gates remain open.
+- [M16 historical scene re-save incident review, 7 November 2026](GEM_PACKAGING_M16_SCENE_INCIDENT_REVIEW_2026-11-07.md): detection, snapshot verification, restoration and read-only (`0444`) protection.
